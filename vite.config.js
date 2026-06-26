@@ -59,7 +59,9 @@ function generateApiPlugin() {
               throw new Error(`NVIDIA API ${resp.status}: ${err}`);
             }
             const data = await resp.json();
-            let content = data.choices[0].message.content.trim();
+            const msg = data.choices[0].message;
+            // MiniMax M2.7 sometimes puts output in reasoning_content instead of content
+            let content = (msg.content || msg.reasoning_content || "").trim();
             // strip markdown fences if the model wrapped the output
             content = content.replace(/^```(?:json)?\s*/m, "").replace(/\s*```\s*$/m, "");
             const puzzle = JSON.parse(content);
