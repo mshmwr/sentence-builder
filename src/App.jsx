@@ -10,26 +10,48 @@ import {
   check,
   hint,
 } from "./engine.js";
-import { PUZZLES, shuffle } from "./puzzles.js";
+import { shuffle } from "./puzzles.js";
+import { generatePuzzle } from "./generate.js";
 
 export default function App() {
-  const [idx, setIdx] = useState(0);
-  const puzzle = PUZZLES[idx];
-  const [game, setGame] = useState(() => newGame(puzzle));
+  const [mode, setMode] = useState("input"); // "input" | "loading" | "playing"
+  const [inputZh, setInputZh] = useState("");
+  const [puzzle, setPuzzle] = useState(null);
+  const [game, setGame] = useState(null);
   const [shake, setShake] = useState(false);
   const [nudge, setNudge] = useState("");
+  const [genError, setGenError] = useState("");
 
-  // stable shuffled display order, recomputed only when the puzzle changes
   const order = useMemo(
-    () => shuffle(game.tiles.map((t) => t.id)),
-    [idx] // eslint-disable-line react-hooks/exhaustive-deps
+    () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
+    [puzzle] // eslint-disable-line react-hooks/exhaustive-deps
   );
 
-  const goTo = (i) => {
-    setIdx(i);
-    setGame(newGame(PUZZLES[i]));
-    setShake(false);
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    const zh = inputZh.trim();
+    if (!zh) return;
+    setGenError("");
+    setMode("loading");
+    try {
+      const generated = await generatePuzzle(zh);
+      setPuzzle(generated);
+      setGame(newGame(generated));
+      setShake(false);
+      setNudge("");
+      setMode("playing");
+    } catch (err) {
+      setGenError(err.message);
+      setMode("input");
+    }
+  };
+
+  const onNewSentence = () => {
+    setMode("input");
+    setPuzzle(null);
+    setGame(null);
     setNudge("");
+    setGenError("");
   };
 
   const onPlace = (id) => {
@@ -56,6 +78,66 @@ export default function App() {
     }
   };
 
+  /* ---- input screen ---- */
+  if (mode === "input") {
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <header className="st-head">
+            <div className="st-brand">
+              <span className="st-mark">拼句</span>
+              <span className="st-tag">把中文，拼成對的英文</span>
+            </div>
+          </header>
+
+          <form className="st-input-form" onSubmit={onSubmit}>
+            <label className="st-input-label" htmlFor="zh-input">
+              輸入一個中文句子
+            </label>
+            <textarea
+              id="zh-input"
+              className="st-input-area"
+              value={inputZh}
+              onChange={(e) => setInputZh(e.target.value)}
+              placeholder="例：我昨天忘記帶雨傘。"
+              rows={3}
+              autoFocus
+            />
+            {genError && <p className="st-gen-error">{genError}</p>}
+            <button
+              type="submit"
+              className="btn solid st-input-btn"
+              disabled={!inputZh.trim()}
+            >
+              生成題目
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  }
+
+  /* ---- loading screen ---- */
+  if (mode === "loading") {
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <header className="st-head">
+            <div className="st-brand">
+              <span className="st-mark">拼句</span>
+              <span className="st-tag">把中文，拼成對的英文</span>
+            </div>
+          </header>
+          <div className="st-loading">
+            <span className="st-spinner" />
+            <p>正在生成題目…</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  /* ---- playing screen ---- */
   const pool = poolTiles(game);
   const poolById = Object.fromEntries(pool.map((t) => [t.id, t]));
   const orderedPool = order.map((id) => poolById[id]).filter(Boolean);
@@ -70,16 +152,6 @@ export default function App() {
           <div className="st-brand">
             <span className="st-mark">拼句</span>
             <span className="st-tag">把中文，拼成對的英文</span>
-          </div>
-          <div className="st-progress">
-            {PUZZLES.map((_, i) => (
-              <button
-                key={i}
-                className={"st-dot" + (i === idx ? " on" : "")}
-                onClick={() => goTo(i)}
-                aria-label={`第 ${i + 1} 句`}
-              />
-            ))}
           </div>
         </header>
 
@@ -143,11 +215,8 @@ export default function App() {
           </div>
         ) : (
           <div className="st-controls">
-            <button
-              className="btn solid"
-              onClick={() => goTo((idx + 1) % PUZZLES.length)}
-            >
-              下一句
+            <button className="btn solid" onClick={onNewSentence}>
+              再一句
             </button>
           </div>
         )}
