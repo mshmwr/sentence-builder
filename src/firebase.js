@@ -29,12 +29,12 @@ import {
 } from "firebase/firestore";
 
 const app = initializeApp({
-  apiKey: "AIzaSyA25EV9zHE2OiErbCaqxvH1OXI7-NIS8IE",
-  authDomain: "pinju-app.firebaseapp.com",
-  projectId: "pinju-app",
-  storageBucket: "pinju-app.firebasestorage.app",
-  messagingSenderId: "1066132917084",
-  appId: "1:1066132917084:web:e5b66cc02354f4a2a74f99",
+  apiKey: "AIzaSyDsICa8oTyixnXvoCxQ4HOvkEuTpPM1_SY",
+  authDomain: "pinju-web.firebaseapp.com",
+  projectId: "pinju-web",
+  storageBucket: "pinju-web.firebasestorage.app",
+  messagingSenderId: "888028787625",
+  appId: "1:888028787625:web:c648a28222354e5f1d4ab8",
 });
 
 const auth = getAuth(app);
