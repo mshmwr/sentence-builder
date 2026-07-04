@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import {
   newGame,
   poolTiles,
@@ -12,20 +12,110 @@ import {
 } from "./engine.js";
 import { shuffle } from "./puzzles.js";
 import { generatePuzzle } from "./generate.js";
+import {
+  watchAuth,
+  loginWithGoogle,
+  logout,
+  loadGeminiKey,
+  saveGeminiKey,
+  addHistory,
+  loadHistory,
+} from "./firebase.js";
+
+function Head({ children }) {
+  return (
+    <header className="st-head">
+      <div className="st-brand">
+        <span className="st-mark">拼句</span>
+        <span className="st-tag">把中文，拼成對的英文</span>
+      </div>
+      {children}
+    </header>
+  );
+}
 
 export default function App() {
-  const [mode, setMode] = useState("input"); // "input" | "loading" | "playing"
+  const [user, setUser] = useState(null);
+  const [authReady, setAuthReady] = useState(false);
+  const [authError, setAuthError] = useState("");
+  const [geminiKey, setGeminiKey] = useState("");
+  const [keyLoaded, setKeyLoaded] = useState(false);
+  const [keyDraft, setKeyDraft] = useState("");
+  const [keySaving, setKeySaving] = useState(false);
+
+  const [mode, setMode] = useState("input"); // "input" | "loading" | "playing" | "key" | "history"
   const [inputZh, setInputZh] = useState("");
   const [puzzle, setPuzzle] = useState(null);
   const [game, setGame] = useState(null);
   const [shake, setShake] = useState(false);
   const [nudge, setNudge] = useState("");
   const [genError, setGenError] = useState("");
+  const [history, setHistory] = useState(null); // null = loading
+
+  useEffect(() => {
+    let latestUid = null; // discard key loads that resolve after an account switch
+    return watchAuth(async (u) => {
+      latestUid = u ? u.uid : null;
+      setUser(u);
+      setAuthReady(true);
+      setKeyLoaded(false);
+      if (u) {
+        const uid = u.uid;
+        let k = "";
+        try {
+          k = await loadGeminiKey(uid);
+        } catch {
+          k = "";
+        }
+        if (latestUid === uid) {
+          setGeminiKey(k);
+          setKeyLoaded(true);
+        }
+      } else {
+        setGeminiKey("");
+      }
+    });
+  }, []);
 
   const order = useMemo(
     () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
     [puzzle] // eslint-disable-line react-hooks/exhaustive-deps
   );
+
+  const onLogin = async () => {
+    setAuthError("");
+    try {
+      await loginWithGoogle();
+    } catch (err) {
+      setAuthError(err.message);
+    }
+  };
+
+  const onSaveKey = async (e) => {
+    e.preventDefault();
+    const k = keyDraft.trim();
+    if (!k) return;
+    setKeySaving(true);
+    try {
+      await saveGeminiKey(user.uid, k);
+      setGeminiKey(k);
+      setKeyDraft("");
+      setMode("input");
+    } catch (err) {
+      setAuthError(err.message);
+    }
+    setKeySaving(false);
+  };
+
+  const onOpenHistory = async () => {
+    setMode("history");
+    setHistory(null);
+    try {
+      setHistory(await loadHistory(user.uid));
+    } catch {
+      setHistory([]);
+    }
+  };
 
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -34,7 +124,7 @@ export default function App() {
     setGenError("");
     setMode("loading");
     try {
-      const generated = await generatePuzzle(zh);
+      const generated = await generatePuzzle(zh, geminiKey);
       setPuzzle(generated);
       setGame(newGame(generated));
       setShake(false);
@@ -65,31 +155,163 @@ export default function App() {
     setNudge("");
   };
   const onCheck = () => {
+    if (game.status === "correct") return; // write-once guard for addHistory
     if (game.placedIds.length === 0) {
       setNudge("先把牌排上去再檢查。");
       return;
     }
     const ng = check(game, puzzle);
     setGame(ng);
-    if (ng.status === "playing" && ng.wrongIdx.length) {
+    if (ng.status === "correct") {
+      addHistory(user.uid, {
+        zh: puzzle.zh,
+        en: placedTiles(ng).map((t) => t.word).join(" "),
+        stars: stars(ng),
+        hints: ng.hints,
+        misses: ng.misses,
+      }).catch(() => {}); // history write failing must not block the game
+    } else if (ng.wrongIdx.length) {
       setShake(true);
       setTimeout(() => setShake(false), 450);
       setNudge("被標紅的塊再想一下 —— 通常卡在時態、冠詞或介係詞。");
     }
   };
 
+  const accountBar = user && (
+    <div className="st-account">
+      <button className="st-linkbtn" onClick={onOpenHistory}>歷史</button>
+      <button className="st-linkbtn" onClick={() => setMode("key")}>Key</button>
+      <button className="st-linkbtn" onClick={() => logout()}>登出</button>
+    </div>
+  );
+
+  /* ---- auth gate ---- */
+  if (!authReady || (user && !keyLoaded)) {
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <Head />
+          <div className="st-loading">
+            <span className="st-spinner" />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <Head />
+          <div className="st-login">
+            <p className="st-login-text">
+              登入後，你拼過的每一句都會記在自己的帳號裡。
+            </p>
+            <button className="btn solid st-login-btn" onClick={onLogin}>
+              用 Google 登入
+            </button>
+            {authError && <p className="st-gen-error">{authError}</p>}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  /* ---- history screen (before the key gate — history needs no key) ---- */
+  if (mode === "history") {
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <Head>{accountBar}</Head>
+          {history === null ? (
+            <div className="st-loading">
+              <span className="st-spinner" />
+            </div>
+          ) : history.length === 0 ? (
+            <p className="st-login-text">還沒有紀錄 —— 拼出第一句吧。</p>
+          ) : (
+            <div className="st-history">
+              {history.map((h) => (
+                <div className="st-hitem" key={h.id}>
+                  <div className="st-hrow">
+                    <span className="st-hzh">{h.zh}</span>
+                    <span className="st-hstars">
+                      {"★".repeat(h.stars)}
+                      <span className="st-hstars-off">{"★".repeat(3 - h.stars)}</span>
+                    </span>
+                  </div>
+                  <div className="st-hen">{h.en}</div>
+                  <div className="st-hmeta">
+                    {h.createdAt?.toDate ? h.createdAt.toDate().toLocaleString() : ""}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+          <div className="st-controls st-back-row">
+            <button className="btn ghost" onClick={() => setMode("input")}>
+              返回
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  /* ---- Gemini key setup (first time: no key yet; later: via Key button) ---- */
+  if (!geminiKey || mode === "key") {
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <Head>{accountBar}</Head>
+          <form className="st-input-form" onSubmit={onSaveKey}>
+            <label className="st-input-label" htmlFor="key-input">
+              貼上你的 Gemini API key
+            </label>
+            <input
+              id="key-input"
+              className="st-input-area st-key-input"
+              type="password"
+              value={keyDraft}
+              onChange={(e) => setKeyDraft(e.target.value)}
+              placeholder={geminiKey ? "已設定過，貼上新的 key 可更換" : "AIza…"}
+              autoFocus
+            />
+            <p className="st-keyhelp">
+              出題用你自己的 Gemini 額度。到{" "}
+              <a href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer">
+                Google AI Studio
+              </a>{" "}
+              免費取得。key 只存在你的帳號資料裡。
+            </p>
+            {authError && <p className="st-gen-error">{authError}</p>}
+            <div className="st-controls">
+              {geminiKey && (
+                <button type="button" className="btn ghost" onClick={() => setMode("input")}>
+                  返回
+                </button>
+              )}
+              <button
+                type="submit"
+                className="btn solid"
+                disabled={!keyDraft.trim() || keySaving}
+              >
+                {keySaving ? "儲存中…" : "儲存"}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    );
+  }
+
   /* ---- input screen ---- */
   if (mode === "input") {
     return (
       <div className="st-root">
         <div className="st-board">
-          <header className="st-head">
-            <div className="st-brand">
-              <span className="st-mark">拼句</span>
-              <span className="st-tag">把中文，拼成對的英文</span>
-            </div>
-          </header>
-
+          <Head>{accountBar}</Head>
           <form className="st-input-form" onSubmit={onSubmit}>
             <label className="st-input-label" htmlFor="zh-input">
               輸入一個中文句子
@@ -122,12 +344,7 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <header className="st-head">
-            <div className="st-brand">
-              <span className="st-mark">拼句</span>
-              <span className="st-tag">把中文，拼成對的英文</span>
-            </div>
-          </header>
+          <Head />
           <div className="st-loading">
             <span className="st-spinner" />
             <p>正在生成題目…</p>
@@ -148,12 +365,7 @@ export default function App() {
   return (
     <div className="st-root">
       <div className="st-board">
-        <header className="st-head">
-          <div className="st-brand">
-            <span className="st-mark">拼句</span>
-            <span className="st-tag">把中文，拼成對的英文</span>
-          </div>
-        </header>
+        <Head>{accountBar}</Head>
 
         <div className="st-prompt">
           <div className="st-chip">{puzzle.theme}</div>

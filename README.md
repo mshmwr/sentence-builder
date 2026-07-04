@@ -19,12 +19,23 @@ npm test         # 跑引擎單元測試（零依賴，純 node）
 src/
   engine.js    純函式遊戲引擎，唯一真相來源。沒有任何 React。
   puzzles.js   題庫內容（與引擎解耦，之後可換成 AI 產出）。
+  generate.js  出題：瀏覽器直接打 Gemini API（使用者自己的 key）。
+  firebase.js  Google 登入 + Firestore（geminiKey、歷史紀錄，皆綁帳號）。
   App.jsx      只負責畫面與事件，不含判定邏輯。
   main.jsx     入口。
   styles.css   樣式。
 tests/
   engine.test.js   覆蓋引擎每一個函式（npm test）。
+firestore.rules    Firestore 安全規則：只能讀寫自己 uid 底下的資料。
 ```
+
+### 帳號與出題
+
+- **登入**：Firebase Auth（Google）。未登入不能出題。
+- **Gemini key**：使用者自己到 [Google AI Studio](https://aistudio.google.com/apikey)
+  取得，存在 `users/{uid}.geminiKey`（Firestore，跨裝置同步）。出題額度算使用者自己的。
+- **歷史紀錄**：過關即寫入 `users/{uid}/history`（中文題、拼出的英文、星數）。
+  「歷史」畫面列出最近 50 筆。
 
 ### 單一真相來源
 

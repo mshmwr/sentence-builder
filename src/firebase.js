@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------------ *
+ *  Firebase glue — auth (Google) + per-user Firestore storage.
+ *
+ *  Data model:
+ *    users/{uid}            { geminiKey }
+ *    users/{uid}/history/*  { zh, en, stars, hints, misses, createdAt }
+ * ------------------------------------------------------------------ */
+
+import { initializeApp } from "firebase/app";
+import {
+  getAuth,
+  GoogleAuthProvider,
+  signInWithPopup,
+  signOut,
+  onAuthStateChanged,
+} from "firebase/auth";
+import {
+  getFirestore,
+  doc,
+  getDoc,
+  setDoc,
+  addDoc,
+  collection,
+  query,
+  orderBy,
+  limit,
+  getDocs,
+  serverTimestamp,
+} from "firebase/firestore";
+
+const app = initializeApp({
+  apiKey: "AIzaSyA25EV9zHE2OiErbCaqxvH1OXI7-NIS8IE",
+  authDomain: "pinju-app.firebaseapp.com",
+  projectId: "pinju-app",
+  storageBucket: "pinju-app.firebasestorage.app",
+  messagingSenderId: "1066132917084",
+  appId: "1:1066132917084:web:e5b66cc02354f4a2a74f99",
+});
+
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+export const watchAuth = (cb) => onAuthStateChanged(auth, cb);
+export const loginWithGoogle = () => signInWithPopup(auth, new GoogleAuthProvider());
+export const logout = () => signOut(auth);
+
+export async function loadGeminiKey(uid) {
+  const snap = await getDoc(doc(db, "users", uid));
+  return snap.exists() ? snap.data().geminiKey || "" : "";
+}
+
+export function saveGeminiKey(uid, key) {
+  return setDoc(doc(db, "users", uid), { geminiKey: key }, { merge: true });
+}
+
+export function addHistory(uid, rec) {
+  return addDoc(collection(db, "users", uid, "history"), {
+    ...rec,
+    createdAt: serverTimestamp(),
+  });
+}
+
+export async function loadHistory(uid) {
+  const q = query(
+    collection(db, "users", uid, "history"),
+    orderBy("createdAt", "desc"),
+    limit(50)
+  );
+  const snap = await getDocs(q);
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+}
