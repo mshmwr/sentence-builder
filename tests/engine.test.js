@@ -229,6 +229,41 @@ function placeWords(g, words) {
   eq("clean solve: no missed words", g.missedWords, []);
 })();
 
+(() => {
+  // accumulation: a second, different wrong word joins the list
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drinks", "coffee"]);
+  g = E.check(g, P1);
+  g = E.removeTile(g, 1);
+  g = placeWords(g, ["mornings"]); // now: I coffee mornings — new wrong words
+  g = E.check(g, P1);
+  ok(
+    "missed words accumulate across checks",
+    g.missedWords.includes("drinks") && g.missedWords.includes("mornings")
+  );
+})();
+
+(() => {
+  // dedup is case-insensitive, like all engine judging
+  const P = { accepted: [["a", "b"]], distractors: ["B"] };
+  let g = E.newGame(P); // ids: c0="a", c1="b", d0="B"
+  g = E.placeTile(g, "d0");
+  g = E.placeTile(g, "c1"); // "B b" — B wrong at 0
+  g = E.check(g, P);
+  eq("pre: case-variant recorded once", g.missedWords, ["B"]);
+  g = E.clearAll(g);
+  g = E.placeTile(g, "c1");
+  g = E.placeTile(g, "d0"); // "b B" — both wrong, both norm-equal to recorded "B"
+  g = E.check(g, P);
+  eq("case-variant of recorded word not re-added", g.missedWords, ["B"]);
+
+  let g2 = E.newGame(P);
+  g2 = E.placeTile(g2, "c1");
+  g2 = E.placeTile(g2, "d0"); // "b B" — both wrong in the SAME check
+  g2 = E.check(g2, P);
+  eq("case-variants within one check recorded once", g2.missedWords, ["b"]);
+})();
+
 /* ---- report ---- */
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) {

@@ -27,6 +27,7 @@ import {
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
+const NOTE_CATS = ["時態", "冠詞", "介係詞", "單複數", "其他"]; // must match generate.js prompt rule 5
 
 function readLocalKey() {
   try {
@@ -171,6 +172,8 @@ export default function App() {
   const onOpenNotes = async () => {
     setMode("notes");
     setNotes(null);
+    setWeakness([]); // reset the whole screen-state group — stale stats from a
+    setMastered([]); // previous account must not survive a failed reload
     try {
       const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
       const byWord = new Map(); // lowercase word -> {word, texts}
@@ -195,7 +198,9 @@ export default function App() {
             (p.notes || []).map((n) => [n?.word?.toLowerCase(), n?.category])
           );
           for (const w of h.missedWords) {
-            const c = catOf.get(w.toLowerCase()) || "其他"; // no note / untagged old record
+            // LLM output is untrusted — off-vocabulary tags collapse into 其他 too
+            const tag = catOf.get(w.toLowerCase());
+            const c = NOTE_CATS.includes(tag) ? tag : "其他";
             byCat.set(c, (byCat.get(c) || 0) + 1);
           }
         }
