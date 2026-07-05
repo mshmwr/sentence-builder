@@ -163,6 +163,21 @@ export default function App() {
     }
   };
 
+  const onReplay = (h) => {
+    let p;
+    try {
+      p = JSON.parse(h.puzzle);
+    } catch {
+      return; // corrupt stored record — ignore the tap
+    }
+    setPuzzle(p);
+    setGame(newGame(p));
+    setShake(false);
+    setNudge("");
+    setGenError("");
+    setMode("playing");
+  };
+
   const onNewSentence = () => {
     setMode("input");
     setPuzzle(null);
@@ -197,6 +212,7 @@ export default function App() {
           stars: stars(ng),
           hints: ng.hints,
           misses: ng.misses,
+          puzzle: JSON.stringify(puzzle), // string, not object — Firestore rejects nested arrays (accepted)
         }).catch(() => {}); // history write failing must not block the game
       }
     } else if (ng.wrongIdx.length) {
@@ -262,7 +278,14 @@ export default function App() {
                   </div>
                   <div className="st-hen">{h.en}</div>
                   <div className="st-hmeta">
-                    {h.createdAt?.toDate ? h.createdAt.toDate().toLocaleString() : ""}
+                    <span>
+                      {h.createdAt?.toDate ? h.createdAt.toDate().toLocaleString() : ""}
+                    </span>
+                    {h.puzzle && (
+                      <button className="st-linkbtn" onClick={() => onReplay(h)}>
+                        再拼一次
+                      </button>
+                    )}
                   </div>
                 </div>
               ))}
@@ -278,8 +301,9 @@ export default function App() {
     );
   }
 
-  /* ---- Gemini key setup (first time: no key yet; later: via Key button) ---- */
-  if (!geminiKey || mode === "key") {
+  /* ---- Gemini key setup (first time: no key yet; later: via Key button).
+          Replay ("playing") passes through — it runs on the local engine, no key needed. ---- */
+  if (mode === "key" || (!geminiKey && mode !== "playing")) {
     return (
       <div className="st-root">
         <div className="st-board">
@@ -309,8 +333,12 @@ export default function App() {
             </p>
             {authError && <p className="st-gen-error">{authError}</p>}
             <div className="st-controls">
-              {geminiKey && (
-                <button type="button" className="btn ghost" onClick={() => setMode("input")}>
+              {(geminiKey || game) && (
+                <button
+                  type="button"
+                  className="btn ghost"
+                  onClick={() => setMode(geminiKey ? "input" : "playing")}
+                >
                   返回
                 </button>
               )}
