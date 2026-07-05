@@ -162,6 +162,55 @@ function placeWords(g, words) {
   eq("integrity: placed ids are unique", new Set(ids).size, ids.length);
 })();
 
+/* ---- insert placement (drag-insert) ---- */
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "coffee"]);
+  g = E.placeTile(g, poolId(g, "drink"), 1);
+  eq("place at pos: inserts mid", E.placedTiles(g).map((t) => t.word), ["I", "drink", "coffee"]);
+  g = E.placeTile(g, poolId(g, "every"), 0);
+  eq("place at 0: prepends", E.placedTiles(g)[0].word, "every");
+  g = E.placeTile(g, poolId(g, "morning"), 99);
+  eq("place beyond end: clamps to append", E.placedTiles(g)[4].word, "morning");
+})();
+
+/* ---- moveTile: reorder placed tiles ---- */
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["drink", "I", "coffee"]);
+  g = E.moveTile(g, 0, 1);
+  eq("move: reorders", E.placedTiles(g).map((t) => t.word), ["I", "drink", "coffee"]);
+  const same = E.moveTile(g, 1, 1);
+  eq("move: same index is a no-op", same.placedIds, g.placedIds);
+  g = E.moveTile(g, 0, 99);
+  eq("move: clamps to last slot", E.placedTiles(g).map((t) => t.word), ["drink", "coffee", "I"]);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = E.hint(g, P1); // locks "I" at slot 0
+  g = placeWords(g, ["drinks"]);
+  const g2 = E.moveTile(g, 0, 1);
+  eq("move: locked source is a no-op", g2.placedIds, g.placedIds);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drinks", "coffee"]);
+  g = E.check(g, P1);
+  ok("pre: wrong tile flagged", g.wrongIdx.length === 1);
+  g = E.moveTile(g, 1, 2);
+  eq("move clears wrongIdx", g.wrongIdx, []);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drink", "coffee", "every", "morning"]);
+  g = E.check(g, P1);
+  const g2 = E.moveTile(g, 0, 1);
+  eq("move after correct is a no-op", g2.placedIds, g.placedIds);
+})();
+
 /* ---- report ---- */
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) {

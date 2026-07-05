@@ -1,10 +1,11 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import {
   newGame,
   poolTiles,
   placedTiles,
   stars,
   placeTile,
+  moveTile,
   removeTile,
   clearAll,
   check,
@@ -222,6 +223,102 @@ export default function App() {
     }
   };
 
+  /* ---- drag to insert / reorder ----
+     Pointer-based: a press becomes a drag after 6px of travel; below that it
+     stays a tap (pool tap = append, placed tap = remove). Dropping outside
+     the rack cancels. Locked tiles never drag (buttons are disabled). */
+  const DRAG_PX = 6;
+  const rackRef = useRef(null);
+  const dragInfo = useRef(null); // {id, word, from, startX, startY, started}
+  const suppressClick = useRef(false); // eat the click that follows a drag
+  const [drag, setDrag] = useState(null); // {word, x, y, over} — render only
+
+  const rackHit = (x, y) => {
+    const r = rackRef.current?.getBoundingClientRect();
+    return !!r && x >= r.left - 12 && x <= r.right + 12 && y >= r.top - 12 && y <= r.bottom + 12;
+  };
+
+  // insertion point 0..n (n = placed count): nearest slot centre, left half
+  // inserts before it, right half after. Works across wrapped rack rows.
+  const insertIndex = (x, y) => {
+    const n = game.placedIds.length;
+    if (!rackRef.current || n === 0) return 0;
+    const els = Array.from(rackRef.current.children).slice(0, n);
+    let best = 0;
+    let bestD = Infinity;
+    els.forEach((el, i) => {
+      const r = el.getBoundingClientRect();
+      const dx = x - (r.left + r.width / 2);
+      const dy = y - (r.top + r.height / 2);
+      const d = dx * dx + dy * dy;
+      if (d < bestD) {
+        bestD = d;
+        best = i + (dx > 0 ? 1 : 0);
+      }
+    });
+    return best;
+  };
+
+  const onTilePress = (e, tile, from) => {
+    if (game.status === "correct") return;
+    // one drag at a time, primary pointer only — a second touch must not
+    // overwrite an in-flight drag (capture isolates a pointer, not others)
+    if (dragInfo.current || !e.isPrimary) return;
+    e.currentTarget.setPointerCapture(e.pointerId);
+    dragInfo.current = {
+      id: tile.id,
+      word: tile.word,
+      from, // "pool" | placed index
+      pointerId: e.pointerId,
+      startX: e.clientX,
+      startY: e.clientY,
+      started: false,
+    };
+  };
+  const onTileDragMove = (e) => {
+    const info = dragInfo.current;
+    if (!info || e.pointerId !== info.pointerId) return;
+    if (!info.started) {
+      if (Math.hypot(e.clientX - info.startX, e.clientY - info.startY) < DRAG_PX) return;
+      info.started = true;
+    }
+    setDrag({
+      word: info.word,
+      x: e.clientX,
+      y: e.clientY,
+      over: rackHit(e.clientX, e.clientY) ? insertIndex(e.clientX, e.clientY) : null,
+    });
+  };
+  const onTileDragEnd = (e) => {
+    const info = dragInfo.current;
+    if (!info || e.pointerId !== info.pointerId) return;
+    dragInfo.current = null;
+    if (!info.started) return; // plain tap — let the click handler act
+    setDrag(null);
+    suppressClick.current = true;
+    setTimeout(() => {
+      suppressClick.current = false; // drop may unmount the tile → no click to clear it
+    }, 0);
+    if (!rackHit(e.clientX, e.clientY)) return; // dropped outside the rack = cancel
+    const ins = insertIndex(e.clientX, e.clientY);
+    if (info.from === "pool") {
+      if (game.placedIds.length >= puzzle.accepted[0].length) return; // rack full — cancel, like drag-out
+      setGame(placeTile(game, info.id, ins));
+    } else {
+      // re-resolve by id: placedIds may have shifted since press (e.g. hint)
+      const curFrom = game.placedIds.indexOf(info.id);
+      if (curFrom === -1) return;
+      setGame(moveTile(game, curFrom, ins > curFrom ? ins - 1 : ins));
+    }
+    setNudge("");
+  };
+  const onTileDragCancel = (e) => {
+    const info = dragInfo.current;
+    if (!info || e.pointerId !== info.pointerId) return;
+    dragInfo.current = null;
+    setDrag(null);
+  };
+
   const accountBar = (
     <div className="st-account">
       {user ? (
@@ -423,13 +520,20 @@ export default function App() {
           <p className="st-zh">{puzzle.zh}</p>
         </div>
 
-        <div className={"st-rack" + (shake ? " shake" : "")}>
+        <div className={"st-rack" + (shake ? " shake" : "")} ref={rackRef}>
           {Array.from({ length: slots }).map((_, i) => {
             const t = placed[i];
             const isWrong = game.wrongIdx.includes(i);
             const locked = t && game.lockedIds.includes(t.id);
             return (
-              <div className="st-slot" key={i}>
+              <div
+                className={
+                  "st-slot" +
+                  (drag && drag.over === i ? " insert" : "") +
+                  (drag && drag.over === slots && i === slots - 1 ? " insert-end" : "")
+                }
+                key={i}
+              >
                 {t ? (
                   <button
                     className={
@@ -438,7 +542,18 @@ export default function App() {
                       (isWrong ? " bad" : "") +
                       (locked ? " locked" : "")
                     }
-                    onClick={() => onRemove(i)}
+                    onClick={() => {
+                      if (suppressClick.current) {
+                        suppressClick.current = false;
+                        return;
+                      }
+                      onRemove(i);
+                    }}
+                    onPointerDown={(e) => onTilePress(e, t, i)}
+                    onPointerMove={onTileDragMove}
+                    onPointerUp={onTileDragEnd}
+                    onPointerCancel={onTileDragCancel}
+                    onLostPointerCapture={onTileDragCancel}
                     disabled={locked || correct}
                   >
                     {t.word}
@@ -457,12 +572,33 @@ export default function App() {
             <span className="st-poolhint">牌都用上了，按「檢查」看看對不對</span>
           ) : (
             orderedPool.map((t) => (
-              <button key={t.id} className="tile" onClick={() => onPlace(t.id)}>
+              <button
+                key={t.id}
+                className="tile"
+                onClick={() => {
+                  if (suppressClick.current) {
+                    suppressClick.current = false;
+                    return;
+                  }
+                  onPlace(t.id);
+                }}
+                onPointerDown={(e) => onTilePress(e, t, "pool")}
+                onPointerMove={onTileDragMove}
+                onPointerUp={onTileDragEnd}
+                onPointerCancel={onTileDragCancel}
+                onLostPointerCapture={onTileDragCancel}
+              >
                 {t.word}
               </button>
             ))
           )}
         </div>
+
+        {drag && (
+          <div className="tile st-drag-ghost" style={{ left: drag.x, top: drag.y }}>
+            {drag.word}
+          </div>
+        )}
 
         {!correct ? (
           <div className="st-controls">
