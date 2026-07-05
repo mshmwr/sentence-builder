@@ -28,6 +28,7 @@ export function newGame(puzzle) {
     status: "playing", // "playing" | "correct"
     wrongIdx: [],
     lastWrongSig: null, // arrangement we already penalised
+    missedWords: [], // every word ever flagged wrong this game (unique, for the error book)
   };
 }
 
@@ -113,11 +114,13 @@ export function check(g, puzzle) {
   // only mismatched positions are flagged — a correct prefix stays clean
   const sig = g.placedIds.join(",");
   const repeat = sig === g.lastWrongSig; // identical re-check -> no extra miss
+  const missed = wrongIdx.map((i) => words[i]).filter((w) => !g.missedWords.includes(w));
   return {
     ...g,
     wrongIdx,
     misses: repeat ? g.misses : g.misses + 1,
     lastWrongSig: sig,
+    missedWords: [...g.missedWords, ...missed],
   };
 }
 

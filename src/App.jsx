@@ -66,6 +66,7 @@ export default function App() {
   const [history, setHistory] = useState(null); // null = loading
   const [notes, setNotes] = useState(null); // null = loading; [{word, texts}]
   const [mastered, setMastered] = useState([]); // lowercase words marked "已掌握"
+  const [weakness, setWeakness] = useState([]); // [{cat, count}] desc — from missedWords
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -155,6 +156,7 @@ export default function App() {
     try {
       const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
       const byWord = new Map(); // lowercase word -> {word, texts}
+      const byCat = new Map(); // category -> missed count (error-book stats)
       for (const h of hist) {
         if (!h.puzzle) continue;
         let p;
@@ -170,8 +172,20 @@ export default function App() {
           if (!e.texts.includes(n.text)) e.texts.push(n.text); // same word, new tip — keep both
           byWord.set(k, e);
         }
+        if (Array.isArray(h.missedWords)) {
+          const catOf = new Map(
+            (p.notes || []).map((n) => [n?.word?.toLowerCase(), n?.category])
+          );
+          for (const w of h.missedWords) {
+            const c = catOf.get(w.toLowerCase()) || "其他"; // no note / untagged old record
+            byCat.set(c, (byCat.get(c) || 0) + 1);
+          }
+        }
       }
       setNotes([...byWord.values()]);
+      setWeakness(
+        [...byCat.entries()].map(([cat, count]) => ({ cat, count })).sort((a, b) => b.count - a.count)
+      );
       setMastered(m);
     } catch {
       setNotes([]);
@@ -253,6 +267,7 @@ export default function App() {
           stars: stars(ng),
           hints: ng.hints,
           misses: ng.misses,
+          missedWords: ng.missedWords, // flat string array — for the error-book stats
           puzzle: JSON.stringify(puzzle), // string, not object — Firestore rejects nested arrays (accepted)
         }).catch(() => {}); // history write failing must not block the game
       }
@@ -466,10 +481,20 @@ export default function App() {
             <div className="st-loading">
               <span className="st-spinner" />
             </div>
-          ) : notes.length === 0 ? (
+          ) : notes.length === 0 && weakness.length === 0 ? (
             <p className="st-login-text">還沒有筆記 —— 過關後的文法註解會自動收進來。</p>
           ) : (
             <div className="st-notes">
+              {weakness.length > 0 && (
+                <div className="st-weak">
+                  <span className="st-input-label">最常拼錯</span>
+                  {weakness.map((w) => (
+                    <span className="st-chip" key={w.cat}>
+                      {w.cat} ×{w.count}
+                    </span>
+                  ))}
+                </div>
+              )}
               {unmastered.map((e) => noteRow(e, false))}
               {done.length > 0 && (
                 <>

@@ -8,18 +8,19 @@ const SYSTEM = `You are an English grammar puzzle generator for Chinese native s
 TASK: Translate the Chinese sentence into English, then break it into individual English word tokens for a tile-assembly puzzle.
 
 Output ONLY a JSON object (no markdown, no commentary):
-{"accepted":[["EnglishWord1","EnglishWord2",...]],"distractors":["WrongWord1"],"notes":[{"word":"EnglishWord","text":"Traditional Chinese grammar note"}]}
+{"accepted":[["EnglishWord1","EnglishWord2",...]],"distractors":["WrongWord1"],"notes":[{"word":"EnglishWord","text":"Traditional Chinese grammar note","category":"時態"}]}
 
 EXAMPLE — Chinese: 我每天早上喝咖啡。
 Output:
-{"accepted":[["I","drink","coffee","every","morning"],["every","morning","I","drink","coffee"]],"distractors":["drinks","a","mornings","in"],"notes":[{"word":"drink","text":"主詞 I 用原形 drink，第三人稱單數才加 s。"},{"word":"coffee","text":"coffee 在此不可數，不加 a。"}]}
+{"accepted":[["I","drink","coffee","every","morning"],["every","morning","I","drink","coffee"]],"distractors":["drinks","a","mornings","in"],"notes":[{"word":"drink","text":"主詞 I 用原形 drink，第三人稱單數才加 s。","category":"時態"},{"word":"coffee","text":"coffee 在此不可數，不加 a。","category":"冠詞"}]}
 
 RULES:
 1. accepted = ENGLISH word tokens. NOT Chinese.
 2. All accepted variants = permutations of the SAME English token set.
 3. distractors = 3-6 plausible-but-wrong English words.
 4. notes = 3-5 grammar tips in Traditional Chinese.
-5. Return ONLY the JSON. Nothing else.`;
+5. Every note's category is exactly one of: 時態, 冠詞, 介係詞, 單複數, 其他.
+6. Return ONLY the JSON. Nothing else.`;
 
 export async function generatePuzzle(zh, apiKey) {
   const res = await fetch(

@@ -62,6 +62,8 @@ html, body, #root { height: 100%; margin: 0; }
 .note-word{ font-weight:700; color:#0f2a22; background:var(--jade); padding:2px 9px; border-radius:6px; font-size:14px; white-space:nowrap; }
 .note-text{ font-size:14px; line-height:1.5; color:#E4E0D4; }
 .note-texts{ display:flex; flex-direction:column; gap:4px; flex:1; }
+.st-weak{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-bottom:6px; }
+.st-weak .st-chip{ margin-bottom:0; }
 .note-mark{ margin-left:auto; }
 .note.done{ opacity:.45; }
 /* ---- input screen ---- */

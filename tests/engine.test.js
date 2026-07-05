@@ -211,6 +211,24 @@ function placeWords(g, words) {
   eq("move after correct is a no-op", g2.placedIds, g.placedIds);
 })();
 
+/* ---- missed-word tracking (error book) ---- */
+(() => {
+  let g = E.newGame(P1);
+  eq("newGame: no missed words", g.missedWords, []);
+  g = placeWords(g, ["I", "drinks", "coffee"]);
+  g = E.check(g, P1);
+  eq("check records the missed word", g.missedWords, ["drinks"]);
+  g = E.check(g, P1);
+  eq("identical re-check does not duplicate", g.missedWords, ["drinks"]);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drink", "coffee", "every", "morning"]);
+  g = E.check(g, P1);
+  eq("clean solve: no missed words", g.missedWords, []);
+})();
+
 /* ---- report ---- */
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) {
