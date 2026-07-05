@@ -94,6 +94,10 @@ html, body, #root { height: 100%; margin: 0; }
 .st-hstars-off{ color:rgba(255,255,255,.18); }
 .st-hen{ font-size:14.5px; color:#a9cbbd; margin-top:4px; }
 .st-hmeta{ font-size:11.5px; color:rgba(255,255,255,.35); margin-top:6px; display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
+.st-hactions{ display:flex; gap:12px; }
+.st-memo{ font-size:13px; line-height:1.6; color:#c9dcd2; margin:6px 0 0; white-space:pre-wrap; border-left:2px solid rgba(255,255,255,.15); padding-left:8px; }
+.st-memo-edit{ margin-top:8px; display:flex; flex-direction:column; gap:8px; }
+.st-memo-area{ font-size:14px; }
 .st-back-row{ margin-top:18px; }
 
 /* ---- loading screen ---- */

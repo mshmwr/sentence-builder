@@ -23,6 +23,7 @@ import {
   loadHistory,
   loadMastered,
   saveMastered,
+  saveMemo,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
@@ -67,6 +68,8 @@ export default function App() {
   const [notes, setNotes] = useState(null); // null = loading; [{word, texts}]
   const [mastered, setMastered] = useState([]); // lowercase words marked "已掌握"
   const [weakness, setWeakness] = useState([]); // [{cat, count}] desc — from missedWords
+  const [memoEdit, setMemoEdit] = useState(null); // {id, draft} — one memo edited at a time
+  const [memoError, setMemoError] = useState("");
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -143,10 +146,25 @@ export default function App() {
   const onOpenHistory = async () => {
     setMode("history");
     setHistory(null);
+    setMemoEdit(null);
+    setMemoError("");
     try {
       setHistory(await loadHistory(user.uid));
     } catch {
       setHistory([]);
+    }
+  };
+
+  const onSaveMemo = async () => {
+    const { id, draft } = memoEdit;
+    const memo = draft.trim(); // empty = clear the memo
+    setMemoError("");
+    try {
+      await saveMemo(user.uid, id, memo);
+      setHistory((hs) => hs.map((h) => (h.id === id ? { ...h, memo } : h)));
+      setMemoEdit(null);
+    } catch (err) {
+      setMemoError(err.message); // keep the editor open so the draft isn't lost
     }
   };
 
@@ -430,15 +448,49 @@ export default function App() {
                     </span>
                   </div>
                   <div className="st-hen">{h.en}</div>
+                  {memoEdit?.id === h.id ? (
+                    <div className="st-memo-edit">
+                      <textarea
+                        className="st-input-area st-memo-area"
+                        rows={2}
+                        value={memoEdit.draft}
+                        onChange={(e) => setMemoEdit({ id: h.id, draft: e.target.value })}
+                        placeholder="寫點什麼提醒自己…"
+                        autoFocus
+                      />
+                      {memoError && <p className="st-gen-error">{memoError}</p>}
+                      <div className="st-controls">
+                        <button className="btn ghost" onClick={() => setMemoEdit(null)}>
+                          取消
+                        </button>
+                        <button className="btn solid" onClick={onSaveMemo}>
+                          儲存
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    h.memo && <p className="st-memo">{h.memo}</p>
+                  )}
                   <div className="st-hmeta">
                     <span>
                       {h.createdAt?.toDate ? h.createdAt.toDate().toLocaleString() : ""}
                     </span>
-                    {h.puzzle && (
-                      <button className="st-linkbtn" onClick={() => onReplay(h)}>
-                        再拼一次
+                    <span className="st-hactions">
+                      <button
+                        className="st-linkbtn"
+                        onClick={() => {
+                          setMemoError("");
+                          setMemoEdit({ id: h.id, draft: h.memo || "" });
+                        }}
+                      >
+                        {h.memo ? "改備註" : "備註"}
                       </button>
-                    )}
+                      {h.puzzle && (
+                        <button className="st-linkbtn" onClick={() => onReplay(h)}>
+                          再拼一次
+                        </button>
+                      )}
+                    </span>
                   </div>
                 </div>
               ))}

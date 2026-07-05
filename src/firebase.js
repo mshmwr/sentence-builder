@@ -3,7 +3,7 @@
  *
  *  Data model:
  *    users/{uid}            { geminiKey, mastered }
- *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, createdAt }
+ *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, memo, createdAt }
  * ------------------------------------------------------------------ */
 
 import { initializeApp } from "firebase/app";
@@ -67,6 +67,10 @@ export function addHistory(uid, rec) {
     ...rec,
     createdAt: serverTimestamp(),
   });
+}
+
+export function saveMemo(uid, docId, memo) {
+  return setDoc(doc(db, "users", uid, "history", docId), { memo }, { merge: true });
 }
 
 export async function loadHistory(uid) {
