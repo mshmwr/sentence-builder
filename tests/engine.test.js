@@ -257,10 +257,12 @@ function placeWords(g, words) {
   g = E.check(g, P);
   eq("case-variant of recorded word not re-added", g.missedWords, ["B"]);
 
-  let g2 = E.newGame(P);
-  g2 = E.placeTile(g2, "c1");
-  g2 = E.placeTile(g2, "d0"); // "b B" — both wrong in the SAME check
-  g2 = E.check(g2, P);
+  // both variants must sit on WRONG positions, so both enter the same check's batch
+  const P2 = { accepted: [["x", "y"]], distractors: ["b", "B"] };
+  let g2 = E.newGame(P2); // ids: d0="b", d1="B"
+  g2 = E.placeTile(g2, "d0");
+  g2 = E.placeTile(g2, "d1"); // "b B" — wrongIdx [0,1], norm-equal pair
+  g2 = E.check(g2, P2);
   eq("case-variants within one check recorded once", g2.missedWords, ["b"]);
 })();
 
