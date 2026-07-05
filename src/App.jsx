@@ -22,6 +22,16 @@ import {
   loadHistory,
 } from "./firebase.js";
 
+const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
+
+function readLocalKey() {
+  try {
+    return localStorage.getItem(LS_KEY) || "";
+  } catch {
+    return ""; // storage blocked (private mode) — treat as no key
+  }
+}
+
 function Head({ children }) {
   return (
     <header className="st-head">
@@ -58,21 +68,34 @@ export default function App() {
       latestUid = u ? u.uid : null;
       setUser(u);
       setAuthReady(true);
-      setKeyLoaded(false);
       if (u) {
+        setKeyLoaded(false);
         const uid = u.uid;
         let k = "";
+        let loadFailed = false;
         try {
           k = await loadGeminiKey(uid);
         } catch {
-          k = "";
+          loadFailed = true; // read failure ≠ no key — must not trigger the promote-write below
+        }
+        if (!k && !loadFailed) {
+          // logged in with a local-only key: promote it to the account
+          const local = readLocalKey();
+          if (local) {
+            k = local;
+            saveGeminiKey(uid, local)
+              .then(() => localStorage.removeItem(LS_KEY)) // moved, not mirrored — see key-screen copy
+              .catch(() => {});
+          }
         }
         if (latestUid === uid) {
           setGeminiKey(k);
           setKeyLoaded(true);
         }
       } else {
-        setGeminiKey("");
+        setGeminiKey(readLocalKey());
+        setKeyLoaded(true);
+        setMode((m) => (m === "history" ? "input" : m)); // history is account-only
       }
     });
   }, []);
@@ -97,7 +120,11 @@ export default function App() {
     if (!k) return;
     setKeySaving(true);
     try {
-      await saveGeminiKey(user.uid, k);
+      if (user) {
+        await saveGeminiKey(user.uid, k);
+      } else {
+        localStorage.setItem(LS_KEY, k);
+      }
       setGeminiKey(k);
       setKeyDraft("");
       setMode("input");
@@ -163,13 +190,15 @@ export default function App() {
     const ng = check(game, puzzle);
     setGame(ng);
     if (ng.status === "correct") {
-      addHistory(user.uid, {
-        zh: puzzle.zh,
-        en: placedTiles(ng).map((t) => t.word).join(" "),
-        stars: stars(ng),
-        hints: ng.hints,
-        misses: ng.misses,
-      }).catch(() => {}); // history write failing must not block the game
+      if (user) {
+        addHistory(user.uid, {
+          zh: puzzle.zh,
+          en: placedTiles(ng).map((t) => t.word).join(" "),
+          stars: stars(ng),
+          hints: ng.hints,
+          misses: ng.misses,
+        }).catch(() => {}); // history write failing must not block the game
+      }
     } else if (ng.wrongIdx.length) {
       setShake(true);
       setTimeout(() => setShake(false), 450);
@@ -177,41 +206,31 @@ export default function App() {
     }
   };
 
-  const accountBar = user && (
+  const accountBar = (
     <div className="st-account">
-      <button className="st-linkbtn" onClick={onOpenHistory}>歷史</button>
-      <button className="st-linkbtn" onClick={() => setMode("key")}>Key</button>
-      <button className="st-linkbtn" onClick={() => logout()}>登出</button>
+      {user ? (
+        <>
+          <button className="st-linkbtn" onClick={onOpenHistory}>歷史</button>
+          <button className="st-linkbtn" onClick={() => setMode("key")}>Key</button>
+          <button className="st-linkbtn" onClick={() => logout()}>登出</button>
+        </>
+      ) : (
+        <>
+          <button className="st-linkbtn" onClick={() => setMode("key")}>Key</button>
+          <button className="st-linkbtn" onClick={onLogin}>登入</button>
+        </>
+      )}
     </div>
   );
 
-  /* ---- auth gate ---- */
-  if (!authReady || (user && !keyLoaded)) {
+  /* ---- boot gate: wait for auth + key resolution ---- */
+  if (!authReady || !keyLoaded) {
     return (
       <div className="st-root">
         <div className="st-board">
           <Head />
           <div className="st-loading">
             <span className="st-spinner" />
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (!user) {
-    return (
-      <div className="st-root">
-        <div className="st-board">
-          <Head />
-          <div className="st-login">
-            <p className="st-login-text">
-              登入後，你拼過的每一句都會記在自己的帳號裡。
-            </p>
-            <button className="btn solid st-login-btn" onClick={onLogin}>
-              用 Google 登入
-            </button>
-            {authError && <p className="st-gen-error">{authError}</p>}
           </div>
         </div>
       </div>
@@ -283,7 +302,10 @@ export default function App() {
               <a href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer">
                 Google AI Studio
               </a>{" "}
-              免費取得。key 只存在你的帳號資料裡。
+              免費取得。
+              {user
+                ? "key 只存在你的帳號資料裡。"
+                : "key 只存在這台瀏覽器；登入後會改存到你的帳號。"}
             </p>
             {authError && <p className="st-gen-error">{authError}</p>}
             <div className="st-controls">
@@ -325,6 +347,7 @@ export default function App() {
               rows={3}
               autoFocus
             />
+            {authError && <p className="st-gen-error">{authError}</p>}
             {genError && <p className="st-gen-error">{genError}</p>}
             <button
               type="submit"
@@ -451,6 +474,9 @@ export default function App() {
                   : `用了 ${game.hints} 次提示、錯 ${game.misses} 次`}
               </span>
             </div>
+            {!user && (
+              <p className="st-keyhelp">登入 Google 後，過關紀錄會存到你的帳號。</p>
+            )}
             <div className="st-notes">
               {puzzle.notes.map((n, i) => (
                 <div className="note" key={i} style={{ animationDelay: `${i * 80}ms` }}>
