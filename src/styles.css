@@ -61,6 +61,9 @@ html, body, #root { height: 100%; margin: 0; }
 @keyframes rise{ from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:translateY(0)} }
 .note-word{ font-weight:700; color:#0f2a22; background:var(--jade); padding:2px 9px; border-radius:6px; font-size:14px; white-space:nowrap; }
 .note-text{ font-size:14px; line-height:1.5; color:#E4E0D4; }
+.note-texts{ display:flex; flex-direction:column; gap:4px; flex:1; }
+.note-mark{ margin-left:auto; }
+.note.done{ opacity:.45; }
 /* ---- input screen ---- */
 .st-input-form{ display:flex; flex-direction:column; gap:14px; margin-top:8px; }
 .st-input-label{ font-size:14px; color:#9fc4b4; letter-spacing:.04em; }

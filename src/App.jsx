@@ -21,6 +21,8 @@ import {
   saveGeminiKey,
   addHistory,
   loadHistory,
+  loadMastered,
+  saveMastered,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
@@ -54,7 +56,7 @@ export default function App() {
   const [keyDraft, setKeyDraft] = useState("");
   const [keySaving, setKeySaving] = useState(false);
 
-  const [mode, setMode] = useState("input"); // "input" | "loading" | "playing" | "key" | "history"
+  const [mode, setMode] = useState("input"); // "input" | "loading" | "playing" | "key" | "history" | "notes"
   const [inputZh, setInputZh] = useState("");
   const [puzzle, setPuzzle] = useState(null);
   const [game, setGame] = useState(null);
@@ -62,6 +64,8 @@ export default function App() {
   const [nudge, setNudge] = useState("");
   const [genError, setGenError] = useState("");
   const [history, setHistory] = useState(null); // null = loading
+  const [notes, setNotes] = useState(null); // null = loading; [{word, texts}]
+  const [mastered, setMastered] = useState([]); // lowercase words marked "已掌握"
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -96,7 +100,7 @@ export default function App() {
       } else {
         setGeminiKey(readLocalKey());
         setKeyLoaded(true);
-        setMode((m) => (m === "history" ? "input" : m)); // history is account-only
+        setMode((m) => (m === "history" || m === "notes" ? "input" : m)); // both are account-only
       }
     });
   }, []);
@@ -143,6 +147,42 @@ export default function App() {
     } catch {
       setHistory([]);
     }
+  };
+
+  const onOpenNotes = async () => {
+    setMode("notes");
+    setNotes(null);
+    try {
+      const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
+      const byWord = new Map(); // lowercase word -> {word, texts}
+      for (const h of hist) {
+        if (!h.puzzle) continue;
+        let p;
+        try {
+          p = JSON.parse(h.puzzle);
+        } catch {
+          continue; // corrupt stored record — skip
+        }
+        for (const n of p.notes || []) {
+          if (!n?.word || !n?.text) continue;
+          const k = n.word.toLowerCase();
+          const e = byWord.get(k) || { word: n.word, texts: [] };
+          if (!e.texts.includes(n.text)) e.texts.push(n.text); // same word, new tip — keep both
+          byWord.set(k, e);
+        }
+      }
+      setNotes([...byWord.values()]);
+      setMastered(m);
+    } catch {
+      setNotes([]);
+    }
+  };
+
+  const onToggleMastered = (word) => {
+    const k = word.toLowerCase();
+    const next = mastered.includes(k) ? mastered.filter((w) => w !== k) : [...mastered, k];
+    setMastered(next);
+    saveMastered(user.uid, next).catch(() => {}); // save failing must not block the UI
   };
 
   const onSubmit = async (e) => {
@@ -324,6 +364,7 @@ export default function App() {
       {user ? (
         <>
           <button className="st-linkbtn" onClick={onOpenHistory}>歷史</button>
+          <button className="st-linkbtn" onClick={onOpenNotes}>筆記</button>
           <button className="st-linkbtn" onClick={() => setMode("key")}>Key</button>
           <button className="st-linkbtn" onClick={() => logout()}>登出</button>
         </>
@@ -386,6 +427,56 @@ export default function App() {
                   </div>
                 </div>
               ))}
+            </div>
+          )}
+          <div className="st-controls st-back-row">
+            <button className="btn ghost" onClick={() => setMode("input")}>
+              返回
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  /* ---- grammar notebook (account-only, needs no key — same gate order as history) ---- */
+  if (mode === "notes") {
+    const unmastered = notes ? notes.filter((e) => !mastered.includes(e.word.toLowerCase())) : [];
+    const done = notes ? notes.filter((e) => mastered.includes(e.word.toLowerCase())) : [];
+    const noteRow = (e, isDone) => (
+      <div className={"note" + (isDone ? " done" : "")} key={e.word.toLowerCase()}>
+        <span className="note-word">{e.word}</span>
+        <div className="note-texts">
+          {e.texts.map((t, i) => (
+            <span className="note-text" key={i}>
+              {t}
+            </span>
+          ))}
+        </div>
+        <button className="st-linkbtn note-mark" onClick={() => onToggleMastered(e.word)}>
+          {isDone ? "還不熟" : "已掌握"}
+        </button>
+      </div>
+    );
+    return (
+      <div className="st-root">
+        <div className="st-board">
+          <Head>{accountBar}</Head>
+          {notes === null ? (
+            <div className="st-loading">
+              <span className="st-spinner" />
+            </div>
+          ) : notes.length === 0 ? (
+            <p className="st-login-text">還沒有筆記 —— 過關後的文法註解會自動收進來。</p>
+          ) : (
+            <div className="st-notes">
+              {unmastered.map((e) => noteRow(e, false))}
+              {done.length > 0 && (
+                <>
+                  <p className="st-input-label">已掌握</p>
+                  {done.map((e) => noteRow(e, true))}
+                </>
+              )}
             </div>
           )}
           <div className="st-controls st-back-row">

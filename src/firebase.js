@@ -2,8 +2,8 @@
  *  Firebase glue — auth (Google) + per-user Firestore storage.
  *
  *  Data model:
- *    users/{uid}            { geminiKey }
- *    users/{uid}/history/*  { zh, en, stars, hints, misses, createdAt }
+ *    users/{uid}            { geminiKey, mastered }
+ *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, createdAt }
  * ------------------------------------------------------------------ */
 
 import { initializeApp } from "firebase/app";
@@ -51,6 +51,15 @@ export async function loadGeminiKey(uid) {
 
 export function saveGeminiKey(uid, key) {
   return setDoc(doc(db, "users", uid), { geminiKey: key }, { merge: true });
+}
+
+export async function loadMastered(uid) {
+  const snap = await getDoc(doc(db, "users", uid));
+  return snap.exists() ? snap.data().mastered || [] : [];
+}
+
+export function saveMastered(uid, words) {
+  return setDoc(doc(db, "users", uid), { mastered: words }, { merge: true });
 }
 
 export function addHistory(uid, rec) {
