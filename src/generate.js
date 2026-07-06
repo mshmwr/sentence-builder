@@ -22,9 +22,9 @@ RULES:
 5. Every note's category is exactly one of: 時態, 冠詞, 介係詞, 單複數, 其他.
 6. Return ONLY the JSON. Nothing else.`;
 
-export async function generatePuzzle(zh, apiKey) {
-  const res = await fetch(
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+async function callModel(model, zh, apiKey) {
+  return fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
@@ -40,6 +40,19 @@ export async function generatePuzzle(zh, apiKey) {
       }),
     }
   );
+}
+
+export async function generatePuzzle(zh, apiKey) {
+  let res = await callModel("gemini-2.5-flash", zh, apiKey);
+
+  if (res.status === 429 || res.status === 503) {
+    // capacity problem on Google's side ("high demand") — retry once on the
+    // lighter model instead of bouncing the user
+    const fallback = await callModel("gemini-2.5-flash-lite", zh, apiKey).catch(() => null);
+    if (fallback?.ok) res = fallback;
+    // fallback failed too: keep the primary response so the error the user
+    // sees describes the main model, not the retry
+  }
 
   if (!res.ok) {
     const err = await res.json().catch(() => null);
