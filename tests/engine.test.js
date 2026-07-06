@@ -162,6 +162,110 @@ function placeWords(g, words) {
   eq("integrity: placed ids are unique", new Set(ids).size, ids.length);
 })();
 
+/* ---- insert placement (drag-insert) ---- */
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "coffee"]);
+  g = E.placeTile(g, poolId(g, "drink"), 1);
+  eq("place at pos: inserts mid", E.placedTiles(g).map((t) => t.word), ["I", "drink", "coffee"]);
+  g = E.placeTile(g, poolId(g, "every"), 0);
+  eq("place at 0: prepends", E.placedTiles(g)[0].word, "every");
+  g = E.placeTile(g, poolId(g, "morning"), 99);
+  eq("place beyond end: clamps to append", E.placedTiles(g)[4].word, "morning");
+})();
+
+/* ---- moveTile: reorder placed tiles ---- */
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["drink", "I", "coffee"]);
+  g = E.moveTile(g, 0, 1);
+  eq("move: reorders", E.placedTiles(g).map((t) => t.word), ["I", "drink", "coffee"]);
+  const same = E.moveTile(g, 1, 1);
+  eq("move: same index is a no-op", same.placedIds, g.placedIds);
+  g = E.moveTile(g, 0, 99);
+  eq("move: clamps to last slot", E.placedTiles(g).map((t) => t.word), ["drink", "coffee", "I"]);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = E.hint(g, P1); // locks "I" at slot 0
+  g = placeWords(g, ["drinks"]);
+  const g2 = E.moveTile(g, 0, 1);
+  eq("move: locked source is a no-op", g2.placedIds, g.placedIds);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drinks", "coffee"]);
+  g = E.check(g, P1);
+  ok("pre: wrong tile flagged", g.wrongIdx.length === 1);
+  g = E.moveTile(g, 1, 2);
+  eq("move clears wrongIdx", g.wrongIdx, []);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drink", "coffee", "every", "morning"]);
+  g = E.check(g, P1);
+  const g2 = E.moveTile(g, 0, 1);
+  eq("move after correct is a no-op", g2.placedIds, g.placedIds);
+})();
+
+/* ---- missed-word tracking (error book) ---- */
+(() => {
+  let g = E.newGame(P1);
+  eq("newGame: no missed words", g.missedWords, []);
+  g = placeWords(g, ["I", "drinks", "coffee"]);
+  g = E.check(g, P1);
+  eq("check records the missed word", g.missedWords, ["drinks"]);
+  g = E.check(g, P1);
+  eq("identical re-check does not duplicate", g.missedWords, ["drinks"]);
+})();
+
+(() => {
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drink", "coffee", "every", "morning"]);
+  g = E.check(g, P1);
+  eq("clean solve: no missed words", g.missedWords, []);
+})();
+
+(() => {
+  // accumulation: a second, different wrong word joins the list
+  let g = E.newGame(P1);
+  g = placeWords(g, ["I", "drinks", "coffee"]);
+  g = E.check(g, P1);
+  g = E.removeTile(g, 1);
+  g = placeWords(g, ["mornings"]); // now: I coffee mornings — new wrong words
+  g = E.check(g, P1);
+  ok(
+    "missed words accumulate across checks",
+    g.missedWords.includes("drinks") && g.missedWords.includes("mornings")
+  );
+})();
+
+(() => {
+  // dedup is case-insensitive, like all engine judging
+  const P = { accepted: [["a", "b"]], distractors: ["B"] };
+  let g = E.newGame(P); // ids: c0="a", c1="b", d0="B"
+  g = E.placeTile(g, "d0");
+  g = E.placeTile(g, "c1"); // "B b" — B wrong at 0
+  g = E.check(g, P);
+  eq("pre: case-variant recorded once", g.missedWords, ["B"]);
+  g = E.clearAll(g);
+  g = E.placeTile(g, "c1");
+  g = E.placeTile(g, "d0"); // "b B" — both wrong, both norm-equal to recorded "B"
+  g = E.check(g, P);
+  eq("case-variant of recorded word not re-added", g.missedWords, ["B"]);
+
+  // both variants must sit on WRONG positions, so both enter the same check's batch
+  const P2 = { accepted: [["x", "y"]], distractors: ["b", "B"] };
+  let g2 = E.newGame(P2); // ids: d0="b", d1="B"
+  g2 = E.placeTile(g2, "d0");
+  g2 = E.placeTile(g2, "d1"); // "b B" — wrongIdx [0,1], norm-equal pair
+  g2 = E.check(g2, P2);
+  eq("case-variants within one check recorded once", g2.missedWords, ["b"]);
+})();
+
 /* ---- report ---- */
 console.log(`\n${pass} passed, ${fail} failed`);
 if (fail) {

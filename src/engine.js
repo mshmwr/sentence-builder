@@ -28,6 +28,7 @@ export function newGame(puzzle) {
     status: "playing", // "playing" | "correct"
     wrongIdx: [],
     lastWrongSig: null, // arrangement we already penalised
+    missedWords: [], // every word ever flagged wrong this game (unique, for the error book)
   };
 }
 
@@ -61,9 +62,23 @@ function bestVariant(puzzle, words) {
 }
 
 /* ---- actions: all pure (state -> state) ---- */
-export function placeTile(g, tileId) {
+export function placeTile(g, tileId, pos = g.placedIds.length) {
   if (g.status === "correct" || g.placedIds.includes(tileId)) return g;
-  return { ...g, placedIds: [...g.placedIds, tileId], wrongIdx: [] };
+  const placedIds = [...g.placedIds];
+  placedIds.splice(Math.max(0, Math.min(pos, placedIds.length)), 0, tileId);
+  return { ...g, placedIds, wrongIdx: [] };
+}
+
+export function moveTile(g, from, to) {
+  if (g.status === "correct") return g;
+  const id = g.placedIds[from];
+  if (id == null || g.lockedIds.includes(id)) return g;
+  const t = Math.max(0, Math.min(to, g.placedIds.length - 1));
+  if (t === from) return g;
+  const placedIds = [...g.placedIds];
+  placedIds.splice(from, 1);
+  placedIds.splice(t, 0, id);
+  return { ...g, placedIds, wrongIdx: [] };
 }
 
 export function removeTile(g, pos) {
@@ -99,11 +114,17 @@ export function check(g, puzzle) {
   // only mismatched positions are flagged — a correct prefix stays clean
   const sig = g.placedIds.join(",");
   const repeat = sig === g.lastWrongSig; // identical re-check -> no extra miss
+  const missedWords = [...g.missedWords];
+  for (const i of wrongIdx) {
+    const w = words[i];
+    if (!missedWords.some((m) => norm(m) === norm(w))) missedWords.push(w);
+  }
   return {
     ...g,
     wrongIdx,
     misses: repeat ? g.misses : g.misses + 1,
     lastWrongSig: sig,
+    missedWords,
   };
 }
 

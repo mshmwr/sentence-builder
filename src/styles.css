@@ -27,10 +27,15 @@ html, body, #root { height: 100%; margin: 0; }
 .st-rack.shake{ animation:shake .42s; }
 @keyframes shake{ 0%,100%{transform:translateX(0)} 20%{transform:translateX(-6px)} 40%{transform:translateX(6px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
 .st-slot{ display:flex; }
+.st-slot.insert{ box-shadow:-3px 0 0 0 var(--jade); border-radius:2px; }
+.st-slot.insert-end{ box-shadow:3px 0 0 0 var(--jade); border-radius:2px; }
+/* .tile.st-drag-ghost: must out-rank .tile below, whose position:relative would
+   otherwise override position:fixed (equal specificity, later in file wins) */
+.tile.st-drag-ghost{ position:fixed; z-index:50; pointer-events:none; transform:translate(-50%,-70%) rotate(-2deg); opacity:.92; }
 .st-empty{ display:block; width:30px; height:42px; border-radius:9px; background:rgba(0,0,0,.22); box-shadow:inset 0 2px 4px rgba(0,0,0,.45); border:1px dashed rgba(255,255,255,.1); }
 .st-pool{ display:flex; flex-wrap:wrap; gap:10px; min-height:50px; margin-bottom:24px; align-content:flex-start; }
 .st-poolhint{ color:#9fc4b4; font-size:14px; align-self:center; }
-.tile{ font-family:inherit; font-size:17px; font-weight:600; color:var(--ink); background:linear-gradient(180deg,var(--bone1) 0%,var(--bone2) 100%); border:0; border-radius:10px; padding:10px 13px 12px; cursor:pointer; box-shadow:0 3px 0 var(--bone-edge), 0 7px 12px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.75); transition:transform .12s ease, box-shadow .12s ease, background .25s, color .25s; position:relative; }
+.tile{ font-family:inherit; font-size:17px; font-weight:600; color:var(--ink); background:linear-gradient(180deg,var(--bone1) 0%,var(--bone2) 100%); border:0; border-radius:10px; padding:10px 13px 12px; cursor:pointer; box-shadow:0 3px 0 var(--bone-edge), 0 7px 12px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.75); transition:transform .12s ease, box-shadow .12s ease, background .25s, color .25s; position:relative; touch-action:none; }
 .tile:hover{ transform:translateY(-3px); box-shadow:0 5px 0 var(--bone-edge), 0 12px 18px rgba(0,0,0,.36), inset 0 1px 0 rgba(255,255,255,.75); }
 .tile:active{ transform:translateY(1px); box-shadow:0 1px 0 var(--bone-edge), 0 4px 8px rgba(0,0,0,.3); }
 .tile:disabled{ cursor:default; }
@@ -38,6 +43,8 @@ html, body, #root { height: 100%; margin: 0; }
 .tile.bad{ background:linear-gradient(180deg,#f4d2c8,#e7b3a4); color:#7a2e1c; box-shadow:0 2px 0 #c08a78, 0 5px 9px rgba(0,0,0,.28); }
 .tile.ok{ background:linear-gradient(180deg,#7be0bf,#34b58c); color:#0c3a2c; box-shadow:0 2px 0 #1a7d5e, 0 6px 11px rgba(0,0,0,.3); animation:flip .5s ease; }
 .tile.locked{ opacity:.97; }
+/* after the state rules above so box-shadow:none wins for placed sources too */
+.tile.drag-src{ opacity:.35; box-shadow:none; outline:2px dashed rgba(255,255,255,.35); outline-offset:2px; }
 .tile .lock{ font-size:7px; color:var(--jade-deep); position:absolute; top:5px; right:6px; }
 @keyframes flip{ 0%{transform:rotateX(70deg)} 100%{transform:rotateX(0)} }
 .st-controls{ display:flex; gap:10px; }
@@ -58,6 +65,11 @@ html, body, #root { height: 100%; margin: 0; }
 @keyframes rise{ from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:translateY(0)} }
 .note-word{ font-weight:700; color:#0f2a22; background:var(--jade); padding:2px 9px; border-radius:6px; font-size:14px; white-space:nowrap; }
 .note-text{ font-size:14px; line-height:1.5; color:#E4E0D4; }
+.note-texts{ display:flex; flex-direction:column; gap:4px; flex:1; }
+.st-weak{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-bottom:6px; }
+.st-weak .st-chip{ margin-bottom:0; }
+.note-mark{ margin-left:auto; }
+.note.done{ opacity:.45; }
 /* ---- input screen ---- */
 .st-input-form{ display:flex; flex-direction:column; gap:14px; margin-top:8px; }
 .st-input-label{ font-size:14px; color:#9fc4b4; letter-spacing:.04em; }
@@ -67,6 +79,35 @@ html, body, #root { height: 100%; margin: 0; }
 .st-gen-error{ margin:0; font-size:13.5px; color:#e9b6a6; }
 .st-input-btn{ width:100%; padding:14px; font-size:16px; }
 .st-input-btn:disabled{ opacity:.4; cursor:default; filter:none; }
+
+/* ---- account / login / key / history ---- */
+.st-account{ display:flex; gap:14px; align-items:center; }
+.st-linkbtn{ background:none; border:0; padding:0; cursor:pointer; font-family:inherit; font-size:13px; color:#9fc4b4; letter-spacing:.04em; }
+.st-linkbtn:hover{ color:#dcefe6; text-decoration:underline; }
+.st-login{ display:flex; flex-direction:column; gap:18px; padding:40px 0; align-items:flex-start; }
+.st-login-text{ margin:0; font-size:15px; line-height:1.7; color:#c9dcd2; }
+.st-login-btn{ padding:14px 24px; font-size:16px; margin-left:0; }
+.st-key-input{ font-size:15px; resize:none; }
+.st-keyhelp{ margin:0; font-size:13px; line-height:1.6; color:#9fc4b4; }
+.st-keyhelp a{ color:#7be0bf; }
+.st-history{ display:flex; flex-direction:column; gap:10px; }
+.st-hitem{ background:rgba(0,0,0,.18); border:1px solid var(--felt-line); border-radius:12px; padding:12px 15px; }
+.st-hrow{ display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
+.st-hzh{ font-size:16px; color:#F4F0E4; font-family:"Songti TC","Noto Serif TC","PingFang TC",serif; }
+.st-hstars{ font-size:14px; color:#F4C95D; white-space:nowrap; }
+.st-hstars-off{ color:rgba(255,255,255,.18); }
+/* after .st-hstars so the smaller size wins (equal specificity) */
+.st-hstars-mini{ font-size:11px; }
+.st-hprev{ margin-top:6px; font-size:12px; color:rgba(255,255,255,.45); display:flex; gap:8px; align-items:baseline; }
+.st-hen{ font-size:14.5px; color:#a9cbbd; margin-top:4px; }
+.st-hmeta{ font-size:11.5px; color:rgba(255,255,255,.35); margin-top:6px; display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
+.st-hactions{ display:flex; gap:12px; }
+.st-memo{ font-size:13px; line-height:1.6; color:#c9dcd2; margin:6px 0 0; white-space:pre-wrap; border-left:2px solid rgba(255,255,255,.15); padding-left:8px; }
+.st-memo-edit{ margin-top:8px; display:flex; flex-direction:column; gap:8px; }
+.st-memo-area{ font-size:14px; }
+.st-result-memo{ margin-top:14px; display:flex; flex-direction:column; gap:8px; align-items:flex-start; }
+.st-result-memo .st-memo-edit{ margin-top:0; width:100%; }
+.st-back-row{ margin-top:18px; }
 
 /* ---- loading screen ---- */
 .st-loading{ display:flex; flex-direction:column; align-items:center; gap:18px; padding:60px 0; color:#9fc4b4; font-size:15px; }
