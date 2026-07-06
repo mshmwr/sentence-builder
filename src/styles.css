@@ -29,7 +29,9 @@ html, body, #root { height: 100%; margin: 0; }
 .st-slot{ display:flex; }
 .st-slot.insert{ box-shadow:-3px 0 0 0 var(--jade); border-radius:2px; }
 .st-slot.insert-end{ box-shadow:3px 0 0 0 var(--jade); border-radius:2px; }
-.st-drag-ghost{ position:fixed; z-index:50; pointer-events:none; transform:translate(-50%,-70%) rotate(-2deg); opacity:.92; }
+/* .tile.st-drag-ghost: must out-rank .tile below, whose position:relative would
+   otherwise override position:fixed (equal specificity, later in file wins) */
+.tile.st-drag-ghost{ position:fixed; z-index:50; pointer-events:none; transform:translate(-50%,-70%) rotate(-2deg); opacity:.92; }
 .st-empty{ display:block; width:30px; height:42px; border-radius:9px; background:rgba(0,0,0,.22); box-shadow:inset 0 2px 4px rgba(0,0,0,.45); border:1px dashed rgba(255,255,255,.1); }
 .st-pool{ display:flex; flex-wrap:wrap; gap:10px; min-height:50px; margin-bottom:24px; align-content:flex-start; }
 .st-poolhint{ color:#9fc4b4; font-size:14px; align-self:center; }
@@ -41,6 +43,8 @@ html, body, #root { height: 100%; margin: 0; }
 .tile.bad{ background:linear-gradient(180deg,#f4d2c8,#e7b3a4); color:#7a2e1c; box-shadow:0 2px 0 #c08a78, 0 5px 9px rgba(0,0,0,.28); }
 .tile.ok{ background:linear-gradient(180deg,#7be0bf,#34b58c); color:#0c3a2c; box-shadow:0 2px 0 #1a7d5e, 0 6px 11px rgba(0,0,0,.3); animation:flip .5s ease; }
 .tile.locked{ opacity:.97; }
+/* after the state rules above so box-shadow:none wins for placed sources too */
+.tile.drag-src{ opacity:.35; box-shadow:none; outline:2px dashed rgba(255,255,255,.35); outline-offset:2px; }
 .tile .lock{ font-size:7px; color:var(--jade-deep); position:absolute; top:5px; right:6px; }
 @keyframes flip{ 0%{transform:rotateX(70deg)} 100%{transform:rotateX(0)} }
 .st-controls{ display:flex; gap:10px; }
@@ -98,6 +102,8 @@ html, body, #root { height: 100%; margin: 0; }
 .st-memo{ font-size:13px; line-height:1.6; color:#c9dcd2; margin:6px 0 0; white-space:pre-wrap; border-left:2px solid rgba(255,255,255,.15); padding-left:8px; }
 .st-memo-edit{ margin-top:8px; display:flex; flex-direction:column; gap:8px; }
 .st-memo-area{ font-size:14px; }
+.st-result-memo{ margin-top:14px; display:flex; flex-direction:column; gap:8px; align-items:flex-start; }
+.st-result-memo .st-memo-edit{ margin-top:0; width:100%; }
 .st-back-row{ margin-top:18px; }
 
 /* ---- loading screen ---- */

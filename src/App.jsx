@@ -71,6 +71,7 @@ export default function App() {
   const [weakness, setWeakness] = useState([]); // [{cat, count}] desc — from missedWords
   const [memoEdit, setMemoEdit] = useState(null); // {id, draft} — one memo edited at a time
   const [memoError, setMemoError] = useState("");
+  const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -105,6 +106,8 @@ export default function App() {
       } else {
         setGeminiKey(readLocalKey());
         setKeyLoaded(true);
+        setLastHist(null); // doc id belongs to the account that just left —
+        setMemoEdit(null); // a stale one would write memos into the next account
         setMode((m) => (m === "history" || m === "notes" ? "input" : m)); // both are account-only
       }
     });
@@ -162,12 +165,36 @@ export default function App() {
     setMemoError("");
     try {
       await saveMemo(user.uid, id, memo);
-      setHistory((hs) => hs.map((h) => (h.id === id ? { ...h, memo } : h)));
+      setHistory((hs) => hs && hs.map((h) => (h.id === id ? { ...h, memo } : h)));
+      setLastHist((lh) => (lh && lh.id === id ? { ...lh, memo } : lh));
       setMemoEdit(null);
     } catch (err) {
       setMemoError(err.message); // keep the editor open so the draft isn't lost
     }
   };
+
+  // shared by the history screen and the on-completion result — memoEdit holds id + draft
+  const memoEditor = () => (
+    <div className="st-memo-edit">
+      <textarea
+        className="st-input-area st-memo-area"
+        rows={2}
+        value={memoEdit.draft}
+        onChange={(e) => setMemoEdit({ id: memoEdit.id, draft: e.target.value })}
+        placeholder="寫點什麼提醒自己…"
+        autoFocus
+      />
+      {memoError && <p className="st-gen-error">{memoError}</p>}
+      <div className="st-controls">
+        <button className="btn ghost" onClick={() => setMemoEdit(null)}>
+          取消
+        </button>
+        <button className="btn solid" onClick={onSaveMemo}>
+          儲存
+        </button>
+      </div>
+    </div>
+  );
 
   const onOpenNotes = async () => {
     setMode("notes");
@@ -234,6 +261,8 @@ export default function App() {
       setGame(newGame(generated));
       setShake(false);
       setNudge("");
+      setLastHist(null);
+      setMemoEdit(null);
       setMode("playing");
     } catch (err) {
       setGenError(err.message);
@@ -246,13 +275,21 @@ export default function App() {
     try {
       p = JSON.parse(h.puzzle);
     } catch {
-      return; // corrupt stored record — ignore the tap
+      // old record without a stored puzzle (or corrupt): rebuild a bare one
+      // from the sentence itself — no distractors/notes to recover
+      p = null;
+    }
+    if (!p) {
+      if (!h.en) return;
+      p = { theme: "複習", zh: h.zh, accepted: [h.en.split(" ")], distractors: [], notes: [] };
     }
     setPuzzle(p);
     setGame(newGame(p));
     setShake(false);
     setNudge("");
     setGenError("");
+    setLastHist(null);
+    setMemoEdit(null);
     setMode("playing");
   };
 
@@ -262,6 +299,8 @@ export default function App() {
     setGame(null);
     setNudge("");
     setGenError("");
+    setLastHist(null);
+    setMemoEdit(null);
   };
 
   const onPlace = (id) => {
@@ -292,7 +331,9 @@ export default function App() {
           misses: ng.misses,
           missedWords: ng.missedWords, // flat string array — for the error-book stats
           puzzle: JSON.stringify(puzzle), // string, not object — Firestore rejects nested arrays (accepted)
-        }).catch(() => {}); // history write failing must not block the game
+        })
+          .then((ref) => setLastHist({ id: ref.id, memo: "" })) // enables the on-completion memo
+          .catch(() => {}); // history write failing must not block the game
       }
     } else if (ng.wrongIdx.length) {
       setShake(true);
@@ -361,6 +402,7 @@ export default function App() {
       info.started = true;
     }
     setDrag({
+      id: info.id, // marks the source tile so it can render dimmed
       word: info.word,
       x: e.clientX,
       y: e.clientY,
@@ -453,29 +495,7 @@ export default function App() {
                     </span>
                   </div>
                   <div className="st-hen">{h.en}</div>
-                  {memoEdit?.id === h.id ? (
-                    <div className="st-memo-edit">
-                      <textarea
-                        className="st-input-area st-memo-area"
-                        rows={2}
-                        value={memoEdit.draft}
-                        onChange={(e) => setMemoEdit({ id: h.id, draft: e.target.value })}
-                        placeholder="寫點什麼提醒自己…"
-                        autoFocus
-                      />
-                      {memoError && <p className="st-gen-error">{memoError}</p>}
-                      <div className="st-controls">
-                        <button className="btn ghost" onClick={() => setMemoEdit(null)}>
-                          取消
-                        </button>
-                        <button className="btn solid" onClick={onSaveMemo}>
-                          儲存
-                        </button>
-                      </div>
-                    </div>
-                  ) : (
-                    h.memo && <p className="st-memo">{h.memo}</p>
-                  )}
+                  {memoEdit?.id === h.id ? memoEditor() : h.memo && <p className="st-memo">{h.memo}</p>}
                   <div className="st-hmeta">
                     <span>
                       {h.createdAt?.toDate ? h.createdAt.toDate().toLocaleString() : ""}
@@ -490,7 +510,7 @@ export default function App() {
                       >
                         {h.memo ? "改備註" : "備註"}
                       </button>
-                      {h.puzzle && (
+                      {(h.puzzle || h.en) && (
                         <button className="st-linkbtn" onClick={() => onReplay(h)}>
                           再拼一次
                         </button>
@@ -713,7 +733,8 @@ export default function App() {
                       "tile placed" +
                       (correct ? " ok" : "") +
                       (isWrong ? " bad" : "") +
-                      (locked ? " locked" : "")
+                      (locked ? " locked" : "") +
+                      (drag && drag.id === t.id ? " drag-src" : "")
                     }
                     onClick={() => {
                       if (suppressClick.current) {
@@ -747,7 +768,7 @@ export default function App() {
             orderedPool.map((t) => (
               <button
                 key={t.id}
-                className="tile"
+                className={"tile" + (drag && drag.id === t.id ? " drag-src" : "")}
                 onClick={() => {
                   if (suppressClick.current) {
                     suppressClick.current = false;
@@ -822,6 +843,26 @@ export default function App() {
                 </div>
               ))}
             </div>
+            {user && lastHist && (
+              <div className="st-result-memo">
+                {memoEdit?.id === lastHist.id ? (
+                  memoEditor()
+                ) : (
+                  <>
+                    {lastHist.memo && <p className="st-memo">{lastHist.memo}</p>}
+                    <button
+                      className="st-linkbtn"
+                      onClick={() => {
+                        setMemoError("");
+                        setMemoEdit({ id: lastHist.id, draft: lastHist.memo });
+                      }}
+                    >
+                      {lastHist.memo ? "改備註" : "寫個備註"}
+                    </button>
+                  </>
+                )}
+              </div>
+            )}
           </div>
         )}
       </div>
