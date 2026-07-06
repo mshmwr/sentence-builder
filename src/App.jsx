@@ -37,6 +37,24 @@ function readLocalKey() {
   }
 }
 
+// collapse replays of the same sentence into one card: history is
+// newest-first, so the first record seen per zh+en is the latest attempt
+function groupHistory(history) {
+  const groups = [];
+  const byKey = new Map();
+  for (const h of history) {
+    const k = h.zh + "\n" + h.en;
+    const g = byKey.get(k);
+    if (g) g.attempts.push(h);
+    else {
+      const ng = { latest: h, attempts: [h] };
+      byKey.set(k, ng);
+      groups.push(ng);
+    }
+  }
+  return groups;
+}
+
 function Head({ children }) {
   return (
     <header className="st-head">
@@ -485,7 +503,7 @@ export default function App() {
             <p className="st-login-text">還沒有紀錄 —— 拼出第一句吧。</p>
           ) : (
             <div className="st-history">
-              {history.map((h) => (
+              {groupHistory(history).map(({ latest: h, attempts }) => (
                 <div className="st-hitem" key={h.id}>
                   <div className="st-hrow">
                     <span className="st-hzh">{h.zh}</span>
@@ -495,7 +513,21 @@ export default function App() {
                     </span>
                   </div>
                   <div className="st-hen">{h.en}</div>
+                  {attempts.length > 1 && (
+                    <div className="st-hprev">
+                      拼過 {attempts.length} 次
+                      {attempts.slice(1).map((a) => (
+                        <span className="st-hstars st-hstars-mini" key={a.id}>
+                          {"★".repeat(a.stars)}
+                          <span className="st-hstars-off">{"★".repeat(3 - a.stars)}</span>
+                        </span>
+                      ))}
+                    </div>
+                  )}
                   {memoEdit?.id === h.id ? memoEditor() : h.memo && <p className="st-memo">{h.memo}</p>}
+                  {attempts.slice(1).map(
+                    (a) => a.memo && <p className="st-memo" key={a.id}>{a.memo}</p>
+                  )}
                   <div className="st-hmeta">
                     <span>
                       {h.createdAt?.toDate ? h.createdAt.toDate().toLocaleString() : ""}

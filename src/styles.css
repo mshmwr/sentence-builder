@@ -96,6 +96,9 @@ html, body, #root { height: 100%; margin: 0; }
 .st-hzh{ font-size:16px; color:#F4F0E4; font-family:"Songti TC","Noto Serif TC","PingFang TC",serif; }
 .st-hstars{ font-size:14px; color:#F4C95D; white-space:nowrap; }
 .st-hstars-off{ color:rgba(255,255,255,.18); }
+/* after .st-hstars so the smaller size wins (equal specificity) */
+.st-hstars-mini{ font-size:11px; }
+.st-hprev{ margin-top:6px; font-size:12px; color:rgba(255,255,255,.45); display:flex; gap:8px; align-items:baseline; }
 .st-hen{ font-size:14.5px; color:#a9cbbd; margin-top:4px; }
 .st-hmeta{ font-size:11.5px; color:rgba(255,255,255,.35); margin-top:6px; display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
 .st-hactions{ display:flex; gap:12px; }
