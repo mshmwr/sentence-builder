@@ -11,6 +11,7 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
+  signInWithRedirect,
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
@@ -41,7 +42,25 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 export const watchAuth = (cb) => onAuthStateChanged(auth, cb);
-export const loginWithGoogle = () => signInWithPopup(auth, new GoogleAuthProvider());
+export const loginWithGoogle = async () => {
+  const provider = new GoogleAuthProvider();
+  try {
+    await signInWithPopup(auth, provider);
+  } catch (err) {
+    // Popup killed by browser (blocker / mobile Safari / in-app browser) →
+    // fall back to full-page redirect. onAuthStateChanged picks up the
+    // session on reload, so no extra wiring needed.
+    if (
+      err.code === "auth/popup-blocked" ||
+      err.code === "auth/cancelled-popup-request" ||
+      err.code === "auth/operation-not-supported-in-this-environment"
+    ) {
+      await signInWithRedirect(auth, provider);
+    } else {
+      throw err; // popup-closed-by-user etc. → surface to caller
+    }
+  }
+};
 export const logout = () => signOut(auth);
 
 export async function loadGeminiKey(uid) {
