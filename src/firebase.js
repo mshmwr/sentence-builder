@@ -31,7 +31,11 @@ import {
 
 const app = initializeApp({
   apiKey: "AIzaSyDsICa8oTyixnXvoCxQ4HOvkEuTpPM1_SY",
-  authDomain: "pinju-web.firebaseapp.com",
+  // Same-origin as the app: /__/auth/** is reverse-proxied to
+  // pinju-web.firebaseapp.com via vercel.json. Cross-domain authDomain makes
+  // Chrome treat the redirect credential as third-party storage and drop the
+  // session; serving the auth handler same-origin fixes popup + redirect.
+  authDomain: "sentence-builder-steel.vercel.app",
   projectId: "pinju-web",
   storageBucket: "pinju-web.firebasestorage.app",
   messagingSenderId: "888028787625",
