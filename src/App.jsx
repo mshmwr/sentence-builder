@@ -12,7 +12,8 @@ import {
   hint,
 } from "./engine.js";
 import { shuffle } from "./puzzles.js";
-import { generatePuzzle } from "./generate.js";
+import { generatePuzzle, generatePuzzleFromEnglish } from "./generate.js";
+import { fetchDailySentences } from "./dailySentences.js";
 import {
   watchAuth,
   loginWithGoogle,
@@ -77,6 +78,9 @@ export default function App() {
   const [keySaving, setKeySaving] = useState(false);
 
   const [mode, setMode] = useState("input"); // "input" | "loading" | "playing" | "key" | "history" | "notes"
+  const [sourceTab, setSourceTab] = useState("daily"); // "daily" (CNN picks) | "custom" (type your own)
+  const [dailyData, setDailyData] = useState(null); // null = loading; {date, sentences}
+  const [dailyError, setDailyError] = useState("");
   const [inputZh, setInputZh] = useState("");
   const [puzzle, setPuzzle] = useState(null);
   const [game, setGame] = useState(null);
@@ -129,6 +133,12 @@ export default function App() {
         setMode((m) => (m === "history" || m === "notes" ? "input" : m)); // both are account-only
       }
     });
+  }, []);
+
+  useEffect(() => {
+    fetchDailySentences()
+      .then(setDailyData)
+      .catch((err) => setDailyError(err.message));
   }, []);
 
   const order = useMemo(
@@ -275,6 +285,24 @@ export default function App() {
     setMode("loading");
     try {
       const generated = await generatePuzzle(zh, geminiKey);
+      setPuzzle(generated);
+      setGame(newGame(generated));
+      setShake(false);
+      setNudge("");
+      setLastHist(null);
+      setMemoEdit(null);
+      setMode("playing");
+    } catch (err) {
+      setGenError(err.message);
+      setMode("input");
+    }
+  };
+
+  const onPickDaily = async (s) => {
+    setGenError("");
+    setMode("loading");
+    try {
+      const generated = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
       setPuzzle(generated);
       setGame(newGame(generated));
       setShake(false);
@@ -684,29 +712,77 @@ export default function App() {
       <div className="st-root">
         <div className="st-board">
           <Head>{accountBar}</Head>
-          <form className="st-input-form" onSubmit={onSubmit}>
-            <label className="st-input-label" htmlFor="zh-input">
-              輸入一個中文句子
-            </label>
-            <textarea
-              id="zh-input"
-              className="st-input-area"
-              value={inputZh}
-              onChange={(e) => setInputZh(e.target.value)}
-              placeholder="例：我昨天忘記帶雨傘。"
-              rows={3}
-              autoFocus
-            />
-            {authError && <p className="st-gen-error">{authError}</p>}
-            {genError && <p className="st-gen-error">{genError}</p>}
+
+          <div className="st-tabs">
             <button
-              type="submit"
-              className="btn solid st-input-btn"
-              disabled={!inputZh.trim()}
+              type="button"
+              className={"st-tab" + (sourceTab === "daily" ? " active" : "")}
+              onClick={() => setSourceTab("daily")}
             >
-              生成題目
+              今日例句
             </button>
-          </form>
+            <button
+              type="button"
+              className={"st-tab" + (sourceTab === "custom" ? " active" : "")}
+              onClick={() => setSourceTab("custom")}
+            >
+              自訂輸入
+            </button>
+          </div>
+
+          {sourceTab === "daily" ? (
+            <div className="st-daily">
+              {genError && <p className="st-gen-error">{genError}</p>}
+              {dailyError && <p className="st-gen-error">{dailyError}</p>}
+              {!dailyError && !dailyData && (
+                <div className="st-loading">
+                  <span className="st-spinner" />
+                </div>
+              )}
+              {dailyData && (
+                <>
+                  <p className="st-daily-date">{dailyData.date} · CNN 頭條</p>
+                  <div className="st-daily-list">
+                    {dailyData.sentences.map((s, i) => (
+                      <button
+                        type="button"
+                        key={i}
+                        className="st-daily-card"
+                        onClick={() => onPickDaily(s)}
+                      >
+                        <span className="st-daily-en">{s.en}</span>
+                        <span className="st-daily-go">生成題目 →</span>
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
+          ) : (
+            <form className="st-input-form" onSubmit={onSubmit}>
+              <label className="st-input-label" htmlFor="zh-input">
+                輸入一個中文句子
+              </label>
+              <textarea
+                id="zh-input"
+                className="st-input-area"
+                value={inputZh}
+                onChange={(e) => setInputZh(e.target.value)}
+                placeholder="例：我昨天忘記帶雨傘。"
+                rows={3}
+                autoFocus
+              />
+              {authError && <p className="st-gen-error">{authError}</p>}
+              {genError && <p className="st-gen-error">{genError}</p>}
+              <button
+                type="submit"
+                className="btn solid st-input-btn"
+                disabled={!inputZh.trim()}
+              >
+                生成題目
+              </button>
+            </form>
+          )}
         </div>
       </div>
     );
@@ -743,6 +819,11 @@ export default function App() {
         <div className="st-prompt">
           <div className="st-chip">{puzzle.theme}</div>
           <p className="st-zh">{puzzle.zh}</p>
+          {puzzle.sourceUrl && (
+            <a className="st-source-link" href={puzzle.sourceUrl} target="_blank" rel="noreferrer">
+              CNN 原文 →
+            </a>
+          )}
         </div>
 
         <div className={"st-rack" + (shake ? " shake" : "")} ref={rackRef}>

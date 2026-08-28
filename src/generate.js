@@ -22,15 +22,40 @@ RULES:
 5. Every note's category is exactly one of: 時態, 冠詞, 介係詞, 單複數, 其他.
 6. Return ONLY the JSON. Nothing else.`;
 
-async function callModel(model, zh, apiKey) {
+// Source sentence is real English (a news headline) rather than the user's
+// own Chinese — so the model must produce the Chinese prompt too, and may
+// need to lightly repair headline-ese (dropped verbs, fragments) into a
+// complete sentence before tokenizing it.
+const SYSTEM_EN = `You are an English grammar puzzle generator for Chinese native speakers.
+
+You will be given a real English sentence taken from a news headline.
+
+TASK:
+1. Translate it into natural Traditional Chinese — this becomes the puzzle prompt the learner reads.
+2. If the sentence is headline-style (dropped verbs/articles, a fragment, ALL CAPS), lightly rewrite it into a complete, natural, grammatical English sentence with the same meaning, no longer than about 14 words. Otherwise use it as-is.
+3. Break that English sentence into individual word tokens for a tile-assembly puzzle.
+
+Output ONLY a JSON object (no markdown, no commentary):
+{"zh":"Traditional Chinese translation","accepted":[["EnglishWord1","EnglishWord2",...]],"distractors":["WrongWord1"],"notes":[{"word":"EnglishWord","text":"Traditional Chinese grammar note","category":"時態"}]}
+
+RULES:
+1. zh = Traditional Chinese only.
+2. accepted = ENGLISH word tokens. NOT Chinese.
+3. All accepted variants = permutations of the SAME English token set.
+4. distractors = 3-6 plausible-but-wrong English words.
+5. notes = 3-5 grammar tips in Traditional Chinese.
+6. Every note's category is exactly one of: 時態, 冠詞, 介係詞, 單複數, 其他.
+7. Return ONLY the JSON. Nothing else.`;
+
+async function callModel(system, model, userText, apiKey) {
   return fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
       body: JSON.stringify({
-        systemInstruction: { parts: [{ text: SYSTEM }] },
-        contents: [{ role: "user", parts: [{ text: `Chinese sentence: ${zh}` }] }],
+        systemInstruction: { parts: [{ text: system }] },
+        contents: [{ role: "user", parts: [{ text: userText }] }],
         generationConfig: {
           responseMimeType: "application/json",
           temperature: 0.3,
@@ -42,13 +67,15 @@ async function callModel(model, zh, apiKey) {
   );
 }
 
-export async function generatePuzzle(zh, apiKey) {
-  let res = await callModel("gemini-2.5-flash", zh, apiKey);
+async function runPuzzleModel(system, userText, apiKey) {
+  let res = await callModel(system, "gemini-2.5-flash", userText, apiKey);
 
   if (res.status === 429 || res.status === 503) {
     // capacity problem on Google's side ("high demand") — retry once on the
     // lighter model instead of bouncing the user
-    const fallback = await callModel("gemini-2.5-flash-lite", zh, apiKey).catch(() => null);
+    const fallback = await callModel(system, "gemini-2.5-flash-lite", userText, apiKey).catch(
+      () => null
+    );
     if (fallback?.ok) res = fallback;
     // fallback failed too: keep the primary response so the error the user
     // sees describes the main model, not the retry
@@ -82,5 +109,20 @@ export async function generatePuzzle(zh, apiKey) {
   puzzle.distractors = Array.isArray(puzzle.distractors) ? puzzle.distractors : [];
   puzzle.notes = Array.isArray(puzzle.notes) ? puzzle.notes : [];
 
+  return puzzle;
+}
+
+export async function generatePuzzle(zh, apiKey) {
+  const puzzle = await runPuzzleModel(SYSTEM, `Chinese sentence: ${zh}`, apiKey);
   return { zh, theme: "自訂", ...puzzle };
+}
+
+// sourceEn/sourceUrl are provenance for the "今日新聞" tab — kept on the
+// puzzle so the UI can link back to the original CNN article.
+export async function generatePuzzleFromEnglish(en, apiKey, sourceUrl) {
+  const puzzle = await runPuzzleModel(SYSTEM_EN, `English sentence: ${en}`, apiKey);
+  if (!puzzle.zh || typeof puzzle.zh !== "string") {
+    throw new Error("題目生成失敗（缺少中文題目），請再試一次。");
+  }
+  return { theme: "今日新聞", sourceEn: en, sourceUrl, ...puzzle };
 }
