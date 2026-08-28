@@ -79,6 +79,22 @@ html, body, #root { height: 100%; margin: 0; }
 .st-gen-error{ margin:0; font-size:13.5px; color:#e9b6a6; }
 .st-input-btn{ width:100%; padding:14px; font-size:16px; }
 .st-input-btn:disabled{ opacity:.4; cursor:default; filter:none; }
+.st-source-link{ display:inline-block; margin-top:10px; font-size:12.5px; color:#9fc4b4; text-decoration:none; }
+.st-source-link:hover{ color:#dcefe6; text-decoration:underline; }
+
+/* ---- source tabs (今日例句 / 自訂輸入) ---- */
+.st-tabs{ display:flex; gap:8px; margin-bottom:16px; }
+.st-tab{ flex:1; font-family:inherit; font-size:14px; font-weight:600; color:#9fc4b4; background:rgba(0,0,0,.16); border:1px solid var(--felt-line); border-radius:11px; padding:10px 14px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
+.st-tab:hover{ color:#dcefe6; }
+.st-tab.active{ color:#08291f; background:var(--jade); border-color:var(--jade-deep); }
+.st-daily{ display:flex; flex-direction:column; gap:12px; margin-top:8px; }
+.st-daily-date{ margin:0; font-size:12.5px; color:#9fc4b4; letter-spacing:.04em; }
+.st-daily-list{ display:flex; flex-direction:column; gap:10px; }
+.st-daily-card{ display:flex; flex-direction:column; align-items:flex-start; gap:8px; text-align:left; font-family:inherit; background:rgba(0,0,0,.18); border:1px solid var(--felt-line); border-radius:14px; padding:16px 18px; cursor:pointer; transition:background .2s, border-color .2s, transform .12s; }
+.st-daily-card:hover{ background:rgba(0,0,0,.26); border-color:var(--jade); }
+.st-daily-card:active{ transform:translateY(1px); }
+.st-daily-en{ font-size:16px; line-height:1.5; color:#F4F0E4; }
+.st-daily-go{ font-size:13px; color:var(--jade); font-weight:600; align-self:flex-end; }
 
 /* ---- account / login / key / history ---- */
 .st-account{ display:flex; gap:14px; align-items:center; }
