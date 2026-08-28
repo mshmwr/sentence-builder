@@ -24,10 +24,18 @@ function normalizeText(s) {
   return s.replace(/\s+/g, " ").trim();
 }
 
+// leading UI labels CNN concats onto card text, e.g. "Video The wobbliest royal
+// palace 2:25" (label + headline + duration) or "Gallery ..." — these aren't
+// sentences, they're card chrome, so anything shaped like it gets rejected.
+const CARD_LABEL_RE = /^(Video|Gallery|Photos?|Live|Watch|Analysis|Opinion|Ad Feature Video)\b/i;
+const DURATION_RE = /\b\d{1,2}:\d{2}\b/; // video runtime, e.g. "2:25"
+
 function isSentenceLike(text) {
   const words = text.split(" ").filter(Boolean);
   if (words.length < 6 || words.length > 40) return false;
   if (text === text.toUpperCase()) return false; // nav/label chrome, e.g. "LIVE UPDATES"
+  if (CARD_LABEL_RE.test(text)) return false;
+  if (DURATION_RE.test(text)) return false;
   return true;
 }
 
