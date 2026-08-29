@@ -24,11 +24,14 @@ function normalizeText(s) {
   return s.replace(/\s+/g, " ").trim();
 }
 
-// leading UI labels CNN concats onto card text, e.g. "Video The wobbliest royal
-// palace 2:25" (label + headline + duration) or "Gallery ..." — these aren't
-// sentences, they're card chrome, so anything shaped like it gets rejected.
-const CARD_LABEL_RE = /^(Video|Gallery|Photos?|Live|Watch|Analysis|Opinion|Ad Feature Video)\b/i;
+// leading UI labels CNN concats onto card text with no space, e.g. "Video The
+// wobbliest royal palace 2:25" or "Analysisby David Goldman ..." (byline glued
+// straight onto the "Analysis" badge) — card chrome, not a sentence, so no \b
+// is required: the junk word often runs directly into the next one.
+const CARD_LABEL_RE = /^(Video|Gallery|Photos?|Live|Watch|Analysis|Opinion|Interactive|Ad Feature Video)/i;
 const DURATION_RE = /\b\d{1,2}:\d{2}\b/; // video runtime, e.g. "2:25"
+// trailing UI chrome CNN appends to live-blog headlines, e.g. "... Show all"
+const TRAILING_JUNK_RE = /\s+Show all$/i;
 
 function isSentenceLike(text) {
   const words = text.split(" ").filter(Boolean);
@@ -69,7 +72,7 @@ function extractCandidates(html) {
     if (!ARTICLE_PATH_RE.test(path)) return;
     if (seenUrls.has(path)) return; // same article linked twice (image + headline)
 
-    const text = normalizeText($(el).text());
+    const text = normalizeText($(el).text()).replace(TRAILING_JUNK_RE, "");
     if (!isSentenceLike(text)) return;
     if (seenText.has(text.toLowerCase())) return;
 
