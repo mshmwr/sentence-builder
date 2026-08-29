@@ -94,7 +94,9 @@ html, body, #root { height: 100%; margin: 0; }
 .st-daily-card:hover{ background:rgba(0,0,0,.26); border-color:var(--jade); }
 .st-daily-card:active{ transform:translateY(1px); }
 .st-daily-en{ font-size:16px; line-height:1.5; color:#F4F0E4; }
+.st-daily-zh{ font-size:14px; line-height:1.5; color:#a9cbbd; font-family:"Songti TC","Noto Serif TC","PingFang TC",serif; }
 .st-daily-go{ font-size:13px; color:var(--jade); font-weight:600; align-self:flex-end; }
+.st-daily-card:disabled{ cursor:default; opacity:.75; }
 
 /* ---- account / login / key / history ---- */
 .st-account{ display:flex; gap:14px; align-items:center; }
