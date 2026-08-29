@@ -81,6 +81,10 @@ function extractCandidates(html) {
   return candidates;
 }
 
+// default 3 shown, "load more" reveals more in batches of 3 from this same
+// pool — no re-scraping, it's all fetched once per day up front
+const POOL_SIZE = 12;
+
 async function main() {
   const html = await fetchHomepage();
   const candidates = extractCandidates(html);
@@ -91,7 +95,7 @@ async function main() {
     );
   }
 
-  const sentences = candidates.slice(0, 3);
+  const sentences = candidates.slice(0, POOL_SIZE);
   const today = new Date().toISOString().slice(0, 10);
   const payload = {
     date: today,

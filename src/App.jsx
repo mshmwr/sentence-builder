@@ -84,6 +84,7 @@ export default function App() {
   const [dailyData, setDailyData] = useState(null); // null = loading; {date, sentences}
   const [dailyError, setDailyError] = useState("");
   const [dailyPuzzles, setDailyPuzzles] = useState({}); // index -> puzzle | "pending" | "error"
+  const [dailyVisibleCount, setDailyVisibleCount] = useState(3); // "載入更多" grows this by 3
   const [inputZh, setInputZh] = useState("");
   const [puzzle, setPuzzle] = useState(null);
   const [game, setGame] = useState(null);
@@ -144,51 +145,89 @@ export default function App() {
       .catch((err) => setDailyError(err.message));
   }, []);
 
-  // eagerly translate + tile all 3 CNN sentences so the card already shows
-  // 中文 and picking one jumps straight to "playing" — no per-click wait.
-  // First checks the shared Firestore cache for the day (translated once,
-  // read by everyone — no need to burn Gemini quota on every reload); only
-  // falls back to generating (and then seeding that cache) on a miss.
-  // dailyCachePromise memoizes the one cache read so every effect re-run
-  // (e.g. once geminiKey arrives) awaits the same lookup instead of
-  // re-querying; dailyGenStarted guards the generate-fallback the same way.
+  // load whatever's already cached for today (see saveDailyPuzzles below) as
+  // soon as the sentence list is known — dailyCachePromise memoizes the one
+  // read so it never re-queries, no matter how many times this effect or the
+  // generate-effect below re-fires.
   const dailyCachePromise = useRef(null);
-  const dailyGenStarted = useRef(false);
   useEffect(() => {
     if (!dailyData) return;
     if (!dailyCachePromise.current) {
       dailyCachePromise.current = loadDailyPuzzles(dailyData.date).catch(() => null);
     }
     dailyCachePromise.current.then((cached) => {
-      if (cached && cached.length === dailyData.sentences.length) {
-        const next = {};
-        cached.forEach((p, i) => (next[i] = p));
-        setDailyPuzzles(next);
-        return;
-      }
-      if (!geminiKey || dailyGenStarted.current) return;
-      dailyGenStarted.current = true;
-      const results = new Array(dailyData.sentences.length);
-      Promise.all(
-        dailyData.sentences.map(async (s, i) => {
-          setDailyPuzzles((prev) => ({ ...prev, [i]: "pending" }));
-          try {
-            const p = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
-            results[i] = p;
-            setDailyPuzzles((prev) => ({ ...prev, [i]: p }));
-          } catch {
-            setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
-          }
-        })
-      ).then(() => {
-        // seed the shared cache so the next visitor (or reload) skips
-        // regenerating entirely — requires login per firestore.rules
-        if (user && results.every(Boolean)) {
-          saveDailyPuzzles(dailyData.date, results).catch(() => {});
-        }
+      if (!cached) return;
+      setDailyPuzzles((prev) => {
+        const next = { ...prev };
+        cached.forEach((p, i) => {
+          if (p && next[i] === undefined) next[i] = p;
+        });
+        return next;
       });
     });
-  }, [dailyData, geminiKey, user]);
+  }, [dailyData]);
+
+  // eagerly translate + tile whichever sentences are currently visible (the
+  // first 3, then +3 each time "載入更多" grows dailyVisibleCount) so the
+  // card already shows 中文 and picking one jumps straight into "playing" —
+  // no per-click wait. Skips anything the cache effect above already filled
+  // in. dailyPuzzlesRef mirrors state so this reads live data without
+  // needing dailyPuzzles itself in the dependency array (that would re-fire
+  // on every single card's own update); dailyGenerating is the per-index
+  // in-flight guard StrictMode's double-invoke needs.
+  const dailyPuzzlesRef = useRef({});
+  useEffect(() => {
+    dailyPuzzlesRef.current = dailyPuzzles;
+  }, [dailyPuzzles]);
+  const dailyGenerating = useRef(new Set());
+  useEffect(() => {
+    if (!dailyData || !geminiKey) return;
+    (dailyCachePromise.current || Promise.resolve(null)).then(() => {
+      const limit = Math.min(dailyVisibleCount, dailyData.sentences.length);
+      const need = [];
+      for (let i = 0; i < limit; i++) {
+        if (dailyPuzzlesRef.current[i] === undefined && !dailyGenerating.current.has(i)) {
+          need.push(i);
+        }
+      }
+      if (need.length === 0) return;
+      need.forEach((i) => dailyGenerating.current.add(i));
+      setDailyPuzzles((prev) => {
+        const next = { ...prev };
+        need.forEach((i) => (next[i] = "pending"));
+        return next;
+      });
+      Promise.all(
+        need.map(async (i) => {
+          const s = dailyData.sentences[i];
+          try {
+            const p = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
+            setDailyPuzzles((prev) => ({ ...prev, [i]: p }));
+            return [i, p];
+          } catch {
+            setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
+            return [i, null];
+          } finally {
+            dailyGenerating.current.delete(i);
+          }
+        })
+      ).then((entries) => {
+        // seed the shared cache so the next visitor (or reload) skips
+        // regenerating these — requires login per firestore.rules. Merges
+        // with whatever this session already has rather than the fetched
+        // snapshot, so an earlier partial cache isn't clobbered.
+        const fresh = entries.filter(([, p]) => p);
+        if (!user || fresh.length === 0) return;
+        const merged = [];
+        for (let i = 0; i < dailyData.sentences.length; i++) {
+          const existing = dailyPuzzlesRef.current[i];
+          if (existing && existing !== "pending" && existing !== "error") merged[i] = existing;
+        }
+        fresh.forEach(([i, p]) => (merged[i] = p));
+        saveDailyPuzzles(dailyData.date, merged).catch(() => {});
+      });
+    });
+  }, [dailyData, geminiKey, dailyVisibleCount, user]);
 
   const order = useMemo(
     () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
@@ -806,7 +845,7 @@ export default function App() {
                 <>
                   <p className="st-daily-date">{dailyData.date} · CNN 頭條</p>
                   <div className="st-daily-list">
-                    {dailyData.sentences.map((s, i) => {
+                    {dailyData.sentences.slice(0, dailyVisibleCount).map((s, i) => {
                       const p = dailyPuzzles[i];
                       const ready = p && p !== "pending" && p !== "error";
                       return (
@@ -819,17 +858,33 @@ export default function App() {
                         >
                           <span className="st-daily-en">{s.en}</span>
                           {ready && <span className="st-daily-zh">{p.zh}</span>}
-                          <span className="st-daily-go">
-                            {ready
-                              ? "開始拼句 →"
-                              : p === "error"
-                              ? "生成失敗，點一下重試 →"
-                              : "翻譯中…"}
-                          </span>
+                          <div className="st-daily-foot">
+                            <span className="st-daily-card-date">{dailyData.date}</span>
+                            <span className="st-daily-go">
+                              {ready
+                                ? "開始拼句 →"
+                                : p === "error"
+                                ? "生成失敗，點一下重試 →"
+                                : "翻譯中…"}
+                            </span>
+                          </div>
                         </button>
                       );
                     })}
                   </div>
+                  {dailyVisibleCount < dailyData.sentences.length && (
+                    <button
+                      type="button"
+                      className="btn ghost st-daily-more"
+                      onClick={() =>
+                        setDailyVisibleCount((c) =>
+                          Math.min(c + 3, dailyData.sentences.length)
+                        )
+                      }
+                    >
+                      載入更多 +3
+                    </button>
+                  )}
                 </>
               )}
             </div>
