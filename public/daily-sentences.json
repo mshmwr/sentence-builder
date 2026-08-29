@@ -1,15 +1,11 @@
 {
   "date": "2026-08-29",
-  "fetchedAt": "2026-08-29T19:33:35.618Z",
+  "fetchedAt": "2026-08-29T19:38:10.470Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
       "en": "Russian attack on Ukrainian ammunition warehouse triggers waves of blasts, killing 37",
       "url": "https://edition.cnn.com/2026/08/29/europe/ukraine-kyiv-russia-war-attack-intl"
-    },
-    {
-      "en": "Analysisby David Goldman Trump found an unusual solution to his Venezuela problem",
-      "url": "https://edition.cnn.com/2026/08/29/business/venezuela-oil-deal-trump"
     },
     {
       "en": "Trump administration deported Iranian woman to a country she has never been to",
@@ -20,16 +16,12 @@
       "url": "https://edition.cnn.com/2026/08/29/us/iran-war-iranian-americans-six-months-hnk"
     },
     {
-      "en": "Death toll rises and thousands still missing after floods in Nepal and China Show all",
+      "en": "Death toll rises and thousands still missing after floods in Nepal and China",
       "url": "https://edition.cnn.com/2026/08/29/world/live-news/nepal-china-flood"
     },
     {
       "en": "The Himalayas are unpredictable. But countries are building there like never before",
       "url": "https://edition.cnn.com/2026/08/29/asia/himalayas-risk-china-nepal-india-infrastructure-intl-hnk"
-    },
-    {
-      "en": "Interactive Follow the river down the path of destruction",
-      "url": "https://edition.cnn.com/2026/08/28/asia/map-nepal-china-flood-landslide-damage-vis"
     },
     {
       "en": "How to help Nepal flood victims",
@@ -50,6 +42,14 @@
     {
       "en": "British far-right provocateur Milo Yiannopoulos has been deported from the US, DHS says",
       "url": "https://edition.cnn.com/2026/08/29/us/milo-yiannopoulos-ice-deportation-what-to-know"
+    },
+    {
+      "en": "The viral leftist teens of Campaign 2020 work for OpenAI now",
+      "url": "https://edition.cnn.com/2026/08/29/us/gravel-teens-openai-cec"
+    },
+    {
+      "en": "Italy National Fire and Rescue Service",
+      "url": "https://edition.cnn.com/2026/08/29/europe/cremona-tornado-italy-hail-intl"
     }
   ]
 }
