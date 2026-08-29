@@ -7,5 +7,12 @@ service cloud.firestore {
         allow read, write: if request.auth != null && request.auth.uid == uid;
       }
     }
+    // shared cache of the day's 3 generated CNN puzzles — public read (just
+    // translated news headlines, no user data) so anyone reloading skips
+    // regenerating; write requires login so it can't be spammed anonymously.
+    match /daily/{date} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
   }
 }

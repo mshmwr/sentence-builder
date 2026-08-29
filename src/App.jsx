@@ -25,6 +25,8 @@ import {
   loadMastered,
   saveMastered,
   saveMemo,
+  loadDailyPuzzles,
+  saveDailyPuzzles,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
@@ -142,21 +144,51 @@ export default function App() {
       .catch((err) => setDailyError(err.message));
   }, []);
 
-  // eagerly translate + tile all 3 CNN sentences as soon as both the list and
-  // the user's Gemini key are available, so the card already shows 中文 and
-  // picking one jumps straight to "playing" — no per-click wait. dailyGenStarted
-  // guards against StrictMode's double-invoke firing 6 requests instead of 3.
+  // eagerly translate + tile all 3 CNN sentences so the card already shows
+  // 中文 and picking one jumps straight to "playing" — no per-click wait.
+  // First checks the shared Firestore cache for the day (translated once,
+  // read by everyone — no need to burn Gemini quota on every reload); only
+  // falls back to generating (and then seeding that cache) on a miss.
+  // dailyCachePromise memoizes the one cache read so every effect re-run
+  // (e.g. once geminiKey arrives) awaits the same lookup instead of
+  // re-querying; dailyGenStarted guards the generate-fallback the same way.
+  const dailyCachePromise = useRef(null);
   const dailyGenStarted = useRef(false);
   useEffect(() => {
-    if (!dailyData || !geminiKey || dailyGenStarted.current) return;
-    dailyGenStarted.current = true;
-    dailyData.sentences.forEach((s, i) => {
-      setDailyPuzzles((prev) => ({ ...prev, [i]: "pending" }));
-      generatePuzzleFromEnglish(s.en, geminiKey, s.url)
-        .then((p) => setDailyPuzzles((prev) => ({ ...prev, [i]: p })))
-        .catch(() => setDailyPuzzles((prev) => ({ ...prev, [i]: "error" })));
+    if (!dailyData) return;
+    if (!dailyCachePromise.current) {
+      dailyCachePromise.current = loadDailyPuzzles(dailyData.date).catch(() => null);
+    }
+    dailyCachePromise.current.then((cached) => {
+      if (cached && cached.length === dailyData.sentences.length) {
+        const next = {};
+        cached.forEach((p, i) => (next[i] = p));
+        setDailyPuzzles(next);
+        return;
+      }
+      if (!geminiKey || dailyGenStarted.current) return;
+      dailyGenStarted.current = true;
+      const results = new Array(dailyData.sentences.length);
+      Promise.all(
+        dailyData.sentences.map(async (s, i) => {
+          setDailyPuzzles((prev) => ({ ...prev, [i]: "pending" }));
+          try {
+            const p = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
+            results[i] = p;
+            setDailyPuzzles((prev) => ({ ...prev, [i]: p }));
+          } catch {
+            setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
+          }
+        })
+      ).then(() => {
+        // seed the shared cache so the next visitor (or reload) skips
+        // regenerating entirely — requires login per firestore.rules
+        if (user && results.every(Boolean)) {
+          saveDailyPuzzles(dailyData.date, results).catch(() => {});
+        }
+      });
     });
-  }, [dailyData, geminiKey]);
+  }, [dailyData, geminiKey, user]);
 
   const order = useMemo(
     () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
