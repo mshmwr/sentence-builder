@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-28",
-  "fetchedAt": "2026-08-28T18:30:40.827Z",
+  "date": "2026-08-29",
+  "fetchedAt": "2026-08-29T02:46:09.859Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
@@ -8,12 +8,12 @@
       "url": "https://edition.cnn.com/2026/08/27/world/how-to-help-nepal-flood-victims"
     },
     {
-      "en": "Judge rejects Trump’s newest bid to fight hush money conviction in federal court",
-      "url": "https://edition.cnn.com/2026/08/28/politics/trump-hush-money-federal-court-rejected"
+      "en": "Trump says US reaches deal with Venezuela to control 65 billion barrels of country’s oil reserves",
+      "url": "https://edition.cnn.com/2026/08/28/politics/trump-venezuela-oil-deal"
     },
     {
-      "en": "Norway’s royal family faces turbulent transition after clan rocked by scandals",
-      "url": "https://edition.cnn.com/2026/08/28/europe/king-norway-harald-v-monarchy-future-intl"
+      "en": "Right-wing provocateur Milo Yiannopoulos detained by ICE",
+      "url": "https://edition.cnn.com/2026/08/28/us/milo-yiannopoulos-detained-by-ice"
     }
   ]
 }
