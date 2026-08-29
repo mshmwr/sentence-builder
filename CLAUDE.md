@@ -54,7 +54,9 @@ deployment, so `scripts/verify-deploy.sh` reports a SHA mismatch until the next 
   `/__/auth/**` + `/__/firebase/**` to `pinju-web.firebaseapp.com`, so the auth handler is
   same-origin (Chrome drops the session otherwise). Changing the production domain means
   changing all three together: `authDomain`, the `vercel.json` rewrites, and the Firebase
-  Console authorized domains. Preview URLs are *not* authorized — test login on production.
+  Console authorized domains. Preview deploys get their own URL but still ship the
+  hard-coded production `authDomain`, so a login started on a preview lands its session
+  on the production origin — test Google login on production, not on a preview URL.
 - **A daily robot pushes to `main`.** `.github/workflows/daily-cnn-sentences.yml` runs at
   04:00 GMT+8, commits `public/daily-sentences.json`, and thereby triggers a production
   deploy. A deploy you did not start is usually that; check the deployment SHA before
