@@ -95,8 +95,11 @@ html, body, #root { height: 100%; margin: 0; }
 .st-daily-card:active{ transform:translateY(1px); }
 .st-daily-en{ font-size:16px; line-height:1.5; color:#F4F0E4; }
 .st-daily-zh{ font-size:14px; line-height:1.5; color:#a9cbbd; font-family:"Songti TC","Noto Serif TC","PingFang TC",serif; }
-.st-daily-go{ font-size:13px; color:var(--jade); font-weight:600; align-self:flex-end; }
+.st-daily-foot{ display:flex; justify-content:space-between; align-items:baseline; width:100%; gap:10px; }
+.st-daily-card-date{ font-size:11px; color:rgba(255,255,255,.35); letter-spacing:.03em; }
+.st-daily-go{ font-size:13px; color:var(--jade); font-weight:600; }
 .st-daily-card:disabled{ cursor:default; opacity:.75; }
+.st-daily-more{ align-self:center; }
 
 /* ---- account / login / key / history ---- */
 .st-account{ display:flex; gap:14px; align-items:center; }
