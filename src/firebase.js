@@ -4,6 +4,9 @@
  *  Data model:
  *    users/{uid}            { geminiKey, mastered }
  *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, memo, createdAt }
+ *    daily/{date}           { date, puzzlesJson, updatedAt } — shared cache of
+ *                            the day's 3 generated CNN puzzles (public read,
+ *                            see saveDailyPuzzles)
  * ------------------------------------------------------------------ */
 
 import { initializeApp } from "firebase/app";
@@ -104,4 +107,26 @@ export async function loadHistory(uid) {
   );
   const snap = await getDocs(q);
   return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+}
+
+// shared across all visitors for the day — one Gemini call per sentence per
+// day total, not per pageview. puzzlesJson is a string (not a plain field)
+// because puzzle.accepted is an array of arrays, which Firestore rejects as
+// a nested array — same reason addHistory stringifies puzzle above.
+export async function loadDailyPuzzles(date) {
+  const snap = await getDoc(doc(db, "daily", date));
+  if (!snap.exists()) return null;
+  try {
+    return JSON.parse(snap.data().puzzlesJson);
+  } catch {
+    return null; // corrupt cache — caller regenerates
+  }
+}
+
+export function saveDailyPuzzles(date, puzzles) {
+  return setDoc(doc(db, "daily", date), {
+    date,
+    puzzlesJson: JSON.stringify(puzzles),
+    updatedAt: serverTimestamp(),
+  });
 }
