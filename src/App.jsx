@@ -12,7 +12,7 @@ import {
   hint,
 } from "./engine.js";
 import { shuffle } from "./puzzles.js";
-import { generatePuzzle, generatePuzzleFromEnglish } from "./generate.js";
+import { generatePuzzle } from "./generate.js";
 import { fetchDailySentences } from "./dailySentences.js";
 import {
   watchAuth,
@@ -25,8 +25,6 @@ import {
   loadMastered,
   saveMastered,
   saveMemo,
-  loadDailyPuzzles,
-  saveDailyPuzzles,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
@@ -81,9 +79,8 @@ export default function App() {
 
   const [mode, setMode] = useState("input"); // "input" | "loading" | "playing" | "key" | "history" | "notes"
   const [sourceTab, setSourceTab] = useState("daily"); // "daily" (CNN picks) | "custom" (type your own)
-  const [dailyData, setDailyData] = useState(null); // null = loading; {date, sentences}
+  const [dailyData, setDailyData] = useState(null); // null = loading; {date, sentences}, each sentence pre-carrying its puzzle
   const [dailyError, setDailyError] = useState("");
-  const [dailyPuzzles, setDailyPuzzles] = useState({}); // index -> puzzle | "pending" | "error"
   const [dailyVisibleCount, setDailyVisibleCount] = useState(3); // "載入更多" grows this by 3
   const [inputZh, setInputZh] = useState("");
   const [puzzle, setPuzzle] = useState(null);
@@ -144,90 +141,6 @@ export default function App() {
       .then(setDailyData)
       .catch((err) => setDailyError(err.message));
   }, []);
-
-  // load whatever's already cached for today (see saveDailyPuzzles below) as
-  // soon as the sentence list is known — dailyCachePromise memoizes the one
-  // read so it never re-queries, no matter how many times this effect or the
-  // generate-effect below re-fires.
-  const dailyCachePromise = useRef(null);
-  useEffect(() => {
-    if (!dailyData) return;
-    if (!dailyCachePromise.current) {
-      dailyCachePromise.current = loadDailyPuzzles(dailyData.date).catch(() => null);
-    }
-    dailyCachePromise.current.then((cached) => {
-      if (!cached) return;
-      setDailyPuzzles((prev) => {
-        const next = { ...prev };
-        cached.forEach((p, i) => {
-          if (p && next[i] === undefined) next[i] = p;
-        });
-        return next;
-      });
-    });
-  }, [dailyData]);
-
-  // eagerly translate + tile whichever sentences are currently visible (the
-  // first 3, then +3 each time "載入更多" grows dailyVisibleCount) so the
-  // card already shows 中文 and picking one jumps straight into "playing" —
-  // no per-click wait. Skips anything the cache effect above already filled
-  // in. dailyPuzzlesRef mirrors state so this reads live data without
-  // needing dailyPuzzles itself in the dependency array (that would re-fire
-  // on every single card's own update); dailyGenerating is the per-index
-  // in-flight guard StrictMode's double-invoke needs.
-  const dailyPuzzlesRef = useRef({});
-  useEffect(() => {
-    dailyPuzzlesRef.current = dailyPuzzles;
-  }, [dailyPuzzles]);
-  const dailyGenerating = useRef(new Set());
-  useEffect(() => {
-    if (!dailyData || !geminiKey) return;
-    (dailyCachePromise.current || Promise.resolve(null)).then(() => {
-      const limit = Math.min(dailyVisibleCount, dailyData.sentences.length);
-      const need = [];
-      for (let i = 0; i < limit; i++) {
-        if (dailyPuzzlesRef.current[i] === undefined && !dailyGenerating.current.has(i)) {
-          need.push(i);
-        }
-      }
-      if (need.length === 0) return;
-      need.forEach((i) => dailyGenerating.current.add(i));
-      setDailyPuzzles((prev) => {
-        const next = { ...prev };
-        need.forEach((i) => (next[i] = "pending"));
-        return next;
-      });
-      Promise.all(
-        need.map(async (i) => {
-          const s = dailyData.sentences[i];
-          try {
-            const p = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
-            setDailyPuzzles((prev) => ({ ...prev, [i]: p }));
-            return [i, p];
-          } catch {
-            setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
-            return [i, null];
-          } finally {
-            dailyGenerating.current.delete(i);
-          }
-        })
-      ).then((entries) => {
-        // seed the shared cache so the next visitor (or reload) skips
-        // regenerating these — requires login per firestore.rules. Merges
-        // with whatever this session already has rather than the fetched
-        // snapshot, so an earlier partial cache isn't clobbered.
-        const fresh = entries.filter(([, p]) => p);
-        if (!user || fresh.length === 0) return;
-        const merged = [];
-        for (let i = 0; i < dailyData.sentences.length; i++) {
-          const existing = dailyPuzzlesRef.current[i];
-          if (existing && existing !== "pending" && existing !== "error") merged[i] = existing;
-        }
-        fresh.forEach(([i, p]) => (merged[i] = p));
-        saveDailyPuzzles(dailyData.date, merged).catch(() => {});
-      });
-    });
-  }, [dailyData, geminiKey, dailyVisibleCount, user]);
 
   const order = useMemo(
     () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
@@ -396,26 +309,11 @@ export default function App() {
     setMode("playing");
   };
 
-  // usually already generated by the eager-translate effect above — this is
-  // just the fallback for an in-flight or failed (retry-on-click) entry
-  const onPickDaily = async (s, i) => {
-    const cached = dailyPuzzles[i];
-    if (cached && cached !== "pending" && cached !== "error") {
-      setGenError("");
-      startDailyPuzzle(cached);
-      return;
-    }
+  // each sentence already carries its puzzle (pre-generated in CI, see
+  // dailySentences.js) — picking one is a pure local jump, no network
+  const onPickDaily = (s) => {
     setGenError("");
-    setMode("loading");
-    try {
-      const generated = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
-      setDailyPuzzles((prev) => ({ ...prev, [i]: generated }));
-      startDailyPuzzle(generated);
-    } catch (err) {
-      setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
-      setGenError(err.message);
-      setMode("input");
-    }
+    startDailyPuzzle(s.puzzle);
   };
 
   const onReplay = (h) => {
@@ -753,9 +651,11 @@ export default function App() {
     );
   }
 
-  /* ---- Gemini key setup (first time: no key yet; later: via Key button).
-          Replay ("playing") passes through — it runs on the local engine, no key needed. ---- */
-  if (mode === "key" || (!geminiKey && mode !== "playing")) {
+  /* ---- Gemini key setup — only entered explicitly (Key button, or the
+          "自訂輸入" tab prompting for one). "今日例句" needs no key at all,
+          since its puzzles are pre-generated; that's what lets a first-time
+          visitor start practicing offline-ish with zero setup. ---- */
+  if (mode === "key") {
     return (
       <div className="st-root">
         <div className="st-board">
@@ -785,15 +685,13 @@ export default function App() {
             </p>
             {authError && <p className="st-gen-error">{authError}</p>}
             <div className="st-controls">
-              {(geminiKey || game) && (
-                <button
-                  type="button"
-                  className="btn ghost"
-                  onClick={() => setMode(geminiKey ? "input" : "playing")}
-                >
-                  返回
-                </button>
-              )}
+              <button
+                type="button"
+                className="btn ghost"
+                onClick={() => setMode(game ? "playing" : "input")}
+              >
+                返回
+              </button>
               <button
                 type="submit"
                 className="btn solid"
@@ -829,6 +727,7 @@ export default function App() {
               onClick={() => setSourceTab("custom")}
             >
               自訂輸入
+              <span className="st-tab-badge">需要網路</span>
             </button>
           </div>
 
@@ -845,32 +744,21 @@ export default function App() {
                 <>
                   <p className="st-daily-date">{dailyData.date} · CNN 頭條</p>
                   <div className="st-daily-list">
-                    {dailyData.sentences.slice(0, dailyVisibleCount).map((s, i) => {
-                      const p = dailyPuzzles[i];
-                      const ready = p && p !== "pending" && p !== "error";
-                      return (
-                        <button
-                          type="button"
-                          key={i}
-                          className="st-daily-card"
-                          disabled={p === "pending"}
-                          onClick={() => onPickDaily(s, i)}
-                        >
-                          <span className="st-daily-en">{s.en}</span>
-                          {ready && <span className="st-daily-zh">{p.zh}</span>}
-                          <div className="st-daily-foot">
-                            <span className="st-daily-card-date">{dailyData.date}</span>
-                            <span className="st-daily-go">
-                              {ready
-                                ? "開始拼句 →"
-                                : p === "error"
-                                ? "生成失敗，點一下重試 →"
-                                : "翻譯中…"}
-                            </span>
-                          </div>
-                        </button>
-                      );
-                    })}
+                    {dailyData.sentences.slice(0, dailyVisibleCount).map((s, i) => (
+                      <button
+                        type="button"
+                        key={i}
+                        className="st-daily-card"
+                        onClick={() => onPickDaily(s)}
+                      >
+                        <span className="st-daily-en">{s.en}</span>
+                        <span className="st-daily-zh">{s.puzzle.zh}</span>
+                        <div className="st-daily-foot">
+                          <span className="st-daily-card-date">{dailyData.date}</span>
+                          <span className="st-daily-go">開始拼句 →</span>
+                        </div>
+                      </button>
+                    ))}
                   </div>
                   {dailyVisibleCount < dailyData.sentences.length && (
                     <button
@@ -887,6 +775,18 @@ export default function App() {
                   )}
                 </>
               )}
+            </div>
+          ) : !geminiKey ? (
+            <div className="st-input-form">
+              <p className="st-keyhelp">
+                自訂輸入是即時打 Gemini API 幫你翻譯、出題，需要網路連線和你自己的
+                Gemini key（會用掉一點流量）。想離線或省流量練習，用「今日例句」就好。
+              </p>
+              <div className="st-controls">
+                <button type="button" className="btn solid" onClick={() => setMode("key")}>
+                  設定 Gemini Key
+                </button>
+              </div>
             </div>
           ) : (
             <form className="st-input-form" onSubmit={onSubmit}>
