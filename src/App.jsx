@@ -985,6 +985,9 @@ export default function App() {
 
         {!correct ? (
           <div className="st-controls">
+            <button className="btn ghost" onClick={onNewSentence}>
+              返回
+            </button>
             <button className="btn ghost" onClick={onHint}>
               提示
             </button>
