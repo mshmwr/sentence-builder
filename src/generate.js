@@ -23,24 +23,25 @@ RULES:
 6. Return ONLY the JSON. Nothing else.`;
 
 // Source sentence is real English (a news headline) rather than the user's
-// own Chinese — so the model must produce the Chinese prompt too, and may
-// need to lightly repair headline-ese (dropped verbs, fragments) into a
-// complete sentence before tokenizing it.
+// own Chinese — so the model must produce the Chinese prompt too. Unlike
+// SYSTEM above, the English side is fixed input, not something to compose:
+// the headline must be tokenized verbatim, never rewritten/completed, even
+// when it reads as a sentence fragment — the puzzle has to stay an accurate
+// reflection of what CNN actually published.
 const SYSTEM_EN = `You are an English grammar puzzle generator for Chinese native speakers.
 
 You will be given a real English sentence taken from a news headline.
 
 TASK:
-1. Translate it into natural Traditional Chinese — this becomes the puzzle prompt the learner reads.
-2. If the sentence is headline-style (dropped verbs/articles, a fragment, ALL CAPS), lightly rewrite it into a complete, natural, grammatical English sentence with the same meaning, no longer than about 14 words. Otherwise use it as-is.
-3. Break that English sentence into individual word tokens for a tile-assembly puzzle.
+1. Translate it into natural Traditional Chinese — this becomes the puzzle prompt the learner reads. Translate exactly what the headline says; do not paraphrase, expand, or "fix" it into a different sentence.
+2. Break the sentence into individual word tokens for a tile-assembly puzzle, using the EXACT wording given — do not rewrite, complete, or rephrase it, even if it reads as a fragment or drops articles/verbs headline-style. Every token must be a word that appears in the original sentence.
 
 Output ONLY a JSON object (no markdown, no commentary):
 {"zh":"Traditional Chinese translation","accepted":[["EnglishWord1","EnglishWord2",...]],"distractors":["WrongWord1"],"notes":[{"word":"EnglishWord","text":"Traditional Chinese grammar note","category":"時態"}]}
 
 RULES:
-1. zh = Traditional Chinese only.
-2. accepted = ENGLISH word tokens. NOT Chinese.
+1. zh = Traditional Chinese only, and must translate the ORIGINAL headline, not a rewritten version of it.
+2. accepted = ENGLISH word tokens, unchanged from the source sentence. NOT Chinese, NOT rewritten wording.
 3. All accepted variants = permutations of the SAME English token set.
 4. distractors = 3-6 plausible-but-wrong English words.
 5. notes = 3-5 grammar tips in Traditional Chinese.
