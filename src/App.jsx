@@ -95,6 +95,7 @@ export default function App() {
   const [memoEdit, setMemoEdit] = useState(null); // {id, draft} — one memo edited at a time
   const [memoError, setMemoError] = useState("");
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
+  const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -142,10 +143,46 @@ export default function App() {
       .catch((err) => setDailyError(err.message));
   }, []);
 
+  // background load for the "已拼過 ×N" badge — independent of the 歷史
+  // screen's own `history` state, since this needs to be ready before the
+  // user ever opens that screen. Capped at the same last-50 loadHistory
+  // window as 歷史, so a very active user's count can undercount.
+  useEffect(() => {
+    if (!user) {
+      setPracticeCounts({});
+      return;
+    }
+    let cancelled = false;
+    loadHistory(user.uid)
+      .then((hist) => {
+        if (cancelled) return;
+        const counts = {};
+        for (const h of hist) {
+          if (!h.zh) continue;
+          counts[h.zh] = (counts[h.zh] || 0) + 1;
+        }
+        setPracticeCounts(counts);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
+
   const order = useMemo(
     () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
     [puzzle] // eslint-disable-line react-hooks/exhaustive-deps
   );
+
+  // never-practiced sentences first, so the pool surfaces fresh material
+  // instead of ones already ground down — stable sort keeps same-count
+  // sentences in their original (freshest-scraped) order
+  const sortedDailySentences = useMemo(() => {
+    if (!dailyData) return [];
+    return [...dailyData.sentences].sort(
+      (a, b) => (practiceCounts[a.puzzle.zh] || 0) - (practiceCounts[b.puzzle.zh] || 0)
+    );
+  }, [dailyData, practiceCounts]);
 
   const onLogin = async () => {
     setAuthError("");
@@ -380,6 +417,7 @@ export default function App() {
         })
           .then((ref) => setLastHist({ id: ref.id, memo: "" })) // enables the on-completion memo
           .catch(() => {}); // history write failing must not block the game
+        setPracticeCounts((c) => ({ ...c, [puzzle.zh]: (c[puzzle.zh] || 0) + 1 }));
       }
     } else if (ng.wrongIdx.length) {
       setShake(true);
@@ -744,21 +782,29 @@ export default function App() {
                 <>
                   <p className="st-daily-date">{dailyData.date} · CNN 頭條</p>
                   <div className="st-daily-list">
-                    {dailyData.sentences.slice(0, dailyVisibleCount).map((s, i) => (
-                      <button
-                        type="button"
-                        key={i}
-                        className="st-daily-card"
-                        onClick={() => onPickDaily(s)}
-                      >
-                        <span className="st-daily-en">{s.en}</span>
-                        <span className="st-daily-zh">{s.puzzle.zh}</span>
-                        <div className="st-daily-foot">
-                          <span className="st-daily-card-date">{dailyData.date}</span>
-                          <span className="st-daily-go">開始拼句 →</span>
-                        </div>
-                      </button>
-                    ))}
+                    {sortedDailySentences.slice(0, dailyVisibleCount).map((s) => {
+                      const count = practiceCounts[s.puzzle.zh] || 0;
+                      return (
+                        <button
+                          type="button"
+                          key={s.url}
+                          className="st-daily-card"
+                          onClick={() => onPickDaily(s)}
+                        >
+                          <span className="st-daily-en">{s.en}</span>
+                          <span className="st-daily-zh">{s.puzzle.zh}</span>
+                          <div className="st-daily-foot">
+                            <span className="st-daily-card-date">
+                              {dailyData.date}
+                              {count > 0 && (
+                                <span className="st-daily-done"> · 已拼過 ×{count}</span>
+                              )}
+                            </span>
+                            <span className="st-daily-go">開始拼句 →</span>
+                          </div>
+                        </button>
+                      );
+                    })}
                   </div>
                   {dailyVisibleCount < dailyData.sentences.length && (
                     <button

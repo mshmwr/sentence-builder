@@ -98,6 +98,7 @@ html, body, #root { height: 100%; margin: 0; }
 .st-daily-zh{ font-size:14px; line-height:1.5; color:#a9cbbd; font-family:"Songti TC","Noto Serif TC","PingFang TC",serif; }
 .st-daily-foot{ display:flex; justify-content:space-between; align-items:baseline; width:100%; gap:10px; }
 .st-daily-card-date{ font-size:11px; color:rgba(255,255,255,.35); letter-spacing:.03em; }
+.st-daily-done{ color:var(--jade); font-weight:600; }
 .st-daily-go{ font-size:13px; color:var(--jade); font-weight:600; }
 .st-daily-more{ align-self:center; }
 
