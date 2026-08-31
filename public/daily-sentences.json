@@ -1,762 +1,307 @@
 {
   "date": "2026-08-31",
-  "fetchedAt": "2026-08-31T09:49:39.268Z",
+  "fetchedAt": "2026-08-31T23:49:07.873Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "• Live Updates Video from the Nepali army released on Sunday shows rescue teams attempting to save workers trapped in Nuwakot's hydro power plant. Rescuers drilled at the tunnels to send trapped workers food and oxygen masks. Nepali Army",
-      "url": "https://edition.cnn.com/2026/08/31/world/live-news/nepal-china-flood",
+      "en": "Supreme Court allows Trump to continue building White House ballroom",
+      "url": "https://edition.cnn.com/2026/08/31/politics/supreme-court-white-house-ballroom-trump",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "• Live Updates Video from the Nepali army released on Sunday shows rescue teams attempting to save workers trapped in Nuwakot's hydro power plant. Rescuers drilled at the tunnels to send trapped workers food and oxygen masks. Nepali Army",
-        "sourceUrl": "https://edition.cnn.com/2026/08/31/world/live-news/nepal-china-flood",
-        "zh": "尼泊爾軍方週日發布的現場更新影片顯示，救援隊正試圖拯救受困於努瓦科特水力發電廠的工人。救援人員在隧道鑽孔，為受困工人送上食物和氧氣面罩。",
+        "sourceEn": "Supreme Court allows Trump to continue building White House ballroom",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/politics/supreme-court-white-house-ballroom-trump",
+        "zh": "最高法院允許川普繼續建造白宮宴會廳。",
         "accepted": [
           [
-            "Nepali",
-            "Army",
-            "released",
-            "video",
-            "on",
-            "Sunday",
-            "shows",
-            "rescue",
-            "teams",
-            "attempting",
+            "Supreme",
+            "Court",
+            "allows",
+            "Trump",
             "to",
-            "save",
-            "workers",
-            "trapped",
-            "in",
-            "Nuwakot's",
-            "hydro",
-            "power",
-            "plant"
+            "continue",
+            "building",
+            "White",
+            "House",
+            "ballroom"
           ]
         ],
         "distractors": [
-          "from",
+          "allowed",
+          "builds",
           "the",
           "a",
-          "which",
-          "their",
-          "its"
-        ],
-        "notes": [
-          {
-            "word": "released",
-            "text": "此處的「released」是過去分詞，用作形容詞修飾「video」，表示「被發布的影片」。",
-            "category": "時態"
-          },
-          {
-            "word": "attempting",
-            "text": "「attempting」是現在分詞，表示正在進行的動作，修飾「rescue teams」，說明救援隊正在「嘗試」拯救。",
-            "category": "時態"
-          },
-          {
-            "word": "trapped",
-            "text": "「trapped」是過去分詞，用作形容詞修飾「workers」，表示「被困住的工人」。",
-            "category": "時態"
-          },
-          {
-            "word": "on",
-            "text": "表示特定日期或星期時，介係詞使用「on」。例如：on Sunday (在星期日)。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Nuwakot's",
-            "text": "「Nuwakot's」是所有格形式，表示「Nuwakot 的」，用來指明水力發電廠是屬於Nuwakot的。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Race against to time to find workers missing in Nepal’s hydropower tunnels. Here’s what we know",
-      "url": "https://edition.cnn.com/2026/08/31/asia/nepal-missing-hydropower-tunnels-flood-explainer-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Race against to time to find workers missing in Nepal’s hydropower tunnels. Here’s what we know",
-        "sourceUrl": "https://edition.cnn.com/2026/08/31/asia/nepal-missing-hydropower-tunnels-flood-explainer-intl-hnk",
-        "zh": "與時間賽跑，尋找在尼泊爾水力發電隧道中失蹤的工人。以下是我們所知道的。",
-        "accepted": [
-          [
-            "Race",
-            "against",
-            "to",
-            "time",
-            "to",
-            "find",
-            "workers",
-            "missing",
-            "in",
-            "Nepal’s",
-            "hydropower",
-            "tunnels",
-            ".",
-            "Here’s",
-            "what",
-            "we",
-            "know"
-          ]
-        ],
-        "distractors": [
-          "along",
-          "their",
-          "found",
-          "knew",
-          "worker",
-          "them"
-        ],
-        "notes": [
-          {
-            "word": "Race against time",
-            "text": "「Race against time」是一個常見的片語，意指「與時間賽跑」或「爭分奪秒」，強調時間緊迫。",
-            "category": "其他"
-          },
-          {
-            "word": "missing",
-            "text": "在這裡，「missing」是形容詞，修飾「workers」，表示「失蹤的」工人。它不是動詞的現在進行式。",
-            "category": "其他"
-          },
-          {
-            "word": "Nepal’s",
-            "text": "「Nepal’s」是尼泊爾的所有格形式，表示「尼泊爾的」。在英文中，國家名稱後加撇號s ('s) 表示所有格。",
-            "category": "其他"
-          },
-          {
-            "word": "Here’s",
-            "text": "「Here’s」是「Here is」的縮寫，常用於引導接下來的資訊或內容。即使後面接複數名詞，口語中也常使用「Here's」。",
-            "category": "其他"
-          },
-          {
-            "word": "to find",
-            "text": "第一個「to」是介係詞，表示「朝向」或「針對」時間；第二個「to」是不定詞的一部分，表示目的，即「為了尋找」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Israeli settlers storm Palestinian village, seizing home with owner inside",
-      "url": "https://edition.cnn.com/2026/08/30/middleeast/israeli-settler-violence-qusra-palestinian-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Israeli settlers storm Palestinian village, seizing home with owner inside",
-        "sourceUrl": "https://edition.cnn.com/2026/08/30/middleeast/israeli-settler-violence-qusra-palestinian-intl",
-        "zh": "以色列屯墾者衝進巴勒斯坦村莊，屋主還在裡面時就強佔了他的家。",
-        "accepted": [
-          [
-            "Israeli",
-            "settlers",
-            "storm",
-            "Palestinian",
-            "village,",
-            "seizing",
-            "home",
-            "with",
-            "owner",
-            "inside"
-          ]
-        ],
-        "distractors": [
-          "their",
-          "a",
-          "the",
           "from",
-          "to",
-          "his"
+          "ballrooms"
         ],
         "notes": [
           {
-            "word": "storm",
-            "text": "在這裡 'storm' 作為動詞，意指「猛衝、突襲」。",
-            "category": "其他"
-          },
-          {
-            "word": "village,",
-            "text": "逗號後接動名詞 'seizing' 表示伴隨動作，說明屯墾者衝進村莊後做了什麼。",
-            "category": "其他"
-          },
-          {
-            "word": "seizing",
-            "text": "'seizing' 是動名詞，表示「奪取、佔領」。這裡用作伴隨動詞，說明主要動作的結果或方式。",
+            "word": "allows",
+            "text": "動詞 'allow' 在這裡使用現在簡單式，表示最高法院做出的這個決定是一個現行的裁定或政策。",
             "category": "時態"
           },
           {
-            "word": "with owner inside",
-            "text": "'with' 在這裡引導一個伴隨狀況，表示「在…的情況下」。'owner inside' 描述了屋主當時在屋內的情況。",
-            "category": "介係詞"
+            "word": "to continue building",
+            "text": "'allow someone to do something' 是常見的句型，表示允許某人做某事。這裡 'to continue' 是不定詞，後面接動名詞 'building' 表示繼續進行的動作。",
+            "category": "其他"
           },
           {
-            "word": "home",
-            "text": "在新聞標題中，常省略冠詞。這裡 'home' 指的是特定的房屋，但沒有使用 'a' 或 'the'。",
+            "word": "White House",
+            "text": "'White House' 是專有名詞，指美國總統官邸白宮，通常前面不加冠詞 'the'，除非是特指某個白宮的特定部分。",
             "category": "冠詞"
+          },
+          {
+            "word": "ballroom",
+            "text": "'ballroom' 指的是宴會廳。在這裡是單數形式，表示建造一個宴會廳。",
+            "category": "單複數"
+          },
+          {
+            "word": "building",
+            "text": "動名詞 'building' 在這裡作為 'continue' 的受詞，表示繼續進行建造的動作。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "US and Iran trade attacks, marking first escalation in a month",
-      "url": "https://edition.cnn.com/2026/08/30/politics/us-iran-strikes-larak-island",
+      "en": "Army Secretary Dan Driscoll submits resignation after tension with Hegseth",
+      "url": "https://edition.cnn.com/2026/08/31/politics/army-secretary-dan-driscoll-resigns",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "US and Iran trade attacks, marking first escalation in a month",
-        "sourceUrl": "https://edition.cnn.com/2026/08/30/politics/us-iran-strikes-larak-island",
-        "zh": "美國和伊朗互相攻擊，標誌著一個月來的首次升級。",
+        "sourceEn": "Army Secretary Dan Driscoll submits resignation after tension with Hegseth",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/politics/army-secretary-dan-driscoll-resigns",
+        "zh": "陸軍部長丹·德里斯科爾在與赫格塞斯關係緊張後提交辭呈。",
         "accepted": [
           [
-            "US",
-            "and",
-            "Iran",
-            "trade",
-            "attacks",
-            ",",
-            "marking",
-            "first",
-            "escalation",
-            "in",
-            "a",
-            "month"
+            "Army",
+            "Secretary",
+            "Dan",
+            "Driscoll",
+            "submits",
+            "resignation",
+            "after",
+            "tension",
+            "with",
+            "Hegseth"
           ]
         ],
         "distractors": [
           "the",
           "an",
+          "a",
           "for",
           "from",
-          "between",
-          "their"
+          "to"
         ],
         "notes": [
           {
-            "word": "trade",
-            "text": "在此句中，'trade' 作為動詞，意指「交換」或「互相給予」。例如 'trade blows' 就是互相攻擊。",
-            "category": "其他"
-          },
-          {
-            "word": "attacks",
-            "text": "'attacks' 是名詞複數，指「攻擊」或「襲擊」。動詞形式是 'attack'。",
-            "category": "單複數"
-          },
-          {
-            "word": "marking",
-            "text": "'marking' 是現在分詞，用來表示結果或伴隨的動作，修飾前面的事件。它等同於 'which marks'。",
+            "word": "submits",
+            "text": "動詞 'submit' 在這裡使用第三人稱單數現在式 'submits'，因為主詞 'Army Secretary Dan Driscoll' 是單數。",
             "category": "時態"
           },
           {
-            "word": "first",
-            "text": "'first' 在這裡作形容詞，修飾 'escalation'，表示「首次的」或「第一次的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "'in a month' 表示在「一個月內」或「一個月以來」。介係詞 'in' 在此表示時間段。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Novak Djokovic loses in opening round of US Open for first time, falling in 5 sets to Mariano Navone",
-      "url": "https://edition.cnn.com/2026/08/31/sport/novak-djokovic-loses-first-round-us-open",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Novak Djokovic loses in opening round of US Open for first time, falling in 5 sets to Mariano Navone",
-        "sourceUrl": "https://edition.cnn.com/2026/08/31/sport/novak-djokovic-loses-first-round-us-open",
-        "zh": "喬科維奇在美國網球公開賽首輪落敗，這是他首次在美網首輪出局，以五盤不敵馬里亞諾·納沃內。",
-        "accepted": [
-          [
-            "Novak",
-            "Djokovic",
-            "loses",
-            "in",
-            "opening",
-            "round",
-            "of",
-            "US",
-            "Open",
-            "for",
-            "first",
-            "time",
-            ",",
-            "falling",
-            "in",
-            "5",
-            "sets",
-            "to",
-            "Mariano",
-            "Navone"
-          ]
-        ],
-        "distractors": [
-          "won",
-          "against",
-          "victory",
-          "match",
-          "game",
-          "defeat"
-        ],
-        "notes": [
-          {
-            "word": "loses",
-            "text": "此處使用現在簡單式，即使報導的是過去發生的新聞事件，在新聞標題中常用現在式來增加即時感和戲劇性。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "表示在某個比賽或賽事的「輪次」中，常用介係詞 'in'。",
-            "category": "介係詞"
-          },
-          {
-            "word": "for first time",
-            "text": "'for the first time' 是常見片語，表示「首次」，這裡省略 'the' 仍可理解，是新聞標題常見的簡潔寫法。",
-            "category": "冠詞"
-          },
-          {
-            "word": "falling",
-            "text": "現在分詞 'falling' 在此作補充說明，表示喬科維奇落敗的「方式」或「結果」，即「以...方式落敗」。",
-            "category": "其他"
-          },
-          {
-            "word": "sets",
-            "text": "數字 '5' 後面接 'sets'，表示「五盤」，'sets' 需用複數形式。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "NASA launches unprecedented mission to uncover the invisible universe",
-      "url": "https://edition.cnn.com/2026/08/30/science/nancy-grace-roman-space-telescope-launch",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "NASA launches unprecedented mission to uncover the invisible universe",
-        "sourceUrl": "https://edition.cnn.com/2026/08/30/science/nancy-grace-roman-space-telescope-launch",
-        "zh": "美國太空總署（NASA）啟動了一項前所未有的任務，旨在揭開隱形宇宙的奧秘。",
-        "accepted": [
-          [
-            "NASA",
-            "launches",
-            "unprecedented",
-            "mission",
-            "to",
-            "uncover",
-            "the",
-            "invisible",
-            "universe"
-          ]
-        ],
-        "distractors": [
-          "explore",
-          "discover",
-          "journey",
-          "reveals",
-          "cosmos"
-        ],
-        "notes": [
-          {
-            "word": "launches",
-            "text": "此處使用動詞的現在簡單式，通常用於描述新聞標題或預告未來即將發生的事件，給人一種即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "unprecedented",
-            "text": "意為「前所未有的」，修飾名詞 mission，強調任務的獨特性和創新性。",
-            "category": "其他"
-          },
-          {
-            "word": "to uncover",
-            "text": "這裡的 to 是不定詞的一部分，表示目的，說明發射任務是為了「揭開」什麼。",
-            "category": "介係詞"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞 'the' 用於特指 'invisible universe'，暗示這是一個特定的、已知但尚未被完全理解的宇宙層面。",
-            "category": "冠詞"
-          },
-          {
-            "word": "universe",
-            "text": "單數形式，指代整個宇宙或宇宙的一個特定方面。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump calls for NBC’s Kristen Welker to face ‘rebuke or punishment’ from FCC",
-      "url": "https://edition.cnn.com/2026/08/30/politics/trump-kristen-welker-fcc-nbc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump calls for NBC’s Kristen Welker to face ‘rebuke or punishment’ from FCC",
-        "sourceUrl": "https://edition.cnn.com/2026/08/30/politics/trump-kristen-welker-fcc-nbc",
-        "zh": "川普呼籲聯邦通訊委員會（FCC）對國家廣播公司（NBC）的克莉絲汀·韋爾克（Kristen Welker）處以「譴責或懲罰」。",
-        "accepted": [
-          [
-            "Trump",
-            "calls",
-            "for",
-            "NBC’s",
-            "Kristen",
-            "Welker",
-            "to",
-            "face",
-            "‘rebuke",
-            "or",
-            "punishment’",
-            "from",
-            "FCC"
-          ]
-        ],
-        "distractors": [
-          "the",
-          "a",
-          "and",
-          "but",
-          "with",
-          "in"
-        ],
-        "notes": [
-          {
-            "word": "calls for",
-            "text": "「calls for」表示「要求」或「呼籲」。在這裡，川普要求FCC對某人採取行動。",
-            "category": "介係詞"
-          },
-          {
-            "word": "NBC’s",
-            "text": "「NBC’s」是所有格形式，表示「NBC的」。它指出Kristen Welker是NBC的員工或與NBC相關。",
-            "category": "其他"
-          },
-          {
-            "word": "to face",
-            "text": "「to face」是不定詞片語，表示「面臨」或「遭遇」。在這裡，Kristen Welker將面臨譴責或懲罰。",
-            "category": "時態"
-          },
-          {
-            "word": "rebuke or punishment",
-            "text": "「rebuke」意為「譴責、指責」，「punishment」意為「懲罰」。兩者都是名詞，並用「or」連接，表示兩者擇一。",
-            "category": "其他"
-          },
-          {
-            "word": "from FCC",
-            "text": "「from FCC」表示「來自FCC」。它指明了譴責或懲罰的來源。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "His daughter’s body was found in the ‘Texas Killing Fields’ decades ago. Now he’ll face a man charged in her death",
-      "url": "https://edition.cnn.com/2026/08/30/us/texas-killing-fields-james-elmore-trial",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "His daughter’s body was found in the ‘Texas Killing Fields’ decades ago. Now he’ll face a man charged in her death",
-        "sourceUrl": "https://edition.cnn.com/2026/08/30/us/texas-killing-fields-james-elmore-trial",
-        "zh": "他的女兒的屍體在幾十年前於「德州殺人場」被發現。現在，他將面對一名被控與她死亡有關的男子。",
-        "accepted": [
-          [
-            "His",
-            "daughter’s",
-            "body",
-            "was",
-            "found",
-            "in",
-            "the",
-            "‘Texas",
-            "Killing",
-            "Fields’",
-            "decades",
-            "ago.",
-            "Now",
-            "he’ll",
-            "face",
-            "a",
-            "man",
-            "charged",
-            "in",
-            "her",
-            "death"
-          ]
-        ],
-        "distractors": [
-          "their",
-          "find",
-          "facing",
-          "dead",
-          "then",
-          "whom"
-        ],
-        "notes": [
-          {
-            "word": "was found",
-            "text": "此處使用被動語態 (was + 過去分詞)，表示「屍體被發現」，強調動作的承受者。",
-            "category": "時態"
-          },
-          {
-            "word": "decades ago",
-            "text": "「decades ago」表示「幾十年前」，ago 用於過去式動詞之後，表示從現在算起多久以前。",
-            "category": "時態"
-          },
-          {
-            "word": "he’ll face",
-            "text": "「he’ll」是「he will」的縮寫，表示將來會發生的動作。face 在此作動詞，意為「面對」。",
-            "category": "時態"
-          },
-          {
-            "word": "a man charged",
-            "text": "「charged」是過去分詞，修飾前面的「man」，表示「被控告的男子」。這是一個簡化的關係子句，原為「a man who was charged」。",
-            "category": "其他"
-          },
-          {
-            "word": "in her death",
-            "text": "介係詞「in」在此表示「與…有關」或「在…事件中」，指該男子被控與她的死亡事件有關。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "US Army veteran pardoned for crimes that led to his self-deportation",
-      "url": "https://edition.cnn.com/2026/08/31/us/us-army-veteran-pardoned-self-deportation-south-korea-hnk-ml",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "US Army veteran pardoned for crimes that led to his self-deportation",
-        "sourceUrl": "https://edition.cnn.com/2026/08/31/us/us-army-veteran-pardoned-self-deportation-south-korea-hnk-ml",
-        "zh": "一名美國陸軍退伍軍人因導致他自我驅逐出境的罪行而被赦免。",
-        "accepted": [
-          [
-            "US",
-            "Army",
-            "veteran",
-            "pardoned",
-            "for",
-            "crimes",
-            "that",
-            "led",
-            "to",
-            "his",
-            "self-deportation"
-          ]
-        ],
-        "distractors": [
-          "the",
-          "a",
-          "her",
-          "which",
-          "from",
-          "by"
-        ],
-        "notes": [
-          {
-            "word": "pardoned",
-            "text": "此處使用過去分詞 'pardoned' 構成被動語態，表示退伍軍人「被赦免」。",
-            "category": "時態"
-          },
-          {
-            "word": "for",
-            "text": "'pardoned for' 表示因某種原因或罪行而被赦免，'for' 在此引導原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "that",
-            "text": "'that' 在此作為關係代名詞，引導限定性關係子句 'that led to his self-deportation'，修飾 'crimes'。",
-            "category": "其他"
-          },
-          {
-            "word": "led",
-            "text": "'led' 是動詞 'lead' 的過去式，表示「導致」或「引導」。",
-            "category": "時態"
-          },
-          {
-            "word": "his",
-            "text": "'his' 是所有格代名詞，表示「他的」，修飾 'self-deportation'。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Iceland rejects EU membership plan in referendum held under the shadow of Trump’s Greenland threats",
-      "url": "https://edition.cnn.com/2026/08/29/europe/iceland-eu-referendum-talks-votes-hnk-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Iceland rejects EU membership plan in referendum held under the shadow of Trump’s Greenland threats",
-        "sourceUrl": "https://edition.cnn.com/2026/08/29/europe/iceland-eu-referendum-talks-votes-hnk-intl",
-        "zh": "在川普威脅格陵蘭的陰影下舉行的公投中，冰島否決了加入歐盟的計畫。",
-        "accepted": [
-          [
-            "Iceland",
-            "rejects",
-            "EU",
-            "membership",
-            "plan",
-            "in",
-            "referendum",
-            "held",
-            "under",
-            "the",
-            "shadow",
-            "of",
-            "Trump’s",
-            "Greenland",
-            "threats"
-          ]
-        ],
-        "distractors": [
-          "accepts",
-          "for",
-          "but",
-          "its",
-          "election",
-          "proposals"
-        ],
-        "notes": [
-          {
-            "word": "rejects",
-            "text": "此處使用現在簡單式，表示新聞事件的即時性和事實陳述。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "介係詞 'in' 用於表示事件發生的地點或情況，這裡指在「公投中」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "held",
-            "text": "'held' 是動詞 'hold' 的過去分詞，在此作後位修飾語，修飾 'referendum'，表示「被舉行的公投」。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞 'the' 用於特指 'shadow'，因為 'shadow' 後面有 'of Trump’s Greenland threats' 進行限定。",
-            "category": "冠詞"
-          },
-          {
-            "word": "threats",
-            "text": "'threats' 是複數名詞，表示川普提出的多項或多次威脅。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Manhunt underway after deadly Switzerland rave shooting",
-      "url": "https://edition.cnn.com/2026/08/30/europe/switzerland-shooting-rave-aargau-hnk-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Manhunt underway after deadly Switzerland rave shooting",
-        "sourceUrl": "https://edition.cnn.com/2026/08/30/europe/switzerland-shooting-rave-aargau-hnk-intl",
-        "zh": "瑞士致命銳舞槍擊案後，追捕行動正在進行中。",
-        "accepted": [
-          [
-            "Manhunt",
-            "underway",
-            "after",
-            "deadly",
-            "Switzerland",
-            "rave",
-            "shooting"
-          ]
-        ],
-        "distractors": [
-          "hunt",
-          "before",
-          "killing",
-          "police",
-          "arrest",
-          "search"
-        ],
-        "notes": [
-          {
-            "word": "Manhunt",
-            "text": "「Manhunt」意指對逃犯的大規模搜捕行動。在新聞標題中，常用單數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "underway",
-            "text": "「Underway」是一個形容詞，表示「正在進行中」。它通常放在動詞be之後，構成「be underway」的結構。",
+            "word": "resignation",
+            "text": "'resignation' 是名詞，意為「辭職」或「辭呈」。",
             "category": "其他"
           },
           {
             "word": "after",
-            "text": "「After」作為介係詞，表示「在…之後」。這裡指追捕行動發生在槍擊案之後。",
+            "text": "'after' 在此作為介係詞，表示「在…之後」，後面接名詞 'tension'。",
             "category": "介係詞"
           },
           {
-            "word": "deadly",
-            "text": "「Deadly」是形容詞，意為「致命的」或「致死的」。它修飾「Switzerland rave shooting」，強調槍擊案的嚴重性。",
+            "word": "tension",
+            "text": "'tension' 是名詞，意為「緊張」或「緊張關係」。在這裡是不可數名詞。",
+            "category": "單複數"
+          },
+          {
+            "word": "with",
+            "text": "'with' 在此作為介係詞，表示「與…一起」或「與…之間」，說明緊張關係的對象。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "A mysterious drone. A Mercedes RV. A Chinese intelligence puzzle in the New Mexico desert",
+      "url": "https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "A mysterious drone. A Mercedes RV. A Chinese intelligence puzzle in the New Mexico desert",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies",
+        "zh": "一架神秘的無人機。一輛賓士露營車。一個關於中國情報的謎團，發生在新墨西哥州的沙漠中。",
+        "accepted": [
+          [
+            "A",
+            "mysterious",
+            "drone",
+            ".",
+            "A",
+            "Mercedes",
+            "RV",
+            ".",
+            "A",
+            "Chinese",
+            "intelligence",
+            "puzzle",
+            "in",
+            "the",
+            "New",
+            "Mexico",
+            "desert"
+          ]
+        ],
+        "distractors": [
+          "An",
+          "The",
+          "was",
+          "and",
+          "but",
+          "for"
+        ],
+        "notes": [
+          {
+            "word": "A",
+            "text": "在英文中，'A' 是一個不定冠詞，用來指稱一個不特定或首次提及的單數可數名詞。這裡用來介紹「無人機」、「露營車」和「謎團」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "mysterious",
+            "text": "'mysterious' 是一個形容詞，意思是「神秘的」，用來修飾名詞 'drone' (無人機)。形容詞通常放在名詞之前。",
             "category": "其他"
           },
           {
-            "word": "shooting",
-            "text": "「Shooting」在這裡是動名詞，指「槍擊事件」或「槍擊案」。",
+            "word": "RV",
+            "text": "'RV' 是 'Recreational Vehicle' 的縮寫，指的是「休閒車輛」，通常指露營車或房車。在標題中常使用縮寫以求簡潔。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "'in' 是一個介係詞，表示「在...裡面」或「在...之中」。這裡用來指明「謎團」發生的地點是在「新墨西哥州的沙漠」裡。",
+            "category": "介係詞"
+          },
+          {
+            "word": "desert",
+            "text": "'desert' 是名詞，意思是「沙漠」。注意其發音與動詞 'dessert' (甜點) 不同。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Shein’s dressed for its long-awaited market debut in Hong Kong. But the party may be over",
-      "url": "https://edition.cnn.com/2026/08/31/business/shein-hong-kong-ipo-intl-hnk",
+      "en": "Urgent search underway to find workers trapped in Nepal's hydropower tunnels",
+      "url": "https://edition.cnn.com/2026/08/31/world/video/anderson-cooper-nepal-intldsk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Shein’s dressed for its long-awaited market debut in Hong Kong. But the party may be over",
-        "sourceUrl": "https://edition.cnn.com/2026/08/31/business/shein-hong-kong-ipo-intl-hnk",
-        "zh": "Shein 準備在香港首次公開募股，但這場派對可能已經結束了。",
+        "sourceEn": "Urgent search underway to find workers trapped in Nepal's hydropower tunnels",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/world/video/anderson-cooper-nepal-intldsk",
+        "zh": "尼泊爾水力發電隧道內受困工人緊急搜救中",
         "accepted": [
           [
-            "Shein’s",
-            "dressed",
-            "for",
-            "its",
-            "long-awaited",
-            "market",
-            "debut",
+            "Urgent",
+            "search",
+            "underway",
+            "to",
+            "find",
+            "workers",
+            "trapped",
             "in",
-            "Hong",
-            "Kong",
-            ".",
-            "But",
-            "the",
-            "party",
-            "may",
-            "be",
-            "over"
+            "Nepal's",
+            "hydropower",
+            "tunnels"
           ]
         ],
         "distractors": [
-          "their",
+          "for",
+          "the",
           "a",
-          "was",
-          "then",
-          "gone",
+          "been",
+          "being",
           "will"
         ],
         "notes": [
           {
-            "word": "Shein’s",
-            "text": "這裡的 'Shein’s' 是 'Shein is' 的縮寫，表示 Shein 已經準備好了。",
-            "category": "時態"
-          },
-          {
-            "word": "dressed for",
-            "text": "片語 'dressed for' 在這裡引申為『為...做好準備』，而不僅僅是穿衣服。",
+            "word": "underway",
+            "text": "Underway 意為「正在進行中」，常用於描述計畫、活動或過程正在發生。此處與 search 結合，表示搜救行動正在進行。",
             "category": "其他"
           },
           {
-            "word": "its",
-            "text": "'its' 是所有格代名詞，指代 Shein 的『首次公開募股』。",
-            "category": "冠詞"
-          },
-          {
-            "word": "may be over",
-            "text": "'may be over' 表示『可能已經結束了』，'may' 表示可能性，'be over' 是『結束』的意思。",
+            "word": "trapped",
+            "text": "Trapped 是 trap 的過去分詞，在此作形容詞修飾 workers，表示「受困的工人」。",
             "category": "時態"
           },
           {
-            "word": "market debut",
-            "text": "'market debut' 指的是『首次公開募股』或『首次上市』。",
+            "word": "Nepal's",
+            "text": "Nepal's 是尼泊爾的所有格形式，表示「尼泊爾的」。用於修飾 hydropower tunnels，指明隧道的所屬國家。",
             "category": "其他"
+          },
+          {
+            "word": "to find",
+            "text": "這裡的 to find 是不定詞片語，表示目的，說明緊急搜救的目標是「為了找到」受困工人。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "介係詞 in 用來表示位置，說明工人們受困的具體地點是「在尼泊爾的水力發電隧道內」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Lionel Messi announces he is retiring from Argentina’s national team",
+      "url": "https://edition.cnn.com/2026/08/31/sport/lionel-messi-argentina-national-team",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Lionel Messi announces he is retiring from Argentina’s national team",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/sport/lionel-messi-argentina-national-team",
+        "zh": "萊оне爾·梅西宣布他將從阿根廷國家隊退役。",
+        "accepted": [
+          [
+            "Lionel",
+            "Messi",
+            "announces",
+            "he",
+            "is",
+            "retiring",
+            "from",
+            "Argentina’s",
+            "national",
+            "team"
+          ]
+        ],
+        "distractors": [
+          "the",
+          "a",
+          "retire",
+          "retires",
+          "their",
+          "teams"
+        ],
+        "notes": [
+          {
+            "word": "announces",
+            "text": "動詞 'announce' 在這裡使用第三人稱單數現在式，因為主詞 'Lionel Messi' 是單數。",
+            "category": "時態"
+          },
+          {
+            "word": "is retiring",
+            "text": "現在進行式 'is retiring' 在這裡表示一個已經決定或即將發生的未來事件。",
+            "category": "時態"
+          },
+          {
+            "word": "from",
+            "text": "介係詞 'from' 用來表示離開某個團體或職位。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Argentina’s",
+            "text": "'Argentina’s' 是所有格，表示「阿根廷的」。",
+            "category": "其他"
+          },
+          {
+            "word": "team",
+            "text": "'team' 是可數名詞，在這裡指一個國家隊，是單數形式。",
+            "category": "單複數"
           }
         ]
       }
