@@ -25,6 +25,8 @@ jobs:
       - run: npm ci
 
       - run: node scripts/fetch-cnn-sentences.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit if changed
         run: |
