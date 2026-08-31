@@ -94,19 +94,40 @@ const POOL_SIZE = 12;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// sequential + a small gap between calls: politeness on Gemini's rate limit,
-// not a throughput concern — this job has minutes to spare, nobody's waiting
-// on it interactively.
+// Gemini's free tier caps requests per minute in the single digits — a run
+// of 12 back-to-back calls blows through that well before the 12th, and the
+// per-call fallback-to-lite-model in generate.js doesn't help when the whole
+// project's quota (not just one model's) is what's exhausted. So on a quota
+// error, wait out a full window and retry, instead of just skipping — this
+// job has minutes to spare, nobody's waiting on it interactively.
+const QUOTA_RETRY_WAITS_MS = [20000, 40000]; // 2 retries: ~1 min total backoff
+
+async function generateWithQuotaRetry(en, apiKey, url) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await generatePuzzleFromEnglish(en, apiKey, url);
+    } catch (err) {
+      const isQuota = /quota/i.test(err.message || "");
+      if (!isQuota || attempt >= QUOTA_RETRY_WAITS_MS.length) throw err;
+      console.error(`Quota hit for "${en}" — retrying in ${QUOTA_RETRY_WAITS_MS[attempt] / 1000}s`);
+      await sleep(QUOTA_RETRY_WAITS_MS[attempt]);
+    }
+  }
+}
+
+// sequential + a gap between calls: politeness on Gemini's rate limit, not a
+// throughput concern — this job has minutes to spare, nobody's waiting on it
+// interactively.
 async function attachPuzzles(sentences, apiKey) {
   const withPuzzles = [];
   for (const s of sentences) {
     try {
-      const puzzle = await generatePuzzleFromEnglish(s.en, apiKey, s.url);
+      const puzzle = await generateWithQuotaRetry(s.en, apiKey, s.url);
       withPuzzles.push({ en: s.en, url: s.url, puzzle });
     } catch (err) {
       console.error(`Skipping "${s.en}": ${err.message || err}`);
     }
-    await sleep(500);
+    await sleep(3000);
   }
   return withPuzzles;
 }
