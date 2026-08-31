@@ -1,16 +1,20 @@
 #!/usr/bin/env node
 /* ------------------------------------------------------------------ *
  *  Daily job (see .github/workflows/daily-cnn-sentences.yml): scrape
- *  CNN's homepage for 3 real headline sentences and write them to
- *  public/daily-sentences.json. No AI call here — this only harvests
- *  raw English text; the client generates the actual puzzle (Chinese
- *  translation + tile set) on demand with the user's own Gemini key,
- *  via generatePuzzleFromEnglish() in src/generate.js.
+ *  CNN's homepage for real headline sentences AND pre-generate each
+ *  one's puzzle (Chinese translation + tile set + grammar notes) with
+ *  this job's own Gemini key, via generatePuzzleFromEnglish() in
+ *  src/generate.js. The result — sentence + puzzle together — is
+ *  written to public/daily-sentences.json, so the client never calls
+ *  Gemini for the daily list: it just reads this one small file and
+ *  plays. That's what makes "今日例句" work offline / on minimal data —
+ *  everyone shares the one Gemini call this job already made today.
  * ------------------------------------------------------------------ */
 
 import { writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
+import { generatePuzzleFromEnglish } from "../src/generate.js";
 
 const HOMEPAGE = "https://edition.cnn.com/";
 const OUT_PATH = fileURLToPath(new URL("../public/daily-sentences.json", import.meta.url));
@@ -88,7 +92,31 @@ function extractCandidates(html) {
 // pool — no re-scraping, it's all fetched once per day up front
 const POOL_SIZE = 12;
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// sequential + a small gap between calls: politeness on Gemini's rate limit,
+// not a throughput concern — this job has minutes to spare, nobody's waiting
+// on it interactively.
+async function attachPuzzles(sentences, apiKey) {
+  const withPuzzles = [];
+  for (const s of sentences) {
+    try {
+      const puzzle = await generatePuzzleFromEnglish(s.en, apiKey, s.url);
+      withPuzzles.push({ en: s.en, url: s.url, puzzle });
+    } catch (err) {
+      console.error(`Skipping "${s.en}": ${err.message || err}`);
+    }
+    await sleep(500);
+  }
+  return withPuzzles;
+}
+
 async function main() {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    throw new Error("GEMINI_API_KEY is not set — cannot pre-generate today's puzzles.");
+  }
+
   const html = await fetchHomepage();
   const candidates = extractCandidates(html);
 
@@ -98,7 +126,13 @@ async function main() {
     );
   }
 
-  const sentences = candidates.slice(0, POOL_SIZE);
+  const sentences = await attachPuzzles(candidates.slice(0, POOL_SIZE), apiKey);
+  if (sentences.length < 3) {
+    throw new Error(
+      `Only ${sentences.length} sentence(s) got a puzzle generated — leaving existing daily-sentences.json untouched.`
+    );
+  }
+
   const today = new Date().toISOString().slice(0, 10);
   const payload = {
     date: today,
@@ -108,7 +142,7 @@ async function main() {
   };
 
   await writeFile(OUT_PATH, JSON.stringify(payload, null, 2) + "\n", "utf8");
-  console.log(`Wrote ${sentences.length} sentences to ${OUT_PATH}`);
+  console.log(`Wrote ${sentences.length} sentences (with puzzles) to ${OUT_PATH}`);
   for (const s of sentences) console.log(`  - ${s.en}`);
 }
 

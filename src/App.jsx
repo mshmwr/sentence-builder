@@ -12,7 +12,7 @@ import {
   hint,
 } from "./engine.js";
 import { shuffle } from "./puzzles.js";
-import { generatePuzzle, generatePuzzleFromEnglish } from "./generate.js";
+import { generatePuzzle } from "./generate.js";
 import { fetchDailySentences } from "./dailySentences.js";
 import {
   watchAuth,
@@ -25,8 +25,6 @@ import {
   loadMastered,
   saveMastered,
   saveMemo,
-  loadDailyPuzzles,
-  saveDailyPuzzles,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
@@ -81,9 +79,8 @@ export default function App() {
 
   const [mode, setMode] = useState("input"); // "input" | "loading" | "playing" | "key" | "history" | "notes"
   const [sourceTab, setSourceTab] = useState("daily"); // "daily" (CNN picks) | "custom" (type your own)
-  const [dailyData, setDailyData] = useState(null); // null = loading; {date, sentences}
+  const [dailyData, setDailyData] = useState(null); // null = loading; {date, sentences}, each sentence pre-carrying its puzzle
   const [dailyError, setDailyError] = useState("");
-  const [dailyPuzzles, setDailyPuzzles] = useState({}); // index -> puzzle | "pending" | "error"
   const [dailyVisibleCount, setDailyVisibleCount] = useState(3); // "載入更多" grows this by 3
   const [inputZh, setInputZh] = useState("");
   const [puzzle, setPuzzle] = useState(null);
@@ -98,6 +95,7 @@ export default function App() {
   const [memoEdit, setMemoEdit] = useState(null); // {id, draft} — one memo edited at a time
   const [memoError, setMemoError] = useState("");
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
+  const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -145,94 +143,46 @@ export default function App() {
       .catch((err) => setDailyError(err.message));
   }, []);
 
-  // load whatever's already cached for today (see saveDailyPuzzles below) as
-  // soon as the sentence list is known — dailyCachePromise memoizes the one
-  // read so it never re-queries, no matter how many times this effect or the
-  // generate-effect below re-fires.
-  const dailyCachePromise = useRef(null);
+  // background load for the "已拼過 ×N" badge — independent of the 歷史
+  // screen's own `history` state, since this needs to be ready before the
+  // user ever opens that screen. Capped at the same last-50 loadHistory
+  // window as 歷史, so a very active user's count can undercount.
   useEffect(() => {
-    if (!dailyData) return;
-    if (!dailyCachePromise.current) {
-      dailyCachePromise.current = loadDailyPuzzles(dailyData.date).catch(() => null);
+    if (!user) {
+      setPracticeCounts({});
+      return;
     }
-    dailyCachePromise.current.then((cached) => {
-      if (!cached) return;
-      setDailyPuzzles((prev) => {
-        const next = { ...prev };
-        cached.forEach((p, i) => {
-          if (p && next[i] === undefined) next[i] = p;
-        });
-        return next;
-      });
-    });
-  }, [dailyData]);
-
-  // eagerly translate + tile whichever sentences are currently visible (the
-  // first 3, then +3 each time "載入更多" grows dailyVisibleCount) so the
-  // card already shows 中文 and picking one jumps straight into "playing" —
-  // no per-click wait. Skips anything the cache effect above already filled
-  // in. dailyPuzzlesRef mirrors state so this reads live data without
-  // needing dailyPuzzles itself in the dependency array (that would re-fire
-  // on every single card's own update); dailyGenerating is the per-index
-  // in-flight guard StrictMode's double-invoke needs.
-  const dailyPuzzlesRef = useRef({});
-  useEffect(() => {
-    dailyPuzzlesRef.current = dailyPuzzles;
-  }, [dailyPuzzles]);
-  const dailyGenerating = useRef(new Set());
-  useEffect(() => {
-    if (!dailyData || !geminiKey) return;
-    (dailyCachePromise.current || Promise.resolve(null)).then(() => {
-      const limit = Math.min(dailyVisibleCount, dailyData.sentences.length);
-      const need = [];
-      for (let i = 0; i < limit; i++) {
-        if (dailyPuzzlesRef.current[i] === undefined && !dailyGenerating.current.has(i)) {
-          need.push(i);
+    let cancelled = false;
+    loadHistory(user.uid)
+      .then((hist) => {
+        if (cancelled) return;
+        const counts = {};
+        for (const h of hist) {
+          if (!h.zh) continue;
+          counts[h.zh] = (counts[h.zh] || 0) + 1;
         }
-      }
-      if (need.length === 0) return;
-      need.forEach((i) => dailyGenerating.current.add(i));
-      setDailyPuzzles((prev) => {
-        const next = { ...prev };
-        need.forEach((i) => (next[i] = "pending"));
-        return next;
-      });
-      Promise.all(
-        need.map(async (i) => {
-          const s = dailyData.sentences[i];
-          try {
-            const p = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
-            setDailyPuzzles((prev) => ({ ...prev, [i]: p }));
-            return [i, p];
-          } catch {
-            setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
-            return [i, null];
-          } finally {
-            dailyGenerating.current.delete(i);
-          }
-        })
-      ).then((entries) => {
-        // seed the shared cache so the next visitor (or reload) skips
-        // regenerating these — requires login per firestore.rules. Merges
-        // with whatever this session already has rather than the fetched
-        // snapshot, so an earlier partial cache isn't clobbered.
-        const fresh = entries.filter(([, p]) => p);
-        if (!user || fresh.length === 0) return;
-        const merged = [];
-        for (let i = 0; i < dailyData.sentences.length; i++) {
-          const existing = dailyPuzzlesRef.current[i];
-          if (existing && existing !== "pending" && existing !== "error") merged[i] = existing;
-        }
-        fresh.forEach(([i, p]) => (merged[i] = p));
-        saveDailyPuzzles(dailyData.date, merged).catch(() => {});
-      });
-    });
-  }, [dailyData, geminiKey, dailyVisibleCount, user]);
+        setPracticeCounts(counts);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
 
   const order = useMemo(
     () => (game ? shuffle(game.tiles.map((t) => t.id)) : []),
     [puzzle] // eslint-disable-line react-hooks/exhaustive-deps
   );
+
+  // never-practiced sentences first, so the pool surfaces fresh material
+  // instead of ones already ground down — stable sort keeps same-count
+  // sentences in their original (freshest-scraped) order
+  const sortedDailySentences = useMemo(() => {
+    if (!dailyData) return [];
+    return [...dailyData.sentences].sort(
+      (a, b) => (practiceCounts[a.puzzle.zh] || 0) - (practiceCounts[b.puzzle.zh] || 0)
+    );
+  }, [dailyData, practiceCounts]);
 
   const onLogin = async () => {
     setAuthError("");
@@ -396,26 +346,11 @@ export default function App() {
     setMode("playing");
   };
 
-  // usually already generated by the eager-translate effect above — this is
-  // just the fallback for an in-flight or failed (retry-on-click) entry
-  const onPickDaily = async (s, i) => {
-    const cached = dailyPuzzles[i];
-    if (cached && cached !== "pending" && cached !== "error") {
-      setGenError("");
-      startDailyPuzzle(cached);
-      return;
-    }
+  // each sentence already carries its puzzle (pre-generated in CI, see
+  // dailySentences.js) — picking one is a pure local jump, no network
+  const onPickDaily = (s) => {
     setGenError("");
-    setMode("loading");
-    try {
-      const generated = await generatePuzzleFromEnglish(s.en, geminiKey, s.url);
-      setDailyPuzzles((prev) => ({ ...prev, [i]: generated }));
-      startDailyPuzzle(generated);
-    } catch (err) {
-      setDailyPuzzles((prev) => ({ ...prev, [i]: "error" }));
-      setGenError(err.message);
-      setMode("input");
-    }
+    startDailyPuzzle(s.puzzle);
   };
 
   const onReplay = (h) => {
@@ -482,6 +417,7 @@ export default function App() {
         })
           .then((ref) => setLastHist({ id: ref.id, memo: "" })) // enables the on-completion memo
           .catch(() => {}); // history write failing must not block the game
+        setPracticeCounts((c) => ({ ...c, [puzzle.zh]: (c[puzzle.zh] || 0) + 1 }));
       }
     } else if (ng.wrongIdx.length) {
       setShake(true);
@@ -753,9 +689,11 @@ export default function App() {
     );
   }
 
-  /* ---- Gemini key setup (first time: no key yet; later: via Key button).
-          Replay ("playing") passes through — it runs on the local engine, no key needed. ---- */
-  if (mode === "key" || (!geminiKey && mode !== "playing")) {
+  /* ---- Gemini key setup — only entered explicitly (Key button, or the
+          "自訂輸入" tab prompting for one). "今日例句" needs no key at all,
+          since its puzzles are pre-generated; that's what lets a first-time
+          visitor start practicing offline-ish with zero setup. ---- */
+  if (mode === "key") {
     return (
       <div className="st-root">
         <div className="st-board">
@@ -785,15 +723,13 @@ export default function App() {
             </p>
             {authError && <p className="st-gen-error">{authError}</p>}
             <div className="st-controls">
-              {(geminiKey || game) && (
-                <button
-                  type="button"
-                  className="btn ghost"
-                  onClick={() => setMode(geminiKey ? "input" : "playing")}
-                >
-                  返回
-                </button>
-              )}
+              <button
+                type="button"
+                className="btn ghost"
+                onClick={() => setMode(game ? "playing" : "input")}
+              >
+                返回
+              </button>
               <button
                 type="submit"
                 className="btn solid"
@@ -829,6 +765,7 @@ export default function App() {
               onClick={() => setSourceTab("custom")}
             >
               自訂輸入
+              <span className="st-tab-badge">需要網路</span>
             </button>
           </div>
 
@@ -845,28 +782,25 @@ export default function App() {
                 <>
                   <p className="st-daily-date">{dailyData.date} · CNN 頭條</p>
                   <div className="st-daily-list">
-                    {dailyData.sentences.slice(0, dailyVisibleCount).map((s, i) => {
-                      const p = dailyPuzzles[i];
-                      const ready = p && p !== "pending" && p !== "error";
+                    {sortedDailySentences.slice(0, dailyVisibleCount).map((s) => {
+                      const count = practiceCounts[s.puzzle.zh] || 0;
                       return (
                         <button
                           type="button"
-                          key={i}
+                          key={s.url}
                           className="st-daily-card"
-                          disabled={p === "pending"}
-                          onClick={() => onPickDaily(s, i)}
+                          onClick={() => onPickDaily(s)}
                         >
                           <span className="st-daily-en">{s.en}</span>
-                          {ready && <span className="st-daily-zh">{p.zh}</span>}
+                          <span className="st-daily-zh">{s.puzzle.zh}</span>
                           <div className="st-daily-foot">
-                            <span className="st-daily-card-date">{dailyData.date}</span>
-                            <span className="st-daily-go">
-                              {ready
-                                ? "開始拼句 →"
-                                : p === "error"
-                                ? "生成失敗，點一下重試 →"
-                                : "翻譯中…"}
+                            <span className="st-daily-card-date">
+                              {dailyData.date}
+                              {count > 0 && (
+                                <span className="st-daily-done"> · 已拼過 ×{count}</span>
+                              )}
                             </span>
+                            <span className="st-daily-go">開始拼句 →</span>
                           </div>
                         </button>
                       );
@@ -887,6 +821,18 @@ export default function App() {
                   )}
                 </>
               )}
+            </div>
+          ) : !geminiKey ? (
+            <div className="st-input-form">
+              <p className="st-keyhelp">
+                自訂輸入是即時打 Gemini API 幫你翻譯、出題，需要網路連線和你自己的
+                Gemini key（會用掉一點流量）。想離線或省流量練習，用「今日例句」就好。
+              </p>
+              <div className="st-controls">
+                <button type="button" className="btn solid" onClick={() => setMode("key")}>
+                  設定 Gemini Key
+                </button>
+              </div>
             </div>
           ) : (
             <form className="st-input-form" onSubmit={onSubmit}>
@@ -1039,6 +985,9 @@ export default function App() {
 
         {!correct ? (
           <div className="st-controls">
+            <button className="btn ghost" onClick={onNewSentence}>
+              返回
+            </button>
             <button className="btn ghost" onClick={onHint}>
               提示
             </button>

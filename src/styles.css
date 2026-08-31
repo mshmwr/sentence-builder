@@ -87,6 +87,7 @@ html, body, #root { height: 100%; margin: 0; }
 .st-tab{ flex:1; font-family:inherit; font-size:14px; font-weight:600; color:#9fc4b4; background:rgba(0,0,0,.16); border:1px solid var(--felt-line); border-radius:11px; padding:10px 14px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
 .st-tab:hover{ color:#dcefe6; }
 .st-tab.active{ color:#08291f; background:var(--jade); border-color:var(--jade-deep); }
+.st-tab-badge{ display:block; margin-top:2px; font-size:10px; font-weight:500; letter-spacing:.04em; opacity:.7; }
 .st-daily{ display:flex; flex-direction:column; gap:12px; margin-top:8px; }
 .st-daily-date{ margin:0; font-size:12.5px; color:#9fc4b4; letter-spacing:.04em; }
 .st-daily-list{ display:flex; flex-direction:column; gap:10px; }
@@ -97,8 +98,8 @@ html, body, #root { height: 100%; margin: 0; }
 .st-daily-zh{ font-size:14px; line-height:1.5; color:#a9cbbd; font-family:"Songti TC","Noto Serif TC","PingFang TC",serif; }
 .st-daily-foot{ display:flex; justify-content:space-between; align-items:baseline; width:100%; gap:10px; }
 .st-daily-card-date{ font-size:11px; color:rgba(255,255,255,.35); letter-spacing:.03em; }
+.st-daily-done{ color:var(--jade); font-weight:600; }
 .st-daily-go{ font-size:13px; color:var(--jade); font-weight:600; }
-.st-daily-card:disabled{ cursor:default; opacity:.75; }
 .st-daily-more{ align-self:center; }
 
 /* ---- account / login / key / history ---- */

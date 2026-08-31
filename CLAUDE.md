@@ -61,5 +61,13 @@ deployment, so `scripts/verify-deploy.sh` reports a SHA mismatch until the next 
   04:00 GMT+8, commits `public/daily-sentences.json`, and thereby triggers a production
   deploy. A deploy you did not start is usually that; check the deployment SHA before
   assuming your own change shipped.
+- **The daily robot needs its own Gemini key.** It doesn't just scrape CNN headlines —
+  `scripts/fetch-cnn-sentences.mjs` also pre-generates each sentence's puzzle (translation
+  + tiles + notes) via `generatePuzzleFromEnglish`, using the repo secret `GEMINI_API_KEY`,
+  so the client never calls Gemini for "今日例句" (that's what makes it playable offline /
+  on minimal data — one shared CI call per sentence per day, not one per visitor). Without
+  that secret set (GitHub repo Settings → Secrets and variables → Actions), the workflow
+  fails before writing anything and the site keeps serving whatever `daily-sentences.json`
+  it already has.
 - **`dist/` is gitignored** but a stale copy exists on disk. Never deploy from a local
   build artifact; Vercel builds from the repo.

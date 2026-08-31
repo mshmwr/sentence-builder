@@ -19,7 +19,9 @@ npm test         # 跑引擎單元測試（零依賴，純 node）
 src/
   engine.js    純函式遊戲引擎，唯一真相來源。沒有任何 React。
   puzzles.js   題庫內容（與引擎解耦，之後可換成 AI 產出）。
-  generate.js  出題：瀏覽器直接打 Gemini API（使用者自己的 key）。
+  generate.js  出題：打 Gemini API。「自訂輸入」由瀏覽器即時呼叫（使用者自己
+               的 key）；「今日例句」由 CI（scripts/fetch-cnn-sentences.mjs）
+               每天預先呼叫一次，寫進 public/daily-sentences.json。
   firebase.js  Google 登入 + Firestore（geminiKey、歷史紀錄，皆綁帳號）。
   App.jsx      只負責畫面與事件，不含判定邏輯。
   main.jsx     入口。
@@ -31,10 +33,17 @@ firestore.rules    Firestore 安全規則：只能讀寫自己 uid 底下的資�
 
 ### 帳號與出題
 
-- **Gemini key**：使用者自己到 [Google AI Studio](https://aistudio.google.com/apikey)
-  取得。貼上即可玩，不必登入——未登入時存 localStorage，登入後存
-  `users/{uid}.geminiKey`（Firestore，跨裝置同步）。帶著 local key 登入會自動把 key
-  搬到帳號（搬移，非鏡像：搬完刪掉 local 那份）。出題額度算使用者自己的。
+- **今日例句（離線/省流量）**：`.github/workflows/daily-cnn-sentences.yml` 每天跑一次
+  `scripts/fetch-cnn-sentences.mjs`，抓 CNN 頭條並用**它自己的** Gemini key（repo secret
+  `GEMINI_API_KEY`）把每句都預先出好題，整包寫進 `public/daily-sentences.json`。前端
+  只下載這一個小 JSON，選句子、玩題目都不再打 API——不用 Gemini key、不用登入，
+  也沒有任何一顆「翻譯中」的按鈕在等網路。
+- **自訂輸入（需要網路）**：打自己的中文句子，瀏覽器即時呼叫 Gemini API 出題，
+  用的是使用者自己的 key，額度算自己的。
+- **Gemini key**：只有「自訂輸入」需要。使用者自己到
+  [Google AI Studio](https://aistudio.google.com/apikey) 取得，貼上即可玩，不必登入
+  ——未登入時存 localStorage，登入後存 `users/{uid}.geminiKey`（Firestore，跨裝置同步）。
+  帶著 local key 登入會自動把 key 搬到帳號（搬移，非鏡像：搬完刪掉 local 那份）。
 - **登入（選配）**：Firebase Auth（Google）。登入的價值是歷史紀錄 + key 跨裝置。
 - **歷史紀錄**：僅登入時記錄。過關即寫入 `users/{uid}/history`（中文題、拼出的英文、星數）。
   「歷史」畫面列出最近 50 筆。

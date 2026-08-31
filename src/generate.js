@@ -1,6 +1,9 @@
 /* ------------------------------------------------------------------ *
- *  Puzzle generation — calls Gemini directly from the browser with the
- *  user's own API key (stored on their account, see firebase.js).
+ *  Puzzle generation — calls Gemini directly, given an API key.
+ *  Two callers: the browser, for custom (自訂輸入) sentences, using the
+ *  user's own key (stored on their account, see firebase.js); and
+ *  scripts/fetch-cnn-sentences.mjs, run once a day in CI, which
+ *  pre-generates the daily CNN puzzles so the client never has to.
  * ------------------------------------------------------------------ */
 
 const SYSTEM = `You are an English grammar puzzle generator for Chinese native speakers.
