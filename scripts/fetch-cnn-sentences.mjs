@@ -26,8 +26,22 @@ const OUT_PATH = fileURLToPath(new URL("../public/daily-sentences.json", import.
 // it is more durable than any particular CSS class name.
 const ARTICLE_PATH_RE = /^\/\d{4}\/\d{2}\/\d{2}\//;
 
+// Live blogs (/world/live-news/..., /us/live-news/...) rewrite their own
+// headline as the story develops — the text scraped at fetch time can drift
+// away from whatever the page actually says by the time someone plays that
+// puzzle and taps "CNN 原文" to check, which is exactly a mismatch bug, not a
+// stale-cache one. Regular article pages don't retitle themselves like this,
+// so only live blogs need excluding.
+const LIVE_BLOG_PATH_RE = /\/live-news\//;
+
+// a leading bullet ("• Live Updates ...") is just a list marker CNN's
+// markup adds — strip it before the sentence checks below so it can't hide
+// card chrome from CARD_LABEL_RE (a bullet in position 0 means the label
+// itself starts at position 1, past the regex's ^ anchor).
+const LEADING_BULLET_RE = /^[•·\-–]\s*/;
+
 function normalizeText(s) {
-  return s.replace(/\s+/g, " ").trim();
+  return s.replace(/\s+/g, " ").trim().replace(LEADING_BULLET_RE, "");
 }
 
 // leading UI labels CNN concats onto card text with no space, e.g. "Video The
@@ -76,6 +90,7 @@ function extractCandidates(html) {
       return;
     }
     if (!ARTICLE_PATH_RE.test(path)) return;
+    if (LIVE_BLOG_PATH_RE.test(path)) return; // headline can drift after we scrape it
     if (seenUrls.has(path)) return; // same article linked twice (image + headline)
 
     const text = normalizeText($(el).text()).replace(TRAILING_JUNK_RE, "");
