@@ -1,8 +1,65 @@
 {
-  "date": "2026-08-31",
-  "fetchedAt": "2026-08-31T23:49:07.873Z",
+  "date": "2026-09-01",
+  "fetchedAt": "2026-09-01T02:29:05.901Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
+    {
+      "en": "Duane ‘Keffe D’ Davis found guilty in Tupac Shakur’s murder, three decades later",
+      "url": "https://edition.cnn.com/2026/08/31/us/live-news/tupac-duane-davis-trial",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Duane ‘Keffe D’ Davis found guilty in Tupac Shakur’s murder, three decades later",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/us/live-news/tupac-duane-davis-trial",
+        "zh": "杜安·「基夫 D」·戴維斯在圖帕克·夏庫爾謀殺案中被判有罪，此案發生於三十年前。",
+        "accepted": [
+          [
+            "Duane",
+            "‘Keffe",
+            "D’",
+            "Davis",
+            "found",
+            "guilty",
+            "in",
+            "Tupac",
+            "Shakur’s",
+            "murder,",
+            "three",
+            "decades",
+            "later"
+          ]
+        ],
+        "distractors": [
+          "finding",
+          "guilt",
+          "decades’",
+          "later’s",
+          "after",
+          "before"
+        ],
+        "notes": [
+          {
+            "word": "found guilty",
+            "text": "「found guilty」是常見的法律用語，表示「被判有罪」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "這裡的「in」表示「在…案件中」，指戴維斯被判有罪的具體案件。",
+            "category": "介係詞"
+          },
+          {
+            "word": "three decades later",
+            "text": "「three decades later」表示「三十年後」，強調時間的跨度。",
+            "category": "其他"
+          },
+          {
+            "word": "Shakur’s",
+            "text": "「Shakur’s」是所有格，表示「夏庫爾的」，指謀殺案的受害者。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
     {
       "en": "Supreme Court allows Trump to continue building White House ballroom",
       "url": "https://edition.cnn.com/2026/08/31/politics/supreme-court-white-house-ballroom-trump",
@@ -27,36 +84,31 @@
         ],
         "distractors": [
           "allowed",
-          "builds",
-          "the",
-          "a",
-          "from",
-          "ballrooms"
+          "allowing",
+          "build",
+          "built",
+          "ballrooms",
+          "house’s"
         ],
         "notes": [
           {
-            "word": "allows",
-            "text": "動詞 'allow' 在這裡使用現在簡單式，表示最高法院做出的這個決定是一個現行的裁定或政策。",
-            "category": "時態"
-          },
-          {
-            "word": "to continue building",
-            "text": "'allow someone to do something' 是常見的句型，表示允許某人做某事。這裡 'to continue' 是不定詞，後面接動名詞 'building' 表示繼續進行的動作。",
+            "word": "allows...to continue building",
+            "text": "「allows...to continue building」表示「允許…繼續建造」，是動詞allow的常見用法，後面接不定詞to。",
             "category": "其他"
           },
           {
-            "word": "White House",
-            "text": "'White House' 是專有名詞，指美國總統官邸白宮，通常前面不加冠詞 'the'，除非是特指某個白宮的特定部分。",
-            "category": "冠詞"
+            "word": "Supreme Court",
+            "text": "「Supreme Court」指「最高法院」，是美國的最高司法機構。",
+            "category": "其他"
           },
           {
-            "word": "ballroom",
-            "text": "'ballroom' 指的是宴會廳。在這裡是單數形式，表示建造一個宴會廳。",
-            "category": "單複數"
+            "word": "White House ballroom",
+            "text": "「White House ballroom」指「白宮宴會廳」，是特定地點的特定設施。",
+            "category": "其他"
           },
           {
             "word": "building",
-            "text": "動名詞 'building' 在這裡作為 'continue' 的受詞，表示繼續進行建造的動作。",
+            "text": "這裡的「building」是動名詞，作為continue的受詞，表示「建造」這個動作。",
             "category": "其他"
           }
         ]
@@ -69,7 +121,7 @@
         "theme": "今日新聞",
         "sourceEn": "Army Secretary Dan Driscoll submits resignation after tension with Hegseth",
         "sourceUrl": "https://edition.cnn.com/2026/08/31/politics/army-secretary-dan-driscoll-resigns",
-        "zh": "陸軍部長丹·德里斯科爾在與赫格塞斯關係緊張後提交辭呈。",
+        "zh": "陸軍部長丹·德里斯科爾在與赫格塞斯關係緊張後辭職。",
         "accepted": [
           [
             "Army",
@@ -85,179 +137,210 @@
           ]
         ],
         "distractors": [
-          "the",
-          "an",
-          "a",
-          "for",
-          "from",
-          "to"
+          "submit",
+          "submitted",
+          "resigned",
+          "tensions",
+          "before",
+          "from"
         ],
         "notes": [
+          {
+            "word": "submits resignation",
+            "text": "「submits resignation」表示「提交辭呈」，是正式的表達方式。",
+            "category": "其他"
+          },
+          {
+            "word": "after tension with",
+            "text": "「after tension with」表示「在與…關係緊張之後」，說明辭職的原因。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Army Secretary",
+            "text": "「Army Secretary」指「陸軍部長」，是職位名稱。",
+            "category": "其他"
+          },
           {
             "word": "submits",
-            "text": "動詞 'submit' 在這裡使用第三人稱單數現在式 'submits'，因為主詞 'Army Secretary Dan Driscoll' 是單數。",
+            "text": "動詞「submits」使用現在簡單式，在新聞標題中常用來描述最近發生的事件，使其聽起來更即時。",
             "category": "時態"
-          },
-          {
-            "word": "resignation",
-            "text": "'resignation' 是名詞，意為「辭職」或「辭呈」。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "'after' 在此作為介係詞，表示「在…之後」，後面接名詞 'tension'。",
-            "category": "介係詞"
-          },
-          {
-            "word": "tension",
-            "text": "'tension' 是名詞，意為「緊張」或「緊張關係」。在這裡是不可數名詞。",
-            "category": "單複數"
-          },
-          {
-            "word": "with",
-            "text": "'with' 在此作為介係詞，表示「與…一起」或「與…之間」，說明緊張關係的對象。",
-            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "A mysterious drone. A Mercedes RV. A Chinese intelligence puzzle in the New Mexico desert",
-      "url": "https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A mysterious drone. A Mercedes RV. A Chinese intelligence puzzle in the New Mexico desert",
-        "sourceUrl": "https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies",
-        "zh": "一架神秘的無人機。一輛賓士露營車。一個關於中國情報的謎團，發生在新墨西哥州的沙漠中。",
-        "accepted": [
-          [
-            "A",
-            "mysterious",
-            "drone",
-            ".",
-            "A",
-            "Mercedes",
-            "RV",
-            ".",
-            "A",
-            "Chinese",
-            "intelligence",
-            "puzzle",
-            "in",
-            "the",
-            "New",
-            "Mexico",
-            "desert"
-          ]
-        ],
-        "distractors": [
-          "An",
-          "The",
-          "was",
-          "and",
-          "but",
-          "for"
-        ],
-        "notes": [
-          {
-            "word": "A",
-            "text": "在英文中，'A' 是一個不定冠詞，用來指稱一個不特定或首次提及的單數可數名詞。這裡用來介紹「無人機」、「露營車」和「謎團」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "mysterious",
-            "text": "'mysterious' 是一個形容詞，意思是「神秘的」，用來修飾名詞 'drone' (無人機)。形容詞通常放在名詞之前。",
-            "category": "其他"
-          },
-          {
-            "word": "RV",
-            "text": "'RV' 是 'Recreational Vehicle' 的縮寫，指的是「休閒車輛」，通常指露營車或房車。在標題中常使用縮寫以求簡潔。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "'in' 是一個介係詞，表示「在...裡面」或「在...之中」。這裡用來指明「謎團」發生的地點是在「新墨西哥州的沙漠」裡。",
-            "category": "介係詞"
-          },
-          {
-            "word": "desert",
-            "text": "'desert' 是名詞，意思是「沙漠」。注意其發音與動詞 'dessert' (甜點) 不同。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Urgent search underway to find workers trapped in Nepal's hydropower tunnels",
+      "en": "Floodwater ‘like liquid cement’ as death toll in Nepal rises sharply",
       "url": "https://edition.cnn.com/2026/08/31/world/video/anderson-cooper-nepal-intldsk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Urgent search underway to find workers trapped in Nepal's hydropower tunnels",
+        "sourceEn": "Floodwater ‘like liquid cement’ as death toll in Nepal rises sharply",
         "sourceUrl": "https://edition.cnn.com/2026/08/31/world/video/anderson-cooper-nepal-intldsk",
-        "zh": "尼泊爾水力發電隧道內受困工人緊急搜救中",
+        "zh": "尼泊爾洪水「如同液態水泥」，死亡人數急劇上升。",
         "accepted": [
           [
-            "Urgent",
-            "search",
-            "underway",
-            "to",
-            "find",
-            "workers",
-            "trapped",
+            "Floodwater",
+            "‘like",
+            "liquid",
+            "cement’",
+            "as",
+            "death",
+            "toll",
             "in",
-            "Nepal's",
-            "hydropower",
-            "tunnels"
+            "Nepal",
+            "rises",
+            "sharply"
           ]
         ],
         "distractors": [
-          "for",
-          "the",
-          "a",
-          "been",
-          "being",
-          "will"
+          "floodwaters",
+          "liking",
+          "liquids",
+          "cements",
+          "rose",
+          "sharp"
         ],
         "notes": [
           {
-            "word": "underway",
-            "text": "Underway 意為「正在進行中」，常用於描述計畫、活動或過程正在發生。此處與 search 結合，表示搜救行動正在進行。",
+            "word": "like liquid cement",
+            "text": "「like liquid cement」表示「如同液態水泥」，用來比喻洪水的高度黏稠和破壞力。",
             "category": "其他"
           },
           {
-            "word": "trapped",
-            "text": "Trapped 是 trap 的過去分詞，在此作形容詞修飾 workers，表示「受困的工人」。",
-            "category": "時態"
+            "word": "as",
+            "text": "這裡的「as」表示「隨著…」，引導一個伴隨發生的情況，說明死亡人數上升的背景。",
+            "category": "其他"
           },
           {
-            "word": "Nepal's",
-            "text": "Nepal's 是尼泊爾的所有格形式，表示「尼泊爾的」。用於修飾 hydropower tunnels，指明隧道的所屬國家。",
+            "word": "death toll",
+            "text": "「death toll」指「死亡人數」，是常見的災害報導用語。",
+            "category": "其他"
+          },
+          {
+            "word": "rises sharply",
+            "text": "「rises sharply」表示「急劇上升」，描述死亡人數增加的速度和幅度。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "• Live Updates Rajesh Kumar Singh/AP",
+      "url": "https://edition.cnn.com/2026/08/31/world/live-news/nepal-china-flood",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "• Live Updates Rajesh Kumar Singh/AP",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/world/live-news/nepal-china-flood",
+        "zh": "即時更新：拉傑什·庫馬爾·辛格/美聯社",
+        "accepted": [
+          [
+            "Live",
+            "Updates",
+            "Rajesh",
+            "Kumar",
+            "Singh/AP"
+          ]
+        ],
+        "distractors": [
+          "Lives",
+          "Updated",
+          "Update",
+          "Singh’s",
+          "AP’s",
+          "Updating"
+        ],
+        "notes": [
+          {
+            "word": "Live Updates",
+            "text": "「Live Updates」是新聞標題中常見的用語，表示「即時更新」。",
+            "category": "其他"
+          },
+          {
+            "word": "Singh/AP",
+            "text": "「Singh/AP」表示「辛格/美聯社」，通常指新聞來源或作者。",
+            "category": "其他"
+          },
+          {
+            "word": "Live",
+            "text": "這裡的「Live」是形容詞，修飾「Updates」，表示「即時的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Rescuers race against time to find workers missing in Nepal’s hydropower tunnels. What we know",
+      "url": "https://edition.cnn.com/2026/08/31/asia/nepal-missing-hydropower-tunnels-flood-explainer-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Rescuers race against time to find workers missing in Nepal’s hydropower tunnels. What we know",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/asia/nepal-missing-hydropower-tunnels-flood-explainer-intl-hnk",
+        "zh": "救援人員爭分奪秒尋找尼泊爾水力隧道中失蹤的工人。我們所知道的。",
+        "accepted": [
+          [
+            "Rescuers",
+            "race",
+            "against",
+            "time",
+            "to",
+            "find",
+            "workers",
+            "missing",
+            "in",
+            "Nepal’s",
+            "hydropower",
+            "tunnels.",
+            "What",
+            "we",
+            "know"
+          ]
+        ],
+        "distractors": [
+          "raced",
+          "racing",
+          "against’s",
+          "times",
+          "worker",
+          "missed"
+        ],
+        "notes": [
+          {
+            "word": "race against time",
+            "text": "「race against time」是一個慣用語，表示「爭分奪秒」或「與時間賽跑」。",
             "category": "其他"
           },
           {
             "word": "to find",
-            "text": "這裡的 to find 是不定詞片語，表示目的，說明緊急搜救的目標是「為了找到」受困工人。",
+            "text": "「to find」是不定詞，表示目的，說明救援人員爭分奪秒是為了「找到」失蹤工人。",
             "category": "其他"
           },
           {
-            "word": "in",
-            "text": "介係詞 in 用來表示位置，說明工人們受困的具體地點是「在尼泊爾的水力發電隧道內」。",
-            "category": "介係詞"
+            "word": "missing",
+            "text": "「missing」是現在分詞作形容詞，修飾「workers」，表示「失蹤的工人」。",
+            "category": "其他"
+          },
+          {
+            "word": "Nepal’s hydropower tunnels",
+            "text": "「Nepal’s hydropower tunnels」是所有格，表示「尼泊爾的水力隧道」。",
+            "category": "其他"
+          },
+          {
+            "word": "What we know",
+            "text": "「What we know」是一個名詞子句，作為標題的一部分，表示「我們所知道的（資訊）」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Lionel Messi announces he is retiring from Argentina’s national team",
+      "en": "Messi announces he is retiring from Argentina’s national team",
       "url": "https://edition.cnn.com/2026/08/31/sport/lionel-messi-argentina-national-team",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Lionel Messi announces he is retiring from Argentina’s national team",
+        "sourceEn": "Messi announces he is retiring from Argentina’s national team",
         "sourceUrl": "https://edition.cnn.com/2026/08/31/sport/lionel-messi-argentina-national-team",
-        "zh": "萊оне爾·梅西宣布他將從阿根廷國家隊退役。",
+        "zh": "梅西宣布他將從阿根廷國家隊退役。",
         "accepted": [
           [
-            "Lionel",
             "Messi",
             "announces",
             "he",
@@ -270,37 +353,313 @@
           ]
         ],
         "distractors": [
-          "the",
-          "a",
+          "announced",
+          "announcing",
           "retire",
-          "retires",
-          "their",
+          "retired",
+          "Argentina",
           "teams"
         ],
         "notes": [
           {
             "word": "announces",
-            "text": "動詞 'announce' 在這裡使用第三人稱單數現在式，因為主詞 'Lionel Messi' 是單數。",
+            "text": "動詞「announces」使用現在簡單式，在新聞標題中常用來描述最近發生的事件，使其聽起來更即時。",
             "category": "時態"
           },
           {
             "word": "is retiring",
-            "text": "現在進行式 'is retiring' 在這裡表示一個已經決定或即將發生的未來事件。",
+            "text": "「is retiring」使用現在進行式表示將來會發生的動作，強調這個決定已經做出並即將實施。",
             "category": "時態"
           },
           {
             "word": "from",
-            "text": "介係詞 'from' 用來表示離開某個團體或職位。",
+            "text": "「from」表示「從…（退出）」，說明退役的來源或對象。",
             "category": "介係詞"
           },
           {
-            "word": "Argentina’s",
-            "text": "'Argentina’s' 是所有格，表示「阿根廷的」。",
+            "word": "Argentina’s national team",
+            "text": "「Argentina’s national team」是所有格，表示「阿根廷的國家隊」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The Met Gala will no longer honor John Galliano after public outcry",
+      "url": "https://edition.cnn.com/2026/08/31/style/john-galliano-2027-met-gala-cancelled",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The Met Gala will no longer honor John Galliano after public outcry",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/style/john-galliano-2027-met-gala-cancelled",
+        "zh": "在公眾強烈抗議後，Met Gala 將不再表彰約翰·加利亞諾。",
+        "accepted": [
+          [
+            "The",
+            "Met",
+            "Gala",
+            "will",
+            "no",
+            "longer",
+            "honor",
+            "John",
+            "Galliano",
+            "after",
+            "public",
+            "outcry"
+          ]
+        ],
+        "distractors": [
+          "Met’s",
+          "Gala’s",
+          "longer’s",
+          "honoring",
+          "honored",
+          "outcries"
+        ],
+        "notes": [
+          {
+            "word": "will no longer honor",
+            "text": "「will no longer honor」表示「將不再表彰」，強調未來不再進行某項行動。",
+            "category": "時態"
+          },
+          {
+            "word": "after public outcry",
+            "text": "「after public outcry」表示「在公眾強烈抗議之後」，說明改變決定的原因。",
+            "category": "介係詞"
+          },
+          {
+            "word": "The Met Gala",
+            "text": "「The Met Gala」是一個專有名詞，指「大都會藝術博物館慈善晚宴」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "honor",
+            "text": "這裡的「honor」是動詞，表示「表彰、授予榮譽」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "A mysterious drone. A Mercedes RV. A Chinese intelligence puzzle in the New Mexico desert",
+      "url": "https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "A mysterious drone. A Mercedes RV. A Chinese intelligence puzzle in the New Mexico desert",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies",
+        "zh": "一架神秘無人機。一輛賓士露營車。新墨西哥沙漠中的一個中國情報謎團。",
+        "accepted": [
+          [
+            "A",
+            "mysterious",
+            "drone.",
+            "A",
+            "Mercedes",
+            "RV.",
+            "A",
+            "Chinese",
+            "intelligence",
+            "puzzle",
+            "in",
+            "the",
+            "New",
+            "Mexico",
+            "desert"
+          ]
+        ],
+        "distractors": [
+          "mysteries",
+          "drones",
+          "Mercedes’",
+          "RVs",
+          "puzzles",
+          "deserts"
+        ],
+        "notes": [
+          {
+            "word": "A mysterious drone",
+            "text": "「A mysterious drone」使用不定冠詞「A」，表示「一架神秘的無人機」，強調其單一性和未知性。",
+            "category": "冠詞"
+          },
+          {
+            "word": "A Mercedes RV",
+            "text": "「A Mercedes RV」使用不定冠詞「A」，表示「一輛賓士露營車」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "A Chinese intelligence puzzle",
+            "text": "「A Chinese intelligence puzzle」使用不定冠詞「A」，表示「一個中國情報謎團」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "in the New Mexico desert",
+            "text": "「in the New Mexico desert」使用定冠詞「the」，表示「在新墨西哥沙漠中」，指特定地點。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Ukraine racing to develop new interceptors as Russian drones and missiles ravage the country",
+      "url": "https://edition.cnn.com/2026/08/31/europe/ukraine-new-interceptors-russian-drones-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Ukraine racing to develop new interceptors as Russian drones and missiles ravage the country",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/europe/ukraine-new-interceptors-russian-drones-intl",
+        "zh": "隨著俄羅斯無人機和飛彈蹂躪烏克蘭，烏克蘭正爭相開發新型攔截器。",
+        "accepted": [
+          [
+            "Ukraine",
+            "racing",
+            "to",
+            "develop",
+            "new",
+            "interceptors",
+            "as",
+            "Russian",
+            "drones",
+            "and",
+            "missiles",
+            "ravage",
+            "the",
+            "country"
+          ]
+        ],
+        "distractors": [
+          "raced",
+          "race",
+          "developing",
+          "developed",
+          "interceptor",
+          "ravaged"
+        ],
+        "notes": [
+          {
+            "word": "racing to develop",
+            "text": "「racing to develop」是現在分詞片語，在新聞標題中常省略be動詞，表示「正在爭相開發」。",
+            "category": "時態"
+          },
+          {
+            "word": "as",
+            "text": "這裡的「as」表示「當…時」或「隨著…」，引導一個伴隨發生的情況，說明烏克蘭開發攔截器的背景。",
             "category": "其他"
           },
           {
-            "word": "team",
-            "text": "'team' 是可數名詞，在這裡指一個國家隊，是單數形式。",
+            "word": "ravage",
+            "text": "「ravage」是動詞，表示「蹂躪、破壞」，描述俄羅斯武器對國家的影響。",
+            "category": "其他"
+          },
+          {
+            "word": "interceptors",
+            "text": "「interceptors」是複數名詞，表示「攔截器」，指多個此類裝置。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "US and Iran trade attacks, marking first escalation in a month",
+      "url": "https://edition.cnn.com/2026/08/30/politics/us-iran-strikes-larak-island",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "US and Iran trade attacks, marking first escalation in a month",
+        "sourceUrl": "https://edition.cnn.com/2026/08/30/politics/us-iran-strikes-larak-island",
+        "zh": "美國和伊朗交換攻擊，標誌著一個月來首次升級。",
+        "accepted": [
+          [
+            "US",
+            "and",
+            "Iran",
+            "trade",
+            "attacks,",
+            "marking",
+            "first",
+            "escalation",
+            "in",
+            "a",
+            "month"
+          ]
+        ],
+        "distractors": [
+          "traded",
+          "trading",
+          "attack",
+          "marked",
+          "escalated",
+          "months"
+        ],
+        "notes": [
+          {
+            "word": "trade attacks",
+            "text": "「trade attacks」表示「交換攻擊」，是一種慣用表達，指雙方互相發動攻擊。",
+            "category": "其他"
+          },
+          {
+            "word": "marking",
+            "text": "「marking」是現在分詞，表示「標誌著」，說明交換攻擊的結果或意義。",
+            "category": "其他"
+          },
+          {
+            "word": "first escalation",
+            "text": "「first escalation」表示「首次升級」，強調這是第一次發生此類情況。",
+            "category": "其他"
+          },
+          {
+            "word": "in a month",
+            "text": "「in a month」表示「在一個月內」，指時間範圍。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Israel’s far-right competes for votes with increasingly extreme visions",
+      "url": "https://edition.cnn.com/2026/08/31/middleeast/ben-gvir-social-media-israel-election-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Israel’s far-right competes for votes with increasingly extreme visions",
+        "sourceUrl": "https://edition.cnn.com/2026/08/31/middleeast/ben-gvir-social-media-israel-election-intl",
+        "zh": "以色列極右翼以日益極端的願景爭取選票。",
+        "accepted": [
+          [
+            "Israel’s",
+            "far-right",
+            "competes",
+            "for",
+            "votes",
+            "with",
+            "increasingly",
+            "extreme",
+            "visions"
+          ]
+        ],
+        "distractors": [
+          "Israel",
+          "far-rights",
+          "competed",
+          "competing",
+          "vote",
+          "vision"
+        ],
+        "notes": [
+          {
+            "word": "Israel’s far-right",
+            "text": "「Israel’s far-right」是所有格，表示「以色列的極右翼（政黨或團體）」。",
+            "category": "其他"
+          },
+          {
+            "word": "competes for votes",
+            "text": "「competes for votes」表示「爭取選票」，是選舉中的常見行為。",
+            "category": "其他"
+          },
+          {
+            "word": "with increasingly extreme visions",
+            "text": "「with increasingly extreme visions」表示「以日益極端的願景」，說明爭取選票的方式或內容。",
+            "category": "介係詞"
+          },
+          {
+            "word": "visions",
+            "text": "「visions」是複數名詞，表示「願景、設想」，指多個此類理念。",
             "category": "單複數"
           }
         ]
