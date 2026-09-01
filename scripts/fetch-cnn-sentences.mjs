@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /* ------------------------------------------------------------------ *
  *  Daily job (see .github/workflows/daily-cnn-sentences.yml): scrape
- *  CNN's homepage for real headline sentences AND pre-generate each
+ *  CNN's homepage for real headline sentences AND pre-generate every
  *  one's puzzle (Chinese translation + tile set + grammar notes) with
- *  this job's own Gemini key, via generatePuzzleFromEnglish() in
- *  src/generate.js. The result — sentence + puzzle together — is
+ *  this job's own Gemini key, via generatePuzzlesBatch() in
+ *  src/generate.js — the whole day's headlines go in ONE Gemini call,
+ *  not one call per headline (that's what a free-tier key's per-minute
+ *  quota can't survive). The result — sentence + puzzle together — is
  *  written to public/daily-sentences.json, so the client never calls
  *  Gemini for the daily list: it just reads this one small file and
  *  plays. That's what makes "今日例句" work offline / on minimal data —
@@ -14,7 +16,7 @@
 import { writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
-import { generatePuzzleFromEnglish } from "../src/generate.js";
+import { generatePuzzlesBatch } from "../src/generate.js";
 
 const HOMEPAGE = "https://edition.cnn.com/";
 const OUT_PATH = fileURLToPath(new URL("../public/daily-sentences.json", import.meta.url));
@@ -92,46 +94,6 @@ function extractCandidates(html) {
 // pool — no re-scraping, it's all fetched once per day up front
 const POOL_SIZE = 12;
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-// Gemini's free tier caps requests per minute in the single digits — a run
-// of 12 back-to-back calls blows through that well before the 12th, and the
-// per-call fallback-to-lite-model in generate.js doesn't help when the whole
-// project's quota (not just one model's) is what's exhausted. So on a quota
-// error, wait out a full window and retry, instead of just skipping — this
-// job has minutes to spare, nobody's waiting on it interactively.
-const QUOTA_RETRY_WAITS_MS = [20000, 40000]; // 2 retries: ~1 min total backoff
-
-async function generateWithQuotaRetry(en, apiKey, url) {
-  for (let attempt = 0; ; attempt++) {
-    try {
-      return await generatePuzzleFromEnglish(en, apiKey, url);
-    } catch (err) {
-      const isQuota = /quota/i.test(err.message || "");
-      if (!isQuota || attempt >= QUOTA_RETRY_WAITS_MS.length) throw err;
-      console.error(`Quota hit for "${en}" — retrying in ${QUOTA_RETRY_WAITS_MS[attempt] / 1000}s`);
-      await sleep(QUOTA_RETRY_WAITS_MS[attempt]);
-    }
-  }
-}
-
-// sequential + a gap between calls: politeness on Gemini's rate limit, not a
-// throughput concern — this job has minutes to spare, nobody's waiting on it
-// interactively.
-async function attachPuzzles(sentences, apiKey) {
-  const withPuzzles = [];
-  for (const s of sentences) {
-    try {
-      const puzzle = await generateWithQuotaRetry(s.en, apiKey, s.url);
-      withPuzzles.push({ en: s.en, url: s.url, puzzle });
-    } catch (err) {
-      console.error(`Skipping "${s.en}": ${err.message || err}`);
-    }
-    await sleep(3000);
-  }
-  return withPuzzles;
-}
-
 async function main() {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
@@ -147,10 +109,10 @@ async function main() {
     );
   }
 
-  const sentences = await attachPuzzles(candidates.slice(0, POOL_SIZE), apiKey);
+  const sentences = await generatePuzzlesBatch(candidates.slice(0, POOL_SIZE), apiKey);
   if (sentences.length < 3) {
     throw new Error(
-      `Only ${sentences.length} sentence(s) got a puzzle generated — leaving existing daily-sentences.json untouched.`
+      `Only ${sentences.length} sentence(s) got a puzzle out of the batch call — leaving existing daily-sentences.json untouched.`
     );
   }
 

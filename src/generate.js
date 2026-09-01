@@ -51,7 +51,7 @@ RULES:
 6. Every note's category is exactly one of: 時態, 冠詞, 介係詞, 單複數, 其他.
 7. Return ONLY the JSON. Nothing else.`;
 
-async function callModel(system, model, userText, apiKey) {
+async function callModel(system, model, userText, apiKey, maxOutputTokens = 1024) {
   return fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
     {
@@ -63,7 +63,7 @@ async function callModel(system, model, userText, apiKey) {
         generationConfig: {
           responseMimeType: "application/json",
           temperature: 0.3,
-          maxOutputTokens: 1024,
+          maxOutputTokens,
           thinkingConfig: { thinkingBudget: 0 }, // no thinking: faster generation, JSON task doesn't need it
         },
       }),
@@ -129,4 +129,117 @@ export async function generatePuzzleFromEnglish(en, apiKey, sourceUrl) {
     throw new Error("題目生成失敗（缺少中文題目），請再試一次。");
   }
   return { theme: "今日新聞", sourceEn: en, sourceUrl, ...puzzle };
+}
+
+// Same job as SYSTEM_EN, but for a whole day's headline batch in one call —
+// scripts/fetch-cnn-sentences.mjs uses this instead of calling
+// generatePuzzleFromEnglish once per sentence, so the daily job costs one
+// Gemini request total, not one per headline (which is what was tripping the
+// free-tier per-minute quota).
+const SYSTEM_EN_BATCH = `You are an English grammar puzzle generator for Chinese native speakers.
+
+You will be given a numbered list of real English sentences, each taken from a news headline.
+
+TASK, for EACH sentence independently:
+1. Translate it into natural Traditional Chinese — this becomes the puzzle prompt the learner reads. Translate exactly what that headline says; do not paraphrase, expand, or "fix" it into a different sentence.
+2. Break the sentence into individual word tokens for a tile-assembly puzzle, using the EXACT wording given — do not rewrite, complete, or rephrase it, even if it reads as a fragment or drops articles/verbs headline-style. Every token must be a word that appears in that sentence.
+
+Output ONLY a JSON array (no markdown, no commentary) with exactly one object per input sentence, IN THE SAME ORDER as given:
+[{"zh":"Traditional Chinese translation","accepted":[["EnglishWord1","EnglishWord2",...]],"distractors":["WrongWord1"],"notes":[{"word":"EnglishWord","text":"Traditional Chinese grammar note","category":"時態"}]}, ...]
+
+RULES:
+1. The output array's length MUST equal the number of input sentences, in the same order — element i answers input sentence i.
+2. zh = Traditional Chinese only, and must translate that ORIGINAL headline, not a rewritten version of it.
+3. accepted = ENGLISH word tokens, unchanged from that sentence. NOT Chinese, NOT rewritten wording.
+4. All accepted variants (if more than one) = permutations of the SAME English token set.
+5. distractors = 3-6 plausible-but-wrong English words.
+6. notes = 3-5 grammar tips in Traditional Chinese.
+7. Every note's category is exactly one of: 時態, 冠詞, 介係詞, 單複數, 其他.
+8. Return ONLY the JSON array. Nothing else — no markdown fences, no per-item commentary.`;
+
+// Output grows linearly with input count, unlike the ~1024-token single-
+// sentence budget above — 12 headlines' worth of zh/accepted/distractors/
+// notes comfortably needs more room.
+const BATCH_MAX_OUTPUT_TOKENS = 16384;
+
+async function runBatchModel(system, userText, apiKey) {
+  let res = await callModel(system, "gemini-2.5-flash", userText, apiKey, BATCH_MAX_OUTPUT_TOKENS);
+
+  if (res.status === 429 || res.status === 503) {
+    const fallback = await callModel(
+      system,
+      "gemini-2.5-flash-lite",
+      userText,
+      apiKey,
+      BATCH_MAX_OUTPUT_TOKENS
+    ).catch(() => null);
+    if (fallback?.ok) res = fallback;
+  }
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => null);
+    throw new Error(err?.error?.message || `Gemini API ${res.status}`);
+  }
+
+  const data = await res.json();
+  const text = (data.candidates?.[0]?.content?.parts || [])
+    .map((p) => p.text || "")
+    .join("")
+    .trim();
+
+  let results;
+  try {
+    results = JSON.parse(text);
+  } catch {
+    throw new Error("模型回傳的不是有效 JSON 陣列，請再試一次。");
+  }
+  if (!Array.isArray(results)) {
+    throw new Error("模型回傳格式錯誤（預期是陣列）。");
+  }
+  return results;
+}
+
+// sentences: [{en, url}]. One Gemini call for the whole batch — returns only
+// the entries that parsed into a usable puzzle, each shaped like
+// generatePuzzleFromEnglish's return value plus the original {en, url}, so
+// callers don't need to know batch vs per-item happened.
+export async function generatePuzzlesBatch(sentences, apiKey) {
+  const userText = sentences.map((s, i) => `${i + 1}. ${s.en}`).join("\n");
+  const results = await runBatchModel(SYSTEM_EN_BATCH, userText, apiKey);
+
+  if (results.length !== sentences.length) {
+    console.error(
+      `Batch returned ${results.length} results for ${sentences.length} input sentences — mismatched entries are dropped.`
+    );
+  }
+
+  const withPuzzles = [];
+  sentences.forEach((s, i) => {
+    const r = results[i];
+    if (
+      !r ||
+      typeof r.zh !== "string" ||
+      !r.zh ||
+      !Array.isArray(r.accepted) ||
+      !Array.isArray(r.accepted[0]) ||
+      r.accepted[0].length === 0
+    ) {
+      console.error(`Skipping "${s.en}": batch result at index ${i} is missing or malformed`);
+      return;
+    }
+    withPuzzles.push({
+      en: s.en,
+      url: s.url,
+      puzzle: {
+        theme: "今日新聞",
+        sourceEn: s.en,
+        sourceUrl: s.url,
+        zh: r.zh,
+        accepted: r.accepted,
+        distractors: Array.isArray(r.distractors) ? r.distractors : [],
+        notes: Array.isArray(r.notes) ? r.notes : [],
+      },
+    });
+  });
+  return withPuzzles;
 }
