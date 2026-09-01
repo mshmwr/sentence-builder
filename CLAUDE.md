@@ -62,12 +62,20 @@ deployment, so `scripts/verify-deploy.sh` reports a SHA mismatch until the next 
   deploy. A deploy you did not start is usually that; check the deployment SHA before
   assuming your own change shipped.
 - **The daily robot needs its own Gemini key.** It doesn't just scrape CNN headlines —
-  `scripts/fetch-cnn-sentences.mjs` also pre-generates each sentence's puzzle (translation
-  + tiles + notes) via `generatePuzzleFromEnglish`, using the repo secret `GEMINI_API_KEY`,
-  so the client never calls Gemini for "今日例句" (that's what makes it playable offline /
-  on minimal data — one shared CI call per sentence per day, not one per visitor). Without
-  that secret set (GitHub repo Settings → Secrets and variables → Actions), the workflow
-  fails before writing anything and the site keeps serving whatever `daily-sentences.json`
-  it already has.
+  `scripts/fetch-cnn-sentences.mjs` also pre-generates every sentence's puzzle (translation
+  + tiles + notes) via `generatePuzzlesBatch` in `src/generate.js`, using the repo secret
+  `GEMINI_API_KEY`, so the client never calls Gemini for "今日例句" (that's what makes it
+  playable offline / on minimal data). Without that secret set (GitHub repo Settings →
+  Secrets and variables → Actions), the workflow fails before writing anything and the site
+  keeps serving whatever `daily-sentences.json` it already has.
+- **The whole day's batch is ONE Gemini call, not one per headline.** An earlier version
+  called `generatePuzzleFromEnglish` per sentence (12 calls) and blew through a free-tier
+  key's per-minute quota after ~6 — see run #8/#9 in the Actions history for what that
+  looked like. `generatePuzzlesBatch` sends all headlines in a single prompt and expects
+  back a same-length, same-order JSON array; a malformed or missing entry for one headline
+  is dropped (that sentence just won't appear in `daily-sentences.json`), it doesn't fail
+  the whole run. `BATCH_MAX_OUTPUT_TOKENS` (16384) needs to stay well above whatever
+  `POOL_SIZE` headlines' worth of zh/accepted/distractors/notes actually costs — raise it
+  if `POOL_SIZE` in `scripts/fetch-cnn-sentences.mjs` grows.
 - **`dist/` is gitignored** but a stale copy exists on disk. Never deploy from a local
   build artifact; Vercel builds from the repo.
