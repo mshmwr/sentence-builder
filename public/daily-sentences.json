@@ -1,698 +1,791 @@
 {
-  "date": "2026-09-01",
-  "fetchedAt": "2026-09-01T22:30:54.236Z",
+  "date": "2026-09-02",
+  "fetchedAt": "2026-09-02T22:29:28.678Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "US military carries out new strikes on Iranian targets",
-      "url": "https://edition.cnn.com/2026/09/01/politics/us-military-strikes-iran",
+      "en": "The Trump administration cut funds for natural hazards monitoring in Nepal. A year later, disaster struck",
+      "url": "https://edition.cnn.com/2026/09/02/climate/nepal-disaster-grant-canceled-trump",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "US military carries out new strikes on Iranian targets",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/politics/us-military-strikes-iran",
-        "zh": "美國軍方對伊朗目標發動新一輪襲擊。",
+        "sourceEn": "The Trump administration cut funds for natural hazards monitoring in Nepal. A year later, disaster struck",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/climate/nepal-disaster-grant-canceled-trump",
+        "zh": "川普政府削減了對尼泊爾自然災害監測的資金。一年後，災難降臨。",
         "accepted": [
           [
-            "US",
-            "military",
-            "carries",
-            "out",
-            "new",
-            "strikes",
-            "on",
-            "Iranian",
-            "targets"
-          ]
-        ],
-        "distractors": [
-          "strike",
-          "target",
-          "carry",
-          "militaries",
-          "newly",
-          "Iran"
-        ],
-        "notes": [
-          {
-            "word": "carries out",
-            "text": "「carries out」是動詞片語，意為「執行」或「實施」。在這裡，它表示美軍執行了新的襲擊。",
-            "category": "其他"
-          },
-          {
-            "word": "strikes",
-            "text": "「strikes」是名詞，意為「襲擊」或「打擊」。作為可數名詞，這裡用複數形式表示多個襲擊。",
-            "category": "單複數"
-          },
-          {
-            "word": "on",
-            "text": "介係詞「on」在這裡表示襲擊的目標，即「針對...」或「在...之上」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Iranian",
-            "text": "「Iranian」是形容詞，意為「伊朗的」，用來修飾名詞「targets」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Germany blames Russia for drone attack on Leipzig airport",
-      "url": "https://edition.cnn.com/2026/09/01/europe/leipzig-drone-germany-russia-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Germany blames Russia for drone attack on Leipzig airport",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/europe/leipzig-drone-germany-russia-intl",
-        "zh": "德國指責俄羅斯對萊比錫機場的無人機襲擊負責。",
-        "accepted": [
-          [
-            "Germany",
-            "blames",
-            "Russia",
+            "The",
+            "Trump",
+            "administration",
+            "cut",
+            "funds",
             "for",
-            "drone",
-            "attack",
-            "on",
-            "Leipzig",
-            "airport"
+            "natural",
+            "hazards",
+            "monitoring",
+            "in",
+            "Nepal",
+            ".",
+            "A",
+            "year",
+            "later",
+            ",",
+            "disaster",
+            "struck"
           ]
         ],
         "distractors": [
-          "blame",
-          "blamed",
-          "Russian",
-          "drones",
-          "attacks",
-          "airports"
+          "funding",
+          "monitor",
+          "hazard",
+          "strike",
+          "later",
+          "administrate"
         ],
         "notes": [
           {
-            "word": "blames",
-            "text": "「blames」是動詞「blame」的第三人稱單數現在式，意為「指責」。主詞「Germany」是單數，所以動詞要加s。",
+            "word": "cut",
+            "text": "這裡的 'cut' 是動詞的過去式，表示「削減」。",
             "category": "時態"
+          },
+          {
+            "word": "funds",
+            "text": "'funds' 是 'fund' 的複數形式，指「資金」或「款項」。",
+            "category": "單複數"
           },
           {
             "word": "for",
-            "text": "介係詞「for」在這裡表示指責的原因或對象，即「為...而指責」。",
+            "text": "'for' 在此表示目的，即「為了...」。",
             "category": "介係詞"
           },
           {
-            "word": "drone attack",
-            "text": "「drone attack」是複合名詞，意為「無人機襲擊」。其中「drone」作形容詞修飾「attack」。",
-            "category": "其他"
-          },
-          {
-            "word": "on",
-            "text": "介係詞「on」在這裡表示襲擊的地點，即「在...上」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘Breach of trust’: Democratic leaders shocked after 2 members cross aisle to help Republicans",
-      "url": "https://edition.cnn.com/2026/09/01/politics/democrats-mike-johnson-revolt",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘Breach of trust’: Democratic leaders shocked after 2 members cross aisle to help Republicans",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/politics/democrats-mike-johnson-revolt",
-        "zh": "「信任破裂」：兩名民主黨成員跨越黨派界線幫助共和黨人後，民主黨領袖感到震驚。",
-        "accepted": [
-          [
-            "‘Breach",
-            "of",
-            "trust’:",
-            "Democratic",
-            "leaders",
-            "shocked",
-            "after",
-            "2",
-            "members",
-            "cross",
-            "aisle",
-            "to",
-            "help",
-            "Republicans"
-          ]
-        ],
-        "distractors": [
-          "breaches",
-          "trusted",
-          "leader",
-          "member",
-          "crossed",
-          "helping"
-        ],
-        "notes": [
-          {
-            "word": "Breach of trust",
-            "text": "「Breach of trust」是一個常用片語，意為「信任破裂」或「背信」。",
-            "category": "其他"
-          },
-          {
-            "word": "shocked",
-            "text": "「shocked」是形容詞，表示「感到震驚的」。這裡用作表語，修飾「Democratic leaders」。",
-            "category": "其他"
-          },
-          {
-            "word": "cross aisle",
-            "text": "「cross aisle」是一個政治用語，意為「跨越黨派界線」或「與對立黨派合作」。",
-            "category": "其他"
-          },
-          {
-            "word": "to help",
-            "text": "「to help」是不定詞片語，表示目的，即「為了幫助」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "They were building infrastructure in Nepal. Their families in China want to know what happened to them",
-      "url": "https://edition.cnn.com/2026/09/01/china/china-nepal-floods-chinese-families-intl-hnk-dst",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "They were building infrastructure in Nepal. Their families in China want to know what happened to them",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/china/china-nepal-floods-chinese-families-intl-hnk-dst",
-        "zh": "他們正在尼泊爾建設基礎設施。他們在中國的家人想知道他們發生了什麼事。",
-        "accepted": [
-          [
-            "They",
-            "were",
-            "building",
-            "infrastructure",
-            "in",
-            "Nepal.",
-            "Their",
-            "families",
-            "in",
-            "China",
-            "want",
-            "to",
-            "know",
-            "what",
-            "happened",
-            "to",
-            "them"
-          ]
-        ],
-        "distractors": [
-          "build",
-          "built",
-          "infrastructures",
-          "family",
-          "wants",
-          "happens"
-        ],
-        "notes": [
-          {
-            "word": "were building",
-            "text": "「were building」是過去進行式，表示過去某個時間點正在進行的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "infrastructure",
-            "text": "「infrastructure」是不可數名詞，意為「基礎設施」。",
-            "category": "單複數"
-          },
-          {
-            "word": "want to know",
-            "text": "「want to know」表示「想知道」。動詞「want」後接不定詞「to know」。",
-            "category": "其他"
-          },
-          {
-            "word": "what happened to them",
-            "text": "「what happened to them」是一個名詞子句，作「know」的受詞，意為「他們發生了什麼事」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "She was a ’90s grunge queen. These are her photos on the road",
-      "url": "https://edition.cnn.com/2026/09/01/style/melissa-auf-der-maur-90s-photography",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "She was a ’90s grunge queen. These are her photos on the road",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/style/melissa-auf-der-maur-90s-photography",
-        "zh": "她曾是90年代的垃圾搖滾女王。這些是她在路上的照片。",
-        "accepted": [
-          [
-            "She",
-            "was",
-            "a",
-            "’90s",
-            "grunge",
-            "queen.",
-            "These",
-            "are",
-            "her",
-            "photos",
-            "on",
-            "the",
-            "road"
-          ]
-        ],
-        "distractors": [
-          "is",
-          "queens",
-          "photo",
-          "roads",
-          "grunges",
-          "queen's"
-        ],
-        "notes": [
-          {
-            "word": "was",
-            "text": "「was」是動詞「be」的過去式，表示過去的狀態。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "不定冠詞「a」用在單數可數名詞「queen」前。",
+            "word": "A",
+            "text": "'A year later' 中的 'A' 是不定冠詞，表示「一年之後」。",
             "category": "冠詞"
           },
           {
-            "word": "’90s grunge queen",
-            "text": "「’90s grunge queen」意為「90年代垃圾搖滾女王」。這裡「’90s」作形容詞修飾「grunge queen」。",
-            "category": "其他"
-          },
-          {
-            "word": "on the road",
-            "text": "片語「on the road」意為「在旅途中」或「在路上」。",
-            "category": "其他"
+            "word": "struck",
+            "text": "'struck' 是動詞 'strike' 的過去式，表示「襲擊」或「降臨」。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "This Olympian battled porn addiction for years. He now wants to help others suffering in silence",
-      "url": "https://edition.cnn.com/2026/09/01/sport/porn-addiction-athletes-olympics",
+      "en": "Hegseth’s culture war fixation disrupting Army progress, sources say",
+      "url": "https://edition.cnn.com/2026/09/02/politics/hegseths-army-leadership-void-culture-war",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "This Olympian battled porn addiction for years. He now wants to help others suffering in silence",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/sport/porn-addiction-athletes-olympics",
-        "zh": "這位奧運選手多年來與色情成癮搏鬥。他現在想幫助其他默默受苦的人。",
+        "sourceEn": "Hegseth’s culture war fixation disrupting Army progress, sources say",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/politics/hegseths-army-leadership-void-culture-war",
+        "zh": "消息人士稱，赫格塞斯對文化戰爭的執著正在擾亂陸軍的進展。",
         "accepted": [
           [
-            "This",
-            "Olympian",
-            "battled",
-            "porn",
-            "addiction",
-            "for",
-            "years.",
-            "He",
-            "now",
-            "wants",
-            "to",
-            "help",
-            "others",
-            "suffering",
-            "in",
-            "silence"
+            "Hegseth’s",
+            "culture",
+            "war",
+            "fixation",
+            "disrupting",
+            "Army",
+            "progress",
+            ",",
+            "sources",
+            "say"
           ]
         ],
         "distractors": [
-          "Olympic",
-          "battle",
-          "addict",
-          "suffer",
-          "silently",
-          "wanting"
+          "fixate",
+          "disrupt",
+          "progressing",
+          "source",
+          "said",
+          "cultural"
         ],
         "notes": [
           {
-            "word": "battled",
-            "text": "「battled」是動詞「battle」的過去式，意為「搏鬥」或「奮戰」。",
+            "word": "Hegseth’s",
+            "text": "'Hegseth’s' 是所有格，表示「赫格塞斯的」。",
+            "category": "其他"
+          },
+          {
+            "word": "fixation",
+            "text": "'fixation' 是名詞，表示「執著」或「迷戀」。",
+            "category": "其他"
+          },
+          {
+            "word": "disrupting",
+            "text": "這裡的 'disrupting' 是現在分詞，用來描述正在發生的動作，表示「正在擾亂」。",
             "category": "時態"
           },
           {
-            "word": "porn addiction",
-            "text": "「porn addiction」是複合名詞，意為「色情成癮」。",
+            "word": "progress",
+            "text": "'progress' 在此作為名詞，表示「進展」或「進步」。",
             "category": "其他"
           },
           {
-            "word": "for years",
-            "text": "片語「for years」表示「多年來」，強調時間的持續。",
-            "category": "其他"
-          },
-          {
-            "word": "suffering in silence",
-            "text": "「suffering in silence」是現在分詞片語，修飾「others」，意為「默默受苦的」。",
-            "category": "其他"
+            "word": "say",
+            "text": "'say' 是動詞，表示「說」。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Breaking News Republican representative rebuked by US House over allegations of unwanted advances toward female staffers",
-      "url": "https://edition.cnn.com/2026/09/01/politics/chuck-edwards-censure-ethics-report",
+      "en": "Trump’s nominee for Navy secretary once said military needs ‘alpha males and alpha females’",
+      "url": "https://edition.cnn.com/2026/09/02/politics/hung-cao-trump-nominee-navy-secretary",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Breaking News Republican representative rebuked by US House over allegations of unwanted advances toward female staffers",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/politics/chuck-edwards-censure-ethics-report",
-        "zh": "突發新聞：共和黨眾議員因被指控對女性職員有不當行為而受到美國眾議院的譴責。",
+        "sourceEn": "Trump’s nominee for Navy secretary once said military needs ‘alpha males and alpha females’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/politics/hung-cao-trump-nominee-navy-secretary",
+        "zh": "川普提名的海軍部長人選曾表示，軍隊需要「陽剛男性和強勢女性」。",
         "accepted": [
           [
-            "Breaking",
-            "News",
-            "Republican",
-            "representative",
-            "rebuked",
-            "by",
-            "US",
-            "House",
-            "over",
-            "allegations",
-            "of",
-            "unwanted",
-            "advances",
-            "toward",
-            "female",
-            "staffers"
+            "Trump’s",
+            "nominee",
+            "for",
+            "Navy",
+            "secretary",
+            "once",
+            "said",
+            "military",
+            "needs",
+            "‘alpha",
+            "males",
+            "and",
+            "alpha",
+            "females’"
           ]
         ],
         "distractors": [
-          "Break",
-          "News",
-          "representatives",
-          "rebuke",
-          "allegation",
-          "staffer"
+          "nominate",
+          "secretaries",
+          "needing",
+          "male",
+          "female",
+          "saying"
         ],
         "notes": [
           {
-            "word": "Breaking News",
-            "text": "「Breaking News」是新聞用語，意為「突發新聞」。",
+            "word": "Trump’s",
+            "text": "'Trump’s' 是所有格，表示「川普的」。",
             "category": "其他"
           },
           {
-            "word": "rebuked",
-            "text": "「rebuked」是動詞「rebuke」的過去分詞，這裡用於被動語態，表示「受到譴責」。",
+            "word": "nominee",
+            "text": "'nominee' 是名詞，表示「被提名人」。",
             "category": "其他"
           },
           {
-            "word": "allegations of",
-            "text": "「allegations of」意為「關於...的指控」。",
+            "word": "for",
+            "text": "'for' 在此表示職位或目的，即「擔任...」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "said",
+            "text": "'said' 是動詞 'say' 的過去式，表示「說過」。",
+            "category": "時態"
+          },
+          {
+            "word": "needs",
+            "text": "'needs' 是動詞 'need' 的第三人稱單數現在式，表示「需要」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why warning lights are flashing in the most important market on the planet",
+      "url": "https://edition.cnn.com/2026/09/02/economy/debt-treasury-stocks-bond-market",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why warning lights are flashing in the most important market on the planet",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/economy/debt-treasury-stocks-bond-market",
+        "zh": "為什麼在地球上最重要的市場中，警示燈正在閃爍？",
+        "accepted": [
+          [
+            "Why",
+            "warning",
+            "lights",
+            "are",
+            "flashing",
+            "in",
+            "the",
+            "most",
+            "important",
+            "market",
+            "on",
+            "the",
+            "planet"
+          ]
+        ],
+        "distractors": [
+          "warn",
+          "light",
+          "flash",
+          "importantest",
+          "markets",
+          "planets"
+        ],
+        "notes": [
+          {
+            "word": "Why",
+            "text": "'Why' 是疑問副詞，表示「為什麼」。",
             "category": "其他"
           },
           {
-            "word": "unwanted advances",
-            "text": "「unwanted advances」是一個委婉語，意為「不必要的親近」或「不當行為」。",
+            "word": "warning",
+            "text": "'warning' 在此作為形容詞，修飾 'lights'，表示「警示的」。",
             "category": "其他"
           },
           {
-            "word": "toward",
-            "text": "介係詞「toward」在這裡表示方向或對象，即「針對」或「朝向」。",
+            "word": "are flashing",
+            "text": "'are flashing' 是現在進行式，表示「正在閃爍」。",
+            "category": "時態"
+          },
+          {
+            "word": "the",
+            "text": "'the most important' 中的 'the' 是定冠詞，用於最高級形容詞前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "on",
+            "text": "'on the planet' 中的 'on' 表示「在...上」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "US Congress votes to avert government shutdown ahead of midterm elections",
-      "url": "https://edition.cnn.com/2026/09/01/politics/congress-government-shutdown-midterms",
+      "en": "US 10-year yield touches highest level since 2023 Global bond yields are up sharply in recent weeks and US oil prices are at $90 per barrel. Now, investors are on alert for potential pressure on the stock market.",
+      "url": "https://edition.cnn.com/2026/09/02/investing/bond-market-stocks-ai",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "US Congress votes to avert government shutdown ahead of midterm elections",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/politics/congress-government-shutdown-midterms",
-        "zh": "美國國會投票通過，以避免在中期選舉前政府關門。",
+        "sourceEn": "US 10-year yield touches highest level since 2023 Global bond yields are up sharply in recent weeks and US oil prices are at $90 per barrel. Now, investors are on alert for potential pressure on the stock market.",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/investing/bond-market-stocks-ai",
+        "zh": "美國10年期公債殖利率觸及2023年以來最高水準。近幾週全球債券殖利率大幅上漲，美國油價達到每桶90美元。現在，投資者正警惕股市可能面臨的壓力。",
         "accepted": [
           [
             "US",
-            "Congress",
-            "votes",
-            "to",
-            "avert",
-            "government",
-            "shutdown",
-            "ahead",
-            "of",
-            "midterm",
-            "elections"
+            "10-year",
+            "yield",
+            "touches",
+            "highest",
+            "level",
+            "since",
+            "2023",
+            "Global",
+            "bond",
+            "yields",
+            "are",
+            "up",
+            "sharply",
+            "in",
+            "recent",
+            "weeks",
+            "and",
+            "US",
+            "oil",
+            "prices",
+            "are",
+            "at",
+            "$90",
+            "per",
+            "barrel",
+            ".",
+            "Now",
+            ",",
+            "investors",
+            "are",
+            "on",
+            "alert",
+            "for",
+            "potential",
+            "pressure",
+            "on",
+            "the",
+            "stock",
+            "market",
+            "."
           ]
         ],
         "distractors": [
-          "vote",
-          "voted",
-          "averts",
-          "governments",
-          "shutdowns",
-          "election"
+          "touching",
+          "higher",
+          "levels",
+          "sharper",
+          "investor",
+          "pressures"
         ],
         "notes": [
           {
-            "word": "votes",
-            "text": "「votes」是動詞「vote」的第三人稱單數現在式，主詞「Congress」在這裡被視為單數。",
+            "word": "touches",
+            "text": "'touches' 是動詞 'touch' 的第三人稱單數現在式，表示「觸及」。",
             "category": "時態"
           },
           {
-            "word": "to avert",
-            "text": "「to avert」是不定詞片語，表示目的，意為「為了避免」。",
+            "word": "highest",
+            "text": "'highest' 是形容詞 'high' 的最高級，表示「最高的」。",
             "category": "其他"
           },
           {
-            "word": "government shutdown",
-            "text": "「government shutdown」是複合名詞，意為「政府關門」。",
-            "category": "其他"
+            "word": "since",
+            "text": "'since' 在此表示時間點，即「自...以來」。",
+            "category": "介係詞"
           },
           {
-            "word": "ahead of",
-            "text": "片語「ahead of」意為「在...之前」。",
+            "word": "are up",
+            "text": "'are up' 是現在式，表示「正在上漲」。",
+            "category": "時態"
+          },
+          {
+            "word": "on alert",
+            "text": "'on alert' 是片語，表示「警惕」或「戒備」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Tiger Woods to appear in court Wednesday for a change of plea in his DUI case",
+      "en": "Iran retaliates after US strikes, defying Trump’s warning it could be hit ‘much harder’",
+      "url": "https://edition.cnn.com/2026/09/01/middleeast/us-military-strikes-iran",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Iran retaliates after US strikes, defying Trump’s warning it could be hit ‘much harder’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/01/middleeast/us-military-strikes-iran",
+        "zh": "伊朗在美國襲擊後進行報復，無視川普關於可能遭受「更猛烈」打擊的警告。",
+        "accepted": [
+          [
+            "Iran",
+            "retaliates",
+            "after",
+            "US",
+            "strikes",
+            ",",
+            "defying",
+            "Trump’s",
+            "warning",
+            "it",
+            "could",
+            "be",
+            "hit",
+            "‘much",
+            "harder’"
+          ]
+        ],
+        "distractors": [
+          "retaliate",
+          "strike",
+          "defy",
+          "warn",
+          "hard",
+          "hitting"
+        ],
+        "notes": [
+          {
+            "word": "retaliates",
+            "text": "'retaliates' 是動詞 'retaliate' 的第三人稱單數現在式，表示「報復」。",
+            "category": "時態"
+          },
+          {
+            "word": "strikes",
+            "text": "這裡的 'strikes' 是名詞，表示「襲擊」或「打擊」。",
+            "category": "其他"
+          },
+          {
+            "word": "defying",
+            "text": "'defying' 是現在分詞，表示「無視」或「反抗」。",
+            "category": "時態"
+          },
+          {
+            "word": "Trump’s",
+            "text": "'Trump’s' 是所有格，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "could be hit",
+            "text": "'could be hit' 是情態動詞 'could' 加上被動語態，表示「可能被擊中」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Ariana Grande bids fans tearful farewell in last concert before stepping back from public life",
+      "url": "https://edition.cnn.com/2026/09/02/entertainment/ariana-grande-last-concert-intl-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Ariana Grande bids fans tearful farewell in last concert before stepping back from public life",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/entertainment/ariana-grande-last-concert-intl-scli",
+        "zh": "亞莉安娜·格蘭德在退出公眾生活前的最後一場演唱會上，含淚告別粉絲。",
+        "accepted": [
+          [
+            "Ariana",
+            "Grande",
+            "bids",
+            "fans",
+            "tearful",
+            "farewell",
+            "in",
+            "last",
+            "concert",
+            "before",
+            "stepping",
+            "back",
+            "from",
+            "public",
+            "life"
+          ]
+        ],
+        "distractors": [
+          "bid",
+          "fan",
+          "tearfully",
+          "farewelling",
+          "step",
+          "lives"
+        ],
+        "notes": [
+          {
+            "word": "bids",
+            "text": "'bids' 是動詞 'bid' 的第三人稱單數現在式，表示「致意」或「告別」。",
+            "category": "時態"
+          },
+          {
+            "word": "tearful",
+            "text": "'tearful' 是形容詞，表示「含淚的」。",
+            "category": "其他"
+          },
+          {
+            "word": "farewell",
+            "text": "'farewell' 在此作為名詞，表示「告別」。",
+            "category": "其他"
+          },
+          {
+            "word": "before",
+            "text": "'before' 在此作為介係詞，表示「在...之前」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "stepping back",
+            "text": "'stepping back' 是動詞片語，表示「退出」或「後退」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Tasmanian tiger skull shows it was different than any living mammal",
+      "url": "https://edition.cnn.com/2026/09/02/science/tasmanian-tiger-skull-bite-force",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Tasmanian tiger skull shows it was different than any living mammal",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/science/tasmanian-tiger-skull-bite-force",
+        "zh": "塔斯馬尼亞虎的頭骨顯示它與任何現存哺乳動物都不同。",
+        "accepted": [
+          [
+            "Tasmanian",
+            "tiger",
+            "skull",
+            "shows",
+            "it",
+            "was",
+            "different",
+            "than",
+            "any",
+            "living",
+            "mammal"
+          ]
+        ],
+        "distractors": [
+          "tigers",
+          "skulls",
+          "showing",
+          "differently",
+          "live",
+          "mammals"
+        ],
+        "notes": [
+          {
+            "word": "skull",
+            "text": "'skull' 是名詞，表示「頭骨」。",
+            "category": "其他"
+          },
+          {
+            "word": "shows",
+            "text": "'shows' 是動詞 'show' 的第三人稱單數現在式，表示「顯示」。",
+            "category": "時態"
+          },
+          {
+            "word": "was",
+            "text": "'was' 是動詞 'be' 的過去式，表示「是」。",
+            "category": "時態"
+          },
+          {
+            "word": "different than",
+            "text": "'different than' 是片語，表示「與...不同」。也可以用 'different from'。",
+            "category": "其他"
+          },
+          {
+            "word": "living",
+            "text": "'living' 在此作為形容詞，表示「現存的」或「活著的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "After nearly 30 hours of deliberations, can Lindsay Clancy’s jurors break their impasse?",
+      "url": "https://edition.cnn.com/2026/09/02/us/jury-lindsay-clancy-trial-deliberations",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "After nearly 30 hours of deliberations, can Lindsay Clancy’s jurors break their impasse?",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/us/jury-lindsay-clancy-trial-deliberations",
+        "zh": "經過近30小時的審議，林賽·克蘭西的陪審團能否打破僵局？",
+        "accepted": [
+          [
+            "After",
+            "nearly",
+            "30",
+            "hours",
+            "of",
+            "deliberations",
+            ",",
+            "can",
+            "Lindsay",
+            "Clancy’s",
+            "jurors",
+            "break",
+            "their",
+            "impasse",
+            "?"
+          ]
+        ],
+        "distractors": [
+          "hour",
+          "deliberate",
+          "jury",
+          "breaking",
+          "impasses",
+          "Clancy"
+        ],
+        "notes": [
+          {
+            "word": "After",
+            "text": "'After' 在此作為介係詞，表示「在...之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "hours",
+            "text": "'hours' 是 'hour' 的複數形式，表示「小時」。",
+            "category": "單複數"
+          },
+          {
+            "word": "deliberations",
+            "text": "'deliberations' 是名詞，表示「審議」或「討論」。",
+            "category": "其他"
+          },
+          {
+            "word": "can",
+            "text": "'can' 是情態動詞，表示「能夠」。",
+            "category": "其他"
+          },
+          {
+            "word": "break",
+            "text": "'break' 是動詞，表示「打破」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Emmanuel and Brigitte Macron join King Charles and Queen Camilla in private viewing of famed Bayeux Tapestry",
+      "url": "https://edition.cnn.com/2026/09/02/europe/macrons-king-queen-bayeux-tapestry-scli-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Emmanuel and Brigitte Macron join King Charles and Queen Camilla in private viewing of famed Bayeux Tapestry",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/europe/macrons-king-queen-bayeux-tapestry-scli-intl",
+        "zh": "艾曼紐和碧姬·馬克宏與查爾斯國王和卡蜜拉王后一同私人參觀了著名的巴約掛毯。",
+        "accepted": [
+          [
+            "Emmanuel",
+            "and",
+            "Brigitte",
+            "Macron",
+            "join",
+            "King",
+            "Charles",
+            "and",
+            "Queen",
+            "Camilla",
+            "in",
+            "private",
+            "viewing",
+            "of",
+            "famed",
+            "Bayeux",
+            "Tapestry"
+          ]
+        ],
+        "distractors": [
+          "joined",
+          "privately",
+          "view",
+          "famous",
+          "Tapestries",
+          "Kings"
+        ],
+        "notes": [
+          {
+            "word": "join",
+            "text": "'join' 是動詞，表示「加入」或「一同」。",
+            "category": "時態"
+          },
+          {
+            "word": "in",
+            "text": "'in' 在此表示方式或場合，即「在...中」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "private",
+            "text": "'private' 是形容詞，表示「私人的」。",
+            "category": "其他"
+          },
+          {
+            "word": "viewing",
+            "text": "'viewing' 在此作為名詞，表示「觀看」或「參觀」。",
+            "category": "其他"
+          },
+          {
+            "word": "famed",
+            "text": "'famed' 是形容詞，表示「著名的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Tiger Woods avoids DUI conviction in plea deal but loses driving privileges for 5 years",
       "url": "https://edition.cnn.com/2026/09/01/us/tiger-woods-dui-plea-change-hearing",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Tiger Woods to appear in court Wednesday for a change of plea in his DUI case",
+        "sourceEn": "Tiger Woods avoids DUI conviction in plea deal but loses driving privileges for 5 years",
         "sourceUrl": "https://edition.cnn.com/2026/09/01/us/tiger-woods-dui-plea-change-hearing",
-        "zh": "老虎伍茲將於週三出庭，就其酒駕案更改認罪。",
+        "zh": "老虎伍茲在認罪協議中避免了酒駕定罪，但失去了五年的駕駛特權。",
         "accepted": [
           [
             "Tiger",
             "Woods",
-            "to",
-            "appear",
-            "in",
-            "court",
-            "Wednesday",
-            "for",
-            "a",
-            "change",
-            "of",
-            "plea",
-            "in",
-            "his",
+            "avoids",
             "DUI",
-            "case"
-          ]
-        ],
-        "distractors": [
-          "appears",
-          "appeared",
-          "courts",
-          "changes",
-          "pleas",
-          "cases"
-        ],
-        "notes": [
-          {
-            "word": "to appear",
-            "text": "「to appear」是不定詞片語，在這裡表示將要發生的動作，常在新聞標題中用來代替「will appear」。",
-            "category": "時態"
-          },
-          {
-            "word": "in court",
-            "text": "片語「in court」意為「出庭」。",
-            "category": "其他"
-          },
-          {
-            "word": "for a change of plea",
-            "text": "「for a change of plea」意為「為了更改認罪」。",
-            "category": "其他"
-          },
-          {
-            "word": "DUI case",
-            "text": "「DUI case」是複合名詞，意為「酒駕案件」。DUI是「Driving Under the Influence」的縮寫。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "UK man accused of drugging and sexually abusing his wife stands trial with 12 others",
-      "url": "https://edition.cnn.com/2026/09/01/uk/uk-manchester-husband-rape-drugging-trial-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "UK man accused of drugging and sexually abusing his wife stands trial with 12 others",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/uk/uk-manchester-husband-rape-drugging-trial-intl",
-        "zh": "一名被控對妻子下藥並性侵的英國男子與其他12人一同受審。",
-        "accepted": [
-          [
-            "UK",
-            "man",
-            "accused",
-            "of",
-            "drugging",
-            "and",
-            "sexually",
-            "abusing",
-            "his",
-            "wife",
-            "stands",
-            "trial",
-            "with",
-            "12",
-            "others"
-          ]
-        ],
-        "distractors": [
-          "men",
-          "accuse",
-          "drug",
-          "abuse",
-          "wives",
-          "stood"
-        ],
-        "notes": [
-          {
-            "word": "accused of",
-            "text": "「accused of」意為「被控告...」。介係詞「of」後接動名詞。",
-            "category": "介係詞"
-          },
-          {
-            "word": "drugging and sexually abusing",
-            "text": "「drugging and sexually abusing」是並列的動名詞，作「of」的受詞，表示被控告的行為。",
-            "category": "其他"
-          },
-          {
-            "word": "stands trial",
-            "text": "片語「stands trial」意為「受審」。",
-            "category": "其他"
-          },
-          {
-            "word": "with 12 others",
-            "text": "「with 12 others」表示「與其他12人一同」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Carsten Egevang/Greenland Institute of Natural Resources/Handout/Reuters",
-      "url": "https://edition.cnn.com/2026/09/01/climate/narwhals-arctic-greenland-ocean-heat-ice-melt-amoc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Carsten Egevang/Greenland Institute of Natural Resources/Handout/Reuters",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/climate/narwhals-arctic-greenland-ocean-heat-ice-melt-amoc",
-        "zh": "卡斯滕·埃格旺/格陵蘭自然資源研究所/提供/路透社",
-        "accepted": [
-          [
-            "Carsten",
-            "Egevang/Greenland",
-            "Institute",
-            "of",
-            "Natural",
-            "Resources/Handout/Reuters"
-          ]
-        ],
-        "distractors": [
-          "Institutes",
-          "Resource",
-          "Handouts",
-          "Reuters'"
-        ],
-        "notes": [
-          {
-            "word": "Carsten Egevang",
-            "text": "這是人名，通常是攝影師或報導者。",
-            "category": "其他"
-          },
-          {
-            "word": "Greenland Institute of Natural Resources",
-            "text": "這是機構名稱，意為「格陵蘭自然資源研究所」。",
-            "category": "其他"
-          },
-          {
-            "word": "Handout",
-            "text": "「Handout」意為「（新聞機構發布的）照片」或「提供」。",
-            "category": "其他"
-          },
-          {
-            "word": "Reuters",
-            "text": "「Reuters」是路透社，一家國際新聞通訊社。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "He moved to Mexico after decades of being undocumented in the US. Then he got a $1.8 million fine from DHS",
-      "url": "https://edition.cnn.com/2026/09/01/us/dhs-deportation-order-fine-immigration",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "He moved to Mexico after decades of being undocumented in the US. Then he got a $1.8 million fine from DHS",
-        "sourceUrl": "https://edition.cnn.com/2026/09/01/us/dhs-deportation-order-fine-immigration",
-        "zh": "在美國數十年無證居留後，他搬到了墨西哥。然後他收到了國土安全部180萬美元的罰單。",
-        "accepted": [
-          [
-            "He",
-            "moved",
-            "to",
-            "Mexico",
-            "after",
-            "decades",
-            "of",
-            "being",
-            "undocumented",
+            "conviction",
             "in",
-            "the",
-            "US.",
-            "Then",
-            "he",
-            "got",
-            "a",
-            "$1.8",
-            "million",
-            "fine",
-            "from",
-            "DHS"
+            "plea",
+            "deal",
+            "but",
+            "loses",
+            "driving",
+            "privileges",
+            "for",
+            "5",
+            "years"
           ]
         ],
         "distractors": [
-          "moves",
-          "moving",
-          "decade",
-          "document",
-          "fines",
-          "millionaire"
+          "avoid",
+          "convict",
+          "pleading",
+          "lose",
+          "drive",
+          "privilege"
         ],
         "notes": [
           {
-            "word": "moved",
-            "text": "「moved」是動詞「move」的過去式，表示過去發生的動作。",
+            "word": "avoids",
+            "text": "'avoids' 是動詞 'avoid' 的第三人稱單數現在式，表示「避免」。",
             "category": "時態"
           },
           {
-            "word": "decades of being undocumented",
-            "text": "「decades of being undocumented」意為「數十年無證居留」。這裡「being undocumented」是動名詞片語，作「of」的受詞。",
+            "word": "conviction",
+            "text": "'conviction' 是名詞，表示「定罪」。",
             "category": "其他"
           },
           {
-            "word": "got a $1.8 million fine",
-            "text": "「got a $1.8 million fine」意為「收到180萬美元的罰款」。",
-            "category": "其他"
-          },
-          {
-            "word": "from",
-            "text": "介係詞「from」在這裡表示罰款的來源，即「來自」。",
+            "word": "in",
+            "text": "'in' 在此表示在某種情況或協議中，即「在...中」。",
             "category": "介係詞"
+          },
+          {
+            "word": "loses",
+            "text": "'loses' 是動詞 'lose' 的第三人稱單數現在式，表示「失去」。",
+            "category": "時態"
+          },
+          {
+            "word": "privileges",
+            "text": "'privileges' 是 'privilege' 的複數形式，表示「特權」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Rome declares security ‘red zone’ around the Colosseum to protect tourists amid violent crime incidents",
+      "url": "https://edition.cnn.com/2026/09/02/travel/rome-declares-security-red-zone-around-the-colosseum-to-protect-tourists-amid-violent-crime-incidents",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Rome declares security ‘red zone’ around the Colosseum to protect tourists amid violent crime incidents",
+        "sourceUrl": "https://edition.cnn.com/2026/09/02/travel/rome-declares-security-red-zone-around-the-colosseum-to-protect-tourists-amid-violent-crime-incidents",
+        "zh": "羅馬宣布在羅馬競技場周圍設立安全「紅色區域」，以保護遊客免受暴力犯罪事件的影響。",
+        "accepted": [
+          [
+            "Rome",
+            "declares",
+            "security",
+            "‘red",
+            "zone’",
+            "around",
+            "the",
+            "Colosseum",
+            "to",
+            "protect",
+            "tourists",
+            "amid",
+            "violent",
+            "crime",
+            "incidents"
+          ]
+        ],
+        "distractors": [
+          "declare",
+          "secure",
+          "zones",
+          "protecting",
+          "tourist",
+          "incident"
+        ],
+        "notes": [
+          {
+            "word": "declares",
+            "text": "'declares' 是動詞 'declare' 的第三人稱單數現在式，表示「宣布」。",
+            "category": "時態"
+          },
+          {
+            "word": "security",
+            "text": "'security' 在此作為形容詞，修飾 'zone'，表示「安全的」。",
+            "category": "其他"
+          },
+          {
+            "word": "around",
+            "text": "'around' 在此作為介係詞，表示「在...周圍」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "to protect",
+            "text": "'to protect' 是不定詞，表示目的，即「為了保護」。",
+            "category": "其他"
+          },
+          {
+            "word": "incidents",
+            "text": "'incidents' 是 'incident' 的複數形式，表示「事件」。",
+            "category": "單複數"
           }
         ]
       }
