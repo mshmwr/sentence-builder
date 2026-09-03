@@ -561,6 +561,11 @@ export default function App() {
       <div className="st-root">
         <div className="st-board">
           <Head>{accountBar}</Head>
+          <div className="st-controls st-back-row st-back-row-top">
+            <button className="btn ghost" onClick={() => setMode("input")}>
+              返回
+            </button>
+          </div>
           {history === null ? (
             <div className="st-loading">
               <span className="st-spinner" />
@@ -619,11 +624,6 @@ export default function App() {
               ))}
             </div>
           )}
-          <div className="st-controls st-back-row">
-            <button className="btn ghost" onClick={() => setMode("input")}>
-              返回
-            </button>
-          </div>
         </div>
       </div>
     );
