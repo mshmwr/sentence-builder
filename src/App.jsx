@@ -56,16 +56,22 @@ function groupHistory(history) {
   return groups;
 }
 
-function Head({ children }) {
+function Head() {
   return (
     <header className="st-head">
       <div className="st-brand">
         <span className="st-mark">拼句</span>
         <span className="st-tag">把中文，拼成對的英文</span>
       </div>
-      {children}
     </header>
   );
+}
+
+// sticky sub-header: holds the account links (and a screen's own 返回, when
+// it has one) so they stay reachable while scrolling a long list, without
+// pinning the much taller brand header above it
+function Toolbar({ children }) {
+  return <div className="st-toolbar">{children}</div>;
 }
 
 export default function App() {
@@ -560,12 +566,13 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head>{accountBar}</Head>
-          <div className="st-controls st-back-row st-back-row-top">
-            <button className="btn ghost" onClick={() => setMode("input")}>
+          <Head />
+          <Toolbar>
+            {accountBar}
+            <button className="btn ghost st-toolbar-back" onClick={() => setMode("input")}>
               返回
             </button>
-          </div>
+          </Toolbar>
           {history === null ? (
             <div className="st-loading">
               <span className="st-spinner" />
@@ -651,7 +658,8 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head>{accountBar}</Head>
+          <Head />
+          <Toolbar>{accountBar}</Toolbar>
           {notes === null ? (
             <div className="st-loading">
               <span className="st-spinner" />
@@ -697,7 +705,8 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head>{accountBar}</Head>
+          <Head />
+          <Toolbar>{accountBar}</Toolbar>
           <form className="st-input-form" onSubmit={onSaveKey}>
             <label className="st-input-label" htmlFor="key-input">
               貼上你的 Gemini API key
@@ -749,7 +758,8 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head>{accountBar}</Head>
+          <Head />
+          <Toolbar>{accountBar}</Toolbar>
 
           <div className="st-tabs">
             <button
@@ -890,7 +900,8 @@ export default function App() {
   return (
     <div className="st-root">
       <div className="st-board">
-        <Head>{accountBar}</Head>
+        <Head />
+        <Toolbar>{accountBar}</Toolbar>
 
         <div className="st-prompt">
           <div className="st-chip">{puzzle.theme}</div>
