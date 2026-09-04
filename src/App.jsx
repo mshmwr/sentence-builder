@@ -56,11 +56,36 @@ function groupHistory(history) {
   return groups;
 }
 
-function Head() {
+// Feather-style "home" glyph — matches the app's plain-line icon language
+// (★ / ● / → are all drawn as text glyphs elsewhere; this is the one case
+// that needs more shape than a character can give)
+function HomeIcon() {
+  return (
+    <svg
+      width="13"
+      height="13"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      style={{ verticalAlign: "-2px" }}
+    >
+      <path d="M3 10.5 12 3l9 7.5" />
+      <path d="M5.5 9v10a1 1 0 0 0 1 1H10v-5a2 2 0 0 1 4 0v5h3.5a1 1 0 0 0 1-1V9" />
+    </svg>
+  );
+}
+
+function Head({ onHome }) {
   return (
     <header className="st-head">
       <div className="st-brand">
-        <span className="st-mark">拼句</span>
+        <button type="button" className="st-mark" onClick={onHome}>
+          拼句
+        </button>
         <span className="st-tag">把中文，拼成對的英文</span>
       </div>
     </header>
@@ -568,7 +593,7 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head />
+          <Head onHome={onNewSentence} />
           <div className="st-loading">
             <span className="st-spinner" />
           </div>
@@ -582,11 +607,11 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head />
+          <Head onHome={onNewSentence} />
           <Toolbar>
             {accountBar}
-            <button className="btn ghost st-toolbar-back" onClick={() => setMode("input")}>
-              返回
+            <button className="st-linkbtn st-toolbar-back" onClick={onNewSentence}>
+              <HomeIcon /> 返回首頁
             </button>
           </Toolbar>
           {history === null ? (
@@ -674,7 +699,7 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head />
+          <Head onHome={onNewSentence} />
           <Toolbar>{accountBar}</Toolbar>
           {notes === null ? (
             <div className="st-loading">
@@ -721,7 +746,7 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head />
+          <Head onHome={onNewSentence} />
           <Toolbar>{accountBar}</Toolbar>
           <form className="st-input-form" onSubmit={onSaveKey}>
             <label className="st-input-label" htmlFor="key-input">
@@ -774,7 +799,7 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head />
+          <Head onHome={onNewSentence} />
           <Toolbar>{accountBar}</Toolbar>
 
           <div className="st-tabs">
@@ -895,7 +920,7 @@ export default function App() {
     return (
       <div className="st-root">
         <div className="st-board">
-          <Head />
+          <Head onHome={onNewSentence} />
           <div className="st-loading">
             <span className="st-spinner" />
             <p>正在生成題目…</p>
@@ -916,7 +941,7 @@ export default function App() {
   return (
     <div className="st-root">
       <div className="st-board">
-        <Head />
+        <Head onHome={onNewSentence} />
         <Toolbar>{accountBar}</Toolbar>
 
         <div className="st-prompt">
