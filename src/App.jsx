@@ -102,6 +102,7 @@ export default function App() {
   const [memoError, setMemoError] = useState("");
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
   const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
+  const [fromHistory, setFromHistory] = useState(false); // true when the current puzzle was launched via 歷史's 再拼一次
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -335,6 +336,7 @@ export default function App() {
       setNudge("");
       setLastHist(null);
       setMemoEdit(null);
+      setFromHistory(false);
       setMode("playing");
     } catch (err) {
       setGenError(err.message);
@@ -349,6 +351,7 @@ export default function App() {
     setNudge("");
     setLastHist(null);
     setMemoEdit(null);
+    setFromHistory(false);
     setMode("playing");
   };
 
@@ -379,6 +382,7 @@ export default function App() {
     setGenError("");
     setLastHist(null);
     setMemoEdit(null);
+    setFromHistory(true);
     setMode("playing");
   };
 
@@ -390,6 +394,18 @@ export default function App() {
     setGenError("");
     setLastHist(null);
     setMemoEdit(null);
+    setFromHistory(false);
+  };
+
+  // completion screen's "回歷史" for a 再拼一次 session — re-opens 歷史 so the
+  // just-written attempt shows up, instead of dumping the user back at 首頁
+  const onBackToHistory = () => {
+    setPuzzle(null);
+    setGame(null);
+    setNudge("");
+    setGenError("");
+    setFromHistory(false);
+    onOpenHistory();
   };
 
   const onPlace = (id) => {
@@ -1007,6 +1023,15 @@ export default function App() {
             </button>
             <button className="btn solid" onClick={onCheck}>
               檢查
+            </button>
+          </div>
+        ) : fromHistory ? (
+          <div className="st-controls">
+            <button className="btn ghost" onClick={onNewSentence}>
+              回首頁
+            </button>
+            <button className="btn solid" onClick={onBackToHistory}>
+              回歷史
             </button>
           </div>
         ) : (
