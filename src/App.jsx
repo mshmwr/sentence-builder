@@ -677,10 +677,10 @@ export default function App() {
         <div className="st-board">
           <Head onHome={onNewSentence} />
           <Toolbar>
-            {accountBar}
             <button className="st-linkbtn st-toolbar-back" onClick={onNewSentence}>
               <HomeIcon /> 返回首頁
             </button>
+            {accountBar}
           </Toolbar>
           {history === null ? (
             <div className="st-loading">
@@ -768,7 +768,12 @@ export default function App() {
       <div className="st-root">
         <div className="st-board">
           <Head onHome={onNewSentence} />
-          <Toolbar>{accountBar}</Toolbar>
+          <Toolbar>
+            <button className="st-linkbtn st-toolbar-back" onClick={onNewSentence}>
+              <HomeIcon /> 返回首頁
+            </button>
+            {accountBar}
+          </Toolbar>
           {notes === null ? (
             <div className="st-loading">
               <span className="st-spinner" />
@@ -812,11 +817,6 @@ export default function App() {
               )}
             </>
           )}
-          <div className="st-controls st-back-row">
-            <button className="btn ghost" onClick={() => setMode("input")}>
-              返回
-            </button>
-          </div>
         </div>
       </div>
     );
@@ -831,7 +831,12 @@ export default function App() {
       <div className="st-root">
         <div className="st-board">
           <Head onHome={onNewSentence} />
-          <Toolbar>{accountBar}</Toolbar>
+          <Toolbar>
+            <button className="st-linkbtn st-toolbar-back" onClick={onNewSentence}>
+              <HomeIcon /> 返回首頁
+            </button>
+            {accountBar}
+          </Toolbar>
           <form className="st-input-form" onSubmit={onSaveKey}>
             <label className="st-input-label" htmlFor="key-input">
               貼上你的 Gemini API key
@@ -1038,7 +1043,12 @@ export default function App() {
     <div className="st-root">
       <div className="st-board">
         <Head onHome={onNewSentence} />
-        <Toolbar>{accountBar}</Toolbar>
+        <Toolbar>
+          <button className="st-linkbtn st-toolbar-back" onClick={onNewSentence}>
+            <HomeIcon /> 返回首頁
+          </button>
+          {accountBar}
+        </Toolbar>
 
         <div className="st-prompt">
           <div className="st-chip">{puzzle.theme}</div>
