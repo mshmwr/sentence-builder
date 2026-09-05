@@ -75,6 +75,8 @@ html, body, #root { height: 100%; margin: 0; }
 .st-weak .st-chip{ margin-bottom:0; }
 .note-mark{ margin-left:auto; }
 .note.done{ opacity:.45; }
+.st-trend{ background:rgba(0,0,0,.18); border:1px solid var(--felt-line); border-radius:14px; padding:14px 16px; margin-bottom:16px; display:flex; flex-direction:column; gap:4px; }
+.st-trend-line{ margin:0; font-size:14px; color:#E4E0D4; }
 /* ---- input screen ---- */
 .st-input-form{ display:flex; flex-direction:column; gap:14px; margin-top:8px; }
 .st-input-label{ font-size:14px; color:#9fc4b4; letter-spacing:.04em; }
@@ -88,6 +90,8 @@ html, body, #root { height: 100%; margin: 0; }
 .st-source-link:hover{ color:#dcefe6; text-decoration:underline; }
 
 /* ---- source tabs (今日例句 / 自訂輸入) ---- */
+.st-momentum{ display:flex; gap:14px; flex-wrap:wrap; margin-bottom:16px; font-size:13px; color:#9fc4b4; letter-spacing:.02em; }
+.st-momentum-item{ display:inline-flex; align-items:center; gap:4px; }
 .st-tabs{ display:flex; gap:8px; margin-bottom:16px; }
 .st-tab{ flex:1; font-family:inherit; font-size:14px; font-weight:600; color:#9fc4b4; background:rgba(0,0,0,.16); border:1px solid var(--felt-line); border-radius:11px; padding:10px 14px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
 .st-tab:hover{ color:#dcefe6; }
