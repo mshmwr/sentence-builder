@@ -118,7 +118,9 @@ html, body, #root { height: 100%; margin: 0; }
 .st-login{ display:flex; flex-direction:column; gap:18px; padding:40px 0; align-items:flex-start; }
 .st-login-text{ margin:0; font-size:15px; line-height:1.7; color:#c9dcd2; }
 .st-login-btn{ padding:14px 24px; font-size:16px; margin-left:0; }
-.st-key-input{ font-size:15px; resize:none; }
+/* mobile Safari/Chrome auto-zoom on focusing any input/textarea under
+   16px — this field must stay at or above that, unlike other overrides */
+.st-key-input{ font-size:16px; resize:none; }
 .st-keyhelp{ margin:0; font-size:13px; line-height:1.6; color:#9fc4b4; }
 .st-keyhelp a{ color:#7be0bf; }
 .st-history{ display:flex; flex-direction:column; gap:10px; }
@@ -135,7 +137,7 @@ html, body, #root { height: 100%; margin: 0; }
 .st-hactions{ display:flex; gap:12px; }
 .st-memo{ font-size:13px; line-height:1.6; color:#c9dcd2; margin:6px 0 0; white-space:pre-wrap; border-left:2px solid rgba(255,255,255,.15); padding-left:8px; }
 .st-memo-edit{ margin-top:8px; display:flex; flex-direction:column; gap:8px; }
-.st-memo-area{ font-size:14px; }
+.st-memo-area{ font-size:16px; }
 .st-result-memo{ margin-top:14px; display:flex; flex-direction:column; gap:8px; align-items:flex-start; }
 .st-result-memo .st-memo-edit{ margin-top:0; width:100%; }
 .st-back-row{ margin-top:18px; }
