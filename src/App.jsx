@@ -25,10 +25,13 @@ import {
   loadMastered,
   saveMastered,
   saveMemo,
+  loadStreak,
+  recordPracticeDay,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
 const NOTE_CATS = ["時態", "冠詞", "介係詞", "單複數", "其他"]; // must match generate.js prompt rule 5
+const DAILY_GOAL = 3; // today's-progress target — matches the daily list's initial visible count
 
 function readLocalKey() {
   try {
@@ -56,6 +59,26 @@ function groupHistory(history) {
   return groups;
 }
 
+// "am I actually improving, or does it just feel that way" — splits the
+// newest-first history into a recent half and the half before it (up to 10
+// each) and averages stars/hints in both, so 筆記 can show a before/after
+// instead of just today's mood. null when there isn't enough history yet to
+// say anything meaningful.
+function computeTrend(history) {
+  const n = Math.min(10, Math.floor(history.length / 2));
+  if (n < 2) return null;
+  const avg = (arr, key) => arr.reduce((sum, h) => sum + (h[key] || 0), 0) / arr.length;
+  const recent = history.slice(0, n);
+  const prior = history.slice(n, n * 2);
+  return {
+    n,
+    recentStars: avg(recent, "stars"),
+    priorStars: avg(prior, "stars"),
+    recentHints: avg(recent, "hints"),
+    priorHints: avg(prior, "hints"),
+  };
+}
+
 // Feather-style "home" glyph — matches the app's plain-line icon language
 // (★ / ● / → are all drawn as text glyphs elsewhere; this is the one case
 // that needs more shape than a character can give)
@@ -75,6 +98,25 @@ function HomeIcon() {
     >
       <path d="M3 10.5 12 3l9 7.5" />
       <path d="M5.5 9v10a1 1 0 0 0 1 1H10v-5a2 2 0 0 1 4 0v5h3.5a1 1 0 0 0 1-1V9" />
+    </svg>
+  );
+}
+
+function FlameIcon() {
+  return (
+    <svg
+      width="13"
+      height="13"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      style={{ verticalAlign: "-2px" }}
+    >
+      <path d="M12 2c1 3-3 4.5-3 8a3 3 0 0 0 6 0c0-1-.5-1.8-1-2.5 2 1 3.5 3.5 3.5 6a5.5 5.5 0 0 1-11 0C6.5 9 9 6 12 2Z" />
     </svg>
   );
 }
@@ -128,6 +170,9 @@ export default function App() {
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
   const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
   const [fromHistory, setFromHistory] = useState(false); // true when the current puzzle was launched via 歷史's 再拼一次
+  const [todayCount, setTodayCount] = useState(0); // completions today, for the daily-goal line
+  const [streakInfo, setStreakInfo] = useState(null); // null = loading; {streak, longestStreak}
+  const [trend, setTrend] = useState(null); // {recent, prior} avg {stars, hints} — computed when 筆記 opens
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -175,13 +220,15 @@ export default function App() {
       .catch((err) => setDailyError(err.message));
   }, []);
 
-  // background load for the "已拼過 ×N" badge — independent of the 歷史
-  // screen's own `history` state, since this needs to be ready before the
-  // user ever opens that screen. Capped at the same last-50 loadHistory
-  // window as 歷史, so a very active user's count can undercount.
+  // background load for the "已拼過 ×N" badge and today's-goal count —
+  // independent of the 歷史 screen's own `history` state, since this needs
+  // to be ready before the user ever opens that screen. Capped at the same
+  // last-50 loadHistory window as 歷史, so a very active user's count (and
+  // the badge) can undercount.
   useEffect(() => {
     if (!user) {
       setPracticeCounts({});
+      setTodayCount(0);
       return;
     }
     let cancelled = false;
@@ -189,13 +236,30 @@ export default function App() {
       .then((hist) => {
         if (cancelled) return;
         const counts = {};
+        const todayStr = new Date().toDateString();
+        let today = 0;
         for (const h of hist) {
-          if (!h.zh) continue;
-          counts[h.zh] = (counts[h.zh] || 0) + 1;
+          if (h.zh) counts[h.zh] = (counts[h.zh] || 0) + 1;
+          if (h.createdAt?.toDate && h.createdAt.toDate().toDateString() === todayStr) today++;
         }
         setPracticeCounts(counts);
+        setTodayCount(today);
       })
       .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
+
+  // streak lives on the account doc (not derived from the capped history
+  // fetch above) precisely so it isn't limited by that 50-record window
+  useEffect(() => {
+    if (!user) {
+      setStreakInfo(null);
+      return;
+    }
+    let cancelled = false;
+    loadStreak(user.uid).then((s) => !cancelled && setStreakInfo(s)).catch(() => {});
     return () => {
       cancelled = true;
     };
@@ -299,8 +363,10 @@ export default function App() {
     setNotes(null);
     setWeakness([]); // reset the whole screen-state group — stale stats from a
     setMastered([]); // previous account must not survive a failed reload
+    setTrend(null);
     try {
       const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
+      setTrend(computeTrend(hist));
       const byWord = new Map(); // lowercase word -> {word, texts}
       const byCat = new Map(); // category -> missed count (error-book stats)
       for (const h of hist) {
@@ -465,6 +531,8 @@ export default function App() {
           .then((ref) => setLastHist({ id: ref.id, memo: "" })) // enables the on-completion memo
           .catch(() => {}); // history write failing must not block the game
         setPracticeCounts((c) => ({ ...c, [puzzle.zh]: (c[puzzle.zh] || 0) + 1 }));
+        setTodayCount((c) => c + 1);
+        recordPracticeDay(user.uid).then(setStreakInfo).catch(() => {});
       }
     } else if (ng.wrongIdx.length) {
       setShake(true);
@@ -705,28 +773,44 @@ export default function App() {
             <div className="st-loading">
               <span className="st-spinner" />
             </div>
-          ) : notes.length === 0 && weakness.length === 0 ? (
-            <p className="st-login-text">還沒有筆記 —— 過關後的文法註解會自動收進來。</p>
           ) : (
-            <div className="st-notes">
-              {weakness.length > 0 && (
-                <div className="st-weak">
-                  <span className="st-input-label">最常拼錯</span>
-                  {weakness.map((w) => (
-                    <span className="st-chip" key={w.cat}>
-                      {w.cat} ×{w.count}
-                    </span>
-                  ))}
+            <>
+              {trend && (
+                <div className="st-trend">
+                  <span className="st-input-label">進步趨勢</span>
+                  <p className="st-trend-line">
+                    最近 {trend.n} 題平均 {trend.recentStars.toFixed(1)}★
+                    {trend.priorStars > 0 && `（前 ${trend.n} 題 ${trend.priorStars.toFixed(1)}★）`}
+                  </p>
+                  <p className="st-trend-line">
+                    平均提示次數 {trend.recentHints.toFixed(1)} 次（前段 {trend.priorHints.toFixed(1)} 次）
+                  </p>
                 </div>
               )}
-              {unmastered.map((e) => noteRow(e, false))}
-              {done.length > 0 && (
-                <>
-                  <p className="st-input-label">已掌握</p>
-                  {done.map((e) => noteRow(e, true))}
-                </>
+              {notes.length === 0 && weakness.length === 0 ? (
+                <p className="st-login-text">還沒有筆記 —— 過關後的文法註解會自動收進來。</p>
+              ) : (
+                <div className="st-notes">
+                  {weakness.length > 0 && (
+                    <div className="st-weak">
+                      <span className="st-input-label">最常拼錯</span>
+                      {weakness.map((w) => (
+                        <span className="st-chip" key={w.cat}>
+                          {w.cat} ×{w.count}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {unmastered.map((e) => noteRow(e, false))}
+                  {done.length > 0 && (
+                    <>
+                      <p className="st-input-label">已掌握</p>
+                      {done.map((e) => noteRow(e, true))}
+                    </>
+                  )}
+                </div>
               )}
-            </div>
+            </>
           )}
           <div className="st-controls st-back-row">
             <button className="btn ghost" onClick={() => setMode("input")}>
@@ -801,6 +885,18 @@ export default function App() {
         <div className="st-board">
           <Head onHome={onNewSentence} />
           <Toolbar>{accountBar}</Toolbar>
+
+          {user && streakInfo && (
+            <div className="st-momentum">
+              <span className="st-momentum-item">
+                <FlameIcon /> 連續 {streakInfo.streak} 天
+                {streakInfo.longestStreak > streakInfo.streak && `（最佳 ${streakInfo.longestStreak}）`}
+              </span>
+              <span className="st-momentum-item">
+                今天已拼 {Math.min(todayCount, DAILY_GOAL)}/{DAILY_GOAL} 句{todayCount >= DAILY_GOAL ? " ✓" : ""}
+              </span>
+            </div>
+          )}
 
           <div className="st-tabs">
             <button
