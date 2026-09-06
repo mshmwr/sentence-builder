@@ -1,676 +1,672 @@
 {
-  "date": "2026-09-03",
-  "fetchedAt": "2026-09-03T22:31:40.824Z",
+  "date": "2026-09-06",
+  "fetchedAt": "2026-09-06T22:02:11.517Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Trump asks Supreme Court to OK sweeping changes for mail ballots",
-      "url": "https://edition.cnn.com/2026/09/03/politics/trump-asks-supreme-court-to-ok-sweeping-changes-for-mail-ballots",
+      "en": "Why fall getaways costs so much",
+      "url": "https://edition.cnn.com/2026/09/05/travel/fall-travel-shoulder-season-deals-shrinking",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump asks Supreme Court to OK sweeping changes for mail ballots",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/politics/trump-asks-supreme-court-to-ok-sweeping-changes-for-mail-ballots",
-        "zh": "川普要求最高法院批准對郵寄選票進行全面改革。",
+        "sourceEn": "Why fall getaways costs so much",
+        "sourceUrl": "https://edition.cnn.com/2026/09/05/travel/fall-travel-shoulder-season-deals-shrinking",
+        "zh": "為什麼秋季旅行的費用如此之高？",
         "accepted": [
           [
-            "Trump",
-            "asks",
-            "Supreme",
-            "Court",
-            "to",
-            "OK",
-            "sweeping",
-            "changes",
-            "for",
-            "mail",
-            "ballots"
+            "Why",
+            "fall",
+            "getaways",
+            "costs",
+            "so",
+            "much"
           ]
         ],
         "distractors": [
-          "approve",
-          "request",
-          "allow",
-          "major",
-          "vote",
-          "postal"
+          "costing",
+          "expensive",
+          "many",
+          "are",
+          "do",
+          "muchly"
         ],
         "notes": [
           {
-            "word": "OK",
-            "text": "在這裡，'OK' 作為動詞，意思是「批准」或「允許」。",
-            "category": "其他"
-          },
-          {
-            "word": "sweeping",
-            "text": "'sweeping' 意指「全面的」或「影響廣泛的」。",
-            "category": "其他"
-          },
-          {
-            "word": "mail ballots",
-            "text": "'mail ballots' 指的是「郵寄選票」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Russian general accused of masterminding attack against Kyiv’s children’s hospital injured in assassination attempt",
-      "url": "https://edition.cnn.com/2026/09/03/world/russian-general-assassination-attempt-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Russian general accused of masterminding attack against Kyiv’s children’s hospital injured in assassination attempt",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/world/russian-general-assassination-attempt-intl",
-        "zh": "一名被指控策劃襲擊基輔兒童醫院的俄羅斯將軍在一次暗殺行動中受傷。",
-        "accepted": [
-          [
-            "Russian",
-            "general",
-            "accused",
-            "of",
-            "masterminding",
-            "attack",
-            "against",
-            "Kyiv’s",
-            "children’s",
-            "hospital",
-            "injured",
-            "in",
-            "assassination",
-            "attempt"
-          ]
-        ],
-        "distractors": [
-          "commander",
-          "blamed",
-          "planning",
-          "strike",
-          "for",
-          "wounded"
-        ],
-        "notes": [
-          {
-            "word": "accused of",
-            "text": "'accused of' 意為「被指控犯有某事」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "masterminding",
-            "text": "'masterminding' 指的是「策劃」或「精心安排」。",
-            "category": "其他"
-          },
-          {
-            "word": "injured",
-            "text": "這裡的 'injured' 是過去分詞作形容詞，修飾將軍，表示「受傷的」。",
+            "word": "costs",
+            "text": "在新聞標題中，動詞常用現在式來表達，即使是過去發生的事情。這裡的 'costs' 應該是 'cost'，但標題為了簡潔而省略了助動詞 'do'。",
             "category": "時態"
           },
           {
-            "word": "assassination attempt",
-            "text": "'assassination attempt' 意為「暗殺企圖」。",
+            "word": "getaways",
+            "text": "'getaway' 指的是短暫的假期或旅行。這裡用複數形式 'getaways' 表示多個旅行。",
+            "category": "單複數"
+          },
+          {
+            "word": "so much",
+            "text": "'so much' 用來強調數量或程度之高。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Civilians return to villages destroyed by Israeli demolitions",
-      "url": "https://edition.cnn.com/2026/09/03/middleeast/southern-lebanon-israel-intl",
+      "en": "Amazon cargo aircraft overruns runway in Miami, striking multiple vehicles",
+      "url": "https://edition.cnn.com/2026/09/06/us/boeing-miami-plane-overruns-runway",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Civilians return to villages destroyed by Israeli demolitions",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/middleeast/southern-lebanon-israel-intl",
-        "zh": "平民返回被以色列拆除行動摧毀的村莊。",
+        "sourceEn": "Amazon cargo aircraft overruns runway in Miami, striking multiple vehicles",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/us/boeing-miami-plane-overruns-runway",
+        "zh": "亞馬遜貨機在邁阿密衝出跑道，撞上多輛車輛。",
         "accepted": [
           [
-            "Civilians",
-            "return",
-            "to",
-            "villages",
-            "destroyed",
-            "by",
-            "Israeli",
-            "demolitions"
+            "Amazon",
+            "cargo",
+            "aircraft",
+            "overruns",
+            "runway",
+            "in",
+            "Miami,",
+            "striking",
+            "multiple",
+            "vehicles"
           ]
         ],
         "distractors": [
-          "residents",
-          "go",
-          "back",
-          "towns",
-          "ruined",
+          "overran",
+          "struck",
+          "many",
+          "on",
+          "a",
+          "vehicle"
+        ],
+        "notes": [
+          {
+            "word": "overruns",
+            "text": "新聞標題常用現在式動詞來描述已發生的事件，以增加即時感。這裡 'overruns' 是 'overrun' 的第三人稱單數現在式。",
+            "category": "時態"
+          },
+          {
+            "word": "striking",
+            "text": "'striking' 是現在分詞，用作伴隨狀語，表示同時發生的動作，即飛機衝出跑道並撞擊車輛。",
+            "category": "其他"
+          },
+          {
+            "word": "multiple",
+            "text": "'multiple' 意為「多個的」，強調不止一輛車。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "'in Miami' 表示事件發生的地點。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Germany’s far-right AfD projected to win eastern state but unclear if it will be able to govern",
+      "url": "https://edition.cnn.com/2026/09/06/europe/germany-afd-state-election-majority-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Germany’s far-right AfD projected to win eastern state but unclear if it will be able to govern",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/europe/germany-afd-state-election-majority-intl",
+        "zh": "德國極右翼的德國另類選擇黨預計將贏得東部州，但尚不清楚它是否能夠執政。",
+        "accepted": [
+          [
+            "Germany’s",
+            "far-right",
+            "AfD",
+            "projected",
+            "to",
+            "win",
+            "eastern",
+            "state",
+            "but",
+            "unclear",
+            "if",
+            "it",
+            "will",
+            "be",
+            "able",
+            "to",
+            "govern"
+          ]
+        ],
+        "distractors": [
+          "projecting",
+          "winning",
+          "clear",
+          "able",
+          "governing",
+          "states"
+        ],
+        "notes": [
+          {
+            "word": "projected",
+            "text": "'projected' 是過去分詞，這裡省略了助動詞 'is'，表示「被預計」或「預計將會」。",
+            "category": "其他"
+          },
+          {
+            "word": "far-right",
+            "text": "'far-right' 是一個複合形容詞，指「極右翼的」。",
+            "category": "其他"
+          },
+          {
+            "word": "unclear",
+            "text": "這裡省略了 'it is'，使得句子更簡潔，意為「尚不清楚」。",
+            "category": "其他"
+          },
+          {
+            "word": "to govern",
+            "text": "'to govern' 是不定詞，表示目的或能力，即「能夠執政」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Witkoff confident of ‘good resolution’ after Kyiv meeting, as US pushes for trilateral talks with Russia",
+      "url": "https://edition.cnn.com/2026/09/06/europe/witkoff-kushner-visit-kyiv-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Witkoff confident of ‘good resolution’ after Kyiv meeting, as US pushes for trilateral talks with Russia",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/europe/witkoff-kushner-visit-kyiv-intl",
+        "zh": "在基輔會議後，威特科夫對「良好解決方案」充滿信心，同時美國推動與俄羅斯的三方會談。",
+        "accepted": [
+          [
+            "Witkoff",
+            "confident",
+            "of",
+            "‘good",
+            "resolution’",
+            "after",
+            "Kyiv",
+            "meeting,",
+            "as",
+            "US",
+            "pushes",
+            "for",
+            "trilateral",
+            "talks",
+            "with",
+            "Russia"
+          ]
+        ],
+        "distractors": [
+          "confidently",
+          "resolutions",
+          "pushed",
+          "pushing",
+          "talk",
+          "to"
+        ],
+        "notes": [
+          {
+            "word": "confident of",
+            "text": "'confident of' 表示對某事有信心。",
+            "category": "介係詞"
+          },
+          {
+            "word": "resolution",
+            "text": "'resolution' 在此意為「解決方案」或「決議」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "'as' 在此用作連接詞，表示「同時」或「當...的時候」，引導一個伴隨動作。",
+            "category": "其他"
+          },
+          {
+            "word": "pushes for",
+            "text": "'pushes for' 意為「推動」或「爭取」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "On the ground in China’s wiped-out border zone",
+      "url": "https://edition.cnn.com/2026/09/06/china/china-nepal-floods-gyirong-port-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "On the ground in China’s wiped-out border zone",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/china/china-nepal-floods-gyirong-port-intl-hnk",
+        "zh": "在中國被摧毀的邊境地區實地考察。",
+        "accepted": [
+          [
+            "On",
+            "the",
+            "ground",
+            "in",
+            "China’s",
+            "wiped-out",
+            "border",
+            "zone"
+          ]
+        ],
+        "distractors": [
+          "at",
+          "a",
+          "grounds",
+          "wiping",
+          "zones",
           "from"
         ],
         "notes": [
           {
-            "word": "Civilians",
-            "text": "'Civilians' 指的是「平民」。",
+            "word": "On the ground",
+            "text": "'On the ground' 是一個片語，表示「在實地」或「在現場」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "wiped-out",
+            "text": "'wiped-out' 是一個複合形容詞，意為「被摧毀的」或「被徹底清除的」。",
             "category": "其他"
           },
           {
-            "word": "destroyed by",
-            "text": "'destroyed by' 意為「被...摧毀」。這裡 'destroyed' 是過去分詞作形容詞，修飾 'villages'。",
-            "category": "時態"
-          },
-          {
-            "word": "demolitions",
-            "text": "'demolitions' 指的是「拆除」或「拆毀」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The Americans losing homes to Israel’s war in Lebanon Israel’s war in Lebanon has destroyed the homes of scores of American-Lebanese families. A group is preparing to file a civil lawsuit against the US on their behalf.",
-      "url": "https://edition.cnn.com/2026/08/06/middleeast/americans-lebanon-homes-destroyed-israel-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The Americans losing homes to Israel’s war in Lebanon Israel’s war in Lebanon has destroyed the homes of scores of American-Lebanese families. A group is preparing to file a civil lawsuit against the US on their behalf.",
-        "sourceUrl": "https://edition.cnn.com/2026/08/06/middleeast/americans-lebanon-homes-destroyed-israel-latam-intl",
-        "zh": "在黎巴嫩，美國人因以色列的戰爭而失去家園。以色列在黎巴嫩的戰爭摧毀了數十個美國-黎巴嫩家庭的房屋。一個團體正準備代表他們對美國提起民事訴訟。",
-        "accepted": [
-          [
-            "The",
-            "Americans",
-            "losing",
-            "homes",
-            "to",
-            "Israel’s",
-            "war",
-            "in",
-            "Lebanon",
-            "Israel’s",
-            "war",
-            "in",
-            "Lebanon",
-            "has",
-            "destroyed",
-            "the",
-            "homes",
-            "of",
-            "scores",
-            "of",
-            "American-Lebanese",
-            "families",
-            ".",
-            "A",
-            "group",
-            "is",
-            "preparing",
-            "to",
-            "file",
-            "a",
-            "civil",
-            "lawsuit",
-            "against",
-            "the",
-            "US",
-            "on",
-            "their",
-            "behalf",
-            "."
-          ]
-        ],
-        "distractors": [
-          "who",
-          "lost",
-          "houses",
-          "from",
-          "conflict",
-          "many"
-        ],
-        "notes": [
-          {
-            "word": "losing homes",
-            "text": "'losing homes' 這裡的 'losing' 是現在分詞作形容詞，修飾 'Americans'，表示「正在失去家園的」。",
-            "category": "時態"
-          },
-          {
-            "word": "scores of",
-            "text": "'scores of' 意為「大量的」或「數十個」。",
+            "word": "China’s",
+            "text": "'China’s' 是所有格，表示「中國的」。",
             "category": "其他"
           },
           {
-            "word": "file a lawsuit",
-            "text": "'file a lawsuit' 意為「提起訴訟」。",
-            "category": "其他"
-          },
-          {
-            "word": "on their behalf",
-            "text": "'on their behalf' 意為「代表他們」。",
+            "word": "border zone",
+            "text": "'border zone' 指「邊境地區」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Rusty state of USS Abraham Lincoln after marathon deployment shocks observers",
-      "url": "https://edition.cnn.com/2026/09/03/asia/aircraft-carrier-abraham-lincoln-rust-intl-hnk-ml",
+      "en": "Two survivors miraculously rescued 10 days after devastating flash floods in Nepal",
+      "url": "https://edition.cnn.com/2026/09/05/asia/two-survivors-rescue-flash-floods-nepal-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Rusty state of USS Abraham Lincoln after marathon deployment shocks observers",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/asia/aircraft-carrier-abraham-lincoln-rust-intl-hnk-ml",
-        "zh": "亞伯拉罕·林肯號航空母艦在馬拉松式部署後鏽跡斑斑的狀態震驚了觀察員。",
+        "sourceEn": "Two survivors miraculously rescued 10 days after devastating flash floods in Nepal",
+        "sourceUrl": "https://edition.cnn.com/2026/09/05/asia/two-survivors-rescue-flash-floods-nepal-intl",
+        "zh": "尼泊爾毀滅性山洪爆發10天後，兩名倖存者奇蹟般獲救。",
         "accepted": [
           [
-            "Rusty",
-            "state",
-            "of",
-            "USS",
-            "Abraham",
-            "Lincoln",
+            "Two",
+            "survivors",
+            "miraculously",
+            "rescued",
+            "10",
+            "days",
             "after",
-            "marathon",
-            "deployment",
-            "shocks",
-            "observers"
-          ]
-        ],
-        "distractors": [
-          "old",
-          "condition",
-          "from",
-          "long",
-          "mission",
-          "surprises"
-        ],
-        "notes": [
-          {
-            "word": "Rusty",
-            "text": "'Rusty' 意為「生鏽的」或「鏽跡斑斑的」。",
-            "category": "其他"
-          },
-          {
-            "word": "state",
-            "text": "這裡的 'state' 指的是「狀態」或「情況」。",
-            "category": "其他"
-          },
-          {
-            "word": "marathon deployment",
-            "text": "'marathon deployment' 意為「長時間的部署」或「馬拉松式的部署」。",
-            "category": "其他"
-          },
-          {
-            "word": "shocks",
-            "text": "'shocks' 是動詞，表示「震驚」或「使震驚」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "With diplomacy stalled, Trump returns to floating regime change in Iran",
-      "url": "https://edition.cnn.com/2026/09/03/politics/trump-regime-change-iran",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "With diplomacy stalled, Trump returns to floating regime change in Iran",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/politics/trump-regime-change-iran",
-        "zh": "隨著外交陷入僵局，川普再次提出在伊朗實施政權更迭。",
-        "accepted": [
-          [
-            "With",
-            "diplomacy",
-            "stalled",
-            ",",
-            "Trump",
-            "returns",
-            "to",
-            "floating",
-            "regime",
-            "change",
+            "devastating",
+            "flash",
+            "floods",
             "in",
-            "Iran"
+            "Nepal"
           ]
         ],
         "distractors": [
-          "as",
-          "negotiations",
-          "stopped",
-          "goes",
-          "back",
-          "suggesting"
+          "survivor",
+          "miraculous",
+          "rescue",
+          "devastate",
+          "flood",
+          "on"
         ],
         "notes": [
           {
-            "word": "With diplomacy stalled",
-            "text": "'With diplomacy stalled' 是一個獨立主格結構，表示「由於外交陷入僵局」。'stalled' 是過去分詞作形容詞。",
-            "category": "其他"
-          },
-          {
-            "word": "returns to floating",
-            "text": "'returns to floating' 意為「再次提出」或「重新考慮」。'floating' 在這裡作動名詞，表示「提出（想法）」。",
-            "category": "其他"
-          },
-          {
-            "word": "regime change",
-            "text": "'regime change' 意為「政權更迭」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The best red carpet looks from the 2026 Venice Film Festival",
-      "url": "https://edition.cnn.com/2026/09/03/style/venice-film-festival-red-carpet-fashion-2026",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The best red carpet looks from the 2026 Venice Film Festival",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/style/venice-film-festival-red-carpet-fashion-2026",
-        "zh": "2026年威尼斯影展的最佳紅毯造型。",
-        "accepted": [
-          [
-            "The",
-            "best",
-            "red",
-            "carpet",
-            "looks",
-            "from",
-            "the",
-            "2026",
-            "Venice",
-            "Film",
-            "Festival"
-          ]
-        ],
-        "distractors": [
-          "top",
-          "greatest",
-          "gowns",
-          "at",
-          "movie",
-          "event"
-        ],
-        "notes": [
-          {
-            "word": "red carpet",
-            "text": "'red carpet' 指的是「紅毯」，通常與盛大活動相關。",
-            "category": "其他"
-          },
-          {
-            "word": "looks",
-            "text": "這裡的 'looks' 是名詞，指「造型」或「打扮」。",
-            "category": "其他"
-          },
-          {
-            "word": "from",
-            "text": "'from' 在這裡表示「來自」或「出自」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Just one drink a day may increase the risk of dying from numerous cancers",
-      "url": "https://edition.cnn.com/2026/09/03/health/alcohol-impact-cancer-deaths-wellness",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Just one drink a day may increase the risk of dying from numerous cancers",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/health/alcohol-impact-cancer-deaths-wellness",
-        "zh": "每天只喝一杯酒可能會增加死於多種癌症的風險。",
-        "accepted": [
-          [
-            "Just",
-            "one",
-            "drink",
-            "a",
-            "day",
-            "may",
-            "increase",
-            "the",
-            "risk",
-            "of",
-            "dying",
-            "from",
-            "numerous",
-            "cancers"
-          ]
-        ],
-        "distractors": [
-          "only",
-          "single",
-          "beverage",
-          "might",
-          "raise",
-          "many"
-        ],
-        "notes": [
-          {
-            "word": "Just one drink a day",
-            "text": "'Just one drink a day' 意為「每天只喝一杯酒」。",
-            "category": "其他"
-          },
-          {
-            "word": "may increase",
-            "text": "'may increase' 表示「可能會增加」，'may' 是情態動詞。",
+            "word": "rescued",
+            "text": "這裡省略了助動詞 'were'，表示被動語態，即「被救出」。新聞標題常省略助動詞。",
             "category": "時態"
           },
           {
-            "word": "risk of dying from",
-            "text": "'risk of dying from' 意為「死於...的風險」。",
-            "category": "介係詞"
+            "word": "miraculously",
+            "text": "'miraculously' 是副詞，修飾動詞 'rescued'，表示「奇蹟般地」。",
+            "category": "其他"
           },
           {
-            "word": "numerous",
-            "text": "'numerous' 意為「許多的」或「大量的」。",
+            "word": "devastating",
+            "text": "'devastating' 是現在分詞作形容詞，表示「毀滅性的」。",
+            "category": "其他"
+          },
+          {
+            "word": "flash floods",
+            "text": "'flash floods' 指「山洪暴發」或「突發洪水」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Taylor Swift and Travis Kelce’s dog goes from ‘alleged’ to ‘official’",
-      "url": "https://edition.cnn.com/2026/09/03/entertainment/taylor-swift-travis-kelce-dog-wendy-samoyed",
+      "en": "Trump admin renews Supreme Court ask to let mail ballot rule to take effect ahead of midterms",
+      "url": "https://edition.cnn.com/2026/09/06/politics/trump-administration-again-asks-supreme-court-to-allow-mail-ballot-rule-to-take-effect",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Taylor Swift and Travis Kelce’s dog goes from ‘alleged’ to ‘official’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/entertainment/taylor-swift-travis-kelce-dog-wendy-samoyed",
-        "zh": "泰勒絲和特拉維斯·凱爾西的狗從「據稱」變為「官方」。",
+        "sourceEn": "Trump admin renews Supreme Court ask to let mail ballot rule to take effect ahead of midterms",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/politics/trump-administration-again-asks-supreme-court-to-allow-mail-ballot-rule-to-take-effect",
+        "zh": "川普政府再次要求最高法院允許郵寄選票規則在期中選舉前生效。",
         "accepted": [
           [
-            "Taylor",
-            "Swift",
-            "and",
-            "Travis",
-            "Kelce’s",
-            "dog",
-            "goes",
-            "from",
-            "‘alleged’",
-            "to",
-            "‘official’"
-          ]
-        ],
-        "distractors": [
-          "their",
-          "pet",
-          "changed",
-          "becomes",
-          "supposed",
-          "real"
-        ],
-        "notes": [
-          {
-            "word": "Kelce’s",
-            "text": "'Kelce’s' 是所有格，表示「凱爾西的」。",
-            "category": "其他"
-          },
-          {
-            "word": "goes from...to...",
-            "text": "'goes from...to...' 意為「從...變為...」。",
-            "category": "其他"
-          },
-          {
-            "word": "alleged",
-            "text": "'alleged' 意為「據稱的」或「所謂的」。",
-            "category": "其他"
-          },
-          {
-            "word": "official",
-            "text": "'official' 意為「官方的」或「正式的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Research into nose blowing, candy stealing and splash-free urinals honored at 2026 Ig Nobel awards",
-      "url": "https://edition.cnn.com/2026/09/03/science/ig-nobel-awards-2026-scli-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Research into nose blowing, candy stealing and splash-free urinals honored at 2026 Ig Nobel awards",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/science/ig-nobel-awards-2026-scli-intl",
-        "zh": "關於擤鼻涕、偷糖果和無濺灑小便池的研究在2026年搞笑諾貝爾獎上獲得表彰。",
-        "accepted": [
-          [
-            "Research",
-            "into",
-            "nose",
-            "blowing",
-            ",",
-            "candy",
-            "stealing",
-            "and",
-            "splash-free",
-            "urinals",
-            "honored",
-            "at",
-            "2026",
-            "Ig",
-            "Nobel",
-            "awards"
-          ]
-        ],
-        "distractors": [
-          "studies",
-          "on",
-          "blowing",
-          "sweets",
-          "stolen",
-          "recognized"
-        ],
-        "notes": [
-          {
-            "word": "Research into",
-            "text": "'Research into' 意為「對...的研究」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "nose blowing",
-            "text": "'nose blowing' 意為「擤鼻涕」。",
-            "category": "其他"
-          },
-          {
-            "word": "candy stealing",
-            "text": "'candy stealing' 意為「偷糖果」。",
-            "category": "其他"
-          },
-          {
-            "word": "splash-free",
-            "text": "'splash-free' 意為「無濺灑的」。",
-            "category": "其他"
-          },
-          {
-            "word": "honored",
-            "text": "這裡的 'honored' 是過去分詞作形容詞，表示「受到表彰的」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Feminist icon Gloria Steinem dies at 92",
-      "url": "https://edition.cnn.com/2026/09/03/us/gloria-steinem-dead-obit",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Feminist icon Gloria Steinem dies at 92",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/us/gloria-steinem-dead-obit",
-        "zh": "女權主義偶像葛洛莉亞·史坦能於92歲去世。",
-        "accepted": [
-          [
-            "Feminist",
-            "icon",
-            "Gloria",
-            "Steinem",
-            "dies",
-            "at",
-            "92"
-          ]
-        ],
-        "distractors": [
-          "feminism",
-          "legend",
-          "passed",
-          "away",
-          "age",
-          "of"
-        ],
-        "notes": [
-          {
-            "word": "Feminist icon",
-            "text": "'Feminist icon' 意為「女權主義偶像」。",
-            "category": "其他"
-          },
-          {
-            "word": "dies",
-            "text": "'dies' 是動詞 'die' 的現在時單數第三人稱形式，表示「去世」。",
-            "category": "時態"
-          },
-          {
-            "word": "at 92",
-            "text": "'at 92' 意為「享年92歲」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Fox News abruptly ousts Maria Bartiromo, a longtime Trump ally",
-      "url": "https://edition.cnn.com/2026/09/03/media/maria-bartiromo-and-fox-part-ways",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Fox News abruptly ousts Maria Bartiromo, a longtime Trump ally",
-        "sourceUrl": "https://edition.cnn.com/2026/09/03/media/maria-bartiromo-and-fox-part-ways",
-        "zh": "福斯新聞突然解雇了瑪麗亞·巴蒂羅莫，她是一位長期支持川普的盟友。",
-        "accepted": [
-          [
-            "Fox",
-            "News",
-            "abruptly",
-            "ousts",
-            "Maria",
-            "Bartiromo",
-            ",",
-            "a",
-            "longtime",
             "Trump",
-            "ally"
+            "admin",
+            "renews",
+            "Supreme",
+            "Court",
+            "ask",
+            "to",
+            "let",
+            "mail",
+            "ballot",
+            "rule",
+            "to",
+            "take",
+            "effect",
+            "ahead",
+            "of",
+            "midterms"
           ]
         ],
         "distractors": [
-          "suddenly",
-          "fires",
-          "removes",
-          "former",
-          "supporter",
-          "friend"
+          "renewed",
+          "asking",
+          "letting",
+          "taking",
+          "effected",
+          "in"
         ],
         "notes": [
           {
-            "word": "abruptly",
-            "text": "'abruptly' 意為「突然地」或「意外地」。",
-            "category": "其他"
-          },
-          {
-            "word": "ousts",
-            "text": "'ousts' 是動詞，表示「驅逐」或「罷免」。",
+            "word": "renews",
+            "text": "新聞標題常用現在式動詞來描述已發生的事件，以增加即時感。",
             "category": "時態"
           },
           {
-            "word": "longtime",
-            "text": "'longtime' 意為「長期的」或「長期的」。",
+            "word": "admin",
+            "text": "'admin' 是 'administration' 的縮寫，指「政府」或「行政部門」。",
             "category": "其他"
           },
           {
-            "word": "ally",
-            "text": "'ally' 意為「盟友」或「同盟者」。",
+            "word": "ask",
+            "text": "這裡的 'ask' 作名詞用，意為「請求」或「要求」。",
+            "category": "其他"
+          },
+          {
+            "word": "take effect",
+            "text": "'take effect' 是一個片語，意為「生效」。",
+            "category": "其他"
+          },
+          {
+            "word": "ahead of",
+            "text": "'ahead of' 是一個介係詞片語，意為「在...之前」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Exclusive Fetterman blasts ‘disgruntled staffers’ and ‘smears’ after report details apathy toward his work",
+      "url": "https://edition.cnn.com/2026/09/06/politics/john-fetterman-staffers-report",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Exclusive Fetterman blasts ‘disgruntled staffers’ and ‘smears’ after report details apathy toward his work",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/politics/john-fetterman-staffers-report",
+        "zh": "CNN獨家報導：費特曼在報導詳述其對工作漠不關心後，抨擊「心懷不滿的員工」和「誹謗」。",
+        "accepted": [
+          [
+            "CNN",
+            "Exclusive",
+            "Fetterman",
+            "blasts",
+            "‘disgruntled",
+            "staffers’",
+            "and",
+            "‘smears’",
+            "after",
+            "report",
+            "details",
+            "apathy",
+            "toward",
+            "his",
+            "work"
+          ]
+        ],
+        "distractors": [
+          "blasted",
+          "disgruntle",
+          "staffer",
+          "smear",
+          "detailing",
+          "towards"
+        ],
+        "notes": [
+          {
+            "word": "blasts",
+            "text": "新聞標題常用現在式動詞來描述已發生的事件，以增加即時感。'blast' 在此意為「猛烈抨擊」。",
+            "category": "時態"
+          },
+          {
+            "word": "disgruntled",
+            "text": "'disgruntled' 是形容詞，意為「不滿的」、「心懷不滿的」。",
+            "category": "其他"
+          },
+          {
+            "word": "smears",
+            "text": "'smears' 在此作名詞，意為「誹謗」、「污衊」。",
+            "category": "其他"
+          },
+          {
+            "word": "apathy toward",
+            "text": "'apathy toward' 意為「對...漠不關心」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Comité Interprofessionionel des fromages cantal, salers AOP",
+      "url": "https://edition.cnn.com/2026/09/06/travel/french-cheese-flavors-climate-change-risk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Comité Interprofessionionel des fromages cantal, salers AOP",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/travel/french-cheese-flavors-climate-change-risk",
+        "zh": "康塔爾和薩萊爾斯AOP奶酪的行業間委員會。",
+        "accepted": [
+          [
+            "Comité",
+            "Interprofessionionel",
+            "des",
+            "fromages",
+            "cantal,",
+            "salers",
+            "AOP"
+          ]
+        ],
+        "distractors": [
+          "Comitee",
+          "Interprofessional",
+          "de",
+          "fromage",
+          "cantals",
+          "saler"
+        ],
+        "notes": [
+          {
+            "word": "Comité Interprofessionionel des fromages",
+            "text": "這是法語，意為「奶酪行業間委員會」。在英文語境中直接引用，因為這是專有名稱。",
+            "category": "其他"
+          },
+          {
+            "word": "cantal, salers",
+            "text": "這是兩種法國奶酪的名稱。",
+            "category": "其他"
+          },
+          {
+            "word": "AOP",
+            "text": "AOP 是法語 'Appellation d'Origine Protégée' 的縮寫，意為「原產地命名保護」，是歐盟對農產品和食品的品質標籤。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "A play about love in London has entranced New Yorkers",
+      "url": "https://edition.cnn.com/2026/09/06/style/shifters-play-cherry-lane-theater",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "A play about love in London has entranced New Yorkers",
+        "sourceUrl": "https://edition.cnn.com/2026/09/06/style/shifters-play-cherry-lane-theater",
+        "zh": "一部關於倫敦愛情的戲劇迷住了紐約人。",
+        "accepted": [
+          [
+            "A",
+            "play",
+            "about",
+            "love",
+            "in",
+            "London",
+            "has",
+            "entranced",
+            "New",
+            "Yorkers"
+          ]
+        ],
+        "distractors": [
+          "the",
+          "plays",
+          "loves",
+          "on",
+          "enthrall",
+          "Yorker"
+        ],
+        "notes": [
+          {
+            "word": "A",
+            "text": "'A' 是不定冠詞，表示「一部」戲劇。",
+            "category": "冠詞"
+          },
+          {
+            "word": "about",
+            "text": "'about love' 表示戲劇的內容是關於愛情。",
+            "category": "介係詞"
+          },
+          {
+            "word": "has entranced",
+            "text": "這是現在完成式，表示動作已經完成並對現在產生影響。'entrance' 意為「使入迷」、「使陶醉」。",
+            "category": "時態"
+          },
+          {
+            "word": "New Yorkers",
+            "text": "'New Yorkers' 指「紐約人」，用複數表示多個紐約人。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "George Lucas has built himself a $1 billion dollar museum",
+      "url": "https://edition.cnn.com/2026/09/05/style/lucas-museum-of-narrative-art-opening",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "George Lucas has built himself a $1 billion dollar museum",
+        "sourceUrl": "https://edition.cnn.com/2026/09/05/style/lucas-museum-of-narrative-art-opening",
+        "zh": "喬治·盧卡斯為自己建造了一座價值10億美元的博物館。",
+        "accepted": [
+          [
+            "George",
+            "Lucas",
+            "has",
+            "built",
+            "himself",
+            "a",
+            "$1",
+            "billion",
+            "dollar",
+            "museum"
+          ]
+        ],
+        "distractors": [
+          "builds",
+          "building",
+          "him",
+          "the",
+          "billions",
+          "museums"
+        ],
+        "notes": [
+          {
+            "word": "has built",
+            "text": "這是現在完成式，表示動作已經完成並對現在產生影響。",
+            "category": "時態"
+          },
+          {
+            "word": "himself",
+            "text": "'himself' 是反身代名詞，強調喬治·盧卡斯為自己建造。",
+            "category": "其他"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，表示「一座」博物館。",
+            "category": "冠詞"
+          },
+          {
+            "word": "$1 billion dollar",
+            "text": "這裡 'billion dollar' 作為形容詞修飾 'museum'，表示「價值十億美元的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Lots of experience does not automatically make you better at sex, experts say",
+      "url": "https://edition.cnn.com/2026/09/05/health/late-bloomer-sex-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Lots of experience does not automatically make you better at sex, experts say",
+        "sourceUrl": "https://edition.cnn.com/2026/09/05/health/late-bloomer-sex-wellness",
+        "zh": "專家表示，豐富的經驗並不一定會讓你更擅長性愛。",
+        "accepted": [
+          [
+            "Lots",
+            "of",
+            "experience",
+            "does",
+            "not",
+            "automatically",
+            "make",
+            "you",
+            "better",
+            "at",
+            "sex,",
+            "experts",
+            "say"
+          ]
+        ],
+        "distractors": [
+          "Lot",
+          "experiences",
+          "do",
+          "making",
+          "good",
+          "said"
+        ],
+        "notes": [
+          {
+            "word": "Lots of",
+            "text": "'Lots of' 是一個口語化的表達，意為「許多」，與 'a lot of' 意思相同。",
+            "category": "其他"
+          },
+          {
+            "word": "experience",
+            "text": "'experience' 在此是不可數名詞，意為「經驗」。",
+            "category": "單複數"
+          },
+          {
+            "word": "does not automatically make",
+            "text": "這裡用 'does not' 構成否定句，'automatically' 是副詞，修飾動詞 'make'，表示「不一定會自動地」。",
+            "category": "其他"
+          },
+          {
+            "word": "better at",
+            "text": "'better at' 意為「更擅長於」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "experts say",
+            "text": "這是引述語，表示「專家說」。",
             "category": "其他"
           }
         ]
