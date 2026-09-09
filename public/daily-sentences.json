@@ -1,730 +1,737 @@
 {
-  "date": "2026-09-08",
-  "fetchedAt": "2026-09-08T22:29:50.206Z",
+  "date": "2026-09-09",
+  "fetchedAt": "2026-09-09T22:24:01.861Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "NYC Mayor Mamdani releases 9/11 records showing officials misled New Yorkers about air quality around Ground Zero",
-      "url": "https://edition.cnn.com/2026/09/08/us/nyc-sept-11-air-quality-records",
+      "en": "Zelensky’s plane almost hit by drone on Tuesday, Norway PM says",
+      "url": "https://edition.cnn.com/2026/09/09/europe/zelensky-plane-almost-hit-drone-tuesday-norway-pm-intldsk-latam",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "NYC Mayor Mamdani releases 9/11 records showing officials misled New Yorkers about air quality around Ground Zero",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/us/nyc-sept-11-air-quality-records",
-        "zh": "紐約市市長馬姆達尼公佈911事件記錄，顯示官員們在世貿中心遺址周圍的空氣品質問題上誤導了紐約市民。",
+        "sourceEn": "Zelensky’s plane almost hit by drone on Tuesday, Norway PM says",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/europe/zelensky-plane-almost-hit-drone-tuesday-norway-pm-intldsk-latam",
+        "zh": "挪威首相表示，澤倫斯基的飛機週二差點被無人機擊中。",
         "accepted": [
           [
-            "NYC",
-            "Mayor",
-            "Mamdani",
-            "releases",
-            "9/11",
-            "records",
-            "showing",
-            "officials",
-            "misled",
-            "New",
-            "Yorkers",
-            "about",
-            "air",
-            "quality",
-            "around",
-            "Ground",
-            "Zero"
+            "Zelensky’s",
+            "plane",
+            "almost",
+            "hit",
+            "by",
+            "drone",
+            "on",
+            "Tuesday,",
+            "Norway",
+            "PM",
+            "says"
           ]
         ],
         "distractors": [
-          "reveal",
-          "disclose",
-          "publicize",
-          "concealed",
-          "truth",
-          "residents"
+          "nearly",
+          "missed",
+          "aircraft",
+          "Wednesday",
+          "president",
+          "spokesperson"
         ],
         "notes": [
           {
-            "word": "releases",
-            "text": "此處使用現在式，表示新聞報導的即時性或經常性動作。",
-            "category": "時態"
+            "word": "almost",
+            "text": "「almost」意為「幾乎」，表示事情差一點發生但最終沒有。在句中修飾動詞「hit」。",
+            "category": "其他"
           },
           {
-            "word": "misled",
-            "text": "misled 是 mislead 的過去式，表示過去發生的誤導行為。",
-            "category": "時態"
-          },
-          {
-            "word": "about",
-            "text": "介係詞 about 表示「關於」或「針對」某個主題。",
+            "word": "by",
+            "text": "在被動語態中，「by + 行為者」表示動作的執行者。",
             "category": "介係詞"
           },
           {
-            "word": "records",
-            "text": "records 為複數名詞，指多份記錄或檔案。",
-            "category": "單複數"
+            "word": "on",
+            "text": "「on + 星期幾」表示在某個特定的日子。",
+            "category": "介係詞"
           },
           {
-            "word": "Ground Zero",
-            "text": "Ground Zero 特指911事件中世貿中心倒塌的遺址。",
+            "word": "PM",
+            "text": "「PM」是「Prime Minister」（首相）的縮寫，常用於新聞標題中。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Canada’s retaliatory tariffs on American goods take effect",
+      "en": "Ukraine’s battlefield optimism is ebbing as Russia threatens its ‘fortress belt’",
+      "url": "https://edition.cnn.com/2026/09/09/europe/ukraine-russia-latest-fortress-belt-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Ukraine’s battlefield optimism is ebbing as Russia threatens its ‘fortress belt’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/europe/ukraine-russia-latest-fortress-belt-intl",
+        "zh": "隨著俄羅斯威脅其「堡壘帶」，烏克蘭在戰場上的樂觀情緒正在消退。",
+        "accepted": [
+          [
+            "Ukraine’s",
+            "battlefield",
+            "optimism",
+            "is",
+            "ebbing",
+            "as",
+            "Russia",
+            "threatens",
+            "its",
+            "‘fortress",
+            "belt’"
+          ]
+        ],
+        "distractors": [
+          "Ukraine",
+          "optimistic",
+          "growing",
+          "because",
+          "threatened",
+          "fortresses"
+        ],
+        "notes": [
+          {
+            "word": "Ukraine’s",
+            "text": "「Ukraine’s」是所有格，表示「烏克蘭的」。",
+            "category": "其他"
+          },
+          {
+            "word": "is ebbing",
+            "text": "「is ebbing」是現在進行式，表示樂觀情緒正在逐漸減弱。「ebb」意為「退潮，衰退」。",
+            "category": "時態"
+          },
+          {
+            "word": "as",
+            "text": "在這裡，「as」用作連接詞，表示「隨著」或「當…的時候」，引導時間或原因狀語從句。",
+            "category": "其他"
+          },
+          {
+            "word": "threatens",
+            "text": "「threatens」是動詞的第三人稱單數形式，與主語「Russia」一致。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Andrew and Tristan Tate must remain in custody as they fight UK extradition, a US judge rules",
+      "url": "https://edition.cnn.com/2026/09/09/us/tate-brothers-remain-custody",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Andrew and Tristan Tate must remain in custody as they fight UK extradition, a US judge rules",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/us/tate-brothers-remain-custody",
+        "zh": "一名美國法官裁定，安德魯和崔斯坦·泰特必須繼續被拘留，因為他們正在對抗英國的引渡。",
+        "accepted": [
+          [
+            "Andrew",
+            "and",
+            "Tristan",
+            "Tate",
+            "must",
+            "remain",
+            "in",
+            "custody",
+            "as",
+            "they",
+            "fight",
+            "UK",
+            "extradition,",
+            "a",
+            "US",
+            "judge",
+            "rules"
+          ]
+        ],
+        "distractors": [
+          "remain",
+          "released",
+          "from",
+          "fighting",
+          "extradited",
+          "judges"
+        ],
+        "notes": [
+          {
+            "word": "must",
+            "text": "「must」是情態動詞，表示「必須」，後面接動詞原形。",
+            "category": "其他"
+          },
+          {
+            "word": "remain in custody",
+            "text": "「remain in custody」意為「繼續被拘留」，「custody」指「監護，拘留」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "在這裡，「as」用作連接詞，表示「因為」或「當…的時候」，說明他們被拘留的原因。",
+            "category": "其他"
+          },
+          {
+            "word": "a",
+            "text": "「a」是不定冠詞，用於修飾單數可數名詞「US judge」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "rules",
+            "text": "「rules」是動詞的第三人稱單數形式，與主語「a US judge」一致，表示「裁定」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump lays out next moves after Canada’s retaliatory tariffs take effect",
       "url": "https://edition.cnn.com/2026/09/07/economy/trump-carney-canada-us-trade-war",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Canada’s retaliatory tariffs on American goods take effect",
+        "sourceEn": "Trump lays out next moves after Canada’s retaliatory tariffs take effect",
         "sourceUrl": "https://edition.cnn.com/2026/09/07/economy/trump-carney-canada-us-trade-war",
-        "zh": "加拿大對美國商品的報復性關稅生效。",
+        "zh": "在加拿大報復性關稅生效後，川普闡述了下一步行動。",
         "accepted": [
           [
+            "Trump",
+            "lays",
+            "out",
+            "next",
+            "moves",
+            "after",
             "Canada’s",
             "retaliatory",
             "tariffs",
-            "on",
-            "American",
-            "goods",
             "take",
             "effect"
           ]
         ],
         "distractors": [
-          "Canadian",
-          "revenge",
-          "duties",
-          "for",
-          "products",
-          "start"
+          "Trump’s",
+          "laid",
+          "before",
+          "Canada",
+          "tariff",
+          "effective"
         ],
         "notes": [
           {
-            "word": "Canada’s",
-            "text": "Canada’s 是所有格，表示「加拿大的」。",
-            "category": "其他"
-          },
-          {
-            "word": "tariffs",
-            "text": "tariffs 是複數名詞，指多項關稅。",
+            "word": "lays out",
+            "text": "「lay out」是片語動詞，意為「闡述，佈置」。在這裡，「lays」是第三人稱單數形式，與主語「Trump」一致。",
             "category": "單複數"
           },
           {
-            "word": "on",
-            "text": "介係詞 on 在此表示關稅是針對「某物」徵收的。",
+            "word": "next moves",
+            "text": "「next moves」意為「下一步行動」。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "「after」是介係詞，表示「在…之後」。",
             "category": "介係詞"
+          },
+          {
+            "word": "Canada’s",
+            "text": "「Canada’s」是所有格，表示「加拿大的」。",
+            "category": "其他"
           },
           {
             "word": "take effect",
-            "text": "take effect 是固定片語，意為「生效」。",
+            "text": "「take effect」是固定片語，意為「生效」。",
             "category": "其他"
-          },
-          {
-            "word": "goods",
-            "text": "goods 為複數名詞，指商品或貨物。",
-            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Netanyahu faces backlash over report he was warned of Hamas attack days before October 7",
-      "url": "https://edition.cnn.com/2026/09/08/middleeast/netanyahu-report-warning-uae-hamas-attack-intl",
+      "en": "'Surge in construction' at suspected Iranian nuclear site, analysts say",
+      "url": "https://edition.cnn.com/2026/09/09/politics/pickaxe-mountain-construction-us-underground-strikes-iran-vis",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Netanyahu faces backlash over report he was warned of Hamas attack days before October 7",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/middleeast/netanyahu-report-warning-uae-hamas-attack-intl",
-        "zh": "內塔尼亞胡因一份報告面臨強烈反彈，該報告稱他在10月7日前幾天就已收到哈馬斯襲擊的警告。",
+        "sourceEn": "'Surge in construction' at suspected Iranian nuclear site, analysts say",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/politics/pickaxe-mountain-construction-us-underground-strikes-iran-vis",
+        "zh": "分析人士稱，在疑似伊朗核設施發現「建築激增」。",
         "accepted": [
           [
-            "Netanyahu",
-            "faces",
-            "backlash",
-            "over",
-            "report",
-            "he",
-            "was",
-            "warned",
-            "of",
-            "Hamas",
-            "attack",
-            "days",
-            "before",
-            "October",
-            "7"
-          ]
-        ],
-        "distractors": [
-          "confronts",
-          "criticism",
-          "about",
-          "story",
-          "told",
-          "after"
-        ],
-        "notes": [
-          {
-            "word": "faces",
-            "text": "faces 為現在式動詞，表示目前正在發生的情況。",
-            "category": "時態"
-          },
-          {
-            "word": "was warned",
-            "text": "was warned 是被動語態的過去式，表示「被警告」。",
-            "category": "時態"
-          },
-          {
-            "word": "over",
-            "text": "介係詞 over 在此表示「因為」或「關於」某事。",
-            "category": "介係詞"
-          },
-          {
-            "word": "of",
-            "text": "介係詞 of 在此表示警告的內容，即「關於」哈馬斯襲擊。",
-            "category": "介係詞"
-          },
-          {
-            "word": "backlash",
-            "text": "backlash 為單數名詞，指強烈的反彈或負面反應。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "UK, France and Canada sanction Israeli settlements in West Bank as Britain accuses settlers of ‘ethnic cleansing’",
-      "url": "https://edition.cnn.com/2026/09/08/middleeast/uk-sanctions-israel-west-bank-settlements-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "UK, France and Canada sanction Israeli settlements in West Bank as Britain accuses settlers of ‘ethnic cleansing’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/middleeast/uk-sanctions-israel-west-bank-settlements-intl",
-        "zh": "英國、法國和加拿大制裁約旦河西岸的以色列定居點，英國指責定居者進行「種族清洗」。",
-        "accepted": [
-          [
-            "UK",
-            ",",
-            "France",
-            "and",
-            "Canada",
-            "sanction",
-            "Israeli",
-            "settlements",
+            "'Surge",
             "in",
-            "West",
-            "Bank",
-            "as",
-            "Britain",
-            "accuses",
-            "settlers",
-            "of",
-            "‘ethnic",
-            "cleansing’"
-          ]
-        ],
-        "distractors": [
-          "United",
-          "Kingdom",
-          "punish",
-          "colonies",
-          "on",
-          "charges"
-        ],
-        "notes": [
-          {
-            "word": "sanction",
-            "text": "sanction 作動詞時，意為「制裁」。",
-            "category": "其他"
-          },
-          {
-            "word": "settlements",
-            "text": "settlements 為複數名詞，指多個定居點。",
-            "category": "單複數"
-          },
-          {
-            "word": "in",
-            "text": "介係詞 in 表示「在…裡面」或「在…地區」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "accuses",
-            "text": "accuses 為現在式動詞，表示新聞報導的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "of",
-            "text": "介係詞 of 在此表示指控的內容，即「關於」種族清洗。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "US targets multiple Iranian tankers near Kharg Island",
-      "url": "https://edition.cnn.com/2026/09/08/politics/us-targets-iran-tankers",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "US targets multiple Iranian tankers near Kharg Island",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/politics/us-targets-iran-tankers",
-        "zh": "美國鎖定霍爾木茲島附近的多艘伊朗油輪。",
-        "accepted": [
-          [
-            "US",
-            "targets",
-            "multiple",
-            "Iranian",
-            "tankers",
-            "near",
-            "Kharg",
-            "Island"
-          ]
-        ],
-        "distractors": [
-          "America",
-          "aims",
-          "several",
-          "Persian",
-          "ships",
-          "around"
-        ],
-        "notes": [
-          {
-            "word": "targets",
-            "text": "targets 為現在式動詞，表示新聞報導的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "multiple",
-            "text": "multiple 意為「多個的」，修飾複數名詞 tankers。",
-            "category": "其他"
-          },
-          {
-            "word": "tankers",
-            "text": "tankers 為複數名詞，指多艘油輪。",
-            "category": "單複數"
-          },
-          {
-            "word": "near",
-            "text": "介係詞 near 表示「在…附近」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Kharg Island",
-            "text": "Kharg Island 是專有名詞，指霍爾木茲島。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Women and children among scores wounded as Iran-backed Houthis attack Saudi Arabia",
-      "url": "https://edition.cnn.com/2026/09/08/middleeast/houthis-attack-saudi-arabia-yemen-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Women and children among scores wounded as Iran-backed Houthis attack Saudi Arabia",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/middleeast/houthis-attack-saudi-arabia-yemen-intl-hnk",
-        "zh": "在伊朗支持的胡塞武裝襲擊沙烏地阿拉伯時，婦女和兒童在數十名傷者之列。",
-        "accepted": [
-          [
-            "Women",
-            "and",
-            "children",
-            "among",
-            "scores",
-            "wounded",
-            "as",
-            "Iran-backed",
-            "Houthis",
-            "attack",
-            "Saudi",
-            "Arabia"
-          ]
-        ],
-        "distractors": [
-          "Females",
-          "kids",
-          "between",
-          "many",
-          "injured",
-          "strike"
-        ],
-        "notes": [
-          {
-            "word": "Women",
-            "text": "Women 是 woman 的複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "children",
-            "text": "children 是 child 的複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "among",
-            "text": "介係詞 among 表示「在…之中」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "scores",
-            "text": "scores 在此表示「許多」或「數十人」。",
-            "category": "其他"
-          },
-          {
-            "word": "wounded",
-            "text": "wounded 作形容詞，表示「受傷的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Brazil’s oil industry is surging thanks to the war in Iran",
-      "url": "https://edition.cnn.com/2026/09/08/business/oil-brazil-china",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Brazil’s oil industry is surging thanks to the war in Iran",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/business/oil-brazil-china",
-        "zh": "由於伊朗戰爭，巴西的石油工業正在蓬勃發展。",
-        "accepted": [
-          [
-            "Brazil’s",
-            "oil",
-            "industry",
-            "is",
-            "surging",
-            "thanks",
-            "to",
-            "the",
-            "war",
-            "in",
-            "Iran"
-          ]
-        ],
-        "distractors": [
-          "Brazilian",
-          "petroleum",
-          "sector",
-          "booming",
-          "because",
-          "of"
-        ],
-        "notes": [
-          {
-            "word": "Brazil’s",
-            "text": "Brazil’s 是所有格，表示「巴西的」。",
-            "category": "其他"
-          },
-          {
-            "word": "is surging",
-            "text": "is surging 是現在進行式，表示目前正在發生的趨勢。",
-            "category": "時態"
-          },
-          {
-            "word": "thanks to",
-            "text": "thanks to 是固定片語，意為「由於」或「多虧」。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞 the 用於特指「伊朗戰爭」這一特定事件。",
-            "category": "冠詞"
-          },
-          {
-            "word": "in",
-            "text": "介係詞 in 在此表示戰爭發生的地點。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Americans are footing a $100 billion energy bill from the Iran war",
-      "url": "https://edition.cnn.com/2026/09/08/economy/oil-gas-diesel-iran-war",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Americans are footing a $100 billion energy bill from the Iran war",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/economy/oil-gas-diesel-iran-war",
-        "zh": "美國人正為伊朗戰爭支付1000億美元的能源費用。",
-        "accepted": [
-          [
-            "Americans",
-            "are",
-            "footing",
-            "a",
-            "$100",
-            "billion",
-            "energy",
-            "bill",
-            "from",
-            "the",
-            "Iran",
-            "war"
-          ]
-        ],
-        "distractors": [
-          "US",
-          "paying",
-          "an",
-          "million",
-          "power",
-          "due"
-        ],
-        "notes": [
-          {
-            "word": "Americans",
-            "text": "Americans 是複數名詞，指美國人。",
-            "category": "單複數"
-          },
-          {
-            "word": "are footing",
-            "text": "are footing 是現在進行式，表示目前正在發生的行為。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "不定冠詞 a 用於指「一份」能源帳單。",
-            "category": "冠詞"
-          },
-          {
-            "word": "bill",
-            "text": "bill 為單數名詞，指一份帳單。",
-            "category": "單複數"
-          },
-          {
-            "word": "from",
-            "text": "介係詞 from 在此表示費用的來源。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Breaking News Chip Somodevilla/Getty Images North America/Getty Images",
-      "url": "https://edition.cnn.com/2026/09/08/politics/supreme-court-missouri-redistricting-loss-for-republicans",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Breaking News Chip Somodevilla/Getty Images North America/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/politics/supreme-court-missouri-redistricting-loss-for-republicans",
-        "zh": "突發新聞 Chip Somodevilla/Getty Images North America/Getty Images",
-        "accepted": [
-          [
-            "Breaking",
-            "News",
-            "Chip",
-            "Somodevilla/Getty",
-            "Images",
-            "North",
-            "America/Getty",
-            "Images"
-          ]
-        ],
-        "distractors": [
-          "Latest",
-          "Report",
-          "Photo",
-          "Credit",
-          "South",
-          "Pictures"
-        ],
-        "notes": [
-          {
-            "word": "Breaking News",
-            "text": "Breaking News 是固定片語，意為「突發新聞」。",
-            "category": "其他"
-          },
-          {
-            "word": "Images",
-            "text": "Images 為複數名詞，指多張圖片。",
-            "category": "單複數"
-          },
-          {
-            "word": "North America",
-            "text": "North America 是專有名詞，指北美洲。",
-            "category": "其他"
-          },
-          {
-            "word": "/",
-            "text": "斜線符號在此表示「或」或「來自」的意思，用於分隔資訊。",
-            "category": "其他"
-          },
-          {
-            "word": "Getty Images",
-            "text": "Getty Images 是專有名詞，指一家圖片公司。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump asks Supreme Court to revive controversial system used for voter purges",
-      "url": "https://edition.cnn.com/2026/09/08/politics/trump-supreme-court-citizenship-voter-purge-save",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump asks Supreme Court to revive controversial system used for voter purges",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/politics/trump-supreme-court-citizenship-voter-purge-save",
-        "zh": "川普要求最高法院恢復用於清除選民的爭議性系統。",
-        "accepted": [
-          [
-            "Trump",
-            "asks",
-            "Supreme",
-            "Court",
-            "to",
-            "revive",
-            "controversial",
-            "system",
-            "used",
-            "for",
-            "voter",
-            "purges"
-          ]
-        ],
-        "distractors": [
-          "requests",
-          "High",
-          "restore",
-          "disputed",
-          "method",
-          "cleaning"
-        ],
-        "notes": [
-          {
-            "word": "asks",
-            "text": "asks 為現在式動詞，表示新聞報導的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "to revive",
-            "text": "to revive 是不定詞片語，表示目的「為了恢復」。",
-            "category": "其他"
-          },
-          {
-            "word": "system",
-            "text": "system 為單數名詞，指一個系統。",
-            "category": "單複數"
-          },
-          {
-            "word": "used",
-            "text": "used 作形容詞，修飾 system，表示「被使用的」。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "介係詞 for 在此表示用途或目的。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Democrats enter the midterms looking to conquer red territory",
-      "url": "https://edition.cnn.com/2026/09/08/politics/democrats-target-red-territory-2026-midterms",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Democrats enter the midterms looking to conquer red territory",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/politics/democrats-target-red-territory-2026-midterms",
-        "zh": "民主黨人進入期中選舉，尋求征服紅色選區。",
-        "accepted": [
-          [
-            "Democrats",
-            "enter",
-            "the",
-            "midterms",
-            "looking",
-            "to",
-            "conquer",
-            "red",
-            "territory"
-          ]
-        ],
-        "distractors": [
-          "Democratic",
-          "join",
-          "a",
-          "elections",
-          "hoping",
-          "win"
-        ],
-        "notes": [
-          {
-            "word": "Democrats",
-            "text": "Democrats 為複數名詞，指民主黨人。",
-            "category": "單複數"
-          },
-          {
-            "word": "enter",
-            "text": "enter 為現在式動詞，表示新聞報導的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞 the 用於特指「期中選舉」這一特定事件。",
-            "category": "冠詞"
-          },
-          {
-            "word": "looking",
-            "text": "looking 是現在分詞，作伴隨狀語，表示「尋求」或「希望」。",
-            "category": "其他"
-          },
-          {
-            "word": "to conquer",
-            "text": "to conquer 是不定詞片語，表示目的「為了征服」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Prince George arrives for first day at Eton College",
-      "url": "https://edition.cnn.com/2026/09/08/uk/prince-george-eton-school-intl-scli",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Prince George arrives for first day at Eton College",
-        "sourceUrl": "https://edition.cnn.com/2026/09/08/uk/prince-george-eton-school-intl-scli",
-        "zh": "喬治王子抵達伊頓公學開始第一天。",
-        "accepted": [
-          [
-            "Prince",
-            "George",
-            "arrives",
-            "for",
-            "first",
-            "day",
+            "construction'",
             "at",
-            "Eton",
-            "College"
+            "suspected",
+            "Iranian",
+            "nuclear",
+            "site,",
+            "analysts",
+            "say"
           ]
         ],
         "distractors": [
-          "Royal",
-          "comes",
+          "Surges",
+          "of",
+          "constructions",
           "on",
-          "initial",
-          "morning",
-          "in"
+          "suspect",
+          "said"
         ],
         "notes": [
           {
-            "word": "arrives",
-            "text": "arrives 為現在式動詞，表示新聞報導的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "for",
-            "text": "介係詞 for 在此表示目的「為了」或「作為」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "first",
-            "text": "first 是序數詞，表示「第一」。",
+            "word": "Surge",
+            "text": "「Surge」在這裡作名詞，意為「激增，突然上升」。",
             "category": "其他"
           },
           {
-            "word": "day",
-            "text": "day 為單數名詞，指一天。",
-            "category": "單複數"
+            "word": "in",
+            "text": "「in construction」表示「在建築方面」。",
+            "category": "介係詞"
           },
           {
             "word": "at",
-            "text": "介係詞 at 在此表示地點「在…」。",
+            "text": "「at」用於表示地點，意為「在…」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "suspected",
+            "text": "「suspected」是過去分詞作形容詞，意為「被懷疑的」。",
+            "category": "其他"
+          },
+          {
+            "word": "say",
+            "text": "「say」是動詞原形，與主語「analysts」（複數）一致。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump says Iran war will end after the midterms and gas prices will fall",
+      "url": "https://edition.cnn.com/2026/09/09/politics/iran-war-end-midterms-trump",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump says Iran war will end after the midterms and gas prices will fall",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/politics/iran-war-end-midterms-trump",
+        "zh": "川普表示，伊朗戰爭將在中期選舉後結束，汽油價格將會下降。",
+        "accepted": [
+          [
+            "Trump",
+            "says",
+            "Iran",
+            "war",
+            "will",
+            "end",
+            "after",
+            "the",
+            "midterms",
+            "and",
+            "gas",
+            "prices",
+            "will",
+            "fall"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "wars",
+          "ends",
+          "before",
+          "a",
+          "rising"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "「says」是動詞的第三人稱單數形式，與主語「Trump」一致。",
+            "category": "單複數"
+          },
+          {
+            "word": "will end",
+            "text": "「will end」是將來式，表示將會結束。",
+            "category": "時態"
+          },
+          {
+            "word": "after",
+            "text": "「after」是介係詞，表示「在…之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "the",
+            "text": "「the」是定冠詞，用於特指「中期選舉」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "will fall",
+            "text": "「will fall」是將來式，表示將會下降。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Global oil prices hit $101 per barrel as Middle East conflict roils markets",
+      "url": "https://edition.cnn.com/2026/09/09/economy/oil-price-iran-war",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Global oil prices hit $101 per barrel as Middle East conflict roils markets",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/economy/oil-price-iran-war",
+        "zh": "中東衝突攪亂市場，全球油價飆升至每桶101美元。",
+        "accepted": [
+          [
+            "Global",
+            "oil",
+            "prices",
+            "hit",
+            "$101",
+            "per",
+            "barrel",
+            "as",
+            "Middle",
+            "East",
+            "conflict",
+            "roils",
+            "markets"
+          ]
+        ],
+        "distractors": [
+          "Globally",
+          "price",
+          "hits",
+          "for",
+          "conflicts",
+          "roiled"
+        ],
+        "notes": [
+          {
+            "word": "prices",
+            "text": "「prices」是複數名詞，表示「價格」。",
+            "category": "單複數"
+          },
+          {
+            "word": "hit",
+            "text": "「hit」在這裡是動詞原形，與複數主語「prices」一致，表示「達到」。在新聞標題中，動詞常使用現在式來表示最近發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "per",
+            "text": "「per」意為「每」，表示單位。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "在這裡，「as」用作連接詞，表示「當…的時候」或「因為」，引導時間或原因狀語從句。",
+            "category": "其他"
+          },
+          {
+            "word": "roils",
+            "text": "「roils」是動詞的第三人稱單數形式，與主語「Middle East conflict」一致，意為「攪亂，使不安」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "US Central Command released footage that it said showed tanker M/T Riesco sinking in the Gulf of Oman after being attacked by the US military. CENTCOM",
+      "url": "https://edition.cnn.com/2026/09/08/politics/us-targets-iran-tankers",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "US Central Command released footage that it said showed tanker M/T Riesco sinking in the Gulf of Oman after being attacked by the US military. CENTCOM",
+        "sourceUrl": "https://edition.cnn.com/2026/09/08/politics/us-targets-iran-tankers",
+        "zh": "美國中央司令部發布了據稱顯示油輪M/T Riesco在阿曼灣被美軍襲擊後沉沒的畫面。——美國中央司令部",
+        "accepted": [
+          [
+            "US",
+            "Central",
+            "Command",
+            "released",
+            "footage",
+            "that",
+            "it",
+            "said",
+            "showed",
+            "tanker",
+            "M/T",
+            "Riesco",
+            "sinking",
+            "in",
+            "the",
+            "Gulf",
+            "of",
+            "Oman",
+            "after",
+            "being",
+            "attacked",
+            "by",
+            "the",
+            "US",
+            "military.",
+            "CENTCOM"
+          ]
+        ],
+        "distractors": [
+          "release",
+          "footages",
+          "say",
+          "showing",
+          "sank",
+          "before"
+        ],
+        "notes": [
+          {
+            "word": "released",
+            "text": "「released」是動詞的過去式，表示「發布」。",
+            "category": "時態"
+          },
+          {
+            "word": "that",
+            "text": "「that」在這裡引導一個定語從句，修飾「footage」。",
+            "category": "其他"
+          },
+          {
+            "word": "sinking",
+            "text": "「sinking」是現在分詞，表示正在沉沒的狀態，修飾「tanker M/T Riesco」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "「in the Gulf of Oman」表示地點，意為「在阿曼灣」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "after being attacked",
+            "text": "「after being attacked」是被動語態的現在分詞短語，表示「在被攻擊之後」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Benjamin Chelly/L'ÉCOLE, School of Jewelry Arts",
+      "url": "https://edition.cnn.com/2026/09/09/style/diamond-grand-conde-curio",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Benjamin Chelly/L'ÉCOLE, School of Jewelry Arts",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/style/diamond-grand-conde-curio",
+        "zh": "班傑明·切利/L'ÉCOLE珠寶藝術學院",
+        "accepted": [
+          [
+            "Benjamin",
+            "Chelly/L'ÉCOLE,",
+            "School",
+            "of",
+            "Jewelry",
+            "Arts"
+          ]
+        ],
+        "distractors": [
+          "Benjamin’s",
+          "Schools",
+          "for",
+          "Jewelries",
+          "Art"
+        ],
+        "notes": [
+          {
+            "word": "School of Jewelry Arts",
+            "text": "這是一個專有名詞，表示「珠寶藝術學院」。",
+            "category": "其他"
+          },
+          {
+            "word": "of",
+            "text": "「of」在這裡表示所屬關係，意為「…的」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Arts",
+            "text": "「Arts」在這裡是複數形式，表示「藝術」這個領域。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Cave fossils in China reveal lives of mysterious human relatives",
+      "url": "https://edition.cnn.com/2026/09/09/science/china-denisovan-fossil-discovery",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Cave fossils in China reveal lives of mysterious human relatives",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/science/china-denisovan-fossil-discovery",
+        "zh": "中國的洞穴化石揭示了神秘人類親屬的生活。",
+        "accepted": [
+          [
+            "Cave",
+            "fossils",
+            "in",
+            "China",
+            "reveal",
+            "lives",
+            "of",
+            "mysterious",
+            "human",
+            "relatives"
+          ]
+        ],
+        "distractors": [
+          "Cave’s",
+          "fossil",
+          "on",
+          "reveals",
+          "life",
+          "relative"
+        ],
+        "notes": [
+          {
+            "word": "fossils",
+            "text": "「fossils」是複數名詞，表示「化石」。",
+            "category": "單複數"
+          },
+          {
+            "word": "in",
+            "text": "「in China」表示地點，意為「在中國」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "reveal",
+            "text": "「reveal」是動詞原形，與複數主語「Cave fossils」一致，表示「揭示」。",
+            "category": "單複數"
+          },
+          {
+            "word": "lives",
+            "text": "「lives」是「life」的複數形式，表示「生活」。",
+            "category": "單複數"
+          },
+          {
+            "word": "relatives",
+            "text": "「relatives」是複數名詞，表示「親屬」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why the best match of the US Open finished after 3 a.m. – and how it could affect Ben Shelton in the semis",
+      "url": "https://edition.cnn.com/2026/09/09/sport/us-open-matches-late-finishes-explainer",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why the best match of the US Open finished after 3 a.m. – and how it could affect Ben Shelton in the semis",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/sport/us-open-matches-late-finishes-explainer",
+        "zh": "為什麼美國網球公開賽的最佳比賽在凌晨3點後才結束——以及這將如何影響班·謝爾頓在半決賽中的表現。",
+        "accepted": [
+          [
+            "Why",
+            "the",
+            "best",
+            "match",
+            "of",
+            "the",
+            "US",
+            "Open",
+            "finished",
+            "after",
+            "3",
+            "a.m.",
+            "–",
+            "and",
+            "how",
+            "it",
+            "could",
+            "affect",
+            "Ben",
+            "Shelton",
+            "in",
+            "the",
+            "semis"
+          ]
+        ],
+        "distractors": [
+          "What",
+          "matches",
+          "finish",
+          "before",
+          "affecting",
+          "semi"
+        ],
+        "notes": [
+          {
+            "word": "Why",
+            "text": "「Why」是疑問副詞，引導一個原因狀語從句。",
+            "category": "其他"
+          },
+          {
+            "word": "the",
+            "text": "「the」是定冠詞，用於特指「最佳比賽」和「美國網球公開賽」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "finished",
+            "text": "「finished」是動詞的過去式，表示「結束」。",
+            "category": "時態"
+          },
+          {
+            "word": "after",
+            "text": "「after」是介係詞，表示「在…之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "could affect",
+            "text": "「could affect」是情態動詞「could」加上動詞原形「affect」，表示「可能影響」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Spain’s spy agency warned of plans to storm Ceuta before mass migrant crossing, documents show",
+      "url": "https://edition.cnn.com/2026/09/09/europe/spain-spy-agency-ceuta-documents-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Spain’s spy agency warned of plans to storm Ceuta before mass migrant crossing, documents show",
+        "sourceUrl": "https://edition.cnn.com/2026/09/09/europe/spain-spy-agency-ceuta-documents-latam-intl",
+        "zh": "文件顯示，西班牙間諜機構在大規模移民越境前曾警告有衝擊休達的計劃。",
+        "accepted": [
+          [
+            "Spain’s",
+            "spy",
+            "agency",
+            "warned",
+            "of",
+            "plans",
+            "to",
+            "storm",
+            "Ceuta",
+            "before",
+            "mass",
+            "migrant",
+            "crossing,",
+            "documents",
+            "show"
+          ]
+        ],
+        "distractors": [
+          "Spain",
+          "agencies",
+          "warns",
+          "plan",
+          "after",
+          "showed"
+        ],
+        "notes": [
+          {
+            "word": "Spain’s",
+            "text": "「Spain’s」是所有格，表示「西班牙的」。",
+            "category": "其他"
+          },
+          {
+            "word": "warned",
+            "text": "「warned」是動詞的過去式，表示「警告」。",
+            "category": "時態"
+          },
+          {
+            "word": "of",
+            "text": "「warn of」是固定搭配，意為「警告…的危險或存在」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "to storm",
+            "text": "「to storm」是不定式，表示「衝擊」或「襲擊」，說明計劃的內容。",
+            "category": "其他"
+          },
+          {
+            "word": "before",
+            "text": "「before」是介係詞，表示「在…之前」。",
             "category": "介係詞"
           }
         ]
