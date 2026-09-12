@@ -1,746 +1,691 @@
 {
-  "date": "2026-09-11",
-  "fetchedAt": "2026-09-11T22:23:02.485Z",
+  "date": "2026-09-12",
+  "fetchedAt": "2026-09-12T22:05:12.335Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "The Bab al-Mandeb Strait, a lifeline for the global economy, is in jeopardy",
-      "url": "https://edition.cnn.com/2026/09/11/business/bab-al-mandeb-strait-houthi-global-economy",
+      "en": "CNN Exclusive Hegseth met with airmen to hear concerns over speaking with ‘60 Minutes’ about classified Iran rescue",
+      "url": "https://edition.cnn.com/2026/09/12/politics/pentagon-pressed-airmen-shot-down-over-iran-to-participate-in-60-minutes-interview",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The Bab al-Mandeb Strait, a lifeline for the global economy, is in jeopardy",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/business/bab-al-mandeb-strait-houthi-global-economy",
-        "zh": "曼德海峽是全球經濟的生命線，目前正處於危險之中。",
+        "sourceEn": "CNN Exclusive Hegseth met with airmen to hear concerns over speaking with ‘60 Minutes’ about classified Iran rescue",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/politics/pentagon-pressed-airmen-shot-down-over-iran-to-participate-in-60-minutes-interview",
+        "zh": "CNN獨家報導：赫格斯談及與空軍人員會面，聽取他們對向《60分鐘》節目談論機密伊朗救援行動的擔憂。",
         "accepted": [
           [
-            "The",
-            "Bab",
-            "al-Mandeb",
-            "Strait",
-            ",",
-            "a",
-            "lifeline",
-            "for",
-            "the",
-            "global",
-            "economy",
-            ",",
-            "is",
-            "in",
-            "jeopardy"
+            "CNN",
+            "Exclusive",
+            "Hegseth",
+            "met",
+            "with",
+            "airmen",
+            "to",
+            "hear",
+            "concerns",
+            "over",
+            "speaking",
+            "with",
+            "‘60",
+            "Minutes’",
+            "about",
+            "classified",
+            "Iran",
+            "rescue"
           ]
         ],
         "distractors": [
-          "danger",
-          "crisis",
-          "threat",
-          "risk",
-          "peril"
+          "meeting",
+          "speaks",
+          "concern",
+          "exclusive",
+          "rescueing",
+          "airman"
         ],
         "notes": [
           {
-            "word": "lifeline",
-            "text": "「lifeline」意指「生命線」或「命脈」，常用來形容對某事物至關重要的支持或連結。",
+            "word": "met",
+            "text": "這裡的 'met' 是 'meet' 的過去式，表示過去發生的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "speaking",
+            "text": "'over speaking' 中，'speaking' 作為動名詞，表示「關於說話」或「在說話方面」。",
             "category": "其他"
           },
           {
-            "word": "in jeopardy",
-            "text": "「in jeopardy」是一個片語，表示「處於危險之中」或「岌岌可危」。",
-            "category": "介係詞"
+            "word": "classified",
+            "text": "'classified' 作為形容詞，修飾 'Iran rescue'，表示「機密的」救援行動。",
+            "category": "其他"
           },
           {
-            "word": "The",
-            "text": "「The」作為定冠詞，用於特指某個海峽，這裡指「曼德海峽」。",
+            "word": "concerns",
+            "text": "'concerns' 是複數名詞，表示多種擔憂。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump says Irish unification would be ‘fantastic,’ wading into sensitive topic during weekend visit",
+      "url": "https://edition.cnn.com/2026/09/12/politics/president-donald-trump-arrives-ireland",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump says Irish unification would be ‘fantastic,’ wading into sensitive topic during weekend visit",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/politics/president-donald-trump-arrives-ireland",
+        "zh": "川普表示愛爾蘭統一將會「非常棒」，在週末訪問期間涉足敏感話題。",
+        "accepted": [
+          [
+            "Trump",
+            "says",
+            "Irish",
+            "unification",
+            "would",
+            "be",
+            "‘fantastic,’",
+            "wading",
+            "into",
+            "sensitive",
+            "topic",
+            "during",
+            "weekend",
+            "visit"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "unify",
+          "fantastic",
+          "wade",
+          "topics",
+          "visited"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "新聞標題常用現在式 'says' 來報導最近發生的事件，即使事件本身已發生。",
+            "category": "時態"
+          },
+          {
+            "word": "would",
+            "text": "'would be' 表示一種假設或預期的結果，即「將會是」。",
+            "category": "其他"
+          },
+          {
+            "word": "wading",
+            "text": "'wading into' 是現在分詞片語，修飾主語 Trump，表示他在訪問期間同時進行的動作。",
+            "category": "其他"
+          },
+          {
+            "word": "topic",
+            "text": "'topic' 是單數名詞，表示一個敏感話題。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why Ukrainian troops are fighting Russia in an African desert 3,000 miles from home",
+      "url": "https://edition.cnn.com/2026/09/12/africa/ukraine-russia-drones-mali-libya-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why Ukrainian troops are fighting Russia in an African desert 3,000 miles from home",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/africa/ukraine-russia-drones-mali-libya-intl",
+        "zh": "烏克蘭軍隊為何在離家3,000英里外的非洲沙漠中與俄羅斯作戰？",
+        "accepted": [
+          [
+            "Why",
+            "Ukrainian",
+            "troops",
+            "are",
+            "fighting",
+            "Russia",
+            "in",
+            "an",
+            "African",
+            "desert",
+            "3,000",
+            "miles",
+            "from",
+            "home"
+          ]
+        ],
+        "distractors": [
+          "fight",
+          "troop",
+          "mile",
+          "the",
+          "fightings",
+          "homes"
+        ],
+        "notes": [
+          {
+            "word": "are fighting",
+            "text": "'are fighting' 是現在進行式，表示正在發生的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "an",
+            "text": "'an African desert' 中，'an' 是不定冠詞，因為 'African' 的發音以元音開頭。",
             "category": "冠詞"
           },
           {
-            "word": "economy",
-            "text": "「economy」指「經濟」或「經濟體系」，這裡指全球的經濟狀況。",
-            "category": "其他"
+            "word": "in",
+            "text": "'in an African desert' 表示地點，即「在一個非洲沙漠中」。",
+            "category": "介係詞"
           },
           {
-            "word": "for",
-            "text": "「for」在這裡表示「對於...來說」，說明生命線對於全球經濟的重要性。",
-            "category": "介係詞"
+            "word": "troops",
+            "text": "'troops' 是複數名詞，指多個士兵或軍隊。",
+            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Saudi Arabia shuts down key oil pipeline after attack",
-      "url": "https://edition.cnn.com/2026/09/11/politics/saudi-arabian-oil-pipeline-hit-by-projectiles-triggering-fires",
+      "en": "Anthropic CEO says race to develop AI is in need of a slowdown",
+      "url": "https://edition.cnn.com/2026/09/12/tech/anthropic-ceo-essay-ai",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Saudi Arabia shuts down key oil pipeline after attack",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/politics/saudi-arabian-oil-pipeline-hit-by-projectiles-triggering-fires",
-        "zh": "沙烏地阿拉伯在遭受襲擊後關閉了一條重要的輸油管道。",
+        "sourceEn": "Anthropic CEO says race to develop AI is in need of a slowdown",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/tech/anthropic-ceo-essay-ai",
+        "zh": "Anthropic執行長表示，人工智慧的發展競賽需要放緩。",
         "accepted": [
           [
-            "Saudi",
-            "Arabia",
-            "shuts",
-            "down",
-            "key",
-            "oil",
-            "pipeline",
-            "after",
-            "attack"
+            "Anthropic",
+            "CEO",
+            "says",
+            "race",
+            "to",
+            "develop",
+            "AI",
+            "is",
+            "in",
+            "need",
+            "of",
+            "a",
+            "slowdown"
           ]
         ],
         "distractors": [
-          "closed",
-          "opened",
-          "damaged",
-          "repaired",
-          "started"
+          "said",
+          "races",
+          "developing",
+          "needs",
+          "the",
+          "slowed"
         ],
         "notes": [
           {
-            "word": "shuts down",
-            "text": "「shuts down」是動詞片語，表示「關閉」或「停止運作」，常用於機器、系統或設施。",
+            "word": "says",
+            "text": "新聞標題常用現在式 'says' 來報導最近發生的事件。",
             "category": "時態"
           },
           {
-            "word": "key",
-            "text": "「key」在這裡是形容詞，表示「關鍵的」或「重要的」。",
+            "word": "to develop",
+            "text": "'to develop' 是不定詞，表示目的，即「為了發展」。",
             "category": "其他"
           },
           {
-            "word": "pipeline",
-            "text": "「pipeline」指「管道」或「輸油管」。",
+            "word": "is in need of",
+            "text": "'is in need of' 是一個固定片語，表示「需要」。",
             "category": "其他"
           },
           {
-            "word": "after",
-            "text": "「after」是介係詞，表示「在...之後」，說明關閉管道的時間點。",
-            "category": "介係詞"
-          },
-          {
-            "word": "attack",
-            "text": "「attack」指「襲擊」或「攻擊」。",
-            "category": "其他"
+            "word": "a",
+            "text": "'a slowdown' 中，'a' 是不定冠詞，表示「一次」或「一種」放緩。",
+            "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Iranian allies captured a strategic Red Sea island in a vital waterway. Here’s what to know",
-      "url": "https://edition.cnn.com/2026/09/10/middleeast/houthis-capture-mocha-red-sea-strait-intl",
+      "en": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
+      "url": "https://edition.cnn.com/2026/09/12/middleeast/trump-iran-saudi-pipeline-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Iranian allies captured a strategic Red Sea island in a vital waterway. Here’s what to know",
-        "sourceUrl": "https://edition.cnn.com/2026/09/10/middleeast/houthis-capture-mocha-red-sea-strait-intl",
-        "zh": "伊朗盟友在一個重要的水域中佔領了一個戰略性的紅海島嶼。以下是需要了解的內容。",
+        "sourceEn": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/middleeast/trump-iran-saudi-pipeline-intl",
+        "zh": "川普表示，伊朗可能對導致沙烏地阿拉伯重要輸油管道關閉的襲擊負責。",
         "accepted": [
           [
-            "Iranian",
-            "allies",
-            "captured",
-            "a",
-            "strategic",
+            "Trump",
+            "says",
+            "Iran",
+            "likely",
+            "responsible",
+            "for",
+            "attack",
+            "that",
+            "shut",
+            "vital",
+            "Saudi",
+            "oil",
+            "pipeline"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "responsibly",
+          "attacks",
+          "shuts",
+          "the",
+          "pipelines"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "新聞標題常用現在式 'says' 來報導最近發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "likely",
+            "text": "'likely' 作為副詞，修飾 'responsible'，表示「很可能」負責。",
+            "category": "其他"
+          },
+          {
+            "word": "responsible for",
+            "text": "'responsible for' 是一個固定片語，表示「對…負責」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "shut",
+            "text": "'shut' 是動詞 'shut' 的過去式，表示管道被關閉。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘A f***-up of epic proportions’: Blame game begins after Iran-backed Houthis’ lightning advance down Red Sea coast",
+      "url": "https://edition.cnn.com/2026/09/12/middleeast/yemen-houthi-saudi-us-blame-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘A f***-up of epic proportions’: Blame game begins after Iran-backed Houthis’ lightning advance down Red Sea coast",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/middleeast/yemen-houthi-saudi-us-blame-intl",
+        "zh": "「一場史詩級的搞砸」：在伊朗支持的胡塞武裝閃電般推進紅海沿岸後，推卸責任的遊戲開始了。",
+        "accepted": [
+          [
+            "‘A",
+            "f***-up",
+            "of",
+            "epic",
+            "proportions’:",
+            "Blame",
+            "game",
+            "begins",
+            "after",
+            "Iran-backed",
+            "Houthis’",
+            "lightning",
+            "advance",
+            "down",
             "Red",
             "Sea",
-            "island",
-            "in",
-            "a",
-            "vital",
-            "waterway",
-            ".",
-            "Here’s",
-            "what",
-            "to",
-            "know"
+            "coast"
           ]
         ],
         "distractors": [
-          "released",
-          "lost",
-          "found",
-          "built",
-          "destroyed"
+          "f***-ups",
+          "proportion",
+          "began",
+          "advances",
+          "the",
+          "coasts"
         ],
         "notes": [
           {
-            "word": "captured",
-            "text": "「captured」是動詞「capture」的過去式，表示「佔領」或「捕獲」。",
-            "category": "時態"
+            "word": "A",
+            "text": "'A f***-up' 中，'A' 是不定冠詞，表示「一次」搞砸。",
+            "category": "冠詞"
           },
           {
-            "word": "strategic",
-            "text": "「strategic」是形容詞，表示「戰略性的」或「策略性的」。",
-            "category": "其他"
-          },
-          {
-            "word": "vital",
-            "text": "「vital」是形容詞，表示「極其重要的」或「不可或缺的」。",
-            "category": "其他"
-          },
-          {
-            "word": "waterway",
-            "text": "「waterway」指「水路」或「航道」。",
-            "category": "其他"
-          },
-          {
-            "word": "Here’s what to know",
-            "text": "「Here’s what to know」是一個常用表達，意為「以下是需要了解的內容」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CIA declassifies intel warnings to White House prior to 9/11 attack",
-      "url": "https://edition.cnn.com/2026/09/11/politics/cia-declassifies-intel-warnings-white-house-prior-9-11-attack",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CIA declassifies intel warnings to White House prior to 9/11 attack",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/politics/cia-declassifies-intel-warnings-white-house-prior-9-11-attack",
-        "zh": "中央情報局解密了9/11襲擊前向白宮發出的情報警告。",
-        "accepted": [
-          [
-            "CIA",
-            "declassifies",
-            "intel",
-            "warnings",
-            "to",
-            "White",
-            "House",
-            "prior",
-            "to",
-            "9/11",
-            "attack"
-          ]
-        ],
-        "distractors": [
-          "classified",
-          "hid",
-          "ignored",
-          "published",
-          "received"
-        ],
-        "notes": [
-          {
-            "word": "declassifies",
-            "text": "「declassifies」是動詞「declassify」的第三人稱單數現在式，表示「解密」。",
-            "category": "時態"
-          },
-          {
-            "word": "intel",
-            "text": "「intel」是「intelligence」的縮寫，指「情報」。",
-            "category": "其他"
-          },
-          {
-            "word": "warnings",
-            "text": "「warnings」是名詞「warning」的複數形式，表示「警告」。",
+            "word": "proportions",
+            "text": "'of epic proportions' 是一個片語，表示「規模巨大的」，這裡 'proportions' 用複數。",
             "category": "單複數"
           },
           {
-            "word": "prior to",
-            "text": "「prior to」是一個片語，表示「在...之前」，與「before」意思相近。",
-            "category": "介係詞"
+            "word": "begins",
+            "text": "新聞標題常用現在式 'begins' 來報導最近發生的事件。",
+            "category": "時態"
           },
           {
-            "word": "attack",
-            "text": "「attack」指「襲擊」或「攻擊」。",
+            "word": "Houthis’",
+            "text": "'Houthis’' 是所有格，表示「胡塞武裝的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Remember when pro-wrestler Chyna flipped the script on red carpet fashion?",
-      "url": "https://edition.cnn.com/2026/09/11/style/joan-laurer-chyna-emmys-red-carpet",
+      "en": "Can the oil market survive a forever war with Iran?",
+      "url": "https://edition.cnn.com/2026/09/12/economy/iran-forever-war-oil",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Remember when pro-wrestler Chyna flipped the script on red carpet fashion?",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/style/joan-laurer-chyna-emmys-red-carpet",
-        "zh": "還記得職業摔跤手Chyna如何在紅毯時尚上顛覆傳統嗎？",
+        "sourceEn": "Can the oil market survive a forever war with Iran?",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/economy/iran-forever-war-oil",
+        "zh": "石油市場能否在與伊朗的永久戰爭中倖存下來？",
         "accepted": [
           [
-            "Remember",
-            "when",
-            "pro-wrestler",
-            "Chyna",
-            "flipped",
+            "Can",
             "the",
-            "script",
-            "on",
-            "red",
-            "carpet",
-            "fashion",
-            "?"
-          ]
-        ],
-        "distractors": [
-          "forgot",
-          "ignored",
-          "followed",
-          "copied",
-          "missed"
-        ],
-        "notes": [
-          {
-            "word": "Remember when",
-            "text": "「Remember when」是一個常用句型，用於引導回憶過去的事件，意為「還記得...的時候嗎」。",
-            "category": "其他"
-          },
-          {
-            "word": "pro-wrestler",
-            "text": "「pro-wrestler」是「professional wrestler」的縮寫，指「職業摔跤手」。",
-            "category": "其他"
-          },
-          {
-            "word": "flipped the script",
-            "text": "「flipped the script」是一個慣用語，表示「顛覆傳統」、「改變局面」或「出乎意料地行事」。",
-            "category": "其他"
-          },
-          {
-            "word": "on",
-            "text": "「on」在這裡表示「在...方面」，說明顛覆的是紅毯時尚的方面。",
-            "category": "介係詞"
-          },
-          {
-            "word": "fashion",
-            "text": "「fashion」指「時尚」或「流行」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Scientists look inside the ‘spider’ growing on the tip of a rare viper’s tail",
-      "url": "https://edition.cnn.com/2026/09/11/science/spider-tailed-horned-viper-study",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Scientists look inside the ‘spider’ growing on the tip of a rare viper’s tail",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/science/spider-tailed-horned-viper-study",
-        "zh": "科學家們觀察了一條稀有毒蛇尾巴尖端上生長的「蜘蛛」內部。",
-        "accepted": [
-          [
-            "Scientists",
-            "look",
-            "inside",
-            "the",
-            "‘spider’",
-            "growing",
-            "on",
-            "the",
-            "tip",
-            "of",
+            "oil",
+            "market",
+            "survive",
             "a",
-            "rare",
-            "viper’s",
-            "tail"
+            "forever",
+            "war",
+            "with",
+            "Iran?"
           ]
         ],
         "distractors": [
-          "outside",
-          "around",
-          "beneath",
-          "above",
-          "through"
+          "survives",
+          "markets",
+          "wars",
+          "an",
+          "foreverly",
+          "Iran’s"
         ],
         "notes": [
           {
-            "word": "look inside",
-            "text": "「look inside」表示「往內部看」或「觀察內部」。",
+            "word": "Can",
+            "text": "'Can' 作為助動詞，用於疑問句，表示「能否」。",
+            "category": "其他"
+          },
+          {
+            "word": "the",
+            "text": "'the oil market' 中，'the' 是定冠詞，特指「這個」石油市場。",
+            "category": "冠詞"
+          },
+          {
+            "word": "survive",
+            "text": "'survive' 是動詞原形，跟在助動詞 'Can' 後面。",
+            "category": "其他"
+          },
+          {
+            "word": "with",
+            "text": "'with Iran' 表示「與伊朗」的戰爭。",
             "category": "介係詞"
-          },
-          {
-            "word": "growing",
-            "text": "「growing」是動詞「grow」的現在分詞，這裡作形容詞修飾「spider」，表示「正在生長的」。",
-            "category": "時態"
-          },
-          {
-            "word": "tip",
-            "text": "「tip」指「尖端」或「頂端」。",
-            "category": "其他"
-          },
-          {
-            "word": "rare",
-            "text": "「rare」是形容詞，表示「稀有的」或「罕見的」。",
-            "category": "其他"
-          },
-          {
-            "word": "viper’s",
-            "text": "「viper’s」是「viper」（毒蛇）的所有格形式，表示「毒蛇的」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "It’s not impossible to get kids to use social media less. Here’s what seems to work",
-      "url": "https://edition.cnn.com/2026/09/11/health/social-media-warnings-wellness",
+      "en": "One of the most popular mind-altering stimulants has prehistoric roots",
+      "url": "https://edition.cnn.com/2026/09/12/science/betel-nut-prehistoric-use",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "It’s not impossible to get kids to use social media less. Here’s what seems to work",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/health/social-media-warnings-wellness",
-        "zh": "讓孩子們減少使用社交媒體並非不可能。以下是似乎有效的方法。",
+        "sourceEn": "One of the most popular mind-altering stimulants has prehistoric roots",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/science/betel-nut-prehistoric-use",
+        "zh": "最受歡迎的精神活性興奮劑之一具有史前根源。",
         "accepted": [
           [
-            "It’s",
-            "not",
-            "impossible",
-            "to",
-            "get",
-            "kids",
-            "to",
-            "use",
-            "social",
-            "media",
-            "less",
-            ".",
-            "Here’s",
-            "what",
-            "seems",
-            "to",
-            "work"
-          ]
-        ],
-        "distractors": [
-          "possible",
-          "easy",
-          "difficult",
-          "certain",
-          "unlikely"
-        ],
-        "notes": [
-          {
-            "word": "It’s not impossible",
-            "text": "「It’s not impossible」是雙重否定，表示「並非不可能」，即「是可能的」。",
-            "category": "其他"
-          },
-          {
-            "word": "to get kids to use",
-            "text": "「get someone to do something」表示「讓某人做某事」。",
-            "category": "其他"
-          },
-          {
-            "word": "less",
-            "text": "「less」是副詞，表示「更少地」，修飾動詞「use」。",
-            "category": "其他"
-          },
-          {
-            "word": "social media",
-            "text": "「social media」指「社交媒體」。",
-            "category": "其他"
-          },
-          {
-            "word": "seems to work",
-            "text": "「seems to work」表示「似乎有效」或「看起來可行」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "UK man pleads guilty to using online forum to encourage sexual assault of unconscious women",
-      "url": "https://edition.cnn.com/2026/09/11/europe/uk-man-pleads-guilty-online-chatroom-assault-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "UK man pleads guilty to using online forum to encourage sexual assault of unconscious women",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/europe/uk-man-pleads-guilty-online-chatroom-assault-latam-intl",
-        "zh": "英國男子承認利用網路論壇鼓勵性侵昏迷女性的罪行。",
-        "accepted": [
-          [
-            "UK",
-            "man",
-            "pleads",
-            "guilty",
-            "to",
-            "using",
-            "online",
-            "forum",
-            "to",
-            "encourage",
-            "sexual",
-            "assault",
+            "One",
             "of",
-            "unconscious",
-            "women"
-          ]
-        ],
-        "distractors": [
-          "innocent",
-          "denies",
-          "refuses",
-          "claims",
-          "confesses"
-        ],
-        "notes": [
-          {
-            "word": "pleads guilty",
-            "text": "「pleads guilty」是一個法律用語，表示「認罪」或「承認有罪」。",
-            "category": "其他"
-          },
-          {
-            "word": "to using",
-            "text": "「to」在這裡是介係詞，後面接動名詞「using」，表示「對於使用...」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "forum",
-            "text": "「forum」指「論壇」或「討論區」。",
-            "category": "其他"
-          },
-          {
-            "word": "encourage",
-            "text": "「encourage」指「鼓勵」或「煽動」。",
-            "category": "其他"
-          },
-          {
-            "word": "unconscious",
-            "text": "「unconscious」是形容詞，表示「昏迷的」或「失去知覺的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Justice Department secures deportation order in first-of-its-kind case brought in secretive court",
-      "url": "https://edition.cnn.com/2026/09/11/politics/justice-department-deportation-isis-afganistan-secretive-terrorist-court",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Justice Department secures deportation order in first-of-its-kind case brought in secretive court",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/politics/justice-department-deportation-isis-afganistan-secretive-terrorist-court",
-        "zh": "司法部在一個秘密法庭審理的首例案件中獲得了驅逐令。",
-        "accepted": [
-          [
-            "Justice",
-            "Department",
-            "secures",
-            "deportation",
-            "order",
-            "in",
-            "first-of-its-kind",
-            "case",
-            "brought",
-            "in",
-            "secretive",
-            "court"
-          ]
-        ],
-        "distractors": [
-          "loses",
-          "fails",
-          "rejects",
-          "issues",
-          "cancels"
-        ],
-        "notes": [
-          {
-            "word": "secures",
-            "text": "「secures」是動詞「secure」的第三人稱單數現在式，表示「獲得」或「取得」。",
-            "category": "時態"
-          },
-          {
-            "word": "deportation order",
-            "text": "「deportation order」指「驅逐令」。",
-            "category": "其他"
-          },
-          {
-            "word": "first-of-its-kind",
-            "text": "「first-of-its-kind」是形容詞片語，表示「首例的」或「前所未有的」。",
-            "category": "其他"
-          },
-          {
-            "word": "brought",
-            "text": "「brought」是動詞「bring」的過去分詞，這裡用於被動語態，修飾「case」，表示「被提交的」或「被審理的」。",
-            "category": "時態"
-          },
-          {
-            "word": "secretive",
-            "text": "「secretive」是形容詞，表示「秘密的」或「隱密的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Several Latin American leaders are looking to the Bukele model to fight crime. This country has another idea",
-      "url": "https://edition.cnn.com/2026/09/11/americas/uruguay-crime-bukele-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Several Latin American leaders are looking to the Bukele model to fight crime. This country has another idea",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/americas/uruguay-crime-bukele-latam-intl",
-        "zh": "一些拉丁美洲領導人正在尋求布克爾模式來打擊犯罪。這個國家有另一個想法。",
-        "accepted": [
-          [
-            "Several",
-            "Latin",
-            "American",
-            "leaders",
-            "are",
-            "looking",
-            "to",
             "the",
-            "Bukele",
-            "model",
-            "to",
-            "fight",
-            "crime",
-            ".",
-            "This",
-            "country",
+            "most",
+            "popular",
+            "mind-altering",
+            "stimulants",
             "has",
-            "another",
-            "idea"
+            "prehistoric",
+            "roots"
           ]
         ],
         "distractors": [
-          "ignoring",
-          "rejecting",
-          "avoiding",
-          "criticizing",
-          "disregarding"
+          "ones",
+          "more",
+          "stimulant",
+          "have",
+          "root",
+          "prehistory"
         ],
         "notes": [
           {
-            "word": "Several",
-            "text": "「Several」是形容詞，表示「幾個」或「一些」，用於修飾可數名詞複數。",
+            "word": "One of",
+            "text": "'One of the most popular' 表示「其中之一」。",
+            "category": "其他"
+          },
+          {
+            "word": "the",
+            "text": "'the most popular' 中，'the' 用於最高級形容詞前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "stimulants",
+            "text": "'One of' 後面接可數名詞的複數形式，所以是 'stimulants'。",
             "category": "單複數"
           },
           {
-            "word": "looking to",
-            "text": "「looking to」在這裡表示「尋求」或「寄望於」，指尋求布克爾模式的幫助。",
-            "category": "介係詞"
-          },
-          {
-            "word": "model",
-            "text": "「model」指「模式」或「榜樣」。",
-            "category": "其他"
-          },
-          {
-            "word": "to fight crime",
-            "text": "「to fight crime」是不定詞片語，表示目的，即「為了打擊犯罪」。",
-            "category": "其他"
-          },
-          {
-            "word": "another idea",
-            "text": "「another idea」指「另一個想法」。",
-            "category": "其他"
+            "word": "has",
+            "text": "主語 'One' 是單數，所以動詞用 'has'。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Six Nigerians being extradited to US for swindling women out of $6M in romance scams",
-      "url": "https://edition.cnn.com/2026/09/11/africa/us-extradites-nigerians-for-romance-scams-intl",
+      "en": "Dating apps are ditching ‘the swipe’ for meet-ups IRL",
+      "url": "https://edition.cnn.com/2026/09/12/business/dating-apps-swipe-real-life-meet-ups",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Six Nigerians being extradited to US for swindling women out of $6M in romance scams",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/africa/us-extradites-nigerians-for-romance-scams-intl",
-        "zh": "六名奈及利亞人因在浪漫詐騙中騙取女性600萬美元而被引渡到美國。",
+        "sourceEn": "Dating apps are ditching ‘the swipe’ for meet-ups IRL",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/business/dating-apps-swipe-real-life-meet-ups",
+        "zh": "交友軟體正在放棄「滑動」功能，轉而選擇現實生活中的見面。",
         "accepted": [
           [
-            "Six",
-            "Nigerians",
-            "being",
-            "extradited",
-            "to",
-            "US",
+            "Dating",
+            "apps",
+            "are",
+            "ditching",
+            "‘the",
+            "swipe’",
             "for",
-            "swindling",
-            "women",
-            "out",
-            "of",
-            "$6M",
-            "in",
-            "romance",
-            "scams"
+            "meet-ups",
+            "IRL"
           ]
         ],
         "distractors": [
-          "released",
-          "arrested",
-          "deported",
-          "imprisoned",
-          "acquitted"
+          "app",
+          "is",
+          "ditched",
+          "swipes",
+          "meeting-ups",
+          "in"
         ],
         "notes": [
           {
-            "word": "being extradited",
-            "text": "「being extradited」是被動語態的現在進行式，表示「正在被引渡」。",
+            "word": "apps",
+            "text": "'apps' 是複數名詞，指多個應用程式。",
+            "category": "單複數"
+          },
+          {
+            "word": "are ditching",
+            "text": "'are ditching' 是現在進行式，表示正在發生的趨勢。",
             "category": "時態"
+          },
+          {
+            "word": "the",
+            "text": "這裡的 'the swipe' 特指交友軟體中「滑動」這個動作。",
+            "category": "冠詞"
           },
           {
             "word": "for",
-            "text": "「for」在這裡表示原因，即「因為...」。",
+            "text": "'for meet-ups' 表示「為了見面」或「轉而選擇見面」。",
             "category": "介係詞"
-          },
-          {
-            "word": "swindling",
-            "text": "「swindling」是動名詞，表示「詐騙」或「騙取」。",
-            "category": "其他"
-          },
-          {
-            "word": "out of",
-            "text": "「swindle someone out of something」是一個片語，表示「騙取某人某物」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "romance scams",
-            "text": "「romance scams」指「浪漫詐騙」或「愛情詐騙」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Buildings are sinking and cracking in one of Europe’s largest cities",
-      "url": "https://edition.cnn.com/2026/09/11/climate/london-subsidence-heat-clay-soil-sinking-insurance",
+      "en": "The world’s deadliest sea route keeps getting busier – with some kidnapped and forced onto boats",
+      "url": "https://edition.cnn.com/2026/09/12/asia/rohingya-bangladesh-myanmar-refugees-dst-intl-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Buildings are sinking and cracking in one of Europe’s largest cities",
-        "sourceUrl": "https://edition.cnn.com/2026/09/11/climate/london-subsidence-heat-clay-soil-sinking-insurance",
-        "zh": "歐洲最大城市之一的建築物正在下沉和開裂。",
+        "sourceEn": "The world’s deadliest sea route keeps getting busier – with some kidnapped and forced onto boats",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/asia/rohingya-bangladesh-myanmar-refugees-dst-intl-hnk",
+        "zh": "世界上最致命的海上航線變得越來越繁忙——有些人被綁架並被迫上船。",
         "accepted": [
           [
-            "Buildings",
-            "are",
-            "sinking",
+            "The",
+            "world’s",
+            "deadliest",
+            "sea",
+            "route",
+            "keeps",
+            "getting",
+            "busier",
+            "–",
+            "with",
+            "some",
+            "kidnapped",
             "and",
-            "cracking",
-            "in",
-            "one",
-            "of",
-            "Europe’s",
-            "largest",
-            "cities"
+            "forced",
+            "onto",
+            "boats"
           ]
         ],
         "distractors": [
-          "rising",
-          "stable",
-          "repaired",
-          "built",
-          "standing"
+          "worlds",
+          "deadlier",
+          "routes",
+          "kept",
+          "busier",
+          "boat"
         ],
         "notes": [
           {
-            "word": "Buildings",
-            "text": "「Buildings」是名詞「building」的複數形式，表示「建築物」。",
-            "category": "單複數"
+            "word": "The",
+            "text": "'The world’s deadliest' 中，'The' 用於最高級形容詞前。",
+            "category": "冠詞"
           },
           {
-            "word": "are sinking and cracking",
-            "text": "這是現在進行式，表示建築物正在發生下沉和開裂的動作。",
+            "word": "keeps getting",
+            "text": "'keeps getting' 表示持續的動作或狀態變化，即「持續變得」。",
             "category": "時態"
           },
           {
-            "word": "sinking",
-            "text": "「sinking」是動詞「sink」的現在分詞，表示「下沉」。",
+            "word": "busier",
+            "text": "'busier' 是形容詞 'busy' 的比較級，表示「更繁忙」。",
             "category": "其他"
           },
           {
-            "word": "cracking",
-            "text": "「cracking」是動詞「crack」的現在分詞，表示「開裂」或「出現裂縫」。",
+            "word": "onto",
+            "text": "'onto boats' 表示「到船上」，強調移動的方向。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Death toll in Philippine ferry fire rises to 76 as rescuers recover more remains",
+      "url": "https://edition.cnn.com/2026/09/12/asia/death-toll-philippine-ferry-fire-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Death toll in Philippine ferry fire rises to 76 as rescuers recover more remains",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/asia/death-toll-philippine-ferry-fire-latam-intl",
+        "zh": "菲律賓渡輪火災死亡人數升至76人，救援人員尋獲更多遺體。",
+        "accepted": [
+          [
+            "Death",
+            "toll",
+            "in",
+            "Philippine",
+            "ferry",
+            "fire",
+            "rises",
+            "to",
+            "76",
+            "as",
+            "rescuers",
+            "recover",
+            "more",
+            "remains"
+          ]
+        ],
+        "distractors": [
+          "deaths",
+          "tolls",
+          "rose",
+          "recovers",
+          "remain",
+          "rescuer"
+        ],
+        "notes": [
+          {
+            "word": "rises",
+            "text": "新聞標題常用現在式 'rises' 來報導最近發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "in",
+            "text": "'in Philippine ferry fire' 表示「在菲律賓渡輪火災中」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "rescuers",
+            "text": "'rescuers' 是複數名詞，指多個救援人員。",
+            "category": "單複數"
+          },
+          {
+            "word": "remains",
+            "text": "這裡的 'remains' 是複數名詞，表示「遺體」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Courtesy Morgan & Morgan, Mark Lopez-Trigo, The Gutierrez Firm, Rafael López González",
+      "url": "https://edition.cnn.com/2026/09/12/us/amazon-plane-crash-victims-miami",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Courtesy Morgan & Morgan, Mark Lopez-Trigo, The Gutierrez Firm, Rafael López González",
+        "sourceUrl": "https://edition.cnn.com/2026/09/12/us/amazon-plane-crash-victims-miami",
+        "zh": "鳴謝 Morgan & Morgan, Mark Lopez-Trigo, The Gutierrez Firm, Rafael López González",
+        "accepted": [
+          [
+            "Courtesy",
+            "Morgan",
+            "&",
+            "Morgan,",
+            "Mark",
+            "Lopez-Trigo,",
+            "The",
+            "Gutierrez",
+            "Firm,",
+            "Rafael",
+            "López",
+            "González"
+          ]
+        ],
+        "distractors": [
+          "Courtesies",
+          "Morgans",
+          "Firms",
+          "Lopez-Trigos",
+          "Gonzálezs",
+          "a"
+        ],
+        "notes": [
+          {
+            "word": "Courtesy",
+            "text": "'Courtesy' 作為名詞，表示「鳴謝」或「由…提供」。",
             "category": "其他"
           },
           {
-            "word": "one of",
-            "text": "「one of」後面接複數名詞，表示「...之一」。",
+            "word": "The",
+            "text": "'The Gutierrez Firm' 中，'The' 用於特指這家公司。",
+            "category": "冠詞"
+          },
+          {
+            "word": "&",
+            "text": "'&' 是連詞 'and' 的縮寫，表示「和」。",
+            "category": "其他"
+          },
+          {
+            "word": "Firm",
+            "text": "'Firm' 是單數名詞，指一家公司或事務所。",
             "category": "單複數"
           }
         ]
