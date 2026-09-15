@@ -1,745 +1,669 @@
 {
-  "date": "2026-09-13",
-  "fetchedAt": "2026-09-13T22:16:05.806Z",
+  "date": "2026-09-15",
+  "fetchedAt": "2026-09-15T22:47:40.858Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Trump tells Ukraine to stop targeting Russia’s diesel as Kyiv says Moscow attacked passenger train near Polish border",
-      "url": "https://edition.cnn.com/2026/09/13/europe/russia-poland-ukraine-border-area-attack-intl",
+      "en": "Kennedy Center board votes to close for renovations after chaotic call with Trump",
+      "url": "https://edition.cnn.com/2026/09/15/politics/trump-kennedy-center-name",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump tells Ukraine to stop targeting Russia’s diesel as Kyiv says Moscow attacked passenger train near Polish border",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/europe/russia-poland-ukraine-border-area-attack-intl",
-        "zh": "川普告訴烏克蘭停止攻擊俄羅斯的柴油，因為基輔表示莫斯科襲擊了波蘭邊境附近的一列客運列車。",
+        "sourceEn": "Kennedy Center board votes to close for renovations after chaotic call with Trump",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/trump-kennedy-center-name",
+        "zh": "甘迺迪中心董事會投票決定在與川普進行混亂通話後關閉進行翻修。",
         "accepted": [
           [
-            "Trump",
-            "tells",
-            "Ukraine",
+            "Kennedy",
+            "Center",
+            "board",
+            "votes",
             "to",
-            "stop",
-            "targeting",
-            "Russia’s",
-            "diesel",
-            "as",
-            "Kyiv",
-            "says",
-            "Moscow",
-            "attacked",
-            "passenger",
-            "train",
-            "near",
-            "Polish",
-            "border"
+            "close",
+            "for",
+            "renovations",
+            "after",
+            "chaotic",
+            "call",
+            "with",
+            "Trump"
           ]
         ],
         "distractors": [
-          "stopped",
-          "target",
-          "attacking",
-          "trains",
-          "borders",
-          "Russia"
+          "opened",
+          "meeting",
+          "discussing",
+          "building",
+          "agreement"
         ],
         "notes": [
           {
-            "word": "tells",
-            "text": "這裡的「tells」是現在簡單式，表示川普發出指示的動作。",
+            "word": "votes",
+            "text": "這裡的 'votes' 是動詞，表示董事會的投票行為，而不是名詞 '投票'。",
             "category": "時態"
+          },
+          {
+            "word": "to close",
+            "text": "'to close' 是不定詞，表示投票的目的或結果。",
+            "category": "其他"
+          },
+          {
+            "word": "for renovations",
+            "text": "'for' 在這裡表示目的，即「為了翻修」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "after",
+            "text": "'after' 作為介係詞，表示時間上的先後順序。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump unloads on ‘shockingly bad rulings’ from conservative Supreme Court justices he appointed",
+      "url": "https://edition.cnn.com/2026/09/15/politics/trump-supreme-court-mail-voting",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump unloads on ‘shockingly bad rulings’ from conservative Supreme Court justices he appointed",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/trump-supreme-court-mail-voting",
+        "zh": "川普猛烈抨擊他任命的保守派最高法院法官做出的「糟糕透頂的裁決」。",
+        "accepted": [
+          [
+            "Trump",
+            "unloads",
+            "on",
+            "‘shockingly",
+            "bad",
+            "rulings’",
+            "from",
+            "conservative",
+            "Supreme",
+            "Court",
+            "justices",
+            "he",
+            "appointed"
+          ]
+        ],
+        "distractors": [
+          "praises",
+          "excellent",
+          "decisions",
+          "liberal",
+          "judges"
+        ],
+        "notes": [
+          {
+            "word": "unloads on",
+            "text": "'unload on' 是一個片語，意為「猛烈抨擊」或「對…發洩不滿」。",
+            "category": "其他"
+          },
+          {
+            "word": "shockingly bad",
+            "text": "'shockingly' 是副詞，修飾形容詞 'bad'，強調「壞得令人震驚」。",
+            "category": "其他"
+          },
+          {
+            "word": "rulings",
+            "text": "'rulings' 是名詞的複數形式，指「裁決」或「判決」。",
+            "category": "單複數"
+          },
+          {
+            "word": "he appointed",
+            "text": "這是一個省略了關係代名詞 'whom' 或 'that' 的形容詞子句，修飾 'justices'。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What’s next for mail voting after the Supreme Court ruled against Trump",
+      "url": "https://edition.cnn.com/2026/09/15/politics/mail-voting-rules-supreme-court-decision",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "What’s next for mail voting after the Supreme Court ruled against Trump",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/mail-voting-rules-supreme-court-decision",
+        "zh": "在最高法院裁定川普敗訴後，郵寄投票的下一步是什麼？",
+        "accepted": [
+          [
+            "What’s",
+            "next",
+            "for",
+            "mail",
+            "voting",
+            "after",
+            "the",
+            "Supreme",
+            "Court",
+            "ruled",
+            "against",
+            "Trump"
+          ]
+        ],
+        "distractors": [
+          "When",
+          "previous",
+          "before",
+          "supported",
+          "Biden"
+        ],
+        "notes": [
+          {
+            "word": "What’s next",
+            "text": "'What’s next' 是 'What is next' 的縮寫，表示「接下來是什麼」。",
+            "category": "其他"
+          },
+          {
+            "word": "for mail voting",
+            "text": "'for' 在這裡表示「對於…而言」，指郵寄投票的未來。",
+            "category": "介係詞"
+          },
+          {
+            "word": "ruled against",
+            "text": "'rule against' 是一個片語，意為「裁定…敗訴」或「做出不利於…的裁決」。",
+            "category": "其他"
+          },
+          {
+            "word": "the Supreme Court",
+            "text": "'the' 用於特指「最高法院」這個獨一無二的機構。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Canada is pursuing a ‘unique alliance’ with the EU as US ties remain fraught. Here’s what we know",
+      "url": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Canada is pursuing a ‘unique alliance’ with the EU as US ties remain fraught. Here’s what we know",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
+        "zh": "由於美國關係依然緊張，加拿大正在與歐盟建立「獨特聯盟」。以下是我們所知道的。",
+        "accepted": [
+          [
+            "Canada",
+            "is",
+            "pursuing",
+            "a",
+            "‘unique",
+            "alliance’",
+            "with",
+            "the",
+            "EU",
+            "as",
+            "US",
+            "ties",
+            "remain",
+            "fraught",
+            ".",
+            "Here’s",
+            "what",
+            "we",
+            "know"
+          ]
+        ],
+        "distractors": [
+          "avoiding",
+          "common",
+          "disagreement",
+          "stable",
+          "nothing"
+        ],
+        "notes": [
+          {
+            "word": "is pursuing",
+            "text": "現在進行式 'is pursuing' 表示加拿大正在進行的行動。",
+            "category": "時態"
+          },
+          {
+            "word": "a ‘unique alliance’",
+            "text": "'a' 用於修飾單數可數名詞 'alliance'，表示一個「獨特的聯盟」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "as US ties remain fraught",
+            "text": "'as' 在這裡引導一個時間或原因子句，表示「由於」或「當…的時候」。'fraught' 意為「充滿憂慮的」或「緊張的」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Here’s what we know",
+            "text": "'Here’s' 是 'Here is' 的縮寫，引導一個名詞子句 'what we know'，表示「這就是我們所知道的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why Trump's diesel woes are playing right into Moscow's hands",
+      "url": "https://edition.cnn.com/2026/09/15/europe/trump-diesel-russia-ukraine-analysis-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why Trump's diesel woes are playing right into Moscow's hands",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/europe/trump-diesel-russia-ukraine-analysis-intl",
+        "zh": "為什麼川普的柴油困境正中莫斯科下懷。",
+        "accepted": [
+          [
+            "Why",
+            "Trump's",
+            "diesel",
+            "woes",
+            "are",
+            "playing",
+            "right",
+            "into",
+            "Moscow's",
+            "hands"
+          ]
+        ],
+        "distractors": [
+          "How",
+          "successes",
+          "avoiding",
+          "away",
+          "Beijing's"
+        ],
+        "notes": [
+          {
+            "word": "Trump's",
+            "text": "'Trump's' 是所有格，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "woes",
+            "text": "'woes' 是名詞的複數形式，意為「困境」或「麻煩」。",
+            "category": "單複數"
+          },
+          {
+            "word": "are playing",
+            "text": "現在進行式 'are playing' 表示正在發生的情況。",
+            "category": "時態"
+          },
+          {
+            "word": "playing right into someone's hands",
+            "text": "這是一個慣用語，意為「正中某人下懷」或「正合某人意」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Poland reinforces border with Ukraine amid growing security concerns across Europe",
+      "url": "https://edition.cnn.com/2026/09/15/europe/ukraine-poland-lithuania-drone-security-concerns-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Poland reinforces border with Ukraine amid growing security concerns across Europe",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/europe/ukraine-poland-lithuania-drone-security-concerns-intl",
+        "zh": "在歐洲各地安全擔憂日益加劇之際，波蘭加強了與烏克蘭的邊境。",
+        "accepted": [
+          [
+            "Poland",
+            "reinforces",
+            "border",
+            "with",
+            "Ukraine",
+            "amid",
+            "growing",
+            "security",
+            "concerns",
+            "across",
+            "Europe"
+          ]
+        ],
+        "distractors": [
+          "weakens",
+          "interior",
+          "against",
+          "decreasing",
+          "within"
+        ],
+        "notes": [
+          {
+            "word": "reinforces",
+            "text": "動詞 'reinforces' 使用現在式，表示新聞報導的即時性或持續性行為。",
+            "category": "時態"
+          },
+          {
+            "word": "border with Ukraine",
+            "text": "'with' 在這裡表示「與…接壤」或「與…之間的邊界」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "amid",
+            "text": "'amid' 作為介係詞，意為「在…之中」或「在…背景下」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "growing security concerns",
+            "text": "'growing' 是現在分詞作形容詞，修飾 'security concerns'，表示「日益增長的」安全擔憂。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Acts abandon Ed Sheeran tour after Macklemore barred over ‘Free Palestine’ comments",
+      "url": "https://edition.cnn.com/2026/09/15/entertainment/ed-sheeran-macklemore-palestine-openers-quit-cec",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Acts abandon Ed Sheeran tour after Macklemore barred over ‘Free Palestine’ comments",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/entertainment/ed-sheeran-macklemore-palestine-openers-quit-cec",
+        "zh": "在麥克勒莫因「解放巴勒斯坦」言論被禁後，多個表演者放棄了艾德·希蘭的巡演。",
+        "accepted": [
+          [
+            "Acts",
+            "abandon",
+            "Ed",
+            "Sheeran",
+            "tour",
+            "after",
+            "Macklemore",
+            "barred",
+            "over",
+            "‘Free",
+            "Palestine’",
+            "comments"
+          ]
+        ],
+        "distractors": [
+          "Joined",
+          "started",
+          "before",
+          "allowed",
+          "support"
+        ],
+        "notes": [
+          {
+            "word": "Acts",
+            "text": "'Acts' 在這裡指「表演者」或「演出團體」，是名詞的複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "abandon",
+            "text": "動詞 'abandon' 使用原形，表示多個表演者的行為。",
+            "category": "時態"
+          },
+          {
+            "word": "barred over",
+            "text": "'barred' 是動詞 'bar' 的過去分詞，表示「被禁止」。'over' 在這裡表示原因，即「因為…」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "‘Free Palestine’ comments",
+            "text": "這裡的 'comments' 是複數，指多條相關言論。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Some birds survived the asteroid that wiped out dinosaurs. A fossilized poop can help explain why",
+      "url": "https://edition.cnn.com/2026/09/15/science/fossil-feather-preserved-inside-dinosaur-poop",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Some birds survived the asteroid that wiped out dinosaurs. A fossilized poop can help explain why",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/science/fossil-feather-preserved-inside-dinosaur-poop",
+        "zh": "一些鳥類在滅絕恐龍的小行星撞擊中倖存下來。一塊化石糞便可以幫助解釋原因。",
+        "accepted": [
+          [
+            "Some",
+            "birds",
+            "survived",
+            "the",
+            "asteroid",
+            "that",
+            "wiped",
+            "out",
+            "dinosaurs",
+            ".",
+            "A",
+            "fossilized",
+            "poop",
+            "can",
+            "help",
+            "explain",
+            "why"
+          ]
+        ],
+        "distractors": [
+          "All",
+          "died",
+          "comet",
+          "created",
+          "cannot"
+        ],
+        "notes": [
+          {
+            "word": "survived",
+            "text": "動詞 'survived' 使用過去式，表示過去發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "the asteroid",
+            "text": "'the' 用於特指導致恐龍滅絕的那顆小行星。",
+            "category": "冠詞"
+          },
+          {
+            "word": "that wiped out dinosaurs",
+            "text": "這是一個關係子句，修飾 'asteroid'，'wiped out' 意為「消滅」或「滅絕」。",
+            "category": "其他"
+          },
+          {
+            "word": "A fossilized poop",
+            "text": "'A' 用於修飾單數可數名詞 'poop'，表示「一塊」化石糞便。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "For the first time, Japan has more than 100,000 centenarians",
+      "url": "https://edition.cnn.com/2026/09/15/asia/japan-centenarians-population-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "For the first time, Japan has more than 100,000 centenarians",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/asia/japan-centenarians-population-intl-hnk",
+        "zh": "日本首次擁有超過10萬名百歲老人。",
+        "accepted": [
+          [
+            "For",
+            "the",
+            "first",
+            "time",
+            ",",
+            "Japan",
+            "has",
+            "more",
+            "than",
+            "100,000",
+            "centenarians"
+          ]
+        ],
+        "distractors": [
+          "Never",
+          "second",
+          "lacks",
+          "fewer",
+          "children"
+        ],
+        "notes": [
+          {
+            "word": "For the first time",
+            "text": "這是一個固定片語，意為「首次」或「第一次」。",
+            "category": "其他"
+          },
+          {
+            "word": "Japan has",
+            "text": "動詞 'has' 使用現在式，表示日本目前的狀態。",
+            "category": "時態"
+          },
+          {
+            "word": "more than",
+            "text": "這是一個比較片語，意為「超過」。",
+            "category": "其他"
+          },
+          {
+            "word": "centenarians",
+            "text": "'centenarians' 是名詞的複數形式，指「百歲老人」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Exclusive Gavin Newsom stuns Jake Tapper with 2028 pledge",
+      "url": "https://edition.cnn.com/2026/09/14/politics/gavin-newsom-presidential-run-ooo",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Exclusive Gavin Newsom stuns Jake Tapper with 2028 pledge",
+        "sourceUrl": "https://edition.cnn.com/2026/09/14/politics/gavin-newsom-presidential-run-ooo",
+        "zh": "CNN獨家報導：加文·紐森以2028年承諾震驚傑克·塔珀。",
+        "accepted": [
+          [
+            "CNN",
+            "Exclusive",
+            "Gavin",
+            "Newsom",
+            "stuns",
+            "Jake",
+            "Tapper",
+            "with",
+            "2028",
+            "pledge"
+          ]
+        ],
+        "distractors": [
+          "Report",
+          "calms",
+          "without",
+          "2024",
+          "denial"
+        ],
+        "notes": [
+          {
+            "word": "CNN Exclusive",
+            "text": "這是一個新聞標題常見的簡潔表達，表示「CNN獨家報導」。",
+            "category": "其他"
+          },
+          {
+            "word": "stuns",
+            "text": "動詞 'stuns' 使用現在式，表示新聞報導的即時性或戲劇性。",
+            "category": "時態"
+          },
+          {
+            "word": "with 2028 pledge",
+            "text": "'with' 在這裡表示「以…方式」或「伴隨著…」，指震驚塔珀的原因。",
+            "category": "介係詞"
+          },
+          {
+            "word": "pledge",
+            "text": "'pledge' 是名詞，意為「承諾」或「保證」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Human remains found in Grand Canyon weeks after deadly flooding",
+      "url": "https://edition.cnn.com/2026/09/15/us/grand-canyon-human-remains-found",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Human remains found in Grand Canyon weeks after deadly flooding",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/us/grand-canyon-human-remains-found",
+        "zh": "致命洪水發生數週後，在大峽谷發現人類遺骸。",
+        "accepted": [
+          [
+            "Human",
+            "remains",
+            "found",
+            "in",
+            "Grand",
+            "Canyon",
+            "weeks",
+            "after",
+            "deadly",
+            "flooding"
+          ]
+        ],
+        "distractors": [
+          "Animal",
+          "lost",
+          "on",
+          "before",
+          "minor"
+        ],
+        "notes": [
+          {
+            "word": "Human remains",
+            "text": "'remains' 在這裡指「遺骸」或「殘骸」，通常以複數形式出現。",
+            "category": "單複數"
+          },
+          {
+            "word": "found",
+            "text": "動詞 'found' 是過去分詞，表示被動語態，即「被發現」。",
+            "category": "時態"
+          },
+          {
+            "word": "in Grand Canyon",
+            "text": "'in' 用於表示地點，即「在大峽谷內」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "weeks after",
+            "text": "'weeks after' 表示「在數週之後」，強調時間間隔。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Rubio announces new visa restrictions targeting South African officials for ‘race-based discrimination’",
+      "url": "https://edition.cnn.com/2026/09/15/politics/rubio-announces-visa-restrictions-south-africa",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Rubio announces new visa restrictions targeting South African officials for ‘race-based discrimination’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/rubio-announces-visa-restrictions-south-africa",
+        "zh": "盧比奧宣布對南非官員實施新的簽證限制，目標是針對「基於種族的歧視」。",
+        "accepted": [
+          [
+            "Rubio",
+            "announces",
+            "new",
+            "visa",
+            "restrictions",
+            "targeting",
+            "South",
+            "African",
+            "officials",
+            "for",
+            "‘race-based",
+            "discrimination’"
+          ]
+        ],
+        "distractors": [
+          "cancels",
+          "old",
+          "freedoms",
+          "ignoring",
+          "support"
+        ],
+        "notes": [
+          {
+            "word": "announces",
+            "text": "動詞 'announces' 使用現在式，表示新聞報導的即時性。",
+            "category": "時態"
+          },
+          {
+            "word": "new visa restrictions",
+            "text": "'restrictions' 是名詞的複數形式，指「限制」。",
+            "category": "單複數"
           },
           {
             "word": "targeting",
-            "text": "「targeting」是動名詞，表示「攻擊」或「瞄準」的動作，作為「stop」的受詞。",
+            "text": "'targeting' 是現在分詞，作形容詞修飾 'restrictions'，表示這些限制的目標。",
             "category": "其他"
           },
           {
-            "word": "attacked",
-            "text": "「attacked」是過去簡單式，表示莫斯科已經完成的攻擊動作。",
-            "category": "時態"
-          },
-          {
-            "word": "Russia’s",
-            "text": "「Russia’s」是所有格，表示「俄羅斯的」。",
-            "category": "其他"
-          },
-          {
-            "word": "near",
-            "text": "「near」是介係詞，表示「在...附近」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "At least 6 dead and more than 100 missing after Indonesian ferry overturns in rough seas",
-      "url": "https://edition.cnn.com/2026/09/12/asia/search-underway-indonesian-ship-loses-contact-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "At least 6 dead and more than 100 missing after Indonesian ferry overturns in rough seas",
-        "sourceUrl": "https://edition.cnn.com/2026/09/12/asia/search-underway-indonesian-ship-loses-contact-intl-hnk",
-        "zh": "印尼渡輪在惡劣海象中翻覆後，至少6人死亡，超過100人失蹤。",
-        "accepted": [
-          [
-            "At",
-            "least",
-            "6",
-            "dead",
-            "and",
-            "more",
-            "than",
-            "100",
-            "missing",
-            "after",
-            "Indonesian",
-            "ferry",
-            "overturns",
-            "in",
-            "rough",
-            "seas"
-          ]
-        ],
-        "distractors": [
-          "die",
-          "miss",
-          "overturned",
-          "sea",
-          "rougher",
-          "leastly"
-        ],
-        "notes": [
-          {
-            "word": "dead",
-            "text": "「dead」是形容詞，表示「死亡的」，用來描述人數。",
-            "category": "其他"
-          },
-          {
-            "word": "missing",
-            "text": "「missing」是形容詞，表示「失蹤的」，用來描述人數。",
-            "category": "其他"
-          },
-          {
-            "word": "overturns",
-            "text": "「overturns」是現在簡單式，用於新聞標題中描述最近發生的事件，使其聽起來更具即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "「in」是介係詞，表示「在...之中」，這裡指在惡劣海象中。",
-            "category": "介係詞"
-          },
-          {
-            "word": "seas",
-            "text": "「seas」是複數名詞，表示「海域」或「海洋」，這裡指惡劣的海象。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Why Saudi Arabia has few options in its conflict with the Houthis",
-      "url": "https://edition.cnn.com/2026/09/13/middleeast/saudi-options-houthis-yemen-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Why Saudi Arabia has few options in its conflict with the Houthis",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/middleeast/saudi-options-houthis-yemen-intl",
-        "zh": "沙烏地阿拉伯在與胡塞武裝的衝突中為何選擇不多。",
-        "accepted": [
-          [
-            "Why",
-            "Saudi",
-            "Arabia",
-            "has",
-            "few",
-            "options",
-            "in",
-            "its",
-            "conflict",
-            "with",
-            "the",
-            "Houthis"
-          ]
-        ],
-        "distractors": [
-          "option",
-          "conflicts",
-          "fewest",
-          "Saudi's",
-          "hasn't",
-          "whys"
-        ],
-        "notes": [
-          {
-            "word": "has",
-            "text": "「has」是現在簡單式，表示沙烏地阿拉伯目前擁有的狀態。",
-            "category": "時態"
-          },
-          {
-            "word": "few",
-            "text": "「few」表示「很少的」，強調數量稀少，通常帶有負面含義。",
-            "category": "其他"
-          },
-          {
-            "word": "options",
-            "text": "「options」是複數名詞，表示「選擇」或「選項」。",
-            "category": "單複數"
-          },
-          {
-            "word": "in",
-            "text": "「in」是介係詞，表示「在...之中」，這裡指在衝突之中。",
-            "category": "介係詞"
-          },
-          {
-            "word": "the",
-            "text": "「the」是定冠詞，特指「胡塞武裝」這個團體。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Iran reports commercial vessel struck in Strait of Hormuz",
-      "url": "https://edition.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Iran reports commercial vessel struck in Strait of Hormuz",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl",
-        "zh": "伊朗報導商船在荷姆茲海峽遇襲。",
-        "accepted": [
-          [
-            "Iran",
-            "reports",
-            "commercial",
-            "vessel",
-            "struck",
-            "in",
-            "Strait",
-            "of",
-            "Hormuz"
-          ]
-        ],
-        "distractors": [
-          "report",
-          "vessels",
-          "strikes",
-          "strucken",
-          "straits",
-          "Hormuz's"
-        ],
-        "notes": [
-          {
-            "word": "reports",
-            "text": "「reports」是現在簡單式，用於新聞標題中，表示報導的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "struck",
-            "text": "「struck」是動詞過去分詞，這裡作為形容詞修飾「vessel」，表示「被擊中的」。",
-            "category": "時態"
-          },
-          {
-            "word": "vessel",
-            "text": "「vessel」是單數名詞，表示「船隻」或「艦艇」。",
-            "category": "單複數"
-          },
-          {
-            "word": "in",
-            "text": "「in」是介係詞，表示「在...之中」，這裡指在荷姆茲海峽之中。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Strait",
-            "text": "「Strait」是單數名詞，表示「海峽」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Iran-Gulf talks without US participation on reopening the Strait of Hormuz postponed, Omani official says",
-      "url": "https://edition.cnn.com/2026/09/13/politics/iran-gulf-countries-strait-of-hormuz",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Iran-Gulf talks without US participation on reopening the Strait of Hormuz postponed, Omani official says",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/politics/iran-gulf-countries-strait-of-hormuz",
-        "zh": "阿曼官員表示，伊朗與海灣國家在沒有美國參與的情況下，關於重啟荷姆茲海峽的談判被推遲。",
-        "accepted": [
-          [
-            "Iran-Gulf",
-            "talks",
-            "without",
-            "US",
-            "participation",
-            "on",
-            "reopening",
-            "the",
-            "Strait",
-            "of",
-            "Hormuz",
-            "postponed",
-            ",",
-            "Omani",
-            "official",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "talk",
-          "participate",
-          "reopen",
-          "postpone",
-          "officials",
-          "said"
-        ],
-        "notes": [
-          {
-            "word": "talks",
-            "text": "「talks」是複數名詞，表示「談判」或「會談」。",
-            "category": "單複數"
-          },
-          {
-            "word": "without",
-            "text": "「without」是介係詞，表示「沒有...的情況下」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "reopening",
-            "text": "「reopening」是動名詞，表示「重新開放」的動作，作為介係詞「on」的受詞。",
-            "category": "其他"
-          },
-          {
-            "word": "postponed",
-            "text": "「postponed」是動詞過去分詞，這裡作為形容詞修飾「talks」，表示「被推遲的」。",
-            "category": "時態"
-          },
-          {
-            "word": "says",
-            "text": "「says」是現在簡單式，用於新聞標題中，表示某人說話的動作。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump offers a parting gift of tariff relief as he leaves Ireland",
-      "url": "https://edition.cnn.com/2026/09/13/politics/trump-irish-open-whiskey-tariffs",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump offers a parting gift of tariff relief as he leaves Ireland",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/politics/trump-irish-open-whiskey-tariffs",
-        "zh": "川普離開愛爾蘭時，提供了一份關稅減免的臨別禮物。",
-        "accepted": [
-          [
-            "Trump",
-            "offers",
-            "a",
-            "parting",
-            "gift",
-            "of",
-            "tariff",
-            "relief",
-            "as",
-            "he",
-            "leaves",
-            "Ireland"
-          ]
-        ],
-        "distractors": [
-          "offer",
-          "gifts",
-          "relieves",
-          "left",
-          "Ireland's",
-          "part"
-        ],
-        "notes": [
-          {
-            "word": "offers",
-            "text": "「offers」是現在簡單式，用於新聞標題中，表示動作的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，表示「一份」或「一個」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "parting",
-            "text": "「parting」是形容詞，表示「離別的」或「告別的」。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "「of」是介係詞，表示「...的」，這裡指「關稅減免的禮物」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "leaves",
-            "text": "「leaves」是現在簡單式，表示他離開的動作，與「offers」保持時態一致。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Why Trump’s effort to build more refineries won’t lower gas prices",
-      "url": "https://edition.cnn.com/2026/09/13/business/gas-prices-us-oil-refineries-trump",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Why Trump’s effort to build more refineries won’t lower gas prices",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/business/gas-prices-us-oil-refineries-trump",
-        "zh": "為何川普建造更多煉油廠的努力不會降低汽油價格。",
-        "accepted": [
-          [
-            "Why",
-            "Trump’s",
-            "effort",
-            "to",
-            "build",
-            "more",
-            "refineries",
-            "won’t",
-            "lower",
-            "gas",
-            "prices"
-          ]
-        ],
-        "distractors": [
-          "efforts",
-          "builds",
-          "refinery",
-          "lowers",
-          "price",
-          "Trump"
-        ],
-        "notes": [
-          {
-            "word": "Trump’s",
-            "text": "「Trump’s」是所有格，表示「川普的」。",
-            "category": "其他"
-          },
-          {
-            "word": "effort",
-            "text": "「effort」是單數名詞，表示「努力」或「嘗試」。",
-            "category": "單複數"
-          },
-          {
-            "word": "to",
-            "text": "「to build」是不定詞，表示目的，即「為了建造」。",
-            "category": "其他"
-          },
-          {
-            "word": "refineries",
-            "text": "「refineries」是複數名詞，表示「煉油廠」。",
-            "category": "單複數"
-          },
-          {
-            "word": "won’t",
-            "text": "「won’t」是「will not」的縮寫，表示將來不會發生。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Breaking News Men’s top seed Alexander Zverev caps breakthrough year with US Open title",
-      "url": "https://edition.cnn.com/2026/09/13/sport/us-open-mens-final-2026",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Breaking News Men’s top seed Alexander Zverev caps breakthrough year with US Open title",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/sport/us-open-mens-final-2026",
-        "zh": "突發新聞：男子頭號種子亞歷山大·茲維列夫以美國網球公開賽冠軍結束了突破性的一年。",
-        "accepted": [
-          [
-            "Breaking",
-            "News",
-            "Men’s",
-            "top",
-            "seed",
-            "Alexander",
-            "Zverev",
-            "caps",
-            "breakthrough",
-            "year",
-            "with",
-            "US",
-            "Open",
-            "title"
-          ]
-        ],
-        "distractors": [
-          "break",
-          "man's",
-          "seeds",
-          "cap",
-          "years",
-          "titles"
-        ],
-        "notes": [
-          {
-            "word": "Breaking",
-            "text": "「Breaking」是現在分詞，這裡作為形容詞修飾「News」，表示「突發的」。",
-            "category": "其他"
-          },
-          {
-            "word": "Men’s",
-            "text": "「Men’s」是所有格，表示「男子的」。",
-            "category": "其他"
-          },
-          {
-            "word": "caps",
-            "text": "「caps」是現在簡單式，用於新聞標題中，表示動作的即時性，意為「為...畫下句點」。",
-            "category": "時態"
-          },
-          {
-            "word": "breakthrough",
-            "text": "「breakthrough」是形容詞，表示「突破性的」。",
-            "category": "其他"
-          },
-          {
-            "word": "with",
-            "text": "「with」是介係詞，表示「伴隨著」或「以...方式」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "A380 superjumbo: The world’s largest passenger plane is moving closer to extinction",
-      "url": "https://edition.cnn.com/2026/09/13/travel/qantas-a380-superjumbo-retirement-goodby",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A380 superjumbo: The world’s largest passenger plane is moving closer to extinction",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/travel/qantas-a380-superjumbo-retirement-goodby",
-        "zh": "A380超級巨無霸：世界上最大的客機正走向滅絕。",
-        "accepted": [
-          [
-            "A380",
-            "superjumbo",
-            ":",
-            "The",
-            "world’s",
-            "largest",
-            "passenger",
-            "plane",
-            "is",
-            "moving",
-            "closer",
-            "to",
-            "extinction"
-          ]
-        ],
-        "distractors": [
-          "superjumbos",
-          "world",
-          "larger",
-          "planes",
-          "moved",
-          "extinct"
-        ],
-        "notes": [
-          {
-            "word": "The",
-            "text": "「The」是定冠詞，特指「世界上最大的客機」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "world’s",
-            "text": "「world’s」是所有格，表示「世界的」。",
-            "category": "其他"
-          },
-          {
-            "word": "largest",
-            "text": "「largest」是最高級形容詞，表示「最大的」。",
-            "category": "其他"
-          },
-          {
-            "word": "is",
-            "text": "「is moving」是現在進行式，表示正在發生的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "to",
-            "text": "「to extinction」中的「to」是介係詞，表示方向或結果，即「走向滅絕」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "This year’s Emmy nominations have been dominated by characters just trying to get by",
-      "url": "https://edition.cnn.com/2026/09/13/entertainment/emmy-awards-nominees-tv-struggles",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "This year’s Emmy nominations have been dominated by characters just trying to get by",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/entertainment/emmy-awards-nominees-tv-struggles",
-        "zh": "今年的艾美獎提名主要由那些努力求生的角色主導。",
-        "accepted": [
-          [
-            "This",
-            "year’s",
-            "Emmy",
-            "nominations",
-            "have",
-            "been",
-            "dominated",
-            "by",
-            "characters",
-            "just",
-            "trying",
-            "to",
-            "get",
-            "by"
-          ]
-        ],
-        "distractors": [
-          "year",
-          "nomination",
-          "dominating",
-          "character",
-          "tries",
-          "got"
-        ],
-        "notes": [
-          {
-            "word": "year’s",
-            "text": "「year’s」是所有格，表示「今年的」。",
-            "category": "其他"
-          },
-          {
-            "word": "nominations",
-            "text": "「nominations」是複數名詞，表示「提名」。",
-            "category": "單複數"
-          },
-          {
-            "word": "have",
-            "text": "「have been dominated」是現在完成被動語態，表示動作已經完成並持續影響到現在。",
-            "category": "時態"
-          },
-          {
-            "word": "by",
-            "text": "「by」是介係詞，表示動作的執行者，即「由...主導」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "trying",
-            "text": "「trying」是現在分詞，這裡作為形容詞修飾「characters」，表示「正在努力的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Sweden’s parliamentary election heads to a close finish",
-      "url": "https://edition.cnn.com/2026/09/12/europe/sweden-election-preview-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Sweden’s parliamentary election heads to a close finish",
-        "sourceUrl": "https://edition.cnn.com/2026/09/12/europe/sweden-election-preview-intl",
-        "zh": "瑞典議會選舉進入白熱化階段。",
-        "accepted": [
-          [
-            "Sweden’s",
-            "parliamentary",
-            "election",
-            "heads",
-            "to",
-            "a",
-            "close",
-            "finish"
-          ]
-        ],
-        "distractors": [
-          "Sweden",
-          "elections",
-          "head",
-          "closes",
-          "finished",
-          "parliament"
-        ],
-        "notes": [
-          {
-            "word": "Sweden’s",
-            "text": "「Sweden’s」是所有格，表示「瑞典的」。",
-            "category": "其他"
-          },
-          {
-            "word": "election",
-            "text": "「election」是單數名詞，表示「選舉」。",
-            "category": "單複數"
-          },
-          {
-            "word": "heads",
-            "text": "「heads」是現在簡單式，用於新聞標題中，表示動作的即時性，意為「走向」。",
-            "category": "時態"
-          },
-          {
-            "word": "to",
-            "text": "「to」是介係詞，表示方向，即「走向」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，表示「一個」或「一場」。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Fed-up Pennsylvania Democrats plot to run for Fetterman’s seat in 2028",
-      "url": "https://edition.cnn.com/2026/09/13/politics/john-fetterman-pennsylvania-senate-race-democrats",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Fed-up Pennsylvania Democrats plot to run for Fetterman’s seat in 2028",
-        "sourceUrl": "https://edition.cnn.com/2026/09/13/politics/john-fetterman-pennsylvania-senate-race-democrats",
-        "zh": "受夠了的賓夕法尼亞州民主黨人策劃在2028年競選費特曼的席位。",
-        "accepted": [
-          [
-            "Fed-up",
-            "Pennsylvania",
-            "Democrats",
-            "plot",
-            "to",
-            "run",
-            "for",
-            "Fetterman’s",
-            "seat",
-            "in",
-            "2028"
-          ]
-        ],
-        "distractors": [
-          "fed",
-          "Democrat",
-          "plots",
-          "ran",
-          "seats",
-          "Fetterman"
-        ],
-        "notes": [
-          {
-            "word": "Fed-up",
-            "text": "「Fed-up」是複合形容詞，表示「受夠了的」。",
-            "category": "其他"
-          },
-          {
-            "word": "Democrats",
-            "text": "「Democrats」是複數名詞，表示「民主黨人」。",
-            "category": "單複數"
-          },
-          {
-            "word": "plot",
-            "text": "「plot」是現在簡單式，用於新聞標題中，表示動作的即時性，意為「策劃」。",
-            "category": "時態"
-          },
-          {
-            "word": "to",
-            "text": "「to run」是不定詞，表示目的，即「為了競選」。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "「for」是介係詞，表示目的，即「為了...」。",
+            "word": "for ‘race-based discrimination’",
+            "text": "'for' 在這裡表示原因或目的，即「因為」或「針對」基於種族的歧視。",
             "category": "介係詞"
           }
         ]
