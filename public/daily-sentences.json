@@ -1,340 +1,429 @@
 {
-  "date": "2026-09-15",
-  "fetchedAt": "2026-09-15T22:47:40.858Z",
+  "date": "2026-09-16",
+  "fetchedAt": "2026-09-16T22:48:03.673Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Kennedy Center board votes to close for renovations after chaotic call with Trump",
-      "url": "https://edition.cnn.com/2026/09/15/politics/trump-kennedy-center-name",
+      "en": "Some Republicans privately fear Russia sanctions bill will give Trump too much power on tariffs",
+      "url": "https://edition.cnn.com/2026/09/16/politics/russia-sanctions-bill-tariffs",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Kennedy Center board votes to close for renovations after chaotic call with Trump",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/trump-kennedy-center-name",
-        "zh": "甘迺迪中心董事會投票決定在與川普進行混亂通話後關閉進行翻修。",
+        "sourceEn": "Some Republicans privately fear Russia sanctions bill will give Trump too much power on tariffs",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/politics/russia-sanctions-bill-tariffs",
+        "zh": "一些共和黨人私下擔心，對俄羅斯的制裁法案將賦予川普在關稅方面過多的權力。",
         "accepted": [
           [
-            "Kennedy",
-            "Center",
-            "board",
-            "votes",
-            "to",
-            "close",
-            "for",
-            "renovations",
-            "after",
-            "chaotic",
-            "call",
-            "with",
-            "Trump"
+            "Some",
+            "Republicans",
+            "privately",
+            "fear",
+            "Russia",
+            "sanctions",
+            "bill",
+            "will",
+            "give",
+            "Trump",
+            "too",
+            "much",
+            "power",
+            "on",
+            "tariffs"
           ]
         ],
         "distractors": [
-          "opened",
-          "meeting",
-          "discussing",
-          "building",
-          "agreement"
+          "many",
+          "publicly",
+          "receive",
+          "less",
+          "for",
+          "taxes"
         ],
         "notes": [
           {
-            "word": "votes",
-            "text": "這裡的 'votes' 是動詞，表示董事會的投票行為，而不是名詞 '投票'。",
-            "category": "時態"
-          },
-          {
-            "word": "to close",
-            "text": "'to close' 是不定詞，表示投票的目的或結果。",
+            "word": "fear",
+            "text": "這裡的 'fear' 是動詞，表示「擔心、害怕」。",
             "category": "其他"
           },
           {
-            "word": "for renovations",
-            "text": "'for' 在這裡表示目的，即「為了翻修」。",
-            "category": "介係詞"
+            "word": "will give",
+            "text": "'will' 後接動詞原形 'give'，表示未來將發生的動作。",
+            "category": "時態"
           },
           {
-            "word": "after",
-            "text": "'after' 作為介係詞，表示時間上的先後順序。",
+            "word": "too much",
+            "text": "'too much' 用來修飾不可數名詞 'power'，表示「過多的」。",
+            "category": "其他"
+          },
+          {
+            "word": "on",
+            "text": "'on tariffs' 表示「在關稅方面」，'on' 在此表示主題或方面。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Trump unloads on ‘shockingly bad rulings’ from conservative Supreme Court justices he appointed",
-      "url": "https://edition.cnn.com/2026/09/15/politics/trump-supreme-court-mail-voting",
+      "en": "Trump officials considering AI executive meeting on the sidelines of Xi visit next week",
+      "url": "https://edition.cnn.com/2026/09/16/politics/ai-executives-trump-xi-visit",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump unloads on ‘shockingly bad rulings’ from conservative Supreme Court justices he appointed",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/trump-supreme-court-mail-voting",
-        "zh": "川普猛烈抨擊他任命的保守派最高法院法官做出的「糟糕透頂的裁決」。",
+        "sourceEn": "Trump officials considering AI executive meeting on the sidelines of Xi visit next week",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/politics/ai-executives-trump-xi-visit",
+        "zh": "川普政府官員考慮在習近平下週訪問期間，舉行一場關於人工智慧的行政會議。",
         "accepted": [
           [
             "Trump",
-            "unloads",
+            "officials",
+            "considering",
+            "AI",
+            "executive",
+            "meeting",
             "on",
-            "‘shockingly",
-            "bad",
-            "rulings’",
-            "from",
-            "conservative",
-            "Supreme",
-            "Court",
-            "justices",
-            "he",
-            "appointed"
-          ]
-        ],
-        "distractors": [
-          "praises",
-          "excellent",
-          "decisions",
-          "liberal",
-          "judges"
-        ],
-        "notes": [
-          {
-            "word": "unloads on",
-            "text": "'unload on' 是一個片語，意為「猛烈抨擊」或「對…發洩不滿」。",
-            "category": "其他"
-          },
-          {
-            "word": "shockingly bad",
-            "text": "'shockingly' 是副詞，修飾形容詞 'bad'，強調「壞得令人震驚」。",
-            "category": "其他"
-          },
-          {
-            "word": "rulings",
-            "text": "'rulings' 是名詞的複數形式，指「裁決」或「判決」。",
-            "category": "單複數"
-          },
-          {
-            "word": "he appointed",
-            "text": "這是一個省略了關係代名詞 'whom' 或 'that' 的形容詞子句，修飾 'justices'。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "What’s next for mail voting after the Supreme Court ruled against Trump",
-      "url": "https://edition.cnn.com/2026/09/15/politics/mail-voting-rules-supreme-court-decision",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "What’s next for mail voting after the Supreme Court ruled against Trump",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/mail-voting-rules-supreme-court-decision",
-        "zh": "在最高法院裁定川普敗訴後，郵寄投票的下一步是什麼？",
-        "accepted": [
-          [
-            "What’s",
+            "the",
+            "sidelines",
+            "of",
+            "Xi",
+            "visit",
             "next",
-            "for",
-            "mail",
-            "voting",
-            "after",
-            "the",
-            "Supreme",
-            "Court",
-            "ruled",
-            "against",
-            "Trump"
+            "week"
           ]
         ],
         "distractors": [
-          "When",
-          "previous",
-          "before",
-          "supported",
-          "Biden"
+          "Biden",
+          "official",
+          "considered",
+          "for",
+          "last",
+          "month"
         ],
         "notes": [
           {
-            "word": "What’s next",
-            "text": "'What’s next' 是 'What is next' 的縮寫，表示「接下來是什麼」。",
-            "category": "其他"
-          },
-          {
-            "word": "for mail voting",
-            "text": "'for' 在這裡表示「對於…而言」，指郵寄投票的未來。",
-            "category": "介係詞"
-          },
-          {
-            "word": "ruled against",
-            "text": "'rule against' 是一個片語，意為「裁定…敗訴」或「做出不利於…的裁決」。",
-            "category": "其他"
-          },
-          {
-            "word": "the Supreme Court",
-            "text": "'the' 用於特指「最高法院」這個獨一無二的機構。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Canada is pursuing a ‘unique alliance’ with the EU as US ties remain fraught. Here’s what we know",
-      "url": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Canada is pursuing a ‘unique alliance’ with the EU as US ties remain fraught. Here’s what we know",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
-        "zh": "由於美國關係依然緊張，加拿大正在與歐盟建立「獨特聯盟」。以下是我們所知道的。",
-        "accepted": [
-          [
-            "Canada",
-            "is",
-            "pursuing",
-            "a",
-            "‘unique",
-            "alliance’",
-            "with",
-            "the",
-            "EU",
-            "as",
-            "US",
-            "ties",
-            "remain",
-            "fraught",
-            ".",
-            "Here’s",
-            "what",
-            "we",
-            "know"
-          ]
-        ],
-        "distractors": [
-          "avoiding",
-          "common",
-          "disagreement",
-          "stable",
-          "nothing"
-        ],
-        "notes": [
-          {
-            "word": "is pursuing",
-            "text": "現在進行式 'is pursuing' 表示加拿大正在進行的行動。",
+            "word": "considering",
+            "text": "這裡的 'considering' 是現在分詞，表示「正在考慮」或「考慮中」。在新聞標題中常省略be動詞。",
             "category": "時態"
           },
           {
-            "word": "a ‘unique alliance’",
-            "text": "'a' 用於修飾單數可數名詞 'alliance'，表示一個「獨特的聯盟」。",
-            "category": "冠詞"
+            "word": "AI",
+            "text": "'AI' 是 'Artificial Intelligence' 的縮寫，意為「人工智慧」。",
+            "category": "其他"
           },
           {
-            "word": "as US ties remain fraught",
-            "text": "'as' 在這裡引導一個時間或原因子句，表示「由於」或「當…的時候」。'fraught' 意為「充滿憂慮的」或「緊張的」。",
+            "word": "on the sidelines of",
+            "text": "'on the sidelines of' 是一個片語，表示「在…的間隙/期間/場邊」。",
             "category": "介係詞"
           },
           {
-            "word": "Here’s what we know",
-            "text": "'Here’s' 是 'Here is' 的縮寫，引導一個名詞子句 'what we know'，表示「這就是我們所知道的」。",
+            "word": "next week",
+            "text": "'next week' 表示「下週」，指未來的時間。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "EU says Canada should become first ‘associate member’ as ties with US fray",
+      "url": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "EU says Canada should become first ‘associate member’ as ties with US fray",
+        "sourceUrl": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
+        "zh": "歐盟表示，隨著與美國的關係惡化，加拿大應成為第一個「準成員國」。",
+        "accepted": [
+          [
+            "EU",
+            "says",
+            "Canada",
+            "should",
+            "become",
+            "first",
+            "‘associate",
+            "member’",
+            "as",
+            "ties",
+            "with",
+            "US",
+            "fray"
+          ]
+        ],
+        "distractors": [
+          "UN",
+          "said",
+          "will",
+          "second",
+          "before",
+          "strengthen"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "這裡的 'says' 是現在簡單式，用於報導新聞或陳述事實。",
+            "category": "時態"
+          },
+          {
+            "word": "should become",
+            "text": "'should' 是情態助動詞，表示「應該」，後接動詞原形 'become'。",
+            "category": "其他"
+          },
+          {
+            "word": "first",
+            "text": "'first' 在這裡作形容詞，表示「第一個」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "'as' 在這裡作連接詞，表示「隨著…」，引導時間或原因狀語從句。",
+            "category": "其他"
+          },
+          {
+            "word": "fray",
+            "text": "'fray' 作動詞，表示「磨損；惡化」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Why Trump's diesel woes are playing right into Moscow's hands",
-      "url": "https://edition.cnn.com/2026/09/15/europe/trump-diesel-russia-ukraine-analysis-intl",
+      "en": "The Fed just raised rates. Here’s what Kevin Warsh said about it",
+      "url": "https://edition.cnn.com/2026/09/16/economy/fed-rate-decision-september",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Why Trump's diesel woes are playing right into Moscow's hands",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/europe/trump-diesel-russia-ukraine-analysis-intl",
-        "zh": "為什麼川普的柴油困境正中莫斯科下懷。",
+        "sourceEn": "The Fed just raised rates. Here’s what Kevin Warsh said about it",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/economy/fed-rate-decision-september",
+        "zh": "聯準會剛剛升息了。以下是凱文·沃許對此的看法。",
         "accepted": [
           [
-            "Why",
-            "Trump's",
-            "diesel",
-            "woes",
-            "are",
-            "playing",
-            "right",
-            "into",
-            "Moscow's",
-            "hands"
+            "The",
+            "Fed",
+            "just",
+            "raised",
+            "rates",
+            ".",
+            "Here’s",
+            "what",
+            "Kevin",
+            "Warsh",
+            "said",
+            "about",
+            "it"
+          ]
+        ],
+        "distractors": [
+          "A",
+          "lowered",
+          "rate",
+          "There's",
+          "who",
+          "for"
+        ],
+        "notes": [
+          {
+            "word": "The Fed",
+            "text": "'The Fed' 是 'The Federal Reserve' 的縮寫，指「聯邦儲備系統」，即美國的中央銀行。",
+            "category": "其他"
+          },
+          {
+            "word": "just raised",
+            "text": "'just' 與過去式 'raised' 連用，表示動作剛剛發生。",
+            "category": "時態"
+          },
+          {
+            "word": "rates",
+            "text": "'rates' 在此指「利率」。",
+            "category": "其他"
+          },
+          {
+            "word": "Here’s",
+            "text": "'Here’s' 是 'Here is' 的縮寫，表示「這是…」或「以下是…」。",
+            "category": "其他"
+          },
+          {
+            "word": "about",
+            "text": "'about it' 表示「關於這件事」，'about' 作介係詞，表示主題。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What the Fed decision means for borrowers and savers",
+      "url": "https://edition.cnn.com/2026/09/16/economy/fed-rate-decision-sept-2026-your-money",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "What the Fed decision means for borrowers and savers",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/economy/fed-rate-decision-sept-2026-your-money",
+        "zh": "聯準會的決定對借款人和儲戶意味著什麼？",
+        "accepted": [
+          [
+            "What",
+            "the",
+            "Fed",
+            "decision",
+            "means",
+            "for",
+            "borrowers",
+            "and",
+            "savers"
           ]
         ],
         "distractors": [
           "How",
-          "successes",
-          "avoiding",
-          "away",
-          "Beijing's"
+          "a",
+          "decisions",
+          "meant",
+          "to",
+          "borrower"
         ],
         "notes": [
           {
-            "word": "Trump's",
-            "text": "'Trump's' 是所有格，表示「川普的」。",
+            "word": "What",
+            "text": "'What' 在此作疑問代詞，引導疑問句，詢問「什麼」。",
             "category": "其他"
           },
           {
-            "word": "woes",
-            "text": "'woes' 是名詞的複數形式，意為「困境」或「麻煩」。",
-            "category": "單複數"
+            "word": "the Fed",
+            "text": "'the Fed' 是 'The Federal Reserve' 的縮寫，指「聯邦儲備系統」。",
+            "category": "其他"
           },
           {
-            "word": "are playing",
-            "text": "現在進行式 'are playing' 表示正在發生的情況。",
+            "word": "means",
+            "text": "'means' 是動詞 'mean' 的第三人稱單數現在式，表示「意味著」。",
             "category": "時態"
           },
           {
-            "word": "playing right into someone's hands",
-            "text": "這是一個慣用語，意為「正中某人下懷」或「正合某人意」。",
-            "category": "其他"
+            "word": "for",
+            "text": "'for' 作介係詞，表示「對於…來說」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "borrowers and savers",
+            "text": "'borrowers' 指「借款人」，'savers' 指「儲戶」，兩者都是複數名詞。",
+            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Poland reinforces border with Ukraine amid growing security concerns across Europe",
-      "url": "https://edition.cnn.com/2026/09/15/europe/ukraine-poland-lithuania-drone-security-concerns-intl",
+      "en": "Nobel laureate Narges Mohammadi’s memoir details abuse in Iranian prison. She says she’s prepared for the consequences",
+      "url": "https://edition.cnn.com/2026/09/16/middleeast/narges-mohammadi-interview-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Poland reinforces border with Ukraine amid growing security concerns across Europe",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/europe/ukraine-poland-lithuania-drone-security-concerns-intl",
-        "zh": "在歐洲各地安全擔憂日益加劇之際，波蘭加強了與烏克蘭的邊境。",
+        "sourceEn": "Nobel laureate Narges Mohammadi’s memoir details abuse in Iranian prison. She says she’s prepared for the consequences",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/middleeast/narges-mohammadi-interview-intl",
+        "zh": "諾貝爾獎得主納爾吉斯·穆罕默迪的回憶錄詳細描述了她在伊朗監獄中遭受的虐待。她說她已準備好承擔後果。",
         "accepted": [
           [
-            "Poland",
-            "reinforces",
-            "border",
-            "with",
-            "Ukraine",
-            "amid",
-            "growing",
-            "security",
-            "concerns",
-            "across",
-            "Europe"
+            "Nobel",
+            "laureate",
+            "Narges",
+            "Mohammadi’s",
+            "memoir",
+            "details",
+            "abuse",
+            "in",
+            "Iranian",
+            "prison",
+            ".",
+            "She",
+            "says",
+            "she’s",
+            "prepared",
+            "for",
+            "the",
+            "consequences"
           ]
         ],
         "distractors": [
-          "weakens",
-          "interior",
-          "against",
-          "decreasing",
-          "within"
+          "prize",
+          "laureates",
+          "memoirs",
+          "detail",
+          "abuses",
+          "unprepared"
         ],
         "notes": [
           {
-            "word": "reinforces",
-            "text": "動詞 'reinforces' 使用現在式，表示新聞報導的即時性或持續性行為。",
+            "word": "laureate",
+            "text": "'laureate' 指「桂冠詩人；獲獎者」，這裡指「諾貝爾獎得主」。",
+            "category": "其他"
+          },
+          {
+            "word": "Mohammadi’s",
+            "text": "'Mohammadi’s' 是所有格，表示「穆罕默迪的」。",
+            "category": "其他"
+          },
+          {
+            "word": "details",
+            "text": "這裡的 'details' 是動詞，表示「詳細描述」，主語是 'memoir' (單數)。",
             "category": "時態"
           },
           {
-            "word": "border with Ukraine",
-            "text": "'with' 在這裡表示「與…接壤」或「與…之間的邊界」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "amid",
-            "text": "'amid' 作為介係詞，意為「在…之中」或「在…背景下」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "growing security concerns",
-            "text": "'growing' 是現在分詞作形容詞，修飾 'security concerns'，表示「日益增長的」安全擔憂。",
+            "word": "abuse",
+            "text": "'abuse' 在此作名詞，指「虐待」。",
             "category": "其他"
+          },
+          {
+            "word": "prepared for",
+            "text": "'be prepared for' 是一個片語，表示「為…做好準備」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Princess Diana Archive/Hulton Royals Collection/Getty Images",
+      "url": "https://edition.cnn.com/2026/09/16/uk/princess-diana-king-charles-forgotten-book-claims-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Princess Diana Archive/Hulton Royals Collection/Getty Images",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/uk/princess-diana-king-charles-forgotten-book-claims-intl",
+        "zh": "黛安娜王妃檔案/赫爾頓皇室收藏/蓋蒂圖片社",
+        "accepted": [
+          [
+            "Princess",
+            "Diana",
+            "Archive",
+            "/",
+            "Hulton",
+            "Royals",
+            "Collection",
+            "/",
+            "Getty",
+            "Images"
+          ]
+        ],
+        "distractors": [
+          "Prince",
+          "Archives",
+          "Collections",
+          "Image",
+          "from",
+          "by"
+        ],
+        "notes": [
+          {
+            "word": "Princess",
+            "text": "'Princess' 指「公主」。",
+            "category": "其他"
+          },
+          {
+            "word": "Archive",
+            "text": "'Archive' 指「檔案；檔案館」。",
+            "category": "其他"
+          },
+          {
+            "word": "Royals",
+            "text": "'Royals' 在此指「皇室成員」。",
+            "category": "其他"
+          },
+          {
+            "word": "Collection",
+            "text": "'Collection' 指「收藏品；收藏」。",
+            "category": "其他"
+          },
+          {
+            "word": "Images",
+            "text": "'Images' 指「圖片；影像」。",
+            "category": "單複數"
           }
         ]
       }
@@ -346,7 +435,7 @@
         "theme": "今日新聞",
         "sourceEn": "Acts abandon Ed Sheeran tour after Macklemore barred over ‘Free Palestine’ comments",
         "sourceUrl": "https://edition.cnn.com/2026/09/15/entertainment/ed-sheeran-macklemore-palestine-openers-quit-cec",
-        "zh": "在麥克勒莫因「解放巴勒斯坦」言論被禁後，多個表演者放棄了艾德·希蘭的巡演。",
+        "zh": "在麥可莫因「解放巴勒斯坦」言論被禁後，多個表演團體放棄了艾德·希蘭的巡演。",
         "accepted": [
           [
             "Acts",
@@ -364,306 +453,279 @@
           ]
         ],
         "distractors": [
-          "Joined",
-          "started",
+          "Act",
+          "abandons",
+          "tours",
           "before",
-          "allowed",
-          "support"
+          "bar",
+          "under"
         ],
         "notes": [
           {
             "word": "Acts",
-            "text": "'Acts' 在這裡指「表演者」或「演出團體」，是名詞的複數形式。",
+            "text": "這裡的 'Acts' 指「表演團體」或「藝人」。",
             "category": "單複數"
           },
           {
             "word": "abandon",
-            "text": "動詞 'abandon' 使用原形，表示多個表演者的行為。",
+            "text": "'abandon' 作動詞，表示「放棄」。",
+            "category": "其他"
+          },
+          {
+            "word": "barred",
+            "text": "'barred' 是動詞 'bar' 的過去分詞，表示「被禁止」或「被阻止」。",
             "category": "時態"
           },
           {
-            "word": "barred over",
-            "text": "'barred' 是動詞 'bar' 的過去分詞，表示「被禁止」。'over' 在這裡表示原因，即「因為…」。",
+            "word": "over",
+            "text": "'over' 在此作介係詞，表示「因為；由於」。",
             "category": "介係詞"
           },
           {
-            "word": "‘Free Palestine’ comments",
-            "text": "這裡的 'comments' 是複數，指多條相關言論。",
+            "word": "comments",
+            "text": "'comments' 指「評論；言論」。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Some birds survived the asteroid that wiped out dinosaurs. A fossilized poop can help explain why",
-      "url": "https://edition.cnn.com/2026/09/15/science/fossil-feather-preserved-inside-dinosaur-poop",
+      "en": "The coolest neighborhoods in the world have been named",
+      "url": "https://edition.cnn.com/2026/09/16/travel/worlds-coolest-neighborhood-2026-time-out",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Some birds survived the asteroid that wiped out dinosaurs. A fossilized poop can help explain why",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/science/fossil-feather-preserved-inside-dinosaur-poop",
-        "zh": "一些鳥類在滅絕恐龍的小行星撞擊中倖存下來。一塊化石糞便可以幫助解釋原因。",
+        "sourceEn": "The coolest neighborhoods in the world have been named",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/travel/worlds-coolest-neighborhood-2026-time-out",
+        "zh": "世界上最酷的街區已經被命名了。",
         "accepted": [
           [
-            "Some",
-            "birds",
-            "survived",
+            "The",
+            "coolest",
+            "neighborhoods",
+            "in",
             "the",
-            "asteroid",
-            "that",
-            "wiped",
-            "out",
-            "dinosaurs",
-            ".",
-            "A",
-            "fossilized",
-            "poop",
-            "can",
-            "help",
-            "explain",
-            "why"
+            "world",
+            "have",
+            "been",
+            "named"
           ]
         ],
         "distractors": [
-          "All",
-          "died",
-          "comet",
-          "created",
-          "cannot"
+          "A",
+          "cooler",
+          "neighborhood",
+          "on",
+          "has",
+          "naming"
         ],
         "notes": [
           {
-            "word": "survived",
-            "text": "動詞 'survived' 使用過去式，表示過去發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "the asteroid",
-            "text": "'the' 用於特指導致恐龍滅絕的那顆小行星。",
-            "category": "冠詞"
-          },
-          {
-            "word": "that wiped out dinosaurs",
-            "text": "這是一個關係子句，修飾 'asteroid'，'wiped out' 意為「消滅」或「滅絕」。",
+            "word": "The coolest",
+            "text": "'the coolest' 是形容詞 'cool' 的最高級形式，表示「最酷的」。",
             "category": "其他"
           },
           {
-            "word": "A fossilized poop",
-            "text": "'A' 用於修飾單數可數名詞 'poop'，表示「一塊」化石糞便。",
-            "category": "冠詞"
+            "word": "neighborhoods",
+            "text": "'neighborhoods' 是複數名詞，指「街區；社區」。",
+            "category": "單複數"
+          },
+          {
+            "word": "in the world",
+            "text": "'in the world' 是一個片語，表示「在世界上」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "have been named",
+            "text": "這是現在完成被動語態，表示動作已經完成並對現在產生影響。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "For the first time, Japan has more than 100,000 centenarians",
-      "url": "https://edition.cnn.com/2026/09/15/asia/japan-centenarians-population-intl-hnk",
+      "en": "Sweden’s center-left opposition wins election, SVT says",
+      "url": "https://edition.cnn.com/2026/09/16/europe/sweden-election-center-left-opposition-wins-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "For the first time, Japan has more than 100,000 centenarians",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/asia/japan-centenarians-population-intl-hnk",
-        "zh": "日本首次擁有超過10萬名百歲老人。",
+        "sourceEn": "Sweden’s center-left opposition wins election, SVT says",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/europe/sweden-election-center-left-opposition-wins-intl",
+        "zh": "瑞典中左翼反對黨贏得選舉，SVT報導。",
         "accepted": [
           [
-            "For",
-            "the",
-            "first",
-            "time",
+            "Sweden’s",
+            "center-left",
+            "opposition",
+            "wins",
+            "election",
             ",",
-            "Japan",
-            "has",
-            "more",
-            "than",
-            "100,000",
-            "centenarians"
+            "SVT",
+            "says"
           ]
         ],
         "distractors": [
-          "Never",
-          "second",
-          "lacks",
-          "fewer",
-          "children"
+          "Swedish",
+          "center-right",
+          "oppositions",
+          "won",
+          "elections",
+          "said"
         ],
         "notes": [
           {
-            "word": "For the first time",
-            "text": "這是一個固定片語，意為「首次」或「第一次」。",
+            "word": "Sweden’s",
+            "text": "'Sweden’s' 是所有格，表示「瑞典的」。",
             "category": "其他"
           },
           {
-            "word": "Japan has",
-            "text": "動詞 'has' 使用現在式，表示日本目前的狀態。",
+            "word": "center-left",
+            "text": "'center-left' 指「中左翼的」。",
+            "category": "其他"
+          },
+          {
+            "word": "opposition",
+            "text": "'opposition' 在此指「反對黨」。",
+            "category": "其他"
+          },
+          {
+            "word": "wins",
+            "text": "這裡的 'wins' 是現在簡單式，用於報導新聞。",
+            "category": "時態"
+          },
+          {
+            "word": "election",
+            "text": "'election' 指「選舉」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "House holds billionaire investor Leon Black in contempt over Epstein probe",
+      "url": "https://edition.cnn.com/2026/09/16/politics/leon-black-epstein-subpoenas",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "House holds billionaire investor Leon Black in contempt over Epstein probe",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/politics/leon-black-epstein-subpoenas",
+        "zh": "眾議院因愛潑斯坦調查案，裁定億萬富翁投資者萊昂·布萊克藐視法庭。",
+        "accepted": [
+          [
+            "House",
+            "holds",
+            "billionaire",
+            "investor",
+            "Leon",
+            "Black",
+            "in",
+            "contempt",
+            "over",
+            "Epstein",
+            "probe"
+          ]
+        ],
+        "distractors": [
+          "Senate",
+          "held",
+          "millionaire",
+          "investors",
+          "for",
+          "under"
+        ],
+        "notes": [
+          {
+            "word": "House",
+            "text": "'House' 在此指「眾議院」。",
+            "category": "其他"
+          },
+          {
+            "word": "holds",
+            "text": "這裡的 'holds' 是現在簡單式，用於報導新聞。'hold someone in contempt' 意為「裁定某人藐視法庭」。",
+            "category": "時態"
+          },
+          {
+            "word": "billionaire",
+            "text": "'billionaire' 指「億萬富翁」。",
+            "category": "其他"
+          },
+          {
+            "word": "in contempt",
+            "text": "'in contempt' 是一個片語，表示「藐視（法庭、議會等）」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "over",
+            "text": "'over' 在此作介係詞，表示「關於；因為」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "probe",
+            "text": "'probe' 在此作名詞，指「調查」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Gaza building collapse kills more than 20, dozens remain trapped under rubble",
+      "url": "https://edition.cnn.com/2026/09/16/middleeast/gaza-building-collapse-palestine-israel-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Gaza building collapse kills more than 20, dozens remain trapped under rubble",
+        "sourceUrl": "https://edition.cnn.com/2026/09/16/middleeast/gaza-building-collapse-palestine-israel-intl",
+        "zh": "加沙建築倒塌造成20多人死亡，數十人仍被困在瓦礫下。",
+        "accepted": [
+          [
+            "Gaza",
+            "building",
+            "collapse",
+            "kills",
+            "more",
+            "than",
+            "20",
+            ",",
+            "dozens",
+            "remain",
+            "trapped",
+            "under",
+            "rubble"
+          ]
+        ],
+        "distractors": [
+          "buildings",
+          "collapsed",
+          "killed",
+          "less",
+          "dozen",
+          "over"
+        ],
+        "notes": [
+          {
+            "word": "collapse",
+            "text": "這裡的 'collapse' 作名詞，指「倒塌」。",
+            "category": "其他"
+          },
+          {
+            "word": "kills",
+            "text": "這裡的 'kills' 是現在簡單式，用於報導新聞，主語是 'Gaza building collapse' (單數)。",
             "category": "時態"
           },
           {
             "word": "more than",
-            "text": "這是一個比較片語，意為「超過」。",
+            "text": "'more than' 是一個片語，表示「超過」。",
             "category": "其他"
           },
           {
-            "word": "centenarians",
-            "text": "'centenarians' 是名詞的複數形式，指「百歲老人」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CNN Exclusive Gavin Newsom stuns Jake Tapper with 2028 pledge",
-      "url": "https://edition.cnn.com/2026/09/14/politics/gavin-newsom-presidential-run-ooo",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CNN Exclusive Gavin Newsom stuns Jake Tapper with 2028 pledge",
-        "sourceUrl": "https://edition.cnn.com/2026/09/14/politics/gavin-newsom-presidential-run-ooo",
-        "zh": "CNN獨家報導：加文·紐森以2028年承諾震驚傑克·塔珀。",
-        "accepted": [
-          [
-            "CNN",
-            "Exclusive",
-            "Gavin",
-            "Newsom",
-            "stuns",
-            "Jake",
-            "Tapper",
-            "with",
-            "2028",
-            "pledge"
-          ]
-        ],
-        "distractors": [
-          "Report",
-          "calms",
-          "without",
-          "2024",
-          "denial"
-        ],
-        "notes": [
-          {
-            "word": "CNN Exclusive",
-            "text": "這是一個新聞標題常見的簡潔表達，表示「CNN獨家報導」。",
-            "category": "其他"
-          },
-          {
-            "word": "stuns",
-            "text": "動詞 'stuns' 使用現在式，表示新聞報導的即時性或戲劇性。",
-            "category": "時態"
-          },
-          {
-            "word": "with 2028 pledge",
-            "text": "'with' 在這裡表示「以…方式」或「伴隨著…」，指震驚塔珀的原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "pledge",
-            "text": "'pledge' 是名詞，意為「承諾」或「保證」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Human remains found in Grand Canyon weeks after deadly flooding",
-      "url": "https://edition.cnn.com/2026/09/15/us/grand-canyon-human-remains-found",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Human remains found in Grand Canyon weeks after deadly flooding",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/us/grand-canyon-human-remains-found",
-        "zh": "致命洪水發生數週後，在大峽谷發現人類遺骸。",
-        "accepted": [
-          [
-            "Human",
-            "remains",
-            "found",
-            "in",
-            "Grand",
-            "Canyon",
-            "weeks",
-            "after",
-            "deadly",
-            "flooding"
-          ]
-        ],
-        "distractors": [
-          "Animal",
-          "lost",
-          "on",
-          "before",
-          "minor"
-        ],
-        "notes": [
-          {
-            "word": "Human remains",
-            "text": "'remains' 在這裡指「遺骸」或「殘骸」，通常以複數形式出現。",
+            "word": "dozens",
+            "text": "'dozens' 指「數十人」。",
             "category": "單複數"
           },
           {
-            "word": "found",
-            "text": "動詞 'found' 是過去分詞，表示被動語態，即「被發現」。",
-            "category": "時態"
-          },
-          {
-            "word": "in Grand Canyon",
-            "text": "'in' 用於表示地點，即「在大峽谷內」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "weeks after",
-            "text": "'weeks after' 表示「在數週之後」，強調時間間隔。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Rubio announces new visa restrictions targeting South African officials for ‘race-based discrimination’",
-      "url": "https://edition.cnn.com/2026/09/15/politics/rubio-announces-visa-restrictions-south-africa",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Rubio announces new visa restrictions targeting South African officials for ‘race-based discrimination’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/politics/rubio-announces-visa-restrictions-south-africa",
-        "zh": "盧比奧宣布對南非官員實施新的簽證限制，目標是針對「基於種族的歧視」。",
-        "accepted": [
-          [
-            "Rubio",
-            "announces",
-            "new",
-            "visa",
-            "restrictions",
-            "targeting",
-            "South",
-            "African",
-            "officials",
-            "for",
-            "‘race-based",
-            "discrimination’"
-          ]
-        ],
-        "distractors": [
-          "cancels",
-          "old",
-          "freedoms",
-          "ignoring",
-          "support"
-        ],
-        "notes": [
-          {
-            "word": "announces",
-            "text": "動詞 'announces' 使用現在式，表示新聞報導的即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "new visa restrictions",
-            "text": "'restrictions' 是名詞的複數形式，指「限制」。",
-            "category": "單複數"
-          },
-          {
-            "word": "targeting",
-            "text": "'targeting' 是現在分詞，作形容詞修飾 'restrictions'，表示這些限制的目標。",
+            "word": "trapped",
+            "text": "'trapped' 是動詞 'trap' 的過去分詞，作形容詞，表示「被困住的」。",
             "category": "其他"
           },
           {
-            "word": "for ‘race-based discrimination’",
-            "text": "'for' 在這裡表示原因或目的，即「因為」或「針對」基於種族的歧視。",
+            "word": "under",
+            "text": "'under rubble' 表示「在瓦礫下」，'under' 作介係詞，表示位置。",
             "category": "介係詞"
           }
         ]
