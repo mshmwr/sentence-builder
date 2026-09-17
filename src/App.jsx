@@ -27,6 +27,8 @@ import {
   saveMemo,
   loadStreak,
   recordPracticeDay,
+  loadPracticeDays,
+  localDateStr,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
@@ -77,6 +79,27 @@ function computeTrend(history) {
     recentHints: avg(recent, "hints"),
     priorHints: avg(prior, "hints"),
   };
+}
+
+// weeks-of-cells for a calendar month grid: leading/trailing nulls pad the
+// first/last week out to 7 slots (Sun-first) so every row renders evenly
+function monthGrid(year, month) {
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const startWeekday = new Date(year, month, 1).getDay();
+  const cells = Array(startWeekday).fill(null);
+  for (let d = 1; d <= daysInMonth; d++) cells.push(new Date(year, month, d));
+  while (cells.length % 7 !== 0) cells.push(null);
+  const weeks = [];
+  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
+  return weeks;
+}
+
+// 0 = no practice, 3 = hit the daily goal — same thresholds as the
+// "今天已拼 X/3 句" line so the calendar and the goal line never disagree
+function heatLevel(count) {
+  if (!count) return 0;
+  if (count >= DAILY_GOAL) return 3;
+  return count >= 2 ? 2 : 1;
 }
 
 // Feather-style "home" glyph — matches the app's plain-line icon language
@@ -141,6 +164,73 @@ function Toolbar({ children }) {
   return <div className="st-toolbar">{children}</div>;
 }
 
+const WEEKDAY_LABELS = ["日", "一", "二", "三", "四", "五", "六"];
+
+// 每日挑戰紀錄日曆 — a GitHub-contribution-graph-style monthly grid: darker
+// cells for days with more completions, today outlined, 下個月 disabled once
+// the current calendar month is reached (there's nothing to show ahead)
+function PracticeCalendar({ practiceDays, month, onPrevMonth, onNextMonth, canGoNext }) {
+  const year = month.getFullYear();
+  const mo = month.getMonth();
+  const weeks = monthGrid(year, mo);
+  const todayStr = localDateStr();
+  let practicedDays = 0;
+  let goalDays = 0;
+  for (const week of weeks) {
+    for (const d of week) {
+      if (!d) continue;
+      const count = practiceDays[localDateStr(d)] || 0;
+      if (count > 0) practicedDays++;
+      if (count >= DAILY_GOAL) goalDays++;
+    }
+  }
+  return (
+    <div className="st-calendar">
+      <div className="st-cal-head">
+        <button type="button" className="st-linkbtn st-cal-nav" onClick={onPrevMonth} aria-label="上個月">
+          ‹
+        </button>
+        <span className="st-cal-title">{year} 年 {mo + 1} 月</span>
+        <button
+          type="button"
+          className="st-linkbtn st-cal-nav"
+          onClick={onNextMonth}
+          disabled={!canGoNext}
+          aria-label="下個月"
+        >
+          ›
+        </button>
+      </div>
+      <div className="st-cal-grid st-cal-weekdays">
+        {WEEKDAY_LABELS.map((w) => (
+          <span className="st-cal-wd" key={w}>{w}</span>
+        ))}
+      </div>
+      {weeks.map((week, i) => (
+        <div className="st-cal-grid" key={i}>
+          {week.map((d, j) => {
+            if (!d) return <span className="st-cal-cell st-cal-empty" key={j} />;
+            const key = localDateStr(d);
+            const count = practiceDays[key] || 0;
+            return (
+              <span
+                key={j}
+                className={`st-cal-cell st-cal-lvl${heatLevel(count)}${key === todayStr ? " st-cal-today" : ""}`}
+                title={count > 0 ? `${key}：拼了 ${count} 句` : key}
+              >
+                {d.getDate()}
+              </span>
+            );
+          })}
+        </div>
+      ))}
+      <p className="st-cal-summary">
+        本月練習 {practicedDays} 天{goalDays > 0 && `，達成目標 ${goalDays} 天`}
+      </p>
+    </div>
+  );
+}
+
 export default function App() {
   const [user, setUser] = useState(null);
   const [authReady, setAuthReady] = useState(false);
@@ -173,6 +263,11 @@ export default function App() {
   const [todayCount, setTodayCount] = useState(0); // completions today, for the daily-goal line
   const [streakInfo, setStreakInfo] = useState(null); // null = loading; {streak, longestStreak}
   const [trend, setTrend] = useState(null); // {recent, prior} avg {stars, hints} — computed when 筆記 opens
+  const [practiceDays, setPracticeDays] = useState({}); // {"YYYY-MM-DD": count} — powers 歷史's calendar
+  const [calMonth, setCalMonth] = useState(() => {
+    const d = new Date();
+    return new Date(d.getFullYear(), d.getMonth(), 1);
+  }); // first-of-month shown on 歷史's calendar
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -251,15 +346,23 @@ export default function App() {
     };
   }, [user]);
 
-  // streak lives on the account doc (not derived from the capped history
-  // fetch above) precisely so it isn't limited by that 50-record window
+  // streak + practiceDays live on the account doc (not derived from the
+  // capped history fetch above) precisely so neither is limited by that
+  // 50-record window
   useEffect(() => {
     if (!user) {
       setStreakInfo(null);
+      setPracticeDays({});
       return;
     }
     let cancelled = false;
-    loadStreak(user.uid).then((s) => !cancelled && setStreakInfo(s)).catch(() => {});
+    Promise.all([loadStreak(user.uid), loadPracticeDays(user.uid)])
+      .then(([s, pd]) => {
+        if (cancelled) return;
+        setStreakInfo(s);
+        setPracticeDays(pd);
+      })
+      .catch(() => {});
     return () => {
       cancelled = true;
     };
@@ -314,6 +417,10 @@ export default function App() {
     setHistory(null);
     setMemoEdit(null);
     setMemoError("");
+    setCalMonth(() => {
+      const d = new Date();
+      return new Date(d.getFullYear(), d.getMonth(), 1);
+    });
     try {
       setHistory(await loadHistory(user.uid));
     } catch {
@@ -532,7 +639,12 @@ export default function App() {
           .catch(() => {}); // history write failing must not block the game
         setPracticeCounts((c) => ({ ...c, [puzzle.zh]: (c[puzzle.zh] || 0) + 1 }));
         setTodayCount((c) => c + 1);
-        recordPracticeDay(user.uid).then(setStreakInfo).catch(() => {});
+        recordPracticeDay(user.uid)
+          .then(({ streak, longestStreak, today, todayCount }) => {
+            setStreakInfo({ streak, longestStreak });
+            setPracticeDays((pd) => ({ ...pd, [today]: todayCount }));
+          })
+          .catch(() => {});
       }
     } else if (ng.wrongIdx.length) {
       setShake(true);
@@ -682,6 +794,16 @@ export default function App() {
             </button>
             {accountBar}
           </Toolbar>
+          <PracticeCalendar
+            practiceDays={practiceDays}
+            month={calMonth}
+            onPrevMonth={() => setCalMonth((m) => new Date(m.getFullYear(), m.getMonth() - 1, 1))}
+            onNextMonth={() => setCalMonth((m) => new Date(m.getFullYear(), m.getMonth() + 1, 1))}
+            canGoNext={
+              calMonth.getTime() <
+              new Date(new Date().getFullYear(), new Date().getMonth(), 1).getTime()
+            }
+          />
           {history === null ? (
             <div className="st-loading">
               <span className="st-spinner" />

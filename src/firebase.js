@@ -2,8 +2,14 @@
  *  Firebase glue — auth (Google) + per-user Firestore storage.
  *
  *  Data model:
- *    users/{uid}            { geminiKey, mastered, streak, longestStreak, lastPracticeDate }
+ *    users/{uid}            { geminiKey, mastered, streak, longestStreak,
+ *                              lastPracticeDate, practiceDays }
  *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, memo, createdAt }
+ *
+ *  practiceDays is a { "YYYY-MM-DD": count } map — one entry per local day
+ *  the account ever completed a sentence, incremented on every completion.
+ *  It backs the 歷史 screen's calendar and, unlike the capped 50-record
+ *  history query, never ages out.
  * ------------------------------------------------------------------ */
 
 import { initializeApp } from "firebase/app";
@@ -27,6 +33,7 @@ import {
   limit,
   getDocs,
   serverTimestamp,
+  increment,
 } from "firebase/firestore";
 
 const app = initializeApp({
@@ -88,7 +95,7 @@ export function saveMastered(uid, words) {
 // YYYY-MM-DD in the browser's own timezone — a "day" for streak purposes is
 // the user's local day, not UTC, so someone practicing at 11pm and again at
 // 1am the same local night shouldn't see their streak jump twice.
-function localDateStr(d = new Date()) {
+export function localDateStr(d = new Date()) {
   const tz = d.getTimezoneOffset() * 60000;
   return new Date(d.getTime() - tz).toISOString().slice(0, 10);
 }
@@ -99,21 +106,34 @@ export async function loadStreak(uid) {
   return { streak: data.streak || 0, longestStreak: data.longestStreak || 0 };
 }
 
-// call once per correct completion. A second completion the same local day
-// is a no-op (no write) — the streak only counts days, not attempts.
+export async function loadPracticeDays(uid) {
+  const snap = await getDoc(doc(db, "users", uid));
+  return snap.exists() ? snap.data().practiceDays || {} : {};
+}
+
+// call once per correct completion. The streak+lastPracticeDate write is a
+// no-op past the first completion of a local day (streak only counts days),
+// but practiceDays[today] still increments every time, since that count
+// feeds the 歷史 calendar's per-day intensity.
 export async function recordPracticeDay(uid) {
   const ref = doc(db, "users", uid);
   const snap = await getDoc(ref);
   const data = snap.exists() ? snap.data() : {};
   const today = localDateStr();
-  if (data.lastPracticeDate === today) {
-    return { streak: data.streak || 1, longestStreak: data.longestStreak || 1 };
+  let streak = data.streak || 0;
+  let longestStreak = data.longestStreak || 0;
+  if (data.lastPracticeDate !== today) {
+    const yesterday = localDateStr(new Date(Date.now() - 86400000));
+    streak = data.lastPracticeDate === yesterday ? streak + 1 : 1;
+    longestStreak = Math.max(streak, longestStreak);
   }
-  const yesterday = localDateStr(new Date(Date.now() - 86400000));
-  const streak = data.lastPracticeDate === yesterday ? (data.streak || 0) + 1 : 1;
-  const longestStreak = Math.max(streak, data.longestStreak || 0);
-  await setDoc(ref, { streak, longestStreak, lastPracticeDate: today }, { merge: true });
-  return { streak, longestStreak };
+  const todayCount = (data.practiceDays?.[today] || 0) + 1;
+  await setDoc(
+    ref,
+    { streak, longestStreak, lastPracticeDate: today, practiceDays: { [today]: increment(1) } },
+    { merge: true }
+  );
+  return { streak, longestStreak, today, todayCount };
 }
 
 export function addHistory(uid, rec) {
