@@ -1,667 +1,714 @@
 {
-  "date": "2026-09-17",
-  "fetchedAt": "2026-09-17T22:45:34.514Z",
+  "date": "2026-09-18",
+  "fetchedAt": "2026-09-18T22:25:40.269Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Houthis release video claiming to show downed Saudi F-15 fighter as Iran-backed rebels press their lightning advance",
-      "url": "https://edition.cnn.com/2026/09/17/middleeast/houthi-saudi-f15-shootdown-intl-hnk-ml",
+      "en": "Trump says he’s ‘banning’ CNN, MS NOW and Politico from the White House",
+      "url": "https://edition.cnn.com/2026/09/18/media/trump-claims-ban-cnn-msnow-politico-white-house",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Houthis release video claiming to show downed Saudi F-15 fighter as Iran-backed rebels press their lightning advance",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/middleeast/houthi-saudi-f15-shootdown-intl-hnk-ml",
-        "zh": "胡塞武裝發布影片，聲稱展示被擊落的沙特F-15戰機，伊朗支持的叛軍正迅速推進。",
-        "accepted": [
-          [
-            "Houthis",
-            "release",
-            "video",
-            "claiming",
-            "to",
-            "show",
-            "downed",
-            "Saudi",
-            "F-15",
-            "fighter",
-            "as",
-            "Iran-backed",
-            "rebels",
-            "press",
-            "their",
-            "lightning",
-            "advance"
-          ]
-        ],
-        "distractors": [
-          "claim",
-          "released",
-          "fighters",
-          "advanced",
-          "pressing",
-          "light"
-        ],
-        "notes": [
-          {
-            "word": "claiming",
-            "text": "這裡的「claiming」是現在分詞，用作動詞「release」的補充說明，表示「聲稱」的動作與發布影片同時發生。",
-            "category": "時態"
-          },
-          {
-            "word": "downed",
-            "text": "「downed」是動詞「down」的過去分詞，在這裡作形容詞修飾「Saudi F-15 fighter」，表示「被擊落的」。",
-            "category": "其他"
-          },
-          {
-            "word": "as",
-            "text": "這裡的「as」是連接詞，表示「當…的時候」或「隨著…」，說明兩個動作同時發生。",
-            "category": "介係詞"
-          },
-          {
-            "word": "press",
-            "text": "「press」在這裡是動詞，意為「推進」或「施壓」，指叛軍正在進行的動作。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Carney takes swipe at Trump as he backs closer European ties",
-      "url": "https://edition.cnn.com/2026/09/17/business/mark-carney-canada-us-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Carney takes swipe at Trump as he backs closer European ties",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/business/mark-carney-canada-us-intl",
-        "zh": "卡尼抨擊川普，同時支持更緊密的歐洲關係。",
-        "accepted": [
-          [
-            "Carney",
-            "takes",
-            "swipe",
-            "at",
-            "Trump",
-            "as",
-            "he",
-            "backs",
-            "closer",
-            "European",
-            "ties"
-          ]
-        ],
-        "distractors": [
-          "took",
-          "swipes",
-          "for",
-          "backing",
-          "close",
-          "tie"
-        ],
-        "notes": [
-          {
-            "word": "takes",
-            "text": "「takes」是動詞「take」的第三人稱單數現在式，與主詞「Carney」一致。",
-            "category": "時態"
-          },
-          {
-            "word": "swipe",
-            "text": "「take a swipe at someone」是一個片語，意為「抨擊某人」或「攻擊某人」。",
-            "category": "其他"
-          },
-          {
-            "word": "as",
-            "text": "這裡的「as」是連接詞，表示「同時」，說明卡尼抨擊川普和支持歐洲關係是同時發生的動作。",
-            "category": "介係詞"
-          },
-          {
-            "word": "backs",
-            "text": "「backs」是動詞「back」的第三人稱單數現在式，意為「支持」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump says Canada becoming ‘associate member’ of EU could be a ‘hostile act’",
-      "url": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump says Canada becoming ‘associate member’ of EU could be a ‘hostile act’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/15/americas/canada-mark-carney-eu-trump-hnk",
-        "zh": "川普表示，加拿大成為歐盟的「準成員」可能是一種「敵對行為」。",
+        "sourceEn": "Trump says he’s ‘banning’ CNN, MS NOW and Politico from the White House",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/media/trump-claims-ban-cnn-msnow-politico-white-house",
+        "zh": "川普表示他將「禁止」CNN、MSNBC和Politico進入白宮。",
         "accepted": [
           [
             "Trump",
             "says",
-            "Canada",
-            "becoming",
-            "‘associate",
-            "member’",
-            "of",
-            "EU",
-            "could",
-            "be",
-            "a",
-            "‘hostile",
-            "act’"
+            "he’s",
+            "‘banning’",
+            "CNN,",
+            "MS",
+            "NOW",
+            "and",
+            "Politico",
+            "from",
+            "the",
+            "White",
+            "House"
           ]
         ],
         "distractors": [
-          "said",
-          "become",
-          "members",
-          "for",
-          "can",
-          "acts"
+          "ban",
+          "banned",
+          "banish",
+          "forbid",
+          "prohibit",
+          "exclude"
         ],
         "notes": [
           {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式，用於報導川普的言論。",
+            "word": "banning",
+            "text": "動詞 'ban' 的現在分詞形式，表示正在進行或即將進行的動作。",
             "category": "時態"
           },
           {
-            "word": "becoming",
-            "text": "這裡的「becoming」是現在分詞，作為動名詞片語「Canada becoming ‘associate member’ of EU」的主語，表示「成為」的動作。",
+            "word": "he's",
+            "text": "是 'he is' 的縮寫，這裡用來連接主語和動詞 'banning'。",
             "category": "其他"
           },
           {
-            "word": "could",
-            "text": "「could」是情態助動詞，表示可能性，比「can」語氣更委婉。",
-            "category": "其他"
+            "word": "from",
+            "text": "介係詞 'from' 表示來源或分離，這裡指從白宮禁止。",
+            "category": "介係詞"
           },
           {
-            "word": "a",
-            "text": "「a」是不定冠詞，用於單數可數名詞「hostile act」之前。",
+            "word": "the",
+            "text": "定冠詞 'the' 用於特指 'White House'。",
             "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "King Charles opens AI summit with plea to get a grip on technology ‘before it’s too late’",
-      "url": "https://edition.cnn.com/2026/09/17/tech/king-charles-ai-summit-intl",
+      "en": "Russians go to the polls in the first parliamentary election since the Ukraine war began. Reuters",
+      "url": "https://edition.cnn.com/2026/09/18/europe/russia-parliamentary-elections-2026-ukraine-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "King Charles opens AI summit with plea to get a grip on technology ‘before it’s too late’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/tech/king-charles-ai-summit-intl",
-        "zh": "查爾斯國王在人工智慧峰會上發出呼籲，要求在「為時已晚」之前掌控這項技術。",
+        "sourceEn": "Russians go to the polls in the first parliamentary election since the Ukraine war began. Reuters",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/europe/russia-parliamentary-elections-2026-ukraine-intl",
+        "zh": "自烏克蘭戰爭爆發以來，俄羅斯人首次在議會選舉中投票。路透社報導。",
         "accepted": [
           [
-            "King",
-            "Charles",
-            "opens",
-            "AI",
-            "summit",
-            "with",
-            "plea",
+            "Russians",
+            "go",
             "to",
-            "get",
-            "a",
-            "grip",
-            "on",
-            "technology",
-            "‘before",
-            "it’s",
-            "too",
-            "late’"
-          ]
-        ],
-        "distractors": [
-          "opened",
-          "summit's",
-          "for",
-          "getting",
-          "grips",
-          "lately"
-        ],
-        "notes": [
-          {
-            "word": "opens",
-            "text": "「opens」是動詞「open」的第三人稱單數現在式，表示國王正在進行的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "with",
-            "text": "這裡的「with」表示「伴隨著」或「帶著」，說明國王開啟峰會的方式。",
-            "category": "介係詞"
-          },
-          {
-            "word": "plea",
-            "text": "「plea」是名詞，意為「懇求」或「呼籲」。",
-            "category": "其他"
-          },
-          {
-            "word": "get a grip on",
-            "text": "「get a grip on something」是一個片語，意為「掌控某事」或「理解某事」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "AI is causing starkly different stress levels in the US and China",
-      "url": "https://edition.cnn.com/2026/09/17/tech/china-ai-debate-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "AI is causing starkly different stress levels in the US and China",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/tech/china-ai-debate-intl-hnk",
-        "zh": "人工智慧正在美國和中國造成截然不同的壓力水平。",
-        "accepted": [
-          [
-            "AI",
-            "is",
-            "causing",
-            "starkly",
-            "different",
-            "stress",
-            "levels",
+            "the",
+            "polls",
             "in",
             "the",
-            "US",
-            "and",
-            "China"
+            "first",
+            "parliamentary",
+            "election",
+            "since",
+            "the",
+            "Ukraine",
+            "war",
+            "began.",
+            "Reuters"
           ]
         ],
         "distractors": [
-          "caused",
-          "cause",
-          "differently",
-          "level",
-          "at",
-          "Chinas"
+          "went",
+          "gone",
+          "going",
+          "poll",
+          "elections",
+          "begin"
         ],
         "notes": [
           {
-            "word": "is causing",
-            "text": "「is causing」是現在進行式，表示人工智慧正在持續造成壓力水平的影響。",
-            "category": "時態"
-          },
-          {
-            "word": "starkly",
-            "text": "「starkly」是副詞，修飾形容詞「different」，表示「截然不同地」。",
+            "word": "go",
+            "text": "動詞 'go' 在這裡表示「前往」或「參與」，與 'to the polls' 搭配表示投票。",
             "category": "其他"
           },
           {
-            "word": "levels",
-            "text": "「levels」是名詞「level」的複數形式，表示多個壓力水平。",
+            "word": "polls",
+            "text": "'the polls' 是慣用語，指「投票站」或「投票過程」。",
             "category": "單複數"
           },
           {
             "word": "in",
-            "text": "這裡的「in」是介係詞，表示「在…裡面」，指壓力的發生地點。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Ed Sheeran stadium drama turns to donations and humanitarian cooperation",
-      "url": "https://edition.cnn.com/2026/09/16/entertainment/macklemore-sheeran-robert-kraft-donations-cnc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Ed Sheeran stadium drama turns to donations and humanitarian cooperation",
-        "sourceUrl": "https://edition.cnn.com/2026/09/16/entertainment/macklemore-sheeran-robert-kraft-donations-cnc",
-        "zh": "紅髮艾德體育場風波轉向捐贈和人道合作。",
-        "accepted": [
-          [
-            "Ed",
-            "Sheeran",
-            "stadium",
-            "drama",
-            "turns",
-            "to",
-            "donations",
-            "and",
-            "humanitarian",
-            "cooperation"
-          ]
-        ],
-        "distractors": [
-          "turned",
-          "turn",
-          "dramas",
-          "for",
-          "donation",
-          "cooperate"
-        ],
-        "notes": [
-          {
-            "word": "turns",
-            "text": "「turns」是動詞「turn」的第三人稱單數現在式，表示風波的轉變。",
-            "category": "時態"
-          },
-          {
-            "word": "to",
-            "text": "這裡的「to」是介係詞，表示「轉向」或「變成」某個方向或狀態。",
+            "text": "介係詞 'in' 用於表示在某個事件或活動中。",
             "category": "介係詞"
           },
           {
-            "word": "donations",
-            "text": "「donations」是名詞「donation」的複數形式，表示多筆捐贈。",
-            "category": "單複數"
-          },
-          {
-            "word": "humanitarian",
-            "text": "「humanitarian」是形容詞，意為「人道主義的」，修飾名詞「cooperation」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Fresh turmoil over new Princess Diana book rocks British royals",
-      "url": "https://edition.cnn.com/2026/09/17/uk/princess-diana-book-charles-spencer-intl-gbr",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Fresh turmoil over new Princess Diana book rocks British royals",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/uk/princess-diana-book-charles-spencer-intl-gbr",
-        "zh": "黛安娜王妃新書引發的新一輪騷亂震動英國王室。",
-        "accepted": [
-          [
-            "Fresh",
-            "turmoil",
-            "over",
-            "new",
-            "Princess",
-            "Diana",
-            "book",
-            "rocks",
-            "British",
-            "royals"
-          ]
-        ],
-        "distractors": [
-          "freshly",
-          "turmoils",
-          "about",
-          "books",
-          "rocked",
-          "royal"
-        ],
-        "notes": [
-          {
-            "word": "Fresh",
-            "text": "「Fresh」是形容詞，意為「新的」或「最近的」，修飾名詞「turmoil」。",
+            "word": "since",
+            "text": "連接詞 'since' 表示「自從...以來」，引導時間狀語從句。",
             "category": "其他"
           },
           {
-            "word": "over",
-            "text": "這裡的「over」是介係詞，表示「關於」或「由於」，說明騷亂的原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "rocks",
-            "text": "「rocks」是動詞「rock」的第三人稱單數現在式，意為「震動」或「使不安」。",
-            "category": "時態"
-          },
-          {
-            "word": "royals",
-            "text": "「royals」是名詞「royal」的複數形式，在這裡指「王室成員」或「王室」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Ministry of Food and Drug Safety",
-      "url": "https://edition.cnn.com/2026/07/23/travel/south-korea-restaurant-ant-dessert-jail-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Ministry of Food and Drug Safety",
-        "sourceUrl": "https://edition.cnn.com/2026/07/23/travel/south-korea-restaurant-ant-dessert-jail-intl-hnk",
-        "zh": "食品藥物安全部",
-        "accepted": [
-          [
-            "Ministry",
-            "of",
-            "Food",
-            "and",
-            "Drug",
-            "Safety"
-          ]
-        ],
-        "distractors": [
-          "Ministers",
-          "for",
-          "Foods",
-          "Drugs",
-          "Safely",
-          "Safe"
-        ],
-        "notes": [
-          {
-            "word": "Ministry",
-            "text": "「Ministry」是名詞，意為「部」或「政府部門」。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "「of」是介係詞，表示「屬於」或「…的」，連接「Ministry」和其管轄範圍。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Food",
-            "text": "「Food」在這裡作形容詞，修飾「Safety」，表示「食品安全」。",
-            "category": "其他"
-          },
-          {
-            "word": "Drug",
-            "text": "「Drug」在這裡作形容詞，修飾「Safety」，表示「藥物安全」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Cities won’t survive on the moon as there isn’t enough water, scientists say",
-      "url": "https://edition.cnn.com/2026/09/17/science/moon-water-cities-study-intl-scli",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Cities won’t survive on the moon as there isn’t enough water, scientists say",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/science/moon-water-cities-study-intl-scli",
-        "zh": "科學家表示，月球上的城市無法生存，因為沒有足夠的水。",
-        "accepted": [
-          [
-            "Cities",
-            "won’t",
-            "survive",
-            "on",
-            "the",
-            "moon",
-            "as",
-            "there",
-            "isn’t",
-            "enough",
-            "water,",
-            "scientists",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "City",
-          "will",
-          "survived",
-          "in",
-          "moons",
-          "said"
-        ],
-        "notes": [
-          {
-            "word": "won’t",
-            "text": "「won’t」是「will not」的縮寫，表示將來不會發生。",
-            "category": "時態"
-          },
-          {
-            "word": "on",
-            "text": "這裡的「on」是介係詞，表示「在…上面」，指城市在月球上。",
-            "category": "介係詞"
-          },
-          {
-            "word": "as",
-            "text": "這裡的「as」是連接詞，表示「因為」，說明城市無法生存的原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "isn’t",
-            "text": "「isn’t」是「is not」的縮寫，與「there」連用表示「沒有」。",
+            "word": "began",
+            "text": "動詞 'begin' 的過去式，與 'since' 搭配，表示過去某個時間點開始的動作。",
             "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "North Korea’s nuclear tests may have reactivated seismic faults",
-      "url": "https://edition.cnn.com/2026/09/17/science/seismic-activity-north-korea-nuclear-test-site",
+      "en": "Trump says US reached Greenland security deal",
+      "url": "https://edition.cnn.com/2026/09/18/politics/trump-us-greenland-security",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "North Korea’s nuclear tests may have reactivated seismic faults",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/science/seismic-activity-north-korea-nuclear-test-site",
-        "zh": "北韓的核試驗可能已經重新啟動了地震斷層。",
-        "accepted": [
-          [
-            "North",
-            "Korea’s",
-            "nuclear",
-            "tests",
-            "may",
-            "have",
-            "reactivated",
-            "seismic",
-            "faults"
-          ]
-        ],
-        "distractors": [
-          "Koreas",
-          "test",
-          "might",
-          "has",
-          "reactivate",
-          "fault"
-        ],
-        "notes": [
-          {
-            "word": "Korea’s",
-            "text": "「Korea’s」是所有格形式，表示「北韓的」。",
-            "category": "其他"
-          },
-          {
-            "word": "tests",
-            "text": "「tests」是名詞「test」的複數形式，表示多個核試驗。",
-            "category": "單複數"
-          },
-          {
-            "word": "may have reactivated",
-            "text": "「may have reactivated」是情態助動詞「may」加上完成式「have reactivated」，表示對過去發生的事情的可能性推測。",
-            "category": "時態"
-          },
-          {
-            "word": "faults",
-            "text": "「faults」是名詞「fault」的複數形式，在這裡指「斷層」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "White House pulls ICE director nominee",
-      "url": "https://edition.cnn.com/2026/09/17/politics/white-house-ice-nominee-pulled",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "White House pulls ICE director nominee",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/politics/white-house-ice-nominee-pulled",
-        "zh": "白宮撤回ICE主任提名人。",
-        "accepted": [
-          [
-            "White",
-            "House",
-            "pulls",
-            "ICE",
-            "director",
-            "nominee"
-          ]
-        ],
-        "distractors": [
-          "Houses",
-          "pulled",
-          "pulling",
-          "directors",
-          "nominees",
-          "nominate"
-        ],
-        "notes": [
-          {
-            "word": "pulls",
-            "text": "「pulls」是動詞「pull」的第三人稱單數現在式，意為「撤回」。",
-            "category": "時態"
-          },
-          {
-            "word": "ICE",
-            "text": "「ICE」是 Immigration and Customs Enforcement 的縮寫，指美國移民及海關執法局。",
-            "category": "其他"
-          },
-          {
-            "word": "director",
-            "text": "「director」是名詞，意為「主任」或「主管」。",
-            "category": "其他"
-          },
-          {
-            "word": "nominee",
-            "text": "「nominee」是名詞，意為「被提名人」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump golf course could cost up to $49 million, documents show",
-      "url": "https://edition.cnn.com/2026/09/17/politics/potomac-golf-course",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump golf course could cost up to $49 million, documents show",
-        "sourceUrl": "https://edition.cnn.com/2026/09/17/politics/potomac-golf-course",
-        "zh": "文件顯示，川普高爾夫球場可能耗資高達4900萬美元。",
+        "sourceEn": "Trump says US reached Greenland security deal",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/trump-us-greenland-security",
+        "zh": "川普表示美國與格陵蘭達成了安全協議。",
         "accepted": [
           [
             "Trump",
-            "golf",
-            "course",
-            "could",
-            "cost",
-            "up",
-            "to",
-            "$49",
-            "million,",
-            "documents",
-            "show"
+            "says",
+            "US",
+            "reached",
+            "Greenland",
+            "security",
+            "deal"
           ]
         ],
         "distractors": [
-          "golfs",
-          "courses",
-          "can",
-          "costs",
-          "document",
-          "showed"
+          "reach",
+          "reaching",
+          "reaches",
+          "deals",
+          "secure",
+          "safety"
         ],
         "notes": [
           {
-            "word": "golf course",
-            "text": "「golf course」是一個複合名詞，意為「高爾夫球場」。",
+            "word": "says",
+            "text": "動詞 'say' 的第三人稱單數現在式，表示川普的言論。",
+            "category": "時態"
+          },
+          {
+            "word": "reached",
+            "text": "動詞 'reach' 的過去式，表示協議已經達成。",
+            "category": "時態"
+          },
+          {
+            "word": "US",
+            "text": "是 'United States' 的縮寫，在新聞標題中常用。",
             "category": "其他"
           },
           {
-            "word": "could",
-            "text": "「could」是情態助動詞，表示可能性，比「can」語氣更委婉。",
+            "word": "deal",
+            "text": "名詞 'deal' 指「協議」或「交易」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Faulty AI-assisted intel report nearly triggered US military operation",
+      "url": "https://edition.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Faulty AI-assisted intel report nearly triggered US military operation",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+        "zh": "錯誤的AI輔助情報報告差點引發美國軍事行動。",
+        "accepted": [
+          [
+            "Faulty",
+            "AI-assisted",
+            "intel",
+            "report",
+            "nearly",
+            "triggered",
+            "US",
+            "military",
+            "operation"
+          ]
+        ],
+        "distractors": [
+          "fault",
+          "assist",
+          "intelligence",
+          "reports",
+          "trigger",
+          "operations"
+        ],
+        "notes": [
+          {
+            "word": "Faulty",
+            "text": "形容詞 'faulty' 意為「有缺陷的」或「錯誤的」。",
             "category": "其他"
+          },
+          {
+            "word": "AI-assisted",
+            "text": "複合形容詞，表示「由AI輔助的」。",
+            "category": "其他"
+          },
+          {
+            "word": "intel",
+            "text": "是 'intelligence' 的縮寫，在新聞標題中常用，指「情報」。",
+            "category": "其他"
+          },
+          {
+            "word": "triggered",
+            "text": "動詞 'trigger' 的過去式，表示「觸發」或「引發」。",
+            "category": "時態"
+          },
+          {
+            "word": "operation",
+            "text": "名詞 'operation' 在軍事語境中指「行動」或「作戰」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Iran war has cost $45.1 billion, Pentagon tells Congress",
+      "url": "https://edition.cnn.com/2026/09/18/politics/us-iran-war-cost",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Iran war has cost $45.1 billion, Pentagon tells Congress",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/us-iran-war-cost",
+        "zh": "五角大廈告知國會，伊朗戰爭已耗資451億美元。",
+        "accepted": [
+          [
+            "Iran",
+            "war",
+            "has",
+            "cost",
+            "$45.1",
+            "billion,",
+            "Pentagon",
+            "tells",
+            "Congress"
+          ]
+        ],
+        "distractors": [
+          "wars",
+          "costs",
+          "costed",
+          "tell",
+          "told",
+          "billions"
+        ],
+        "notes": [
+          {
+            "word": "has cost",
+            "text": "現在完成式 'has cost' 表示從過去開始並持續到現在的狀態或結果。",
+            "category": "時態"
           },
           {
             "word": "cost",
-            "text": "「cost」在這裡是動詞，意為「花費」，其過去式和過去分詞也是「cost」。",
+            "text": "動詞 'cost' 的過去分詞形式與過去式相同，這裡用作現在完成式的一部分。",
             "category": "時態"
           },
           {
-            "word": "show",
-            "text": "「show」是動詞，意為「顯示」，與主詞「documents」一致，使用原形動詞。",
+            "word": "tells",
+            "text": "動詞 'tell' 的第三人稱單數現在式，表示五角大廈告知國會的動作。",
             "category": "時態"
+          },
+          {
+            "word": "billion",
+            "text": "數字後接 'billion' 時，通常不加 's'，除非是泛指數十億。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump approves F-35 sale to Saudi Arabia. Here’s why it’s controversial",
+      "url": "https://edition.cnn.com/2026/09/18/politics/us-f35-fighter-jet-sale-saudi-arabia-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump approves F-35 sale to Saudi Arabia. Here’s why it’s controversial",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/us-f35-fighter-jet-sale-saudi-arabia-hnk",
+        "zh": "川普批准向沙烏地阿拉伯出售F-35戰機。這就是它備受爭議的原因。",
+        "accepted": [
+          [
+            "Trump",
+            "approves",
+            "F-35",
+            "sale",
+            "to",
+            "Saudi",
+            "Arabia.",
+            "Here’s",
+            "why",
+            "it’s",
+            "controversial"
+          ]
+        ],
+        "distractors": [
+          "approve",
+          "approved",
+          "sales",
+          "controversy",
+          "controversially",
+          "heres"
+        ],
+        "notes": [
+          {
+            "word": "approves",
+            "text": "動詞 'approve' 的第三人稱單數現在式，表示川普的批准。",
+            "category": "時態"
+          },
+          {
+            "word": "sale",
+            "text": "名詞 'sale' 指「出售」或「銷售」。",
+            "category": "單複數"
+          },
+          {
+            "word": "to",
+            "text": "介係詞 'to' 表示方向或對象，這裡指出售給沙烏地阿拉伯。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Here’s",
+            "text": "是 'Here is' 的縮寫，用於引出解釋或原因。",
+            "category": "其他"
+          },
+          {
+            "word": "it’s",
+            "text": "是 'it is' 的縮寫，這裡指F-35戰機銷售的爭議性。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Deadly US strike on Iran school may have been a war crime, UN report finds",
+      "url": "https://edition.cnn.com/2026/09/18/middleeast/us-strike-iran-school-war-crime-un-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Deadly US strike on Iran school may have been a war crime, UN report finds",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/middleeast/us-strike-iran-school-war-crime-un-intl-hnk",
+        "zh": "聯合國報告發現，美國對伊朗學校的致命襲擊可能構成戰爭罪。",
+        "accepted": [
+          [
+            "Deadly",
+            "US",
+            "strike",
+            "on",
+            "Iran",
+            "school",
+            "may",
+            "have",
+            "been",
+            "a",
+            "war",
+            "crime,",
+            "UN",
+            "report",
+            "finds"
+          ]
+        ],
+        "distractors": [
+          "strikes",
+          "struck",
+          "schools",
+          "crimes",
+          "found",
+          "finding"
+        ],
+        "notes": [
+          {
+            "word": "Deadly",
+            "text": "形容詞 'deadly' 意為「致命的」。",
+            "category": "其他"
+          },
+          {
+            "word": "strike",
+            "text": "名詞 'strike' 在軍事語境中指「襲擊」或「打擊」。",
+            "category": "單複數"
+          },
+          {
+            "word": "on",
+            "text": "介係詞 'on' 表示對象或目標，這裡指對伊朗學校的襲擊。",
+            "category": "介係詞"
+          },
+          {
+            "word": "may have been",
+            "text": "情態動詞 'may' 後接完成式 'have been'，表示對過去發生的事情進行推測。",
+            "category": "時態"
+          },
+          {
+            "word": "a",
+            "text": "不定冠詞 'a' 用於指稱單數可數名詞 'war crime'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "finds",
+            "text": "動詞 'find' 的第三人稱單數現在式，表示報告的發現。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘World’s best airline’ for 2026 is named",
+      "url": "https://edition.cnn.com/2026/09/18/travel/skytrax-worlds-best-airline",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘World’s best airline’ for 2026 is named",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/travel/skytrax-worlds-best-airline",
+        "zh": "2026年「世界最佳航空公司」名單公布。",
+        "accepted": [
+          [
+            "‘World’s",
+            "best",
+            "airline’",
+            "for",
+            "2026",
+            "is",
+            "named"
+          ]
+        ],
+        "distractors": [
+          "bestest",
+          "airlines",
+          "name",
+          "names",
+          "naming",
+          "called"
+        ],
+        "notes": [
+          {
+            "word": "World’s",
+            "text": "所有格 'World’s' 表示「世界的」。",
+            "category": "其他"
+          },
+          {
+            "word": "best",
+            "text": "形容詞 'best' 是 'good' 的最高級，表示「最好的」。",
+            "category": "其他"
+          },
+          {
+            "word": "airline",
+            "text": "名詞 'airline' 指「航空公司」。",
+            "category": "單複數"
+          },
+          {
+            "word": "for",
+            "text": "介係詞 'for' 表示目的或時間，這裡指為2026年評選。",
+            "category": "介係詞"
+          },
+          {
+            "word": "is named",
+            "text": "被動語態 'is named' 表示航空公司被命名或公布。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "On signs French football star Mbappé, delivering another knock for Nike",
+      "url": "https://edition.cnn.com/2026/09/18/business/kylian-mbappe-on-agreement-soccer",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "On signs French football star Mbappé, delivering another knock for Nike",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/business/kylian-mbappe-on-agreement-soccer",
+        "zh": "法國足球明星姆巴佩簽約，再次打擊耐克。",
+        "accepted": [
+          [
+            "On",
+            "signs",
+            "French",
+            "football",
+            "star",
+            "Mbappé,",
+            "delivering",
+            "another",
+            "knock",
+            "for",
+            "Nike"
+          ]
+        ],
+        "distractors": [
+          "sign",
+          "signed",
+          "stars",
+          "deliver",
+          "delivered",
+          "knocks"
+        ],
+        "notes": [
+          {
+            "word": "On",
+            "text": "在新聞標題中，'On' 有時用於表示「關於」或「隨著...發生」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "signs",
+            "text": "動詞 'sign' 的第三人稱單數現在式，在新聞標題中常用來表示最近發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "delivering",
+            "text": "現在分詞 'delivering' 作為伴隨狀語，表示同時發生的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "knock",
+            "text": "名詞 'knock' 在這裡指「打擊」或「挫折」。",
+            "category": "單複數"
+          },
+          {
+            "word": "for",
+            "text": "介係詞 'for' 表示對象或受益者，這裡指對耐克的打擊。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Duncan Sheik, Tony- and Grammy-winning ‘Spring Awakening’ composer and pop star, dies at 56",
+      "url": "https://edition.cnn.com/2026/09/18/entertainment/duncan-sheik-death",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Duncan Sheik, Tony- and Grammy-winning ‘Spring Awakening’ composer and pop star, dies at 56",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/entertainment/duncan-sheik-death",
+        "zh": "東尼獎和葛萊美獎得主、《春醒》作曲家兼流行歌星鄧肯·謝克去世，享年56歲。",
+        "accepted": [
+          [
+            "Duncan",
+            "Sheik,",
+            "Tony-",
+            "and",
+            "Grammy-winning",
+            "‘Spring",
+            "Awakening’",
+            "composer",
+            "and",
+            "pop",
+            "star,",
+            "dies",
+            "at",
+            "56"
+          ]
+        ],
+        "distractors": [
+          "win",
+          "won",
+          "compose",
+          "stars",
+          "die",
+          "died"
+        ],
+        "notes": [
+          {
+            "word": "Tony- and Grammy-winning",
+            "text": "複合形容詞，表示「贏得東尼獎和葛萊美獎的」。",
+            "category": "其他"
+          },
+          {
+            "word": "composer",
+            "text": "名詞 'composer' 指「作曲家」。",
+            "category": "單複數"
+          },
+          {
+            "word": "pop star",
+            "text": "複合名詞 'pop star' 指「流行歌星」。",
+            "category": "其他"
+          },
+          {
+            "word": "dies",
+            "text": "動詞 'die' 的第三人稱單數現在式，在新聞標題中常用來表示最近發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "at",
+            "text": "介係詞 'at' 用於表示年齡。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Jason Kempin/Getty Images North America/Getty Images",
+      "url": "https://edition.cnn.com/2026/09/18/entertainment/chris-brown-jasmine-crockett-cec",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Jason Kempin/Getty Images North America/Getty Images",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/entertainment/chris-brown-jasmine-crockett-cec",
+        "zh": "傑森·坎賓/蓋帝圖片社北美/蓋帝圖片社",
+        "accepted": [
+          [
+            "Jason",
+            "Kempin/Getty",
+            "Images",
+            "North",
+            "America/Getty",
+            "Images"
+          ]
+        ],
+        "distractors": [
+          "image",
+          "imaging",
+          "north",
+          "american",
+          "getty",
+          "kempins"
+        ],
+        "notes": [
+          {
+            "word": "Images",
+            "text": "名詞 'Images' 指「圖片」或「影像」。",
+            "category": "單複數"
+          },
+          {
+            "word": "North America",
+            "text": "專有名詞 'North America' 指「北美洲」。",
+            "category": "其他"
+          },
+          {
+            "word": "/",
+            "text": "斜線符號 ' / ' 在這裡用於分隔不同的實體或來源。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Eleven years after an ‘unsettling’ Elizabeth Holmes shoot, a photographer gives his inside look",
+      "url": "https://edition.cnn.com/2026/09/18/style/elizabeth-holmes-benjamin-rasmussen-snap",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Eleven years after an ‘unsettling’ Elizabeth Holmes shoot, a photographer gives his inside look",
+        "sourceUrl": "https://edition.cnn.com/2026/09/18/style/elizabeth-holmes-benjamin-rasmussen-snap",
+        "zh": "在「令人不安」的伊莉莎白·霍姆斯拍攝事件發生十一年後，一位攝影師分享了他的內幕。",
+        "accepted": [
+          [
+            "Eleven",
+            "years",
+            "after",
+            "an",
+            "‘unsettling’",
+            "Elizabeth",
+            "Holmes",
+            "shoot,",
+            "a",
+            "photographer",
+            "gives",
+            "his",
+            "inside",
+            "look"
+          ]
+        ],
+        "distractors": [
+          "year",
+          "unsettle",
+          "shot",
+          "shooting",
+          "photographs",
+          "gave"
+        ],
+        "notes": [
+          {
+            "word": "years",
+            "text": "名詞 'year' 的複數形式，表示「十一年」。",
+            "category": "單複數"
+          },
+          {
+            "word": "after",
+            "text": "介係詞 'after' 表示「在...之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "an",
+            "text": "不定冠詞 'an' 用於以元音開頭的單數可數名詞 'unsettling shoot'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "unsettling",
+            "text": "形容詞 'unsettling' 意為「令人不安的」。",
+            "category": "其他"
+          },
+          {
+            "word": "shoot",
+            "text": "名詞 'shoot' 在攝影語境中指「拍攝」或「攝影活動」。",
+            "category": "單複數"
+          },
+          {
+            "word": "gives",
+            "text": "動詞 'give' 的第三人稱單數現在式，表示攝影師分享的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "inside look",
+            "text": "複合名詞 'inside look' 指「內幕」或「內部視角」。",
+            "category": "其他"
           }
         ]
       }
