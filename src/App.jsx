@@ -169,7 +169,15 @@ const WEEKDAY_LABELS = ["日", "一", "二", "三", "四", "五", "六"];
 // 每日挑戰紀錄日曆 — a GitHub-contribution-graph-style monthly grid: darker
 // cells for days with more completions, today outlined, 下個月 disabled once
 // the current calendar month is reached (there's nothing to show ahead)
-function PracticeCalendar({ practiceDays, month, onPrevMonth, onNextMonth, canGoNext }) {
+function PracticeCalendar({
+  practiceDays,
+  month,
+  onPrevMonth,
+  onNextMonth,
+  canGoNext,
+  selectedDay,
+  onSelectDay,
+}) {
   const year = month.getFullYear();
   const mo = month.getMonth();
   const weeks = monthGrid(year, mo);
@@ -213,13 +221,19 @@ function PracticeCalendar({ practiceDays, month, onPrevMonth, onNextMonth, canGo
             const key = localDateStr(d);
             const count = practiceDays[key] || 0;
             return (
-              <span
+              <button
+                type="button"
                 key={j}
-                className={`st-cal-cell st-cal-lvl${heatLevel(count)}${key === todayStr ? " st-cal-today" : ""}`}
+                className={
+                  `st-cal-cell st-cal-lvl${heatLevel(count)}` +
+                  (key === todayStr ? " st-cal-today" : "") +
+                  (key === selectedDay ? " st-cal-selected" : "")
+                }
                 title={count > 0 ? `${key}：拼了 ${count} 句` : key}
+                onClick={() => onSelectDay(key === selectedDay ? null : key)}
               >
                 {d.getDate()}
-              </span>
+              </button>
             );
           })}
         </div>
@@ -227,6 +241,14 @@ function PracticeCalendar({ practiceDays, month, onPrevMonth, onNextMonth, canGo
       <p className="st-cal-summary">
         本月練習 {practicedDays} 天{goalDays > 0 && `，達成目標 ${goalDays} 天`}
       </p>
+      {selectedDay && (
+        <p className="st-cal-detail">
+          {selectedDay}：拼了 {practiceDays[selectedDay] || 0} 句
+          <button type="button" className="st-linkbtn st-cal-clear" onClick={() => onSelectDay(null)}>
+            清除
+          </button>
+        </p>
+      )}
     </div>
   );
 }
@@ -268,6 +290,7 @@ export default function App() {
     const d = new Date();
     return new Date(d.getFullYear(), d.getMonth(), 1);
   }); // first-of-month shown on 歷史's calendar
+  const [selectedDay, setSelectedDay] = useState(null); // "YYYY-MM-DD" — tapped calendar cell, filters the list below
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -421,6 +444,7 @@ export default function App() {
       const d = new Date();
       return new Date(d.getFullYear(), d.getMonth(), 1);
     });
+    setSelectedDay(null);
     try {
       setHistory(await loadHistory(user.uid));
     } catch {
@@ -784,6 +808,14 @@ export default function App() {
 
   /* ---- history screen (before the key gate — history needs no key) ---- */
   if (mode === "history") {
+    // selectedDay narrows the list to one calendar day's completions — since
+    // it filters the already-capped 50-record `history`, a day whose count
+    // (from practiceDays, which never ages out) is nonzero can still come up
+    // empty here if that day fell outside the window
+    const visibleHistory =
+      history && selectedDay
+        ? history.filter((h) => h.createdAt?.toDate && localDateStr(h.createdAt.toDate()) === selectedDay)
+        : history;
     return (
       <div className="st-root">
         <div className="st-board">
@@ -797,22 +829,36 @@ export default function App() {
           <PracticeCalendar
             practiceDays={practiceDays}
             month={calMonth}
-            onPrevMonth={() => setCalMonth((m) => new Date(m.getFullYear(), m.getMonth() - 1, 1))}
-            onNextMonth={() => setCalMonth((m) => new Date(m.getFullYear(), m.getMonth() + 1, 1))}
+            onPrevMonth={() => {
+              setCalMonth((m) => new Date(m.getFullYear(), m.getMonth() - 1, 1));
+              setSelectedDay(null);
+            }}
+            onNextMonth={() => {
+              setCalMonth((m) => new Date(m.getFullYear(), m.getMonth() + 1, 1));
+              setSelectedDay(null);
+            }}
             canGoNext={
               calMonth.getTime() <
               new Date(new Date().getFullYear(), new Date().getMonth(), 1).getTime()
             }
+            selectedDay={selectedDay}
+            onSelectDay={setSelectedDay}
           />
           {history === null ? (
             <div className="st-loading">
               <span className="st-spinner" />
             </div>
-          ) : history.length === 0 ? (
-            <p className="st-login-text">還沒有紀錄 —— 拼出第一句吧。</p>
+          ) : visibleHistory.length === 0 ? (
+            <p className="st-login-text">
+              {!selectedDay
+                ? "還沒有紀錄 —— 拼出第一句吧。"
+                : (practiceDays[selectedDay] || 0) > 0
+                ? `這天拼了 ${practiceDays[selectedDay]} 句，但超出「歷史」最近 50 筆的範圍，明細看不到了。`
+                : "這天沒有拼過句子。"}
+            </p>
           ) : (
             <div className="st-history">
-              {groupHistory(history).map(({ latest: h, attempts }) => (
+              {groupHistory(visibleHistory).map(({ latest: h, attempts }) => (
                 <div className="st-hitem" key={h.id}>
                   <div className="st-hrow">
                     <span className="st-hzh">{h.zh}</span>
