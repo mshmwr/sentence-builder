@@ -1,747 +1,685 @@
 {
-  "date": "2026-09-19",
-  "fetchedAt": "2026-09-19T22:16:01.214Z",
+  "date": "2026-09-20",
+  "fetchedAt": "2026-09-20T22:18:49.498Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Vulnerable Republicans are increasingly defying President Trump ahead of the midterms",
-      "url": "https://edition.cnn.com/2026/09/19/politics/vulnerable-republicans-defying-trump-midterms",
+      "en": "Chancellor Merz calls Germany state elections results a ‘disaster,’ as far-right surges again",
+      "url": "https://edition.cnn.com/2026/09/20/europe/berlin-mecklenburg-vorpommern-election-afd-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Vulnerable Republicans are increasingly defying President Trump ahead of the midterms",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/politics/vulnerable-republicans-defying-trump-midterms",
-        "zh": "在期中選舉前，脆弱的共和黨人越來越多地違抗川普總統。",
+        "sourceEn": "Chancellor Merz calls Germany state elections results a ‘disaster,’ as far-right surges again",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/europe/berlin-mecklenburg-vorpommern-election-afd-intl",
+        "zh": "德國總理梅爾茨稱德國州選舉結果為「災難」，因極右翼再次崛起。",
         "accepted": [
           [
-            "Vulnerable",
-            "Republicans",
-            "are",
-            "increasingly",
-            "defying",
-            "President",
-            "Trump",
-            "ahead",
-            "of",
-            "the",
-            "midterms"
+            "Chancellor",
+            "Merz",
+            "calls",
+            "Germany",
+            "state",
+            "elections",
+            "results",
+            "a",
+            "‘disaster,’",
+            "as",
+            "far-right",
+            "surges",
+            "again"
           ]
         ],
         "distractors": [
-          "defy",
-          "defied",
-          "defiance",
-          "defiant",
-          "defies",
-          "defyingly"
+          "called",
+          "disastrous",
+          "surge",
+          "result",
+          "election",
+          "states"
         ],
         "notes": [
           {
-            "word": "Vulnerable",
-            "text": "形容詞「Vulnerable」意為「易受攻擊的、脆弱的」，用來修飾名詞「Republicans」。",
-            "category": "其他"
-          },
-          {
-            "word": "are defying",
-            "text": "現在進行式「are defying」表示動作正在發生，強調共和黨人違抗川普的行為是一個持續的趨勢。",
+            "word": "calls",
+            "text": "這裡的動詞 'calls' 使用現在簡單式，表示梅爾茨的言論是一個持續的狀態或事實。",
             "category": "時態"
           },
           {
-            "word": "increasingly",
-            "text": "副詞「increasingly」意為「越來越多地」，修飾動詞「defying」，表示違抗行為的程度在增加。",
-            "category": "其他"
-          },
-          {
-            "word": "ahead of",
-            "text": "片語「ahead of」意為「在…之前」，這裡指在期中選舉之前。",
-            "category": "介係詞"
-          },
-          {
-            "word": "the midterms",
-            "text": "「midterms」指「期中選舉」，通常前面會加上定冠詞「the」。",
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'disaster'。",
             "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump strikes Greenland deal with Denmark after threatening annexation",
-      "url": "https://edition.cnn.com/2026/09/18/politics/trump-us-greenland-security",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump strikes Greenland deal with Denmark after threatening annexation",
-        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/trump-us-greenland-security",
-        "zh": "川普在威脅吞併格陵蘭後，與丹麥達成格陵蘭協議。",
-        "accepted": [
-          [
-            "Trump",
-            "strikes",
-            "Greenland",
-            "deal",
-            "with",
-            "Denmark",
-            "after",
-            "threatening",
-            "annexation"
-          ]
-        ],
-        "distractors": [
-          "strike",
-          "struck",
-          "striking",
-          "strikes",
-          "strikeout",
-          "striker"
-        ],
-        "notes": [
-          {
-            "word": "strikes",
-            "text": "動詞「strikes」在這裡是現在式，用於新聞標題中，表示事件發生或正在發生，使標題更具即時性。",
-            "category": "時態"
           },
           {
-            "word": "deal",
-            "text": "名詞「deal」意為「協議、交易」，與「Greenland」結合表示「格陵蘭協議」。",
-            "category": "其他"
-          },
-          {
-            "word": "with",
-            "text": "介係詞「with」表示「與…一起」，這裡指與丹麥達成協議。",
-            "category": "介係詞"
-          },
-          {
-            "word": "after threatening",
-            "text": "「after」後面接動名詞「threatening」，表示在威脅之後。",
-            "category": "介係詞"
-          },
-          {
-            "word": "annexation",
-            "text": "名詞「annexation」意為「吞併、併吞」，指將領土併入自己的國家。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "These Israelis want to fly home to vote. Netanyahu is trying to stop them",
-      "url": "https://edition.cnn.com/2026/09/19/middleeast/israel-election-netanyahu-expatriates-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "These Israelis want to fly home to vote. Netanyahu is trying to stop them",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/middleeast/israel-election-netanyahu-expatriates-intl",
-        "zh": "這些以色列人想飛回家投票。納坦雅胡正試圖阻止他們。",
-        "accepted": [
-          [
-            "These",
-            "Israelis",
-            "want",
-            "to",
-            "fly",
-            "home",
-            "to",
-            "vote",
-            ".",
-            "Netanyahu",
-            "is",
-            "trying",
-            "to",
-            "stop",
-            "them"
-          ]
-        ],
-        "distractors": [
-          "Israeli",
-          "Israelite",
-          "Israelites",
-          "Israelis",
-          "Israelian",
-          "Israelian"
-        ],
-        "notes": [
-          {
-            "word": "These Israelis",
-            "text": "「These」是指示代名詞，修飾複數名詞「Israelis」（以色列人）。",
+            "word": "results",
+            "text": "'results' 是複數名詞，表示選舉產生了多個結果。",
             "category": "單複數"
           },
           {
-            "word": "want to fly",
-            "text": "動詞「want」後面接不定詞「to fly」，表示「想要飛」。",
-            "category": "其他"
-          },
-          {
-            "word": "home",
-            "text": "「home」在這裡作副詞，表示「回家」，前面不需要介係詞。",
-            "category": "介係詞"
-          },
-          {
-            "word": "is trying",
-            "text": "現在進行式「is trying」表示納坦雅胡正在努力阻止他們，強調動作的持續性。",
-            "category": "時態"
-          },
-          {
-            "word": "stop them",
-            "text": "動詞「stop」後面直接接受格代名詞「them」，表示「阻止他們」。",
+            "word": "as",
+            "text": "'as' 在這裡引導一個原因狀語從句，說明「極右翼再次崛起」是導致結果為災難的原因。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "CNN denied access to White House after Trump said he's banning the network",
-      "url": "https://edition.cnn.com/2026/09/19/politics/video/cnn-reporter-white-house-seized-digivd",
+      "en": "Trump’s sanctions, inflation and a collapsing economy leaves Iran’s sick exposed",
+      "url": "https://edition.cnn.com/2026/09/20/middleeast/trump-iran-sanctions-inflation-sick-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN denied access to White House after Trump said he's banning the network",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/politics/video/cnn-reporter-white-house-seized-digivd",
-        "zh": "川普表示他將禁止CNN後，CNN被拒絕進入白宮。",
+        "sourceEn": "Trump’s sanctions, inflation and a collapsing economy leaves Iran’s sick exposed",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/middleeast/trump-iran-sanctions-inflation-sick-intl",
+        "zh": "川普的制裁、通貨膨脹和經濟崩潰使伊朗的病患處境艱難。",
         "accepted": [
           [
-            "CNN",
-            "denied",
-            "access",
+            "Trump’s",
+            "sanctions,",
+            "inflation",
+            "and",
+            "a",
+            "collapsing",
+            "economy",
+            "leaves",
+            "Iran’s",
+            "sick",
+            "exposed"
+          ]
+        ],
+        "distractors": [
+          "leave",
+          "collapse",
+          "sanction",
+          "exposing",
+          "economies",
+          "sickly"
+        ],
+        "notes": [
+          {
+            "word": "leaves",
+            "text": "儘管主語是多個名詞（sanctions, inflation, economy），但它們共同構成一個單一的「情況」，因此動詞使用單數形式 'leaves'。",
+            "category": "單複數"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'economy'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "collapsing",
+            "text": "'collapsing' 是現在分詞作形容詞，修飾 'economy'，表示「正在崩潰的」經濟。",
+            "category": "其他"
+          },
+          {
+            "word": "exposed",
+            "text": "'exposed' 是過去分詞作形容詞，表示「暴露的」或「處境艱難的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Ruling pro-Putin party set to win Russia’s wartime parliamentary election with no meaningful opposition",
+      "url": "https://edition.cnn.com/2026/09/20/europe/russia-election-polls-close-outcome-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Ruling pro-Putin party set to win Russia’s wartime parliamentary election with no meaningful opposition",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/europe/russia-election-polls-close-outcome-intl",
+        "zh": "執政的親普丁政黨預計將在俄羅斯戰時議會選舉中獲勝，沒有實質性的反對黨。",
+        "accepted": [
+          [
+            "Ruling",
+            "pro-Putin",
+            "party",
+            "set",
             "to",
+            "win",
+            "Russia’s",
+            "wartime",
+            "parliamentary",
+            "election",
+            "with",
+            "no",
+            "meaningful",
+            "opposition"
+          ]
+        ],
+        "distractors": [
+          "party's",
+          "setting",
+          "wins",
+          "elections",
+          "meaning",
+          "oppose"
+        ],
+        "notes": [
+          {
+            "word": "set to win",
+            "text": "'set to win' 是一個常見的表達，表示「準備好要贏」或「預計將會贏」。",
+            "category": "其他"
+          },
+          {
+            "word": "party",
+            "text": "'party' 在這裡指政黨，是單數名詞。",
+            "category": "單複數"
+          },
+          {
+            "word": "Russia’s",
+            "text": "'Russia’s' 是所有格，表示「俄羅斯的」。",
+            "category": "其他"
+          },
+          {
+            "word": "election",
+            "text": "'election' 是單數名詞，指一次選舉。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "'Crisis even bigger than Covid': US businesses are barely getting by",
+      "url": "https://edition.cnn.com/2026/09/20/economy/covid-diesel-supply-chain",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "'Crisis even bigger than Covid': US businesses are barely getting by",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/economy/covid-diesel-supply-chain",
+        "zh": "「危機甚至比新冠疫情還大」：美國企業勉強維持生計。",
+        "accepted": [
+          [
+            "'Crisis",
+            "even",
+            "bigger",
+            "than",
+            "Covid':",
+            "US",
+            "businesses",
+            "are",
+            "barely",
+            "getting",
+            "by"
+          ]
+        ],
+        "distractors": [
+          "bigger than",
+          "biggest",
+          "business",
+          "is",
+          "get",
+          "bare"
+        ],
+        "notes": [
+          {
+            "word": "bigger",
+            "text": "'bigger' 是形容詞 'big' 的比較級，表示「更大的」。",
+            "category": "其他"
+          },
+          {
+            "word": "businesses",
+            "text": "'businesses' 是 'business' 的複數形式，指多個企業。",
+            "category": "單複數"
+          },
+          {
+            "word": "are",
+            "text": "主語 'US businesses' 是複數，因此動詞使用 'are'。",
+            "category": "單複數"
+          },
+          {
+            "word": "getting by",
+            "text": "'getting by' 是一個動詞片語，表示「勉強維持生計」或「勉強應付」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump’s UN ambassador defends press ban as news outlets prepare legal challenges",
+      "url": "https://edition.cnn.com/2026/09/20/media/trump-cnn-msnow-politico-ban-waltz-first-amendment",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump’s UN ambassador defends press ban as news outlets prepare legal challenges",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/media/trump-cnn-msnow-politico-ban-waltz-first-amendment",
+        "zh": "川普的聯合國大使為新聞禁令辯護，同時新聞媒體準備法律挑戰。",
+        "accepted": [
+          [
+            "Trump’s",
+            "UN",
+            "ambassador",
+            "defends",
+            "press",
+            "ban",
+            "as",
+            "news",
+            "outlets",
+            "prepare",
+            "legal",
+            "challenges"
+          ]
+        ],
+        "distractors": [
+          "defend",
+          "bans",
+          "outlet",
+          "prepared",
+          "challenge",
+          "legalize"
+        ],
+        "notes": [
+          {
+            "word": "defends",
+            "text": "主語 'Trump’s UN ambassador' 是單數第三人稱，因此動詞使用現在簡單式的單數形式 'defends'。",
+            "category": "單複數"
+          },
+          {
+            "word": "ban",
+            "text": "'ban' 在這裡作名詞，表示「禁令」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "'as' 在這裡引導一個時間狀語從句，表示「同時」或「當...的時候」。",
+            "category": "其他"
+          },
+          {
+            "word": "challenges",
+            "text": "'challenges' 是複數名詞，表示多個「挑戰」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What is the White House press pool, and why is it now under threat?",
+      "url": "https://edition.cnn.com/2026/09/20/politics/white-house-press-pool-trump",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "What is the White House press pool, and why is it now under threat?",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/politics/white-house-press-pool-trump",
+        "zh": "白宮記者團是什麼？為什麼它現在受到威脅？",
+        "accepted": [
+          [
+            "What",
+            "is",
+            "the",
             "White",
             "House",
-            "after",
-            "Trump",
-            "said",
-            "he's",
-            "banning",
-            "the",
-            "network"
-          ]
-        ],
-        "distractors": [
-          "deny",
-          "denies",
-          "denial",
-          "denying",
-          "deniably",
-          "deniedly"
-        ],
-        "notes": [
-          {
-            "word": "denied",
-            "text": "新聞標題中常省略be動詞，這裡的「denied」是過去分詞，表示被動語態，意為「被拒絕」。完整的句子應為「CNN was denied access...」。",
-            "category": "時態"
-          },
-          {
-            "word": "access to",
-            "text": "片語「access to」意為「進入…的權利、途徑」，後面接名詞「White House」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "White House",
-            "text": "「White House」指「白宮」，是專有名詞，通常大寫。",
-            "category": "其他"
-          },
-          {
-            "word": "he's banning",
-            "text": "「he's banning」是「he is banning」的縮寫，現在進行式在這裡表示即將發生的動作或計畫。",
-            "category": "時態"
-          },
-          {
-            "word": "the network",
-            "text": "「the network」指前面提到的CNN這個電視網，使用定冠詞「the」表示特指。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "MS NOW and Politico also denied access as Trump ban takes effect",
-      "url": "https://edition.cnn.com/2026/09/19/media/trump-msnow-cnn-politico-white-house-ban",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "MS NOW and Politico also denied access as Trump ban takes effect",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/media/trump-msnow-cnn-politico-white-house-ban",
-        "zh": "隨著川普禁令生效，MS NOW和Politico也被拒絕進入。",
-        "accepted": [
-          [
-            "MS",
-            "NOW",
+            "press",
+            "pool,",
             "and",
-            "Politico",
-            "also",
-            "denied",
-            "access",
-            "as",
-            "Trump",
-            "ban",
-            "takes",
-            "effect"
-          ]
-        ],
-        "distractors": [
-          "deny",
-          "denies",
-          "denial",
-          "denying",
-          "deniably",
-          "deniedly"
-        ],
-        "notes": [
-          {
-            "word": "denied",
-            "text": "與前一句類似，新聞標題省略be動詞，這裡的「denied」是過去分詞，表示被動語態，意為「被拒絕」。",
-            "category": "時態"
-          },
-          {
-            "word": "access",
-            "text": "名詞「access」在這裡指「進入的權利」，通常後面接介係詞「to」表示進入某處，但在此標題中省略。",
-            "category": "介係詞"
-          },
-          {
-            "word": "as",
-            "text": "連詞「as」在這裡表示「當…的時候」或「隨著…」，引導時間狀語從句。",
-            "category": "其他"
-          },
-          {
-            "word": "Trump ban",
-            "text": "「Trump ban」是名詞片語，表示「川普的禁令」，「Trump」在這裡作形容詞修飾「ban」。",
-            "category": "其他"
-          },
-          {
-            "word": "takes effect",
-            "text": "片語「take effect」意為「生效」，表示禁令開始實施。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Frustration grows as Houthis widen Middle East conflict with US unwilling to intervene",
-      "url": "https://edition.cnn.com/2026/09/19/politics/frustration-houthis-saudi-arabia-iran",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Frustration grows as Houthis widen Middle East conflict with US unwilling to intervene",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/politics/frustration-houthis-saudi-arabia-iran",
-        "zh": "隨著胡塞武裝擴大中東衝突，而美國不願介入，挫折感日益增長。",
-        "accepted": [
-          [
-            "Frustration",
-            "grows",
-            "as",
-            "Houthis",
-            "widen",
-            "Middle",
-            "East",
-            "conflict",
-            "with",
-            "US",
-            "unwilling",
-            "to",
-            "intervene"
-          ]
-        ],
-        "distractors": [
-          "frustrate",
-          "frustrated",
-          "frustrating",
-          "frustrates",
-          "frustratingly",
-          "frustration"
-        ],
-        "notes": [
-          {
-            "word": "Frustration grows",
-            "text": "「Frustration」（挫折感）是不可數名詞，動詞「grows」是現在式，表示挫折感正在增加，強調持續的狀態。",
-            "category": "時態"
-          },
-          {
-            "word": "as",
-            "text": "連詞「as」在這裡表示「隨著」，引導原因或時間狀語從句。",
-            "category": "其他"
-          },
-          {
-            "word": "Houthis",
-            "text": "「Houthis」指「胡塞武裝」，是複數名詞。",
-            "category": "單複數"
-          },
-          {
-            "word": "widen",
-            "text": "動詞「widen」意為「擴大」，這裡指胡塞武裝擴大衝突。",
-            "category": "其他"
-          },
-          {
-            "word": "unwilling to intervene",
-            "text": "片語「unwilling to」意為「不願意的」，後面接動詞原形「intervene」（介入）。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Iran war has cost $45.1 billion, Pentagon tells Congress",
-      "url": "https://edition.cnn.com/2026/09/18/politics/us-iran-war-cost",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Iran war has cost $45.1 billion, Pentagon tells Congress",
-        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/us-iran-war-cost",
-        "zh": "五角大廈告知國會，伊朗戰爭已耗資451億美元。",
-        "accepted": [
-          [
-            "Iran",
-            "war",
-            "has",
-            "cost",
-            "$45.1",
-            "billion",
-            ",",
-            "Pentagon",
-            "tells",
-            "Congress"
-          ]
-        ],
-        "distractors": [
-          "costs",
-          "costing",
-          "costly",
-          "costliness",
-          "costume",
-          "costar"
-        ],
-        "notes": [
-          {
-            "word": "has cost",
-            "text": "現在完成式「has cost」表示戰爭的費用從過去開始，一直持續到現在，並產生了目前的結果。",
-            "category": "時態"
-          },
-          {
-            "word": "$45.1 billion",
-            "text": "「billion」是「十億」，「$45.1 billion」表示「451億美元」。",
-            "category": "其他"
-          },
-          {
-            "word": "Pentagon",
-            "text": "「Pentagon」指「五角大廈」，是美國國防部的代稱。",
-            "category": "其他"
-          },
-          {
-            "word": "tells",
-            "text": "新聞標題常用現在式動詞「tells」來描述已發生的事件，使其聽起來更具即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "Congress",
-            "text": "「Congress」指「國會」，是專有名詞，通常大寫。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump admin approves sale of stealth F-35 fighter jets to Saudi Arabia. Here’s why it’s controversial",
-      "url": "https://edition.cnn.com/2026/09/18/politics/us-f35-fighter-jet-sale-saudi-arabia-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump admin approves sale of stealth F-35 fighter jets to Saudi Arabia. Here’s why it’s controversial",
-        "sourceUrl": "https://edition.cnn.com/2026/09/18/politics/us-f35-fighter-jet-sale-saudi-arabia-hnk",
-        "zh": "川普政府批准向沙烏地阿拉伯出售F-35匿蹤戰機。這就是為什麼它備受爭議。",
-        "accepted": [
-          [
-            "Trump",
-            "admin",
-            "approves",
-            "sale",
-            "of",
-            "stealth",
-            "F-35",
-            "fighter",
-            "jets",
-            "to",
-            "Saudi",
-            "Arabia",
-            ".",
-            "Here’s",
             "why",
-            "it’s",
-            "controversial"
+            "is",
+            "it",
+            "now",
+            "under",
+            "threat?"
           ]
         ],
         "distractors": [
-          "approve",
-          "approved",
-          "approval",
-          "approving",
-          "approvingly",
-          "approver"
+          "are",
+          "was",
+          "threatened",
+          "pool's",
+          "then",
+          "which"
         ],
         "notes": [
           {
-            "word": "Trump admin",
-            "text": "「admin」是「administration」（政府、行政部門）的縮寫，新聞標題中常用。",
-            "category": "其他"
-          },
-          {
-            "word": "approves",
-            "text": "新聞標題常用現在式動詞「approves」來描述已發生的事件，使其聽起來更具即時性。",
-            "category": "時態"
-          },
-          {
-            "word": "sale of",
-            "text": "片語「sale of」意為「…的出售」，後面接被出售的物品。",
-            "category": "介係詞"
-          },
-          {
-            "word": "stealth F-35 fighter jets",
-            "text": "「stealth」是形容詞「匿蹤的」，修飾「F-35 fighter jets」（F-35戰鬥機）。「jets」是複數。",
+            "word": "is",
+            "text": "兩個問句的主語都是單數（'What' 指 'the White House press pool'，'it' 指 'the White House press pool'），因此動詞使用 'is'。",
             "category": "單複數"
           },
           {
-            "word": "Here’s why",
-            "text": "「Here’s why」是「Here is why」的縮寫，表示「這就是為什麼」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Who is Earl Spencer, the man at the center of the latest royal saga?",
-      "url": "https://edition.cnn.com/2026/09/19/uk/earl-spencer-princess-diana-brother-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Who is Earl Spencer, the man at the center of the latest royal saga?",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/uk/earl-spencer-princess-diana-brother-intl",
-        "zh": "厄爾·史賓賽是誰？這位男士是最新皇室傳奇的中心人物。",
-        "accepted": [
-          [
-            "Who",
-            "is",
-            "Earl",
-            "Spencer",
-            ",",
-            "the",
-            "man",
-            "at",
-            "the",
-            "center",
-            "of",
-            "the",
-            "latest",
-            "royal",
-            "saga",
-            "?"
-          ]
-        ],
-        "distractors": [
-          "whom",
-          "whose",
-          "which",
-          "what",
-          "where",
-          "when"
-        ],
-        "notes": [
-          {
-            "word": "Who is",
-            "text": "疑問詞「Who」用於詢問人物，後面接be動詞「is」和人名。",
-            "category": "其他"
-          },
-          {
-            "word": "the man",
-            "text": "「the man」使用定冠詞「the」，表示特指前面提到的厄爾·史賓賽。",
+            "word": "the",
+            "text": "'the' 是定冠詞，用於特指 'White House press pool'。",
             "category": "冠詞"
           },
           {
-            "word": "at the center of",
-            "text": "片語「at the center of」意為「在…的中心」，這裡指在皇室傳奇的中心。",
+            "word": "under",
+            "text": "'under threat' 是一個固定片語，表示「受到威脅」。",
             "category": "介係詞"
           },
           {
-            "word": "latest",
-            "text": "形容詞「latest」是「late」的最高級，意為「最新的」。",
-            "category": "其他"
-          },
-          {
-            "word": "royal saga",
-            "text": "「royal」是形容詞「皇室的」，修飾名詞「saga」（傳奇、長篇故事）。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Which bird has the most melodious song? A new study has an answer",
-      "url": "https://edition.cnn.com/2026/09/19/science/birdsong-pleasing-qualities-human-psychology",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Which bird has the most melodious song? A new study has an answer",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/science/birdsong-pleasing-qualities-human-psychology",
-        "zh": "哪種鳥的歌聲最悅耳？一項新研究有了答案。",
-        "accepted": [
-          [
-            "Which",
-            "bird",
-            "has",
-            "the",
-            "most",
-            "melodious",
-            "song",
-            "?",
-            "A",
-            "new",
-            "study",
-            "has",
-            "an",
-            "answer"
-          ]
-        ],
-        "distractors": [
-          "who",
-          "whom",
-          "whose",
-          "what",
-          "where",
-          "when"
-        ],
-        "notes": [
-          {
-            "word": "Which bird",
-            "text": "疑問詞「Which」用於在有限的選擇中詢問「哪一個/哪一種」，後面接名詞「bird」。",
-            "category": "其他"
-          },
-          {
-            "word": "the most melodious",
-            "text": "「the most melodious」是形容詞「melodious」（悅耳的）的最高級形式，表示「最悅耳的」。",
-            "category": "其他"
-          },
-          {
-            "word": "A new study",
-            "text": "「A new study」使用不定冠詞「A」，表示「一項新的研究」，強調其非特指性。",
-            "category": "冠詞"
-          },
-          {
-            "word": "has an answer",
-            "text": "「has an answer」意為「有答案」，「answer」是可數名詞，前面使用不定冠詞「an」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "song",
-            "text": "名詞「song」意為「歌聲、歌曲」，這裡指鳥的歌聲。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Forbidden fruit: How seed espionage and sapling smuggling started a shadow war in Asia",
-      "url": "https://edition.cnn.com/2026/09/19/asia/asia-fruit-smuggling-seed-espionage-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Forbidden fruit: How seed espionage and sapling smuggling started a shadow war in Asia",
-        "sourceUrl": "https://edition.cnn.com/2026/09/19/asia/asia-fruit-smuggling-seed-espionage-intl-hnk",
-        "zh": "禁果：種子間諜活動和樹苗走私如何在亞洲引發了一場影子戰爭。",
-        "accepted": [
-          [
-            "Forbidden",
-            "fruit",
-            ":",
-            "How",
-            "seed",
-            "espionage",
-            "and",
-            "sapling",
-            "smuggling",
-            "started",
-            "a",
-            "shadow",
-            "war",
-            "in",
-            "Asia"
-          ]
-        ],
-        "distractors": [
-          "forbid",
-          "forbade",
-          "forbidding",
-          "forbids",
-          "forbidder",
-          "forbiddingly"
-        ],
-        "notes": [
-          {
-            "word": "Forbidden fruit",
-            "text": "「Forbidden fruit」意為「禁果」，是聖經典故，指被禁止的事物，有誘惑力。",
-            "category": "其他"
-          },
-          {
-            "word": "How",
-            "text": "疑問副詞「How」在這裡引導一個名詞子句，說明「如何」發生某事。",
-            "category": "其他"
-          },
-          {
-            "word": "seed espionage and sapling smuggling",
-            "text": "「espionage」（間諜活動）和「smuggling」（走私）是名詞，前面分別有修飾詞「seed」（種子）和「sapling」（樹苗）。",
-            "category": "其他"
-          },
-          {
-            "word": "started",
-            "text": "動詞「started」是過去式，表示事件已經發生。",
+            "word": "now",
+            "text": "'now' 是時間副詞，表示「現在」。",
             "category": "時態"
-          },
-          {
-            "word": "a shadow war",
-            "text": "「a shadow war」使用不定冠詞「a」，表示「一場影子戰爭」，「shadow war」指秘密進行的戰爭。",
-            "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Ed Sheeran set for Philadelphia show after opening acts withdraw",
+      "en": "Ed Sheeran apologizes for ‘mistakes’ in first show since Macklemore was removed from tour, other openers quit",
       "url": "https://edition.cnn.com/2026/09/19/entertainment/ed-sheeran-tour-philadelphia",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Ed Sheeran set for Philadelphia show after opening acts withdraw",
+        "sourceEn": "Ed Sheeran apologizes for ‘mistakes’ in first show since Macklemore was removed from tour, other openers quit",
         "sourceUrl": "https://edition.cnn.com/2026/09/19/entertainment/ed-sheeran-tour-philadelphia",
-        "zh": "開場表演者退出後，紅髮艾德將在費城演出。",
+        "zh": "艾德·希蘭為自麥可莫爾被巡演除名、其他開場歌手退出以來的第一場演出中的「錯誤」道歉。",
         "accepted": [
           [
             "Ed",
             "Sheeran",
-            "set",
+            "apologizes",
             "for",
-            "Philadelphia",
+            "‘mistakes’",
+            "in",
+            "first",
             "show",
-            "after",
-            "opening",
-            "acts",
-            "withdraw"
+            "since",
+            "Macklemore",
+            "was",
+            "removed",
+            "from",
+            "tour,",
+            "other",
+            "openers",
+            "quit"
           ]
         ],
         "distractors": [
-          "sets",
-          "setting",
-          "settle",
-          "settled",
-          "settler",
-          "settlement"
+          "apologize",
+          "mistake",
+          "shows",
+          "remove",
+          "quits",
+          "opener"
         ],
         "notes": [
           {
-            "word": "set for",
-            "text": "片語「be set for」意為「為…做好準備」或「預定進行…」，這裡指紅髮艾德預定在費城演出。",
-            "category": "其他"
-          },
-          {
-            "word": "Philadelphia show",
-            "text": "「Philadelphia」是地名，在這裡作形容詞修飾名詞「show」（演出）。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "介係詞「after」表示「在…之後」，引導時間狀語。",
-            "category": "介係詞"
-          },
-          {
-            "word": "opening acts",
-            "text": "「opening acts」指「開場表演者」，「acts」是複數。",
+            "word": "apologizes",
+            "text": "主語 'Ed Sheeran' 是單數第三人稱，因此動詞使用現在簡單式的單數形式 'apologizes'。",
             "category": "單複數"
           },
           {
-            "word": "withdraw",
-            "text": "動詞「withdraw」在這裡是現在式，用於新聞標題中，表示事件發生或正在發生，使標題更具即時性。",
+            "word": "for",
+            "text": "'apologize for' 是固定搭配，表示「為...道歉」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "mistakes",
+            "text": "'mistakes' 是複數名詞，表示多個「錯誤」。",
+            "category": "單複數"
+          },
+          {
+            "word": "since",
+            "text": "'since' 在這裡作介係詞，表示「自從...以來」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "was removed",
+            "text": "這是被動語態，表示麥可莫爾「被移除」。",
             "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Eat the ‘dodgy sandwich,’ says chef David Chang",
+      "url": "https://edition.cnn.com/2026/09/20/travel/chef-david-chang-detour-travel-advice",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Eat the ‘dodgy sandwich,’ says chef David Chang",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/travel/chef-david-chang-detour-travel-advice",
+        "zh": "「吃掉那個『可疑的三明治』吧，」主廚張大衛說。",
+        "accepted": [
+          [
+            "Eat",
+            "the",
+            "‘dodgy",
+            "sandwich,’",
+            "says",
+            "chef",
+            "David",
+            "Chang"
+          ]
+        ],
+        "distractors": [
+          "eats",
+          "dodgily",
+          "sandwiches",
+          "said",
+          "say",
+          "cheff"
+        ],
+        "notes": [
+          {
+            "word": "Eat",
+            "text": "這是一個祈使句，動詞使用原形 'Eat'。",
+            "category": "其他"
+          },
+          {
+            "word": "the",
+            "text": "'the' 是定冠詞，用於特指那個「可疑的三明治」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "dodgy",
+            "text": "'dodgy' 是形容詞，表示「可疑的」或「不可靠的」。",
+            "category": "其他"
+          },
+          {
+            "word": "says",
+            "text": "引述語句後，主語 'chef David Chang' 是單數第三人稱，因此動詞使用現在簡單式的單數形式 'says'。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Can laughing make you healthier? What to know",
+      "url": "https://edition.cnn.com/2026/09/20/health/laughter-for-good-health-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Can laughing make you healthier? What to know",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/health/laughter-for-good-health-wellness",
+        "zh": "笑能讓你更健康嗎？你需要知道什麼。",
+        "accepted": [
+          [
+            "Can",
+            "laughing",
+            "make",
+            "you",
+            "healthier?",
+            "What",
+            "to",
+            "know"
+          ]
+        ],
+        "distractors": [
+          "laughs",
+          "makes",
+          "healthy",
+          "health",
+          "knowing",
+          "can't"
+        ],
+        "notes": [
+          {
+            "word": "laughing",
+            "text": "'laughing' 在這裡作動名詞，充當句子的主語，表示「笑」這個行為。",
+            "category": "其他"
+          },
+          {
+            "word": "make",
+            "text": "情態動詞 'Can' 後接動詞原形 'make'。",
+            "category": "其他"
+          },
+          {
+            "word": "healthier",
+            "text": "'healthier' 是形容詞 'healthy' 的比較級，表示「更健康的」。",
+            "category": "其他"
+          },
+          {
+            "word": "What to know",
+            "text": "'What to know' 是一個常見的省略句式，意思是「你需要知道什麼」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Paramount nears merger settlement, but some key state AGs aren’t on board yet",
+      "url": "https://edition.cnn.com/2026/09/20/media/paramount-wbd-settlement-california-connecticut-bonta",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Paramount nears merger settlement, but some key state AGs aren’t on board yet",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/media/paramount-wbd-settlement-california-connecticut-bonta",
+        "zh": "派拉蒙接近達成合併和解，但一些關鍵的州檢察長尚未同意。",
+        "accepted": [
+          [
+            "Paramount",
+            "nears",
+            "merger",
+            "settlement,",
+            "but",
+            "some",
+            "key",
+            "state",
+            "AGs",
+            "aren’t",
+            "on",
+            "board",
+            "yet"
+          ]
+        ],
+        "distractors": [
+          "near",
+          "merges",
+          "settle",
+          "is",
+          "boards",
+          "already"
+        ],
+        "notes": [
+          {
+            "word": "nears",
+            "text": "主語 'Paramount' 是單數第三人稱，因此動詞使用現在簡單式的單數形式 'nears'。",
+            "category": "單複數"
+          },
+          {
+            "word": "merger",
+            "text": "'merger' 在這裡作名詞，表示「合併」。",
+            "category": "其他"
+          },
+          {
+            "word": "AGs",
+            "text": "'AGs' 是 'Attorney Generals'（檢察長）的縮寫，這裡是複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "aren’t on board yet",
+            "text": "'on board' 是一個片語，表示「同意」或「參與」，'aren’t on board yet' 表示「尚未同意」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Police report ICE-involved shooting in Austin, Texas",
+      "url": "https://edition.cnn.com/2026/09/20/us/austin-texas-ice-shooting",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Police report ICE-involved shooting in Austin, Texas",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/us/austin-texas-ice-shooting",
+        "zh": "警方報告在德州奧斯汀發生涉及ICE的槍擊事件。",
+        "accepted": [
+          [
+            "Police",
+            "report",
+            "ICE-involved",
+            "shooting",
+            "in",
+            "Austin,",
+            "Texas"
+          ]
+        ],
+        "distractors": [
+          "reports",
+          "shootings",
+          "involving",
+          "at",
+          "polices",
+          "Texan"
+        ],
+        "notes": [
+          {
+            "word": "Police",
+            "text": "'Police' 作為集體名詞，通常視為複數，因此動詞使用原形 'report'。",
+            "category": "單複數"
+          },
+          {
+            "word": "ICE-involved",
+            "text": "'ICE-involved' 是複合形容詞，修飾 'shooting'，表示「涉及ICE的」。",
+            "category": "其他"
+          },
+          {
+            "word": "shooting",
+            "text": "'shooting' 在這裡作名詞，表示「槍擊事件」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "'in' 用於表示地點，指「在奧斯汀，德州」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Tensions escalate in Middle East ahead of high-stakes UN General Assembly. Here’s what to know",
+      "url": "https://edition.cnn.com/2026/09/20/middleeast/mideast-tensions-un-general-assembly-heres-what-to-know",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Tensions escalate in Middle East ahead of high-stakes UN General Assembly. Here’s what to know",
+        "sourceUrl": "https://edition.cnn.com/2026/09/20/middleeast/mideast-tensions-un-general-assembly-heres-what-to-know",
+        "zh": "在聯合國大會高風險會議前，中東地區緊張局勢升級。以下是需要了解的。",
+        "accepted": [
+          [
+            "Tensions",
+            "escalate",
+            "in",
+            "Middle",
+            "East",
+            "ahead",
+            "of",
+            "high-stakes",
+            "UN",
+            "General",
+            "Assembly.",
+            "Here’s",
+            "what",
+            "to",
+            "know"
+          ]
+        ],
+        "distractors": [
+          "tension",
+          "escalates",
+          "on",
+          "ahead",
+          "stake",
+          "knowing"
+        ],
+        "notes": [
+          {
+            "word": "Tensions",
+            "text": "'Tensions' 是複數名詞，表示「緊張局勢」。",
+            "category": "單複數"
+          },
+          {
+            "word": "escalate",
+            "text": "主語 'Tensions' 是複數，因此動詞使用原形 'escalate'。",
+            "category": "單複數"
+          },
+          {
+            "word": "in",
+            "text": "'in' 用於表示地點，指「在中東地區」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "ahead of",
+            "text": "'ahead of' 是一個複合介係詞，表示「在...之前」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "high-stakes",
+            "text": "'high-stakes' 是複合形容詞，修飾 'UN General Assembly'，表示「高風險的」。",
+            "category": "其他"
           }
         ]
       }
