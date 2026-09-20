@@ -1066,7 +1066,7 @@ export default function App() {
                 {streakInfo.longestStreak > streakInfo.streak && `（最佳 ${streakInfo.longestStreak}）`}
               </span>
               <span className="st-momentum-item">
-                今天已拼 {Math.min(todayCount, DAILY_GOAL)}/{DAILY_GOAL} 句{todayCount >= DAILY_GOAL ? " ✓" : ""}
+                今天已拼 {todayCount}/{DAILY_GOAL} 句{todayCount >= DAILY_GOAL ? " ✓" : ""}
               </span>
             </div>
           )}
