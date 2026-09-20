@@ -137,13 +137,21 @@ html, body, #root { height: 100%; margin: 0; }
 .st-cal-nav:disabled:hover{ color:inherit; }
 .st-cal-grid{ display:grid; grid-template-columns:repeat(7,1fr); gap:4px; margin-bottom:4px; }
 .st-cal-wd{ text-align:center; font-size:11px; color:#9fc4b4; }
-.st-cal-cell{ aspect-ratio:1; display:flex; align-items:center; justify-content:center; border-radius:6px; font-size:11.5px; color:#9fc4b4; background:rgba(255,255,255,.04); }
-.st-cal-empty{ background:none; }
+/* most cells are <button> (tappable, for the day-detail feature below);
+   blank leading/trailing padding cells stay plain <span> — reset button
+   chrome so both render identically */
+.st-cal-cell{ aspect-ratio:1; display:flex; align-items:center; justify-content:center; border-radius:6px; font-size:11.5px; color:#9fc4b4; background:rgba(255,255,255,.04); font-family:inherit; border:0; padding:0; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.st-cal-cell:hover{ filter:brightness(1.15); }
+.st-cal-empty{ background:none; cursor:default; }
 .st-cal-lvl1{ background:rgba(43,180,137,.28); color:#EAE6DA; }
 .st-cal-lvl2{ background:rgba(43,180,137,.55); color:#F5EFDF; }
 .st-cal-lvl3{ background:var(--jade); color:#0d1e18; font-weight:600; }
 .st-cal-today{ box-shadow:inset 0 0 0 1.5px #F4C95D; }
+.st-cal-selected{ box-shadow:inset 0 0 0 1.5px #F5EFDF; }
+.st-cal-today.st-cal-selected{ box-shadow:inset 0 0 0 1.5px #F5EFDF, inset 0 0 0 3px #F4C95D; }
 .st-cal-summary{ margin:8px 0 0; font-size:12.5px; color:#9fc4b4; text-align:center; }
+.st-cal-detail{ margin:6px 0 0; font-size:12.5px; color:#dcefe6; text-align:center; display:flex; align-items:center; justify-content:center; gap:8px; }
+.st-cal-clear{ font-size:12px; }
 .st-history{ display:flex; flex-direction:column; gap:10px; }
 .st-hitem{ background:rgba(0,0,0,.18); border:1px solid var(--felt-line); border-radius:12px; padding:12px 15px; }
 .st-hrow{ display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
