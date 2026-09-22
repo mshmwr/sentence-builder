@@ -1,743 +1,672 @@
 {
-  "date": "2026-09-21",
-  "fetchedAt": "2026-09-21T23:06:04.237Z",
+  "date": "2026-09-22",
+  "fetchedAt": "2026-09-22T22:50:12.999Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "CNN, MS NOW and Politico sue Trump administration over White House access",
-      "url": "https://edition.cnn.com/2026/09/21/politics/cnn-politico-msnow-sue-white-house-access",
+      "en": "Satellite of Category 5 Hurricane Polo off the Mexican coast on Tuesday morning. CIRA/CSU & NOAA",
+      "url": "https://edition.cnn.com/2026/09/22/weather/hurricane-polo-category-5-mexico-climate",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN, MS NOW and Politico sue Trump administration over White House access",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/politics/cnn-politico-msnow-sue-white-house-access",
-        "zh": "CNN、MS NOW 和 Politico 因白宮採訪權問題起訴川普政府。",
+        "sourceEn": "Satellite of Category 5 Hurricane Polo off the Mexican coast on Tuesday morning. CIRA/CSU & NOAA",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/weather/hurricane-polo-category-5-mexico-climate",
+        "zh": "週二上午，五級颶風波羅的衛星影像在墨西哥海岸外。",
+        "accepted": [
+          [
+            "Satellite",
+            "of",
+            "Category",
+            "5",
+            "Hurricane",
+            "Polo",
+            "off",
+            "the",
+            "Mexican",
+            "coast",
+            "on",
+            "Tuesday",
+            "morning",
+            "."
+          ]
+        ],
+        "distractors": [
+          "from",
+          "near",
+          "during",
+          "afternoon",
+          "yesterday",
+          "storm"
+        ],
+        "notes": [
+          {
+            "word": "of",
+            "text": "在這裡，'of' 表示所屬關係，即「波羅颶風的衛星影像」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "off",
+            "text": "'off' 在這裡表示「離開…一段距離」或「在…之外」，指衛星影像是在墨西哥海岸外拍攝的。",
+            "category": "介係詞"
+          },
+          {
+            "word": "on",
+            "text": "'on' 用於特定的日期或時間，如 'on Tuesday morning' (在週二上午)。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Category 5",
+            "text": "'Category 5' 是指颶風的強度等級，數字和名詞之間沒有連字號。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Poll NAVCENT Public Affairs/US Central Command Public Affairs",
+      "url": "https://edition.cnn.com/2026/09/22/politics/cnn-poll-donald-trump-foreign-affairs-iran-war",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Poll NAVCENT Public Affairs/US Central Command Public Affairs",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/politics/cnn-poll-donald-trump-foreign-affairs-iran-war",
+        "zh": "CNN民意調查",
         "accepted": [
           [
             "CNN",
-            ",",
-            "MS",
-            "NOW",
-            "and",
-            "Politico",
-            "sue",
-            "Trump",
-            "administration",
-            "over",
-            "White",
-            "House",
-            "access"
+            "Poll"
           ]
         ],
         "distractors": [
-          "sued",
-          "accessing",
-          "administrate",
+          "Survey",
+          "Question",
+          "Vote",
+          "Results",
+          "News"
+        ],
+        "notes": [
+          {
+            "word": "CNN",
+            "text": "CNN是美國有線電視新聞網的縮寫，通常直接使用縮寫。",
+            "category": "其他"
+          },
+          {
+            "word": "Poll",
+            "text": "'Poll' 指的是民意調查或投票。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Fact check: Trump’s false claims to the United Nations",
+      "url": "https://edition.cnn.com/2026/09/22/politics/fact-check-trump-united-nations",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Fact check: Trump’s false claims to the United Nations",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/politics/fact-check-trump-united-nations",
+        "zh": "事實查核：川普對聯合國的虛假聲明",
+        "accepted": [
+          [
+            "Fact",
+            "check",
+            ":",
+            "Trump’s",
+            "false",
+            "claims",
+            "to",
+            "the",
+            "United",
+            "Nations"
+          ]
+        ],
+        "distractors": [
+          "true",
+          "statement",
+          "about",
+          "for",
           "against",
-          "the",
-          "their"
+          "President"
         ],
         "notes": [
           {
-            "word": "sue",
-            "text": "「sue」是動詞，意為「起訴」。在這裡，它表示CNN等媒體正在對川普政府採取法律行動。",
+            "word": "Fact check",
+            "text": "'Fact check' 是一個常用詞組，意為「事實查核」。",
             "category": "其他"
           },
           {
-            "word": "over",
-            "text": "「over」在這裡作為介係詞，表示「關於」或「因為...問題」。它說明了起訴的原因是白宮採訪權的問題。",
-            "category": "介係詞"
-          },
-          {
-            "word": "access",
-            "text": "「access」是名詞，意為「進入的權利」或「使用權」。在這裡，它指的是媒體進入白宮進行採訪的權利。",
+            "word": "Trump’s",
+            "text": "'Trump’s' 是 'Trump' 的所有格形式，表示「川普的」。",
             "category": "其他"
           },
           {
-            "word": "administration",
-            "text": "「administration」在這裡指「政府」或「行政部門」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Iran to attend UN assembly in New York — even as peace with US remains elusive",
-      "url": "https://edition.cnn.com/2026/09/21/middleeast/iran-president-un-general-assembly-new-york-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Iran to attend UN assembly in New York — even as peace with US remains elusive",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/middleeast/iran-president-un-general-assembly-new-york-intl",
-        "zh": "伊朗將出席在紐約舉行的聯合國大會——儘管與美國的和平仍然遙不可及。",
-        "accepted": [
-          [
-            "Iran",
-            "to",
-            "attend",
-            "UN",
-            "assembly",
-            "in",
-            "New",
-            "York",
-            "—",
-            "even",
-            "as",
-            "peace",
-            "with",
-            "US",
-            "remains",
-            "elusive"
-          ]
-        ],
-        "distractors": [
-          "attends",
-          "attended",
-          "remaining",
-          "remain",
-          "the",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "to attend",
-            "text": "「to attend」是不定詞片語，表示將要發生的動作。在這裡，它說明伊朗將會出席聯合國大會。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "「in」作為介係詞，表示地點。在這裡，它指聯合國大會將在紐約舉行。",
-            "category": "介係詞"
-          },
-          {
-            "word": "even as",
-            "text": "「even as」是一個連接詞片語，表示「即使在...的時候」或「儘管」。它引導一個讓步子句，說明儘管和平遙不可及，伊朗仍將出席。",
-            "category": "其他"
-          },
-          {
-            "word": "remains",
-            "text": "「remains」是動詞「remain」的第三人稱單數現在式，表示「保持」或「仍然是」。在這裡，它說明和平仍然是遙不可及的狀態。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Police investigating death of Cindy Crawford’s son, model Presley Gerber, as ‘suspected overdose’",
-      "url": "https://edition.cnn.com/2026/09/21/style/presley-gerber-cindy-crawford-son-death-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Police investigating death of Cindy Crawford’s son, model Presley Gerber, as ‘suspected overdose’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/style/presley-gerber-cindy-crawford-son-death-hnk",
-        "zh": "警方正在調查辛蒂·克勞馥的兒子、模特兒普雷斯利·格柏的死因，將其列為「疑似用藥過量」。",
-        "accepted": [
-          [
-            "Police",
-            "investigating",
-            "death",
-            "of",
-            "Cindy",
-            "Crawford’s",
-            "son",
-            ",",
-            "model",
-            "Presley",
-            "Gerber",
-            ",",
-            "as",
-            "‘suspected",
-            "overdose’"
-          ]
-        ],
-        "distractors": [
-          "investigated",
-          "investigate",
-          "dies",
-          "died",
-          "the",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "investigating",
-            "text": "「investigating」是現在分詞，表示正在進行的動作。這裡省略了助動詞「are」，形成現在進行式，說明警方正在調查。",
-            "category": "時態"
-          },
-          {
-            "word": "of",
-            "text": "「of」作為介係詞，表示所有格或關聯。在這裡，它連接「death」和「Cindy Crawford’s son」，說明是誰的死亡。",
-            "category": "介係詞"
-          },
-          {
-            "word": "as",
-            "text": "「as」在這裡作為介係詞，表示「作為」或「被認為是」。它說明警方將死因定性為「疑似用藥過量」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "‘suspected overdose’",
-            "text": "「suspected overdose」意為「疑似用藥過量」。這是警方對死因的初步判斷。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Alcohol use has declined for the first time since Covid-19, with Gen Zers and millennials leading the charge",
-      "url": "https://edition.cnn.com/2026/09/21/health/alcohol-use-decline-study-wellness",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Alcohol use has declined for the first time since Covid-19, with Gen Zers and millennials leading the charge",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/health/alcohol-use-decline-study-wellness",
-        "zh": "自新冠疫情以來，酒精使用量首次下降，其中Z世代和千禧世代是主要推動者。",
-        "accepted": [
-          [
-            "Alcohol",
-            "use",
-            "has",
-            "declined",
-            "for",
-            "the",
-            "first",
-            "time",
-            "since",
-            "Covid-19",
-            ",",
-            "with",
-            "Gen",
-            "Zers",
-            "and",
-            "millennials",
-            "leading",
-            "the",
-            "charge"
-          ]
-        ],
-        "distractors": [
-          "declines",
-          "decline",
-          "lead",
-          "led",
-          "a",
-          "an"
-        ],
-        "notes": [
-          {
-            "word": "has declined",
-            "text": "「has declined」是現在完成式，表示從過去某個時間點（Covid-19以來）開始，一直持續到現在的動作或狀態。它強調了酒精使用量下降的結果。",
-            "category": "時態"
-          },
-          {
-            "word": "for the first time",
-            "text": "「for the first time」是一個片語，意為「首次」。它強調了這次下降是前所未有的。",
-            "category": "其他"
-          },
-          {
-            "word": "since",
-            "text": "「since」作為介係詞，表示「自從...以來」。它指明了酒精使用量下降的時間起點是Covid-19。",
-            "category": "介係詞"
-          },
-          {
-            "word": "leading the charge",
-            "text": "「leading the charge」是一個慣用語，意為「帶頭」或「引領潮流」。在這裡，它說明Z世代和千禧世代是酒精使用量下降的主要群體。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "A tiny ‘goth’ bird was nearly extinct. Now it’s New Zealand’s Bird of the Year",
-      "url": "https://edition.cnn.com/2026/09/21/travel/new-zealand-bird-of-the-year-2026-intl-scli",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A tiny ‘goth’ bird was nearly extinct. Now it’s New Zealand’s Bird of the Year",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/travel/new-zealand-bird-of-the-year-2026-intl-scli",
-        "zh": "一隻小小的「哥德式」鳥類曾瀕臨滅絕。現在牠是紐西蘭的年度鳥類。",
-        "accepted": [
-          [
-            "A",
-            "tiny",
-            "‘goth’",
-            "bird",
-            "was",
-            "nearly",
-            "extinct",
-            ".",
-            "Now",
-            "it’s",
-            "New",
-            "Zealand’s",
-            "Bird",
-            "of",
-            "the",
-            "Year"
-          ]
-        ],
-        "distractors": [
-          "is",
-          "were",
-          "become",
-          "becomes",
-          "an",
-          "this"
-        ],
-        "notes": [
-          {
-            "word": "A",
-            "text": "「A」是不定冠詞，用於修飾單數可數名詞「tiny ‘goth’ bird」，表示「一隻」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "was",
-            "text": "「was」是動詞「be」的過去式單數形式，表示過去的狀態。它說明這隻鳥在過去曾瀕臨滅絕。",
-            "category": "時態"
-          },
-          {
-            "word": "nearly extinct",
-            "text": "「nearly extinct」意為「幾乎滅絕」。形容詞「extinct」表示「滅絕的」。",
-            "category": "其他"
-          },
-          {
-            "word": "it’s",
-            "text": "「it’s」是「it is」的縮寫，表示現在的狀態。它說明這隻鳥現在是紐西蘭的年度鳥類。",
-            "category": "時態"
-          },
-          {
-            "word": "of",
-            "text": "「of」作為介係詞，表示所有格或關聯。在這裡，它連接「Bird」和「the Year」，說明是「年度的鳥類」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "State attorneys general agree to settle Paramount merger lawsuit",
-      "url": "https://edition.cnn.com/2026/09/21/media/paramount-wbd-settlement-cnn-ellison-bonta-lawsuit",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "State attorneys general agree to settle Paramount merger lawsuit",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/media/paramount-wbd-settlement-cnn-ellison-bonta-lawsuit",
-        "zh": "州檢察長同意和解派拉蒙合併訴訟案。",
-        "accepted": [
-          [
-            "State",
-            "attorneys",
-            "general",
-            "agree",
-            "to",
-            "settle",
-            "Paramount",
-            "merger",
-            "lawsuit"
-          ]
-        ],
-        "distractors": [
-          "agreed",
-          "agrees",
-          "settles",
-          "settled",
-          "a",
-          "the"
-        ],
-        "notes": [
-          {
-            "word": "attorneys general",
-            "text": "「attorneys general」是「attorney general」（檢察長）的複數形式，表示多位檢察長。這是英語中少數名詞複數化時，形容詞也跟著變化的情況。",
+            "word": "claims",
+            "text": "'claims' 在這裡作名詞，意為「聲明」或「主張」，是複數形式。",
             "category": "單複數"
           },
           {
-            "word": "agree to settle",
-            "text": "「agree to settle」表示「同意和解」。動詞「agree」後面接不定詞「to settle」表示同意做某事。",
-            "category": "其他"
-          },
-          {
-            "word": "merger lawsuit",
-            "text": "「merger lawsuit」意為「合併訴訟案」。「merger」是名詞，表示「合併」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Travel meltdown caused by aging circuit and backup system failure, transportation officials say",
-      "url": "https://edition.cnn.com/2026/09/21/us/airport-delays-equipment-failure",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Travel meltdown caused by aging circuit and backup system failure, transportation officials say",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/us/airport-delays-equipment-failure",
-        "zh": "交通官員表示，旅行癱瘓是由老化的電路和備用系統故障造成的。",
-        "accepted": [
-          [
-            "Travel",
-            "meltdown",
-            "caused",
-            "by",
-            "aging",
-            "circuit",
-            "and",
-            "backup",
-            "system",
-            "failure",
-            ",",
-            "transportation",
-            "officials",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "causes",
-          "causing",
-          "said",
-          "says",
-          "a",
-          "the"
-        ],
-        "notes": [
-          {
-            "word": "caused",
-            "text": "「caused」是動詞「cause」的過去分詞，在這裡構成被動語態，表示「由...造成」。這裡省略了助動詞「was」，形成被動語態的簡化形式。",
-            "category": "時態"
-          },
-          {
-            "word": "by",
-            "text": "「by」作為介係詞，表示動作的執行者或原因。在這裡，它說明了造成旅行癱瘓的原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "aging circuit",
-            "text": "「aging circuit」意為「老化的電路」。「aging」是現在分詞作形容詞，修飾「circuit」。",
-            "category": "其他"
-          },
-          {
-            "word": "system failure",
-            "text": "「system failure」意為「系統故障」。",
-            "category": "其他"
-          },
-          {
-            "word": "say",
-            "text": "「say」是動詞，表示「說」或「表示」。在這裡，它說明了交通官員是這項資訊的來源。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "2 dead after helicopter crashes in Yosemite during Dome Fire operations",
-      "url": "https://edition.cnn.com/2026/09/21/us/yosemite-helicopter-crash-dome-fire",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "2 dead after helicopter crashes in Yosemite during Dome Fire operations",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/us/yosemite-helicopter-crash-dome-fire",
-        "zh": "在巨蛋火災行動期間，一架直升機在優勝美地墜毀，造成2人死亡。",
-        "accepted": [
-          [
-            "2",
-            "dead",
-            "after",
-            "helicopter",
-            "crashes",
-            "in",
-            "Yosemite",
-            "during",
-            "Dome",
-            "Fire",
-            "operations"
-          ]
-        ],
-        "distractors": [
-          "died",
-          "dies",
-          "crashed",
-          "crashing",
-          "a",
-          "the"
-        ],
-        "notes": [
-          {
-            "word": "dead",
-            "text": "「dead」是形容詞，表示「死亡的」。在這裡，它說明了死亡的人數。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "「after」作為介係詞，表示「在...之後」。它說明了死亡事件發生在直升機墜毀之後。",
-            "category": "介係詞"
-          },
-          {
-            "word": "crashes",
-            "text": "「crashes」是動詞「crash」的第三人稱單數現在式，表示事件的發生。新聞標題常用現在式來描述過去發生的事件，以增加即時感。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "「in」作為介係詞，表示地點。在這裡，它指直升機墜毀的地點是優勝美地。",
-            "category": "介係詞"
-          },
-          {
-            "word": "during",
-            "text": "「during」作為介係詞，表示「在...期間」。它說明了墜毀事件發生在巨蛋火災行動期間。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Epstein left millions to his closest advisers. Here’s why they might never get it",
-      "url": "https://edition.cnn.com/2026/09/21/politics/jeffrey-epstein-estate-lawsuit-vis",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Epstein left millions to his closest advisers. Here’s why they might never get it",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/politics/jeffrey-epstein-estate-lawsuit-vis",
-        "zh": "愛潑斯坦將數百萬美元留給了他最親近的顧問。這就是他們可能永遠拿不到錢的原因。",
-        "accepted": [
-          [
-            "Epstein",
-            "left",
-            "millions",
-            "to",
-            "his",
-            "closest",
-            "advisers",
-            ".",
-            "Here’s",
-            "why",
-            "they",
-            "might",
-            "never",
-            "get",
-            "it"
-          ]
-        ],
-        "distractors": [
-          "leaves",
-          "leaving",
-          "might not",
-          "will",
-          "a",
-          "the"
-        ],
-        "notes": [
-          {
-            "word": "left",
-            "text": "「left」是動詞「leave」的過去式，表示「留下」或「遺贈」。它說明愛潑斯坦已經將錢遺贈給顧問。",
-            "category": "時態"
-          },
-          {
             "word": "to",
-            "text": "「to」作為介係詞，表示動作的方向或接受者。在這裡，它指錢是留給他的顧問的。",
+            "text": "'to' 在這裡表示聲明是「對」聯合國發出的。",
             "category": "介係詞"
           },
           {
-            "word": "Here’s why",
-            "text": "「Here’s why」是一個常用片語，意為「這就是為什麼」。它引導一個解釋原因的子句。",
-            "category": "其他"
-          },
-          {
-            "word": "might never get",
-            "text": "「might never get」表示「可能永遠也拿不到」。助動詞「might」表示可能性，而「never」加強了否定的語氣。",
-            "category": "時態"
+            "word": "the United Nations",
+            "text": "'United Nations' 是專有名詞「聯合國」，前面通常需要冠詞 'the'。",
+            "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Mexico’s government says there will be ‘zero impunity’ for feminicide. Many women say they feel vulnerable",
-      "url": "https://edition.cnn.com/2026/09/21/americas/mexico-femicide-spain-student-latam-intl",
+      "en": "Trump’s press ban prompts widespread solidarity — and fewer images of the president",
+      "url": "https://edition.cnn.com/2026/09/22/media/trump-cnn-msnow-politico-white-house-ban-solidarity-media",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Mexico’s government says there will be ‘zero impunity’ for feminicide. Many women say they feel vulnerable",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/americas/mexico-femicide-spain-student-latam-intl",
-        "zh": "墨西哥政府表示將對女性滅絕事件「零容忍」。許多女性表示她們感到脆弱。",
+        "sourceEn": "Trump’s press ban prompts widespread solidarity — and fewer images of the president",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/media/trump-cnn-msnow-politico-white-house-ban-solidarity-media",
+        "zh": "川普的媒體禁令引發廣泛聲援——以及更少的總統照片",
         "accepted": [
           [
-            "Mexico’s",
-            "government",
-            "says",
-            "there",
-            "will",
-            "be",
-            "‘zero",
-            "impunity’",
-            "for",
-            "feminicide",
-            ".",
-            "Many",
-            "women",
-            "say",
-            "they",
-            "feel",
-            "vulnerable"
+            "Trump’s",
+            "press",
+            "ban",
+            "prompts",
+            "widespread",
+            "solidarity",
+            "—",
+            "and",
+            "fewer",
+            "images",
+            "of",
+            "the",
+            "president"
           ]
         ],
         "distractors": [
-          "said",
-          "saying",
-          "feels",
-          "felt",
-          "a",
-          "the"
+          "media",
+          "prohibits",
+          "support",
+          "more",
+          "pictures",
+          "leader"
         ],
         "notes": [
           {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式。新聞標題常用現在式來描述正在發生的或最新的聲明。",
+            "word": "Trump’s",
+            "text": "'Trump’s' 是 'Trump' 的所有格形式，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "press ban",
+            "text": "'press ban' 指的是「媒體禁令」。'press' 在此指新聞媒體。",
+            "category": "其他"
+          },
+          {
+            "word": "prompts",
+            "text": "'prompts' 是動詞，意為「促使」或「引發」，這裡用的是第三人稱單數現在式。",
             "category": "時態"
           },
           {
-            "word": "will be",
-            "text": "「will be」是未來式，表示將會發生的狀態。它說明政府將會實施「零容忍」。",
-            "category": "時態"
+            "word": "fewer",
+            "text": "'fewer' 用於可數名詞（如 'images'），表示「更少的」。",
+            "category": "其他"
           },
           {
-            "word": "‘zero impunity’",
-            "text": "「zero impunity」意為「零容忍」或「不容許任何罪行不受懲罰」。",
+            "word": "solidarity",
+            "text": "'solidarity' 是名詞，意為「團結」或「聲援」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "50 travel destinations to inspire you for 2027, chosen by Lonely Planet",
+      "url": "https://edition.cnn.com/2026/09/22/travel/lonely-planet-best-in-travel-2027",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "50 travel destinations to inspire you for 2027, chosen by Lonely Planet",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/travel/lonely-planet-best-in-travel-2027",
+        "zh": "由《孤獨星球》選出的50個旅遊目的地，為你的2027年旅行提供靈感。",
+        "accepted": [
+          [
+            "50",
+            "travel",
+            "destinations",
+            "to",
+            "inspire",
+            "you",
+            "for",
+            "2027",
+            ",",
+            "chosen",
+            "by",
+            "Lonely",
+            "Planet"
+          ]
+        ],
+        "distractors": [
+          "places",
+          "motivate",
+          "in",
+          "from",
+          "select",
+          "guide"
+        ],
+        "notes": [
+          {
+            "word": "destinations",
+            "text": "'destinations' 是名詞「目的地」的複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "to inspire",
+            "text": "'to inspire' 是不定詞片語，表示目的，即「為了激勵你」。",
             "category": "其他"
           },
           {
             "word": "for",
-            "text": "「for」作為介係詞，表示原因或對象。在這裡，它指「零容忍」的對象是「feminicide」（女性滅絕）。",
+            "text": "'for' 在這裡表示時間範圍，即「為了2027年」。",
             "category": "介係詞"
           },
           {
-            "word": "feel vulnerable",
-            "text": "「feel vulnerable」意為「感到脆弱」。",
+            "word": "chosen",
+            "text": "'chosen' 是動詞 'choose' 的過去分詞，在這裡作後置定語，修飾 'destinations'，表示「被選出的」。",
+            "category": "時態"
+          },
+          {
+            "word": "by",
+            "text": "'by' 在被動語態中表示動作的執行者，即「由《孤獨星球》選出」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "As smart glasses become more widespread, so too does the backlash",
+      "url": "https://edition.cnn.com/2026/09/22/tech/london-privacy-pushback-meta-smart-glasses",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "As smart glasses become more widespread, so too does the backlash",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/tech/london-privacy-pushback-meta-smart-glasses",
+        "zh": "隨著智慧眼鏡越來越普及，反彈也隨之而來。",
+        "accepted": [
+          [
+            "As",
+            "smart",
+            "glasses",
+            "become",
+            "more",
+            "widespread",
+            ",",
+            "so",
+            "too",
+            "does",
+            "the",
+            "backlash"
+          ]
+        ],
+        "distractors": [
+          "When",
+          "intelligent",
+          "less",
+          "common",
+          "also",
+          "resistance"
+        ],
+        "notes": [
+          {
+            "word": "As",
+            "text": "'As' 在這裡引導時間狀語從句，表示「隨著…」。",
+            "category": "其他"
+          },
+          {
+            "word": "glasses",
+            "text": "'glasses' 在這裡指「眼鏡」，通常用複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "become",
+            "text": "'become' 是動詞，意為「變得」，這裡用的是原形動詞，與 'glasses' 複數主語一致。",
+            "category": "時態"
+          },
+          {
+            "word": "more widespread",
+            "text": "'more widespread' 是形容詞 'widespread' 的比較級，表示「更普及」。",
+            "category": "其他"
+          },
+          {
+            "word": "so too does",
+            "text": "'so too does' 是一種倒裝句型，表示「…也一樣」或「…也隨之而來」，強調後者與前者情況相同。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "The tragic death of a woman who testified against her mafia father after he murdered her mother",
-      "url": "https://edition.cnn.com/2026/09/21/europe/italy-denise-cosco-death-mafia-father-garofalo-intl",
+      "en": "CNN Exclusive Kawee Srital-on/Moment RF/Getty Images",
+      "url": "https://edition.cnn.com/2026/09/22/health/narcolepsy-hollywood-report-wellness",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The tragic death of a woman who testified against her mafia father after he murdered her mother",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/europe/italy-denise-cosco-death-mafia-father-garofalo-intl",
-        "zh": "一名女性在她母親被謀殺後，出庭指證她的黑手黨父親，最終悲慘地死去。",
+        "sourceEn": "CNN Exclusive Kawee Srital-on/Moment RF/Getty Images",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/health/narcolepsy-hollywood-report-wellness",
+        "zh": "CNN獨家報導",
         "accepted": [
           [
-            "The",
-            "tragic",
-            "death",
-            "of",
-            "a",
-            "woman",
-            "who",
-            "testified",
-            "against",
-            "her",
-            "mafia",
-            "father",
-            "after",
-            "he",
-            "murdered",
-            "her",
-            "mother"
+            "CNN",
+            "Exclusive"
           ]
         ],
         "distractors": [
-          "dies",
-          "died",
-          "testifies",
-          "testify",
-          "murders",
-          "murdering"
+          "Report",
+          "News",
+          "Special",
+          "Only",
+          "Story"
         ],
         "notes": [
           {
-            "word": "The",
-            "text": "「The」是定冠詞，用於特指「tragic death」（悲慘的死亡）。",
+            "word": "CNN",
+            "text": "CNN是美國有線電視新聞網的縮寫，通常直接使用縮寫。",
+            "category": "其他"
+          },
+          {
+            "word": "Exclusive",
+            "text": "'Exclusive' 在這裡作名詞，意為「獨家新聞」或「獨家報導」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Looksmaxxing celebrity Clavicular charged with rape in Massachusetts",
+      "url": "https://edition.cnn.com/2026/09/22/us/clavicular-charged-rape-cec",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Looksmaxxing celebrity Clavicular charged with rape in Massachusetts",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/us/clavicular-charged-rape-cec",
+        "zh": "Looksmaxxing名人Clavicular在麻薩諸塞州被控強姦。",
+        "accepted": [
+          [
+            "Looksmaxxing",
+            "celebrity",
+            "Clavicular",
+            "charged",
+            "with",
+            "rape",
+            "in",
+            "Massachusetts"
+          ]
+        ],
+        "distractors": [
+          "famous",
+          "accused",
+          "of",
+          "assault",
+          "at",
+          "state"
+        ],
+        "notes": [
+          {
+            "word": "Looksmaxxing",
+            "text": "'Looksmaxxing' 是一個新興詞彙，指透過各種方式提升外貌。",
+            "category": "其他"
+          },
+          {
+            "word": "charged with",
+            "text": "'charged with' 是固定搭配，意為「被控告…罪名」。",
+            "category": "其他"
+          },
+          {
+            "word": "rape",
+            "text": "'rape' 在這裡作名詞，意為「強姦」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "'in' 用於表示地點，即「在麻薩諸塞州」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hayden Panettiere died from an accidental overdose that included fentanyl, coroner’s office says",
+      "url": "https://edition.cnn.com/2026/09/22/us/hayden-panettiere-cause-of-death-tuesday",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hayden Panettiere died from an accidental overdose that included fentanyl, coroner’s office says",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/us/hayden-panettiere-cause-of-death-tuesday",
+        "zh": "海頓·潘妮蒂爾死於意外過量，其中包括芬太尼，驗屍官辦公室表示。",
+        "accepted": [
+          [
+            "Hayden",
+            "Panettiere",
+            "died",
+            "from",
+            "an",
+            "accidental",
+            "overdose",
+            "that",
+            "included",
+            "fentanyl",
+            ",",
+            "coroner’s",
+            "office",
+            "says"
+          ]
+        ],
+        "distractors": [
+          "passed",
+          "away",
+          "of",
+          "a",
+          "intentional",
+          "contained"
+        ],
+        "notes": [
+          {
+            "word": "died from",
+            "text": "'died from' 表示死於某種原因或疾病。",
+            "category": "介係詞"
+          },
+          {
+            "word": "an",
+            "text": "'an' 是不定冠詞，用於發音以元音開頭的單數可數名詞前，如 'an accidental overdose'。",
             "category": "冠詞"
           },
           {
-            "word": "of",
-            "text": "「of」作為介係詞，表示所有格或關聯。在這裡，它連接「death」和「a woman」，說明是誰的死亡。",
-            "category": "介係詞"
-          },
-          {
-            "word": "who",
-            "text": "「who」是關係代名詞，引導一個形容詞子句，修飾前面的「a woman」，說明這位女性的行為。",
+            "word": "overdose",
+            "text": "'overdose' 是名詞，意為「過量服用」。",
             "category": "其他"
           },
           {
-            "word": "testified",
-            "text": "「testified」是動詞「testify」的過去式，表示「作證」。",
+            "word": "included",
+            "text": "'included' 是動詞 'include' 的過去式，表示「包含」。",
             "category": "時態"
           },
           {
-            "word": "against",
-            "text": "「against」作為介係詞，表示「反對」或「對抗」。在這裡，它指這位女性作證的對象是她的父親。",
-            "category": "介係詞"
+            "word": "coroner’s office",
+            "text": "'coroner’s office' 是所有格形式，指「驗屍官辦公室」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump administration says most refugees accepted in 2027 will be White South Africans",
+      "url": "https://edition.cnn.com/2026/09/22/politics/trump-administration-south-african-refugees",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump administration says most refugees accepted in 2027 will be White South Africans",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/politics/trump-administration-south-african-refugees",
+        "zh": "川普政府表示，2027年大多數被接受的難民將是白人南非人。",
+        "accepted": [
+          [
+            "Trump",
+            "administration",
+            "says",
+            "most",
+            "refugees",
+            "accepted",
+            "in",
+            "2027",
+            "will",
+            "be",
+            "White",
+            "South",
+            "Africans"
+          ]
+        ],
+        "distractors": [
+          "government",
+          "stated",
+          "many",
+          "immigrants",
+          "for",
+          "are"
+        ],
+        "notes": [
+          {
+            "word": "Trump administration",
+            "text": "'Trump administration' 指「川普政府」。",
+            "category": "其他"
           },
           {
-            "word": "after",
-            "text": "「after」作為連接詞，引導一個時間子句，表示「在...之後」。它說明了作證發生在她母親被謀殺之後。",
-            "category": "介係詞"
+            "word": "says",
+            "text": "'says' 是動詞 'say' 的第三人稱單數現在式，表示「表示」或「說」。",
+            "category": "時態"
           },
           {
-            "word": "murdered",
-            "text": "「murdered」是動詞「murder」的過去式，表示「謀殺」。",
+            "word": "refugees",
+            "text": "'refugees' 是名詞「難民」的複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "accepted",
+            "text": "'accepted' 是動詞 'accept' 的過去分詞，在這裡作後置定語，修飾 'refugees'，表示「被接受的」。",
+            "category": "時態"
+          },
+          {
+            "word": "will be",
+            "text": "'will be' 是未來式，表示將會是。",
             "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Man convicted of killing Indiana teens wants new trial and blames confessions under psychosis",
-      "url": "https://edition.cnn.com/2026/09/21/us/delphi-murders-richard-allen-appeal",
+      "en": "Spain clears way for US extradition case against millionaire activist",
+      "url": "https://edition.cnn.com/2026/09/22/europe/fergie-chambers-spain-us-extradition-case-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Man convicted of killing Indiana teens wants new trial and blames confessions under psychosis",
-        "sourceUrl": "https://edition.cnn.com/2026/09/21/us/delphi-murders-richard-allen-appeal",
-        "zh": "一名被判殺害印第安納州青少年的男子想要重新審判，並歸咎於精神病下的供詞。",
+        "sourceEn": "Spain clears way for US extradition case against millionaire activist",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/europe/fergie-chambers-spain-us-extradition-case-intl",
+        "zh": "西班牙為美國引渡百萬富翁活動家的案件掃清障礙。",
         "accepted": [
           [
-            "Man",
-            "convicted",
-            "of",
-            "killing",
-            "Indiana",
-            "teens",
-            "wants",
-            "new",
-            "trial",
-            "and",
-            "blames",
-            "confessions",
-            "under",
-            "psychosis"
+            "Spain",
+            "clears",
+            "way",
+            "for",
+            "US",
+            "extradition",
+            "case",
+            "against",
+            "millionaire",
+            "activist"
           ]
         ],
         "distractors": [
-          "convicts",
-          "convicting",
-          "wanted",
-          "wanting",
-          "blamed",
-          "blaming"
+          "opens",
+          "path",
+          "of",
+          "American",
+          "trial",
+          "protester"
         ],
         "notes": [
           {
-            "word": "convicted",
-            "text": "「convicted」是動詞「convict」的過去分詞，在這裡作形容詞，修飾「Man」，表示「被判有罪的」。",
+            "word": "clears way",
+            "text": "'clears way' 是一個詞組，意為「掃清障礙」或「為…鋪平道路」。",
             "category": "其他"
           },
           {
-            "word": "of",
-            "text": "「of」作為介係詞，表示原因或罪名。在這裡，它指被判有罪的罪名是「killing Indiana teens」（殺害印第安納州青少年）。",
+            "word": "for",
+            "text": "'for' 在這裡表示目的，即「為了…案件」。",
             "category": "介係詞"
           },
           {
-            "word": "wants",
-            "text": "「wants」是動詞「want」的第三人稱單數現在式。新聞標題常用現在式來描述正在發生的或最新的請求。",
-            "category": "時態"
+            "word": "US",
+            "text": "'US' 是 'United States' 的縮寫，在這裡作形容詞，修飾 'extradition'，表示「美國的」。",
+            "category": "其他"
           },
           {
-            "word": "blames",
-            "text": "「blames」是動詞「blame」的第三人稱單數現在式，表示「歸咎於」。它與「wants」並列，說明男子的兩個訴求。",
-            "category": "時態"
+            "word": "extradition case",
+            "text": "'extradition case' 指的是「引渡案件」。",
+            "category": "其他"
           },
           {
-            "word": "under",
-            "text": "「under」作為介係詞，表示「在...情況下」。在這裡，它指供詞是在「psychosis」（精神病）的情況下做出的。",
+            "word": "against",
+            "text": "'against' 在這裡表示「針對」或「反對」。",
             "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What we know — and don’t — about Paramount’s Hollywood plans",
+      "url": "https://edition.cnn.com/2026/09/22/media/paramount-warner-discovery-merger-hollywood-ellison",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "What we know — and don’t — about Paramount’s Hollywood plans",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/media/paramount-warner-discovery-merger-hollywood-ellison",
+        "zh": "我們對派拉蒙好萊塢計劃的了解——和不了解。",
+        "accepted": [
+          [
+            "What",
+            "we",
+            "know",
+            "—",
+            "and",
+            "don’t",
+            "—",
+            "about",
+            "Paramount’s",
+            "Hollywood",
+            "plans"
+          ]
+        ],
+        "distractors": [
+          "How",
+          "understand",
+          "but",
+          "do",
+          "of",
+          "studio"
+        ],
+        "notes": [
+          {
+            "word": "What",
+            "text": "'What' 在這裡引導名詞子句，作 'know' 和 'don’t' 的賓語，表示「我們所知道的（事情）」。",
+            "category": "其他"
+          },
+          {
+            "word": "know",
+            "text": "'know' 是動詞，意為「知道」。",
+            "category": "時態"
+          },
+          {
+            "word": "don’t",
+            "text": "'don’t' 是 'do not' 的縮寫，這裡省略了 'know'，表示「不知道」。",
+            "category": "時態"
+          },
+          {
+            "word": "about",
+            "text": "'about' 在這裡表示「關於」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Paramount’s",
+            "text": "'Paramount’s' 是 'Paramount' 的所有格形式，表示「派拉蒙的」。",
+            "category": "其他"
           }
         ]
       }
