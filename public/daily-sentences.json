@@ -1,671 +1,710 @@
 {
-  "date": "2026-09-22",
-  "fetchedAt": "2026-09-22T22:50:12.999Z",
+  "date": "2026-09-23",
+  "fetchedAt": "2026-09-23T22:51:14.713Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Satellite of Category 5 Hurricane Polo off the Mexican coast on Tuesday morning. CIRA/CSU & NOAA",
-      "url": "https://edition.cnn.com/2026/09/22/weather/hurricane-polo-category-5-mexico-climate",
+      "en": "Sam Altman, Dario Amodei urge UN Security Council to adopt international AI standards",
+      "url": "https://edition.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Satellite of Category 5 Hurricane Polo off the Mexican coast on Tuesday morning. CIRA/CSU & NOAA",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/weather/hurricane-polo-category-5-mexico-climate",
-        "zh": "週二上午，五級颶風波羅的衛星影像在墨西哥海岸外。",
+        "sourceEn": "Sam Altman, Dario Amodei urge UN Security Council to adopt international AI standards",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council",
+        "zh": "山姆·奧特曼和達里奧·阿莫迪敦促聯合國安理會採納國際人工智慧標準。",
         "accepted": [
           [
-            "Satellite",
-            "of",
-            "Category",
-            "5",
-            "Hurricane",
-            "Polo",
-            "off",
-            "the",
-            "Mexican",
-            "coast",
-            "on",
-            "Tuesday",
-            "morning",
-            "."
+            "Sam",
+            "Altman",
+            ",",
+            "Dario",
+            "Amodei",
+            "urge",
+            "UN",
+            "Security",
+            "Council",
+            "to",
+            "adopt",
+            "international",
+            "AI",
+            "standards"
           ]
         ],
         "distractors": [
-          "from",
-          "near",
-          "during",
-          "afternoon",
-          "yesterday",
-          "storm"
+          "adopts",
+          "urged",
+          "standard",
+          "internationally",
+          "the",
+          "an"
         ],
         "notes": [
           {
-            "word": "of",
-            "text": "在這裡，'of' 表示所屬關係，即「波羅颶風的衛星影像」。",
+            "word": "urge",
+            "text": "動詞「urge」意為「敦促、力勸」。在這裡，它表示Sam Altman和Dario Amodei強烈建議聯合國安理會採取某項行動。",
+            "category": "其他"
+          },
+          {
+            "word": "adopt",
+            "text": "動詞「adopt」意為「採納、採用」。這裡指安理會採納國際人工智慧標準。",
+            "category": "其他"
+          },
+          {
+            "word": "standards",
+            "text": "名詞「standards」是「標準」的複數形式。由於指的是多個或一整套標準，因此使用複數。",
+            "category": "單複數"
+          },
+          {
+            "word": "international",
+            "text": "形容詞「international」意為「國際的」。它修飾名詞「AI standards」，說明這些標準是國際性的。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘I’m a f**king US citizen’: Man left injured after ICE mistakenly detained him, officials say",
+      "url": "https://edition.cnn.com/2026/09/22/us/ice-agents-mistakenly-detain-us-citizen",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘I’m a f**king US citizen’: Man left injured after ICE mistakenly detained him, officials say",
+        "sourceUrl": "https://edition.cnn.com/2026/09/22/us/ice-agents-mistakenly-detain-us-citizen",
+        "zh": "「我是個他媽的美國公民」：官員稱，一名男子在移民及海關執法局（ICE）錯誤拘留他後受傷。",
+        "accepted": [
+          [
+            "‘I’m",
+            "a",
+            "f**king",
+            "US",
+            "citizen’",
+            ":",
+            "Man",
+            "left",
+            "injured",
+            "after",
+            "ICE",
+            "mistakenly",
+            "detained",
+            "him",
+            ",",
+            "officials",
+            "say"
+          ]
+        ],
+        "distractors": [
+          "citizen’s",
+          "injuring",
+          "detain",
+          "mistake",
+          "said",
+          "the"
+        ],
+        "notes": [
+          {
+            "word": "left injured",
+            "text": "「left injured」是一個動詞片語，表示「被留下受傷的狀態」。這裡的「left」是動詞leave的過去分詞，作系動詞，後面接形容詞「injured」作補語，說明主語「Man」的狀態。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "介係詞「after」表示「在…之後」。它引導一個時間狀語從句，說明男子受傷的時間點是在ICE錯誤拘留他之後。",
             "category": "介係詞"
           },
           {
-            "word": "off",
-            "text": "'off' 在這裡表示「離開…一段距離」或「在…之外」，指衛星影像是在墨西哥海岸外拍攝的。",
-            "category": "介係詞"
+            "word": "detained",
+            "text": "動詞「detained」是「detain」（拘留）的過去式。這裡用過去式是因為拘留事件已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "mistakenly",
+            "text": "副詞「mistakenly」意為「錯誤地」。它修飾動詞「detained」，說明ICE的拘留行為是錯誤的。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘India is the only place left with this level of skill’: Chanakya is changing the worldview on Indian craft",
+      "url": "https://edition.cnn.com/2026/09/23/style/chanakya-international-fashion-anniversary",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘India is the only place left with this level of skill’: Chanakya is changing the worldview on Indian craft",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/style/chanakya-international-fashion-anniversary",
+        "zh": "「印度是唯一仍擁有這種技能水準的地方」：Chanakya正在改變世人對印度工藝的看法。",
+        "accepted": [
+          [
+            "‘India",
+            "is",
+            "the",
+            "only",
+            "place",
+            "left",
+            "with",
+            "this",
+            "level",
+            "of",
+            "skill’",
+            ":",
+            "Chanakya",
+            "is",
+            "changing",
+            "the",
+            "worldview",
+            "on",
+            "Indian",
+            "craft"
+          ]
+        ],
+        "distractors": [
+          "skill’s",
+          "change",
+          "worldviews",
+          "crafts",
+          "a",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "is changing",
+            "text": "「is changing」是現在進行式，表示Chanakya正在進行改變世界觀的動作，強調動作的持續性。",
+            "category": "時態"
+          },
+          {
+            "word": "the only place",
+            "text": "「the only place」中的「the」是定冠詞，用於修飾「only」，強調這是「唯一」的地方。",
+            "category": "冠詞"
+          },
+          {
+            "word": "level of skill",
+            "text": "「level of skill」意為「技能水準」。這裡的「skill」是不可數名詞，表示技能的總體概念。",
+            "category": "單複數"
           },
           {
             "word": "on",
-            "text": "'on' 用於特定的日期或時間，如 'on Tuesday morning' (在週二上午)。",
+            "text": "介係詞「on」在這裡表示「關於、對於」，說明世界觀是關於印度工藝的。",
             "category": "介係詞"
-          },
-          {
-            "word": "Category 5",
-            "text": "'Category 5' 是指颶風的強度等級，數字和名詞之間沒有連字號。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "CNN Poll NAVCENT Public Affairs/US Central Command Public Affairs",
-      "url": "https://edition.cnn.com/2026/09/22/politics/cnn-poll-donald-trump-foreign-affairs-iran-war",
+      "en": "Just wait till ‘To Catch a Predator’ star Chris Hansen actually sees the ugly movie about him",
+      "url": "https://edition.cnn.com/2026/09/23/entertainment/primetime-movie-chris-hansen-robert-pattinson",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN Poll NAVCENT Public Affairs/US Central Command Public Affairs",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/politics/cnn-poll-donald-trump-foreign-affairs-iran-war",
-        "zh": "CNN民意調查",
+        "sourceEn": "Just wait till ‘To Catch a Predator’ star Chris Hansen actually sees the ugly movie about him",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/entertainment/primetime-movie-chris-hansen-robert-pattinson",
+        "zh": "等《追捕掠食者》的主演克里斯·漢森真正看到那部關於他的醜陋電影時，他會怎麼想。",
         "accepted": [
           [
-            "CNN",
-            "Poll"
-          ]
-        ],
-        "distractors": [
-          "Survey",
-          "Question",
-          "Vote",
-          "Results",
-          "News"
-        ],
-        "notes": [
-          {
-            "word": "CNN",
-            "text": "CNN是美國有線電視新聞網的縮寫，通常直接使用縮寫。",
-            "category": "其他"
-          },
-          {
-            "word": "Poll",
-            "text": "'Poll' 指的是民意調查或投票。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Fact check: Trump’s false claims to the United Nations",
-      "url": "https://edition.cnn.com/2026/09/22/politics/fact-check-trump-united-nations",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Fact check: Trump’s false claims to the United Nations",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/politics/fact-check-trump-united-nations",
-        "zh": "事實查核：川普對聯合國的虛假聲明",
-        "accepted": [
-          [
-            "Fact",
-            "check",
-            ":",
-            "Trump’s",
-            "false",
-            "claims",
-            "to",
+            "Just",
+            "wait",
+            "till",
+            "‘To",
+            "Catch",
+            "a",
+            "Predator’",
+            "star",
+            "Chris",
+            "Hansen",
+            "actually",
+            "sees",
             "the",
-            "United",
-            "Nations"
+            "ugly",
+            "movie",
+            "about",
+            "him"
           ]
         ],
         "distractors": [
-          "true",
-          "statement",
-          "about",
-          "for",
-          "against",
-          "President"
+          "waited",
+          "see",
+          "stars",
+          "movies",
+          "an",
+          "for"
         ],
         "notes": [
           {
-            "word": "Fact check",
-            "text": "'Fact check' 是一個常用詞組，意為「事實查核」。",
+            "word": "wait till",
+            "text": "「wait till」是一個口語表達，意為「等到…的時候」。這裡的「till」與「until」同義。",
             "category": "其他"
           },
           {
-            "word": "Trump’s",
-            "text": "'Trump’s' 是 'Trump' 的所有格形式，表示「川普的」。",
-            "category": "其他"
+            "word": "sees",
+            "text": "動詞「sees」是動詞「see」的第三人稱單數現在式。因為主語「Chris Hansen」是第三人稱單數，且語境是將來發生的動作，所以使用現在式動詞。",
+            "category": "時態"
           },
           {
-            "word": "claims",
-            "text": "'claims' 在這裡作名詞，意為「聲明」或「主張」，是複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "to",
-            "text": "'to' 在這裡表示聲明是「對」聯合國發出的。",
-            "category": "介係詞"
-          },
-          {
-            "word": "the United Nations",
-            "text": "'United Nations' 是專有名詞「聯合國」，前面通常需要冠詞 'the'。",
+            "word": "a Predator",
+            "text": "「a Predator」中的「a」是不定冠詞，表示「一個」掠食者，指代某個不特定的個體。",
             "category": "冠詞"
+          },
+          {
+            "word": "about",
+            "text": "介係詞「about」意為「關於」。它說明這部電影的內容是關於克里斯·漢森的。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Trump’s press ban prompts widespread solidarity — and fewer images of the president",
-      "url": "https://edition.cnn.com/2026/09/22/media/trump-cnn-msnow-politico-white-house-ban-solidarity-media",
+      "en": "Son of Israeli ambassador to US critically injured in West Bank ramming attack",
+      "url": "https://edition.cnn.com/2026/09/23/world/son-of-israeli-ambassador-to-the-us-injured-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump’s press ban prompts widespread solidarity — and fewer images of the president",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/media/trump-cnn-msnow-politico-white-house-ban-solidarity-media",
-        "zh": "川普的媒體禁令引發廣泛聲援——以及更少的總統照片",
+        "sourceEn": "Son of Israeli ambassador to US critically injured in West Bank ramming attack",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/world/son-of-israeli-ambassador-to-the-us-injured-intl",
+        "zh": "以色列駐美大使之子在約旦河西岸的衝撞襲擊中受重傷。",
         "accepted": [
           [
-            "Trump’s",
-            "press",
-            "ban",
-            "prompts",
-            "widespread",
-            "solidarity",
-            "—",
-            "and",
-            "fewer",
-            "images",
+            "Son",
             "of",
-            "the",
-            "president"
-          ]
-        ],
-        "distractors": [
-          "media",
-          "prohibits",
-          "support",
-          "more",
-          "pictures",
-          "leader"
-        ],
-        "notes": [
-          {
-            "word": "Trump’s",
-            "text": "'Trump’s' 是 'Trump' 的所有格形式，表示「川普的」。",
-            "category": "其他"
-          },
-          {
-            "word": "press ban",
-            "text": "'press ban' 指的是「媒體禁令」。'press' 在此指新聞媒體。",
-            "category": "其他"
-          },
-          {
-            "word": "prompts",
-            "text": "'prompts' 是動詞，意為「促使」或「引發」，這裡用的是第三人稱單數現在式。",
-            "category": "時態"
-          },
-          {
-            "word": "fewer",
-            "text": "'fewer' 用於可數名詞（如 'images'），表示「更少的」。",
-            "category": "其他"
-          },
-          {
-            "word": "solidarity",
-            "text": "'solidarity' 是名詞，意為「團結」或「聲援」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "50 travel destinations to inspire you for 2027, chosen by Lonely Planet",
-      "url": "https://edition.cnn.com/2026/09/22/travel/lonely-planet-best-in-travel-2027",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "50 travel destinations to inspire you for 2027, chosen by Lonely Planet",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/travel/lonely-planet-best-in-travel-2027",
-        "zh": "由《孤獨星球》選出的50個旅遊目的地，為你的2027年旅行提供靈感。",
-        "accepted": [
-          [
-            "50",
-            "travel",
-            "destinations",
+            "Israeli",
+            "ambassador",
             "to",
-            "inspire",
-            "you",
-            "for",
-            "2027",
-            ",",
-            "chosen",
-            "by",
-            "Lonely",
-            "Planet"
-          ]
-        ],
-        "distractors": [
-          "places",
-          "motivate",
-          "in",
-          "from",
-          "select",
-          "guide"
-        ],
-        "notes": [
-          {
-            "word": "destinations",
-            "text": "'destinations' 是名詞「目的地」的複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "to inspire",
-            "text": "'to inspire' 是不定詞片語，表示目的，即「為了激勵你」。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "'for' 在這裡表示時間範圍，即「為了2027年」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "chosen",
-            "text": "'chosen' 是動詞 'choose' 的過去分詞，在這裡作後置定語，修飾 'destinations'，表示「被選出的」。",
-            "category": "時態"
-          },
-          {
-            "word": "by",
-            "text": "'by' 在被動語態中表示動作的執行者，即「由《孤獨星球》選出」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "As smart glasses become more widespread, so too does the backlash",
-      "url": "https://edition.cnn.com/2026/09/22/tech/london-privacy-pushback-meta-smart-glasses",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "As smart glasses become more widespread, so too does the backlash",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/tech/london-privacy-pushback-meta-smart-glasses",
-        "zh": "隨著智慧眼鏡越來越普及，反彈也隨之而來。",
-        "accepted": [
-          [
-            "As",
-            "smart",
-            "glasses",
-            "become",
-            "more",
-            "widespread",
-            ",",
-            "so",
-            "too",
-            "does",
-            "the",
-            "backlash"
-          ]
-        ],
-        "distractors": [
-          "When",
-          "intelligent",
-          "less",
-          "common",
-          "also",
-          "resistance"
-        ],
-        "notes": [
-          {
-            "word": "As",
-            "text": "'As' 在這裡引導時間狀語從句，表示「隨著…」。",
-            "category": "其他"
-          },
-          {
-            "word": "glasses",
-            "text": "'glasses' 在這裡指「眼鏡」，通常用複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "become",
-            "text": "'become' 是動詞，意為「變得」，這裡用的是原形動詞，與 'glasses' 複數主語一致。",
-            "category": "時態"
-          },
-          {
-            "word": "more widespread",
-            "text": "'more widespread' 是形容詞 'widespread' 的比較級，表示「更普及」。",
-            "category": "其他"
-          },
-          {
-            "word": "so too does",
-            "text": "'so too does' 是一種倒裝句型，表示「…也一樣」或「…也隨之而來」，強調後者與前者情況相同。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CNN Exclusive Kawee Srital-on/Moment RF/Getty Images",
-      "url": "https://edition.cnn.com/2026/09/22/health/narcolepsy-hollywood-report-wellness",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CNN Exclusive Kawee Srital-on/Moment RF/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/health/narcolepsy-hollywood-report-wellness",
-        "zh": "CNN獨家報導",
-        "accepted": [
-          [
-            "CNN",
-            "Exclusive"
-          ]
-        ],
-        "distractors": [
-          "Report",
-          "News",
-          "Special",
-          "Only",
-          "Story"
-        ],
-        "notes": [
-          {
-            "word": "CNN",
-            "text": "CNN是美國有線電視新聞網的縮寫，通常直接使用縮寫。",
-            "category": "其他"
-          },
-          {
-            "word": "Exclusive",
-            "text": "'Exclusive' 在這裡作名詞，意為「獨家新聞」或「獨家報導」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Looksmaxxing celebrity Clavicular charged with rape in Massachusetts",
-      "url": "https://edition.cnn.com/2026/09/22/us/clavicular-charged-rape-cec",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Looksmaxxing celebrity Clavicular charged with rape in Massachusetts",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/us/clavicular-charged-rape-cec",
-        "zh": "Looksmaxxing名人Clavicular在麻薩諸塞州被控強姦。",
-        "accepted": [
-          [
-            "Looksmaxxing",
-            "celebrity",
-            "Clavicular",
-            "charged",
-            "with",
-            "rape",
+            "US",
+            "critically",
+            "injured",
             "in",
-            "Massachusetts"
+            "West",
+            "Bank",
+            "ramming",
+            "attack"
           ]
         ],
         "distractors": [
-          "famous",
-          "accused",
-          "of",
-          "assault",
-          "at",
-          "state"
+          "sons",
+          "injures",
+          "attacks",
+          "critical",
+          "an",
+          "on"
         ],
         "notes": [
           {
-            "word": "Looksmaxxing",
-            "text": "'Looksmaxxing' 是一個新興詞彙，指透過各種方式提升外貌。",
+            "word": "Son of",
+            "text": "「Son of」表示「…的兒子」，是一種常見的所有格表達方式。",
             "category": "其他"
           },
           {
-            "word": "charged with",
-            "text": "'charged with' 是固定搭配，意為「被控告…罪名」。",
-            "category": "其他"
-          },
-          {
-            "word": "rape",
-            "text": "'rape' 在這裡作名詞，意為「強姦」。",
+            "word": "critically injured",
+            "text": "「critically injured」是一個形容詞片語，表示「受重傷」。副詞「critically」修飾形容詞「injured」，強調傷勢的嚴重性。",
             "category": "其他"
           },
           {
             "word": "in",
-            "text": "'in' 用於表示地點，即「在麻薩諸塞州」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Hayden Panettiere died from an accidental overdose that included fentanyl, coroner’s office says",
-      "url": "https://edition.cnn.com/2026/09/22/us/hayden-panettiere-cause-of-death-tuesday",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Hayden Panettiere died from an accidental overdose that included fentanyl, coroner’s office says",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/us/hayden-panettiere-cause-of-death-tuesday",
-        "zh": "海頓·潘妮蒂爾死於意外過量，其中包括芬太尼，驗屍官辦公室表示。",
-        "accepted": [
-          [
-            "Hayden",
-            "Panettiere",
-            "died",
-            "from",
-            "an",
-            "accidental",
-            "overdose",
-            "that",
-            "included",
-            "fentanyl",
-            ",",
-            "coroner’s",
-            "office",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "passed",
-          "away",
-          "of",
-          "a",
-          "intentional",
-          "contained"
-        ],
-        "notes": [
-          {
-            "word": "died from",
-            "text": "'died from' 表示死於某種原因或疾病。",
+            "text": "介係詞「in」在這裡表示「在…之中」，說明受傷的事件發生在衝撞襲擊中。",
             "category": "介係詞"
           },
           {
-            "word": "an",
-            "text": "'an' 是不定冠詞，用於發音以元音開頭的單數可數名詞前，如 'an accidental overdose'。",
-            "category": "冠詞"
-          },
-          {
-            "word": "overdose",
-            "text": "'overdose' 是名詞，意為「過量服用」。",
-            "category": "其他"
-          },
-          {
-            "word": "included",
-            "text": "'included' 是動詞 'include' 的過去式，表示「包含」。",
-            "category": "時態"
-          },
-          {
-            "word": "coroner’s office",
-            "text": "'coroner’s office' 是所有格形式，指「驗屍官辦公室」。",
+            "word": "ramming attack",
+            "text": "「ramming attack」是一個複合名詞，意為「衝撞襲擊」。動名詞「ramming」在這裡作形容詞，修飾名詞「attack」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Trump administration says most refugees accepted in 2027 will be White South Africans",
-      "url": "https://edition.cnn.com/2026/09/22/politics/trump-administration-south-african-refugees",
+      "en": "What Trump’s Greenland deal could realistically change",
+      "url": "https://edition.cnn.com/2026/09/23/politics/what-does-trump-greenland-deal-military-do",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump administration says most refugees accepted in 2027 will be White South Africans",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/politics/trump-administration-south-african-refugees",
-        "zh": "川普政府表示，2027年大多數被接受的難民將是白人南非人。",
-        "accepted": [
-          [
-            "Trump",
-            "administration",
-            "says",
-            "most",
-            "refugees",
-            "accepted",
-            "in",
-            "2027",
-            "will",
-            "be",
-            "White",
-            "South",
-            "Africans"
-          ]
-        ],
-        "distractors": [
-          "government",
-          "stated",
-          "many",
-          "immigrants",
-          "for",
-          "are"
-        ],
-        "notes": [
-          {
-            "word": "Trump administration",
-            "text": "'Trump administration' 指「川普政府」。",
-            "category": "其他"
-          },
-          {
-            "word": "says",
-            "text": "'says' 是動詞 'say' 的第三人稱單數現在式，表示「表示」或「說」。",
-            "category": "時態"
-          },
-          {
-            "word": "refugees",
-            "text": "'refugees' 是名詞「難民」的複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "accepted",
-            "text": "'accepted' 是動詞 'accept' 的過去分詞，在這裡作後置定語，修飾 'refugees'，表示「被接受的」。",
-            "category": "時態"
-          },
-          {
-            "word": "will be",
-            "text": "'will be' 是未來式，表示將會是。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Spain clears way for US extradition case against millionaire activist",
-      "url": "https://edition.cnn.com/2026/09/22/europe/fergie-chambers-spain-us-extradition-case-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Spain clears way for US extradition case against millionaire activist",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/europe/fergie-chambers-spain-us-extradition-case-intl",
-        "zh": "西班牙為美國引渡百萬富翁活動家的案件掃清障礙。",
-        "accepted": [
-          [
-            "Spain",
-            "clears",
-            "way",
-            "for",
-            "US",
-            "extradition",
-            "case",
-            "against",
-            "millionaire",
-            "activist"
-          ]
-        ],
-        "distractors": [
-          "opens",
-          "path",
-          "of",
-          "American",
-          "trial",
-          "protester"
-        ],
-        "notes": [
-          {
-            "word": "clears way",
-            "text": "'clears way' 是一個詞組，意為「掃清障礙」或「為…鋪平道路」。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "'for' 在這裡表示目的，即「為了…案件」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "US",
-            "text": "'US' 是 'United States' 的縮寫，在這裡作形容詞，修飾 'extradition'，表示「美國的」。",
-            "category": "其他"
-          },
-          {
-            "word": "extradition case",
-            "text": "'extradition case' 指的是「引渡案件」。",
-            "category": "其他"
-          },
-          {
-            "word": "against",
-            "text": "'against' 在這裡表示「針對」或「反對」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "What we know — and don’t — about Paramount’s Hollywood plans",
-      "url": "https://edition.cnn.com/2026/09/22/media/paramount-warner-discovery-merger-hollywood-ellison",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "What we know — and don’t — about Paramount’s Hollywood plans",
-        "sourceUrl": "https://edition.cnn.com/2026/09/22/media/paramount-warner-discovery-merger-hollywood-ellison",
-        "zh": "我們對派拉蒙好萊塢計劃的了解——和不了解。",
+        "sourceEn": "What Trump’s Greenland deal could realistically change",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/politics/what-does-trump-greenland-deal-military-do",
+        "zh": "川普的格陵蘭交易能實際改變什麼？",
         "accepted": [
           [
             "What",
-            "we",
-            "know",
-            "—",
-            "and",
-            "don’t",
-            "—",
-            "about",
-            "Paramount’s",
-            "Hollywood",
-            "plans"
+            "Trump’s",
+            "Greenland",
+            "deal",
+            "could",
+            "realistically",
+            "change"
           ]
         ],
         "distractors": [
-          "How",
-          "understand",
-          "but",
-          "do",
-          "of",
-          "studio"
+          "changed",
+          "changes",
+          "deals",
+          "realism",
+          "the",
+          "for"
         ],
         "notes": [
           {
-            "word": "What",
-            "text": "'What' 在這裡引導名詞子句，作 'know' 和 'don’t' 的賓語，表示「我們所知道的（事情）」。",
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格形式，表示「川普的」。",
             "category": "其他"
           },
           {
-            "word": "know",
-            "text": "'know' 是動詞，意為「知道」。",
-            "category": "時態"
+            "word": "could",
+            "text": "情態動詞「could」表示可能性或潛力，這裡指川普的交易「可能」改變什麼。",
+            "category": "其他"
           },
           {
-            "word": "don’t",
-            "text": "'don’t' 是 'do not' 的縮寫，這裡省略了 'know'，表示「不知道」。",
-            "category": "時態"
+            "word": "realistically",
+            "text": "副詞「realistically」意為「實際地、現實地」。它修飾動詞「change」，說明這種改變是基於現實考量的。",
+            "category": "其他"
           },
           {
-            "word": "about",
-            "text": "'about' 在這裡表示「關於」。",
+            "word": "change",
+            "text": "動詞「change」意為「改變」。在這裡，它作為及物動詞，其賓語是疑問詞「What」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Stroke rates among young adults have nearly doubled",
+      "url": "https://edition.cnn.com/2026/09/23/health/stroke-young-adult-risk-study-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Stroke rates among young adults have nearly doubled",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/health/stroke-young-adult-risk-study-wellness",
+        "zh": "年輕人中風的比例幾乎翻倍。",
+        "accepted": [
+          [
+            "Stroke",
+            "rates",
+            "among",
+            "young",
+            "adults",
+            "have",
+            "nearly",
+            "doubled"
+          ]
+        ],
+        "distractors": [
+          "rate",
+          "doubles",
+          "adult",
+          "stroke’s",
+          "had",
+          "in"
+        ],
+        "notes": [
+          {
+            "word": "rates",
+            "text": "名詞「rates」是「比例、發生率」的複數形式。這裡指的是中風的發生率，通常以複數形式出現。",
+            "category": "單複數"
+          },
+          {
+            "word": "among",
+            "text": "介係詞「among」意為「在…之中」。它用於指三者或三者以上的人或事物之間，這裡指在年輕成年人這個群體中。",
             "category": "介係詞"
           },
           {
-            "word": "Paramount’s",
-            "text": "'Paramount’s' 是 'Paramount' 的所有格形式，表示「派拉蒙的」。",
+            "word": "have doubled",
+            "text": "「have doubled」是現在完成式，表示中風比例翻倍的動作已經完成，並且其結果持續到現在。",
+            "category": "時態"
+          },
+          {
+            "word": "nearly",
+            "text": "副詞「nearly」意為「幾乎、差不多」。它修飾動詞「doubled」，表示程度。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Super-sized El Niño could cause more than 450,000 heat deaths by February, study suggests",
+      "url": "https://edition.cnn.com/2026/09/23/climate/super-el-nino-heat-deaths",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Super-sized El Niño could cause more than 450,000 heat deaths by February, study suggests",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/climate/super-el-nino-heat-deaths",
+        "zh": "研究表明，超強聖嬰現象可能導致到二月為止超過45萬人死於高溫。",
+        "accepted": [
+          [
+            "Super-sized",
+            "El",
+            "Niño",
+            "could",
+            "cause",
+            "more",
+            "than",
+            "450,000",
+            "heat",
+            "deaths",
+            "by",
+            "February",
+            ",",
+            "study",
+            "suggests"
+          ]
+        ],
+        "distractors": [
+          "causes",
+          "death",
+          "suggested",
+          "couldn't",
+          "a",
+          "for"
+        ],
+        "notes": [
+          {
+            "word": "Super-sized",
+            "text": "形容詞「Super-sized」意為「超大型的」。它修飾「El Niño」，強調其規模之大。",
+            "category": "其他"
+          },
+          {
+            "word": "could cause",
+            "text": "「could cause」表示可能性，意為「可能導致」。情態動詞「could」在這裡表達的是一種推測。",
+            "category": "其他"
+          },
+          {
+            "word": "deaths",
+            "text": "名詞「deaths」是「死亡」的複數形式。這裡指的是多達45萬人的死亡，因此使用複數。",
+            "category": "單複數"
+          },
+          {
+            "word": "by February",
+            "text": "介係詞片語「by February」表示「到二月為止」。這裡的「by」表示一個時間的截止點。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Rome’s Colosseum in rare closure after worker falls to his death",
+      "url": "https://edition.cnn.com/2026/09/23/europe/colosseum-rome-closed-worker-death-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Rome’s Colosseum in rare closure after worker falls to his death",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/europe/colosseum-rome-closed-worker-death-intl",
+        "zh": "羅馬競技場在一名工人墜落身亡後罕見關閉。",
+        "accepted": [
+          [
+            "Rome’s",
+            "Colosseum",
+            "in",
+            "rare",
+            "closure",
+            "after",
+            "worker",
+            "falls",
+            "to",
+            "his",
+            "death"
+          ]
+        ],
+        "distractors": [
+          "fall",
+          "closed",
+          "closures",
+          "workers",
+          "a",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "Rome’s",
+            "text": "「Rome’s」是所有格形式，表示「羅馬的」。",
+            "category": "其他"
+          },
+          {
+            "word": "in rare closure",
+            "text": "「in rare closure」意為「罕見地關閉」。這裡的「closure」是名詞，表示關閉的狀態或行為。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "介係詞「after」表示「在…之後」。它引導一個時間狀語，說明關閉的原因發生在工人墜落身亡之後。",
+            "category": "介係詞"
+          },
+          {
+            "word": "falls to his death",
+            "text": "「falls to his death」是一個慣用語，意為「墜落身亡」。這裡的「falls」是動詞「fall」的第三人稱單數現在式，因為主語「worker」是單數。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Poll Trump’s midterm woes deepen amid worsened economic backdrop: CNN poll",
+      "url": "https://edition.cnn.com/2026/09/23/politics/cnn-poll-donald-trump-economy-midterms-vis",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Poll Trump’s midterm woes deepen amid worsened economic backdrop: CNN poll",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/politics/cnn-poll-donald-trump-economy-midterms-vis",
+        "zh": "CNN民調：經濟背景惡化，川普在中期選舉中的困境加深。",
+        "accepted": [
+          [
+            "CNN",
+            "Poll",
+            "Trump’s",
+            "midterm",
+            "woes",
+            "deepen",
+            "amid",
+            "worsened",
+            "economic",
+            "backdrop",
+            ":",
+            "CNN",
+            "poll"
+          ]
+        ],
+        "distractors": [
+          "deepens",
+          "woe",
+          "worsening",
+          "economical",
+          "a",
+          "for"
+        ],
+        "notes": [
+          {
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格形式，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "woes",
+            "text": "名詞「woes」是「woe」（困境、苦惱）的複數形式。這裡指的是多方面的困境。",
+            "category": "單複數"
+          },
+          {
+            "word": "deepen",
+            "text": "動詞「deepen」意為「加深」。這裡用作不及物動詞，表示困境本身在加深。",
+            "category": "其他"
+          },
+          {
+            "word": "amid",
+            "text": "介係詞「amid」意為「在…之中、在…背景下」。它說明困境加深是在經濟背景惡化的情況下發生的。",
+            "category": "介係詞"
+          },
+          {
+            "word": "worsened",
+            "text": "形容詞「worsened」是動詞「worsen」的過去分詞作形容詞，意為「惡化的」。它修飾名詞「economic backdrop」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "KFILE Republican Senate nominee said she was ‘embarrassed’ to be from the state she’s now running to represent",
+      "url": "https://edition.cnn.com/2026/09/23/politics/michele-tafoya-minnesota-comments-kfile",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "KFILE Republican Senate nominee said she was ‘embarrassed’ to be from the state she’s now running to represent",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/politics/michele-tafoya-minnesota-comments-kfile",
+        "zh": "KFILE：共和黨參議院候選人表示，她曾「羞於」來自她現在競選代表的那個州。",
+        "accepted": [
+          [
+            "KFILE",
+            "Republican",
+            "Senate",
+            "nominee",
+            "said",
+            "she",
+            "was",
+            "‘embarrassed’",
+            "to",
+            "be",
+            "from",
+            "the",
+            "state",
+            "she’s",
+            "now",
+            "running",
+            "to",
+            "represent"
+          ]
+        ],
+        "distractors": [
+          "says",
+          "embarrassing",
+          "states",
+          "nominees",
+          "a",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "nominee",
+            "text": "名詞「nominee」意為「被提名人、候選人」。這裡指共和黨參議院的候選人。",
+            "category": "單複數"
+          },
+          {
+            "word": "said",
+            "text": "動詞「said」是「say」的過去式。這裡用過去式是因為引述的發言已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "was embarrassed",
+            "text": "「was embarrassed」是被動語態，表示「感到羞恥」。這裡的「embarrassed」是形容詞，描述主語的感受。",
+            "category": "其他"
+          },
+          {
+            "word": "running to represent",
+            "text": "「running to represent」是一個動詞片語，意為「競選代表」。這裡的「running」是動詞run的現在分詞，表示正在進行的動作。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Harvey Weinstein is sentenced to 15 years in prison for 2006 sex crime in New York",
+      "url": "https://edition.cnn.com/2026/09/23/entertainment/harvey-weinstein-sentenced-metoo",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Harvey Weinstein is sentenced to 15 years in prison for 2006 sex crime in New York",
+        "sourceUrl": "https://edition.cnn.com/2026/09/23/entertainment/harvey-weinstein-sentenced-metoo",
+        "zh": "哈維·溫斯坦因2006年在紐約的性犯罪被判處15年監禁。",
+        "accepted": [
+          [
+            "Harvey",
+            "Weinstein",
+            "is",
+            "sentenced",
+            "to",
+            "15",
+            "years",
+            "in",
+            "prison",
+            "for",
+            "2006",
+            "sex",
+            "crime",
+            "in",
+            "New",
+            "York"
+          ]
+        ],
+        "distractors": [
+          "sentence",
+          "crimes",
+          "year",
+          "sentencing",
+          "a",
+          "on"
+        ],
+        "notes": [
+          {
+            "word": "is sentenced",
+            "text": "「is sentenced」是被動語態，表示「被判刑」。這裡的「is」是現在式，表示判決是一個既定事實。",
+            "category": "時態"
+          },
+          {
+            "word": "years",
+            "text": "名詞「years」是「年」的複數形式。這裡指的是15年，因此使用複數。",
+            "category": "單複數"
+          },
+          {
+            "word": "in prison",
+            "text": "介係詞片語「in prison」意為「在監獄裡」。這裡的「in」表示地點。",
+            "category": "介係詞"
+          },
+          {
+            "word": "for",
+            "text": "介係詞「for」在這裡表示「因為、由於」，說明判刑的原因是2006年的性犯罪。",
+            "category": "介係詞"
+          },
+          {
+            "word": "sex crime",
+            "text": "「sex crime」是一個複合名詞，意為「性犯罪」。這裡的「sex」作形容詞修飾「crime」。",
             "category": "其他"
           }
         ]
