@@ -35,6 +35,18 @@ const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
 const NOTE_CATS = ["時態", "冠詞", "介係詞", "單複數", "其他"]; // must match generate.js prompt rule 5
 const DAILY_GOAL = 3; // today's-progress target — matches the daily list's initial visible count
 
+const FONT_SCALE_KEY = "pinju-font-scale"; // per-device UI scale, not account data — stays in localStorage
+const FONT_SCALE_STEPS = [0.85, 1, 1.15, 1.3, 1.45];
+
+function readFontScale() {
+  try {
+    const saved = Number(localStorage.getItem(FONT_SCALE_KEY));
+    return FONT_SCALE_STEPS.includes(saved) ? saved : 1;
+  } catch {
+    return 1; // storage blocked (private mode) — fall back to default, no crash
+  }
+}
+
 function readLocalKey() {
   try {
     return localStorage.getItem(LS_KEY) || "";
@@ -291,6 +303,26 @@ export default function App() {
     return new Date(d.getFullYear(), d.getMonth(), 1);
   }); // first-of-month shown on 歷史's calendar
   const [selectedDay, setSelectedDay] = useState(null); // "YYYY-MM-DD" — tapped calendar cell, filters the list below
+  const [fontScale, setFontScale] = useState(readFontScale); // A-/A+ control — independent of login, of the phone's own font-size setting
+
+  // applied via `zoom` (not a root font-size) so it scales layout, not just
+  // text — px-based dimensions (tile padding, board width) grow with it too,
+  // which is the whole point given fixed OS text-scaling breaks those
+  useEffect(() => {
+    document.body.style.zoom = fontScale;
+    try {
+      localStorage.setItem(FONT_SCALE_KEY, String(fontScale));
+    } catch {
+      // private mode / storage blocked — scale still applies for this visit
+    }
+  }, [fontScale]);
+
+  const stepFontScale = (dir) => {
+    setFontScale((s) => {
+      const i = FONT_SCALE_STEPS.indexOf(s);
+      return FONT_SCALE_STEPS[Math.min(FONT_SCALE_STEPS.length - 1, Math.max(0, i + dir))];
+    });
+  };
 
   useEffect(() => {
     let latestUid = null; // discard key loads that resolve after an account switch
@@ -776,6 +808,28 @@ export default function App() {
 
   const accountBar = (
     <div className="st-account">
+      <span className="st-fontscale">
+        <button
+          type="button"
+          className="st-linkbtn st-fontscale-btn"
+          onClick={() => stepFontScale(-1)}
+          disabled={fontScale === FONT_SCALE_STEPS[0]}
+          aria-label="縮小字體"
+          title="縮小字體"
+        >
+          A-
+        </button>
+        <button
+          type="button"
+          className="st-linkbtn st-fontscale-btn"
+          onClick={() => stepFontScale(1)}
+          disabled={fontScale === FONT_SCALE_STEPS[FONT_SCALE_STEPS.length - 1]}
+          aria-label="放大字體"
+          title="放大字體"
+        >
+          A+
+        </button>
+      </span>
       {user ? (
         <>
           <button className="st-linkbtn" onClick={onOpenHistory}>歷史</button>
