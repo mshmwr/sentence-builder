@@ -1,735 +1,684 @@
 {
-  "date": "2026-09-25",
-  "fetchedAt": "2026-09-25T23:12:08.304Z",
+  "date": "2026-09-26",
+  "fetchedAt": "2026-09-26T22:35:17.442Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Zelensky says Trump has made ‘final decision’ to allow Kyiv to make Patriot missiles",
-      "url": "https://edition.cnn.com/2026/09/25/europe/trump-zelensky-patriots-manufacture-intl",
+      "en": "At UN, Russia and Germany’s top diplomats hold first talks since war in Ukraine",
+      "url": "https://edition.cnn.com/2026/09/26/europe/russia-germany-meeting-ukraine-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Zelensky says Trump has made ‘final decision’ to allow Kyiv to make Patriot missiles",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/europe/trump-zelensky-patriots-manufacture-intl",
-        "zh": "澤倫斯基表示，川普已做出「最終決定」，允許基輔製造愛國者飛彈。",
+        "sourceEn": "At UN, Russia and Germany’s top diplomats hold first talks since war in Ukraine",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/europe/russia-germany-meeting-ukraine-latam-intl",
+        "zh": "在聯合國，俄羅斯和德國的最高外交官在烏克蘭戰爭爆發後首次舉行會談。",
         "accepted": [
           [
-            "Zelensky",
-            "says",
-            "Trump",
-            "has",
-            "made",
-            "‘final",
-            "decision’",
-            "to",
-            "allow",
-            "Kyiv",
-            "to",
-            "make",
-            "Patriot",
-            "missiles"
+            "At",
+            "UN",
+            ",",
+            "Russia",
+            "and",
+            "Germany’s",
+            "top",
+            "diplomats",
+            "hold",
+            "first",
+            "talks",
+            "since",
+            "war",
+            "in",
+            "Ukraine"
           ]
         ],
         "distractors": [
-          "making",
-          "decided",
-          "will",
-          "allowance",
-          "missile",
-          "finalized"
+          "for",
+          "the",
+          "a",
+          "from",
+          "with",
+          "on"
         ],
         "notes": [
           {
-            "word": "has made",
-            "text": "「has made」是現在完成式，表示動作在過去發生並對現在產生影響。這裡指川普已經做出了決定，這個決定影響到現在的局勢。",
-            "category": "時態"
+            "word": "At",
+            "text": "在表示地點時，'at' 通常用於特定的點或活動，例如 'at UN' (在聯合國)。",
+            "category": "介係詞"
           },
           {
-            "word": "to allow",
-            "text": "「to allow」是不定詞片語，表示目的，說明「最終決定」的內容是「允許基輔…」。",
+            "word": "Germany’s",
+            "text": "'Germany’s' 是所有格，表示「德國的」。",
             "category": "其他"
           },
           {
-            "word": "Patriot missiles",
-            "text": "「Patriot missiles」是複數形式，表示多枚愛國者飛彈。在英文中，當名詞指稱一類事物時，常用複數形式。",
-            "category": "單複數"
+            "word": "hold",
+            "text": "這裡的 'hold' 是動詞，表示「舉行」或「進行」。",
+            "category": "其他"
           },
           {
-            "word": "decision",
-            "text": "「decision」是可數名詞，通常前面會有限定詞，如「a decision」或「the decision」。這裡用「final decision」表示最終的決定。",
-            "category": "冠詞"
+            "word": "since",
+            "text": "'since' 在這裡表示「自從...以來」，引導一個時間點。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "White House TV pool resumes coverage after CNN’s access is restored",
-      "url": "https://edition.cnn.com/2026/09/25/media/trump-white-house-pool-media-cnn-cbs",
+      "en": "White House bars CNN from covering Trump on behalf of major TV networks as he travels to Tennessee",
+      "url": "https://edition.cnn.com/2026/09/25/politics/white-house-blocks-cnn-air-force-one-travel-pool",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "White House TV pool resumes coverage after CNN’s access is restored",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/media/trump-white-house-pool-media-cnn-cbs",
-        "zh": "在CNN的採訪權恢復後，白宮電視聯播網恢復了報導。",
+        "sourceEn": "White House bars CNN from covering Trump on behalf of major TV networks as he travels to Tennessee",
+        "sourceUrl": "https://edition.cnn.com/2026/09/25/politics/white-house-blocks-cnn-air-force-one-travel-pool",
+        "zh": "白宮禁止CNN代表主要電視網報導川普在田納西州的行程。",
         "accepted": [
           [
             "White",
             "House",
+            "bars",
+            "CNN",
+            "from",
+            "covering",
+            "Trump",
+            "on",
+            "behalf",
+            "of",
+            "major",
             "TV",
-            "pool",
-            "resumes",
-            "coverage",
-            "after",
-            "CNN’s",
-            "access",
-            "is",
-            "restored"
+            "networks",
+            "as",
+            "he",
+            "travels",
+            "to",
+            "Tennessee"
           ]
         ],
         "distractors": [
-          "resume",
-          "cover",
-          "restoring",
-          "accessed",
-          "had",
-          "restores"
+          "in",
+          "at",
+          "for",
+          "by",
+          "with",
+          "through"
         ],
         "notes": [
           {
-            "word": "resumes",
-            "text": "「resumes」是動詞的第三人稱單數現在式，主詞是「White House TV pool」。",
-            "category": "時態"
+            "word": "bars",
+            "text": "這裡的 'bars' 是動詞，表示「禁止」或「阻擋」。",
+            "category": "其他"
           },
           {
-            "word": "coverage",
-            "text": "「coverage」是不可數名詞，意指新聞報導或覆蓋範圍。",
-            "category": "單複數"
-          },
-          {
-            "word": "after",
-            "text": "「after」是連接詞，引導時間狀語從句，表示在某事發生之後。",
+            "word": "from",
+            "text": "'bar from' 是一個常見的動詞片語，表示「禁止...做某事」。",
             "category": "介係詞"
           },
           {
-            "word": "is restored",
-            "text": "「is restored」是被動語態，表示CNN的採訪權被恢復，而不是它自己恢復的。",
-            "category": "時態"
+            "word": "on behalf of",
+            "text": "'on behalf of' 是一個片語，表示「代表」或「為了...的利益」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "as",
+            "text": "這裡的 'as' 作為連接詞，表示「當...的時候」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Breaking News Supreme Court rejects GOP’s third effort to capture Democratic House seat in Missouri",
-      "url": "https://edition.cnn.com/2026/09/25/politics/supreme-court-rejects-gop-third-effort-to-capture-house-seat-from-missouri",
+      "en": "Trump admin cancels funding for refugees, immigrants and others in move lawmakers argue is illegal",
+      "url": "https://edition.cnn.com/2026/09/26/politics/trump-administrion-pocket-rescissions",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Breaking News Supreme Court rejects GOP’s third effort to capture Democratic House seat in Missouri",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/politics/supreme-court-rejects-gop-third-effort-to-capture-house-seat-from-missouri",
-        "zh": "突發新聞：最高法院駁回共和黨第三次奪取密蘇里州民主黨眾議院席位的努力。",
+        "sourceEn": "Trump admin cancels funding for refugees, immigrants and others in move lawmakers argue is illegal",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/politics/trump-administrion-pocket-rescissions",
+        "zh": "川普政府取消了對難民、移民和其他人的資助，此舉被議員們認為是非法的。",
         "accepted": [
           [
-            "Breaking",
-            "News",
-            "Supreme",
-            "Court",
-            "rejects",
-            "GOP’s",
-            "third",
-            "effort",
-            "to",
-            "capture",
-            "Democratic",
-            "House",
-            "seat",
+            "Trump",
+            "admin",
+            "cancels",
+            "funding",
+            "for",
+            "refugees",
+            ",",
+            "immigrants",
+            "and",
+            "others",
             "in",
-            "Missouri"
+            "move",
+            "lawmakers",
+            "argue",
+            "is",
+            "illegal"
           ]
         ],
         "distractors": [
-          "reject",
-          "efforts",
-          "capturing",
-          "democrat",
-          "seats",
-          "on"
+          "a",
+          "the",
+          "an",
+          "of",
+          "with",
+          "by"
+        ],
+        "notes": [
+          {
+            "word": "admin",
+            "text": "'admin' 是 'administration' 的縮寫，表示「政府」或「行政部門」。",
+            "category": "其他"
+          },
+          {
+            "word": "cancels",
+            "text": "動詞 'cancel' 採用現在式，表示新聞事件的即時性或持續性。",
+            "category": "時態"
+          },
+          {
+            "word": "funding",
+            "text": "'funding' 是名詞，表示「資金」或「資助」。",
+            "category": "其他"
+          },
+          {
+            "word": "for",
+            "text": "'for' 在這裡表示「為了」或「針對」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump rejects Iran's latest proposal to reopen the Strait of Hormuz",
+      "url": "https://edition.cnn.com/2026/09/26/middleeast/trump-rejects-iran-proposal-hormuz-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump rejects Iran's latest proposal to reopen the Strait of Hormuz",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/middleeast/trump-rejects-iran-proposal-hormuz-intl",
+        "zh": "川普拒絕了伊朗重開荷姆茲海峽的最新提議。",
+        "accepted": [
+          [
+            "Trump",
+            "rejects",
+            "Iran's",
+            "latest",
+            "proposal",
+            "to",
+            "reopen",
+            "the",
+            "Strait",
+            "of",
+            "Hormuz"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "an",
+          "for",
+          "in",
+          "on",
+          "with"
         ],
         "notes": [
           {
             "word": "rejects",
-            "text": "「rejects」是動詞的第三人稱單數現在式，主詞是「Supreme Court」。",
+            "text": "動詞 'reject' 採用現在式，表示新聞事件的即時性或持續性。",
             "category": "時態"
           },
           {
-            "word": "GOP’s",
-            "text": "「GOP’s」是所有格，表示「共和黨的」。",
+            "word": "Iran's",
+            "text": "'Iran's' 是所有格，表示「伊朗的」。",
             "category": "其他"
           },
           {
-            "word": "effort",
-            "text": "「effort」是可數名詞，這裡指一次努力。如果指多次努力，則用複數「efforts」。",
-            "category": "單複數"
-          },
-          {
-            "word": "to capture",
-            "text": "「to capture」是不定詞片語，表示目的，說明「effort」的目的是「奪取」。",
+            "word": "proposal",
+            "text": "'proposal' 是名詞，表示「提議」或「提案」。",
             "category": "其他"
           },
           {
-            "word": "in Missouri",
-            "text": "「in Missouri」表示地點，指在密蘇里州。",
-            "category": "介係詞"
+            "word": "to reopen",
+            "text": "'to reopen' 是不定詞片語，表示目的，即「為了重開」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Why the Trump-Xi meeting suited China's ambitions",
-      "url": "https://edition.cnn.com/2026/09/25/world/xi-dc-trump-analysis-intl-hnk",
+      "en": "Republicans fear two key Senate races are slipping from their grasp",
+      "url": "https://edition.cnn.com/2026/09/26/politics/senate-republicans-north-carolina-georgia-michael-whatley-mike-collins",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Why the Trump-Xi meeting suited China's ambitions",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/world/xi-dc-trump-analysis-intl-hnk",
-        "zh": "川普與習近平的會晤為何符合中國的野心。",
+        "sourceEn": "Republicans fear two key Senate races are slipping from their grasp",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/politics/senate-republicans-north-carolina-georgia-michael-whatley-mike-collins",
+        "zh": "共和黨人擔心兩個關鍵的參議院競選正在從他們手中溜走。",
         "accepted": [
           [
-            "Why",
-            "the",
-            "Trump-Xi",
-            "meeting",
-            "suited",
-            "China's",
-            "ambitions"
-          ]
-        ],
-        "distractors": [
-          "suit",
-          "meets",
-          "meet",
-          "ambition",
-          "for",
-          "of"
-        ],
-        "notes": [
-          {
-            "word": "suited",
-            "text": "「suited」是動詞的過去式，表示會晤在過去符合了中國的野心。",
-            "category": "時態"
-          },
-          {
-            "word": "the Trump-Xi meeting",
-            "text": "「the Trump-Xi meeting」中的「the」是定冠詞，特指川普和習近平的這次會晤。",
-            "category": "冠詞"
-          },
-          {
-            "word": "China's",
-            "text": "「China's」是所有格，表示「中國的」。",
-            "category": "其他"
-          },
-          {
-            "word": "ambitions",
-            "text": "「ambitions」是複數形式，表示中國有多方面的野心。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Pair arrested after emerging from manhole near hotel where Netanyahu stays, police say",
-      "url": "https://edition.cnn.com/2026/09/25/us/nyc-sewer-manhole-arrests",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Pair arrested after emerging from manhole near hotel where Netanyahu stays, police say",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/us/nyc-sewer-manhole-arrests",
-        "zh": "警方表示，一對夫婦在內塔尼亞胡下榻的酒店附近從人孔中出來後被捕。",
-        "accepted": [
-          [
-            "Pair",
-            "arrested",
-            "after",
-            "emerging",
+            "Republicans",
+            "fear",
+            "two",
+            "key",
+            "Senate",
+            "races",
+            "are",
+            "slipping",
             "from",
-            "manhole",
-            "near",
-            "hotel",
-            "where",
-            "Netanyahu",
-            "stays,",
-            "police",
-            "say"
+            "their",
+            "grasp"
           ]
         ],
         "distractors": [
-          "emerge",
-          "arrest",
-          "manholes",
-          "stayed",
-          "said",
+          "a",
+          "the",
+          "an",
+          "in",
+          "on",
           "at"
         ],
         "notes": [
           {
-            "word": "arrested",
-            "text": "「arrested」是被動語態的過去分詞，表示這對夫婦被捕。",
+            "word": "fear",
+            "text": "動詞 'fear' 採用現在式，表示新聞事件的即時性或持續性。",
             "category": "時態"
           },
           {
-            "word": "after emerging",
-            "text": "「after emerging」是介係詞「after」後接動名詞，表示在「出來」之後。",
-            "category": "介係詞"
-          },
-          {
-            "word": "from manhole",
-            "text": "「from manhole」中的「manhole」是可數名詞，這裡指一個特定的人孔，通常前面會加冠詞「a」或「the」。新聞標題中常省略冠詞。",
-            "category": "冠詞"
-          },
-          {
-            "word": "where Netanyahu stays",
-            "text": "「where Netanyahu stays」是關係副詞子句，修飾「hotel」，說明內塔尼亞胡在哪裡下榻。",
-            "category": "其他"
-          },
-          {
-            "word": "police say",
-            "text": "「police say」是新聞報導中常見的引用來源方式，表示消息來源是警方。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "From hiding in bomb shelters to visiting New York, Iran’s leaders seize the opportunity",
-      "url": "https://edition.cnn.com/2026/09/25/middleeast/from-hiding-in-bomb-shelters-to-visiting-new-york-irans-leaders-seize-the-opportunity",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "From hiding in bomb shelters to visiting New York, Iran’s leaders seize the opportunity",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/middleeast/from-hiding-in-bomb-shelters-to-visiting-new-york-irans-leaders-seize-the-opportunity",
-        "zh": "從躲藏在防空洞到訪問紐約，伊朗領導人抓住機會。",
-        "accepted": [
-          [
-            "From",
-            "hiding",
-            "in",
-            "bomb",
-            "shelters",
-            "to",
-            "visiting",
-            "New",
-            "York,",
-            "Iran’s",
-            "leaders",
-            "seize",
-            "the",
-            "opportunity"
-          ]
-        ],
-        "distractors": [
-          "hide",
-          "visit",
-          "seized",
-          "opportunities",
-          "of",
-          "on"
-        ],
-        "notes": [
-          {
-            "word": "From...to...",
-            "text": "「From...to...」表示從一個狀態或地點到另一個狀態或地點。",
-            "category": "介係詞"
-          },
-          {
-            "word": "hiding",
-            "text": "「hiding」和「visiting」是動名詞，在「From...to...」結構中作介係詞的賓語。",
-            "category": "其他"
-          },
-          {
-            "word": "bomb shelters",
-            "text": "「bomb shelters」是複數形式，表示多個防空洞。",
+            "word": "races",
+            "text": "'races' 是 'race' 的複數形式，表示「競選」或「比賽」。",
             "category": "單複數"
           },
           {
-            "word": "seize",
-            "text": "「seize」是動詞的現在式，主詞是「Iran’s leaders」。新聞標題常用現在式來描述最近發生的事件。",
+            "word": "are slipping",
+            "text": "'are slipping' 是現在進行式，表示動作正在發生。",
             "category": "時態"
           },
           {
-            "word": "the opportunity",
-            "text": "「the opportunity」中的「the」是定冠詞，特指這次機會。",
-            "category": "冠詞"
+            "word": "from",
+            "text": "'from' 在這裡表示「從...離開」或「從...中」。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Susan Sarandon, Hannah Einbinder among more than 100 detained during anti-Netanyahu protest outside UN",
-      "url": "https://edition.cnn.com/2026/09/25/us/susan-sarandon-netayanhu-protests-nyc-hnk",
+      "en": "‘Marie Antoinette’ at 20: A peek behind the velvet curtain",
+      "url": "https://edition.cnn.com/2026/09/26/style/marie-antoinette-movie-anniversary",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Susan Sarandon, Hannah Einbinder among more than 100 detained during anti-Netanyahu protest outside UN",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/us/susan-sarandon-netayanhu-protests-nyc-hnk",
-        "zh": "在聯合國外反內塔尼亞胡抗議期間，蘇珊·莎蘭登、漢娜·艾賓德等100多人被拘留。",
+        "sourceEn": "‘Marie Antoinette’ at 20: A peek behind the velvet curtain",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/style/marie-antoinette-movie-anniversary",
+        "zh": "《瑪麗皇后》20週年：一窺天鵝絨幕後的景象。",
         "accepted": [
           [
-            "Susan",
-            "Sarandon,",
-            "Hannah",
-            "Einbinder",
-            "among",
-            "more",
-            "than",
-            "100",
-            "detained",
-            "during",
-            "anti-Netanyahu",
-            "protest",
-            "outside",
-            "UN"
-          ]
-        ],
-        "distractors": [
-          "detain",
-          "protests",
-          "amongst",
-          "at",
-          "the",
-          "was"
-        ],
-        "notes": [
-          {
-            "word": "detained",
-            "text": "「detained」是過去分詞，在這裡作形容詞，修飾「more than 100」，表示「被拘留的」。",
-            "category": "時態"
-          },
-          {
-            "word": "among more than 100",
-            "text": "「among」表示在…之中，這裡指在100多人之中。",
-            "category": "介係詞"
-          },
-          {
-            "word": "during",
-            "text": "「during」表示在…期間，引導時間狀語。",
-            "category": "介係詞"
-          },
-          {
-            "word": "protest",
-            "text": "「protest」是可數名詞，這裡指一次抗議活動。新聞標題中常省略冠詞。",
-            "category": "冠詞"
-          },
-          {
-            "word": "outside UN",
-            "text": "「outside UN」表示在聯合國外面。UN是United Nations的縮寫。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Ed Sheeran’s concerts at Robert Kraft-owned Gillette Stadium canceled over weather concerns amid Macklemore drama",
-      "url": "https://edition.cnn.com/2026/09/25/entertainment/ed-sheeran-concerts-gillette-canceled",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Ed Sheeran’s concerts at Robert Kraft-owned Gillette Stadium canceled over weather concerns amid Macklemore drama",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/entertainment/ed-sheeran-concerts-gillette-canceled",
-        "zh": "由於對天氣的擔憂，艾德·希蘭在羅伯特·卡夫擁有的吉列體育場的演唱會因麥克勒莫的戲劇性事件而取消。",
-        "accepted": [
-          [
-            "Ed",
-            "Sheeran’s",
-            "concerts",
+            "‘Marie",
+            "Antoinette’",
             "at",
-            "Robert",
-            "Kraft-owned",
-            "Gillette",
-            "Stadium",
-            "canceled",
-            "over",
-            "weather",
-            "concerns",
-            "amid",
-            "Macklemore",
-            "drama"
+            "20",
+            ":",
+            "A",
+            "peek",
+            "behind",
+            "the",
+            "velvet",
+            "curtain"
           ]
         ],
         "distractors": [
-          "cancel",
-          "concern",
-          "amidst",
+          "in",
+          "on",
           "for",
-          "concert",
-          "dramas"
+          "with",
+          "by",
+          "of"
         ],
         "notes": [
           {
-            "word": "canceled",
-            "text": "「canceled」是過去分詞，在這裡作形容詞，修飾「concerts」，表示「被取消的」。",
-            "category": "時態"
-          },
-          {
-            "word": "concerts",
-            "text": "「concerts」是複數形式，表示多場演唱會。",
-            "category": "單複數"
-          },
-          {
-            "word": "at Gillette Stadium",
-            "text": "「at」表示在某個地點，這裡指在吉列體育場。",
+            "word": "at",
+            "text": "'at 20' 在這裡表示「在20週年之際」。",
             "category": "介係詞"
           },
           {
-            "word": "over weather concerns",
-            "text": "「over」在這裡表示原因，因為天氣擔憂。",
-            "category": "介係詞"
-          },
-          {
-            "word": "amid Macklemore drama",
-            "text": "「amid」表示在…之中，這裡指在麥克勒莫的戲劇性事件之中。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Federal appeals court rules Pentagon’s blacklist of Anthropic was legal",
-      "url": "https://edition.cnn.com/2026/09/25/tech/anthropic-pentagon-blacklist-dc-ruling",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Federal appeals court rules Pentagon’s blacklist of Anthropic was legal",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/tech/anthropic-pentagon-blacklist-dc-ruling",
-        "zh": "聯邦上訴法院裁定，五角大樓將Anthropic列入黑名單是合法的。",
-        "accepted": [
-          [
-            "Federal",
-            "appeals",
-            "court",
-            "rules",
-            "Pentagon’s",
-            "blacklist",
-            "of",
-            "Anthropic",
-            "was",
-            "legal"
-          ]
-        ],
-        "distractors": [
-          "rule",
-          "blacklisting",
-          "legally",
-          "for",
-          "is",
-          "legalized"
-        ],
-        "notes": [
-          {
-            "word": "rules",
-            "text": "「rules」是動詞的第三人稱單數現在式，主詞是「Federal appeals court」。新聞標題常用現在式來描述最近發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "Pentagon’s",
-            "text": "「Pentagon’s」是所有格，表示「五角大樓的」。",
-            "category": "其他"
-          },
-          {
-            "word": "blacklist",
-            "text": "「blacklist」在這裡作名詞，指黑名單。也可以作動詞，表示將…列入黑名單。",
-            "category": "其他"
-          },
-          {
-            "word": "of Anthropic",
-            "text": "「of」在這裡表示所屬關係，指Anthropic的黑名單。",
-            "category": "介係詞"
-          },
-          {
-            "word": "was legal",
-            "text": "「was legal」是過去式，表示五角大樓的黑名單在當時是合法的。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Turning Point USA insisted Charlie Kirk speak outdoors despite security concerns, report says",
-      "url": "https://edition.cnn.com/2026/09/25/us/charlie-kirk-shooting-security-report",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Turning Point USA insisted Charlie Kirk speak outdoors despite security concerns, report says",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/us/charlie-kirk-shooting-security-report",
-        "zh": "報導稱，美國轉捩點組織儘管有安全顧慮，仍堅持查理·柯克在戶外演講。",
-        "accepted": [
-          [
-            "Turning",
-            "Point",
-            "USA",
-            "insisted",
-            "Charlie",
-            "Kirk",
-            "speak",
-            "outdoors",
-            "despite",
-            "security",
-            "concerns,",
-            "report",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "insist",
-          "spoke",
-          "speaking",
-          "concern",
-          "reports",
-          "on"
-        ],
-        "notes": [
-          {
-            "word": "insisted",
-            "text": "「insisted」是動詞的過去式，表示美國轉捩點組織在過去堅持了某事。",
-            "category": "時態"
-          },
-          {
-            "word": "speak",
-            "text": "在「insist that + 主詞 + (should) + 動詞原形」的句型中，動詞常用原形，即使主詞是第三人稱單數。這裡省略了「should」。",
-            "category": "其他"
-          },
-          {
-            "word": "outdoors",
-            "text": "「outdoors」是副詞，表示在戶外。",
-            "category": "其他"
-          },
-          {
-            "word": "despite",
-            "text": "「despite」是介係詞，表示儘管、不顧，後面接名詞或動名詞。",
-            "category": "介係詞"
-          },
-          {
-            "word": "security concerns",
-            "text": "「concerns」是複數形式，表示多方面的安全顧慮。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Manchester City found guilty of majority of Premier League financial breaches charges, according to reports",
-      "url": "https://edition.cnn.com/2026/09/25/sport/manchester-city-charges-premier-league",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Manchester City found guilty of majority of Premier League financial breaches charges, according to reports",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/sport/manchester-city-charges-premier-league",
-        "zh": "據報導，曼城被判犯有英超聯賽大部分財務違規指控。",
-        "accepted": [
-          [
-            "Manchester",
-            "City",
-            "found",
-            "guilty",
-            "of",
-            "majority",
-            "of",
-            "Premier",
-            "League",
-            "financial",
-            "breaches",
-            "charges,",
-            "according",
-            "to",
-            "reports"
-          ]
-        ],
-        "distractors": [
-          "find",
-          "guilt",
-          "breach",
-          "charge",
-          "report",
-          "on"
-        ],
-        "notes": [
-          {
-            "word": "found",
-            "text": "「found」是動詞「find」的過去分詞，在這裡與省略的「was」構成被動語態，表示曼城被發現有罪。",
-            "category": "時態"
-          },
-          {
-            "word": "guilty of",
-            "text": "「guilty of」表示犯有…的罪行。",
-            "category": "介係詞"
-          },
-          {
-            "word": "majority of",
-            "text": "「majority of」表示大部分的。",
-            "category": "其他"
-          },
-          {
-            "word": "breaches charges",
-            "text": "「breaches」和「charges」都是複數形式，表示多項違規和指控。",
-            "category": "單複數"
-          },
-          {
-            "word": "according to reports",
-            "text": "「according to reports」表示根據報導，是新聞中常見的引用來源方式。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Pediatrician stabbed to death in his bed by trespasser as wife called for children to flee, officials say",
-      "url": "https://edition.cnn.com/2026/09/25/us/pittsburgh-doctor-idris-evans-stabbing-home",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Pediatrician stabbed to death in his bed by trespasser as wife called for children to flee, officials say",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/us/pittsburgh-doctor-idris-evans-stabbing-home",
-        "zh": "官員表示，一名小兒科醫生在妻子呼喚孩子們逃跑時，被一名闖入者刺死在床上。",
-        "accepted": [
-          [
-            "Pediatrician",
-            "stabbed",
-            "to",
-            "death",
-            "in",
-            "his",
-            "bed",
-            "by",
-            "trespasser",
-            "as",
-            "wife",
-            "called",
-            "for",
-            "children",
-            "to",
-            "flee,",
-            "officials",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "stab",
-          "dies",
-          "trespassers",
-          "call",
-          "fled",
-          "said"
-        ],
-        "notes": [
-          {
-            "word": "stabbed to death",
-            "text": "「stabbed to death」是被動語態，表示小兒科醫生被刺死。",
-            "category": "時態"
-          },
-          {
-            "word": "in his bed",
-            "text": "「in his bed」表示地點，指在他的床上。",
-            "category": "介係詞"
-          },
-          {
-            "word": "by trespasser",
-            "text": "「by trespasser」中的「trespasser」是可數名詞，指闖入者。新聞標題中常省略冠詞「a」。",
+            "word": "A",
+            "text": "'A peek' 中的 'A' 是不定冠詞，表示「一次」或「一個」。",
             "category": "冠詞"
           },
           {
-            "word": "as wife called",
-            "text": "「as」在這裡作連接詞，表示「當…的時候」，引導時間狀語從句。",
+            "word": "peek",
+            "text": "'peek' 是名詞，表示「一瞥」或「偷看」。",
+            "category": "其他"
+          },
+          {
+            "word": "behind",
+            "text": "'behind' 是介係詞，表示「在...後面」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Did Hitler kill his niece? Newly found records raise fresh questions over 95-year-old mystery",
+      "url": "https://edition.cnn.com/2026/09/25/europe/germany-hitler-raubal-history-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Did Hitler kill his niece? Newly found records raise fresh questions over 95-year-old mystery",
+        "sourceUrl": "https://edition.cnn.com/2026/09/25/europe/germany-hitler-raubal-history-intl",
+        "zh": "希特勒殺了他的姪女嗎？新發現的記錄對95年懸案提出了新的疑問。",
+        "accepted": [
+          [
+            "Did",
+            "Hitler",
+            "kill",
+            "his",
+            "niece",
+            "?",
+            "Newly",
+            "found",
+            "records",
+            "raise",
+            "fresh",
+            "questions",
+            "over",
+            "95-year-old",
+            "mystery"
+          ]
+        ],
+        "distractors": [
+          "does",
+          "has",
+          "have",
+          "in",
+          "on",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "Did",
+            "text": "'Did' 是助動詞，用於構成過去簡單式的疑問句。",
+            "category": "時態"
+          },
+          {
+            "word": "kill",
+            "text": "在 'Did' 之後，動詞 'kill' 必須使用原形。",
+            "category": "時態"
+          },
+          {
+            "word": "Newly found",
+            "text": "'Newly found' 是過去分詞片語，修飾 'records'，表示「新發現的」。",
+            "category": "其他"
+          },
+          {
+            "word": "over",
+            "text": "'over' 在這裡表示「關於」或「針對」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How one of the most bombed places on the planet survived",
+      "url": "https://edition.cnn.com/2026/09/26/travel/travel-news-vinh-moc",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How one of the most bombed places on the planet survived",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/travel/travel-news-vinh-moc",
+        "zh": "這個星球上被轟炸最嚴重的地方之一是如何倖存下來的。",
+        "accepted": [
+          [
+            "How",
+            "one",
+            "of",
+            "the",
+            "most",
+            "bombed",
+            "places",
+            "on",
+            "the",
+            "planet",
+            "survived"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "an",
+          "in",
+          "at",
+          "for",
+          "with"
+        ],
+        "notes": [
+          {
+            "word": "one of the most",
+            "text": "'one of the most' 是一個常用結構，表示「最...之一」。",
+            "category": "其他"
+          },
+          {
+            "word": "bombed",
+            "text": "'bombed' 是過去分詞，作形容詞修飾 'places'，表示「被轟炸的」。",
+            "category": "其他"
+          },
+          {
+            "word": "places",
+            "text": "'one of the' 後面接可數名詞的複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "on",
+            "text": "'on the planet' 表示「在這個星球上」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "LGBTQ migrants, deported from the US, face unique hardships",
+      "url": "https://edition.cnn.com/2026/09/26/world/lgbtq-migrants-asylum-seekers-america-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "LGBTQ migrants, deported from the US, face unique hardships",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/world/lgbtq-migrants-asylum-seekers-america-intl",
+        "zh": "從美國被驅逐出境的LGBTQ移民面臨獨特的困境。",
+        "accepted": [
+          [
+            "LGBTQ",
+            "migrants",
+            ",",
+            "deported",
+            "from",
+            "the",
+            "US",
+            ",",
+            "face",
+            "unique",
+            "hardships"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "an",
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "notes": [
+          {
+            "word": "migrants",
+            "text": "'migrants' 是複數名詞，表示「移民」。",
+            "category": "單複數"
+          },
+          {
+            "word": "deported",
+            "text": "'deported' 是過去分詞，作形容詞修飾 'migrants'，表示「被驅逐出境的」。",
+            "category": "其他"
+          },
+          {
+            "word": "from",
+            "text": "'from' 在這裡表示「來自」或「從...」。",
             "category": "介係詞"
           },
           {
-            "word": "called for children to flee",
-            "text": "「call for someone to do something」表示呼籲某人做某事。",
+            "word": "face",
+            "text": "動詞 'face' 採用現在式，與複數主語 'migrants' 一致。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why Russia is sending dead princes and saints into battle",
+      "url": "https://edition.cnn.com/2026/09/26/europe/russian-military-orthodox-church-relics-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why Russia is sending dead princes and saints into battle",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/europe/russian-military-orthodox-church-relics-intl",
+        "zh": "為什麼俄羅斯要將已故的王子和聖人送上戰場。",
+        "accepted": [
+          [
+            "Why",
+            "Russia",
+            "is",
+            "sending",
+            "dead",
+            "princes",
+            "and",
+            "saints",
+            "into",
+            "battle"
+          ]
+        ],
+        "distractors": [
+          "does",
+          "has",
+          "have",
+          "in",
+          "on",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "is sending",
+            "text": "'is sending' 是現在進行式，表示動作正在發生。",
+            "category": "時態"
+          },
+          {
+            "word": "dead",
+            "text": "'dead' 是形容詞，修飾 'princes' 和 'saints'，表示「已故的」。",
+            "category": "其他"
+          },
+          {
+            "word": "princes",
+            "text": "'princes' 是 'prince' 的複數形式，表示「王子們」。",
+            "category": "單複數"
+          },
+          {
+            "word": "into",
+            "text": "'into battle' 表示「投入戰鬥」或「進入戰場」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump declines to say if Ukraine can manufacture Patriot missiles to fend off Russian attacks",
+      "url": "https://edition.cnn.com/2026/09/26/politics/trump-ukraine-patriot-missiles",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump declines to say if Ukraine can manufacture Patriot missiles to fend off Russian attacks",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/politics/trump-ukraine-patriot-missiles",
+        "zh": "川普拒絕說明烏克蘭是否能製造愛國者飛彈以抵禦俄羅斯襲擊。",
+        "accepted": [
+          [
+            "Trump",
+            "declines",
+            "to",
+            "say",
+            "if",
+            "Ukraine",
+            "can",
+            "manufacture",
+            "Patriot",
+            "missiles",
+            "to",
+            "fend",
+            "off",
+            "Russian",
+            "attacks"
+          ]
+        ],
+        "distractors": [
+          "does",
+          "has",
+          "have",
+          "in",
+          "on",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "declines",
+            "text": "動詞 'decline' 採用現在式，表示新聞事件的即時性或持續性。",
+            "category": "時態"
+          },
+          {
+            "word": "to say",
+            "text": "'to say' 是不定詞片語，作 'declines' 的補語，表示「拒絕說」。",
+            "category": "其他"
+          },
+          {
+            "word": "if",
+            "text": "'if' 在這裡引導一個名詞子句，表示「是否」。",
+            "category": "其他"
+          },
+          {
+            "word": "to fend off",
+            "text": "'to fend off' 是不定詞片語，表示目的，即「為了抵禦」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Outrage as East German town bans Holocaust ‘stumbling blocks’",
+      "url": "https://edition.cnn.com/2026/09/26/europe/german-town-holocaust-stolpersteine-backlash-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Outrage as East German town bans Holocaust ‘stumbling blocks’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/europe/german-town-holocaust-stolpersteine-backlash-intl",
+        "zh": "東德小鎮禁止大屠殺「絆腳石」引發眾怒。",
+        "accepted": [
+          [
+            "Outrage",
+            "as",
+            "East",
+            "German",
+            "town",
+            "bans",
+            "Holocaust",
+            "‘stumbling",
+            "blocks’"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "the",
+          "an",
+          "in",
+          "on",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "Outrage",
+            "text": "'Outrage' 是名詞，表示「憤怒」或「義憤」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "這裡的 'as' 作為連接詞，表示「當...的時候」或「因為」。",
+            "category": "其他"
+          },
+          {
+            "word": "bans",
+            "text": "動詞 'ban' 採用現在式，表示新聞事件的即時性或持續性。",
+            "category": "時態"
+          },
+          {
+            "word": "stumbling blocks",
+            "text": "'stumbling blocks' 是一個片語，表示「絆腳石」或「障礙」。",
             "category": "其他"
           }
         ]
