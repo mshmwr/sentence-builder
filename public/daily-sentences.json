@@ -1,685 +1,697 @@
 {
-  "date": "2026-09-26",
-  "fetchedAt": "2026-09-26T22:35:17.442Z",
+  "date": "2026-09-27",
+  "fetchedAt": "2026-09-27T22:54:32.066Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "At UN, Russia and Germany’s top diplomats hold first talks since war in Ukraine",
-      "url": "https://edition.cnn.com/2026/09/26/europe/russia-germany-meeting-ukraine-latam-intl",
+      "en": "How to make friends as an adult",
+      "url": "https://edition.cnn.com/2026/09/27/health/make-keep-friends-grownup-wellness",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "At UN, Russia and Germany’s top diplomats hold first talks since war in Ukraine",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/europe/russia-germany-meeting-ukraine-latam-intl",
-        "zh": "在聯合國，俄羅斯和德國的最高外交官在烏克蘭戰爭爆發後首次舉行會談。",
+        "sourceEn": "How to make friends as an adult",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/health/make-keep-friends-grownup-wellness",
+        "zh": "成年後如何交朋友",
         "accepted": [
           [
-            "At",
-            "UN",
-            ",",
-            "Russia",
-            "and",
-            "Germany’s",
-            "top",
-            "diplomats",
-            "hold",
-            "first",
-            "talks",
-            "since",
-            "war",
-            "in",
-            "Ukraine"
+            "How",
+            "to",
+            "make",
+            "friends",
+            "as",
+            "an",
+            "adult"
           ]
         ],
         "distractors": [
           "for",
+          "making",
+          "adults",
           "the",
-          "a",
-          "from",
-          "with",
-          "on"
+          "become",
+          "friend"
         ],
         "notes": [
           {
-            "word": "At",
-            "text": "在表示地點時，'at' 通常用於特定的點或活動，例如 'at UN' (在聯合國)。",
+            "word": "as",
+            "text": "在這裡 'as' 作為介係詞，表示 '作為' 或 '以...的身份'。",
             "category": "介係詞"
           },
           {
-            "word": "Germany’s",
-            "text": "'Germany’s' 是所有格，表示「德國的」。",
+            "word": "an",
+            "text": "'an' 是不定冠詞，用於以母音開頭的單數可數名詞前，例如 'adult'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "make friends",
+            "text": "'make friends' 是常見的片語，意為 '交朋友'。",
             "category": "其他"
           },
           {
-            "word": "hold",
-            "text": "這裡的 'hold' 是動詞，表示「舉行」或「進行」。",
-            "category": "其他"
+            "word": "adult",
+            "text": "'adult' 是單數名詞，指 '成年人'。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "2 giant pandas arrive at Zoo Atlanta in a rare loan from China",
+      "url": "https://edition.cnn.com/2026/09/26/asia/two-giant-pandas-leave-on-a-flight-bound-for-zoo-atlanta-in-a-rare-loan-from-china-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "2 giant pandas arrive at Zoo Atlanta in a rare loan from China",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/asia/two-giant-pandas-leave-on-a-flight-bound-for-zoo-atlanta-in-a-rare-loan-from-china-latam-intl",
+        "zh": "兩隻大熊貓從中國罕見借出，抵達亞特蘭大動物園",
+        "accepted": [
+          [
+            "2",
+            "giant",
+            "pandas",
+            "arrive",
+            "at",
+            "Zoo",
+            "Atlanta",
+            "in",
+            "a",
+            "rare",
+            "loan",
+            "from",
+            "China"
+          ]
+        ],
+        "distractors": [
+          "arrived",
+          "to",
+          "the",
+          "loans",
+          "rarely",
+          "Chinese"
+        ],
+        "notes": [
+          {
+            "word": "arrive at",
+            "text": "'arrive at' 通常用於抵達較小的地點，如 'Zoo Atlanta'。若為較大的城市或國家，則用 'arrive in'。",
+            "category": "介係詞"
           },
           {
-            "word": "since",
-            "text": "'since' 在這裡表示「自從...以來」，引導一個時間點。",
+            "word": "pandas",
+            "text": "'pandas' 是複數名詞，因為有 '2 giant'。",
+            "category": "單複數"
+          },
+          {
+            "word": "a rare loan",
+            "text": "'a rare loan' 指的是 '一次罕見的借出'，'loan' 在此作名詞。",
+            "category": "冠詞"
+          },
+          {
+            "word": "from China",
+            "text": "'from' 表示來源，指熊貓是 '來自中國'。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "White House bars CNN from covering Trump on behalf of major TV networks as he travels to Tennessee",
-      "url": "https://edition.cnn.com/2026/09/25/politics/white-house-blocks-cnn-air-force-one-travel-pool",
+      "en": "Germany’s AfD is so extreme it’s putting off other far-right parties",
+      "url": "https://edition.cnn.com/2026/09/27/europe/germany-afd-rattles-europe-and-not-just-the-mainstream",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "White House bars CNN from covering Trump on behalf of major TV networks as he travels to Tennessee",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/politics/white-house-blocks-cnn-air-force-one-travel-pool",
-        "zh": "白宮禁止CNN代表主要電視網報導川普在田納西州的行程。",
+        "sourceEn": "Germany’s AfD is so extreme it’s putting off other far-right parties",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/europe/germany-afd-rattles-europe-and-not-just-the-mainstream",
+        "zh": "德國的AfD（德國另類選擇黨）極端到讓其他極右翼政黨都望而卻步",
+        "accepted": [
+          [
+            "Germany’s",
+            "AfD",
+            "is",
+            "so",
+            "extreme",
+            "it’s",
+            "putting",
+            "off",
+            "other",
+            "far-right",
+            "parties"
+          ]
+        ],
+        "distractors": [
+          "too",
+          "extremist",
+          "put",
+          "away",
+          "party",
+          "another"
+        ],
+        "notes": [
+          {
+            "word": "Germany’s",
+            "text": "'Germany’s' 是所有格，表示 '德國的'。",
+            "category": "其他"
+          },
+          {
+            "word": "so extreme",
+            "text": "'so...that...' 句型表示 '如此...以至於...'。這裡 'that' 被省略了。",
+            "category": "其他"
+          },
+          {
+            "word": "putting off",
+            "text": "'put off' 是一個動詞片語，意為 '使...卻步' 或 '使...不悅'。",
+            "category": "其他"
+          },
+          {
+            "word": "it’s",
+            "text": "'it’s' 是 'it is' 的縮寫，在這裡作主語和動詞。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "South Africa police hunt suspects after three shootings leave more than 30 people dead",
+      "url": "https://edition.cnn.com/2026/09/27/africa/south-africa-shooting-tavern-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "South Africa police hunt suspects after three shootings leave more than 30 people dead",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/africa/south-africa-shooting-tavern-intl-hnk",
+        "zh": "南非警方在三起槍擊事件造成逾30人死亡後追捕嫌犯",
+        "accepted": [
+          [
+            "South",
+            "Africa",
+            "police",
+            "hunt",
+            "suspects",
+            "after",
+            "three",
+            "shootings",
+            "leave",
+            "more",
+            "than",
+            "30",
+            "people",
+            "dead"
+          ]
+        ],
+        "distractors": [
+          "hunting",
+          "suspect",
+          "leaves",
+          "deadly",
+          "over",
+          "polices"
+        ],
+        "notes": [
+          {
+            "word": "hunt suspects",
+            "text": "'hunt' 在這裡作動詞，意為 '追捕'。'suspects' 是複數名詞，指 '嫌犯'。",
+            "category": "單複數"
+          },
+          {
+            "word": "after",
+            "text": "'after' 作為連接詞，引導時間狀語從句，表示 '在...之後'。",
+            "category": "介係詞"
+          },
+          {
+            "word": "leave more than 30 people dead",
+            "text": "'leave' 在這裡表示 '使...處於某種狀態'，'dead' 是形容詞，修飾 'people'。",
+            "category": "其他"
+          },
+          {
+            "word": "shootings",
+            "text": "'shootings' 是複數名詞，指 '槍擊事件'。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Five men arrested on suspicion of terror offenses near UK air base used by US forces",
+      "url": "https://edition.cnn.com/2026/09/27/uk/fairford-arrests-uk-raf-us-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Five men arrested on suspicion of terror offenses near UK air base used by US forces",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/uk/fairford-arrests-uk-raf-us-intl",
+        "zh": "五名男子因涉嫌在美國部隊使用的英國空軍基地附近從事恐怖活動而被捕",
+        "accepted": [
+          [
+            "Five",
+            "men",
+            "arrested",
+            "on",
+            "suspicion",
+            "of",
+            "terror",
+            "offenses",
+            "near",
+            "UK",
+            "air",
+            "base",
+            "used",
+            "by",
+            "US",
+            "forces"
+          ]
+        ],
+        "distractors": [
+          "man",
+          "arrest",
+          "for",
+          "offense",
+          "using",
+          "force"
+        ],
+        "notes": [
+          {
+            "word": "men",
+            "text": "'men' 是 'man' 的複數形式，與 'Five' 相符。",
+            "category": "單複數"
+          },
+          {
+            "word": "arrested",
+            "text": "這裡省略了 'were'，構成被動語態 'were arrested' (被捕)。",
+            "category": "時態"
+          },
+          {
+            "word": "on suspicion of",
+            "text": "'on suspicion of' 是固定片語，意為 '涉嫌...'。",
+            "category": "介係詞"
+          },
+          {
+            "word": "offenses",
+            "text": "'offenses' 是複數名詞，指 '罪行' 或 '違法行為'。",
+            "category": "單複數"
+          },
+          {
+            "word": "used by",
+            "text": "'used by' 是過去分詞片語，作後置定語修飾 'air base'，表示 '被...使用的'。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "I started fact-checking Trump 10 years ago. Here are 15 things I’ve learned",
+      "url": "https://edition.cnn.com/2026/09/27/politics/fact-checking-trump-10-years-lessons",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "I started fact-checking Trump 10 years ago. Here are 15 things I’ve learned",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/politics/fact-checking-trump-10-years-lessons",
+        "zh": "我十年前開始查證川普的言論。這是我的15個心得。",
+        "accepted": [
+          [
+            "I",
+            "started",
+            "fact-checking",
+            "Trump",
+            "10",
+            "years",
+            "ago",
+            ".",
+            "Here",
+            "are",
+            "15",
+            "things",
+            "I’ve",
+            "learned"
+          ]
+        ],
+        "distractors": [
+          "start",
+          "fact-check",
+          "year",
+          "is",
+          "learning",
+          "ago,"
+        ],
+        "notes": [
+          {
+            "word": "started fact-checking",
+            "text": "'start' 後面可以接動名詞 (fact-checking) 或不定詞 (to fact-check)，兩者意思相近。",
+            "category": "其他"
+          },
+          {
+            "word": "10 years ago",
+            "text": "'ago' 用於過去式動詞，表示 '在...之前'。",
+            "category": "時態"
+          },
+          {
+            "word": "Here are",
+            "text": "'Here are' 用於介紹複數事物，因為後面是 '15 things'。",
+            "category": "單複數"
+          },
+          {
+            "word": "I’ve learned",
+            "text": "'I’ve learned' 是 'I have learned' 的縮寫，表示現在完成式，強調經驗或結果。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘It’s devastating’: The US-Canada trade war is putting protein on the menu",
+      "url": "https://edition.cnn.com/2026/09/27/business/whey-protein-trade-war",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘It’s devastating’: The US-Canada trade war is putting protein on the menu",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/business/whey-protein-trade-war",
+        "zh": "「這太具破壞性了」：美加貿易戰正在將蛋白質推上菜單",
+        "accepted": [
+          [
+            "‘It’s",
+            "devastating’",
+            ":",
+            "The",
+            "US-Canada",
+            "trade",
+            "war",
+            "is",
+            "putting",
+            "protein",
+            "on",
+            "the",
+            "menu"
+          ]
+        ],
+        "distractors": [
+          "devastate",
+          "wars",
+          "put",
+          "proteins",
+          "in",
+          "menus"
+        ],
+        "notes": [
+          {
+            "word": "It’s devastating",
+            "text": "'devastating' 是形容詞，意為 '毀滅性的' 或 '極具破壞力的'。",
+            "category": "其他"
+          },
+          {
+            "word": "The US-Canada trade war",
+            "text": "'The' 用於特指 '美加貿易戰'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "is putting",
+            "text": "現在進行式 'is putting' 表示動作正在發生。",
+            "category": "時態"
+          },
+          {
+            "word": "on the menu",
+            "text": "'on the menu' 是片語，意為 '在菜單上'，引申為 '成為討論或考慮的選項'。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "White House airs another government-funded ad, this time with Trump warning of ‘final battle’",
+      "url": "https://edition.cnn.com/2026/09/27/politics/white-house-trump-government-funded-ad",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "White House airs another government-funded ad, this time with Trump warning of ‘final battle’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/politics/white-house-trump-government-funded-ad",
+        "zh": "白宮播出另一支政府資助的廣告，這次是川普警告「最終戰役」",
         "accepted": [
           [
             "White",
             "House",
-            "bars",
-            "CNN",
-            "from",
-            "covering",
-            "Trump",
-            "on",
-            "behalf",
-            "of",
-            "major",
-            "TV",
-            "networks",
-            "as",
-            "he",
-            "travels",
-            "to",
-            "Tennessee"
-          ]
-        ],
-        "distractors": [
-          "in",
-          "at",
-          "for",
-          "by",
-          "with",
-          "through"
-        ],
-        "notes": [
-          {
-            "word": "bars",
-            "text": "這裡的 'bars' 是動詞，表示「禁止」或「阻擋」。",
-            "category": "其他"
-          },
-          {
-            "word": "from",
-            "text": "'bar from' 是一個常見的動詞片語，表示「禁止...做某事」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "on behalf of",
-            "text": "'on behalf of' 是一個片語，表示「代表」或「為了...的利益」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "as",
-            "text": "這裡的 'as' 作為連接詞，表示「當...的時候」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump admin cancels funding for refugees, immigrants and others in move lawmakers argue is illegal",
-      "url": "https://edition.cnn.com/2026/09/26/politics/trump-administrion-pocket-rescissions",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump admin cancels funding for refugees, immigrants and others in move lawmakers argue is illegal",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/politics/trump-administrion-pocket-rescissions",
-        "zh": "川普政府取消了對難民、移民和其他人的資助，此舉被議員們認為是非法的。",
-        "accepted": [
-          [
-            "Trump",
-            "admin",
-            "cancels",
-            "funding",
-            "for",
-            "refugees",
+            "airs",
+            "another",
+            "government-funded",
+            "ad",
             ",",
-            "immigrants",
-            "and",
-            "others",
-            "in",
-            "move",
-            "lawmakers",
-            "argue",
-            "is",
-            "illegal"
-          ]
-        ],
-        "distractors": [
-          "a",
-          "the",
-          "an",
-          "of",
-          "with",
-          "by"
-        ],
-        "notes": [
-          {
-            "word": "admin",
-            "text": "'admin' 是 'administration' 的縮寫，表示「政府」或「行政部門」。",
-            "category": "其他"
-          },
-          {
-            "word": "cancels",
-            "text": "動詞 'cancel' 採用現在式，表示新聞事件的即時性或持續性。",
-            "category": "時態"
-          },
-          {
-            "word": "funding",
-            "text": "'funding' 是名詞，表示「資金」或「資助」。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "'for' 在這裡表示「為了」或「針對」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump rejects Iran's latest proposal to reopen the Strait of Hormuz",
-      "url": "https://edition.cnn.com/2026/09/26/middleeast/trump-rejects-iran-proposal-hormuz-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump rejects Iran's latest proposal to reopen the Strait of Hormuz",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/middleeast/trump-rejects-iran-proposal-hormuz-intl",
-        "zh": "川普拒絕了伊朗重開荷姆茲海峽的最新提議。",
-        "accepted": [
-          [
+            "this",
+            "time",
+            "with",
             "Trump",
-            "rejects",
-            "Iran's",
-            "latest",
-            "proposal",
-            "to",
-            "reopen",
-            "the",
-            "Strait",
+            "warning",
             "of",
-            "Hormuz"
+            "‘final",
+            "battle’"
           ]
         ],
         "distractors": [
-          "a",
-          "an",
+          "air",
+          "other",
+          "ads",
+          "warn",
           "for",
-          "in",
-          "on",
-          "with"
+          "battles"
         ],
         "notes": [
           {
-            "word": "rejects",
-            "text": "動詞 'reject' 採用現在式，表示新聞事件的即時性或持續性。",
+            "word": "airs",
+            "text": "'airs' 是動詞 'air' 的第三人稱單數現在式，意為 '播出'。",
             "category": "時態"
           },
           {
-            "word": "Iran's",
-            "text": "'Iran's' 是所有格，表示「伊朗的」。",
-            "category": "其他"
-          },
-          {
-            "word": "proposal",
-            "text": "'proposal' 是名詞，表示「提議」或「提案」。",
-            "category": "其他"
-          },
-          {
-            "word": "to reopen",
-            "text": "'to reopen' 是不定詞片語，表示目的，即「為了重開」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Republicans fear two key Senate races are slipping from their grasp",
-      "url": "https://edition.cnn.com/2026/09/26/politics/senate-republicans-north-carolina-georgia-michael-whatley-mike-collins",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Republicans fear two key Senate races are slipping from their grasp",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/politics/senate-republicans-north-carolina-georgia-michael-whatley-mike-collins",
-        "zh": "共和黨人擔心兩個關鍵的參議院競選正在從他們手中溜走。",
-        "accepted": [
-          [
-            "Republicans",
-            "fear",
-            "two",
-            "key",
-            "Senate",
-            "races",
-            "are",
-            "slipping",
-            "from",
-            "their",
-            "grasp"
-          ]
-        ],
-        "distractors": [
-          "a",
-          "the",
-          "an",
-          "in",
-          "on",
-          "at"
-        ],
-        "notes": [
-          {
-            "word": "fear",
-            "text": "動詞 'fear' 採用現在式，表示新聞事件的即時性或持續性。",
-            "category": "時態"
-          },
-          {
-            "word": "races",
-            "text": "'races' 是 'race' 的複數形式，表示「競選」或「比賽」。",
-            "category": "單複數"
-          },
-          {
-            "word": "are slipping",
-            "text": "'are slipping' 是現在進行式，表示動作正在發生。",
-            "category": "時態"
-          },
-          {
-            "word": "from",
-            "text": "'from' 在這裡表示「從...離開」或「從...中」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘Marie Antoinette’ at 20: A peek behind the velvet curtain",
-      "url": "https://edition.cnn.com/2026/09/26/style/marie-antoinette-movie-anniversary",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘Marie Antoinette’ at 20: A peek behind the velvet curtain",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/style/marie-antoinette-movie-anniversary",
-        "zh": "《瑪麗皇后》20週年：一窺天鵝絨幕後的景象。",
-        "accepted": [
-          [
-            "‘Marie",
-            "Antoinette’",
-            "at",
-            "20",
-            ":",
-            "A",
-            "peek",
-            "behind",
-            "the",
-            "velvet",
-            "curtain"
-          ]
-        ],
-        "distractors": [
-          "in",
-          "on",
-          "for",
-          "with",
-          "by",
-          "of"
-        ],
-        "notes": [
-          {
-            "word": "at",
-            "text": "'at 20' 在這裡表示「在20週年之際」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "A",
-            "text": "'A peek' 中的 'A' 是不定冠詞，表示「一次」或「一個」。",
+            "word": "another",
+            "text": "'another' 指 '另一個'，用於單數可數名詞 'ad' 前。",
             "category": "冠詞"
           },
           {
-            "word": "peek",
-            "text": "'peek' 是名詞，表示「一瞥」或「偷看」。",
+            "word": "warning of",
+            "text": "'warning of' 是現在分詞片語，作後置定語修飾 'Trump'，表示 '警告關於...'。",
             "category": "其他"
           },
           {
-            "word": "behind",
-            "text": "'behind' 是介係詞，表示「在...後面」。",
-            "category": "介係詞"
+            "word": "government-funded",
+            "text": "這是一個複合形容詞，表示 '由政府資助的'。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Did Hitler kill his niece? Newly found records raise fresh questions over 95-year-old mystery",
-      "url": "https://edition.cnn.com/2026/09/25/europe/germany-hitler-raubal-history-intl",
+      "en": "SpaceX’s massive Starship is finally going to orbit — and the effects could be seismic",
+      "url": "https://edition.cnn.com/2026/09/27/science/spacex-starship-orbital-launch",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Did Hitler kill his niece? Newly found records raise fresh questions over 95-year-old mystery",
-        "sourceUrl": "https://edition.cnn.com/2026/09/25/europe/germany-hitler-raubal-history-intl",
-        "zh": "希特勒殺了他的姪女嗎？新發現的記錄對95年懸案提出了新的疑問。",
+        "sourceEn": "SpaceX’s massive Starship is finally going to orbit — and the effects could be seismic",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/science/spacex-starship-orbital-launch",
+        "zh": "SpaceX的巨型星艦終於要進入軌道了——其影響可能是巨大的",
         "accepted": [
           [
-            "Did",
-            "Hitler",
-            "kill",
-            "his",
-            "niece",
-            "?",
-            "Newly",
-            "found",
-            "records",
-            "raise",
-            "fresh",
-            "questions",
-            "over",
-            "95-year-old",
-            "mystery"
-          ]
-        ],
-        "distractors": [
-          "does",
-          "has",
-          "have",
-          "in",
-          "on",
-          "at"
-        ],
-        "notes": [
-          {
-            "word": "Did",
-            "text": "'Did' 是助動詞，用於構成過去簡單式的疑問句。",
-            "category": "時態"
-          },
-          {
-            "word": "kill",
-            "text": "在 'Did' 之後，動詞 'kill' 必須使用原形。",
-            "category": "時態"
-          },
-          {
-            "word": "Newly found",
-            "text": "'Newly found' 是過去分詞片語，修飾 'records'，表示「新發現的」。",
-            "category": "其他"
-          },
-          {
-            "word": "over",
-            "text": "'over' 在這裡表示「關於」或「針對」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How one of the most bombed places on the planet survived",
-      "url": "https://edition.cnn.com/2026/09/26/travel/travel-news-vinh-moc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How one of the most bombed places on the planet survived",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/travel/travel-news-vinh-moc",
-        "zh": "這個星球上被轟炸最嚴重的地方之一是如何倖存下來的。",
-        "accepted": [
-          [
-            "How",
-            "one",
-            "of",
-            "the",
-            "most",
-            "bombed",
-            "places",
-            "on",
-            "the",
-            "planet",
-            "survived"
-          ]
-        ],
-        "distractors": [
-          "a",
-          "an",
-          "in",
-          "at",
-          "for",
-          "with"
-        ],
-        "notes": [
-          {
-            "word": "one of the most",
-            "text": "'one of the most' 是一個常用結構，表示「最...之一」。",
-            "category": "其他"
-          },
-          {
-            "word": "bombed",
-            "text": "'bombed' 是過去分詞，作形容詞修飾 'places'，表示「被轟炸的」。",
-            "category": "其他"
-          },
-          {
-            "word": "places",
-            "text": "'one of the' 後面接可數名詞的複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "on",
-            "text": "'on the planet' 表示「在這個星球上」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "LGBTQ migrants, deported from the US, face unique hardships",
-      "url": "https://edition.cnn.com/2026/09/26/world/lgbtq-migrants-asylum-seekers-america-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "LGBTQ migrants, deported from the US, face unique hardships",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/world/lgbtq-migrants-asylum-seekers-america-intl",
-        "zh": "從美國被驅逐出境的LGBTQ移民面臨獨特的困境。",
-        "accepted": [
-          [
-            "LGBTQ",
-            "migrants",
-            ",",
-            "deported",
-            "from",
-            "the",
-            "US",
-            ",",
-            "face",
-            "unique",
-            "hardships"
-          ]
-        ],
-        "distractors": [
-          "a",
-          "an",
-          "in",
-          "on",
-          "at",
-          "to"
-        ],
-        "notes": [
-          {
-            "word": "migrants",
-            "text": "'migrants' 是複數名詞，表示「移民」。",
-            "category": "單複數"
-          },
-          {
-            "word": "deported",
-            "text": "'deported' 是過去分詞，作形容詞修飾 'migrants'，表示「被驅逐出境的」。",
-            "category": "其他"
-          },
-          {
-            "word": "from",
-            "text": "'from' 在這裡表示「來自」或「從...」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "face",
-            "text": "動詞 'face' 採用現在式，與複數主語 'migrants' 一致。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Why Russia is sending dead princes and saints into battle",
-      "url": "https://edition.cnn.com/2026/09/26/europe/russian-military-orthodox-church-relics-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Why Russia is sending dead princes and saints into battle",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/europe/russian-military-orthodox-church-relics-intl",
-        "zh": "為什麼俄羅斯要將已故的王子和聖人送上戰場。",
-        "accepted": [
-          [
-            "Why",
-            "Russia",
+            "SpaceX’s",
+            "massive",
+            "Starship",
             "is",
-            "sending",
-            "dead",
-            "princes",
+            "finally",
+            "going",
+            "to",
+            "orbit",
+            "—",
             "and",
-            "saints",
-            "into",
-            "battle"
+            "the",
+            "effects",
+            "could",
+            "be",
+            "seismic"
           ]
         ],
         "distractors": [
-          "does",
-          "has",
-          "have",
-          "in",
-          "on",
-          "at"
+          "massive",
+          "Starships",
+          "go",
+          "orbits",
+          "effect",
+          "seismically"
         ],
         "notes": [
           {
-            "word": "is sending",
-            "text": "'is sending' 是現在進行式，表示動作正在發生。",
-            "category": "時態"
-          },
-          {
-            "word": "dead",
-            "text": "'dead' 是形容詞，修飾 'princes' 和 'saints'，表示「已故的」。",
+            "word": "SpaceX’s",
+            "text": "'SpaceX’s' 是所有格，表示 'SpaceX的'。",
             "category": "其他"
           },
           {
-            "word": "princes",
-            "text": "'princes' 是 'prince' 的複數形式，表示「王子們」。",
+            "word": "is finally going to orbit",
+            "text": "'is going to' 表示未來計畫或即將發生的事情。",
+            "category": "時態"
+          },
+          {
+            "word": "to orbit",
+            "text": "'orbit' 在這裡作動詞，意為 '進入軌道'。",
+            "category": "其他"
+          },
+          {
+            "word": "the effects",
+            "text": "'effects' 是複數名詞，指 '影響'。",
             "category": "單複數"
           },
           {
-            "word": "into",
-            "text": "'into battle' 表示「投入戰鬥」或「進入戰場」。",
+            "word": "could be seismic",
+            "text": "'could be' 表示可能性，'seismic' 是形容詞，意為 '巨大的' 或 '地震般的'。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Blanche says ‘one-sided news’ is a national security issue worthy of barring press",
+      "url": "https://edition.cnn.com/2026/09/27/politics/todd-blanche-white-house-press-ban",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Blanche says ‘one-sided news’ is a national security issue worthy of barring press",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/politics/todd-blanche-white-house-press-ban",
+        "zh": "布蘭奇表示「片面新聞」是一個值得禁止媒體報導的國家安全問題",
+        "accepted": [
+          [
+            "Blanche",
+            "says",
+            "‘one-sided",
+            "news’",
+            "is",
+            "a",
+            "national",
+            "security",
+            "issue",
+            "worthy",
+            "of",
+            "barring",
+            "press"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "side",
+          "new",
+          "issues",
+          "worth",
+          "bar"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "'says' 是動詞 'say' 的第三人稱單數現在式，用於報導引述。",
+            "category": "時態"
+          },
+          {
+            "word": "one-sided",
+            "text": "這是一個複合形容詞，意為 '片面的'。",
+            "category": "其他"
+          },
+          {
+            "word": "a national security issue",
+            "text": "'a' 是不定冠詞，用於單數可數名詞 'issue' 前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "worthy of barring press",
+            "text": "'worthy of' 後面接動名詞 (barring)，表示 '值得做某事'。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Trump declines to say if Ukraine can manufacture Patriot missiles to fend off Russian attacks",
-      "url": "https://edition.cnn.com/2026/09/26/politics/trump-ukraine-patriot-missiles",
+      "en": "‘Please fight’: How an elderly woman’s eviction put Spain’s housing crisis in the spotlight",
+      "url": "https://edition.cnn.com/2026/09/27/europe/spain-maricarmen-housing-eviction-intl-latam",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump declines to say if Ukraine can manufacture Patriot missiles to fend off Russian attacks",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/politics/trump-ukraine-patriot-missiles",
-        "zh": "川普拒絕說明烏克蘭是否能製造愛國者飛彈以抵禦俄羅斯襲擊。",
+        "sourceEn": "‘Please fight’: How an elderly woman’s eviction put Spain’s housing crisis in the spotlight",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/europe/spain-maricarmen-housing-eviction-intl-latam",
+        "zh": "「請戰鬥！」：一位老年婦女的驅逐如何將西班牙的住房危機推向聚光燈下",
         "accepted": [
           [
-            "Trump",
-            "declines",
-            "to",
-            "say",
-            "if",
-            "Ukraine",
-            "can",
-            "manufacture",
-            "Patriot",
-            "missiles",
-            "to",
-            "fend",
-            "off",
-            "Russian",
-            "attacks"
+            "‘Please",
+            "fight’",
+            ":",
+            "How",
+            "an",
+            "elderly",
+            "woman’s",
+            "eviction",
+            "put",
+            "Spain’s",
+            "housing",
+            "crisis",
+            "in",
+            "the",
+            "spotlight"
           ]
         ],
         "distractors": [
-          "does",
-          "has",
-          "have",
-          "in",
-          "on",
-          "at"
+          "fighting",
+          "women",
+          "evict",
+          "puts",
+          "crises",
+          "on"
         ],
         "notes": [
           {
-            "word": "declines",
-            "text": "動詞 'decline' 採用現在式，表示新聞事件的即時性或持續性。",
+            "word": "an elderly woman’s",
+            "text": "'an' 是不定冠詞，用於以母音開頭的單數可數名詞 'elderly' 前。'woman’s' 是所有格。",
+            "category": "冠詞"
+          },
+          {
+            "word": "eviction",
+            "text": "'eviction' 是名詞，意為 '驅逐' 或 '趕出'。",
+            "category": "其他"
+          },
+          {
+            "word": "put",
+            "text": "'put' 在這裡用作過去式，因為事件已經發生。",
             "category": "時態"
           },
           {
-            "word": "to say",
-            "text": "'to say' 是不定詞片語，作 'declines' 的補語，表示「拒絕說」。",
-            "category": "其他"
-          },
-          {
-            "word": "if",
-            "text": "'if' 在這裡引導一個名詞子句，表示「是否」。",
-            "category": "其他"
-          },
-          {
-            "word": "to fend off",
-            "text": "'to fend off' 是不定詞片語，表示目的，即「為了抵禦」。",
-            "category": "其他"
+            "word": "in the spotlight",
+            "text": "'in the spotlight' 是片語，意為 '受到關注' 或 '成為焦點'。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Outrage as East German town bans Holocaust ‘stumbling blocks’",
-      "url": "https://edition.cnn.com/2026/09/26/europe/german-town-holocaust-stolpersteine-backlash-intl",
+      "en": "Six missing in avalanche as severe weather batters Nepal",
+      "url": "https://edition.cnn.com/2026/09/27/asia/nepal-avalanche-missing-intl-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Outrage as East German town bans Holocaust ‘stumbling blocks’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/europe/german-town-holocaust-stolpersteine-backlash-intl",
-        "zh": "東德小鎮禁止大屠殺「絆腳石」引發眾怒。",
+        "sourceEn": "Six missing in avalanche as severe weather batters Nepal",
+        "sourceUrl": "https://edition.cnn.com/2026/09/27/asia/nepal-avalanche-missing-intl-hnk",
+        "zh": "尼泊爾遭受惡劣天氣襲擊，雪崩中六人失蹤",
         "accepted": [
           [
-            "Outrage",
+            "Six",
+            "missing",
+            "in",
+            "avalanche",
             "as",
-            "East",
-            "German",
-            "town",
-            "bans",
-            "Holocaust",
-            "‘stumbling",
-            "blocks’"
+            "severe",
+            "weather",
+            "batters",
+            "Nepal"
           ]
         ],
         "distractors": [
-          "a",
-          "the",
-          "an",
-          "in",
+          "miss",
           "on",
-          "at"
+          "avalanches",
+          "weathered",
+          "battered",
+          "Nepals"
         ],
         "notes": [
           {
-            "word": "Outrage",
-            "text": "'Outrage' 是名詞，表示「憤怒」或「義憤」。",
-            "category": "其他"
+            "word": "Six missing",
+            "text": "這裡省略了 'are'，完整的句子是 'Six are missing' (六人失蹤)。",
+            "category": "時態"
+          },
+          {
+            "word": "in avalanche",
+            "text": "'in' 表示 '在...之中'，指在雪崩事件中失蹤。",
+            "category": "介係詞"
           },
           {
             "word": "as",
-            "text": "這裡的 'as' 作為連接詞，表示「當...的時候」或「因為」。",
+            "text": "'as' 在這裡作連接詞，表示 '當...的時候' 或 '由於...'。",
             "category": "其他"
           },
           {
-            "word": "bans",
-            "text": "動詞 'ban' 採用現在式，表示新聞事件的即時性或持續性。",
+            "word": "batters",
+            "text": "'batters' 是動詞 'batter' 的第三人稱單數現在式，意為 '猛烈襲擊'。",
             "category": "時態"
-          },
-          {
-            "word": "stumbling blocks",
-            "text": "'stumbling blocks' 是一個片語，表示「絆腳石」或「障礙」。",
-            "category": "其他"
           }
         ]
       }
