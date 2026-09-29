@@ -1,697 +1,699 @@
 {
-  "date": "2026-09-27",
-  "fetchedAt": "2026-09-27T22:54:32.066Z",
+  "date": "2026-09-29",
+  "fetchedAt": "2026-09-29T00:17:27.034Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "How to make friends as an adult",
-      "url": "https://edition.cnn.com/2026/09/27/health/make-keep-friends-grownup-wellness",
+      "en": "Trump personally helped orchestrate taxpayer-funded ads promoting himself and his policies, source says",
+      "url": "https://edition.cnn.com/2026/09/28/politics/trump-ads-taxpayer-funds",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "How to make friends as an adult",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/health/make-keep-friends-grownup-wellness",
-        "zh": "成年後如何交朋友",
+        "sourceEn": "Trump personally helped orchestrate taxpayer-funded ads promoting himself and his policies, source says",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/trump-ads-taxpayer-funds",
+        "zh": "消息人士稱，川普親自協助策劃了納稅人資助的廣告，宣傳他自己和他的政策。",
         "accepted": [
           [
-            "How",
-            "to",
-            "make",
-            "friends",
-            "as",
-            "an",
-            "adult"
+            "Trump",
+            "personally",
+            "helped",
+            "orchestrate",
+            "taxpayer-funded",
+            "ads",
+            "promoting",
+            "himself",
+            "and",
+            "his",
+            "policies",
+            ",",
+            "source",
+            "says"
           ]
         ],
         "distractors": [
-          "for",
-          "making",
-          "adults",
-          "the",
-          "become",
-          "friend"
+          "promoted",
+          "policy",
+          "sources",
+          "saying",
+          "aid",
+          "orchestrates"
         ],
         "notes": [
           {
-            "word": "as",
-            "text": "在這裡 'as' 作為介係詞，表示 '作為' 或 '以...的身份'。",
-            "category": "介係詞"
+            "word": "promoting",
+            "text": "這裡的「promoting」是現在分詞，用作形容詞修飾「ads」，表示這些廣告的目的是「宣傳」。",
+            "category": "其他"
           },
           {
-            "word": "an",
-            "text": "'an' 是不定冠詞，用於以母音開頭的單數可數名詞前，例如 'adult'。",
+            "word": "taxpayer-funded",
+            "text": "這是一個複合形容詞，由「taxpayer」（納稅人）和「funded」（資助的）組成，表示「由納稅人資助的」。",
+            "category": "其他"
+          },
+          {
+            "word": "source says",
+            "text": "新聞標題中常省略「a」或「the」等冠詞，這裡的「source says」是「a source says」的簡化。",
             "category": "冠詞"
           },
           {
-            "word": "make friends",
-            "text": "'make friends' 是常見的片語，意為 '交朋友'。",
-            "category": "其他"
-          },
-          {
-            "word": "adult",
-            "text": "'adult' 是單數名詞，指 '成年人'。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "2 giant pandas arrive at Zoo Atlanta in a rare loan from China",
-      "url": "https://edition.cnn.com/2026/09/26/asia/two-giant-pandas-leave-on-a-flight-bound-for-zoo-atlanta-in-a-rare-loan-from-china-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "2 giant pandas arrive at Zoo Atlanta in a rare loan from China",
-        "sourceUrl": "https://edition.cnn.com/2026/09/26/asia/two-giant-pandas-leave-on-a-flight-bound-for-zoo-atlanta-in-a-rare-loan-from-china-latam-intl",
-        "zh": "兩隻大熊貓從中國罕見借出，抵達亞特蘭大動物園",
-        "accepted": [
-          [
-            "2",
-            "giant",
-            "pandas",
-            "arrive",
-            "at",
-            "Zoo",
-            "Atlanta",
-            "in",
-            "a",
-            "rare",
-            "loan",
-            "from",
-            "China"
-          ]
-        ],
-        "distractors": [
-          "arrived",
-          "to",
-          "the",
-          "loans",
-          "rarely",
-          "Chinese"
-        ],
-        "notes": [
-          {
-            "word": "arrive at",
-            "text": "'arrive at' 通常用於抵達較小的地點，如 'Zoo Atlanta'。若為較大的城市或國家，則用 'arrive in'。",
-            "category": "介係詞"
-          },
-          {
-            "word": "pandas",
-            "text": "'pandas' 是複數名詞，因為有 '2 giant'。",
-            "category": "單複數"
-          },
-          {
-            "word": "a rare loan",
-            "text": "'a rare loan' 指的是 '一次罕見的借出'，'loan' 在此作名詞。",
-            "category": "冠詞"
-          },
-          {
-            "word": "from China",
-            "text": "'from' 表示來源，指熊貓是 '來自中國'。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Germany’s AfD is so extreme it’s putting off other far-right parties",
-      "url": "https://edition.cnn.com/2026/09/27/europe/germany-afd-rattles-europe-and-not-just-the-mainstream",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Germany’s AfD is so extreme it’s putting off other far-right parties",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/europe/germany-afd-rattles-europe-and-not-just-the-mainstream",
-        "zh": "德國的AfD（德國另類選擇黨）極端到讓其他極右翼政黨都望而卻步",
-        "accepted": [
-          [
-            "Germany’s",
-            "AfD",
-            "is",
-            "so",
-            "extreme",
-            "it’s",
-            "putting",
-            "off",
-            "other",
-            "far-right",
-            "parties"
-          ]
-        ],
-        "distractors": [
-          "too",
-          "extremist",
-          "put",
-          "away",
-          "party",
-          "another"
-        ],
-        "notes": [
-          {
-            "word": "Germany’s",
-            "text": "'Germany’s' 是所有格，表示 '德國的'。",
-            "category": "其他"
-          },
-          {
-            "word": "so extreme",
-            "text": "'so...that...' 句型表示 '如此...以至於...'。這裡 'that' 被省略了。",
-            "category": "其他"
-          },
-          {
-            "word": "putting off",
-            "text": "'put off' 是一個動詞片語，意為 '使...卻步' 或 '使...不悅'。",
-            "category": "其他"
-          },
-          {
-            "word": "it’s",
-            "text": "'it’s' 是 'it is' 的縮寫，在這裡作主語和動詞。",
+            "word": "helped orchestrate",
+            "text": "「help」後面可以接原形動詞或帶to的不定詞，表示「幫助做某事」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "South Africa police hunt suspects after three shootings leave more than 30 people dead",
-      "url": "https://edition.cnn.com/2026/09/27/africa/south-africa-shooting-tavern-intl-hnk",
+      "en": "New York prosecutors reopen investigation after student files lawsuit over alleged gang rape at Cornell University",
+      "url": "https://edition.cnn.com/2026/09/28/us/cornell-university-sexual-assault-lawsuit-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "South Africa police hunt suspects after three shootings leave more than 30 people dead",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/africa/south-africa-shooting-tavern-intl-hnk",
-        "zh": "南非警方在三起槍擊事件造成逾30人死亡後追捕嫌犯",
+        "sourceEn": "New York prosecutors reopen investigation after student files lawsuit over alleged gang rape at Cornell University",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/us/cornell-university-sexual-assault-lawsuit-hnk",
+        "zh": "紐約檢察官在一名學生就康乃爾大學涉嫌的集體性侵事件提起訴訟後，重啟了調查。",
         "accepted": [
           [
-            "South",
-            "Africa",
-            "police",
-            "hunt",
-            "suspects",
+            "New",
+            "York",
+            "prosecutors",
+            "reopen",
+            "investigation",
             "after",
-            "three",
-            "shootings",
-            "leave",
-            "more",
-            "than",
-            "30",
-            "people",
-            "dead"
+            "student",
+            "files",
+            "lawsuit",
+            "over",
+            "alleged",
+            "gang",
+            "rape",
+            "at",
+            "Cornell",
+            "University"
           ]
         ],
         "distractors": [
-          "hunting",
-          "suspect",
-          "leaves",
-          "deadly",
-          "over",
-          "polices"
+          "reopened",
+          "students",
+          "file",
+          "investigations",
+          "allegedly",
+          "rapes"
         ],
         "notes": [
           {
-            "word": "hunt suspects",
-            "text": "'hunt' 在這裡作動詞，意為 '追捕'。'suspects' 是複數名詞，指 '嫌犯'。",
-            "category": "單複數"
+            "word": "reopen",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
           },
           {
-            "word": "after",
-            "text": "'after' 作為連接詞，引導時間狀語從句，表示 '在...之後'。",
-            "category": "介係詞"
+            "word": "student",
+            "text": "新聞標題中常省略冠詞，這裡的「student」應理解為「a student」。",
+            "category": "冠詞"
           },
           {
-            "word": "leave more than 30 people dead",
-            "text": "'leave' 在這裡表示 '使...處於某種狀態'，'dead' 是形容詞，修飾 'people'。",
+            "word": "files lawsuit",
+            "text": "「file a lawsuit」是「提起訴訟」的固定搭配。",
             "category": "其他"
           },
           {
-            "word": "shootings",
-            "text": "'shootings' 是複數名詞，指 '槍擊事件'。",
-            "category": "單複數"
+            "word": "over",
+            "text": "介係詞「over」在這裡表示「關於」或「針對」某事。",
+            "category": "介係詞"
+          },
+          {
+            "word": "alleged",
+            "text": "「alleged」是形容詞，表示「被指控的」或「據稱的」，強調事件尚未被證實。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Five men arrested on suspicion of terror offenses near UK air base used by US forces",
-      "url": "https://edition.cnn.com/2026/09/27/uk/fairford-arrests-uk-raf-us-intl",
+      "en": "Netanyahu met with UAE president Sunday in rare trip to country, both sides confirm",
+      "url": "https://edition.cnn.com/2026/09/28/middleeast/israel-netanyahu-secret-visit-uae-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Five men arrested on suspicion of terror offenses near UK air base used by US forces",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/uk/fairford-arrests-uk-raf-us-intl",
-        "zh": "五名男子因涉嫌在美國部隊使用的英國空軍基地附近從事恐怖活動而被捕",
+        "sourceEn": "Netanyahu met with UAE president Sunday in rare trip to country, both sides confirm",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/middleeast/israel-netanyahu-secret-visit-uae-intl",
+        "zh": "雙方證實，納坦雅胡週日罕見地訪問阿聯酋，並與阿聯酋總統會面。",
+        "accepted": [
+          [
+            "Netanyahu",
+            "met",
+            "with",
+            "UAE",
+            "president",
+            "Sunday",
+            "in",
+            "rare",
+            "trip",
+            "to",
+            "country",
+            ",",
+            "both",
+            "sides",
+            "confirm"
+          ]
+        ],
+        "distractors": [
+          "meets",
+          "presidents",
+          "trip",
+          "rarely",
+          "countries",
+          "confirmed"
+        ],
+        "notes": [
+          {
+            "word": "met",
+            "text": "「meet with someone」表示「與某人會面」。",
+            "category": "其他"
+          },
+          {
+            "word": "president",
+            "text": "新聞標題中常省略冠詞，這裡的「UAE president」應理解為「the UAE president」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "in rare trip",
+            "text": "這裡的「in rare trip to country」是「in a rare trip to the country」的簡化，省略了冠詞。",
+            "category": "冠詞"
+          },
+          {
+            "word": "confirm",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Five suspects in alleged UK airbase terror plot released on bail",
+      "url": "https://edition.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Five suspects in alleged UK airbase terror plot released on bail",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
+        "zh": "五名涉嫌參與英國空軍基地恐怖陰謀的嫌犯獲准保釋。",
         "accepted": [
           [
             "Five",
-            "men",
-            "arrested",
-            "on",
-            "suspicion",
-            "of",
-            "terror",
-            "offenses",
-            "near",
+            "suspects",
+            "in",
+            "alleged",
             "UK",
-            "air",
-            "base",
-            "used",
-            "by",
-            "US",
-            "forces"
-          ]
-        ],
-        "distractors": [
-          "man",
-          "arrest",
-          "for",
-          "offense",
-          "using",
-          "force"
-        ],
-        "notes": [
-          {
-            "word": "men",
-            "text": "'men' 是 'man' 的複數形式，與 'Five' 相符。",
-            "category": "單複數"
-          },
-          {
-            "word": "arrested",
-            "text": "這裡省略了 'were'，構成被動語態 'were arrested' (被捕)。",
-            "category": "時態"
-          },
-          {
-            "word": "on suspicion of",
-            "text": "'on suspicion of' 是固定片語，意為 '涉嫌...'。",
-            "category": "介係詞"
-          },
-          {
-            "word": "offenses",
-            "text": "'offenses' 是複數名詞，指 '罪行' 或 '違法行為'。",
-            "category": "單複數"
-          },
-          {
-            "word": "used by",
-            "text": "'used by' 是過去分詞片語，作後置定語修飾 'air base'，表示 '被...使用的'。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "I started fact-checking Trump 10 years ago. Here are 15 things I’ve learned",
-      "url": "https://edition.cnn.com/2026/09/27/politics/fact-checking-trump-10-years-lessons",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "I started fact-checking Trump 10 years ago. Here are 15 things I’ve learned",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/politics/fact-checking-trump-10-years-lessons",
-        "zh": "我十年前開始查證川普的言論。這是我的15個心得。",
-        "accepted": [
-          [
-            "I",
-            "started",
-            "fact-checking",
-            "Trump",
-            "10",
-            "years",
-            "ago",
-            ".",
-            "Here",
-            "are",
-            "15",
-            "things",
-            "I’ve",
-            "learned"
-          ]
-        ],
-        "distractors": [
-          "start",
-          "fact-check",
-          "year",
-          "is",
-          "learning",
-          "ago,"
-        ],
-        "notes": [
-          {
-            "word": "started fact-checking",
-            "text": "'start' 後面可以接動名詞 (fact-checking) 或不定詞 (to fact-check)，兩者意思相近。",
-            "category": "其他"
-          },
-          {
-            "word": "10 years ago",
-            "text": "'ago' 用於過去式動詞，表示 '在...之前'。",
-            "category": "時態"
-          },
-          {
-            "word": "Here are",
-            "text": "'Here are' 用於介紹複數事物，因為後面是 '15 things'。",
-            "category": "單複數"
-          },
-          {
-            "word": "I’ve learned",
-            "text": "'I’ve learned' 是 'I have learned' 的縮寫，表示現在完成式，強調經驗或結果。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘It’s devastating’: The US-Canada trade war is putting protein on the menu",
-      "url": "https://edition.cnn.com/2026/09/27/business/whey-protein-trade-war",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘It’s devastating’: The US-Canada trade war is putting protein on the menu",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/business/whey-protein-trade-war",
-        "zh": "「這太具破壞性了」：美加貿易戰正在將蛋白質推上菜單",
-        "accepted": [
-          [
-            "‘It’s",
-            "devastating’",
-            ":",
-            "The",
-            "US-Canada",
-            "trade",
-            "war",
-            "is",
-            "putting",
-            "protein",
+            "airbase",
+            "terror",
+            "plot",
+            "released",
             "on",
-            "the",
-            "menu"
+            "bail"
           ]
         ],
         "distractors": [
-          "devastate",
-          "wars",
-          "put",
-          "proteins",
-          "in",
-          "menus"
+          "suspect",
+          "releasing",
+          "plots",
+          "allegedly",
+          "release",
+          "bailed"
         ],
         "notes": [
           {
-            "word": "It’s devastating",
-            "text": "'devastating' 是形容詞，意為 '毀滅性的' 或 '極具破壞力的'。",
+            "word": "suspects",
+            "text": "「suspects」是複數名詞，表示「嫌犯」。",
+            "category": "單複數"
+          },
+          {
+            "word": "alleged",
+            "text": "「alleged」是形容詞，表示「被指控的」或「據稱的」，強調事件尚未被證實。",
             "category": "其他"
           },
           {
-            "word": "The US-Canada trade war",
-            "text": "'The' 用於特指 '美加貿易戰'。",
-            "category": "冠詞"
-          },
-          {
-            "word": "is putting",
-            "text": "現在進行式 'is putting' 表示動作正在發生。",
+            "word": "released on bail",
+            "text": "「be released on bail」是「獲准保釋」的固定搭配。這裡省略了助動詞「were」，是新聞標題的常見寫法。",
             "category": "時態"
           },
           {
-            "word": "on the menu",
-            "text": "'on the menu' 是片語，意為 '在菜單上'，引申為 '成為討論或考慮的選項'。",
+            "word": "in",
+            "text": "介係詞「in」在這裡表示「在...中」或「參與...」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "White House airs another government-funded ad, this time with Trump warning of ‘final battle’",
-      "url": "https://edition.cnn.com/2026/09/27/politics/white-house-trump-government-funded-ad",
+      "en": "Trump says he did not discuss the possibility of the US selling weapons to China, contradicting his ambassador",
+      "url": "https://edition.cnn.com/2026/09/28/politics/trump-china-weapons",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "White House airs another government-funded ad, this time with Trump warning of ‘final battle’",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/politics/white-house-trump-government-funded-ad",
-        "zh": "白宮播出另一支政府資助的廣告，這次是川普警告「最終戰役」",
+        "sourceEn": "Trump says he did not discuss the possibility of the US selling weapons to China, contradicting his ambassador",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/trump-china-weapons",
+        "zh": "川普表示他沒有討論美國向中國出售武器的可能性，這與他的大使說法相矛盾。",
         "accepted": [
           [
-            "White",
-            "House",
-            "airs",
-            "another",
-            "government-funded",
-            "ad",
-            ",",
-            "this",
-            "time",
-            "with",
             "Trump",
-            "warning",
-            "of",
-            "‘final",
-            "battle’"
-          ]
-        ],
-        "distractors": [
-          "air",
-          "other",
-          "ads",
-          "warn",
-          "for",
-          "battles"
-        ],
-        "notes": [
-          {
-            "word": "airs",
-            "text": "'airs' 是動詞 'air' 的第三人稱單數現在式，意為 '播出'。",
-            "category": "時態"
-          },
-          {
-            "word": "another",
-            "text": "'another' 指 '另一個'，用於單數可數名詞 'ad' 前。",
-            "category": "冠詞"
-          },
-          {
-            "word": "warning of",
-            "text": "'warning of' 是現在分詞片語，作後置定語修飾 'Trump'，表示 '警告關於...'。",
-            "category": "其他"
-          },
-          {
-            "word": "government-funded",
-            "text": "這是一個複合形容詞，表示 '由政府資助的'。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "SpaceX’s massive Starship is finally going to orbit — and the effects could be seismic",
-      "url": "https://edition.cnn.com/2026/09/27/science/spacex-starship-orbital-launch",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "SpaceX’s massive Starship is finally going to orbit — and the effects could be seismic",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/science/spacex-starship-orbital-launch",
-        "zh": "SpaceX的巨型星艦終於要進入軌道了——其影響可能是巨大的",
-        "accepted": [
-          [
-            "SpaceX’s",
-            "massive",
-            "Starship",
-            "is",
-            "finally",
-            "going",
-            "to",
-            "orbit",
-            "—",
-            "and",
-            "the",
-            "effects",
-            "could",
-            "be",
-            "seismic"
-          ]
-        ],
-        "distractors": [
-          "massive",
-          "Starships",
-          "go",
-          "orbits",
-          "effect",
-          "seismically"
-        ],
-        "notes": [
-          {
-            "word": "SpaceX’s",
-            "text": "'SpaceX’s' 是所有格，表示 'SpaceX的'。",
-            "category": "其他"
-          },
-          {
-            "word": "is finally going to orbit",
-            "text": "'is going to' 表示未來計畫或即將發生的事情。",
-            "category": "時態"
-          },
-          {
-            "word": "to orbit",
-            "text": "'orbit' 在這裡作動詞，意為 '進入軌道'。",
-            "category": "其他"
-          },
-          {
-            "word": "the effects",
-            "text": "'effects' 是複數名詞，指 '影響'。",
-            "category": "單複數"
-          },
-          {
-            "word": "could be seismic",
-            "text": "'could be' 表示可能性，'seismic' 是形容詞，意為 '巨大的' 或 '地震般的'。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Blanche says ‘one-sided news’ is a national security issue worthy of barring press",
-      "url": "https://edition.cnn.com/2026/09/27/politics/todd-blanche-white-house-press-ban",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Blanche says ‘one-sided news’ is a national security issue worthy of barring press",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/politics/todd-blanche-white-house-press-ban",
-        "zh": "布蘭奇表示「片面新聞」是一個值得禁止媒體報導的國家安全問題",
-        "accepted": [
-          [
-            "Blanche",
             "says",
-            "‘one-sided",
-            "news’",
-            "is",
-            "a",
-            "national",
-            "security",
-            "issue",
-            "worthy",
+            "he",
+            "did",
+            "not",
+            "discuss",
+            "the",
+            "possibility",
             "of",
-            "barring",
-            "press"
+            "the",
+            "US",
+            "selling",
+            "weapons",
+            "to",
+            "China",
+            ",",
+            "contradicting",
+            "his",
+            "ambassador"
           ]
         ],
         "distractors": [
           "said",
-          "side",
-          "new",
-          "issues",
-          "worth",
-          "bar"
+          "discussing",
+          "possibilities",
+          "weapon",
+          "contradicted",
+          "ambassadors"
         ],
         "notes": [
           {
             "word": "says",
-            "text": "'says' 是動詞 'say' 的第三人稱單數現在式，用於報導引述。",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
             "category": "時態"
           },
           {
-            "word": "one-sided",
-            "text": "這是一個複合形容詞，意為 '片面的'。",
+            "word": "did not discuss",
+            "text": "這是過去簡單時的否定形式，表示「沒有討論」。",
+            "category": "時態"
+          },
+          {
+            "word": "selling weapons",
+            "text": "「selling」是動名詞，作為「possibility of...」的賓語，表示「出售武器」這個行為。",
             "category": "其他"
           },
           {
-            "word": "a national security issue",
-            "text": "'a' 是不定冠詞，用於單數可數名詞 'issue' 前。",
-            "category": "冠詞"
+            "word": "contradicting",
+            "text": "這裡的「contradicting」是現在分詞片語，用作狀語，表示「與...相矛盾」的結果或方式。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "One of Kash Patel’s deputies resigns from the FBI",
+      "url": "https://edition.cnn.com/2026/09/28/politics/kash-patel-deputy-andrew-bailey-resigns-fbi",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "One of Kash Patel’s deputies resigns from the FBI",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/kash-patel-deputy-andrew-bailey-resigns-fbi",
+        "zh": "卡什·帕特爾的一名副手從聯邦調查局辭職。",
+        "accepted": [
+          [
+            "One",
+            "of",
+            "Kash",
+            "Patel’s",
+            "deputies",
+            "resigns",
+            "from",
+            "the",
+            "FBI"
+          ]
+        ],
+        "distractors": [
+          "deputy",
+          "resigned",
+          "resign",
+          "Patel",
+          "F.B.I.",
+          "ones"
+        ],
+        "notes": [
+          {
+            "word": "One of... deputies",
+            "text": "「One of the + 複數名詞」表示「...之一」，因此「deputies」必須是複數。",
+            "category": "單複數"
           },
           {
-            "word": "worthy of barring press",
-            "text": "'worthy of' 後面接動名詞 (barring)，表示 '值得做某事'。",
+            "word": "resigns",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。主詞是「One」，所以動詞用單數第三人稱形式。",
+            "category": "時態"
+          },
+          {
+            "word": "from",
+            "text": "介係詞「from」在這裡表示「從...辭職」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "‘Please fight’: How an elderly woman’s eviction put Spain’s housing crisis in the spotlight",
-      "url": "https://edition.cnn.com/2026/09/27/europe/spain-maricarmen-housing-eviction-intl-latam",
+      "en": "Trump open to Iran sanctions relief for ‘concrete progress’ on nuclear issues, US official says",
+      "url": "https://edition.cnn.com/2026/09/28/politics/trump-iran-deal-sanctions-nuclear",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "‘Please fight’: How an elderly woman’s eviction put Spain’s housing crisis in the spotlight",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/europe/spain-maricarmen-housing-eviction-intl-latam",
-        "zh": "「請戰鬥！」：一位老年婦女的驅逐如何將西班牙的住房危機推向聚光燈下",
+        "sourceEn": "Trump open to Iran sanctions relief for ‘concrete progress’ on nuclear issues, US official says",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/trump-iran-deal-sanctions-nuclear",
+        "zh": "美國官員表示，川普願意為伊朗核問題的「具體進展」而放鬆對伊朗的制裁。",
         "accepted": [
           [
-            "‘Please",
-            "fight’",
-            ":",
+            "Trump",
+            "open",
+            "to",
+            "Iran",
+            "sanctions",
+            "relief",
+            "for",
+            "‘concrete",
+            "progress’",
+            "on",
+            "nuclear",
+            "issues",
+            ",",
+            "US",
+            "official",
+            "says"
+          ]
+        ],
+        "distractors": [
+          "opened",
+          "sanction",
+          "relieve",
+          "progresses",
+          "officials",
+          "said"
+        ],
+        "notes": [
+          {
+            "word": "open to",
+            "text": "「be open to something」表示「對某事持開放態度」或「願意接受某事」。新聞標題中省略了「is」。",
+            "category": "其他"
+          },
+          {
+            "word": "sanctions relief",
+            "text": "「sanctions relief」是「制裁解除」或「制裁放鬆」的意思。",
+            "category": "其他"
+          },
+          {
+            "word": "for",
+            "text": "介係詞「for」在這裡表示「為了」或「作為交換」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "on",
+            "text": "介係詞「on」在這裡表示「關於」或「針對」某個議題。",
+            "category": "介係詞"
+          },
+          {
+            "word": "says",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The best celebrity looks at Paris Fashion Week so far",
+      "url": "https://edition.cnn.com/2026/09/28/style/paris-fashion-week-celebrity-fashion",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The best celebrity looks at Paris Fashion Week so far",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/style/paris-fashion-week-celebrity-fashion",
+        "zh": "截至目前巴黎時裝週上最棒的名人造型。",
+        "accepted": [
+          [
+            "The",
+            "best",
+            "celebrity",
+            "looks",
+            "at",
+            "Paris",
+            "Fashion",
+            "Week",
+            "so",
+            "far"
+          ]
+        ],
+        "distractors": [
+          "better",
+          "celebrities",
+          "look",
+          "in",
+          "fashions",
+          "further"
+        ],
+        "notes": [
+          {
+            "word": "The best",
+            "text": "「the best」是最高級形容詞，表示「最好的」。",
+            "category": "其他"
+          },
+          {
+            "word": "celebrity looks",
+            "text": "「celebrity」在這裡作形容詞修飾「looks」，表示「名人的造型」。",
+            "category": "其他"
+          },
+          {
+            "word": "at",
+            "text": "介係詞「at」在這裡表示「在（某個活動或地點）」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "so far",
+            "text": "「so far」是片語，表示「到目前為止」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How America’s girls want you to see them",
+      "url": "https://edition.cnn.com/2026/09/28/style/americas-girls-photographs-eva-verbeeck-book",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How America’s girls want you to see them",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/style/americas-girls-photographs-eva-verbeeck-book",
+        "zh": "美國女孩們希望你如何看待她們。",
+        "accepted": [
+          [
             "How",
-            "an",
-            "elderly",
-            "woman’s",
-            "eviction",
-            "put",
-            "Spain’s",
-            "housing",
-            "crisis",
+            "America’s",
+            "girls",
+            "want",
+            "you",
+            "to",
+            "see",
+            "them"
+          ]
+        ],
+        "distractors": [
+          "girl",
+          "wants",
+          "saw",
+          "theirs",
+          "seeing",
+          "America"
+        ],
+        "notes": [
+          {
+            "word": "America’s girls",
+            "text": "「America’s」是所有格，表示「美國的」。",
+            "category": "其他"
+          },
+          {
+            "word": "want you to see",
+            "text": "「want + 賓語 + to + 動詞原形」表示「想要某人做某事」。",
+            "category": "其他"
+          },
+          {
+            "word": "them",
+            "text": "「them」是賓格代詞，指代「America’s girls」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Exclusive ‘I have no one’: Inside a Texas immigration court where children fight to stay in the US",
+      "url": "https://edition.cnn.com/2026/09/28/politics/texas-immigration-court-minors",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Exclusive ‘I have no one’: Inside a Texas immigration court where children fight to stay in the US",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/texas-immigration-court-minors",
+        "zh": "CNN獨家報導：「我一無所有」：德州移民法庭內部，孩子們為留在美國而奮鬥。",
+        "accepted": [
+          [
+            "CNN",
+            "Exclusive",
+            "‘I",
+            "have",
+            "no",
+            "one’",
+            ":",
+            "Inside",
+            "a",
+            "Texas",
+            "immigration",
+            "court",
+            "where",
+            "children",
+            "fight",
+            "to",
+            "stay",
             "in",
             "the",
-            "spotlight"
+            "US"
           ]
         ],
         "distractors": [
-          "fighting",
-          "women",
-          "evict",
-          "puts",
-          "crises",
-          "on"
+          "exclusively",
+          "had",
+          "ones",
+          "courts",
+          "child",
+          "fought"
         ],
         "notes": [
           {
-            "word": "an elderly woman’s",
-            "text": "'an' 是不定冠詞，用於以母音開頭的單數可數名詞 'elderly' 前。'woman’s' 是所有格。",
-            "category": "冠詞"
-          },
-          {
-            "word": "eviction",
-            "text": "'eviction' 是名詞，意為 '驅逐' 或 '趕出'。",
+            "word": "Exclusive",
+            "text": "「Exclusive」在這裡作名詞，表示「獨家報導」。",
             "category": "其他"
           },
           {
-            "word": "put",
-            "text": "'put' 在這裡用作過去式，因為事件已經發生。",
-            "category": "時態"
+            "word": "have no one",
+            "text": "「have no one」表示「一無所有」或「沒有任何人」。",
+            "category": "其他"
           },
           {
-            "word": "in the spotlight",
-            "text": "'in the spotlight' 是片語，意為 '受到關注' 或 '成為焦點'。",
+            "word": "Inside a Texas immigration court",
+            "text": "「Inside」作介係詞，表示「在...內部」。",
             "category": "介係詞"
+          },
+          {
+            "word": "where",
+            "text": "「where」引導一個關係副詞子句，修飾前面的地點「court」。",
+            "category": "其他"
+          },
+          {
+            "word": "fight to stay",
+            "text": "「fight to do something」表示「努力爭取做某事」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Six missing in avalanche as severe weather batters Nepal",
-      "url": "https://edition.cnn.com/2026/09/27/asia/nepal-avalanche-missing-intl-hnk",
+      "en": "Nvidia launches new tool to keep AI agents from going rogue",
+      "url": "https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Six missing in avalanche as severe weather batters Nepal",
-        "sourceUrl": "https://edition.cnn.com/2026/09/27/asia/nepal-avalanche-missing-intl-hnk",
-        "zh": "尼泊爾遭受惡劣天氣襲擊，雪崩中六人失蹤",
+        "sourceEn": "Nvidia launches new tool to keep AI agents from going rogue",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system",
+        "zh": "英偉達推出新工具，防止AI代理人失控。",
         "accepted": [
           [
-            "Six",
-            "missing",
-            "in",
-            "avalanche",
-            "as",
-            "severe",
-            "weather",
-            "batters",
-            "Nepal"
+            "Nvidia",
+            "launches",
+            "new",
+            "tool",
+            "to",
+            "keep",
+            "AI",
+            "agents",
+            "from",
+            "going",
+            "rogue"
           ]
         ],
         "distractors": [
-          "miss",
-          "on",
-          "avalanches",
-          "weathered",
-          "battered",
-          "Nepals"
+          "launched",
+          "tools",
+          "agent",
+          "kept",
+          "goes",
+          "rogues"
         ],
         "notes": [
           {
-            "word": "Six missing",
-            "text": "這裡省略了 'are'，完整的句子是 'Six are missing' (六人失蹤)。",
+            "word": "launches",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
             "category": "時態"
           },
           {
-            "word": "in avalanche",
-            "text": "'in' 表示 '在...之中'，指在雪崩事件中失蹤。",
-            "category": "介係詞"
-          },
-          {
-            "word": "as",
-            "text": "'as' 在這裡作連接詞，表示 '當...的時候' 或 '由於...'。",
+            "word": "to keep",
+            "text": "這裡的「to keep」是不定詞，表示目的，即「為了保持/防止」。",
             "category": "其他"
           },
           {
-            "word": "batters",
-            "text": "'batters' 是動詞 'batter' 的第三人稱單數現在式，意為 '猛烈襲擊'。",
+            "word": "keep ... from doing something",
+            "text": "「keep someone/something from doing something」表示「阻止某人/某事做某事」。",
+            "category": "其他"
+          },
+          {
+            "word": "going rogue",
+            "text": "「go rogue」是一個片語，表示「失控」或「脫離常規」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Justice Alito will sit out the first Supreme Court case of the term",
+      "url": "https://edition.cnn.com/2026/09/28/politics/justice-alito-recuses-climate-change-boulder-suncor",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Justice Alito will sit out the first Supreme Court case of the term",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/justice-alito-recuses-climate-change-boulder-suncor",
+        "zh": "阿利托大法官將缺席本屆最高法院的第一個案件。",
+        "accepted": [
+          [
+            "Justice",
+            "Alito",
+            "will",
+            "sit",
+            "out",
+            "the",
+            "first",
+            "Supreme",
+            "Court",
+            "case",
+            "of",
+            "the",
+            "term"
+          ]
+        ],
+        "distractors": [
+          "sits",
+          "sat",
+          "cases",
+          "terms",
+          "firstly",
+          "Alitos"
+        ],
+        "notes": [
+          {
+            "word": "will sit out",
+            "text": "「will sit out」是未來時態，表示「將會缺席」。",
             "category": "時態"
+          },
+          {
+            "word": "sit out",
+            "text": "「sit out」是一個片語動詞，表示「缺席」或「不參與」。",
+            "category": "其他"
+          },
+          {
+            "word": "the first",
+            "text": "序數詞「first」前面通常需要加定冠詞「the」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "of the term",
+            "text": "「of the term」表示「本屆」或「本期」的。",
+            "category": "其他"
           }
         ]
       }
