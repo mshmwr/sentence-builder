@@ -1,698 +1,686 @@
 {
   "date": "2026-09-29",
-  "fetchedAt": "2026-09-29T00:17:27.034Z",
+  "fetchedAt": "2026-09-29T23:34:20.173Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Trump personally helped orchestrate taxpayer-funded ads promoting himself and his policies, source says",
-      "url": "https://edition.cnn.com/2026/09/28/politics/trump-ads-taxpayer-funds",
+      "en": "CNN Investigates Six Flags says it’s shutting down its world-famous X2 roller coaster",
+      "url": "https://edition.cnn.com/2026/09/29/us/six-flags-roller-coaster-x2-invs",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump personally helped orchestrate taxpayer-funded ads promoting himself and his policies, source says",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/trump-ads-taxpayer-funds",
-        "zh": "消息人士稱，川普親自協助策劃了納稅人資助的廣告，宣傳他自己和他的政策。",
-        "accepted": [
-          [
-            "Trump",
-            "personally",
-            "helped",
-            "orchestrate",
-            "taxpayer-funded",
-            "ads",
-            "promoting",
-            "himself",
-            "and",
-            "his",
-            "policies",
-            ",",
-            "source",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "promoted",
-          "policy",
-          "sources",
-          "saying",
-          "aid",
-          "orchestrates"
-        ],
-        "notes": [
-          {
-            "word": "promoting",
-            "text": "這裡的「promoting」是現在分詞，用作形容詞修飾「ads」，表示這些廣告的目的是「宣傳」。",
-            "category": "其他"
-          },
-          {
-            "word": "taxpayer-funded",
-            "text": "這是一個複合形容詞，由「taxpayer」（納稅人）和「funded」（資助的）組成，表示「由納稅人資助的」。",
-            "category": "其他"
-          },
-          {
-            "word": "source says",
-            "text": "新聞標題中常省略「a」或「the」等冠詞，這裡的「source says」是「a source says」的簡化。",
-            "category": "冠詞"
-          },
-          {
-            "word": "helped orchestrate",
-            "text": "「help」後面可以接原形動詞或帶to的不定詞，表示「幫助做某事」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "New York prosecutors reopen investigation after student files lawsuit over alleged gang rape at Cornell University",
-      "url": "https://edition.cnn.com/2026/09/28/us/cornell-university-sexual-assault-lawsuit-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "New York prosecutors reopen investigation after student files lawsuit over alleged gang rape at Cornell University",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/us/cornell-university-sexual-assault-lawsuit-hnk",
-        "zh": "紐約檢察官在一名學生就康乃爾大學涉嫌的集體性侵事件提起訴訟後，重啟了調查。",
-        "accepted": [
-          [
-            "New",
-            "York",
-            "prosecutors",
-            "reopen",
-            "investigation",
-            "after",
-            "student",
-            "files",
-            "lawsuit",
-            "over",
-            "alleged",
-            "gang",
-            "rape",
-            "at",
-            "Cornell",
-            "University"
-          ]
-        ],
-        "distractors": [
-          "reopened",
-          "students",
-          "file",
-          "investigations",
-          "allegedly",
-          "rapes"
-        ],
-        "notes": [
-          {
-            "word": "reopen",
-            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
-            "category": "時態"
-          },
-          {
-            "word": "student",
-            "text": "新聞標題中常省略冠詞，這裡的「student」應理解為「a student」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "files lawsuit",
-            "text": "「file a lawsuit」是「提起訴訟」的固定搭配。",
-            "category": "其他"
-          },
-          {
-            "word": "over",
-            "text": "介係詞「over」在這裡表示「關於」或「針對」某事。",
-            "category": "介係詞"
-          },
-          {
-            "word": "alleged",
-            "text": "「alleged」是形容詞，表示「被指控的」或「據稱的」，強調事件尚未被證實。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Netanyahu met with UAE president Sunday in rare trip to country, both sides confirm",
-      "url": "https://edition.cnn.com/2026/09/28/middleeast/israel-netanyahu-secret-visit-uae-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Netanyahu met with UAE president Sunday in rare trip to country, both sides confirm",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/middleeast/israel-netanyahu-secret-visit-uae-intl",
-        "zh": "雙方證實，納坦雅胡週日罕見地訪問阿聯酋，並與阿聯酋總統會面。",
-        "accepted": [
-          [
-            "Netanyahu",
-            "met",
-            "with",
-            "UAE",
-            "president",
-            "Sunday",
-            "in",
-            "rare",
-            "trip",
-            "to",
-            "country",
-            ",",
-            "both",
-            "sides",
-            "confirm"
-          ]
-        ],
-        "distractors": [
-          "meets",
-          "presidents",
-          "trip",
-          "rarely",
-          "countries",
-          "confirmed"
-        ],
-        "notes": [
-          {
-            "word": "met",
-            "text": "「meet with someone」表示「與某人會面」。",
-            "category": "其他"
-          },
-          {
-            "word": "president",
-            "text": "新聞標題中常省略冠詞，這裡的「UAE president」應理解為「the UAE president」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "in rare trip",
-            "text": "這裡的「in rare trip to country」是「in a rare trip to the country」的簡化，省略了冠詞。",
-            "category": "冠詞"
-          },
-          {
-            "word": "confirm",
-            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Five suspects in alleged UK airbase terror plot released on bail",
-      "url": "https://edition.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Five suspects in alleged UK airbase terror plot released on bail",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
-        "zh": "五名涉嫌參與英國空軍基地恐怖陰謀的嫌犯獲准保釋。",
-        "accepted": [
-          [
-            "Five",
-            "suspects",
-            "in",
-            "alleged",
-            "UK",
-            "airbase",
-            "terror",
-            "plot",
-            "released",
-            "on",
-            "bail"
-          ]
-        ],
-        "distractors": [
-          "suspect",
-          "releasing",
-          "plots",
-          "allegedly",
-          "release",
-          "bailed"
-        ],
-        "notes": [
-          {
-            "word": "suspects",
-            "text": "「suspects」是複數名詞，表示「嫌犯」。",
-            "category": "單複數"
-          },
-          {
-            "word": "alleged",
-            "text": "「alleged」是形容詞，表示「被指控的」或「據稱的」，強調事件尚未被證實。",
-            "category": "其他"
-          },
-          {
-            "word": "released on bail",
-            "text": "「be released on bail」是「獲准保釋」的固定搭配。這裡省略了助動詞「were」，是新聞標題的常見寫法。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在這裡表示「在...中」或「參與...」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump says he did not discuss the possibility of the US selling weapons to China, contradicting his ambassador",
-      "url": "https://edition.cnn.com/2026/09/28/politics/trump-china-weapons",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump says he did not discuss the possibility of the US selling weapons to China, contradicting his ambassador",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/trump-china-weapons",
-        "zh": "川普表示他沒有討論美國向中國出售武器的可能性，這與他的大使說法相矛盾。",
-        "accepted": [
-          [
-            "Trump",
-            "says",
-            "he",
-            "did",
-            "not",
-            "discuss",
-            "the",
-            "possibility",
-            "of",
-            "the",
-            "US",
-            "selling",
-            "weapons",
-            "to",
-            "China",
-            ",",
-            "contradicting",
-            "his",
-            "ambassador"
-          ]
-        ],
-        "distractors": [
-          "said",
-          "discussing",
-          "possibilities",
-          "weapon",
-          "contradicted",
-          "ambassadors"
-        ],
-        "notes": [
-          {
-            "word": "says",
-            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
-            "category": "時態"
-          },
-          {
-            "word": "did not discuss",
-            "text": "這是過去簡單時的否定形式，表示「沒有討論」。",
-            "category": "時態"
-          },
-          {
-            "word": "selling weapons",
-            "text": "「selling」是動名詞，作為「possibility of...」的賓語，表示「出售武器」這個行為。",
-            "category": "其他"
-          },
-          {
-            "word": "contradicting",
-            "text": "這裡的「contradicting」是現在分詞片語，用作狀語，表示「與...相矛盾」的結果或方式。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "One of Kash Patel’s deputies resigns from the FBI",
-      "url": "https://edition.cnn.com/2026/09/28/politics/kash-patel-deputy-andrew-bailey-resigns-fbi",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "One of Kash Patel’s deputies resigns from the FBI",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/kash-patel-deputy-andrew-bailey-resigns-fbi",
-        "zh": "卡什·帕特爾的一名副手從聯邦調查局辭職。",
-        "accepted": [
-          [
-            "One",
-            "of",
-            "Kash",
-            "Patel’s",
-            "deputies",
-            "resigns",
-            "from",
-            "the",
-            "FBI"
-          ]
-        ],
-        "distractors": [
-          "deputy",
-          "resigned",
-          "resign",
-          "Patel",
-          "F.B.I.",
-          "ones"
-        ],
-        "notes": [
-          {
-            "word": "One of... deputies",
-            "text": "「One of the + 複數名詞」表示「...之一」，因此「deputies」必須是複數。",
-            "category": "單複數"
-          },
-          {
-            "word": "resigns",
-            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。主詞是「One」，所以動詞用單數第三人稱形式。",
-            "category": "時態"
-          },
-          {
-            "word": "from",
-            "text": "介係詞「from」在這裡表示「從...辭職」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump open to Iran sanctions relief for ‘concrete progress’ on nuclear issues, US official says",
-      "url": "https://edition.cnn.com/2026/09/28/politics/trump-iran-deal-sanctions-nuclear",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump open to Iran sanctions relief for ‘concrete progress’ on nuclear issues, US official says",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/trump-iran-deal-sanctions-nuclear",
-        "zh": "美國官員表示，川普願意為伊朗核問題的「具體進展」而放鬆對伊朗的制裁。",
-        "accepted": [
-          [
-            "Trump",
-            "open",
-            "to",
-            "Iran",
-            "sanctions",
-            "relief",
-            "for",
-            "‘concrete",
-            "progress’",
-            "on",
-            "nuclear",
-            "issues",
-            ",",
-            "US",
-            "official",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "opened",
-          "sanction",
-          "relieve",
-          "progresses",
-          "officials",
-          "said"
-        ],
-        "notes": [
-          {
-            "word": "open to",
-            "text": "「be open to something」表示「對某事持開放態度」或「願意接受某事」。新聞標題中省略了「is」。",
-            "category": "其他"
-          },
-          {
-            "word": "sanctions relief",
-            "text": "「sanctions relief」是「制裁解除」或「制裁放鬆」的意思。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "介係詞「for」在這裡表示「為了」或「作為交換」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "on",
-            "text": "介係詞「on」在這裡表示「關於」或「針對」某個議題。",
-            "category": "介係詞"
-          },
-          {
-            "word": "says",
-            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The best celebrity looks at Paris Fashion Week so far",
-      "url": "https://edition.cnn.com/2026/09/28/style/paris-fashion-week-celebrity-fashion",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The best celebrity looks at Paris Fashion Week so far",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/style/paris-fashion-week-celebrity-fashion",
-        "zh": "截至目前巴黎時裝週上最棒的名人造型。",
-        "accepted": [
-          [
-            "The",
-            "best",
-            "celebrity",
-            "looks",
-            "at",
-            "Paris",
-            "Fashion",
-            "Week",
-            "so",
-            "far"
-          ]
-        ],
-        "distractors": [
-          "better",
-          "celebrities",
-          "look",
-          "in",
-          "fashions",
-          "further"
-        ],
-        "notes": [
-          {
-            "word": "The best",
-            "text": "「the best」是最高級形容詞，表示「最好的」。",
-            "category": "其他"
-          },
-          {
-            "word": "celebrity looks",
-            "text": "「celebrity」在這裡作形容詞修飾「looks」，表示「名人的造型」。",
-            "category": "其他"
-          },
-          {
-            "word": "at",
-            "text": "介係詞「at」在這裡表示「在（某個活動或地點）」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "so far",
-            "text": "「so far」是片語，表示「到目前為止」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How America’s girls want you to see them",
-      "url": "https://edition.cnn.com/2026/09/28/style/americas-girls-photographs-eva-verbeeck-book",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How America’s girls want you to see them",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/style/americas-girls-photographs-eva-verbeeck-book",
-        "zh": "美國女孩們希望你如何看待她們。",
-        "accepted": [
-          [
-            "How",
-            "America’s",
-            "girls",
-            "want",
-            "you",
-            "to",
-            "see",
-            "them"
-          ]
-        ],
-        "distractors": [
-          "girl",
-          "wants",
-          "saw",
-          "theirs",
-          "seeing",
-          "America"
-        ],
-        "notes": [
-          {
-            "word": "America’s girls",
-            "text": "「America’s」是所有格，表示「美國的」。",
-            "category": "其他"
-          },
-          {
-            "word": "want you to see",
-            "text": "「want + 賓語 + to + 動詞原形」表示「想要某人做某事」。",
-            "category": "其他"
-          },
-          {
-            "word": "them",
-            "text": "「them」是賓格代詞，指代「America’s girls」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CNN Exclusive ‘I have no one’: Inside a Texas immigration court where children fight to stay in the US",
-      "url": "https://edition.cnn.com/2026/09/28/politics/texas-immigration-court-minors",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CNN Exclusive ‘I have no one’: Inside a Texas immigration court where children fight to stay in the US",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/texas-immigration-court-minors",
-        "zh": "CNN獨家報導：「我一無所有」：德州移民法庭內部，孩子們為留在美國而奮鬥。",
+        "sourceEn": "CNN Investigates Six Flags says it’s shutting down its world-famous X2 roller coaster",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/us/six-flags-roller-coaster-x2-invs",
+        "zh": "CNN調查：六旗樂園表示將關閉其世界聞名的X2雲霄飛車。",
         "accepted": [
           [
             "CNN",
-            "Exclusive",
-            "‘I",
-            "have",
-            "no",
-            "one’",
-            ":",
-            "Inside",
+            "Investigates",
+            "Six",
+            "Flags",
+            "says",
+            "it’s",
+            "shutting",
+            "down",
+            "its",
+            "world-famous",
+            "X2",
+            "roller",
+            "text",
+            "coaster"
+          ]
+        ],
+        "distractors": [
+          "shut",
+          "closed",
+          "famous",
+          "coaster’s",
+          "investigate",
+          "say"
+        ],
+        "notes": [
+          {
+            "word": "Investigates",
+            "text": "此處的「Investigates」是動詞，表示CNN正在進行調查。",
+            "category": "其他"
+          },
+          {
+            "word": "it’s",
+            "text": "「it’s」是「it is」的縮寫，表示「它是」或「它正在」。",
+            "category": "其他"
+          },
+          {
+            "word": "shutting down",
+            "text": "「shutting down」是一個動詞片語，表示「關閉」或「停止運作」。",
+            "category": "時態"
+          },
+          {
+            "word": "world-famous",
+            "text": "「world-famous」是一個複合形容詞，表示「世界聞名的」。",
+            "category": "其他"
+          },
+          {
+            "word": "roller coaster",
+            "text": "「roller coaster」是名詞片語，指「雲霄飛車」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump just banned Canadian booze — but there’s a big catch",
+      "url": "https://edition.cnn.com/2026/09/29/economy/trump-just-banned-canadian-booze-heres-what-you-need-to-know",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump just banned Canadian booze — but there’s a big catch",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/economy/trump-just-banned-canadian-booze-heres-what-you-need-to-know",
+        "zh": "川普剛禁止了加拿大酒類——但其中有一個大問題。",
+        "accepted": [
+          [
+            "Trump",
+            "just",
+            "banned",
+            "Canadian",
+            "booze",
+            "—",
+            "but",
+            "there’s",
             "a",
-            "Texas",
-            "immigration",
-            "court",
-            "where",
-            "children",
-            "fight",
+            "big",
+            "catch"
+          ]
+        ],
+        "distractors": [
+          "ban",
+          "banning",
+          "Canada",
+          "alcohol",
+          "catches",
+          "there"
+        ],
+        "notes": [
+          {
+            "word": "banned",
+            "text": "「banned」是動詞「ban」的過去式，表示「禁止」的動作已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "Canadian",
+            "text": "「Canadian」是形容詞，表示「加拿大的」。",
+            "category": "其他"
+          },
+          {
+            "word": "booze",
+            "text": "「booze」是口語化的名詞，指「酒類」。",
+            "category": "其他"
+          },
+          {
+            "word": "there’s",
+            "text": "「there’s」是「there is」的縮寫，表示「有」。",
+            "category": "其他"
+          },
+          {
+            "word": "catch",
+            "text": "在這裡，「catch」是名詞，表示「隱藏的問題」或「陷阱」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "US Supreme Court allows Trump to restart controversial deportation program",
+      "url": "https://edition.cnn.com/2026/09/29/politics/supreme-court-allows-trump-to-restart-controversial-deportations-to-third-countries",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "US Supreme Court allows Trump to restart controversial deportation program",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/politics/supreme-court-allows-trump-to-restart-controversial-deportations-to-third-countries",
+        "zh": "美國最高法院允許川普重啟具爭議的驅逐出境計畫。",
+        "accepted": [
+          [
+            "US",
+            "Supreme",
+            "Court",
+            "allows",
+            "Trump",
             "to",
-            "stay",
+            "restart",
+            "controversial",
+            "deportation",
+            "program"
+          ]
+        ],
+        "distractors": [
+          "allow",
+          "allowed",
+          "restarts",
+          "controversy",
+          "deport",
+          "programs"
+        ],
+        "notes": [
+          {
+            "word": "allows",
+            "text": "「allows」是動詞「allow」的第三人稱單數現在式，表示「允許」。",
+            "category": "時態"
+          },
+          {
+            "word": "to restart",
+            "text": "「to restart」是不定詞片語，表示「去重啟」或「為了重啟」。",
+            "category": "其他"
+          },
+          {
+            "word": "controversial",
+            "text": "「controversial」是形容詞，表示「有爭議的」。",
+            "category": "其他"
+          },
+          {
+            "word": "deportation",
+            "text": "「deportation」是名詞，指「驅逐出境」。",
+            "category": "其他"
+          },
+          {
+            "word": "program",
+            "text": "「program」是名詞，指「計畫」或「方案」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The US deported LGBTQ migrants to countries where homosexuality makes them a target",
+      "url": "https://edition.cnn.com/2026/09/26/world/lgbtq-migrants-asylum-seekers-america-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The US deported LGBTQ migrants to countries where homosexuality makes them a target",
+        "sourceUrl": "https://edition.cnn.com/2026/09/26/world/lgbtq-migrants-asylum-seekers-america-intl",
+        "zh": "美國將LGBTQ移民驅逐到同性戀會使他們成為目標的國家。",
+        "accepted": [
+          [
+            "The",
+            "US",
+            "deported",
+            "LGBTQ",
+            "migrants",
+            "to",
+            "countries",
+            "where",
+            "homosexuality",
+            "makes",
+            "them",
+            "a",
+            "target"
+          ]
+        ],
+        "distractors": [
+          "deport",
+          "deporting",
+          "migrant",
+          "country",
+          "homosexual",
+          "targets"
+        ],
+        "notes": [
+          {
+            "word": "deported",
+            "text": "「deported」是動詞「deport」的過去式，表示「驅逐出境」的動作已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "LGBTQ",
+            "text": "「LGBTQ」是縮寫，代表女同性戀、男同性戀、雙性戀、跨性別者和酷兒。",
+            "category": "其他"
+          },
+          {
+            "word": "migrants",
+            "text": "「migrants」是名詞「migrant」的複數形式，指「移民」。",
+            "category": "單複數"
+          },
+          {
+            "word": "where",
+            "text": "「where」在這裡作為關係副詞，引導一個描述地點的子句。",
+            "category": "其他"
+          },
+          {
+            "word": "target",
+            "text": "「target」是名詞，指「目標」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Rubio says ‘foreign actor’ involved in alleged terror plot targeting British base used by US",
+      "url": "https://edition.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Rubio says ‘foreign actor’ involved in alleged terror plot targeting British base used by US",
+        "sourceUrl": "https://edition.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
+        "zh": "盧比歐表示，「外國行為者」涉入針對美國使用的英國基地之 कथित恐怖陰謀。",
+        "accepted": [
+          [
+            "Rubio",
+            "says",
+            "‘foreign",
+            "actor’",
+            "involved",
             "in",
-            "the",
+            "alleged",
+            "terror",
+            "plot",
+            "targeting",
+            "British",
+            "base",
+            "used",
+            "by",
             "US"
           ]
         ],
         "distractors": [
-          "exclusively",
-          "had",
-          "ones",
-          "courts",
-          "child",
-          "fought"
+          "said",
+          "foreigners",
+          "actors",
+          "involve",
+          "allegedly",
+          "terrorist"
         ],
         "notes": [
           {
-            "word": "Exclusive",
-            "text": "「Exclusive」在這裡作名詞，表示「獨家報導」。",
+            "word": "says",
+            "text": "「says」是動詞「say」的第三人稱單數現在式，表示「說」。",
+            "category": "時態"
+          },
+          {
+            "word": "involved",
+            "text": "「involved」是形容詞，表示「涉入的」或「參與的」。",
             "category": "其他"
           },
           {
-            "word": "have no one",
-            "text": "「have no one」表示「一無所有」或「沒有任何人」。",
+            "word": "alleged",
+            "text": "「alleged」是形容詞，表示「被指控的」或「聲稱的」。",
             "category": "其他"
           },
           {
-            "word": "Inside a Texas immigration court",
-            "text": "「Inside」作介係詞，表示「在...內部」。",
+            "word": "targeting",
+            "text": "「targeting」是動詞「target」的現在分詞，在這裡作形容詞，表示「針對…的」。",
+            "category": "其他"
+          },
+          {
+            "word": "used",
+            "text": "「used」是動詞「use」的過去分詞，在這裡作形容詞，表示「被使用的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Premier League outlines Manchester City’s alleged breach of rules and ‘sham’ dealings",
+      "url": "https://edition.cnn.com/2026/09/29/sport/premier-league-outlines-manchester-city-rules-breaches",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Premier League outlines Manchester City’s alleged breach of rules and ‘sham’ dealings",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/sport/premier-league-outlines-manchester-city-rules-breaches",
+        "zh": "英超聯賽概述了曼城涉嫌違反規則和「虛假」交易的行為。",
+        "accepted": [
+          [
+            "Premier",
+            "League",
+            "outlines",
+            "Manchester",
+            "City’s",
+            "alleged",
+            "breach",
+            "of",
+            "rules",
+            "and",
+            "‘sham’",
+            "dealings"
+          ]
+        ],
+        "distractors": [
+          "outline",
+          "outlined",
+          "allegedly",
+          "breaches",
+          "rule",
+          "deal"
+        ],
+        "notes": [
+          {
+            "word": "outlines",
+            "text": "「outlines」是動詞「outline」的第三人稱單數現在式，表示「概述」。",
+            "category": "時態"
+          },
+          {
+            "word": "City’s",
+            "text": "「City’s」是所有格形式，表示「曼城的」。",
+            "category": "其他"
+          },
+          {
+            "word": "alleged",
+            "text": "「alleged」是形容詞，表示「被指控的」或「聲稱的」。",
+            "category": "其他"
+          },
+          {
+            "word": "breach",
+            "text": "「breach」是名詞，指「違反」或「破壞」。",
+            "category": "其他"
+          },
+          {
+            "word": "sham",
+            "text": "「sham」是形容詞，表示「虛假的」或「偽造的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Scientists identify two of the world’s noisiest birds – and they’re as loud as a jackhammer",
+      "url": "https://edition.cnn.com/2026/09/29/science/two-loudest-bird-study-intl-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Scientists identify two of the world’s noisiest birds – and they’re as loud as a jackhammer",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/science/two-loudest-bird-study-intl-scli",
+        "zh": "科學家們識別出世界上兩種最吵的鳥——牠們的聲音像電鑽一樣響亮。",
+        "accepted": [
+          [
+            "Scientists",
+            "identify",
+            "two",
+            "of",
+            "the",
+            "world’s",
+            "noisiest",
+            "birds",
+            "–",
+            "and",
+            "they’re",
+            "as",
+            "loud",
+            "as",
+            "a",
+            "jackhammer"
+          ]
+        ],
+        "distractors": [
+          "scientist",
+          "identified",
+          "one",
+          "world",
+          "noisy",
+          "bird"
+        ],
+        "notes": [
+          {
+            "word": "identify",
+            "text": "「identify」是動詞，表示「識別」或「確認」。",
+            "category": "其他"
+          },
+          {
+            "word": "world’s",
+            "text": "「world’s」是所有格形式，表示「世界的」。",
+            "category": "其他"
+          },
+          {
+            "word": "noisiest",
+            "text": "「noisiest」是形容詞「noisy」的最高級，表示「最吵的」。",
+            "category": "其他"
+          },
+          {
+            "word": "they’re",
+            "text": "「they’re」是「they are」的縮寫，表示「牠們是」。",
+            "category": "其他"
+          },
+          {
+            "word": "as loud as",
+            "text": "「as loud as」是一個比較結構，表示「和…一樣響亮」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Mamdani unveils strategy to combat antisemitism in New York City",
+      "url": "https://edition.cnn.com/2026/09/29/politics/mamdani-unveils-strategy-antisemitism-new-york-city",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Mamdani unveils strategy to combat antisemitism in New York City",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/politics/mamdani-unveils-strategy-antisemitism-new-york-city",
+        "zh": "摩洛哥國王在選舉後任命了第一位女性首相。",
+        "accepted": [
+          [
+            "Morocco’s",
+            "king",
+            "appoints",
+            "first",
+            "woman",
+            "prime",
+            "minister",
+            "following",
+            "election"
+          ]
+        ],
+        "distractors": [
+          "Morocco",
+          "kings",
+          "appointed",
+          "women",
+          "ministers",
+          "elections"
+        ],
+        "notes": [
+          {
+            "word": "Morocco’s",
+            "text": "「Morocco’s」是所有格形式，表示「摩洛哥的」。",
+            "category": "其他"
+          },
+          {
+            "word": "appoints",
+            "text": "「appoints」是動詞「appoint」的第三人稱單數現在式，表示「任命」。",
+            "category": "時態"
+          },
+          {
+            "word": "first",
+            "text": "「first」是序數詞，表示「第一位」。",
+            "category": "其他"
+          },
+          {
+            "word": "prime minister",
+            "text": "「prime minister」是名詞片語，指「首相」。",
+            "category": "其他"
+          },
+          {
+            "word": "following",
+            "text": "「following」在這裡作介系詞，表示「在…之後」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Morocco’s king appoints first woman prime minister following election",
+      "url": "https://edition.cnn.com/2026/09/29/africa/morocco-woman-prime-minister-intl-latam",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Morocco’s king appoints first woman prime minister following election",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/africa/morocco-woman-prime-minister-intl-latam",
+        "zh": "敘利亞的「蜜月期」結束了，因為新政權面臨著自阿薩德下台以來最大的經濟挑戰。",
+        "accepted": [
+          [
+            "Syria’s",
+            "‘honeymoon’",
+            "is",
+            "over",
+            "as",
+            "the",
+            "new",
+            "regime",
+            "faces",
+            "its",
+            "biggest",
+            "economic",
+            "challenge",
+            "since",
+            "Assad’s",
+            "fall"
+          ]
+        ],
+        "distractors": [
+          "Syria",
+          "honeymoons",
+          "was",
+          "face",
+          "biggest",
+          "economical"
+        ],
+        "notes": [
+          {
+            "word": "Syria’s",
+            "text": "「Syria’s」是所有格形式，表示「敘利亞的」。",
+            "category": "其他"
+          },
+          {
+            "word": "honeymoon",
+            "text": "「honeymoon」是名詞，指「蜜月期」，在這裡是比喻用法。",
+            "category": "其他"
+          },
+          {
+            "word": "is over",
+            "text": "「is over」是一個片語，表示「結束了」。",
+            "category": "其他"
+          },
+          {
+            "word": "faces",
+            "text": "「faces」是動詞「face」的第三人稱單數現在式，表示「面臨」。",
+            "category": "時態"
+          },
+          {
+            "word": "biggest",
+            "text": "「biggest」是形容詞「big」的最高級，表示「最大的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Syria’s ‘honeymoon’ is over as the new regime faces its biggest economic challenge since Assad’s fall",
+      "url": "https://edition.cnn.com/2026/09/29/middleeast/syria-post-assad-what-comes-next-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Syria’s ‘honeymoon’ is over as the new regime faces its biggest economic challenge since Assad’s fall",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/middleeast/syria-post-assad-what-comes-next-intl",
+        "zh": "100名以色列定居者再次將一個巴勒斯坦家庭趕出家園。納坦雅胡將此歸咎於「一小撮暴徒」。",
+        "accepted": [
+          [
+            "100",
+            "Israeli",
+            "settlers",
+            "drove",
+            "a",
+            "Palestinian",
+            "family",
+            "from",
+            "home",
+            "again.",
+            "Netanyahu",
+            "blamed",
+            "a",
+            "‘handful",
+            "of",
+            "rioters’"
+          ]
+        ],
+        "distractors": [
+          "Israel",
+          "settler",
+          "drive",
+          "families",
+          "homes",
+          "blame"
+        ],
+        "notes": [
+          {
+            "word": "settlers",
+            "text": "「settlers」是名詞「settler」的複數形式，指「定居者」。",
+            "category": "單複數"
+          },
+          {
+            "word": "drove",
+            "text": "「drove」是動詞「drive」的過去式，表示「驅趕」的動作已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "from",
+            "text": "「from」是介系詞，表示「從…」。",
             "category": "介係詞"
           },
           {
-            "word": "where",
-            "text": "「where」引導一個關係副詞子句，修飾前面的地點「court」。",
-            "category": "其他"
-          },
-          {
-            "word": "fight to stay",
-            "text": "「fight to do something」表示「努力爭取做某事」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Nvidia launches new tool to keep AI agents from going rogue",
-      "url": "https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Nvidia launches new tool to keep AI agents from going rogue",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system",
-        "zh": "英偉達推出新工具，防止AI代理人失控。",
-        "accepted": [
-          [
-            "Nvidia",
-            "launches",
-            "new",
-            "tool",
-            "to",
-            "keep",
-            "AI",
-            "agents",
-            "from",
-            "going",
-            "rogue"
-          ]
-        ],
-        "distractors": [
-          "launched",
-          "tools",
-          "agent",
-          "kept",
-          "goes",
-          "rogues"
-        ],
-        "notes": [
-          {
-            "word": "launches",
-            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "word": "blamed",
+            "text": "「blamed」是動詞「blame」的過去式，表示「歸咎於」的動作已經發生。",
             "category": "時態"
           },
           {
-            "word": "to keep",
-            "text": "這裡的「to keep」是不定詞，表示目的，即「為了保持/防止」。",
-            "category": "其他"
-          },
-          {
-            "word": "keep ... from doing something",
-            "text": "「keep someone/something from doing something」表示「阻止某人/某事做某事」。",
-            "category": "其他"
-          },
-          {
-            "word": "going rogue",
-            "text": "「go rogue」是一個片語，表示「失控」或「脫離常規」。",
+            "word": "handful of",
+            "text": "「handful of」是一個量詞片語，表示「一小撮」或「少數的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Justice Alito will sit out the first Supreme Court case of the term",
-      "url": "https://edition.cnn.com/2026/09/28/politics/justice-alito-recuses-climate-change-boulder-suncor",
+      "en": "100 Israeli settlers drove a Palestinian family from home again. Netanyahu blamed a ‘handful of rioters’",
+      "url": "https://edition.cnn.com/2026/09/29/middleeast/israel-settlers-west-bank-tubasi-attack-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Justice Alito will sit out the first Supreme Court case of the term",
-        "sourceUrl": "https://edition.cnn.com/2026/09/28/politics/justice-alito-recuses-climate-change-boulder-suncor",
-        "zh": "阿利托大法官將缺席本屆最高法院的第一個案件。",
+        "sourceEn": "100 Israeli settlers drove a Palestinian family from home again. Netanyahu blamed a ‘handful of rioters’",
+        "sourceUrl": "https://edition.cnn.com/2026/09/29/middleeast/israel-settlers-west-bank-tubasi-attack-intl",
+        "zh": "前《美國偶像》參賽者迦勒·弗林被判謀殺妻子罪名成立。",
         "accepted": [
           [
-            "Justice",
-            "Alito",
-            "will",
-            "sit",
-            "out",
-            "the",
-            "first",
-            "Supreme",
-            "Court",
-            "case",
+            "Caleb",
+            "Flynn,",
+            "former",
+            "‘American",
+            "Idol’",
+            "contestant,",
+            "found",
+            "guilty",
             "of",
-            "the",
-            "term"
+            "murdering",
+            "his",
+            "wife"
           ]
         ],
         "distractors": [
-          "sits",
-          "sat",
-          "cases",
-          "terms",
-          "firstly",
-          "Alitos"
+          "formers",
+          "contestants",
+          "find",
+          "guilt",
+          "murder",
+          "wifes"
         ],
         "notes": [
           {
-            "word": "will sit out",
-            "text": "「will sit out」是未來時態，表示「將會缺席」。",
-            "category": "時態"
-          },
-          {
-            "word": "sit out",
-            "text": "「sit out」是一個片語動詞，表示「缺席」或「不參與」。",
+            "word": "former",
+            "text": "「former」是形容詞，表示「前任的」或「以前的」。",
             "category": "其他"
           },
           {
-            "word": "the first",
-            "text": "序數詞「first」前面通常需要加定冠詞「the」。",
-            "category": "冠詞"
+            "word": "contestant",
+            "text": "「contestant」是名詞，指「參賽者」。",
+            "category": "其他"
           },
           {
-            "word": "of the term",
-            "text": "「of the term」表示「本屆」或「本期」的。",
+            "word": "found guilty of",
+            "text": "「found guilty of」是一個片語，表示「被判有…罪」。",
+            "category": "其他"
+          },
+          {
+            "word": "murdering",
+            "text": "「murdering」是動詞「murder」的動名詞形式，在這裡作介系詞「of」的受詞。",
+            "category": "其他"
+          },
+          {
+            "word": "his",
+            "text": "「his」是所有格代名詞，表示「他的」。",
             "category": "其他"
           }
         ]
