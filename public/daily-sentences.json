@@ -1,702 +1,689 @@
 {
-  "date": "2026-10-01",
-  "fetchedAt": "2026-10-01T23:48:56.259Z",
+  "date": "2026-10-02",
+  "fetchedAt": "2026-10-02T23:39:20.489Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Putin warns West that Russia is prepared to use ‘all weapons’ to protect Kaliningrad",
-      "url": "https://edition.cnn.com/2026/10/01/europe/putin-kaliningrad-warning-ukraine-latam-intl",
+      "en": "Christa Pike is on a ventilator and unconscious after surviving lethal injection",
+      "url": "https://edition.cnn.com/2026/10/02/us/christa-pike-execution-whats-next",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Putin warns West that Russia is prepared to use ‘all weapons’ to protect Kaliningrad",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/europe/putin-kaliningrad-warning-ukraine-latam-intl",
-        "zh": "普京警告西方，俄羅斯準備動用「所有武器」來保護加里寧格勒。",
+        "sourceEn": "Christa Pike is on a ventilator and unconscious after surviving lethal injection",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/us/christa-pike-execution-whats-next",
+        "zh": "克麗絲塔·派克在經歷致命注射後倖存下來，目前使用呼吸器且不省人事。",
         "accepted": [
           [
-            "Putin",
-            "warns",
-            "West",
-            "that",
-            "Russia",
+            "Christa",
+            "Pike",
             "is",
-            "prepared",
-            "to",
-            "use",
-            "‘all",
-            "weapons’",
-            "to",
-            "protect",
-            "Kaliningrad"
+            "on",
+            "a",
+            "ventilator",
+            "and",
+            "unconscious",
+            "after",
+            "surviving",
+            "lethal",
+            "injection"
           ]
         ],
         "distractors": [
-          "prepare",
-          "weapon",
-          "protecting",
-          "warn",
-          "uses",
-          "allies"
+          "survive",
+          "lethally",
+          "injecting",
+          "ventilate",
+          "unconsciously"
         ],
         "notes": [
           {
-            "word": "warns",
-            "text": "動詞「warn」的第三人稱單數現在式，表示普京發出警告的動作。",
+            "word": "is",
+            "text": "這裡的「is」是動詞be的現在式，用來描述克麗絲塔·派克目前的狀態。",
             "category": "時態"
           },
           {
-            "word": "is prepared",
-            "text": "「be prepared to do sth」表示「準備好做某事」。",
-            "category": "其他"
+            "word": "on",
+            "text": "介係詞「on」在這裡表示「依賴...」或「使用...」，指她正在使用呼吸器。",
+            "category": "介係詞"
           },
           {
-            "word": "to use",
-            "text": "不定詞「to use」在此表示目的，說明俄羅斯準備的目的。",
-            "category": "其他"
+            "word": "a",
+            "text": "「a」是冠詞，用來指稱一個單數可數名詞「ventilator」（呼吸器）。",
+            "category": "冠詞"
           },
           {
-            "word": "all weapons",
-            "text": "「all」修飾複數名詞「weapons」，表示「所有武器」。",
-            "category": "單複數"
+            "word": "surviving",
+            "text": "「after surviving」中的「surviving」是動名詞，表示在某個動作之後。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "British-Iranian man arrested on suspicion of terror offenses linked to alleged UK airbase plot",
-      "url": "https://edition.cnn.com/2026/09/30/uk/suspect-police-terrorism-uk-base-fairford-intl-hnk",
+      "en": "UK charges 2 Iranian men over alleged Yom Kippur terror plot in Manchester",
+      "url": "https://edition.cnn.com/2026/10/02/uk/uk-iran-jewish-terror-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "British-Iranian man arrested on suspicion of terror offenses linked to alleged UK airbase plot",
-        "sourceUrl": "https://edition.cnn.com/2026/09/30/uk/suspect-police-terrorism-uk-base-fairford-intl-hnk",
-        "zh": "一名英籍伊朗男子因涉嫌與英國空軍基地陰謀有關的恐怖罪行而被捕。",
+        "sourceEn": "UK charges 2 Iranian men over alleged Yom Kippur terror plot in Manchester",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/uk/uk-iran-jewish-terror-latam-intl",
+        "zh": "英國指控兩名伊朗男子涉嫌在曼徹斯特策劃贖罪日恐怖襲擊。",
         "accepted": [
           [
-            "British-Iranian",
-            "man",
-            "arrested",
-            "on",
-            "suspicion",
-            "of",
-            "terror",
-            "offenses",
-            "linked",
-            "to",
-            "alleged",
             "UK",
-            "airbase",
-            "plot"
-          ]
-        ],
-        "distractors": [
-          "arrest",
-          "suspect",
-          "terrorist",
-          "link",
-          "alleging",
-          "plotting"
-        ],
-        "notes": [
-          {
-            "word": "arrested",
-            "text": "此處為過去分詞作形容詞，修飾「man」，表示「被捕的」。",
-            "category": "其他"
-          },
-          {
-            "word": "on suspicion of",
-            "text": "「on suspicion of sth」表示「涉嫌某事」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "offenses",
-            "text": "「offense」是可數名詞，指「罪行」，在此用複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "linked to",
-            "text": "「linked to sth」表示「與某事相關聯」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "J. Miles Cary/ Knoxville News Sentinel/USA Today Network/Reuters",
-      "url": "https://edition.cnn.com/2026/10/01/us/christa-pike-execution-tennessee",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "J. Miles Cary/ Knoxville News Sentinel/USA Today Network/Reuters",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/us/christa-pike-execution-tennessee",
-        "zh": "J. Miles Cary/諾克斯維爾新聞哨兵報/今日美國網絡/路透社",
-        "accepted": [
-          [
-            "J.",
-            "Miles",
-            "Cary/",
-            "Knoxville",
-            "News",
-            "Sentinel/USA",
-            "Today",
-            "Network/Reuters"
-          ]
-        ],
-        "distractors": [
-          "Mile",
-          "Cary's",
-          "New",
-          "Sentinels",
-          "Today's",
-          "Networks"
-        ],
-        "notes": [
-          {
-            "word": "J.",
-            "text": "「J.」是人名縮寫，通常後面會跟著姓氏或全名。",
-            "category": "其他"
-          },
-          {
-            "word": "Sentinel",
-            "text": "「Sentinel」是報紙名稱的一部分，意為「哨兵」。",
-            "category": "其他"
-          },
-          {
-            "word": "Network",
-            "text": "「Network」在此指媒體網絡。",
-            "category": "其他"
-          },
-          {
-            "word": "Reuters",
-            "text": "「Reuters」是路透社，一家國際新聞通訊社。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Cornell Snapchat messages included picture of Jane Doe in frat room",
-      "url": "https://edition.cnn.com/2026/10/01/us/cornell-jane-doe-rape-investigation",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Cornell Snapchat messages included picture of Jane Doe in frat room",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/us/cornell-jane-doe-rape-investigation",
-        "zh": "康奈爾大學的Snapchat訊息中包含了一張在兄弟會房間裡的珍·杜（Jane Doe）的照片。",
-        "accepted": [
-          [
-            "Cornell",
-            "Snapchat",
-            "messages",
-            "included",
-            "picture",
-            "of",
-            "Jane",
-            "Doe",
-            "in",
-            "frat",
-            "room"
-          ]
-        ],
-        "distractors": [
-          "message",
-          "include",
-          "pictures",
-          "fraternity",
-          "rooms",
-          "Does"
-        ],
-        "notes": [
-          {
-            "word": "messages",
-            "text": "「message」是可數名詞，指「訊息」，在此用複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "included",
-            "text": "動詞「include」的過去式，表示訊息中「包含」了什麼。",
-            "category": "時態"
-          },
-          {
-            "word": "picture",
-            "text": "此處「picture」指「照片」，是可數名詞，通常前面會有冠詞，但新聞標題常省略。",
-            "category": "冠詞"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」表示「在...裡面」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "A ‘loophole’ in New York’s rape law may have shut the door on criminal charges in the Cornell case. It’s not the first time",
-      "url": "https://edition.cnn.com/2026/10/01/us/ny-rape-law-loophole-cornell",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A ‘loophole’ in New York’s rape law may have shut the door on criminal charges in the Cornell case. It’s not the first time",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/us/ny-rape-law-loophole-cornell",
-        "zh": "紐約強姦法的一個「漏洞」可能已經關閉了康奈爾大學案件中刑事指控的大門。這不是第一次了。",
-        "accepted": [
-          [
-            "A",
-            "‘loophole’",
-            "in",
-            "New",
-            "York’s",
-            "rape",
-            "law",
-            "may",
-            "have",
-            "shut",
-            "the",
-            "door",
-            "on",
-            "criminal",
             "charges",
+            "2",
+            "Iranian",
+            "men",
+            "over",
+            "alleged",
+            "Yom",
+            "Kippur",
+            "terror",
+            "plot",
             "in",
-            "the",
-            "Cornell",
-            "case.",
-            "It’s",
-            "not",
-            "the",
-            "first",
-            "time"
+            "Manchester"
           ]
         ],
         "distractors": [
-          "loopholes",
-          "laws",
-          "shutting",
-          "doors",
           "charge",
-          "times"
+          "allegedly",
+          "terrorist",
+          "plotting",
+          "Iran"
         ],
         "notes": [
-          {
-            "word": "A",
-            "text": "不定冠詞「A」用來修飾單數可數名詞「loophole」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "may have shut",
-            "text": "「may have + 過去分詞」表示對過去發生的事情進行推測，意為「可能已經...」。",
-            "category": "時態"
-          },
-          {
-            "word": "shut the door on",
-            "text": "片語「shut the door on sth」表示「杜絕...的可能性」。",
-            "category": "其他"
-          },
           {
             "word": "charges",
-            "text": "「charge」在此指「指控」，是可數名詞，用複數形式。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "What happened inside the Flydubai flight to Israel? What we know so far",
-      "url": "https://edition.cnn.com/2026/09/30/middleeast/flydubai-israel-plane-pilot-hijacking-incident-latam-hnk-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "What happened inside the Flydubai flight to Israel? What we know so far",
-        "sourceUrl": "https://edition.cnn.com/2026/09/30/middleeast/flydubai-israel-plane-pilot-hijacking-incident-latam-hnk-intl",
-        "zh": "Flydubai飛往以色列的航班內部發生了什麼？我們目前所知。",
-        "accepted": [
-          [
-            "What",
-            "happened",
-            "inside",
-            "the",
-            "Flydubai",
-            "flight",
-            "to",
-            "Israel?",
-            "What",
-            "we",
-            "know",
-            "so",
-            "far"
-          ]
-        ],
-        "distractors": [
-          "happens",
-          "insideof",
-          "flights",
-          "Israels",
-          "knows",
-          "further"
-        ],
-        "notes": [
-          {
-            "word": "happened",
-            "text": "動詞「happen」的過去式，表示事情已經發生。",
+            "text": "「charges」是動詞「charge」的第三人稱單數現在式，表示英國政府提出指控。",
             "category": "時態"
-          },
-          {
-            "word": "inside",
-            "text": "介係詞「inside」表示「在...內部」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "flight to",
-            "text": "「flight to + 地點」表示「飛往某地的航班」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "so far",
-            "text": "片語「so far」表示「到目前為止」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Manchester City has been found ‘cheating on an industrial scale.’ The future of stars like Erling Haaland is suddenly uncertain",
-      "url": "https://edition.cnn.com/2026/09/30/sport/manchester-city-charges-what-comes-next",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Manchester City has been found ‘cheating on an industrial scale.’ The future of stars like Erling Haaland is suddenly uncertain",
-        "sourceUrl": "https://edition.cnn.com/2026/09/30/sport/manchester-city-charges-what-comes-next",
-        "zh": "曼城被發現「大規模作弊」。厄林·哈蘭德等球星的未來突然變得不確定。",
-        "accepted": [
-          [
-            "Manchester",
-            "City",
-            "has",
-            "been",
-            "found",
-            "‘cheating",
-            "on",
-            "an",
-            "industrial",
-            "scale.’",
-            "The",
-            "future",
-            "of",
-            "stars",
-            "like",
-            "Erling",
-            "Haaland",
-            "is",
-            "suddenly",
-            "uncertain"
-          ]
-        ],
-        "distractors": [
-          "find",
-          "cheat",
-          "scales",
-          "futures",
-          "star",
-          "uncertainly"
-        ],
-        "notes": [
-          {
-            "word": "has been found",
-            "text": "現在完成被動語態，表示曼城被發現作弊的狀態持續到現在。",
-            "category": "時態"
-          },
-          {
-            "word": "cheating",
-            "text": "動名詞「cheating」在此作「found」的補語，表示被發現的行為。",
-            "category": "其他"
-          },
-          {
-            "word": "on an industrial scale",
-            "text": "片語「on an industrial scale」表示「大規模地」。",
-            "category": "其他"
-          },
-          {
-            "word": "stars",
-            "text": "「star」是可數名詞，指「明星」，在此用複數形式。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "El Niño just gave us the first no-hurricane September in decades. How long can the Atlantic shutout last?",
-      "url": "https://edition.cnn.com/2026/10/01/weather/el-nino-september-hurricane-season-climate",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "El Niño just gave us the first no-hurricane September in decades. How long can the Atlantic shutout last?",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/weather/el-nino-september-hurricane-season-climate",
-        "zh": "聖嬰現象剛給了我們幾十年來第一個沒有颶風的九月。大西洋的停擺能持續多久？",
-        "accepted": [
-          [
-            "El",
-            "Niño",
-            "just",
-            "gave",
-            "us",
-            "the",
-            "first",
-            "no-hurricane",
-            "September",
-            "in",
-            "decades.",
-            "How",
-            "long",
-            "can",
-            "the",
-            "Atlantic",
-            "shutout",
-            "last?"
-          ]
-        ],
-        "distractors": [
-          "give",
-          "firstly",
-          "hurricanes",
-          "decade",
-          "longly",
-          "lasts"
-        ],
-        "notes": [
-          {
-            "word": "just gave",
-            "text": "「just + 過去式」表示動作剛剛發生。",
-            "category": "時態"
-          },
-          {
-            "word": "no-hurricane",
-            "text": "複合形容詞「no-hurricane」修飾「September」，表示「沒有颶風的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in decades",
-            "text": "片語「in decades」表示「幾十年來」。",
-            "category": "其他"
-          },
-          {
-            "word": "How long",
-            "text": "疑問詞「How long」用來詢問時間的長度。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Annihilate Iran, Oval Office tear down, criticizing justices: Takeaways from Trump’s TIME interview",
-      "url": "https://edition.cnn.com/2026/10/01/politics/donald-trump-iran-interview",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Annihilate Iran, Oval Office tear down, criticizing justices: Takeaways from Trump’s TIME interview",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/politics/donald-trump-iran-interview",
-        "zh": "殲滅伊朗、拆毀橢圓形辦公室、批評法官：川普《時代》雜誌採訪的要點。",
-        "accepted": [
-          [
-            "Annihilate",
-            "Iran,",
-            "Oval",
-            "Office",
-            "tear",
-            "down,",
-            "criticizing",
-            "justices:",
-            "Takeaways",
-            "from",
-            "Trump’s",
-            "TIME",
-            "interview"
-          ]
-        ],
-        "distractors": [
-          "Annihilating",
-          "Iranians",
-          "tears",
-          "criticize",
-          "justice",
-          "interviews"
-        ],
-        "notes": [
-          {
-            "word": "Annihilate",
-            "text": "動詞原形，在此作標題中的一個要點，表示「殲滅」。",
-            "category": "其他"
-          },
-          {
-            "word": "tear down",
-            "text": "動詞片語「tear down」表示「拆毀」。",
-            "category": "其他"
-          },
-          {
-            "word": "criticizing",
-            "text": "現在分詞作名詞，表示「批評」的行為。",
-            "category": "其他"
-          },
-          {
-            "word": "justices",
-            "text": "「justice」在此指「法官」，是可數名詞，用複數形式。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Family of Renee Good sues US government and Trump officials over her death",
-      "url": "https://edition.cnn.com/2026/10/01/us/renee-good-death-lawsuits",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Family of Renee Good sues US government and Trump officials over her death",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/us/renee-good-death-lawsuits",
-        "zh": "蕾妮·古德的家人就她的死起訴美國政府和川普官員。",
-        "accepted": [
-          [
-            "Family",
-            "of",
-            "Renee",
-            "Good",
-            "sues",
-            "US",
-            "government",
-            "and",
-            "Trump",
-            "officials",
-            "over",
-            "her",
-            "death"
-          ]
-        ],
-        "distractors": [
-          "Families",
-          "sue",
-          "governments",
-          "official",
-          "deaths",
-          "dead"
-        ],
-        "notes": [
-          {
-            "word": "Family",
-            "text": "「Family」在此指一個家庭，是單數名詞。",
-            "category": "單複數"
-          },
-          {
-            "word": "sues",
-            "text": "動詞「sue」的第三人稱單數現在式，表示「起訴」。",
-            "category": "時態"
-          },
-          {
-            "word": "officials",
-            "text": "「official」是可數名詞，指「官員」，在此用複數形式。",
-            "category": "單複數"
           },
           {
             "word": "over",
-            "text": "介係詞「over」在此表示「關於、因為」某事。",
+            "text": "介係詞「over」在這裡表示「關於」或「針對」，說明指控的內容。",
             "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CNN Investigates Photo Illustration by Jason Lancaster/CNN/Getty Images",
-      "url": "https://edition.cnn.com/2026/10/01/us/jared-kushner-israel-gaza-investments-invs-vis",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CNN Investigates Photo Illustration by Jason Lancaster/CNN/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/us/jared-kushner-israel-gaza-investments-invs-vis",
-        "zh": "CNN調查照片插圖，作者：Jason Lancaster/CNN/Getty Images",
-        "accepted": [
-          [
-            "CNN",
-            "Investigates",
-            "Photo",
-            "Illustration",
-            "by",
-            "Jason",
-            "Lancaster/CNN/Getty",
-            "Images"
-          ]
-        ],
-        "distractors": [
-          "Investigate",
-          "Photos",
-          "Illustrations",
-          "illustrate",
-          "image",
-          "investigation"
-        ],
-        "notes": [
-          {
-            "word": "Investigates",
-            "text": "動詞「Investigate」的第三人稱單數現在式，在此作標題的一部分。",
-            "category": "時態"
           },
           {
-            "word": "Photo Illustration",
-            "text": "複合名詞，指「照片插圖」。",
+            "word": "alleged",
+            "text": "「alleged」是形容詞，表示「被指稱的」或「據稱的」，強調這項指控尚未被證實。",
             "category": "其他"
           },
           {
-            "word": "by",
-            "text": "介係詞「by」表示「由...所作」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Images",
-            "text": "「Image」是可數名詞，指「圖片」，在此用複數形式。",
+            "word": "men",
+            "text": "「men」是「man」的複數形式，表示兩名男子。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Judge blocks Trump from firing Seattle US attorney who had job for an hour",
-      "url": "https://edition.cnn.com/2026/10/01/politics/seattle-us-attorney-reinstated-after-suing-doj",
+      "en": "Mangione’s arrest videos were sealed from the public until now. How CNN got them",
+      "url": "https://edition.cnn.com/2026/10/02/us/luigi-mangione-arrest-video-police",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Judge blocks Trump from firing Seattle US attorney who had job for an hour",
-        "sourceUrl": "https://edition.cnn.com/2026/10/01/politics/seattle-us-attorney-reinstated-after-suing-doj",
-        "zh": "法官阻止川普解僱一名只工作了一小時的西雅圖美國檢察官。",
+        "sourceEn": "Mangione’s arrest videos were sealed from the public until now. How CNN got them",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/us/luigi-mangione-arrest-video-police",
+        "zh": "曼吉奧尼的逮捕影片直到現在才對公眾解封。CNN是如何獲得這些影片的？",
         "accepted": [
           [
-            "Judge",
-            "blocks",
-            "Trump",
+            "Mangione’s",
+            "arrest",
+            "videos",
+            "were",
+            "sealed",
             "from",
-            "firing",
-            "Seattle",
-            "US",
-            "attorney",
-            "who",
-            "had",
-            "job",
-            "for",
-            "an",
-            "hour"
+            "the",
+            "public",
+            "until",
+            "now",
+            ".",
+            "How",
+            "CNN",
+            "got",
+            "them"
           ]
         ],
         "distractors": [
-          "Judges",
-          "block",
-          "fire",
-          "attorneys",
-          "jobs",
-          "hours"
+          "arrested",
+          "video",
+          "seal",
+          "publicly",
+          "getting"
         ],
         "notes": [
           {
-            "word": "blocks",
-            "text": "動詞「block」的第三人稱單數現在式，表示「阻止」。",
+            "word": "were",
+            "text": "「were sealed」是被動語態的過去式，表示影片在過去被封存。",
             "category": "時態"
           },
           {
-            "word": "from firing",
-            "text": "片語「block sb from doing sth」表示「阻止某人做某事」。",
+            "word": "from",
+            "text": "介係詞「from」在這裡表示「與...隔離」或「不讓...接觸」。",
             "category": "介係詞"
           },
           {
-            "word": "attorney",
-            "text": "「attorney」是可數名詞，指「檢察官、律師」。",
+            "word": "the",
+            "text": "「the」是定冠詞，特指「公眾」這個群體。",
+            "category": "冠詞"
+          },
+          {
+            "word": "got",
+            "text": "「got」是動詞「get」的過去式，表示CNN如何取得這些影片。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Flydubai attack suspect was removed by another airline over concerns about his extremist views",
+      "url": "https://edition.cnn.com/2026/10/02/world/flydubai-attacker-pilot-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Flydubai attack suspect was removed by another airline over concerns about his extremist views",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/world/flydubai-attacker-pilot-intl",
+        "zh": "一名杜拜航空襲擊嫌疑人因其極端主義觀點引起擔憂，被另一家航空公司移除。",
+        "accepted": [
+          [
+            "Flydubai",
+            "attack",
+            "suspect",
+            "was",
+            "removed",
+            "by",
+            "another",
+            "airline",
+            "over",
+            "concerns",
+            "about",
+            "his",
+            "extremist",
+            "views"
+          ]
+        ],
+        "distractors": [
+          "attacking",
+          "suspicious",
+          "removing",
+          "concerned",
+          "extremism"
+        ],
+        "notes": [
+          {
+            "word": "was removed",
+            "text": "「was removed」是被動語態的過去式，表示嫌疑人被移除。",
+            "category": "時態"
+          },
+          {
+            "word": "by",
+            "text": "介係詞「by」在這裡表示動作的執行者，即「另一家航空公司」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "over",
+            "text": "介係詞「over」在這裡表示「因為」或「由於」，說明移除的原因。",
+            "category": "介係詞"
+          },
+          {
+            "word": "views",
+            "text": "「views」是複數名詞，表示「觀點」或「看法」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hero Flydubai pilot: ‘I couldn’t let everybody else die’",
+      "url": "https://edition.cnn.com/2026/10/02/middleeast/i-couldnt-let-everybody-else-die-says-hero-flydubai-pilot-smit-machchhar",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hero Flydubai pilot: ‘I couldn’t let everybody else die’",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/middleeast/i-couldnt-let-everybody-else-die-says-hero-flydubai-pilot-smit-machchhar",
+        "zh": "杜拜航空英雄機師：「我不能讓所有人都死。」",
+        "accepted": [
+          [
+            "Hero",
+            "Flydubai",
+            "pilot",
+            ":",
+            "‘",
+            "I",
+            "couldn’t",
+            "let",
+            "everybody",
+            "else",
+            "die",
+            "’"
+          ]
+        ],
+        "distractors": [
+          "heroic",
+          "piloting",
+          "could",
+          "letting",
+          "dying"
+        ],
+        "notes": [
+          {
+            "word": "couldn’t",
+            "text": "「couldn’t」是「could not」的縮寫，表示過去沒有能力或不被允許做某事。",
+            "category": "時態"
+          },
+          {
+            "word": "let",
+            "text": "「let」是使役動詞，後面接原形動詞「die」，表示「讓...做某事」。",
+            "category": "其他"
+          },
+          {
+            "word": "everybody",
+            "text": "「everybody」是單數不定代名詞，意為「每個人」。",
             "category": "單複數"
           },
           {
-            "word": "an hour",
-            "text": "「an」用在發音為元音的單數可數名詞「hour」前。",
+            "word": "else",
+            "text": "「else」在這裡用來修飾「everybody」，表示「除了我之外的其他人」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Look of the Week: Florence Pugh assumes her villainous final form",
+      "url": "https://edition.cnn.com/2026/10/02/style/florence-pugh-east-of-eden-lotw",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Look of the Week: Florence Pugh assumes her villainous final form",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/style/florence-pugh-east-of-eden-lotw",
+        "zh": "本週造型：佛羅倫斯·普伊展現她最終的惡女形態。",
+        "accepted": [
+          [
+            "Look",
+            "of",
+            "the",
+            "Week",
+            ":",
+            "Florence",
+            "Pugh",
+            "assumes",
+            "her",
+            "villainous",
+            "final",
+            "form"
+          ]
+        ],
+        "distractors": [
+          "looking",
+          "weekly",
+          "assuming",
+          "villain",
+          "finally"
+        ],
+        "notes": [
+          {
+            "word": "Look",
+            "text": "「Look」在這裡是名詞，意為「造型」或「外觀」。",
+            "category": "其他"
+          },
+          {
+            "word": "of",
+            "text": "介係詞「of」在這裡表示所屬關係，即「本週的造型」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "assumes",
+            "text": "「assumes」是動詞「assume」的第三人稱單數現在式，表示「呈現」或「採取」某種形態。",
+            "category": "時態"
+          },
+          {
+            "word": "her",
+            "text": "「her」是所有格代名詞，表示「她的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hawaii’s famed Hōlei Sea Arch has collapsed",
+      "url": "https://edition.cnn.com/2026/10/02/travel/hawaii-sea-arch-collapse-pacific-scli-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hawaii’s famed Hōlei Sea Arch has collapsed",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/travel/hawaii-sea-arch-collapse-pacific-scli-intl",
+        "zh": "夏威夷著名的Hōlei海蝕拱門已經坍塌。",
+        "accepted": [
+          [
+            "Hawaii’s",
+            "famed",
+            "Hōlei",
+            "Sea",
+            "Arch",
+            "has",
+            "collapsed"
+          ]
+        ],
+        "distractors": [
+          "Hawaiian",
+          "fame",
+          "collapsing",
+          "collapses",
+          "archway"
+        ],
+        "notes": [
+          {
+            "word": "Hawaii’s",
+            "text": "「Hawaii’s」是所有格形式，表示「夏威夷的」。",
+            "category": "其他"
+          },
+          {
+            "word": "famed",
+            "text": "「famed」是形容詞，意為「著名的」。",
+            "category": "其他"
+          },
+          {
+            "word": "has collapsed",
+            "text": "「has collapsed」是現在完成式，表示坍塌的動作已經完成，且其影響持續到現在。",
+            "category": "時態"
+          },
+          {
+            "word": "Arch",
+            "text": "「Arch」是單數名詞，意為「拱門」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "One of TV’s greatest gay creators reflects on where it all went wrong",
+      "url": "https://edition.cnn.com/2026/10/02/entertainment/tip-toe-russell-davies-gay",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "One of TV’s greatest gay creators reflects on where it all went wrong",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/entertainment/tip-toe-russell-davies-gay",
+        "zh": "一位電視界最偉大的同志創作者之一反思一切是如何出錯的。",
+        "accepted": [
+          [
+            "One",
+            "of",
+            "TV’s",
+            "greatest",
+            "gay",
+            "creators",
+            "reflects",
+            "on",
+            "where",
+            "it",
+            "all",
+            "went",
+            "wrong"
+          ]
+        ],
+        "distractors": [
+          "great",
+          "creating",
+          "reflecting",
+          "going",
+          "wrongly"
+        ],
+        "notes": [
+          {
+            "word": "One of",
+            "text": "「One of」後面接複數名詞，表示「...之一」。",
+            "category": "單複數"
+          },
+          {
+            "word": "creators",
+            "text": "「creators」是複數名詞，因為是「最偉大的創作者們之一」。",
+            "category": "單複數"
+          },
+          {
+            "word": "reflects",
+            "text": "「reflects」是動詞「reflect」的第三人稱單數現在式，表示這位創作者正在反思。",
+            "category": "時態"
+          },
+          {
+            "word": "went",
+            "text": "「went」是動詞「go」的過去式，表示事情在過去出錯。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Radio signal detected for the first time from a planet outside our solar system, but it’s not intelligent life",
+      "url": "https://edition.cnn.com/2026/10/02/science/radio-signal-detection-exoplanet-beta-pictoris-b",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Radio signal detected for the first time from a planet outside our solar system, but it’s not intelligent life",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/science/radio-signal-detection-exoplanet-beta-pictoris-b",
+        "zh": "首次從太陽系外行星偵測到無線電訊號，但它並非智慧生命。",
+        "accepted": [
+          [
+            "Radio",
+            "signal",
+            "detected",
+            "for",
+            "the",
+            "first",
+            "time",
+            "from",
+            "a",
+            "planet",
+            "outside",
+            "our",
+            "solar",
+            "system",
+            ",",
+            "but",
+            "it’s",
+            "not",
+            "intelligent",
+            "life"
+          ]
+        ],
+        "distractors": [
+          "signals",
+          "detecting",
+          "firstly",
+          "planets",
+          "intelligently"
+        ],
+        "notes": [
+          {
+            "word": "detected",
+            "text": "這裡的「detected」是過去分詞，與前面的省略助動詞構成被動語態，表示訊號被偵測到。",
+            "category": "時態"
+          },
+          {
+            "word": "for the first time",
+            "text": "這個片語表示「首次」。",
+            "category": "其他"
+          },
+          {
+            "word": "a",
+            "text": "「a」是冠詞，指稱一個單數可數名詞「planet」（行星）。",
             "category": "冠詞"
+          },
+          {
+            "word": "it’s",
+            "text": "「it’s」是「it is」的縮寫，表示「它不是智慧生命」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Exclusive ‘God made Trump’ ad and at least 12 others are part of controversial taxpayer-funded ad campaign",
+      "url": "https://edition.cnn.com/2026/10/02/politics/trump-taxpayer-funded-ads",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Exclusive ‘God made Trump’ ad and at least 12 others are part of controversial taxpayer-funded ad campaign",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/politics/trump-taxpayer-funded-ads",
+        "zh": "CNN獨家報導：「上帝創造了川普」廣告以及至少12個其他廣告，是具爭議的納稅人資助廣告活動的一部分。",
+        "accepted": [
+          [
+            "CNN",
+            "Exclusive",
+            "‘",
+            "God",
+            "made",
+            "Trump",
+            "’",
+            "ad",
+            "and",
+            "at",
+            "least",
+            "12",
+            "others",
+            "are",
+            "part",
+            "of",
+            "controversial",
+            "taxpayer-funded",
+            "ad",
+            "campaign"
+          ]
+        ],
+        "distractors": [
+          "making",
+          "ads",
+          "other",
+          "controversy",
+          "funding"
+        ],
+        "notes": [
+          {
+            "word": "made",
+            "text": "「made」是動詞「make」的過去式，表示「上帝創造了川普」。",
+            "category": "時態"
+          },
+          {
+            "word": "ad",
+            "text": "「ad」是「advertisement」的縮寫，意為「廣告」。",
+            "category": "其他"
+          },
+          {
+            "word": "others",
+            "text": "「others」是代名詞，指「其他廣告」。",
+            "category": "單複數"
+          },
+          {
+            "word": "are",
+            "text": "「are」是動詞be的現在式複數形式，因為主語是「ad and at least 12 others」（一個廣告和至少12個其他廣告）。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Man accused of murdering UK politician charged with preparing terror acts against Nigel Farage",
+      "url": "https://edition.cnn.com/2026/10/02/world/uk-police-terrorism-charge-joshua-kerry-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Man accused of murdering UK politician charged with preparing terror acts against Nigel Farage",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/world/uk-police-terrorism-charge-joshua-kerry-latam-intl",
+        "zh": "被控謀殺英國政治人物的男子被指控策劃針對奈傑爾·法拉奇的恐怖行動。",
+        "accepted": [
+          [
+            "Man",
+            "accused",
+            "of",
+            "murdering",
+            "UK",
+            "politician",
+            "charged",
+            "with",
+            "preparing",
+            "terror",
+            "acts",
+            "against",
+            "Nigel",
+            "Farage"
+          ]
+        ],
+        "distractors": [
+          "accusing",
+          "murder",
+          "political",
+          "charging",
+          "preparation"
+        ],
+        "notes": [
+          {
+            "word": "accused of",
+            "text": "「accused of」表示「被控告...」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "murdering",
+            "text": "「murdering」是動名詞，表示「謀殺」這個行為。",
+            "category": "其他"
+          },
+          {
+            "word": "charged with",
+            "text": "「charged with」表示「被指控...」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "preparing",
+            "text": "「preparing」是動名詞，表示「準備」這個行為。",
+            "category": "其他"
+          },
+          {
+            "word": "acts",
+            "text": "「acts」是複數名詞，表示「行動」或「行為」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "This year’s Kennedy Center Honors will be relocated amid ongoing legal battle",
+      "url": "https://edition.cnn.com/2026/10/02/politics/kennedy-center-honors-relocated",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "This year’s Kennedy Center Honors will be relocated amid ongoing legal battle",
+        "sourceUrl": "https://edition.cnn.com/2026/10/02/politics/kennedy-center-honors-relocated",
+        "zh": "今年的甘迺迪中心榮譽獎將在持續的法律戰中被重新安置。",
+        "accepted": [
+          [
+            "This",
+            "year’s",
+            "Kennedy",
+            "Center",
+            "Honors",
+            "will",
+            "be",
+            "relocated",
+            "amid",
+            "ongoing",
+            "legal",
+            "battle"
+          ]
+        ],
+        "distractors": [
+          "yearly",
+          "honor",
+          "relocating",
+          "amidst",
+          "battling"
+        ],
+        "notes": [
+          {
+            "word": "year’s",
+            "text": "「year’s」是所有格形式，表示「今年的」。",
+            "category": "其他"
+          },
+          {
+            "word": "Honors",
+            "text": "「Honors」在這裡是複數名詞，特指「榮譽獎項」。",
+            "category": "單複數"
+          },
+          {
+            "word": "will be relocated",
+            "text": "「will be relocated」是將來被動語態，表示將來會被重新安置。",
+            "category": "時態"
+          },
+          {
+            "word": "amid",
+            "text": "介係詞「amid」表示「在...之中」或「在...期間」。",
+            "category": "介係詞"
           }
         ]
       }
