@@ -93,6 +93,35 @@ function computeTrend(history) {
   };
 }
 
+// Monday-start of the week containing `date`, at local midnight.
+function weekStart(date) {
+  const d = new Date(date);
+  d.setHours(0, 0, 0, 0);
+  const diffToMonday = (d.getDay() + 6) % 7; // Sun=0 -> 6 days back, Mon=1 -> 0, ...
+  d.setDate(d.getDate() - diffToMonday);
+  return d;
+}
+
+// the "拉長趨勢視角" view: average stars per calendar week, oldest first, so
+// the two-bucket 進步趨勢 numbers above get a shape to sit next to instead of
+// just two data points. Capped to maxWeeks (most recent) — still bounded by
+// the same 50-record 歷史 window as everything else derived from it.
+function computeWeeklyTrend(history, maxWeeks = 8) {
+  const byWeek = new Map(); // weekStart ISO date -> {sum, count}
+  for (const h of history) {
+    if (!h.createdAt?.toDate) continue;
+    const key = localDateStr(weekStart(h.createdAt.toDate()));
+    const e = byWeek.get(key) || { weekStart: key, sum: 0, count: 0 };
+    e.sum += h.stars || 0;
+    e.count += 1;
+    byWeek.set(key, e);
+  }
+  const weeks = [...byWeek.values()]
+    .map((e) => ({ weekStart: e.weekStart, avgStars: e.sum / e.count, count: e.count }))
+    .sort((a, b) => a.weekStart.localeCompare(b.weekStart));
+  return weeks.slice(-maxWeeks);
+}
+
 // weeks-of-cells for a calendar month grid: leading/trailing nulls pad the
 // first/last week out to 7 slots (Sun-first) so every row renders evenly
 function monthGrid(year, month) {
@@ -177,6 +206,68 @@ function Toolbar({ children }) {
 }
 
 const WEEKDAY_LABELS = ["日", "一", "二", "三", "四", "五", "六"];
+
+// short month/day for an x-axis tick, from a "YYYY-MM-DD" weekStart key
+function shortDate(iso) {
+  const [, m, d] = iso.split("-");
+  return `${Number(m)}/${Number(d)}`;
+}
+
+// 拉長趨勢視角 — weekly avg-stars as a single-series line (dataviz skill: trend
+// over time, one series, sequential hue, one axis). Thin 2px line, >=8px
+// markers with a surface ring, hairline recessive gridlines, direct label on
+// the endpoint only (not every point) — the two-bucket 進步趨勢 numbers next
+// to it give the precise recent-vs-prior read; this gives the shape.
+function WeeklyTrendChart({ weeks }) {
+  if (weeks.length === 0) return null;
+  const W = 320;
+  const H = 130;
+  const ML = 20;
+  const MR = 8;
+  const MT = 18;
+  const MB = 18;
+  const plotW = W - ML - MR;
+  const plotH = H - MT - MB;
+  const x = (i) => ML + (weeks.length === 1 ? plotW / 2 : (i / (weeks.length - 1)) * plotW);
+  const y = (v) => MT + plotH - (v / 3) * plotH;
+  const points = weeks.map((wk, i) => ({ ...wk, x: x(i), y: y(wk.avgStars) }));
+  const path = points.map((p, i) => `${i === 0 ? "M" : "L"}${p.x},${p.y}`).join(" ");
+  const last = points[points.length - 1];
+
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} className="st-trend-chart" role="img" aria-label="每週平均星數趨勢">
+      {[1, 2, 3].map((v) => (
+        <line key={v} x1={ML} x2={W - MR} y1={y(v)} y2={y(v)} className="st-trend-grid" />
+      ))}
+      {[1, 2, 3].map((v) => (
+        <text key={v} x={ML - 5} y={y(v)} className="st-trend-axis-label" textAnchor="end" dominantBaseline="middle">
+          {v}★
+        </text>
+      ))}
+      {points.length > 1 && <path d={path} className="st-trend-line-path" fill="none" />}
+      {points.map((p, i) => (
+        <circle key={p.weekStart} cx={p.x} cy={p.y} r="4" className="st-trend-dot">
+          <title>
+            {shortDate(p.weekStart)} 週：平均 {p.avgStars.toFixed(1)}★（{p.count} 次）
+          </title>
+        </circle>
+      ))}
+      <text
+        x={last.x}
+        y={Math.max(10, last.y - 10)}
+        className="st-trend-endlabel"
+        textAnchor={last.x > W - 24 ? "end" : "middle"}
+      >
+        {last.avgStars.toFixed(1)}★
+      </text>
+      {points.map((p, i) => (
+        <text key={p.weekStart} x={p.x} y={H - 4} className="st-trend-axis-label" textAnchor="middle">
+          {shortDate(p.weekStart)}
+        </text>
+      ))}
+    </svg>
+  );
+}
 
 // 每日挑戰紀錄日曆 — a GitHub-contribution-graph-style monthly grid: darker
 // cells for days with more completions, today outlined, 下個月 disabled once
@@ -297,6 +388,7 @@ export default function App() {
   const [todayCount, setTodayCount] = useState(0); // completions today, for the daily-goal line
   const [streakInfo, setStreakInfo] = useState(null); // null = loading; {streak, longestStreak}
   const [trend, setTrend] = useState(null); // {recent, prior} avg {stars, hints} — computed when 筆記 opens
+  const [weeklyTrend, setWeeklyTrend] = useState(null); // [{weekStart, avgStars, count}] oldest first — same screen, longer view
   const [practiceDays, setPracticeDays] = useState({}); // {"YYYY-MM-DD": count} — powers 歷史's calendar
   const [calMonth, setCalMonth] = useState(() => {
     const d = new Date();
@@ -527,9 +619,11 @@ export default function App() {
     setWeakness([]); // reset the whole screen-state group — stale stats from a
     setMastered([]); // previous account must not survive a failed reload
     setTrend(null);
+    setWeeklyTrend(null);
     try {
       const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
       setTrend(computeTrend(hist));
+      setWeeklyTrend(computeWeeklyTrend(hist));
       const byWord = new Map(); // lowercase word -> {word, texts}
       const byCat = new Map(); // category -> missed count (error-book stats)
       for (const h of hist) {
@@ -1005,6 +1099,7 @@ export default function App() {
               {trend && (
                 <div className="st-trend">
                   <span className="st-input-label">進步趨勢</span>
+                  {weeklyTrend && weeklyTrend.length > 0 && <WeeklyTrendChart weeks={weeklyTrend} />}
                   <p className="st-trend-line">
                     最近 {trend.n} 題平均 {trend.recentStars.toFixed(1)}★
                     {trend.priorStars > 0 && `（前 ${trend.n} 題 ${trend.priorStars.toFixed(1)}★）`}
