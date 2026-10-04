@@ -3,7 +3,7 @@
  *
  *  Data model:
  *    users/{uid}            { geminiKey, mastered, streak, longestStreak,
- *                              lastPracticeDate, practiceDays }
+ *                              lastPracticeDate, practiceDays, dailyGoal }
  *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, memo, createdAt }
  *
  *  practiceDays is a { "YYYY-MM-DD": count } map — one entry per local day
@@ -109,6 +109,16 @@ export async function loadStreak(uid) {
 export async function loadPracticeDays(uid) {
   const snap = await getDoc(doc(db, "users", uid));
   return snap.exists() ? snap.data().practiceDays || {} : {};
+}
+
+export async function loadDailyGoal(uid) {
+  const snap = await getDoc(doc(db, "users", uid));
+  const n = snap.exists() ? snap.data().dailyGoal : null;
+  return Number.isInteger(n) && n >= 1 && n <= 10 ? n : 3;
+}
+
+export function saveDailyGoal(uid, n) {
+  return setDoc(doc(db, "users", uid), { dailyGoal: n }, { merge: true });
 }
 
 // call once per correct completion. The streak+lastPracticeDate write is a
