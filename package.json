@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node tests/engine.test.js"
+    "test": "node tests/engine.test.js && node tests/review.test.js"
   },
   "dependencies": {
     "firebase": "^12.15.0",

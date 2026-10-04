@@ -49,6 +49,12 @@ deployment, so `scripts/verify-deploy.sh` reports a SHA mismatch until the next 
 
 ### Gotchas
 
+- **`firestore.rules` changes need a separate manual deploy.** Vercel's Git-integration
+  deploy only builds and ships `src/` — it never touches Firestore. A PR that adds or
+  changes a rule (new subcollection, new field) must be followed by
+  `firebase deploy --only firestore:rules` (or the equivalent in the Firebase Console)
+  before that collection is actually usable; until then every read/write to it fails
+  permission-denied, often silently if the calling code swallows the rejection.
 - **Google login is bound to the production domain.** `src/firebase.js` sets
   `authDomain: "sentence-builder-steel.vercel.app"` and `vercel.json` reverse-proxies
   `/__/auth/**` + `/__/firebase/**` to `pinju-web.firebaseapp.com`, so the auth handler is
