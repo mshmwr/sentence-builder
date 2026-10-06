@@ -3,13 +3,20 @@
  *
  *  Data model:
  *    users/{uid}            { geminiKey, mastered, streak, longestStreak,
- *                              lastPracticeDate, practiceDays }
+ *                              lastPracticeDate, practiceDays, dailyGoal }
  *    users/{uid}/history/*  { zh, en, stars, hints, misses, puzzle, memo, createdAt }
+ *    users/{uid}/review/*   { zh, en, puzzle, interval, dueAt, lastStars }
  *
  *  practiceDays is a { "YYYY-MM-DD": count } map — one entry per local day
  *  the account ever completed a sentence, incremented on every completion.
  *  It backs the 歷史 screen's calendar and, unlike the capped 50-record
  *  history query, never ages out.
+ *
+ *  review/* is the spaced-repetition queue: one doc per distinct sentence
+ *  (keyed by a hash of its zh text, not the zh text itself — Firestore doc
+ *  IDs have charset/length edge cases a raw sentence could hit), rescheduled
+ *  further out each time it's completed with a good score. See review.js
+ *  for the pure interval math.
  * ------------------------------------------------------------------ */
 
 import { initializeApp } from "firebase/app";
@@ -29,12 +36,14 @@ import {
   addDoc,
   collection,
   query,
+  where,
   orderBy,
   limit,
   getDocs,
   serverTimestamp,
   increment,
 } from "firebase/firestore";
+import { nextInterval } from "./review.js";
 
 const app = initializeApp({
   apiKey: "AIzaSyDsICa8oTyixnXvoCxQ4HOvkEuTpPM1_SY",
@@ -111,6 +120,16 @@ export async function loadPracticeDays(uid) {
   return snap.exists() ? snap.data().practiceDays || {} : {};
 }
 
+export async function loadDailyGoal(uid) {
+  const snap = await getDoc(doc(db, "users", uid));
+  const n = snap.exists() ? snap.data().dailyGoal : null;
+  return Number.isInteger(n) && n >= 1 && n <= 10 ? n : 3;
+}
+
+export function saveDailyGoal(uid, n) {
+  return setDoc(doc(db, "users", uid), { dailyGoal: n }, { merge: true });
+}
+
 // call once per correct completion. The streak+lastPracticeDate write is a
 // no-op past the first completion of a local day (streak only counts days),
 // but practiceDays[today] still increments every time, since that count
@@ -152,6 +171,45 @@ export async function loadHistory(uid) {
     collection(db, "users", uid, "history"),
     orderBy("createdAt", "desc"),
     limit(50)
+  );
+  const snap = await getDocs(q);
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+}
+
+// FNV-1a — deterministic, Firestore-id-safe (ascii, fixed charset), no
+// crypto dependency. Collisions are harmless here: two different sentences
+// landing on the same review doc just means one overwrites the other's
+// schedule, which self-corrects on their next completion.
+function hashId(s) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return (h >>> 0).toString(36);
+}
+
+// call once per correct completion to (re)schedule its spaced-repetition
+// review. Reads the sentence's own prior interval (0 if this is its first
+// time) so nextInterval() can grow — or reset — from where it left off.
+export async function scheduleReview(uid, zh, en, puzzleJson, starsEarned) {
+  const ref = doc(db, "users", uid, "review", hashId(zh));
+  const snap = await getDoc(ref);
+  const prevInterval = snap.exists() ? snap.data().interval || 0 : 0;
+  const interval = nextInterval(prevInterval, starsEarned);
+  const dueAt = localDateStr(new Date(Date.now() + interval * 86400000));
+  await setDoc(ref, { zh, en, puzzle: puzzleJson, interval, dueAt, lastStars: starsEarned }, { merge: true });
+  return { zh, dueAt };
+}
+
+// due today or earlier, soonest-due first — capped since a long-neglected
+// queue shouldn't dump everything on you at once
+export async function loadDueReviews(uid) {
+  const q = query(
+    collection(db, "users", uid, "review"),
+    where("dueAt", "<=", localDateStr()),
+    orderBy("dueAt", "asc"),
+    limit(20)
   );
   const snap = await getDocs(q);
   return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
