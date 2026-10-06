@@ -90,6 +90,12 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 .note.done{ opacity:.45; }
 .st-trend{ background:rgba(0,0,0,.18); border:1px solid var(--felt-line); border-radius:14px; padding:14px 16px; margin-bottom:16px; display:flex; flex-direction:column; gap:4px; }
 .st-trend-line{ margin:0; font-size:14px; color:#E4E0D4; }
+.st-trend-chart{ width:100%; height:auto; margin:6px 0 2px; overflow:visible; }
+.st-trend-grid{ stroke:rgba(255,255,255,.1); stroke-width:1; }
+.st-trend-line-path{ stroke:var(--jade); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.st-trend-dot{ fill:var(--jade); stroke:var(--felt2); stroke-width:2; }
+.st-trend-axis-label{ font-size:8px; fill:#9fc4b4; font-family:inherit; }
+.st-trend-endlabel{ font-size:9.5px; font-weight:700; fill:#F5EFDF; font-family:inherit; }
 /* ---- input screen ---- */
 .st-input-form{ display:flex; flex-direction:column; gap:14px; margin-top:8px; }
 .st-input-label{ font-size:14px; color:#9fc4b4; letter-spacing:.04em; }
