@@ -85,6 +85,7 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 .note-texts{ display:flex; flex-direction:column; gap:4px; flex:1; }
 .st-weak{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-bottom:6px; }
 .st-weak .st-chip{ margin-bottom:0; }
+.st-daily-weak-chip{ margin-bottom:0; background:#E9B64E; }
 .note-mark{ margin-left:auto; }
 .note.done{ opacity:.45; }
 .st-trend{ background:rgba(0,0,0,.18); border:1px solid var(--felt-line); border-radius:14px; padding:14px 16px; margin-bottom:16px; display:flex; flex-direction:column; gap:4px; }

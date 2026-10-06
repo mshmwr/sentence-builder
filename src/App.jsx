@@ -97,6 +97,31 @@ function computeTrend(history) {
   };
 }
 
+// category -> missed-word count, desc — shared by 筆記's error-book stats
+// and the input screen's weak-category-first sorting, so both read the same
+// signal instead of drifting. Each record's missedWords are tagged through
+// that record's OWN puzzle.notes (a word's category can differ by sentence).
+function computeWeakness(history) {
+  const byCat = new Map();
+  for (const h of history) {
+    if (!h.puzzle || !Array.isArray(h.missedWords)) continue;
+    let p;
+    try {
+      p = JSON.parse(h.puzzle);
+    } catch {
+      continue; // corrupt stored record — skip
+    }
+    const catOf = new Map((p.notes || []).map((n) => [n?.word?.toLowerCase(), n?.category]));
+    for (const w of h.missedWords) {
+      // LLM output is untrusted — off-vocabulary tags collapse into 其他 too
+      const tag = catOf.get(w.toLowerCase());
+      const c = NOTE_CATS.includes(tag) ? tag : "其他";
+      byCat.set(c, (byCat.get(c) || 0) + 1);
+    }
+  }
+  return [...byCat.entries()].map(([cat, count]) => ({ cat, count })).sort((a, b) => b.count - a.count);
+}
+
 // weeks-of-cells for a calendar month grid: leading/trailing nulls pad the
 // first/last week out to 7 slots (Sun-first) so every row renders evenly
 function monthGrid(year, month) {
@@ -300,6 +325,7 @@ export default function App() {
   const [memoError, setMemoError] = useState("");
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
   const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
+  const [topWeakCat, setTopWeakCat] = useState(null); // worst NOTE_CATS category, or null — nudges 今日例句 ordering
   const [fromHistory, setFromHistory] = useState(false); // true when the current puzzle was launched via 歷史's 再拼一次
   const [todayCount, setTodayCount] = useState(0); // completions today, for the daily-goal line
   const [streakInfo, setStreakInfo] = useState(null); // null = loading; {streak, longestStreak}
@@ -387,6 +413,7 @@ export default function App() {
     if (!user) {
       setPracticeCounts({});
       setTodayCount(0);
+      setTopWeakCat(null);
       return;
     }
     let cancelled = false;
@@ -402,6 +429,7 @@ export default function App() {
         }
         setPracticeCounts(counts);
         setTodayCount(today);
+        setTopWeakCat(computeWeakness(hist)[0]?.cat || null);
       })
       .catch(() => {});
     return () => {
@@ -441,12 +469,20 @@ export default function App() {
   // never-practiced sentences first, so the pool surfaces fresh material
   // instead of ones already ground down — stable sort keeps same-count
   // sentences in their original (freshest-scraped) order
+  // true when a daily sentence's own grammar notes touch the account's
+  // single worst-performing category — used to both bump it up the list and
+  // (visibly, so the reordering isn't a silent mystery) badge it in the UI
+  const isWeakMatch = (s) =>
+    !!topWeakCat && (s.puzzle.notes || []).some((n) => n?.category === topWeakCat);
+
   const sortedDailySentences = useMemo(() => {
     if (!dailyData) return [];
-    return [...dailyData.sentences].sort(
-      (a, b) => (practiceCounts[a.puzzle.zh] || 0) - (practiceCounts[b.puzzle.zh] || 0)
-    );
-  }, [dailyData, practiceCounts]);
+    // never-practiced sentences still come first as a whole tier (×2 keeps
+    // one extra practice outweighing the weak-category nudge); within a tier,
+    // a sentence touching today's weak category moves to the front of it
+    const score = (s) => (practiceCounts[s.puzzle.zh] || 0) * 2 - (isWeakMatch(s) ? 1 : 0);
+    return [...dailyData.sentences].sort((a, b) => score(a) - score(b));
+  }, [dailyData, practiceCounts, topWeakCat]);
 
   const onLogin = async () => {
     setAuthError("");
@@ -541,7 +577,6 @@ export default function App() {
       const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
       setTrend(computeTrend(hist));
       const byWord = new Map(); // lowercase word -> {word, texts}
-      const byCat = new Map(); // category -> missed count (error-book stats)
       for (const h of hist) {
         if (!h.puzzle) continue;
         let p;
@@ -557,22 +592,9 @@ export default function App() {
           if (!e.texts.includes(n.text)) e.texts.push(n.text); // same word, new tip — keep both
           byWord.set(k, e);
         }
-        if (Array.isArray(h.missedWords)) {
-          const catOf = new Map(
-            (p.notes || []).map((n) => [n?.word?.toLowerCase(), n?.category])
-          );
-          for (const w of h.missedWords) {
-            // LLM output is untrusted — off-vocabulary tags collapse into 其他 too
-            const tag = catOf.get(w.toLowerCase());
-            const c = NOTE_CATS.includes(tag) ? tag : "其他";
-            byCat.set(c, (byCat.get(c) || 0) + 1);
-          }
-        }
       }
       setNotes([...byWord.values()]);
-      setWeakness(
-        [...byCat.entries()].map(([cat, count]) => ({ cat, count })).sort((a, b) => b.count - a.count)
-      );
+      setWeakness(computeWeakness(hist));
       setMastered(m);
     } catch {
       setNotes([]);
@@ -1211,6 +1233,9 @@ export default function App() {
                           className="st-daily-card"
                           onClick={() => onPickDaily(s)}
                         >
+                          {count === 0 && isWeakMatch(s) && (
+                            <span className="st-chip st-daily-weak-chip">加強：{topWeakCat}</span>
+                          )}
                           <span className="st-daily-en">{s.en}</span>
                           <span className="st-daily-zh">{s.puzzle.zh}</span>
                           <div className="st-daily-foot">
