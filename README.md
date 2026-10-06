@@ -22,12 +22,14 @@ src/
   generate.js  出題：打 Gemini API。「自訂輸入」由瀏覽器即時呼叫（使用者自己
                的 key）；「今日例句」由 CI（scripts/fetch-cnn-sentences.mjs）
                每天預先呼叫一次，寫進 public/daily-sentences.json。
+  review.js    間隔複習的排程算式（純函式，零依賴，見下方「複習」）。
   firebase.js  Google 登入 + Firestore（geminiKey、歷史紀錄，皆綁帳號）。
   App.jsx      只負責畫面與事件，不含判定邏輯。
   main.jsx     入口。
   styles.css   樣式。
 tests/
   engine.test.js   覆蓋引擎每一個函式（npm test）。
+  review.test.js   覆蓋間隔複習的排程算式（npm test）。
 firestore.rules    Firestore 安全規則：只能讀寫自己 uid 底下的資料。
 ```
 
@@ -70,6 +72,14 @@ firestore.rules    Firestore 安全規則：只能讀寫自己 uid 底下的資�
   往前插隊，並在卡片上標出橘色「加強：類別」標籤（只在還沒拼過時顯示，避免跟「已拼過 ×N」
   同時出現太雜）。弱點分類判定跟「筆記」畫面共用同一個 `computeWeakness()`，兩邊看到的
   「最弱分類」保證一致。
+- **間隔複習**（學習規劃功能之一）：每過一關都會（重新）排程這句話的下次複習時間，存在
+  `users/{uid}/review/{hash(zh)}`（`src/review.js` 的 `nextInterval()`：0-1 星隔天重來；
+  2 星每次 ×1.3，封頂 30 天；3 星每次 ×2.2，封頂 60 天——拼差了會縮回來，不是卡住不動）。
+  到期（`dueAt` ≤ 今天）的句子會在輸入畫面多出一個「複習 N」分頁，點了就直接開始拼那句
+  （跟 CI 預先出題的「今日例句」共用同一套 playing 流程，完成後一樣會寫進歷史、重新排程）。
+  **注意**：`users/{uid}/review/*` 是新的子集合，`firestore.rules` 也跟著加了一條規則——
+  這個規則變更不會隨 Vercel 自動上線，合併後要單獨 `firebase deploy --only firestore:rules`，
+  否則複習功能會每次都 permission-denied（而且預設是吞掉錯誤，不會有任何畫面提示）。
 
 ### 單一真相來源
 

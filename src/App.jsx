@@ -29,6 +29,8 @@ import {
   recordPracticeDay,
   loadPracticeDays,
   localDateStr,
+  scheduleReview,
+  loadDueReviews,
   loadDailyGoal,
   saveDailyGoal,
 } from "./firebase.js";
@@ -325,6 +327,7 @@ export default function App() {
   const [memoError, setMemoError] = useState("");
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
   const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
+  const [dueReviews, setDueReviews] = useState(null); // null = not loaded; [] once fetched — spaced-repetition queue
   const [topWeakCat, setTopWeakCat] = useState(null); // worst NOTE_CATS category, or null — nudges 今日例句 ordering
   const [fromHistory, setFromHistory] = useState(false); // true when the current puzzle was launched via 歷史's 再拼一次
   const [todayCount, setTodayCount] = useState(0); // completions today, for the daily-goal line
@@ -455,6 +458,23 @@ export default function App() {
         setPracticeDays(pd);
         setDailyGoal(goal);
       })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
+
+  // spaced-repetition queue — account-only, like everything else derived
+  // from history; reloaded on login so the 複習 tab badge is ready before
+  // it's ever opened
+  useEffect(() => {
+    if (!user) {
+      setDueReviews([]);
+      return;
+    }
+    let cancelled = false;
+    loadDueReviews(user.uid)
+      .then((rs) => !cancelled && setDueReviews(rs))
       .catch(() => {});
     return () => {
       cancelled = true;
@@ -654,6 +674,19 @@ export default function App() {
     startDailyPuzzle(s.puzzle);
   };
 
+  // review docs store puzzle as a JSON string (matching 歷史's convention),
+  // unlike 今日例句's sentences which already carry a puzzle object
+  const onStartReview = (r) => {
+    let p;
+    try {
+      p = JSON.parse(r.puzzle);
+    } catch {
+      return; // corrupt record — nothing sensible to recover, just skip it
+    }
+    setGenError("");
+    startDailyPuzzle(p);
+  };
+
   const onReplay = (h) => {
     let p;
     try {
@@ -720,14 +753,17 @@ export default function App() {
     setGame(ng);
     if (ng.status === "correct") {
       if (user) {
+        const en = placedTiles(ng).map((t) => t.word).join(" ");
+        const puzzleJson = JSON.stringify(puzzle); // string, not object — Firestore rejects nested arrays (accepted)
+        const starsEarned = stars(ng);
         addHistory(user.uid, {
           zh: puzzle.zh,
-          en: placedTiles(ng).map((t) => t.word).join(" "),
-          stars: stars(ng),
+          en,
+          stars: starsEarned,
           hints: ng.hints,
           misses: ng.misses,
           missedWords: ng.missedWords, // flat string array — for the error-book stats
-          puzzle: JSON.stringify(puzzle), // string, not object — Firestore rejects nested arrays (accepted)
+          puzzle: puzzleJson,
         })
           .then((ref) => setLastHist({ id: ref.id, memo: "" })) // enables the on-completion memo
           .catch(() => {}); // history write failing must not block the game
@@ -738,6 +774,9 @@ export default function App() {
             setStreakInfo({ streak, longestStreak });
             setPracticeDays((pd) => ({ ...pd, [today]: todayCount }));
           })
+          .catch(() => {});
+        scheduleReview(user.uid, puzzle.zh, en, puzzleJson, starsEarned)
+          .then(() => setDueReviews((rs) => (rs || []).filter((r) => r.zh !== puzzle.zh)))
           .catch(() => {});
       }
     } else if (ng.wrongIdx.length) {
@@ -1201,6 +1240,16 @@ export default function App() {
             >
               今日例句
             </button>
+            {user && dueReviews && dueReviews.length > 0 && (
+              <button
+                type="button"
+                className={"st-tab" + (sourceTab === "review" ? " active" : "")}
+                onClick={() => setSourceTab("review")}
+              >
+                複習
+                <span className="st-tab-badge st-tab-badge-count">{dueReviews.length}</span>
+              </button>
+            )}
             <button
               type="button"
               className={"st-tab" + (sourceTab === "custom" ? " active" : "")}
@@ -1265,6 +1314,39 @@ export default function App() {
                     </button>
                   )}
                 </>
+              )}
+            </div>
+          ) : sourceTab === "review" ? (
+            <div className="st-daily">
+              {dueReviews && dueReviews.length === 0 ? (
+                <p className="st-login-text">太棒了，目前沒有需要複習的句子。</p>
+              ) : (
+                <div className="st-daily-list">
+                  {(dueReviews || []).map((r) => (
+                    <button
+                      type="button"
+                      key={r.id}
+                      className="st-daily-card"
+                      onClick={() => onStartReview(r)}
+                    >
+                      <span className="st-daily-en">{r.en}</span>
+                      <span className="st-daily-zh">{r.zh}</span>
+                      <div className="st-daily-foot">
+                        <span className="st-daily-card-date">
+                          {r.dueAt} 到期
+                          {r.lastStars != null && (
+                            <span className="st-hstars st-hstars-mini">
+                              {" "}
+                              · {"★".repeat(r.lastStars)}
+                              <span className="st-hstars-off">{"★".repeat(3 - r.lastStars)}</span>
+                            </span>
+                          )}
+                        </span>
+                        <span className="st-daily-go">開始拼句 →</span>
+                      </div>
+                    </button>
+                  ))}
+                </div>
               )}
             </div>
           ) : !geminiKey ? (
