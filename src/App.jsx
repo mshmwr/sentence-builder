@@ -31,11 +31,15 @@ import {
   localDateStr,
   scheduleReview,
   loadDueReviews,
+  loadDailyGoal,
+  saveDailyGoal,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
 const NOTE_CATS = ["時態", "冠詞", "介係詞", "單複數", "其他"]; // must match generate.js prompt rule 5
-const DAILY_GOAL = 3; // today's-progress target — matches the daily list's initial visible count
+const DEFAULT_DAILY_GOAL = 3; // fallback before the account's own dailyGoal loads (or when logged out)
+const DAILY_GOAL_MIN = 1;
+const DAILY_GOAL_MAX = 10;
 
 const FONT_SCALE_KEY = "pinju-font-scale"; // per-device UI scale, not account data — stays in localStorage
 const FONT_SCALE_STEPS = [0.85, 1, 1.15, 1.3, 1.45];
@@ -95,6 +99,31 @@ function computeTrend(history) {
   };
 }
 
+// category -> missed-word count, desc — shared by 筆記's error-book stats
+// and the input screen's weak-category-first sorting, so both read the same
+// signal instead of drifting. Each record's missedWords are tagged through
+// that record's OWN puzzle.notes (a word's category can differ by sentence).
+function computeWeakness(history) {
+  const byCat = new Map();
+  for (const h of history) {
+    if (!h.puzzle || !Array.isArray(h.missedWords)) continue;
+    let p;
+    try {
+      p = JSON.parse(h.puzzle);
+    } catch {
+      continue; // corrupt stored record — skip
+    }
+    const catOf = new Map((p.notes || []).map((n) => [n?.word?.toLowerCase(), n?.category]));
+    for (const w of h.missedWords) {
+      // LLM output is untrusted — off-vocabulary tags collapse into 其他 too
+      const tag = catOf.get(w.toLowerCase());
+      const c = NOTE_CATS.includes(tag) ? tag : "其他";
+      byCat.set(c, (byCat.get(c) || 0) + 1);
+    }
+  }
+  return [...byCat.entries()].map(([cat, count]) => ({ cat, count })).sort((a, b) => b.count - a.count);
+}
+
 // weeks-of-cells for a calendar month grid: leading/trailing nulls pad the
 // first/last week out to 7 slots (Sun-first) so every row renders evenly
 function monthGrid(year, month) {
@@ -109,11 +138,13 @@ function monthGrid(year, month) {
 }
 
 // 0 = no practice, 3 = hit the daily goal — same thresholds as the
-// "今天已拼 X/3 句" line so the calendar and the goal line never disagree
-function heatLevel(count) {
+// "今天已拼 X/N 句" line so the calendar and the goal line never disagree.
+// goal is the account's own dailyGoal (customizable, default 3) — the
+// midpoint threshold scales with it instead of a hardcoded "2".
+function heatLevel(count, goal) {
   if (!count) return 0;
-  if (count >= DAILY_GOAL) return 3;
-  return count >= 2 ? 2 : 1;
+  if (count >= goal) return 3;
+  return count >= Math.max(2, Math.ceil(goal / 2)) ? 2 : 1;
 }
 
 // Feather-style "home" glyph — matches the app's plain-line icon language
@@ -191,6 +222,7 @@ function PracticeCalendar({
   canGoNext,
   selectedDay,
   onSelectDay,
+  dailyGoal,
 }) {
   const year = month.getFullYear();
   const mo = month.getMonth();
@@ -203,7 +235,7 @@ function PracticeCalendar({
       if (!d) continue;
       const count = practiceDays[localDateStr(d)] || 0;
       if (count > 0) practicedDays++;
-      if (count >= DAILY_GOAL) goalDays++;
+      if (count >= dailyGoal) goalDays++;
     }
   }
   return (
@@ -239,7 +271,7 @@ function PracticeCalendar({
                 type="button"
                 key={j}
                 className={
-                  `st-cal-cell st-cal-lvl${heatLevel(count)}` +
+                  `st-cal-cell st-cal-lvl${heatLevel(count, dailyGoal)}` +
                   (key === todayStr ? " st-cal-today" : "") +
                   (key === selectedDay ? " st-cal-selected" : "")
                 }
@@ -296,6 +328,7 @@ export default function App() {
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
   const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
   const [dueReviews, setDueReviews] = useState(null); // null = not loaded; [] once fetched — spaced-repetition queue
+  const [topWeakCat, setTopWeakCat] = useState(null); // worst NOTE_CATS category, or null — nudges 今日例句 ordering
   const [fromHistory, setFromHistory] = useState(false); // true when the current puzzle was launched via 歷史's 再拼一次
   const [todayCount, setTodayCount] = useState(0); // completions today, for the daily-goal line
   const [streakInfo, setStreakInfo] = useState(null); // null = loading; {streak, longestStreak}
@@ -306,6 +339,7 @@ export default function App() {
     return new Date(d.getFullYear(), d.getMonth(), 1);
   }); // first-of-month shown on 歷史's calendar
   const [selectedDay, setSelectedDay] = useState(null); // "YYYY-MM-DD" — tapped calendar cell, filters the list below
+  const [dailyGoal, setDailyGoal] = useState(DEFAULT_DAILY_GOAL); // account's own target — editable on the Key screen
   const [fontScale, setFontScale] = useState(readFontScale); // A-/A+ control — independent of login, of the phone's own font-size setting
 
   // applied via `zoom` (not a root font-size) so it scales layout, not just
@@ -382,6 +416,7 @@ export default function App() {
     if (!user) {
       setPracticeCounts({});
       setTodayCount(0);
+      setTopWeakCat(null);
       return;
     }
     let cancelled = false;
@@ -397,6 +432,7 @@ export default function App() {
         }
         setPracticeCounts(counts);
         setTodayCount(today);
+        setTopWeakCat(computeWeakness(hist)[0]?.cat || null);
       })
       .catch(() => {});
     return () => {
@@ -404,21 +440,23 @@ export default function App() {
     };
   }, [user]);
 
-  // streak + practiceDays live on the account doc (not derived from the
-  // capped history fetch above) precisely so neither is limited by that
-  // 50-record window
+  // streak + practiceDays + dailyGoal live on the account doc (not derived
+  // from the capped history fetch above) precisely so none of them is
+  // limited by that 50-record window
   useEffect(() => {
     if (!user) {
       setStreakInfo(null);
       setPracticeDays({});
+      setDailyGoal(DEFAULT_DAILY_GOAL);
       return;
     }
     let cancelled = false;
-    Promise.all([loadStreak(user.uid), loadPracticeDays(user.uid)])
-      .then(([s, pd]) => {
+    Promise.all([loadStreak(user.uid), loadPracticeDays(user.uid), loadDailyGoal(user.uid)])
+      .then(([s, pd, goal]) => {
         if (cancelled) return;
         setStreakInfo(s);
         setPracticeDays(pd);
+        setDailyGoal(goal);
       })
       .catch(() => {});
     return () => {
@@ -451,12 +489,20 @@ export default function App() {
   // never-practiced sentences first, so the pool surfaces fresh material
   // instead of ones already ground down — stable sort keeps same-count
   // sentences in their original (freshest-scraped) order
+  // true when a daily sentence's own grammar notes touch the account's
+  // single worst-performing category — used to both bump it up the list and
+  // (visibly, so the reordering isn't a silent mystery) badge it in the UI
+  const isWeakMatch = (s) =>
+    !!topWeakCat && (s.puzzle.notes || []).some((n) => n?.category === topWeakCat);
+
   const sortedDailySentences = useMemo(() => {
     if (!dailyData) return [];
-    return [...dailyData.sentences].sort(
-      (a, b) => (practiceCounts[a.puzzle.zh] || 0) - (practiceCounts[b.puzzle.zh] || 0)
-    );
-  }, [dailyData, practiceCounts]);
+    // never-practiced sentences still come first as a whole tier (×2 keeps
+    // one extra practice outweighing the weak-category nudge); within a tier,
+    // a sentence touching today's weak category moves to the front of it
+    const score = (s) => (practiceCounts[s.puzzle.zh] || 0) * 2 - (isWeakMatch(s) ? 1 : 0);
+    return [...dailyData.sentences].sort((a, b) => score(a) - score(b));
+  }, [dailyData, practiceCounts, topWeakCat]);
 
   const onLogin = async () => {
     setAuthError("");
@@ -551,7 +597,6 @@ export default function App() {
       const [hist, m] = await Promise.all([loadHistory(user.uid), loadMastered(user.uid)]);
       setTrend(computeTrend(hist));
       const byWord = new Map(); // lowercase word -> {word, texts}
-      const byCat = new Map(); // category -> missed count (error-book stats)
       for (const h of hist) {
         if (!h.puzzle) continue;
         let p;
@@ -567,22 +612,9 @@ export default function App() {
           if (!e.texts.includes(n.text)) e.texts.push(n.text); // same word, new tip — keep both
           byWord.set(k, e);
         }
-        if (Array.isArray(h.missedWords)) {
-          const catOf = new Map(
-            (p.notes || []).map((n) => [n?.word?.toLowerCase(), n?.category])
-          );
-          for (const w of h.missedWords) {
-            // LLM output is untrusted — off-vocabulary tags collapse into 其他 too
-            const tag = catOf.get(w.toLowerCase());
-            const c = NOTE_CATS.includes(tag) ? tag : "其他";
-            byCat.set(c, (byCat.get(c) || 0) + 1);
-          }
-        }
       }
       setNotes([...byWord.values()]);
-      setWeakness(
-        [...byCat.entries()].map(([cat, count]) => ({ cat, count })).sort((a, b) => b.count - a.count)
-      );
+      setWeakness(computeWeakness(hist));
       setMastered(m);
     } catch {
       setNotes([]);
@@ -594,6 +626,12 @@ export default function App() {
     const next = mastered.includes(k) ? mastered.filter((w) => w !== k) : [...mastered, k];
     setMastered(next);
     saveMastered(user.uid, next).catch(() => {}); // save failing must not block the UI
+  };
+
+  const onChangeDailyGoal = (n) => {
+    const clamped = Math.min(DAILY_GOAL_MAX, Math.max(DAILY_GOAL_MIN, n));
+    setDailyGoal(clamped); // optimistic — the stepper shouldn't wait on a round-trip
+    saveDailyGoal(user.uid, clamped).catch(() => {});
   };
 
   const onSubmit = async (e) => {
@@ -936,6 +974,7 @@ export default function App() {
             }
             selectedDay={selectedDay}
             onSelectDay={setSelectedDay}
+            dailyGoal={dailyGoal}
           />
           {history === null ? (
             <div className="st-loading">
@@ -1139,6 +1178,35 @@ export default function App() {
               </button>
             </div>
           </form>
+          {user && (
+            <div className="st-goal-settings">
+              <span className="st-input-label">每日目標（句）</span>
+              <div className="st-goal-stepper">
+                <button
+                  type="button"
+                  className="st-linkbtn st-cal-nav"
+                  onClick={() => onChangeDailyGoal(dailyGoal - 1)}
+                  disabled={dailyGoal <= DAILY_GOAL_MIN}
+                  aria-label="減少每日目標"
+                >
+                  －
+                </button>
+                <span className="st-goal-value">{dailyGoal}</span>
+                <button
+                  type="button"
+                  className="st-linkbtn st-cal-nav"
+                  onClick={() => onChangeDailyGoal(dailyGoal + 1)}
+                  disabled={dailyGoal >= DAILY_GOAL_MAX}
+                  aria-label="增加每日目標"
+                >
+                  ＋
+                </button>
+              </div>
+              <p className="st-keyhelp">
+                達成後「今天已拼」會打勾，「歷史」日曆也會用這個數字當作顏色最深的門檻。
+              </p>
+            </div>
+          )}
         </div>
       </div>
     );
@@ -1159,7 +1227,7 @@ export default function App() {
                 {streakInfo.longestStreak > streakInfo.streak && `（最佳 ${streakInfo.longestStreak}）`}
               </span>
               <span className="st-momentum-item">
-                今天已拼 {todayCount}/{DAILY_GOAL} 句{todayCount >= DAILY_GOAL ? " ✓" : ""}
+                今天已拼 {todayCount}/{dailyGoal} 句{todayCount >= dailyGoal ? " ✓" : ""}
               </span>
             </div>
           )}
@@ -1214,6 +1282,9 @@ export default function App() {
                           className="st-daily-card"
                           onClick={() => onPickDaily(s)}
                         >
+                          {count === 0 && isWeakMatch(s) && (
+                            <span className="st-chip st-daily-weak-chip">加強：{topWeakCat}</span>
+                          )}
                           <span className="st-daily-en">{s.en}</span>
                           <span className="st-daily-zh">{s.puzzle.zh}</span>
                           <div className="st-daily-foot">
