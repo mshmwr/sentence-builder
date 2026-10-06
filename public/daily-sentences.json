@@ -1,712 +1,685 @@
 {
   "date": "2026-10-06",
-  "fetchedAt": "2026-10-06T01:14:29.681Z",
+  "fetchedAt": "2026-10-06T23:42:24.079Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Breaking News Trump signs executive order aimed at lowering diesel prices",
-      "url": "https://edition.cnn.com/2026/10/05/business/trump-diesel-prices-executive-order",
+      "en": "City on track to tun out of water",
+      "url": "https://edition.cnn.com/2026/10/06/climate/water-crisis-city-day-zero-kabul-afghanistan",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Breaking News Trump signs executive order aimed at lowering diesel prices",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/business/trump-diesel-prices-executive-order",
-        "zh": "突發新聞：川普簽署行政命令，旨在降低柴油價格。",
+        "sourceEn": "City on track to tun out of water",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/climate/water-crisis-city-day-zero-kabul-afghanistan",
+        "zh": "這座城市的水資源即將耗盡。",
         "accepted": [
           [
-            "Breaking",
-            "News",
-            "Trump",
-            "signs",
-            "executive",
-            "order",
-            "aimed",
-            "at",
-            "lowering",
-            "diesel",
-            "prices"
-          ]
-        ],
-        "distractors": [
-          "raise",
-          "gasoline",
-          "orders",
-          "higher",
-          "signed",
-          "price"
-        ],
-        "notes": [
-          {
-            "word": "signs",
-            "text": "在新聞標題中，常用現在簡單式來描述最近發生的事件，即使在中文中我們可能會用過去式。",
-            "category": "時態"
-          },
-          {
-            "word": "aimed at",
-            "text": "「aimed at」表示「旨在…」或「目標是…」，後面通常接動名詞（-ing形式）或名詞。",
-            "category": "介係詞"
-          },
-          {
-            "word": "lowering",
-            "text": "「lowering」是動名詞，在此作介係詞「at」的受詞，表示「降低」這個動作。",
-            "category": "其他"
-          },
-          {
-            "word": "executive order",
-            "text": "「executive order」是「行政命令」的意思，是政府高層發布的具有法律效力的指令。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump uses anti-transgender slur to attack South Carolina Senate nominee",
-      "url": "https://edition.cnn.com/2026/10/05/politics/trump-transgender-slur-andrews-graham",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump uses anti-transgender slur to attack South Carolina Senate nominee",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/politics/trump-transgender-slur-andrews-graham",
-        "zh": "川普使用反跨性別污辱詞攻擊南卡羅來納州參議院候選人。",
-        "accepted": [
-          [
-            "Trump",
-            "uses",
-            "anti-transgender",
-            "slur",
+            "City",
+            "on",
+            "track",
             "to",
-            "attack",
-            "South",
-            "Carolina",
-            "Senate",
-            "nominee"
+            "run",
+            "out",
+            "of",
+            "water"
           ]
         ],
         "distractors": [
-          "used",
-          "attacks",
-          "slurs",
-          "nominees",
-          "for",
-          "from"
+          "running",
+          "track",
+          "city",
+          "water",
+          "out",
+          "of"
         ],
         "notes": [
           {
-            "word": "uses",
-            "text": "新聞標題中常用現在簡單式來描述最近發生的事件，即使在中文中我們可能會用過去式。",
-            "category": "時態"
-          },
-          {
-            "word": "anti-transgender",
-            "text": "「anti-」作為字首表示「反對」或「對抗」某事物，例如「anti-war」（反戰）。",
+            "word": "on track to",
+            "text": "「on track to do something」表示「有望做某事」或「正朝著某事的方向發展」。",
             "category": "其他"
           },
           {
-            "word": "slur",
-            "text": "「slur」指「污辱性言詞」或「誹謗」，通常帶有歧視意味。",
+            "word": "run out of",
+            "text": "「run out of something」表示「用完、耗盡某物」。",
             "category": "其他"
           },
           {
-            "word": "nominee",
-            "text": "「nominee」指「被提名人」或「候選人」，通常是在選舉或獎項中被選定的人。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Her husband went to war. She was killed by a Russian drone",
-      "url": "https://edition.cnn.com/2026/10/05/europe/russian-drone-strike-civilian-life-impact-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Her husband went to war. She was killed by a Russian drone",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/europe/russian-drone-strike-civilian-life-impact-intl",
-        "zh": "她的丈夫上了戰場。她被俄羅斯無人機殺害。",
-        "accepted": [
-          [
-            "Her",
-            "husband",
-            "went",
-            "to",
-            "war",
-            ".",
-            "She",
-            "was",
-            "killed",
-            "by",
-            "a",
-            "Russian",
-            "drone"
-          ]
-        ],
-        "distractors": [
-          "goes",
-          "wars",
-          "killed",
-          "drones",
-          "the",
-          "from"
-        ],
-        "notes": [
-          {
-            "word": "went to war",
-            "text": "「go to war」表示「參戰」或「上戰場」。",
-            "category": "其他"
-          },
-          {
-            "word": "was killed",
-            "text": "這是被動語態的過去簡單式，表示主詞「她」是被動地「被殺害」。",
-            "category": "時態"
-          },
-          {
-            "word": "by a Russian drone",
-            "text": "在被動語態中，「by + 行為者」表示動作的執行者。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，用於首次提及或泛指單數可數名詞。",
+            "word": "City",
+            "text": "在新聞標題中，有時會省略冠詞，例如這裡的「A City」或「The City」。",
             "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Alleged Flydubai hijacker likely wanted to target Israel’s main airport, sources say",
-      "url": "https://edition.cnn.com/2026/10/05/middleeast/flydubai-pilot-likely-targeting-ben-gurion-airport-intl",
+      "en": "CNN Investigates Top Democrat is investigating Jared Kushner’s financial investments after CNN report",
+      "url": "https://edition.cnn.com/2026/10/06/politics/jared-kushner-israeli-investments-invs",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Alleged Flydubai hijacker likely wanted to target Israel’s main airport, sources say",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/middleeast/flydubai-pilot-likely-targeting-ben-gurion-airport-intl",
-        "zh": "消息人士稱，據稱的杜拜航空劫機者可能想攻擊以色列的主要機場。",
+        "sourceEn": "CNN Investigates Top Democrat is investigating Jared Kushner’s financial investments after CNN report",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/politics/jared-kushner-israeli-investments-invs",
+        "zh": "CNN調查：在CNN報導後，一位頂級民主黨人正在調查賈里德·庫什納的金融投資。",
         "accepted": [
           [
-            "Alleged",
-            "Flydubai",
-            "hijacker",
-            "likely",
-            "wanted",
-            "to",
-            "target",
-            "Israel’s",
-            "main",
-            "airport",
-            ",",
-            "sources",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "allegedly",
-          "hijackers",
-          "likely",
-          "targets",
-          "airports",
-          "said"
-        ],
-        "notes": [
-          {
-            "word": "Alleged",
-            "text": "「Alleged」是形容詞，表示「據稱的」或「被指控的」，強調未經證實的說法。",
-            "category": "其他"
-          },
-          {
-            "word": "hijacker",
-            "text": "「hijacker」指「劫機者」或「劫持者」。",
-            "category": "單複數"
-          },
-          {
-            "word": "likely",
-            "text": "「likely」是副詞，表示「很可能」或「大概」，修飾動詞「wanted」。",
-            "category": "其他"
-          },
-          {
-            "word": "wanted to target",
-            "text": "「want to + 動詞原形」表示「想要做某事」。",
-            "category": "其他"
-          },
-          {
-            "word": "sources say",
-            "text": "「sources say」是新聞報導中常見的表達方式，表示消息來源指出。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The Irkutsk Anti-Plague Research Institute of Siberia and Far East/AP",
-      "url": "https://edition.cnn.com/2026/10/04/europe/russia-laboratory-plague-accident-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The Irkutsk Anti-Plague Research Institute of Siberia and Far East/AP",
-        "sourceUrl": "https://edition.cnn.com/2026/10/04/europe/russia-laboratory-plague-accident-intl",
-        "zh": "西伯利亞和遠東伊爾庫茨克抗鼠疫研究所/美聯社",
-        "accepted": [
-          [
-            "The",
-            "Irkutsk",
-            "Anti-Plague",
-            "Research",
-            "Institute",
-            "of",
-            "Siberia",
-            "and",
-            "Far",
-            "East",
-            "/",
-            "AP"
-          ]
-        ],
-        "distractors": [
-          "an",
-          "for",
-          "from",
-          "researches",
-          "institutes",
-          "plague"
-        ],
-        "notes": [
-          {
-            "word": "The",
-            "text": "「The」是定冠詞，用於指稱特定或已知的事物，此處指特定的研究所。",
-            "category": "冠詞"
-          },
-          {
-            "word": "Anti-Plague",
-            "text": "「Anti-」作為字首表示「反對」或「對抗」，「plague」指「鼠疫」或「瘟疫」。",
-            "category": "其他"
-          },
-          {
-            "word": "Institute of",
-            "text": "「Institute of」表示「…的研究所」，用「of」來連接研究所的名稱和其研究領域或地點。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Far East",
-            "text": "「Far East」指「遠東地區」，是一個專有名詞。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Breaking News Jeremy Grayson/Radio Times/Getty Images",
-      "url": "https://edition.cnn.com/2026/10/05/uk/jeffrey-archer-novelist-obit-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Breaking News Jeremy Grayson/Radio Times/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/uk/jeffrey-archer-novelist-obit-intl-hnk",
-        "zh": "突發新聞：傑瑞米·格雷森/廣播時報/蓋蒂圖片社",
-        "accepted": [
-          [
-            "Breaking",
-            "News",
-            "Jeremy",
-            "Grayson",
-            "/",
-            "Radio",
-            "Times",
-            "/",
-            "Getty",
-            "Images"
-          ]
-        ],
-        "distractors": [
-          "break",
-          "new",
-          "image",
-          "time",
-          "for",
-          "from"
-        ],
-        "notes": [
-          {
-            "word": "Breaking News",
-            "text": "「Breaking News」是新聞報導中常見的片語，表示「突發新聞」。",
-            "category": "其他"
-          },
-          {
-            "word": "/",
-            "text": "斜線（/）在新聞標題或圖片來源中常用來分隔不同的資訊或來源。",
-            "category": "其他"
-          },
-          {
-            "word": "Radio Times",
-            "text": "「Radio Times」是一個英國的廣播電視節目指南雜誌，此處為專有名詞。",
-            "category": "其他"
-          },
-          {
-            "word": "Getty Images",
-            "text": "「Getty Images」是一家著名的圖片庫公司，此處為專有名詞。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Nobel Prize in medicine awarded to trio for technique that helps decode mysteries of the brain",
-      "url": "https://edition.cnn.com/2026/10/05/science/nobel-prize-medicine-karl-deisseroth-peter-hegemann-georg-nagel-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Nobel Prize in medicine awarded to trio for technique that helps decode mysteries of the brain",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/science/nobel-prize-medicine-karl-deisseroth-peter-hegemann-georg-nagel-intl",
-        "zh": "諾貝爾醫學獎頒發給三人，以表彰他們解開大腦奧秘的技術。",
-        "accepted": [
-          [
-            "Nobel",
-            "Prize",
-            "in",
-            "medicine",
-            "awarded",
-            "to",
-            "trio",
-            "for",
-            "technique",
-            "that",
-            "helps",
-            "decode",
-            "mysteries",
-            "of",
-            "the",
-            "brain"
-          ]
-        ],
-        "distractors": [
-          "prizes",
-          "medicin",
-          "awards",
-          "techniques",
-          "mystery",
-          "brains"
-        ],
-        "notes": [
-          {
-            "word": "awarded",
-            "text": "在新聞標題中，動詞常省略be動詞，直接用過去分詞表示被動語態。",
-            "category": "時態"
-          },
-          {
-            "word": "in medicine",
-            "text": "「in medicine」表示「在醫學領域」，說明獎項的類別。",
-            "category": "介係詞"
-          },
-          {
-            "word": "trio",
-            "text": "「trio」指「三人組」或「三件套」，在此指三位獲獎者。",
-            "category": "單複數"
-          },
-          {
-            "word": "for technique",
-            "text": "「for」在此表示「因為」或「為了」，說明獲獎的原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "decode mysteries of the brain",
-            "text": "「decode」指「解碼」或「解開」，「mysteries of the brain」指「大腦的奧秘」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "First-ever evidence of a second-generation planet detected around dead star",
-      "url": "https://edition.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "First-ever evidence of a second-generation planet detected around dead star",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf",
-        "zh": "首次發現圍繞死星的第二代行星證據。",
-        "accepted": [
-          [
-            "First-ever",
-            "evidence",
-            "of",
-            "a",
-            "second-generation",
-            "planet",
-            "detected",
-            "around",
-            "dead",
-            "star"
-          ]
-        ],
-        "distractors": [
-          "first",
-          "evidences",
-          "planets",
-          "detects",
-          "stars",
-          "from"
-        ],
-        "notes": [
-          {
-            "word": "First-ever",
-            "text": "「First-ever」表示「有史以來第一次的」，強調其獨特性。",
-            "category": "其他"
-          },
-          {
-            "word": "evidence of",
-            "text": "「evidence of」表示「…的證據」，後面接名詞或動名詞。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，用於首次提及或泛指單數可數名詞「planet」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "detected",
-            "text": "在新聞標題中，動詞常省略be動詞，直接用過去分詞表示被動語態，意為「被偵測到」。",
-            "category": "時態"
-          },
-          {
-            "word": "around",
-            "text": "「around」在此表示「圍繞著」或「在…周圍」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump says his super PAC will pay for campaign-style ads after backlash over taxpayer-funded effort",
-      "url": "https://edition.cnn.com/2026/10/05/politics/trump-taxpayer-funded-ads-super-pac",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump says his super PAC will pay for campaign-style ads after backlash over taxpayer-funded effort",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/politics/trump-taxpayer-funded-ads-super-pac",
-        "zh": "川普表示，他的超級政治行動委員會將支付競選式廣告費用，此前因納稅人資助的努力而遭到強烈反對。",
-        "accepted": [
-          [
-            "Trump",
-            "says",
-            "his",
-            "super",
-            "PAC",
-            "will",
-            "pay",
-            "for",
-            "campaign-style",
-            "ads",
+            "CNN",
+            "Investigates",
+            "Top",
+            "Democrat",
+            "is",
+            "investigating",
+            "Jared",
+            "Kushner’s",
+            "financial",
+            "investments",
             "after",
-            "backlash",
-            "over",
-            "taxpayer-funded",
-            "effort"
+            "CNN",
+            "report"
           ]
         ],
         "distractors": [
-          "said",
-          "pays",
-          "campaign",
-          "ad",
-          "efforts",
-          "from"
+          "investigate",
+          "democrats",
+          "finance",
+          "reports",
+          "afterwards",
+          "invested"
         ],
         "notes": [
           {
-            "word": "says",
-            "text": "新聞標題中常用現在簡單式來描述最近發生的事件，即使在中文中我們可能會用過去式。",
+            "word": "Investigates",
+            "text": "在新聞標題中，動詞常用現在式來表示正在發生或最近發生的事件，即使在內文中可能會使用過去式。",
             "category": "時態"
           },
           {
-            "word": "super PAC",
-            "text": "「super PAC」是美國的一種獨立政治行動委員會，可以無限量地籌集和支出資金來支持或反對候選人。",
+            "word": "is investigating",
+            "text": "現在進行式「is investigating」表示調查正在進行中。",
+            "category": "時態"
+          },
+          {
+            "word": "Kushner’s",
+            "text": "「Kushner’s」是所有格，表示「庫什納的」。",
             "category": "其他"
           },
           {
-            "word": "pay for",
-            "text": "「pay for」表示「支付…的費用」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "campaign-style ads",
-            "text": "「campaign-style」表示「競選風格的」，「ads」是「advertisements」（廣告）的縮寫。",
-            "category": "其他"
-          },
-          {
-            "word": "backlash over",
-            "text": "「backlash over」表示「因…而引起的強烈反對」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "taxpayer-funded",
-            "text": "「taxpayer-funded」表示「由納稅人資助的」。",
-            "category": "其他"
+            "word": "report",
+            "text": "在新聞標題中，名詞有時會省略冠詞，例如這裡的「a report」或「the report」。",
+            "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "US removes all Air Force bombers from UK base following new threat",
-      "url": "https://edition.cnn.com/2026/10/04/politics/us-air-force-bombers-removed-fairford-iran",
+      "en": "US arrest announced in connection with Canada’s Tumbler Ridge school shooting",
+      "url": "https://edition.cnn.com/2026/10/06/americas/arrest-tumbler-ridge-canada-shooting-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "US removes all Air Force bombers from UK base following new threat",
-        "sourceUrl": "https://edition.cnn.com/2026/10/04/politics/us-air-force-bombers-removed-fairford-iran",
-        "zh": "美國在新的威脅之後，將所有空軍轟炸機從英國基地撤離。",
+        "sourceEn": "US arrest announced in connection with Canada’s Tumbler Ridge school shooting",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/americas/arrest-tumbler-ridge-canada-shooting-latam-intl",
+        "zh": "美國宣布逮捕一名與加拿大坦布勒嶺校園槍擊案有關的嫌犯。",
         "accepted": [
           [
             "US",
-            "removes",
-            "all",
-            "Air",
-            "Force",
-            "bombers",
-            "from",
-            "UK",
-            "base",
-            "following",
-            "new",
-            "threat"
+            "arrest",
+            "announced",
+            "in",
+            "connection",
+            "with",
+            "Canada’s",
+            "Tumbler",
+            "Ridge",
+            "school",
+            "shooting"
           ]
         ],
         "distractors": [
-          "removed",
-          "bomber",
-          "bases",
-          "threats",
-          "to",
-          "after"
+          "arrests",
+          "announces",
+          "connected",
+          "shoot",
+          "schools",
+          "connections"
         ],
         "notes": [
           {
-            "word": "removes",
-            "text": "新聞標題中常用現在簡單式來描述最近發生的事件，即使在中文中我們可能會用過去式。",
+            "word": "arrest announced",
+            "text": "在新聞標題中，常使用被動語態的簡化形式，省略be動詞，例如這裡的「(an) arrest (was) announced」。",
             "category": "時態"
           },
           {
-            "word": "Air Force bombers",
-            "text": "「Air Force」指「空軍」，「bombers」指「轟炸機」。",
+            "word": "in connection with",
+            "text": "「in connection with」是一個常用片語，表示「與…有關」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Canada’s",
+            "text": "「Canada’s」是所有格，表示「加拿大的」。",
+            "category": "其他"
+          },
+          {
+            "word": "school shooting",
+            "text": "「school shooting」是一個複合名詞，表示「校園槍擊案」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Unprecedented student protests are rocking France. Why they're angry",
+      "url": "https://edition.cnn.com/2026/10/06/europe/france-student-protests-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Unprecedented student protests are rocking France. Why they're angry",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/europe/france-student-protests-intl",
+        "zh": "前所未有的學生抗議活動正在震撼法國。他們為何憤怒？",
+        "accepted": [
+          [
+            "Unprecedented",
+            "student",
+            "protests",
+            "are",
+            "rocking",
+            "France.",
+            "Why",
+            "they're",
+            "angry"
+          ]
+        ],
+        "distractors": [
+          "protest",
+          "rock",
+          "angrily",
+          "students",
+          "unprecedentedly",
+          "why're"
+        ],
+        "notes": [
+          {
+            "word": "Unprecedented",
+            "text": "「Unprecedented」意為「前所未有的」，用來形容學生抗議活動的規模或性質。",
+            "category": "其他"
+          },
+          {
+            "word": "are rocking",
+            "text": "現在進行式「are rocking」表示抗議活動正在發生並產生影響。「rock」在這裡有「震撼、動搖」的意思。",
+            "category": "時態"
+          },
+          {
+            "word": "Why they're angry",
+            "text": "這是一個疑問句，但省略了助動詞「are」，在新聞標題中常見這種簡潔的表達方式。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Facing stonewalling from Russia, Trump admin struggles to plan for potential plague fallout",
+      "url": "https://edition.cnn.com/2026/10/06/politics/russia-plague-death-trump",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Facing stonewalling from Russia, Trump admin struggles to plan for potential plague fallout",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/politics/russia-plague-death-trump",
+        "zh": "面對俄羅斯的阻撓，川普政府難以規劃潛在鼠疫爆發的後果。",
+        "accepted": [
+          [
+            "Facing",
+            "stonewalling",
+            "from",
+            "Russia,",
+            "Trump",
+            "admin",
+            "struggles",
+            "to",
+            "plan",
+            "for",
+            "potential",
+            "plague",
+            "fallout"
+          ]
+        ],
+        "distractors": [
+          "faced",
+          "stonewall",
+          "struggle",
+          "plans",
+          "potentially",
+          "fallouts"
+        ],
+        "notes": [
+          {
+            "word": "Facing",
+            "text": "「Facing」是現在分詞作狀語，表示「面對…的情況」。",
+            "category": "其他"
+          },
+          {
+            "word": "stonewalling",
+            "text": "「stonewalling」意為「阻撓、拖延」，通常指拒絕合作或提供資訊。",
+            "category": "其他"
+          },
+          {
+            "word": "admin",
+            "text": "「admin」是「administration」的縮寫，在新聞標題中常用來指政府或行政部門。",
+            "category": "其他"
+          },
+          {
+            "word": "struggles",
+            "text": "動詞「struggles」使用現在式，符合新聞標題的習慣，表示正在發生的困難。",
+            "category": "時態"
+          },
+          {
+            "word": "fallout",
+            "text": "「fallout」意為「後果、餘波」，通常指不好的結果。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Checklists, masks and mystery: What we know about the plague scare in Russia",
+      "url": "https://edition.cnn.com/2026/10/06/world/russian-plague-outbreak-what-we-know-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Checklists, masks and mystery: What we know about the plague scare in Russia",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/world/russian-plague-outbreak-what-we-know-intl",
+        "zh": "清單、口罩和謎團：我們對俄羅斯鼠疫恐慌的了解。",
+        "accepted": [
+          [
+            "Checklists,",
+            "masks",
+            "and",
+            "mystery:",
+            "What",
+            "we",
+            "know",
+            "about",
+            "the",
+            "plague",
+            "scare",
+            "in",
+            "Russia"
+          ]
+        ],
+        "distractors": [
+          "checklist",
+          "mask",
+          "mysteries",
+          "knew",
+          "scares",
+          "abouted"
+        ],
+        "notes": [
+          {
+            "word": "Checklists, masks and mystery",
+            "text": "這是並列的名詞，列舉了與鼠疫恐慌相關的三個元素。",
+            "category": "其他"
+          },
+          {
+            "word": "What we know",
+            "text": "這是一個名詞子句，作為冒號後的主語，表示「我們所知道的」。",
+            "category": "其他"
+          },
+          {
+            "word": "the plague scare",
+            "text": "「the plague scare」表示「鼠疫恐慌」，這裡的「the」指特定的、已知的恐慌事件。",
+            "category": "冠詞"
+          },
+          {
+            "word": "in Russia",
+            "text": "「in」用於表示地點，指「在俄羅斯」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Physics Nobel goes to Francis Halzen for pioneering an ‘entirely new type of astronomy’",
+      "url": "https://edition.cnn.com/2026/10/06/science/nobel-prize-physics-francis-halzen-winner-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Physics Nobel goes to Francis Halzen for pioneering an ‘entirely new type of astronomy’",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/science/nobel-prize-physics-francis-halzen-winner-intl",
+        "zh": "物理諾貝爾獎授予弗朗西斯·哈爾岑，以表彰他開創了「一種全新的天文學」。",
+        "accepted": [
+          [
+            "Physics",
+            "Nobel",
+            "goes",
+            "to",
+            "Francis",
+            "Halzen",
+            "for",
+            "pioneering",
+            "an",
+            "‘entirely",
+            "new",
+            "type",
+            "of",
+            "astronomy’"
+          ]
+        ],
+        "distractors": [
+          "physic",
+          "Nobels",
+          "went",
+          "pioneer",
+          "entirely",
+          "astronomies"
+        ],
+        "notes": [
+          {
+            "word": "goes to",
+            "text": "在新聞標題中，常用現在式「goes to」來表示獎項的授予，即使事件已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "for pioneering",
+            "text": "「for + 動名詞」表示「因為…」或「為了…」，這裡指獲獎的原因是「開創」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "an ‘entirely new type of astronomy’",
+            "text": "「an」是不定冠詞，用於修飾「entirely new type」，表示「一種全新的類型」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "type of",
+            "text": "「type of」表示「…的類型」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hilarious animal photos from this year’s Comedy Wildlife Awards",
+      "url": "https://edition.cnn.com/2026/10/06/travel/comedy-wildlife-awards-2026-finalists-intl-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hilarious animal photos from this year’s Comedy Wildlife Awards",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/travel/comedy-wildlife-awards-2026-finalists-intl-scli",
+        "zh": "今年喜劇野生動物攝影獎的搞笑動物照片。",
+        "accepted": [
+          [
+            "Hilarious",
+            "animal",
+            "photos",
+            "from",
+            "this",
+            "year’s",
+            "Comedy",
+            "Wildlife",
+            "Awards"
+          ]
+        ],
+        "distractors": [
+          "hilariously",
+          "animals",
+          "photo",
+          "years",
+          "award",
+          "comedic"
+        ],
+        "notes": [
+          {
+            "word": "Hilarious",
+            "text": "「Hilarious」意為「非常滑稽的、引人發笑的」。",
+            "category": "其他"
+          },
+          {
+            "word": "animal photos",
+            "text": "「animal photos」是複合名詞，表示「動物照片」。",
             "category": "其他"
           },
           {
             "word": "from",
-            "text": "「from」表示「從…」，指出移除的來源地。",
+            "text": "「from」表示來源，指照片來自於這個獎項。",
             "category": "介係詞"
           },
           {
-            "word": "following",
-            "text": "「following」在此作介係詞，表示「在…之後」或「由於…」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "threat",
-            "text": "「threat」指「威脅」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Breaking News Bell County Sheriff's Department/AP",
-      "url": "https://edition.cnn.com/2026/10/05/politics/trump-approves-firing-squad-nadal-hasan",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Breaking News Bell County Sheriff's Department/AP",
-        "sourceUrl": "https://edition.cnn.com/2026/10/05/politics/trump-approves-firing-squad-nadal-hasan",
-        "zh": "突發新聞：貝爾縣警長部門/美聯社",
-        "accepted": [
-          [
-            "Breaking",
-            "News",
-            "Bell",
-            "County",
-            "Sheriff's",
-            "Department",
-            "/",
-            "AP"
-          ]
-        ],
-        "distractors": [
-          "break",
-          "new",
-          "counties",
-          "sheriffs",
-          "departments",
-          "for"
-        ],
-        "notes": [
-          {
-            "word": "Breaking News",
-            "text": "「Breaking News」是新聞報導中常見的片語，表示「突發新聞」。",
-            "category": "其他"
-          },
-          {
-            "word": "Bell County",
-            "text": "「Bell County」是「貝爾縣」，一個專有名詞。",
-            "category": "其他"
-          },
-          {
-            "word": "Sheriff's Department",
-            "text": "「Sheriff's Department」指「警長部門」，「's」表示所有格。",
-            "category": "其他"
-          },
-          {
-            "word": "/",
-            "text": "斜線（/）在新聞標題或圖片來源中常用來分隔不同的資訊或來源。",
+            "word": "this year’s",
+            "text": "「this year’s」是所有格，表示「今年的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Saudi-backed Yemeni forces attack Houthis near key global trade route",
-      "url": "https://edition.cnn.com/2026/10/04/middleeast/yemen-offensive-houthis-intl",
+      "en": "Special prosecutor close to naming outside lawyers to handle Cornell investigation",
+      "url": "https://edition.cnn.com/2026/10/06/us/ny-ag-cornell-investigation-lawyers",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Saudi-backed Yemeni forces attack Houthis near key global trade route",
-        "sourceUrl": "https://edition.cnn.com/2026/10/04/middleeast/yemen-offensive-houthis-intl",
-        "zh": "沙特支持的葉門部隊在關鍵全球貿易路線附近襲擊胡塞武裝。",
+        "sourceEn": "Special prosecutor close to naming outside lawyers to handle Cornell investigation",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/us/ny-ag-cornell-investigation-lawyers",
+        "zh": "特別檢察官即將任命外部律師處理康奈爾大學的調查。",
         "accepted": [
           [
-            "Saudi-backed",
-            "Yemeni",
-            "forces",
-            "attack",
-            "Houthis",
-            "near",
-            "key",
-            "global",
-            "trade",
-            "route"
+            "Special",
+            "prosecutor",
+            "close",
+            "to",
+            "naming",
+            "outside",
+            "lawyers",
+            "to",
+            "handle",
+            "Cornell",
+            "investigation"
           ]
         ],
         "distractors": [
-          "Saudi",
-          "force",
-          "attacks",
-          "Houthi",
-          "routes",
-          "from"
+          "specially",
+          "prosecutors",
+          "closed",
+          "name",
+          "lawyer",
+          "investigations"
         ],
         "notes": [
           {
-            "word": "Saudi-backed",
-            "text": "「-backed」作為複合形容詞的一部分，表示「由…支持的」。",
+            "word": "close to naming",
+            "text": "「close to + 動名詞」表示「即將做某事」或「接近做某事」。",
             "category": "其他"
           },
           {
-            "word": "Yemeni forces",
-            "text": "「Yemeni」是「葉門的」形容詞形式，「forces」指「部隊」。",
-            "category": "單複數"
+            "word": "naming",
+            "text": "這裡的「naming」是動名詞，作介係詞「to」的賓語。",
+            "category": "其他"
           },
           {
-            "word": "attack",
-            "text": "新聞標題中常用現在簡單式來描述最近發生的事件，即使在中文中我們可能會用過去式。",
+            "word": "outside lawyers",
+            "text": "「outside lawyers」指「外部律師」，即非內部人員的律師。",
+            "category": "其他"
+          },
+          {
+            "word": "to handle",
+            "text": "「to handle」是不定詞，表示目的，即「為了處理」。",
+            "category": "其他"
+          },
+          {
+            "word": "investigation",
+            "text": "在新聞標題中，名詞有時會省略冠詞，例如這裡的「the investigation」。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "US and China discussing reciprocal nuclear site visits amid concerns about a new arms race",
+      "url": "https://edition.cnn.com/2026/10/06/politics/us-and-china-discussing-nuclear-inspections",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "US and China discussing reciprocal nuclear site visits amid concerns about a new arms race",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/politics/us-and-china-discussing-nuclear-inspections",
+        "zh": "美中兩國在對新軍備競賽的擔憂中，討論互訪核設施。",
+        "accepted": [
+          [
+            "US",
+            "and",
+            "China",
+            "discussing",
+            "reciprocal",
+            "nuclear",
+            "site",
+            "visits",
+            "amid",
+            "concerns",
+            "about",
+            "a",
+            "new",
+            "arms",
+            "race"
+          ]
+        ],
+        "distractors": [
+          "discuss",
+          "reciprocally",
+          "nuclears",
+          "sites",
+          "visited",
+          "concern"
+        ],
+        "notes": [
+          {
+            "word": "US and China discussing",
+            "text": "在新聞標題中，常省略be動詞，這裡的「discussing」是現在分詞，表示正在進行的動作，完整的句子應為「US and China are discussing」。",
             "category": "時態"
           },
           {
-            "word": "Houthis",
-            "text": "「Houthis」指「胡塞武裝」，是一個專有名詞的複數形式。",
-            "category": "單複數"
+            "word": "reciprocal",
+            "text": "「reciprocal」意為「相互的、互惠的」。",
+            "category": "其他"
           },
           {
-            "word": "near",
-            "text": "「near」作介係詞，表示「在…附近」。",
+            "word": "site visits",
+            "text": "「site visits」是複合名詞，表示「現場訪問」或「設施訪問」。",
+            "category": "其他"
+          },
+          {
+            "word": "amid",
+            "text": "「amid」是一個介係詞，表示「在…之中」或「在…的背景下」。",
             "category": "介係詞"
           },
           {
-            "word": "key global trade route",
-            "text": "「key」指「關鍵的」，「global trade route」指「全球貿易路線」。",
+            "word": "a new arms race",
+            "text": "「a new arms race」指「一場新的軍備競賽」，「a」是不定冠詞。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Former CIA official accused of stealing $40M in gold bars pleads guilty",
+      "url": "https://edition.cnn.com/2026/10/06/politics/former-cia-official-accused-of-stealing-40-million-gold-bars-pleads-guilty",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Former CIA official accused of stealing $40M in gold bars pleads guilty",
+        "sourceUrl": "https://edition.cnn.com/2026/10/06/politics/former-cia-official-accused-of-stealing-40-million-gold-bars-pleads-guilty",
+        "zh": "前中情局官員被控竊取4000萬美元金條，承認有罪。",
+        "accepted": [
+          [
+            "Former",
+            "CIA",
+            "official",
+            "accused",
+            "of",
+            "stealing",
+            "$40M",
+            "in",
+            "gold",
+            "bars",
+            "pleads",
+            "guilty"
+          ]
+        ],
+        "distractors": [
+          "formally",
+          "officials",
+          "accuses",
+          "stole",
+          "pleaded",
+          "guilt"
+        ],
+        "notes": [
+          {
+            "word": "accused of stealing",
+            "text": "「accused of + 動名詞」表示「被控告做某事」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "$40M",
+            "text": "「$40M」是「40 million US dollars」的縮寫，表示「4000萬美元」。",
             "category": "其他"
+          },
+          {
+            "word": "in gold bars",
+            "text": "「in」在這裡表示「以…形式」或「由…組成」，指金條形式的4000萬美元。",
+            "category": "介係詞"
+          },
+          {
+            "word": "pleads guilty",
+            "text": "「pleads guilty」表示「認罪」，在新聞標題中常用現在式來報導已發生的事件。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Tropical depression forms in the Gulf, forecast to strengthen into first hurricane of Atlantic season",
+      "url": "https://edition.cnn.com/2026/10/05/weather/storm-isaias-hurricane-path-gulf-climate",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Tropical depression forms in the Gulf, forecast to strengthen into first hurricane of Atlantic season",
+        "sourceUrl": "https://edition.cnn.com/2026/10/05/weather/storm-isaias-hurricane-path-gulf-climate",
+        "zh": "熱帶低氣壓在墨西哥灣形成，預計將增強為大西洋季節的第一個颶風。",
+        "accepted": [
+          [
+            "Tropical",
+            "depression",
+            "forms",
+            "in",
+            "the",
+            "Gulf,",
+            "forecast",
+            "to",
+            "strengthen",
+            "into",
+            "first",
+            "hurricane",
+            "of",
+            "Atlantic",
+            "season"
+          ]
+        ],
+        "distractors": [
+          "depressions",
+          "formed",
+          "gulfs",
+          "forecasting",
+          "strengthens",
+          "hurricanes"
+        ],
+        "notes": [
+          {
+            "word": "forms",
+            "text": "在新聞標題中，常用現在式動詞「forms」來描述最近發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "in the Gulf",
+            "text": "「in」表示地點，指「在墨西哥灣」。這裡的「the Gulf」通常特指墨西哥灣。",
+            "category": "介係詞"
+          },
+          {
+            "word": "forecast to strengthen",
+            "text": "在新聞標題中，常省略be動詞，這裡的「forecast」是過去分詞，表示「被預測」，完整的句子應為「(it is) forecast to strengthen」。",
+            "category": "時態"
+          },
+          {
+            "word": "into",
+            "text": "「into」表示轉變的結果，指「轉變為」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "first hurricane",
+            "text": "這裡省略了定冠詞「the」，完整的說法是「the first hurricane」。",
+            "category": "冠詞"
           }
         ]
       }
