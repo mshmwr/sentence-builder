@@ -29,11 +29,15 @@ import {
   recordPracticeDay,
   loadPracticeDays,
   localDateStr,
+  loadDailyGoal,
+  saveDailyGoal,
 } from "./firebase.js";
 
 const LS_KEY = "pinju-gemini-key"; // key storage for logged-out users
 const NOTE_CATS = ["時態", "冠詞", "介係詞", "單複數", "其他"]; // must match generate.js prompt rule 5
-const DAILY_GOAL = 3; // today's-progress target — matches the daily list's initial visible count
+const DEFAULT_DAILY_GOAL = 3; // fallback before the account's own dailyGoal loads (or when logged out)
+const DAILY_GOAL_MIN = 1;
+const DAILY_GOAL_MAX = 10;
 
 const FONT_SCALE_KEY = "pinju-font-scale"; // per-device UI scale, not account data — stays in localStorage
 const FONT_SCALE_STEPS = [0.85, 1, 1.15, 1.3, 1.45];
@@ -107,11 +111,13 @@ function monthGrid(year, month) {
 }
 
 // 0 = no practice, 3 = hit the daily goal — same thresholds as the
-// "今天已拼 X/3 句" line so the calendar and the goal line never disagree
-function heatLevel(count) {
+// "今天已拼 X/N 句" line so the calendar and the goal line never disagree.
+// goal is the account's own dailyGoal (customizable, default 3) — the
+// midpoint threshold scales with it instead of a hardcoded "2".
+function heatLevel(count, goal) {
   if (!count) return 0;
-  if (count >= DAILY_GOAL) return 3;
-  return count >= 2 ? 2 : 1;
+  if (count >= goal) return 3;
+  return count >= Math.max(2, Math.ceil(goal / 2)) ? 2 : 1;
 }
 
 // Feather-style "home" glyph — matches the app's plain-line icon language
@@ -189,6 +195,7 @@ function PracticeCalendar({
   canGoNext,
   selectedDay,
   onSelectDay,
+  dailyGoal,
 }) {
   const year = month.getFullYear();
   const mo = month.getMonth();
@@ -201,7 +208,7 @@ function PracticeCalendar({
       if (!d) continue;
       const count = practiceDays[localDateStr(d)] || 0;
       if (count > 0) practicedDays++;
-      if (count >= DAILY_GOAL) goalDays++;
+      if (count >= dailyGoal) goalDays++;
     }
   }
   return (
@@ -237,7 +244,7 @@ function PracticeCalendar({
                 type="button"
                 key={j}
                 className={
-                  `st-cal-cell st-cal-lvl${heatLevel(count)}` +
+                  `st-cal-cell st-cal-lvl${heatLevel(count, dailyGoal)}` +
                   (key === todayStr ? " st-cal-today" : "") +
                   (key === selectedDay ? " st-cal-selected" : "")
                 }
@@ -303,6 +310,7 @@ export default function App() {
     return new Date(d.getFullYear(), d.getMonth(), 1);
   }); // first-of-month shown on 歷史's calendar
   const [selectedDay, setSelectedDay] = useState(null); // "YYYY-MM-DD" — tapped calendar cell, filters the list below
+  const [dailyGoal, setDailyGoal] = useState(DEFAULT_DAILY_GOAL); // account's own target — editable on the Key screen
   const [fontScale, setFontScale] = useState(readFontScale); // A-/A+ control — independent of login, of the phone's own font-size setting
 
   // applied via `zoom` (not a root font-size) so it scales layout, not just
@@ -401,21 +409,23 @@ export default function App() {
     };
   }, [user]);
 
-  // streak + practiceDays live on the account doc (not derived from the
-  // capped history fetch above) precisely so neither is limited by that
-  // 50-record window
+  // streak + practiceDays + dailyGoal live on the account doc (not derived
+  // from the capped history fetch above) precisely so none of them is
+  // limited by that 50-record window
   useEffect(() => {
     if (!user) {
       setStreakInfo(null);
       setPracticeDays({});
+      setDailyGoal(DEFAULT_DAILY_GOAL);
       return;
     }
     let cancelled = false;
-    Promise.all([loadStreak(user.uid), loadPracticeDays(user.uid)])
-      .then(([s, pd]) => {
+    Promise.all([loadStreak(user.uid), loadPracticeDays(user.uid), loadDailyGoal(user.uid)])
+      .then(([s, pd, goal]) => {
         if (cancelled) return;
         setStreakInfo(s);
         setPracticeDays(pd);
+        setDailyGoal(goal);
       })
       .catch(() => {});
     return () => {
@@ -574,6 +584,12 @@ export default function App() {
     const next = mastered.includes(k) ? mastered.filter((w) => w !== k) : [...mastered, k];
     setMastered(next);
     saveMastered(user.uid, next).catch(() => {}); // save failing must not block the UI
+  };
+
+  const onChangeDailyGoal = (n) => {
+    const clamped = Math.min(DAILY_GOAL_MAX, Math.max(DAILY_GOAL_MIN, n));
+    setDailyGoal(clamped); // optimistic — the stepper shouldn't wait on a round-trip
+    saveDailyGoal(user.uid, clamped).catch(() => {});
   };
 
   const onSubmit = async (e) => {
@@ -897,6 +913,7 @@ export default function App() {
             }
             selectedDay={selectedDay}
             onSelectDay={setSelectedDay}
+            dailyGoal={dailyGoal}
           />
           {history === null ? (
             <div className="st-loading">
@@ -1100,6 +1117,35 @@ export default function App() {
               </button>
             </div>
           </form>
+          {user && (
+            <div className="st-goal-settings">
+              <span className="st-input-label">每日目標（句）</span>
+              <div className="st-goal-stepper">
+                <button
+                  type="button"
+                  className="st-linkbtn st-cal-nav"
+                  onClick={() => onChangeDailyGoal(dailyGoal - 1)}
+                  disabled={dailyGoal <= DAILY_GOAL_MIN}
+                  aria-label="減少每日目標"
+                >
+                  －
+                </button>
+                <span className="st-goal-value">{dailyGoal}</span>
+                <button
+                  type="button"
+                  className="st-linkbtn st-cal-nav"
+                  onClick={() => onChangeDailyGoal(dailyGoal + 1)}
+                  disabled={dailyGoal >= DAILY_GOAL_MAX}
+                  aria-label="增加每日目標"
+                >
+                  ＋
+                </button>
+              </div>
+              <p className="st-keyhelp">
+                達成後「今天已拼」會打勾，「歷史」日曆也會用這個數字當作顏色最深的門檻。
+              </p>
+            </div>
+          )}
         </div>
       </div>
     );
@@ -1120,7 +1166,7 @@ export default function App() {
                 {streakInfo.longestStreak > streakInfo.streak && `（最佳 ${streakInfo.longestStreak}）`}
               </span>
               <span className="st-momentum-item">
-                今天已拼 {todayCount}/{DAILY_GOAL} 句{todayCount >= DAILY_GOAL ? " ✓" : ""}
+                今天已拼 {todayCount}/{dailyGoal} 句{todayCount >= dailyGoal ? " ✓" : ""}
               </span>
             </div>
           )}
