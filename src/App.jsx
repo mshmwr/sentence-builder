@@ -417,6 +417,7 @@ export default function App() {
   const [memoEdit, setMemoEdit] = useState(null); // {id, draft} — one memo edited at a time
   const [memoError, setMemoError] = useState("");
   const [lastHist, setLastHist] = useState(null); // {id, memo} — record just written on completion
+  const [goalCelebration, setGoalCelebration] = useState(false); // true for the one completion that hits today's goal
   const [practiceCounts, setPracticeCounts] = useState({}); // zh -> times practiced, for the "已拼過 ×N" badge on 今日例句
   const [dueReviews, setDueReviews] = useState(null); // null = not loaded; [] once fetched — spaced-repetition queue
   const [topWeakCat, setTopWeakCat] = useState(null); // worst NOTE_CATS category, or null — nudges 今日例句 ordering
@@ -487,6 +488,7 @@ export default function App() {
         setGeminiKey(readLocalKey());
         setKeyLoaded(true);
         setLastHist(null); // doc id belongs to the account that just left —
+        setGoalCelebration(false); // same account-only reset — don't carry a stale banner past logout
         setMemoEdit(null); // a stale one would write memos into the next account
         setMode((m) => (m === "history" || m === "notes" ? "input" : m)); // both are account-only
       }
@@ -741,6 +743,7 @@ export default function App() {
       setShake(false);
       setNudge("");
       setLastHist(null);
+      setGoalCelebration(false);
       setMemoEdit(null);
       setFromHistory(false);
       setMode("playing");
@@ -756,6 +759,7 @@ export default function App() {
     setShake(false);
     setNudge("");
     setLastHist(null);
+    setGoalCelebration(false);
     setMemoEdit(null);
     setFromHistory(false);
     setMode("playing");
@@ -800,6 +804,7 @@ export default function App() {
     setNudge("");
     setGenError("");
     setLastHist(null);
+    setGoalCelebration(false);
     setMemoEdit(null);
     setFromHistory(true);
     setMode("playing");
@@ -812,6 +817,7 @@ export default function App() {
     setNudge("");
     setGenError("");
     setLastHist(null);
+    setGoalCelebration(false);
     setMemoEdit(null);
     setFromHistory(false);
   };
@@ -863,6 +869,7 @@ export default function App() {
           .catch(() => {}); // history write failing must not block the game
         setPracticeCounts((c) => ({ ...c, [puzzle.zh]: (c[puzzle.zh] || 0) + 1 }));
         setTodayCount((c) => c + 1);
+        if (todayCount + 1 === dailyGoal) setGoalCelebration(true); // exactly the completion that crosses the line — not every one after
         recordPracticeDay(user.uid)
           .then(({ streak, longestStreak, today, todayCount }) => {
             setStreakInfo({ streak, longestStreak });
@@ -1649,6 +1656,14 @@ export default function App() {
 
         {correct && (
           <div className="st-result">
+            {goalCelebration && (
+              <div className="st-goal-celebration">
+                <span className="st-goal-celebration-stars" aria-hidden="true">★ ★ ★</span>
+                <p className="st-goal-celebration-text">
+                  今天的目標達成了！已經拼滿 {dailyGoal} 句
+                </p>
+              </div>
+            )}
             <div className="st-stars">
               {[0, 1, 2].map((s) => (
                 <span key={s} className={"star" + (s < stars(game) ? " fill" : "")}>
