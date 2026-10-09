@@ -1,27 +1,23 @@
 {
-  "date": "2026-10-08",
-  "fetchedAt": "2026-10-08T00:06:01.411Z",
+  "date": "2026-10-09",
+  "fetchedAt": "2026-10-09T00:13:37.150Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "CNN Exclusive Nicolás Maduro and his wife expected to face new charges over alleged torture of Americans",
+      "en": "Nicolás Maduro and his wife face new charges over alleged torture of Americans",
       "url": "https://edition.cnn.com/2026/10/07/politics/maduro-face-new-torture-charges",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN Exclusive Nicolás Maduro and his wife expected to face new charges over alleged torture of Americans",
+        "sourceEn": "Nicolás Maduro and his wife face new charges over alleged torture of Americans",
         "sourceUrl": "https://edition.cnn.com/2026/10/07/politics/maduro-face-new-torture-charges",
-        "zh": "CNN獨家報導：尼古拉斯·馬杜羅及其妻子預計將因涉嫌對美國人施以酷刑而面臨新指控。",
+        "zh": "尼古拉斯·馬杜羅和他的妻子因涉嫌對美國人施加酷刑而面臨新指控。",
         "accepted": [
           [
-            "CNN",
-            "Exclusive",
             "Nicolás",
             "Maduro",
             "and",
             "his",
             "wife",
-            "expected",
-            "to",
             "face",
             "new",
             "charges",
@@ -33,702 +29,659 @@
           ]
         ],
         "distractors": [
+          "facing",
+          "charge",
+          "torturing",
+          "American",
           "accused",
-          "trial",
-          "guilty",
-          "innocent",
-          "victims",
-          "crimes"
+          "against"
         ],
         "notes": [
           {
-            "word": "expected",
-            "text": "「expected to do something」表示預計或預期某事會發生。",
+            "word": "face",
+            "text": "動詞「face」在這裡表示「面臨、面對」，常用於描述面對困難、挑戰或指控。",
             "category": "其他"
           },
           {
             "word": "charges",
-            "text": "「charges」在這裡指控訴或罪名，常用於法律語境。",
-            "category": "其他"
+            "text": "「charges」是名詞，意為「指控、控告」，通常以複數形式出現，表示多項指控。",
+            "category": "單複數"
+          },
+          {
+            "word": "over",
+            "text": "介係詞「over」在這裡表示「關於、由於」，說明指控的內容或原因。",
+            "category": "介係詞"
           },
           {
             "word": "alleged",
-            "text": "「alleged」表示「被指控的」或「據稱的」，強調尚未證實。",
-            "category": "其他"
-          },
-          {
-            "word": "torture",
-            "text": "「torture」是酷刑的意思，在這裡是名詞。",
+            "text": "「alleged」是形容詞，意為「涉嫌的、據稱的」，用來修飾名詞「torture」，表示酷刑尚未被證實。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Trump floats firing top political advisers after report they helped a pro-Russian government",
-      "url": "https://edition.cnn.com/2026/10/07/politics/trump-fire-james-blair-chris-lacivita",
+      "en": "Two states Trump carried by double digits are now in play for the Democrats, CNN polls show",
+      "url": "https://edition.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump floats firing top political advisers after report they helped a pro-Russian government",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/politics/trump-fire-james-blair-chris-lacivita",
-        "zh": "川普在有報導稱其政治顧問幫助親俄政府後，考慮解僱他們。",
+        "sourceEn": "Two states Trump carried by double digits are now in play for the Democrats, CNN polls show",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms",
+        "zh": "CNN民意調查顯示，川普曾以兩位數優勢贏得的兩個州現在對民主黨來說勝負難料。",
         "accepted": [
           [
+            "Two",
+            "states",
             "Trump",
-            "floats",
-            "firing",
-            "top",
-            "political",
-            "advisers",
-            "after",
-            "report",
-            "they",
-            "helped",
-            "a",
-            "pro-Russian",
-            "government"
-          ]
-        ],
-        "distractors": [
-          "suggests",
-          "dismissing",
-          "senior",
-          "officials",
-          "supported",
-          "regime"
-        ],
-        "notes": [
-          {
-            "word": "floats",
-            "text": "「float an idea」或「float a proposal」表示提出一個想法或建議，供人討論。",
-            "category": "其他"
-          },
-          {
-            "word": "firing",
-            "text": "「firing」是動詞fire的現在分詞，在這裡作名詞使用，表示解僱的行為。",
-            "category": "其他"
-          },
-          {
-            "word": "advisers",
-            "text": "「advisers」是顧問的意思，通常指提供專業意見的人。",
-            "category": "單複數"
-          },
-          {
-            "word": "pro-Russian",
-            "text": "「pro-Russian」是一個複合形容詞，表示「親俄羅斯的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump returns to Texas for Senate nominee he can't help but insult",
-      "url": "https://edition.cnn.com/2026/10/07/politics/trump-texas-ken-paxton",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump returns to Texas for Senate nominee he can't help but insult",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/politics/trump-texas-ken-paxton",
-        "zh": "川普返回德州，為一位他忍不住要侮辱的參議院候選人助選。",
-        "accepted": [
-          [
-            "Trump",
-            "returns",
-            "to",
-            "Texas",
+            "carried",
+            "by",
+            "double",
+            "digits",
+            "are",
+            "now",
+            "in",
+            "play",
             "for",
-            "Senate",
-            "nominee",
-            "he",
-            "can't",
-            "help",
-            "but",
-            "insult"
+            "the",
+            "Democrats",
+            ",",
+            "CNN",
+            "polls",
+            "show"
           ]
         ],
         "distractors": [
-          "goes",
-          "back",
-          "in",
-          "candidate",
-          "must",
-          "praise"
+          "state",
+          "carry",
+          "digit",
+          "playing",
+          "showed",
+          "Democrat"
         ],
         "notes": [
           {
-            "word": "returns",
-            "text": "「returns to」表示返回某地。",
+            "word": "carried",
+            "text": "動詞「carry」在這裡的意思是「贏得（選舉）」，常用於政治報導中。",
+            "category": "其他"
+          },
+          {
+            "word": "by",
+            "text": "介係詞「by」在這裡表示「以…的幅度/程度」，說明川普贏得的優勢。",
+            "category": "介係詞"
+          },
+          {
+            "word": "in play",
+            "text": "片語「in play」在這裡的意思是「勝負難料、仍有機會」，常用於體育或政治語境中。",
+            "category": "其他"
+          },
+          {
+            "word": "polls",
+            "text": "「polls」是名詞，意為「民意調查」，常用複數形式。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Jane Doe is getting death threats as pressure builds from Cornell sexual assault investigation",
+      "url": "https://edition.cnn.com/2026/10/07/us/cornell-lawsuit-student-protests-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Jane Doe is getting death threats as pressure builds from Cornell sexual assault investigation",
+        "sourceUrl": "https://edition.cnn.com/2026/10/07/us/cornell-lawsuit-student-protests-hnk",
+        "zh": "隨著康奈爾大學性侵調查的壓力越來越大，珍·多伊正受到死亡威脅。",
+        "accepted": [
+          [
+            "Jane",
+            "Doe",
+            "is",
+            "getting",
+            "death",
+            "threats",
+            "as",
+            "pressure",
+            "builds",
+            "from",
+            "Cornell",
+            "sexual",
+            "assault",
+            "investigation"
+          ]
+        ],
+        "distractors": [
+          "get",
+          "threat",
+          "build",
+          "investigate",
+          "assaulting",
+          "sexuals"
+        ],
+        "notes": [
+          {
+            "word": "is getting",
+            "text": "「is getting」是現在進行式，表示死亡威脅正在發生或持續中。",
             "category": "時態"
           },
           {
-            "word": "nominee",
-            "text": "「nominee」是指被提名的人，在這裡指參議院候選人。",
+            "word": "threats",
+            "text": "「threats」是名詞「threat」（威脅）的複數形式，表示多個威脅。",
+            "category": "單複數"
+          },
+          {
+            "word": "as",
+            "text": "連詞「as」在這裡表示「隨著、當…的時候」，說明兩個動作同時發生。",
             "category": "其他"
           },
           {
-            "word": "can't help but",
-            "text": "「can't help but do something」表示「忍不住做某事」或「情不自禁地做某事」。",
-            "category": "其他"
-          },
-          {
-            "word": "insult",
-            "text": "「insult」是侮辱的意思，在這裡是動詞。",
+            "word": "builds",
+            "text": "動詞「builds」在這裡表示「增加、增強」，常用於描述壓力、緊張等情緒的累積。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "‘The list of his failures goes on’: El-Sayed’s Obama criticism resurfaced ahead of campaign rally",
-      "url": "https://edition.cnn.com/2026/10/07/politics/abdul-el-sayed-obama-criticism-kfile",
+      "en": "Residents of Russian cities at center of plague scare 'don't trust' officials",
+      "url": "https://edition.cnn.com/2026/10/08/europe/inside-russian-plague-scare-town-siberia-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "‘The list of his failures goes on’: El-Sayed’s Obama criticism resurfaced ahead of campaign rally",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/politics/abdul-el-sayed-obama-criticism-kfile",
-        "zh": "「他的失敗清單不斷增加」：艾爾-賽義德對歐巴馬的批評在競選集會前再次浮現。",
+        "sourceEn": "Residents of Russian cities at center of plague scare 'don't trust' officials",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/europe/inside-russian-plague-scare-town-siberia-intl",
+        "zh": "處於鼠疫恐慌中心的俄羅斯城市居民「不信任」官員。",
         "accepted": [
           [
-            "‘The",
-            "list",
+            "Residents",
             "of",
-            "his",
-            "failures",
-            "goes",
-            "on’:",
-            "El-Sayed’s",
-            "Obama",
-            "criticism",
-            "resurfaced",
-            "ahead",
+            "Russian",
+            "cities",
+            "at",
+            "center",
             "of",
-            "campaign",
-            "rally"
+            "plague",
+            "scare",
+            "'don't",
+            "trust'",
+            "officials"
           ]
         ],
         "distractors": [
-          "successes",
-          "ends",
-          "praise",
-          "emerged",
-          "after",
-          "meeting"
+          "resident",
+          "city",
+          "centres",
+          "scares",
+          "trusted",
+          "official"
         ],
         "notes": [
           {
-            "word": "goes on",
-            "text": "「goes on」表示繼續或持續，在這裡指失敗的清單不斷增加。",
-            "category": "其他"
-          },
-          {
-            "word": "failures",
-            "text": "「failures」是失敗的意思，在這裡是名詞複數。",
+            "word": "Residents",
+            "text": "「Residents」是名詞「resident」（居民）的複數形式，指多位居民。",
             "category": "單複數"
           },
           {
-            "word": "criticism",
-            "text": "「criticism」是批評的意思，在這裡是名詞。",
+            "word": "at center of",
+            "text": "片語「at center of」表示「處於…的中心」，說明這些城市是鼠疫恐慌的焦點。",
+            "category": "介係詞"
+          },
+          {
+            "word": "scare",
+            "text": "「scare」在這裡是名詞，意為「恐慌、驚嚇」，常與特定事件連用，如「plague scare」（鼠疫恐慌）。",
             "category": "其他"
           },
           {
-            "word": "resurfaced",
-            "text": "「resurfaced」是動詞resurface的過去式，表示再次浮現或重新出現。",
+            "word": "don't trust",
+            "text": "「don't trust」是動詞片語，表示「不信任」，是現在簡單式的否定形式。",
             "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How deadly is pneumonic plague? The disease explained by the numbers",
+      "url": "https://edition.cnn.com/2026/10/08/health/pneumonic-plague-russia",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How deadly is pneumonic plague? The disease explained by the numbers",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/health/pneumonic-plague-russia",
+        "zh": "肺鼠疫有多致命？這種疾病的數字解釋。",
+        "accepted": [
+          [
+            "How",
+            "deadly",
+            "is",
+            "pneumonic",
+            "plague",
+            "?",
+            "The",
+            "disease",
+            "explained",
+            "by",
+            "the",
+            "numbers"
+          ]
+        ],
+        "distractors": [
+          "death",
+          "dead",
+          "explains",
+          "number",
+          "diseases",
+          "plagues"
+        ],
+        "notes": [
+          {
+            "word": "deadly",
+            "text": "「deadly」是形容詞，意為「致命的」，用於詢問疾病的嚴重程度。",
+            "category": "其他"
           },
           {
-            "word": "ahead of",
-            "text": "「ahead of」表示在…之前。",
+            "word": "pneumonic plague",
+            "text": "「pneumonic plague」是醫學術語，指「肺鼠疫」。",
+            "category": "其他"
+          },
+          {
+            "word": "explained",
+            "text": "「explained」是過去分詞，在這裡作為形容詞修飾「disease」，表示「被解釋的」。",
+            "category": "其他"
+          },
+          {
+            "word": "by the numbers",
+            "text": "片語「by the numbers」表示「根據數據、用數字說明」，常用於科學或統計分析。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Satellite imagery of Tropical Storm Isaias swirling and slowly strengthening in the Gulf. CIRA/CSU & NOAA",
-      "url": "https://edition.cnn.com/2026/10/06/weather/tropical-storm-isaias-hurricane-track-gulf-climate",
+      "en": "Why the National Hurricane Center bet big on AI to forecast Isaias",
+      "url": "https://edition.cnn.com/2026/10/08/weather/hurricane-isaias-ai-models-google",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Satellite imagery of Tropical Storm Isaias swirling and slowly strengthening in the Gulf. CIRA/CSU & NOAA",
-        "sourceUrl": "https://edition.cnn.com/2026/10/06/weather/tropical-storm-isaias-hurricane-track-gulf-climate",
-        "zh": "熱帶風暴伊薩亞斯在墨西哥灣盤旋並緩慢增強的衛星圖像。CIRA/CSU & NOAA",
+        "sourceEn": "Why the National Hurricane Center bet big on AI to forecast Isaias",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/weather/hurricane-isaias-ai-models-google",
+        "zh": "國家颶風中心為何在預測伊薩亞斯颶風時，大膽押注人工智慧？",
         "accepted": [
           [
-            "Satellite",
-            "imagery",
-            "of",
-            "Tropical",
-            "Storm",
-            "Isaias",
-            "swirling",
-            "and",
-            "slowly",
-            "strengthening",
-            "in",
+            "Why",
             "the",
-            "Gulf.",
-            "CIRA/CSU",
-            "&",
-            "NOAA"
+            "National",
+            "Hurricane",
+            "Center",
+            "bet",
+            "big",
+            "on",
+            "AI",
+            "to",
+            "forecast",
+            "Isaias"
           ]
         ],
         "distractors": [
-          "photos",
-          "from",
-          "Hurricane",
-          "moving",
-          "weakening",
-          "over"
+          "betting",
+          "forecasted",
+          "forecasting",
+          "bigly",
+          "Center's",
+          "AIs"
         ],
         "notes": [
           {
-            "word": "imagery",
-            "text": "「imagery」是圖像或影像的意思，通常指一系列的圖像。",
+            "word": "bet",
+            "text": "動詞「bet」在這裡是過去式，表示「下注、押寶」，常用於形容冒險或大膽的決定。",
+            "category": "時態"
+          },
+          {
+            "word": "big",
+            "text": "「big」在這裡是副詞，修飾動詞「bet」，表示「大膽地、大量地」。",
             "category": "其他"
           },
           {
-            "word": "swirling",
-            "text": "「swirling」是動詞swirl的現在分詞，表示盤旋或旋轉。",
+            "word": "on",
+            "text": "介係詞「on」在這裡表示「在…方面、依賴…」，說明押注的對象是AI。",
+            "category": "介係詞"
+          },
+          {
+            "word": "to forecast",
+            "text": "「to forecast」是不定詞片語，表示目的，即「為了預測」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Anne Carson, the genre-bending Canadian writer, wins Nobel Prize in literature",
+      "url": "https://edition.cnn.com/2026/10/08/style/nobel-prize-literature-anne-carson-winner-2026-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Anne Carson, the genre-bending Canadian writer, wins Nobel Prize in literature",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/style/nobel-prize-literature-anne-carson-winner-2026-intl",
+        "zh": "安妮·卡森，這位跨越流派的加拿大作家，榮獲諾貝爾文學獎。",
+        "accepted": [
+          [
+            "Anne",
+            "Carson",
+            ",",
+            "the",
+            "genre-bending",
+            "Canadian",
+            "writer",
+            ",",
+            "wins",
+            "Nobel",
+            "Prize",
+            "in",
+            "literature"
+          ]
+        ],
+        "distractors": [
+          "win",
+          "winning",
+          "write",
+          "prizes",
+          "literatures",
+          "Canadian's"
+        ],
+        "notes": [
+          {
+            "word": "genre-bending",
+            "text": "「genre-bending」是複合形容詞，意為「跨越流派的、打破常規的」，用來形容作家的創作風格。",
+            "category": "其他"
+          },
+          {
+            "word": "writer",
+            "text": "「writer」是名詞，意為「作家」，與「Canadian」一起修飾人名。",
+            "category": "其他"
+          },
+          {
+            "word": "wins",
+            "text": "「wins」是動詞「win」的第三人稱單數現在式，表示獲獎是既定事實或新聞報導的語氣。",
             "category": "時態"
           },
           {
-            "word": "strengthening",
-            "text": "「strengthening」是動詞strengthen的現在分詞，表示增強。",
-            "category": "時態"
+            "word": "in literature",
+            "text": "片語「in literature」表示「在文學領域」，說明諾貝爾獎的類別。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The country at the epicenter of ‘90s cool",
+      "url": "https://edition.cnn.com/2026/10/08/style/90s-obsession-tate-art-fashion",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The country at the epicenter of ‘90s cool",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/style/90s-obsession-tate-art-fashion",
+        "zh": "這個國家是90年代酷文化的中心。",
+        "accepted": [
+          [
+            "The",
+            "country",
+            "at",
+            "the",
+            "epicenter",
+            "of",
+            "‘90s",
+            "cool"
+          ]
+        ],
+        "distractors": [
+          "countries",
+          "epicentre",
+          "cools",
+          "coolest",
+          "90s'",
+          "theirs"
+        ],
+        "notes": [
+          {
+            "word": "at the epicenter of",
+            "text": "片語「at the epicenter of」表示「處於…的中心/震源」，常用於形容某地是某種現象或趨勢的發源地。",
+            "category": "介係詞"
           },
           {
-            "word": "the Gulf",
-            "text": "「the Gulf」在這裡特指墨西哥灣（the Gulf of Mexico）。",
+            "word": "‘90s",
+            "text": "「‘90s」是「1990年代」的縮寫形式，通常用撇號表示省略世紀。",
+            "category": "其他"
+          },
+          {
+            "word": "cool",
+            "text": "「cool」在這裡是名詞，意為「酷文化、時尚」，指90年代流行的風格或態度。",
+            "category": "其他"
+          },
+          {
+            "word": "The",
+            "text": "定冠詞「The」用於特指這個國家，表示讀者或聽者知道是哪個國家。",
             "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Impossible decisions and nowhere to go: this major city is on the verge of running out of water",
-      "url": "https://edition.cnn.com/2026/10/06/climate/water-crisis-city-day-zero-kabul-afghanistan",
+      "en": "The ‘glass skin’ Korean beauty trend has risks, experts warn",
+      "url": "https://edition.cnn.com/2026/10/08/health/glass-skin-tiktok-damage-warning-dermatologists-wellness",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Impossible decisions and nowhere to go: this major city is on the verge of running out of water",
-        "sourceUrl": "https://edition.cnn.com/2026/10/06/climate/water-crisis-city-day-zero-kabul-afghanistan",
-        "zh": "不可能的決定，無處可去：這個主要城市即將耗盡水源。",
+        "sourceEn": "The ‘glass skin’ Korean beauty trend has risks, experts warn",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/health/glass-skin-tiktok-damage-warning-dermatologists-wellness",
+        "zh": "專家警告，「玻璃肌」韓國美容趨勢存在風險。",
         "accepted": [
           [
-            "Impossible",
-            "decisions",
-            "and",
-            "nowhere",
-            "to",
-            "go:",
-            "this",
-            "major",
-            "city",
-            "is",
-            "on",
-            "the",
-            "verge",
-            "of",
-            "running",
-            "out",
-            "of",
-            "water"
-          ]
-        ],
-        "distractors": [
-          "difficult",
-          "choices",
-          "somewhere",
-          "minor",
-          "town",
-          "plenty"
-        ],
-        "notes": [
-          {
-            "word": "decisions",
-            "text": "「decisions」是決定的意思，在這裡是名詞複數。",
-            "category": "單複數"
-          },
-          {
-            "word": "nowhere to go",
-            "text": "「nowhere to go」表示無處可去。",
-            "category": "其他"
-          },
-          {
-            "word": "on the verge of",
-            "text": "「on the verge of doing something」表示「即將做某事」或「瀕臨…的邊緣」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "running out of",
-            "text": "「run out of something」表示耗盡某物。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Ancient Egyptians sacrificed servants when kings died, forensic tests show",
-      "url": "https://edition.cnn.com/2026/10/07/science/ancient-egypt-human-sacrifice-scli-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Ancient Egyptians sacrificed servants when kings died, forensic tests show",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/science/ancient-egypt-human-sacrifice-scli-intl",
-        "zh": "法醫測試顯示，古埃及人在國王去世時會犧牲僕人。",
-        "accepted": [
-          [
-            "Ancient",
-            "Egyptians",
-            "sacrificed",
-            "servants",
-            "when",
-            "kings",
-            "died,",
-            "forensic",
-            "tests",
-            "show"
-          ]
-        ],
-        "distractors": [
-          "Modern",
-          "Pharaohs",
-          "buried",
-          "slaves",
-          "before",
-          "living"
-        ],
-        "notes": [
-          {
-            "word": "Ancient",
-            "text": "「Ancient」是古老的、古代的意思，常用於描述歷史時期。",
-            "category": "其他"
-          },
-          {
-            "word": "sacrificed",
-            "text": "「sacrificed」是動詞sacrifice的過去式，表示犧牲。",
-            "category": "時態"
-          },
-          {
-            "word": "servants",
-            "text": "「servants」是僕人的意思，在這裡是名詞複數。",
-            "category": "單複數"
-          },
-          {
-            "word": "forensic",
-            "text": "「forensic」是法醫的、鑑識的意思，常用於法律或科學調查。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘King of Injustice’: Golden naked Trump statue installed at European Parliament",
-      "url": "https://edition.cnn.com/2026/10/07/style/golden-naked-trump-statue-european-parliament",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘King of Injustice’: Golden naked Trump statue installed at European Parliament",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/style/golden-naked-trump-statue-european-parliament",
-        "zh": "「不公之王」：川普的金色裸體雕像在歐洲議會安裝。",
-        "accepted": [
-          [
-            "‘King",
-            "of",
-            "Injustice’:",
-            "Golden",
-            "naked",
-            "Trump",
-            "statue",
-            "installed",
-            "at",
-            "European",
-            "Parliament"
-          ]
-        ],
-        "distractors": [
-          "Justice",
-          "Silver",
-          "clothed",
-          "figure",
-          "removed",
-          "in"
-        ],
-        "notes": [
-          {
-            "word": "Injustice",
-            "text": "「Injustice」是不公、不義的意思，在這裡是名詞。",
-            "category": "其他"
-          },
-          {
-            "word": "naked",
-            "text": "「naked」是裸體的、赤裸的意思，在這裡是形容詞。",
-            "category": "其他"
-          },
-          {
-            "word": "statue",
-            "text": "「statue」是雕像、塑像的意思。",
-            "category": "其他"
-          },
-          {
-            "word": "installed",
-            "text": "「installed」是動詞install的過去式，表示安裝、設置。",
-            "category": "時態"
-          },
-          {
-            "word": "at",
-            "text": "「at」在這裡表示在某個地點，通常指特定的建築物或場所。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Henri Kagan and Kenso Soai win Nobel Prize in chemistry for solving ‘mirror image’ mystery",
-      "url": "https://edition.cnn.com/2026/10/07/science/nobel-prize-chemistry-2026-henri-kagan-kenso-soai-winner-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Henri Kagan and Kenso Soai win Nobel Prize in chemistry for solving ‘mirror image’ mystery",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/science/nobel-prize-chemistry-2026-henri-kagan-kenso-soai-winner-intl",
-        "zh": "亨利·卡根和曾根宗一因解決「鏡像」之謎而獲得諾貝爾化學獎。",
-        "accepted": [
-          [
-            "Henri",
-            "Kagan",
-            "and",
-            "Kenso",
-            "Soai",
-            "win",
-            "Nobel",
-            "Prize",
-            "in",
-            "chemistry",
-            "for",
-            "solving",
-            "‘mirror",
-            "image’",
-            "mystery"
-          ]
-        ],
-        "distractors": [
-          "lost",
-          "award",
-          "physics",
-          "creating",
-          "reflection",
-          "puzzle"
-        ],
-        "notes": [
-          {
-            "word": "win",
-            "text": "「win」是贏得的意思，在這裡是動詞，表示獲得獎項。",
-            "category": "時態"
-          },
-          {
-            "word": "Nobel Prize",
-            "text": "「Nobel Prize」是諾貝爾獎，專有名詞。",
-            "category": "其他"
-          },
-          {
-            "word": "chemistry",
-            "text": "「chemistry」是化學的意思，在這裡指化學領域。",
-            "category": "其他"
-          },
-          {
-            "word": "solving",
-            "text": "「solving」是動詞solve的現在分詞，在這裡作介係詞for的受詞，表示解決問題。",
-            "category": "時態"
-          },
-          {
-            "word": "mirror image",
-            "text": "「mirror image」是鏡像的意思，指物體在鏡子中的影像。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Evicted 87-year-old who became a symbol of Spain’s housing crisis has died",
-      "url": "https://edition.cnn.com/2026/10/07/europe/maricarmen-spain-eviction-crisis-dies-intl-latam",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Evicted 87-year-old who became a symbol of Spain’s housing crisis has died",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/europe/maricarmen-spain-eviction-crisis-dies-intl-latam",
-        "zh": "這位87歲被驅逐的老人，成為西班牙住房危機的象徵，已經去世。",
-        "accepted": [
-          [
-            "Evicted",
-            "87-year-old",
-            "who",
-            "became",
-            "a",
-            "symbol",
-            "of",
-            "Spain’s",
-            "housing",
-            "crisis",
+            "The",
+            "‘glass",
+            "skin’",
+            "Korean",
+            "beauty",
+            "trend",
             "has",
-            "died"
+            "risks",
+            ",",
+            "experts",
+            "warn"
           ]
         ],
         "distractors": [
-          "Housed",
-          "young",
-          "remained",
-          "example",
-          "Germany's",
-          "living"
+          "skin",
+          "trends",
+          "risk",
+          "expert",
+          "warns",
+          "beautiful"
         ],
         "notes": [
           {
-            "word": "Evicted",
-            "text": "「Evicted」是動詞evict的過去分詞，在這裡作形容詞，表示「被驅逐的」。",
+            "word": "‘glass skin’",
+            "text": "「‘glass skin’」是一個專有名詞，指韓國美容中追求的「玻璃肌」效果。",
             "category": "其他"
           },
           {
-            "word": "87-year-old",
-            "text": "「87-year-old」是一個複合形容詞，表示「87歲的」。",
+            "word": "trend",
+            "text": "「trend」是名詞，意為「趨勢、潮流」，指一種流行的美容方式。",
             "category": "其他"
           },
           {
-            "word": "became",
-            "text": "「became」是動詞become的過去式，表示成為。",
+            "word": "has",
+            "text": "動詞「has」在這裡表示「擁有、存在」，說明這種趨勢帶有風險。",
             "category": "時態"
           },
           {
-            "word": "symbol",
-            "text": "「symbol」是象徵、標誌的意思。",
-            "category": "其他"
-          },
-          {
-            "word": "has died",
-            "text": "「has died」是現在完成式，表示死亡的動作已經發生並對現在產生影響。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Deadly attacks by Iran-backed Houthis on Saudi airports highlight widening fallout from Yemen conflict",
-      "url": "https://edition.cnn.com/2026/10/07/middleeast/houthis-attack-saudi-airports-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Deadly attacks by Iran-backed Houthis on Saudi airports highlight widening fallout from Yemen conflict",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/middleeast/houthis-attack-saudi-airports-latam-intl",
-        "zh": "伊朗支持的胡塞武裝對沙特機場的致命襲擊，凸顯了葉門衝突日益擴大的影響。",
-        "accepted": [
-          [
-            "Deadly",
-            "attacks",
-            "by",
-            "Iran-backed",
-            "Houthis",
-            "on",
-            "Saudi",
-            "airports",
-            "highlight",
-            "widening",
-            "fallout",
-            "from",
-            "Yemen",
-            "conflict"
-          ]
-        ],
-        "distractors": [
-          "Harmless",
-          "defenses",
-          "against",
-          "US-backed",
-          "rebels",
-          "at"
-        ],
-        "notes": [
-          {
-            "word": "Deadly",
-            "text": "「Deadly」是致命的、危險的意思，在這裡是形容詞。",
-            "category": "其他"
-          },
-          {
-            "word": "Iran-backed",
-            "text": "「Iran-backed」是一個複合形容詞，表示「伊朗支持的」。",
-            "category": "其他"
-          },
-          {
-            "word": "highlight",
-            "text": "「highlight」是強調、凸顯的意思，在這裡是動詞。",
-            "category": "其他"
-          },
-          {
-            "word": "widening",
-            "text": "「widening」是動詞widen的現在分詞，在這裡作形容詞，表示「日益擴大的」。",
-            "category": "時態"
-          },
-          {
-            "word": "fallout",
-            "text": "「fallout」是餘波、影響的意思，通常指負面影響。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Federal prosecutors in Minnesota charge man with terrorism after they say he planned to target the Mall of America",
-      "url": "https://edition.cnn.com/2026/10/07/us/minnesota-terrorism-arrest-mall-of-america",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Federal prosecutors in Minnesota charge man with terrorism after they say he planned to target the Mall of America",
-        "sourceUrl": "https://edition.cnn.com/2026/10/07/us/minnesota-terrorism-arrest-mall-of-america",
-        "zh": "明尼蘇達州的聯邦檢察官指控一名男子犯有恐怖主義罪，稱他計劃襲擊美國購物中心。",
-        "accepted": [
-          [
-            "Federal",
-            "prosecutors",
-            "in",
-            "Minnesota",
-            "charge",
-            "man",
-            "with",
-            "terrorism",
-            "after",
-            "they",
-            "say",
-            "he",
-            "planned",
-            "to",
-            "target",
-            "the",
-            "Mall",
-            "of",
-            "America"
-          ]
-        ],
-        "distractors": [
-          "State",
-          "lawyers",
-          "from",
-          "accuse",
-          "woman",
-          "for"
-        ],
-        "notes": [
-          {
-            "word": "prosecutors",
-            "text": "「prosecutors」是檢察官的意思，在這裡是名詞複數。",
+            "word": "risks",
+            "text": "「risks」是名詞「risk」（風險）的複數形式，表示存在多種風險。",
             "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Person shot during encounter with ICE agents in New York City, source says",
+      "url": "https://edition.cnn.com/2026/10/08/us/nyc-ice-shooting",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Person shot during encounter with ICE agents in New York City, source says",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/us/nyc-ice-shooting",
+        "zh": "消息人士稱，在紐約市與ICE探員的衝突中，一人中槍。",
+        "accepted": [
+          [
+            "Person",
+            "shot",
+            "during",
+            "encounter",
+            "with",
+            "ICE",
+            "agents",
+            "in",
+            "New",
+            "York",
+            "City",
+            ",",
+            "source",
+            "says"
+          ]
+        ],
+        "distractors": [
+          "shooting",
+          "shots",
+          "encountered",
+          "agent",
+          "sources",
+          "saying"
+        ],
+        "notes": [
+          {
+            "word": "Person",
+            "text": "「Person」在這裡指「一個人」，通常用於新聞標題中省略冠詞，表示不特定的人。",
+            "category": "冠詞"
           },
           {
-            "word": "charge with",
-            "text": "「charge someone with something」表示指控某人犯有某罪。",
+            "word": "shot",
+            "text": "「shot」是動詞「shoot」（射擊、中槍）的過去分詞，在這裡作形容詞，表示「中槍的」。",
+            "category": "時態"
+          },
+          {
+            "word": "during",
+            "text": "介係詞「during」表示「在…期間」，說明中槍事件發生的時間點。",
             "category": "介係詞"
           },
           {
-            "word": "terrorism",
-            "text": "「terrorism」是恐怖主義的意思，在這裡是名詞。",
+            "word": "encounter",
+            "text": "「encounter」是名詞，意為「衝突、遭遇」，指與ICE探員的對峙。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Two men arrested after breaking into UK airbase used by US, counterterrorism police say",
+      "url": "https://edition.cnn.com/2026/10/08/uk/two-arrested-uk-airbase-molesworth-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Two men arrested after breaking into UK airbase used by US, counterterrorism police say",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/uk/two-arrested-uk-airbase-molesworth-latam-intl",
+        "zh": "反恐警察稱，兩名男子在闖入美國使用的英國空軍基地後被捕。",
+        "accepted": [
+          [
+            "Two",
+            "men",
+            "arrested",
+            "after",
+            "breaking",
+            "into",
+            "UK",
+            "airbase",
+            "used",
+            "by",
+            "US",
+            ",",
+            "counterterrorism",
+            "police",
+            "say"
+          ]
+        ],
+        "distractors": [
+          "man",
+          "arrest",
+          "break",
+          "use",
+          "polices",
+          "said"
+        ],
+        "notes": [
+          {
+            "word": "men",
+            "text": "「men」是名詞「man」（男人）的複數形式，指兩名男子。",
+            "category": "單複數"
+          },
+          {
+            "word": "arrested",
+            "text": "「arrested」是動詞「arrest」（逮捕）的過去分詞，在這裡作形容詞，表示「被捕的」。",
             "category": "其他"
           },
           {
-            "word": "planned to",
-            "text": "「planned to do something」表示計劃做某事。",
+            "word": "breaking into",
+            "text": "片語「breaking into」表示「闖入」，指非法進入某地。",
+            "category": "介係詞"
+          },
+          {
+            "word": "used by",
+            "text": "「used by」是被動語態的簡化形式，表示「被…使用」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Iranian operatives used AI to plant fake stories in multiple US media outlets",
+      "url": "https://edition.cnn.com/2026/10/08/politics/iranian-operatives-used-ai-to-plant-fake-stories-in-us-media",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Iranian operatives used AI to plant fake stories in multiple US media outlets",
+        "sourceUrl": "https://edition.cnn.com/2026/10/08/politics/iranian-operatives-used-ai-to-plant-fake-stories-in-us-media",
+        "zh": "伊朗特工利用人工智慧在多家美國媒體上植入虛假報導。",
+        "accepted": [
+          [
+            "Iranian",
+            "operatives",
+            "used",
+            "AI",
+            "to",
+            "plant",
+            "fake",
+            "stories",
+            "in",
+            "multiple",
+            "US",
+            "media",
+            "outlets"
+          ]
+        ],
+        "distractors": [
+          "operative",
+          "using",
+          "plants",
+          "story",
+          "medias",
+          "outlet"
+        ],
+        "notes": [
+          {
+            "word": "operatives",
+            "text": "「operatives」是名詞「operative」（特工、間諜）的複數形式，指多名特工。",
+            "category": "單複數"
+          },
+          {
+            "word": "used",
+            "text": "「used」是動詞「use」（使用）的過去式，表示特工們過去的行為。",
             "category": "時態"
           },
           {
-            "word": "target",
-            "text": "「target」是目標、瞄準的意思，在這裡是動詞。",
+            "word": "to plant",
+            "text": "「to plant」是不定詞片語，表示目的，即「為了植入」。動詞「plant」在這裡意為「植入、散佈（虛假信息）」。",
             "category": "其他"
+          },
+          {
+            "word": "outlets",
+            "text": "「outlets」是名詞「outlet」（出口、媒體機構）的複數形式，指多家媒體。",
+            "category": "單複數"
           }
         ]
       }
