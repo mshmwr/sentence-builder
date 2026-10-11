@@ -1,507 +1,16 @@
 {
-  "date": "2026-10-10",
-  "fetchedAt": "2026-10-10T23:22:09.955Z",
+  "date": "2026-10-11",
+  "fetchedAt": "2026-10-11T23:32:27.223Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Trump says Ukraine should ‘get a new leader’ as he spars with Zelensky over US-Russia diesel deal",
-      "url": "https://edition.cnn.com/2026/10/09/politics/trump-putin-russian-diesel",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump says Ukraine should ‘get a new leader’ as he spars with Zelensky over US-Russia diesel deal",
-        "sourceUrl": "https://edition.cnn.com/2026/10/09/politics/trump-putin-russian-diesel",
-        "zh": "川普與澤倫斯基就美俄柴油協議爭執不休，川普稱烏克蘭應該「換個新領導人」。",
-        "accepted": [
-          [
-            "Trump",
-            "says",
-            "Ukraine",
-            "should",
-            "‘get",
-            "a",
-            "new",
-            "leader’",
-            "as",
-            "he",
-            "spars",
-            "with",
-            "Zelensky",
-            "over",
-            "US-Russia",
-            "diesel",
-            "deal"
-          ]
-        ],
-        "distractors": [
-          "getting",
-          "leaders",
-          "sparring",
-          "deals",
-          "newly",
-          "between"
-        ],
-        "notes": [
-          {
-            "word": "says",
-            "text": "在新聞標題中，常用現在簡單式來描述最近發生的事件，即使在中文中通常會用過去式。",
-            "category": "時態"
-          },
-          {
-            "word": "should",
-            "text": "表示「應該」或「理應」，表達一種建議或義務。",
-            "category": "其他"
-          },
-          {
-            "word": "as",
-            "text": "在這裡表示「當…的時候」或「在…的同時」，引導一個伴隨發生的動作。",
-            "category": "介係詞"
-          },
-          {
-            "word": "over",
-            "text": "表示「關於」或「針對」，說明爭論的內容。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Founder of Cockroach Party leader detained on flight Cockroach Janta Party/ CNN News 18",
-      "url": "https://edition.cnn.com/2026/10/09/india/india-cockroach-party-protests-season-2-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Founder of Cockroach Party leader detained on flight Cockroach Janta Party/ CNN News 18",
-        "sourceUrl": "https://edition.cnn.com/2026/10/09/india/india-cockroach-party-protests-season-2-intl-hnk",
-        "zh": "「蟑螂黨」創始人兼領袖在飛機上被拘留。 （蟑螂人民黨/CNN News 18）",
-        "accepted": [
-          [
-            "Founder",
-            "of",
-            "Cockroach",
-            "Party",
-            "leader",
-            "detained",
-            "on",
-            "flight",
-            "Cockroach",
-            "Janta",
-            "Party/",
-            "CNN",
-            "News",
-            "18"
-          ]
-        ],
-        "distractors": [
-          "founding",
-          "leaders",
-          "detains",
-          "flights",
-          "from",
-          "and"
-        ],
-        "notes": [
-          {
-            "word": "Founder",
-            "text": "新聞標題中常省略冠詞，這裡的 'Founder' 指的是特定的一位創始人。",
-            "category": "冠詞"
-          },
-          {
-            "word": "detained",
-            "text": "動詞 'detain' 的過去分詞形式，在這裡作形容詞使用，表示「被拘留的」。新聞標題常省略be動詞。",
-            "category": "時態"
-          },
-          {
-            "word": "on",
-            "text": "表示「在…上」，指在飛機這個交通工具上。",
-            "category": "介係詞"
-          },
-          {
-            "word": "leader",
-            "text": "雖然 'Founder' 和 'leader' 都是單數，但它們指的是同一個人，所以沒有單複數問題。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Attack on Saudi airport leaves 12 dead and hundreds wounded",
-      "url": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Attack on Saudi airport leaves 12 dead and hundreds wounded",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
-        "zh": "沙特機場遇襲，造成12人死亡，數百人受傷。",
-        "accepted": [
-          [
-            "Attack",
-            "on",
-            "Saudi",
-            "airport",
-            "leaves",
-            "12",
-            "dead",
-            "and",
-            "hundreds",
-            "wounded"
-          ]
-        ],
-        "distractors": [
-          "attacks",
-          "leaving",
-          "dying",
-          "wound",
-          "at",
-          "to"
-        ],
-        "notes": [
-          {
-            "word": "Attack",
-            "text": "新聞標題中常省略冠詞，這裡的 'Attack' 指的是一次特定的襲擊事件。",
-            "category": "冠詞"
-          },
-          {
-            "word": "leaves",
-            "text": "動詞 'leave' 在這裡表示「造成」或「導致（某種結果）」，新聞標題常用現在簡單式。",
-            "category": "時態"
-          },
-          {
-            "word": "dead",
-            "text": "形容詞，表示「死亡的」。在這種結構中，'dead' 和 'wounded' 作為補語，說明受害者的狀態。",
-            "category": "其他"
-          },
-          {
-            "word": "wounded",
-            "text": "動詞 'wound' 的過去分詞形式，在這裡作形容詞使用，表示「受傷的」。",
-            "category": "其他"
-          },
-          {
-            "word": "hundreds",
-            "text": "'hundreds of' 表示「數百個」，這裡省略了 'of'，直接用 'hundreds' 指代數百人。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How a series of miscalculations pulled Saudi Arabia into a war with Yemen with no clear way out",
-      "url": "https://edition.cnn.com/2026/10/10/middleeast/saudi-yemen-war-miscalculations-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How a series of miscalculations pulled Saudi Arabia into a war with Yemen with no clear way out",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/middleeast/saudi-yemen-war-miscalculations-intl",
-        "zh": "一系列的誤判如何將沙特阿拉伯捲入一場與葉門的戰爭，且沒有明確的出路。",
-        "accepted": [
-          [
-            "How",
-            "a",
-            "series",
-            "of",
-            "miscalculations",
-            "pulled",
-            "Saudi",
-            "Arabia",
-            "into",
-            "a",
-            "war",
-            "with",
-            "Yemen",
-            "with",
-            "no",
-            "clear",
-            "way",
-            "out"
-          ]
-        ],
-        "distractors": [
-          "pulling",
-          "wars",
-          "ways",
-          "clearly",
-          "from",
-          "for"
-        ],
-        "notes": [
-          {
-            "word": "How",
-            "text": "作為疑問副詞，引導一個關於方式或原因的句子，但在新聞標題中，它更像是一個引導句，暗示讀者將了解事件的緣由。",
-            "category": "其他"
-          },
-          {
-            "word": "a series of",
-            "text": "表示「一系列的」，後面接複數名詞，但動詞通常與 'series' 的單數形式保持一致。",
-            "category": "單複數"
-          },
-          {
-            "word": "pulled",
-            "text": "動詞 'pull' 的過去式，表示「拉入」或「捲入」。",
-            "category": "時態"
-          },
-          {
-            "word": "into",
-            "text": "表示「進入…狀態」或「捲入…之中」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "with no clear way out",
-            "text": "表示「沒有明確的出路」，'with' 在這裡表示伴隨的狀態。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Crews begin clearing 169 trees at DC golf course Trump plans to convert to championship course",
-      "url": "https://edition.cnn.com/2026/10/10/politics/tree-removal-dc-golf-course-trump",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Crews begin clearing 169 trees at DC golf course Trump plans to convert to championship course",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/politics/tree-removal-dc-golf-course-trump",
-        "zh": "工作人員開始清理DC高爾夫球場的169棵樹，川普計劃將其改造成錦標賽球場。",
-        "accepted": [
-          [
-            "Crews",
-            "begin",
-            "clearing",
-            "169",
-            "trees",
-            "at",
-            "DC",
-            "golf",
-            "course",
-            "Trump",
-            "plans",
-            "to",
-            "convert",
-            "to",
-            "championship",
-            "course"
-          ]
-        ],
-        "distractors": [
-          "crew",
-          "begins",
-          "cleared",
-          "tree",
-          "plan",
-          "converting"
-        ],
-        "notes": [
-          {
-            "word": "Crews",
-            "text": "複數名詞，指「工作人員」或「團隊」。",
-            "category": "單複數"
-          },
-          {
-            "word": "begin clearing",
-            "text": "'begin' 後面可以接動名詞 (gerund) 或不定詞 (infinitive) 'to clear'，兩者意思相近。",
-            "category": "其他"
-          },
-          {
-            "word": "at",
-            "text": "表示「在…地點」，指在DC高爾夫球場。",
-            "category": "介係詞"
-          },
-          {
-            "word": "plans to convert",
-            "text": "'plan to' 表示「計劃做某事」，'convert to' 表示「轉換成」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Army caught off guard by Hegseth’s order to make firing squad execution public",
-      "url": "https://edition.cnn.com/2026/10/10/politics/pentagon-scramble-hegseth-public-execution",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Army caught off guard by Hegseth’s order to make firing squad execution public",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/politics/pentagon-scramble-hegseth-public-execution",
-        "zh": "陸軍對赫格塞斯下令公開行刑隊處決感到措手不及。",
-        "accepted": [
-          [
-            "Army",
-            "caught",
-            "off",
-            "guard",
-            "by",
-            "Hegseth’s",
-            "order",
-            "to",
-            "make",
-            "firing",
-            "squad",
-            "execution",
-            "public"
-          ]
-        ],
-        "distractors": [
-          "armies",
-          "catching",
-          "guards",
-          "orders",
-          "making",
-          "publicly"
-        ],
-        "notes": [
-          {
-            "word": "Army",
-            "text": "新聞標題中常省略冠詞，這裡的 'Army' 指的是特定的軍隊。",
-            "category": "冠詞"
-          },
-          {
-            "word": "caught off guard",
-            "text": "片語，表示「措手不及」或「被殺個措手不及」。'caught' 是 'catch' 的過去分詞，新聞標題常省略be動詞。",
-            "category": "時態"
-          },
-          {
-            "word": "by",
-            "text": "表示「由…所為」，引導動作的執行者。",
-            "category": "介係詞"
-          },
-          {
-            "word": "order to make",
-            "text": "'order' 後接不定詞 'to make'，表示「命令去做某事」。",
-            "category": "其他"
-          },
-          {
-            "word": "make...public",
-            "text": "動詞片語，表示「使…公開」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Kalshi scrutinizing longshot bets that correctly predicted Trump’s next press secretary",
-      "url": "https://edition.cnn.com/2026/10/10/politics/kalshi-insider-trading-inquiry-white-house-press-secretary",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Kalshi scrutinizing longshot bets that correctly predicted Trump’s next press secretary",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/politics/kalshi-insider-trading-inquiry-white-house-press-secretary",
-        "zh": "卡爾希正在審查那些正確預測川普下一任新聞秘書的冷門賭注。",
-        "accepted": [
-          [
-            "Kalshi",
-            "scrutinizing",
-            "longshot",
-            "bets",
-            "that",
-            "correctly",
-            "predicted",
-            "Trump’s",
-            "next",
-            "press",
-            "secretary"
-          ]
-        ],
-        "distractors": [
-          "scrutinize",
-          "bet",
-          "predicting",
-          "correct",
-          "nexts",
-          "secretaries"
-        ],
-        "notes": [
-          {
-            "word": "scrutinizing",
-            "text": "現在分詞形式，新聞標題中常省略be動詞，表示正在進行的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "longshot bets",
-            "text": "複合名詞，'longshot' 作形容詞修飾 'bets'，表示「冷門的賭注」。",
-            "category": "其他"
-          },
-          {
-            "word": "that",
-            "text": "關係代名詞，引導限定性子句，修飾 'bets'。",
-            "category": "其他"
-          },
-          {
-            "word": "predicted",
-            "text": "動詞 'predict' 的過去式，表示預測的動作已經發生。",
-            "category": "時態"
-          },
-          {
-            "word": "Trump’s",
-            "text": "所有格形式，表示「川普的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Members of India's Indo-Tibetan Border Police expedition to Everest in 1996. Courtesy of Harbhajan Singh",
-      "url": "https://edition.cnn.com/2026/10/10/travel/everest-green-boots-dorje-morup-intl-hnk-dst",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Members of India's Indo-Tibetan Border Police expedition to Everest in 1996. Courtesy of Harbhajan Singh",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/travel/everest-green-boots-dorje-morup-intl-hnk-dst",
-        "zh": "1996年印度印藏邊境警察珠穆朗瑪峰探險隊成員。圖片由Harbhajan Singh提供。",
-        "accepted": [
-          [
-            "Members",
-            "of",
-            "India's",
-            "Indo-Tibetan",
-            "Border",
-            "Police",
-            "expedition",
-            "to",
-            "Everest",
-            "in",
-            "1996.",
-            "Courtesy",
-            "of",
-            "Harbhajan",
-            "Singh"
-          ]
-        ],
-        "distractors": [
-          "member",
-          "expeditions",
-          "Everests",
-          "from",
-          "on",
-          "courtesy"
-        ],
-        "notes": [
-          {
-            "word": "Members",
-            "text": "複數名詞，指「成員們」。",
-            "category": "單複數"
-          },
-          {
-            "word": "of",
-            "text": "表示「屬於」或「…的」，連接成員和其所屬的團體。",
-            "category": "介係詞"
-          },
-          {
-            "word": "expedition to Everest",
-            "text": "'expedition' 指「探險隊」或「探險活動」，'to Everest' 表示探險的目的地。",
-            "category": "介係詞"
-          },
-          {
-            "word": "in 1996",
-            "text": "表示「在1996年」，用於說明時間。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Courtesy of",
-            "text": "片語，表示「由…提供」或「鳴謝…」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The ‘world’s best bar’ for 2026 has been revealed",
+      "en": "The ‘world’s best bar’ for 2026",
       "url": "https://edition.cnn.com/2026/10/10/travel/travel-news-worlds-best-bars-2026",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The ‘world’s best bar’ for 2026 has been revealed",
+        "sourceEn": "The ‘world’s best bar’ for 2026",
         "sourceUrl": "https://edition.cnn.com/2026/10/10/travel/travel-news-worlds-best-bars-2026",
-        "zh": "2026年「世界最佳酒吧」已揭曉。",
+        "zh": "2026年「世界最佳酒吧」。",
         "accepted": [
           [
             "The",
@@ -509,208 +18,651 @@
             "best",
             "bar’",
             "for",
-            "2026",
-            "has",
-            "been",
-            "revealed"
+            "2026"
           ]
         ],
         "distractors": [
-          "worlds",
-          "bars",
-          "revealing",
-          "reveals",
-          "is",
+          "a",
+          "in",
+          "of",
+          "on",
           "at"
         ],
         "notes": [
           {
             "word": "The",
-            "text": "定冠詞，指特定的「世界最佳酒吧」。",
+            "text": "「The」是定冠詞，用來指稱特定的、獨一無二的事物，這裡指「世界最佳酒吧」這個特定的稱號。",
             "category": "冠詞"
           },
           {
-            "word": "world’s best bar",
-            "text": "所有格形式 'world’s' 表示「世界的」，'best' 是最高級形容詞，修飾 'bar'。",
+            "word": "‘world’s best bar’",
+            "text": "「world’s best bar」是所有格形式，表示「世界的最佳酒吧」。撇號s ('s) 用於表示所有權或關係。",
             "category": "其他"
           },
           {
             "word": "for",
-            "text": "表示「針對」或「屬於（某個時間點）」，指2026年的獎項。",
+            "text": "「for」在這裡表示時間，指「為了2026年」或「屬於2026年」的獎項。",
             "category": "介係詞"
-          },
-          {
-            "word": "has been revealed",
-            "text": "現在完成被動語態，表示動作已經完成，結果持續到現在。",
-            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Adidas sues White Fox fashion label over four stripes design",
-      "url": "https://edition.cnn.com/2026/10/09/business/adidas-sues-white-fox-australia-logo-scli-intl",
+      "en": "Why a flip phone might be an upgrade",
+      "url": "https://edition.cnn.com/2026/10/11/health/living-without-a-smartphone-wellness",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Adidas sues White Fox fashion label over four stripes design",
-        "sourceUrl": "https://edition.cnn.com/2026/10/09/business/adidas-sues-white-fox-australia-logo-scli-intl",
-        "zh": "愛迪達因四條紋設計起訴White Fox時尚品牌。",
+        "sourceEn": "Why a flip phone might be an upgrade",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/health/living-without-a-smartphone-wellness",
+        "zh": "為什麼摺疊手機可能是一種升級。",
         "accepted": [
           [
-            "Adidas",
-            "sues",
-            "White",
-            "Fox",
-            "fashion",
-            "label",
-            "over",
-            "four",
-            "stripes",
-            "design"
-          ]
-        ],
-        "distractors": [
-          "sue",
-          "labels",
-          "stripe",
-          "designs",
-          "for",
-          "against"
-        ],
-        "notes": [
-          {
-            "word": "sues",
-            "text": "動詞 'sue' 的現在簡單式第三人稱單數形式，新聞標題常用現在簡單式描述事件。",
-            "category": "時態"
-          },
-          {
-            "word": "label",
-            "text": "在這裡指「品牌」或「商標」。",
-            "category": "其他"
-          },
-          {
-            "word": "over",
-            "text": "表示「關於」或「針對」，說明訴訟的原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "four stripes design",
-            "text": "複合名詞，'four stripes' 作形容詞修飾 'design'，表示「四條紋的設計」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Jaguar reveals a $130,000 all-electric vehicle. Why?",
-      "url": "https://edition.cnn.com/2026/10/10/cars/jaguar-type-01-reveal",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Jaguar reveals a $130,000 all-electric vehicle. Why?",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/cars/jaguar-type-01-reveal",
-        "zh": "捷豹推出一款13萬美元的全電動汽車。為什麼？",
-        "accepted": [
-          [
-            "Jaguar",
-            "reveals",
+            "Why",
             "a",
-            "$130,000",
-            "all-electric",
-            "vehicle.",
-            "Why?"
+            "flip",
+            "phone",
+            "might",
+            "be",
+            "an",
+            "upgrade"
           ]
         ],
         "distractors": [
-          "reveal",
-          "vehicles",
-          "electrics",
-          "for",
-          "how",
-          "what"
+          "is",
+          "the",
+          "could",
+          "will",
+          "was"
         ],
         "notes": [
           {
-            "word": "reveals",
-            "text": "動詞 'reveal' 的現在簡單式第三人稱單數形式，新聞標題常用現在簡單式描述事件。",
-            "category": "時態"
+            "word": "Why",
+            "text": "「Why」是疑問副詞，用來詢問原因或理由。",
+            "category": "其他"
           },
           {
             "word": "a",
-            "text": "不定冠詞，表示「一輛」或「一個」。",
+            "text": "「a」是不定冠詞，用於單數可數名詞前，表示泛指。",
             "category": "冠詞"
           },
           {
-            "word": "all-electric",
-            "text": "複合形容詞，表示「全電動的」。",
+            "word": "might",
+            "text": "「might」是情態助動詞，表示可能性，語氣比「may」更不確定。",
+            "category": "時態"
+          },
+          {
+            "word": "an",
+            "text": "「an」是不定冠詞，用於以母音開頭的單數可數名詞前，這裡「upgrade」的發音以母音開頭。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump’s US-Russia diesel deal draws bipartisan criticism",
+      "url": "https://edition.cnn.com/2026/10/11/politics/us-russia-diesel-deal-bipartisan-criticism",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump’s US-Russia diesel deal draws bipartisan criticism",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/us-russia-diesel-deal-bipartisan-criticism",
+        "zh": "川普的美國-俄羅斯柴油交易引發兩黨批評。",
+        "accepted": [
+          [
+            "Trump’s",
+            "US-Russia",
+            "diesel",
+            "deal",
+            "draws",
+            "bipartisan",
+            "criticism"
+          ]
+        ],
+        "distractors": [
+          "draw",
+          "drew",
+          "drawing",
+          "to",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格形式，表示「川普的」。撇號s ('s) 用於表示所有權。",
             "category": "其他"
           },
           {
-            "word": "Why?",
-            "text": "疑問詞，單獨成句，表示對前述事實的疑問。",
+            "word": "US-Russia",
+            "text": "「US-Russia」是複合形容詞，修飾「diesel deal」，表示這項交易涉及美國和俄羅斯。",
+            "category": "其他"
+          },
+          {
+            "word": "draws",
+            "text": "「draws」是動詞「draw」的第三人稱單數現在式，表示「引發」或「招致」。主詞「deal」是單數。",
+            "category": "時態"
+          },
+          {
+            "word": "bipartisan",
+            "text": "「bipartisan」是形容詞，表示「兩黨的」或「兩黨合作的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "If the Strait of Hormuz is open, why are gas and diesel so expensive?",
-      "url": "https://edition.cnn.com/2026/10/09/business/oil-gas-diesel-trump-iran-hormuz",
+      "en": "Trump announcement about energy ceasefire between Russia and Ukraine sows confusion",
+      "url": "https://edition.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "If the Strait of Hormuz is open, why are gas and diesel so expensive?",
-        "sourceUrl": "https://edition.cnn.com/2026/10/09/business/oil-gas-diesel-trump-iran-hormuz",
-        "zh": "如果荷莫茲海峽是開放的，為什麼汽油和柴油如此昂貴？",
+        "sourceEn": "Trump announcement about energy ceasefire between Russia and Ukraine sows confusion",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire",
+        "zh": "川普關於俄羅斯和烏克蘭之間能源停火的聲明引發混亂。",
         "accepted": [
           [
-            "If",
-            "the",
-            "Strait",
-            "of",
-            "Hormuz",
-            "is",
-            "open,",
-            "why",
-            "are",
-            "gas",
+            "Trump",
+            "announcement",
+            "about",
+            "energy",
+            "ceasefire",
+            "between",
+            "Russia",
             "and",
-            "diesel",
-            "so",
-            "expensive?"
+            "Ukraine",
+            "sows",
+            "confusion"
           ]
         ],
         "distractors": [
-          "straits",
-          "opens",
-          "gases",
-          "diesels",
-          "was",
-          "how"
+          "announced",
+          "announces",
+          "of",
+          "for",
+          "among"
         ],
         "notes": [
           {
-            "word": "If",
-            "text": "引導條件子句，表示「如果…」。",
+            "word": "Trump announcement",
+            "text": "這裡「Trump announcement」是標題寫法，省略了所有格撇號s ('s)，意指「川普的聲明」。",
             "category": "其他"
           },
           {
-            "word": "the Strait of Hormuz",
-            "text": "定冠詞 'the' 用於指特定的地理名稱「荷莫茲海峽」。",
-            "category": "冠詞"
+            "word": "about",
+            "text": "「about」是介係詞，表示「關於」或「有關」。",
+            "category": "介係詞"
           },
           {
-            "word": "is open",
-            "text": "現在簡單式，表示一種事實或現狀。",
+            "word": "between",
+            "text": "「between」是介係詞，用於指兩者之間。",
+            "category": "介係詞"
+          },
+          {
+            "word": "sows",
+            "text": "「sows」是動詞「sow」的第三人稱單數現在式，表示「播種」或「散佈」，在這裡引申為「引發」或「造成」。主詞「announcement」是單數。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Saudi airport struck again a day after deadly attack killed at least 12 and wounded hundreds",
+      "url": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Saudi airport struck again a day after deadly attack killed at least 12 and wounded hundreds",
+        "sourceUrl": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
+        "zh": "沙烏地機場在致命襲擊造成至少12人死亡、數百人受傷的一天後再次遭到襲擊。",
+        "accepted": [
+          [
+            "Saudi",
+            "airport",
+            "struck",
+            "again",
+            "a",
+            "day",
+            "after",
+            "deadly",
+            "attack",
+            "killed",
+            "at",
+            "least",
+            "12",
+            "and",
+            "wounded",
+            "hundreds"
+          ]
+        ],
+        "distractors": [
+          "strike",
+          "strikes",
+          "striking",
+          "on",
+          "in"
+        ],
+        "notes": [
+          {
+            "word": "struck",
+            "text": "「struck」是動詞「strike」的過去式和過去分詞，這裡用作被動語態的一部分，表示「遭到襲擊」。",
             "category": "時態"
           },
           {
-            "word": "why are...expensive?",
-            "text": "疑問句結構，'why' 引導對原因的提問。",
+            "word": "again",
+            "text": "「again」是副詞，表示「再次」或「又一次」。",
             "category": "其他"
           },
           {
-            "word": "gas and diesel",
-            "text": "這裡的 'gas' 指「汽油」，'diesel' 指「柴油」，兩者都是不可數名詞，但在此處並列時，動詞用複數 'are'。",
+            "word": "a day after",
+            "text": "「a day after」表示「在...一天之後」。",
+            "category": "其他"
+          },
+          {
+            "word": "killed",
+            "text": "「killed」是動詞「kill」的過去式，表示「殺死」。",
+            "category": "時態"
+          },
+          {
+            "word": "wounded",
+            "text": "「wounded」是動詞「wound」的過去式，表示「使受傷」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Saudi Arabia will have to respond to Houthi airport attack - but the choices are stark",
+      "url": "https://edition.cnn.com/2026/10/11/world/saudi-arabia-airport-attack-analysis-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Saudi Arabia will have to respond to Houthi airport attack - but the choices are stark",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/world/saudi-arabia-airport-attack-analysis-intl",
+        "zh": "沙烏地阿拉伯將不得不回應胡塞武裝的機場襲擊——但選擇是嚴峻的。",
+        "accepted": [
+          [
+            "Saudi",
+            "Arabia",
+            "will",
+            "have",
+            "to",
+            "respond",
+            "to",
+            "Houthi",
+            "airport",
+            "attack",
+            "-",
+            "but",
+            "the",
+            "choices",
+            "are",
+            "stark"
+          ]
+        ],
+        "distractors": [
+          "has",
+          "had",
+          "respond",
+          "for",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "will have to",
+            "text": "「will have to」表示將來必須做某事，是一種義務或必要性。",
+            "category": "時態"
+          },
+          {
+            "word": "respond to",
+            "text": "「respond to」是動詞片語，表示「回應」或「對...作出反應」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Houthi airport attack",
+            "text": "「Houthi airport attack」是複合名詞，表示「胡塞武裝的機場襲擊」。",
+            "category": "其他"
+          },
+          {
+            "word": "the choices are stark",
+            "text": "「stark」是形容詞，表示「嚴峻的」、「赤裸裸的」或「鮮明的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump considering firing Kimberly Guilfoyle after embarrassing revelations, source says",
+      "url": "https://edition.cnn.com/2026/10/11/politics/trump-considering-whether-to-fire-guilfoyle-source-says",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump considering firing Kimberly Guilfoyle after embarrassing revelations, source says",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-considering-whether-to-fire-guilfoyle-source-says",
+        "zh": "消息人士稱，川普在令人尷尬的爆料後考慮解僱金伯利·吉爾福伊爾。",
+        "accepted": [
+          [
+            "Trump",
+            "considering",
+            "firing",
+            "Kimberly",
+            "Guilfoyle",
+            "after",
+            "embarrassing",
+            "revelations",
+            ",",
+            "source",
+            "says"
+          ]
+        ],
+        "distractors": [
+          "consider",
+          "considered",
+          "fire",
+          "fired",
+          "before"
+        ],
+        "notes": [
+          {
+            "word": "considering",
+            "text": "「considering」是動詞「consider」的現在分詞形式，這裡用作動詞的一部分，表示「正在考慮」。標題中常省略be動詞。",
+            "category": "時態"
+          },
+          {
+            "word": "firing",
+            "text": "「firing」是動詞「fire」的動名詞形式，在這裡作「considering」的受詞，表示「解僱」。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "「after」是介係詞，表示「在...之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "embarrassing revelations",
+            "text": "「embarrassing」是形容詞，表示「令人尷尬的」；「revelations」是名詞，表示「揭露」或「爆料」。",
+            "category": "其他"
+          },
+          {
+            "word": "source says",
+            "text": "「source says」是標題中常見的簡潔表達，意為「消息人士說」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump’s $19 million taxpayer-funded ad campaign comes to an end",
+      "url": "https://edition.cnn.com/2026/10/11/politics/trump-taxpayer-funded-ads-stop",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump’s $19 million taxpayer-funded ad campaign comes to an end",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-taxpayer-funded-ads-stop",
+        "zh": "川普耗資1900萬美元由納稅人資助的廣告活動結束。",
+        "accepted": [
+          [
+            "Trump’s",
+            "$19",
+            "million",
+            "taxpayer-funded",
+            "ad",
+            "campaign",
+            "comes",
+            "to",
+            "an",
+            "end"
+          ]
+        ],
+        "distractors": [
+          "come",
+          "came",
+          "coming",
+          "in",
+          "on"
+        ],
+        "notes": [
+          {
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格形式，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "taxpayer-funded",
+            "text": "「taxpayer-funded」是複合形容詞，表示「由納稅人資助的」。",
+            "category": "其他"
+          },
+          {
+            "word": "comes to an end",
+            "text": "「come to an end」是一個常用片語，表示「結束」或「告終」。動詞「comes」是第三人稱單數現在式，與主詞「campaign」一致。",
+            "category": "時態"
+          },
+          {
+            "word": "an",
+            "text": "「an」是不定冠詞，用於以母音開頭的單數可數名詞前，這裡「end」的發音以母音開頭。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Russell Brand is on trial for rape and sexual assault. His career has been a catalog of controversy",
+      "url": "https://edition.cnn.com/2026/10/11/entertainment/russell-brand-career-profile-intl-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Russell Brand is on trial for rape and sexual assault. His career has been a catalog of controversy",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/entertainment/russell-brand-career-profile-intl-scli",
+        "zh": "羅素·布蘭德因強姦和性侵犯受審。他的職業生涯充滿爭議。",
+        "accepted": [
+          [
+            "Russell",
+            "Brand",
+            "is",
+            "on",
+            "trial",
+            "for",
+            "rape",
+            "and",
+            "sexual",
+            "assault",
+            ".",
+            "His",
+            "career",
+            "has",
+            "been",
+            "a",
+            "catalog",
+            "of",
+            "controversy"
+          ]
+        ],
+        "distractors": [
+          "was",
+          "were",
+          "trials",
+          "from",
+          "with"
+        ],
+        "notes": [
+          {
+            "word": "is on trial",
+            "text": "「be on trial」是一個片語，表示「受審」或「在審判中」。",
+            "category": "其他"
+          },
+          {
+            "word": "for",
+            "text": "「for」在這裡表示原因或罪名，指「因為...而受審」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "has been",
+            "text": "「has been」是現在完成式，表示從過去某個時間點開始一直持續到現在的狀態。",
+            "category": "時態"
+          },
+          {
+            "word": "a catalog of",
+            "text": "「a catalog of」是一個片語，表示「一系列的」或「充滿了...的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Pope Leo announces he will undergo surgery to remove lung nodule",
+      "url": "https://edition.cnn.com/2026/10/11/world/pope-leo-lung-surgery-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Pope Leo announces he will undergo surgery to remove lung nodule",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/world/pope-leo-lung-surgery-intl",
+        "zh": "教宗利奧宣布他將接受手術以移除肺部結節。",
+        "accepted": [
+          [
+            "Pope",
+            "Leo",
+            "announces",
+            "he",
+            "will",
+            "undergo",
+            "surgery",
+            "to",
+            "remove",
+            "lung",
+            "nodule"
+          ]
+        ],
+        "distractors": [
+          "announced",
+          "announce",
+          "would",
+          "for",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "announces",
+            "text": "「announces」是動詞「announce」的第三人稱單數現在式，表示「宣布」。主詞「Pope Leo」是單數。",
+            "category": "時態"
+          },
+          {
+            "word": "will undergo",
+            "text": "「will undergo」是將來式，表示將會經歷或接受某事。「undergo」意為「經歷」或「接受（手術、治療等）」。",
+            "category": "時態"
+          },
+          {
+            "word": "to remove",
+            "text": "「to remove」是不定詞片語，表示目的，即「為了移除」。",
+            "category": "其他"
+          },
+          {
+            "word": "lung nodule",
+            "text": "「lung nodule」是複合名詞，表示「肺部結節」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hurricane Simon skirts Mexico’s Pacific coast as beachside communities and tourist areas prepare for impacts",
+      "url": "https://edition.cnn.com/2026/10/11/americas/mexico-hurricane-simon-intl-latam",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hurricane Simon skirts Mexico’s Pacific coast as beachside communities and tourist areas prepare for impacts",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/americas/mexico-hurricane-simon-intl-latam",
+        "zh": "西蒙颶風沿墨西哥太平洋海岸移動，海濱社區和旅遊區準備應對影響。",
+        "accepted": [
+          [
+            "Hurricane",
+            "Simon",
+            "skirts",
+            "Mexico’s",
+            "Pacific",
+            "coast",
+            "as",
+            "beachside",
+            "communities",
+            "and",
+            "tourist",
+            "areas",
+            "prepare",
+            "for",
+            "impacts"
+          ]
+        ],
+        "distractors": [
+          "skirt",
+          "skirted",
+          "skirting",
+          "to",
+          "in"
+        ],
+        "notes": [
+          {
+            "word": "skirts",
+            "text": "「skirts」是動詞「skirt」的第三人稱單數現在式，表示「沿著邊緣移動」或「擦過」。主詞「Hurricane Simon」是單數。",
+            "category": "時態"
+          },
+          {
+            "word": "Mexico’s",
+            "text": "「Mexico’s」是所有格形式，表示「墨西哥的」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "「as」在這裡用作連接詞，表示「當...的時候」或「隨著」，引導一個時間或伴隨狀況的子句。",
+            "category": "其他"
+          },
+          {
+            "word": "prepare for",
+            "text": "「prepare for」是一個片語，表示「為...做準備」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "impacts",
+            "text": "「impacts」是名詞「impact」的複數形式，表示「影響」或「衝擊」。",
             "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Jessica Griffin/The Philadelphia Inquirer via AP",
+      "url": "https://edition.cnn.com/2026/10/11/us/philadelphia-nicole-fusaro-missing-death",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Jessica Griffin/The Philadelphia Inquirer via AP",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/us/philadelphia-nicole-fusaro-missing-death",
+        "zh": "傑西卡·格里芬/費城詢問報 透過 美聯社",
+        "accepted": [
+          [
+            "Jessica",
+            "Griffin",
+            "/",
+            "The",
+            "Philadelphia",
+            "Inquirer",
+            "via",
+            "AP"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "an",
+          "by",
+          "from",
+          "to"
+        ],
+        "notes": [
+          {
+            "word": "/",
+            "text": "斜線「/」在這裡表示「和」或「由...提供」。",
+            "category": "其他"
+          },
+          {
+            "word": "The",
+            "text": "「The」是定冠詞，用於特指報紙名稱「The Philadelphia Inquirer」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "via",
+            "text": "「via」是介係詞，表示「透過」或「經由」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "AP",
+            "text": "「AP」是Associated Press（美聯社）的縮寫。",
+            "category": "其他"
           }
         ]
       }
