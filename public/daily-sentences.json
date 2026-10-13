@@ -1,667 +1,690 @@
 {
-  "date": "2026-10-11",
-  "fetchedAt": "2026-10-11T23:32:27.223Z",
+  "date": "2026-10-13",
+  "fetchedAt": "2026-10-13T01:55:50.486Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "The ‘world’s best bar’ for 2026",
-      "url": "https://edition.cnn.com/2026/10/10/travel/travel-news-worlds-best-bars-2026",
+      "en": "One teen killed, others wounded, after explosion on Israeli school trip near Lebanon border",
+      "url": "https://edition.cnn.com/2026/10/12/middleeast/israel-explosion-lebanon-border-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The ‘world’s best bar’ for 2026",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/travel/travel-news-worlds-best-bars-2026",
-        "zh": "2026年「世界最佳酒吧」。",
+        "sourceEn": "One teen killed, others wounded, after explosion on Israeli school trip near Lebanon border",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/middleeast/israel-explosion-lebanon-border-intl",
+        "zh": "一名青少年在以色列學校旅行中於黎巴嫩邊境附近發生爆炸後喪生，其他人受傷。",
         "accepted": [
           [
-            "The",
-            "‘world’s",
-            "best",
-            "bar’",
-            "for",
-            "2026"
+            "One",
+            "teen",
+            "killed",
+            ",",
+            "others",
+            "wounded",
+            ",",
+            "after",
+            "explosion",
+            "on",
+            "Israeli",
+            "school",
+            "trip",
+            "near",
+            "Lebanon",
+            "border"
           ]
         ],
         "distractors": [
           "a",
-          "in",
-          "of",
-          "on",
-          "at"
-        ],
-        "notes": [
-          {
-            "word": "The",
-            "text": "「The」是定冠詞，用來指稱特定的、獨一無二的事物，這裡指「世界最佳酒吧」這個特定的稱號。",
-            "category": "冠詞"
-          },
-          {
-            "word": "‘world’s best bar’",
-            "text": "「world’s best bar」是所有格形式，表示「世界的最佳酒吧」。撇號s ('s) 用於表示所有權或關係。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "「for」在這裡表示時間，指「為了2026年」或「屬於2026年」的獎項。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Why a flip phone might be an upgrade",
-      "url": "https://edition.cnn.com/2026/10/11/health/living-without-a-smartphone-wellness",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Why a flip phone might be an upgrade",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/health/living-without-a-smartphone-wellness",
-        "zh": "為什麼摺疊手機可能是一種升級。",
-        "accepted": [
-          [
-            "Why",
-            "a",
-            "flip",
-            "phone",
-            "might",
-            "be",
-            "an",
-            "upgrade"
-          ]
-        ],
-        "distractors": [
-          "is",
           "the",
-          "could",
-          "will",
-          "was"
+          "some",
+          "many",
+          "few",
+          "another"
         ],
         "notes": [
-          {
-            "word": "Why",
-            "text": "「Why」是疑問副詞，用來詢問原因或理由。",
-            "category": "其他"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，用於單數可數名詞前，表示泛指。",
-            "category": "冠詞"
-          },
-          {
-            "word": "might",
-            "text": "「might」是情態助動詞，表示可能性，語氣比「may」更不確定。",
-            "category": "時態"
-          },
-          {
-            "word": "an",
-            "text": "「an」是不定冠詞，用於以母音開頭的單數可數名詞前，這裡「upgrade」的發音以母音開頭。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump’s US-Russia diesel deal draws bipartisan criticism",
-      "url": "https://edition.cnn.com/2026/10/11/politics/us-russia-diesel-deal-bipartisan-criticism",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump’s US-Russia diesel deal draws bipartisan criticism",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/us-russia-diesel-deal-bipartisan-criticism",
-        "zh": "川普的美國-俄羅斯柴油交易引發兩黨批評。",
-        "accepted": [
-          [
-            "Trump’s",
-            "US-Russia",
-            "diesel",
-            "deal",
-            "draws",
-            "bipartisan",
-            "criticism"
-          ]
-        ],
-        "distractors": [
-          "draw",
-          "drew",
-          "drawing",
-          "to",
-          "from"
-        ],
-        "notes": [
-          {
-            "word": "Trump’s",
-            "text": "「Trump’s」是所有格形式，表示「川普的」。撇號s ('s) 用於表示所有權。",
-            "category": "其他"
-          },
-          {
-            "word": "US-Russia",
-            "text": "「US-Russia」是複合形容詞，修飾「diesel deal」，表示這項交易涉及美國和俄羅斯。",
-            "category": "其他"
-          },
-          {
-            "word": "draws",
-            "text": "「draws」是動詞「draw」的第三人稱單數現在式，表示「引發」或「招致」。主詞「deal」是單數。",
-            "category": "時態"
-          },
-          {
-            "word": "bipartisan",
-            "text": "「bipartisan」是形容詞，表示「兩黨的」或「兩黨合作的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump announcement about energy ceasefire between Russia and Ukraine sows confusion",
-      "url": "https://edition.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump announcement about energy ceasefire between Russia and Ukraine sows confusion",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire",
-        "zh": "川普關於俄羅斯和烏克蘭之間能源停火的聲明引發混亂。",
-        "accepted": [
-          [
-            "Trump",
-            "announcement",
-            "about",
-            "energy",
-            "ceasefire",
-            "between",
-            "Russia",
-            "and",
-            "Ukraine",
-            "sows",
-            "confusion"
-          ]
-        ],
-        "distractors": [
-          "announced",
-          "announces",
-          "of",
-          "for",
-          "among"
-        ],
-        "notes": [
-          {
-            "word": "Trump announcement",
-            "text": "這裡「Trump announcement」是標題寫法，省略了所有格撇號s ('s)，意指「川普的聲明」。",
-            "category": "其他"
-          },
-          {
-            "word": "about",
-            "text": "「about」是介係詞，表示「關於」或「有關」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "between",
-            "text": "「between」是介係詞，用於指兩者之間。",
-            "category": "介係詞"
-          },
-          {
-            "word": "sows",
-            "text": "「sows」是動詞「sow」的第三人稱單數現在式，表示「播種」或「散佈」，在這裡引申為「引發」或「造成」。主詞「announcement」是單數。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Saudi airport struck again a day after deadly attack killed at least 12 and wounded hundreds",
-      "url": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Saudi airport struck again a day after deadly attack killed at least 12 and wounded hundreds",
-        "sourceUrl": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
-        "zh": "沙烏地機場在致命襲擊造成至少12人死亡、數百人受傷的一天後再次遭到襲擊。",
-        "accepted": [
-          [
-            "Saudi",
-            "airport",
-            "struck",
-            "again",
-            "a",
-            "day",
-            "after",
-            "deadly",
-            "attack",
-            "killed",
-            "at",
-            "least",
-            "12",
-            "and",
-            "wounded",
-            "hundreds"
-          ]
-        ],
-        "distractors": [
-          "strike",
-          "strikes",
-          "striking",
-          "on",
-          "in"
-        ],
-        "notes": [
-          {
-            "word": "struck",
-            "text": "「struck」是動詞「strike」的過去式和過去分詞，這裡用作被動語態的一部分，表示「遭到襲擊」。",
-            "category": "時態"
-          },
-          {
-            "word": "again",
-            "text": "「again」是副詞，表示「再次」或「又一次」。",
-            "category": "其他"
-          },
-          {
-            "word": "a day after",
-            "text": "「a day after」表示「在...一天之後」。",
-            "category": "其他"
-          },
           {
             "word": "killed",
-            "text": "「killed」是動詞「kill」的過去式，表示「殺死」。",
+            "text": "此處使用過去分詞 'killed' 作為形容詞，表示「被殺的」，與 'wounded' （受傷的）並列。",
             "category": "時態"
           },
           {
-            "word": "wounded",
-            "text": "「wounded」是動詞「wound」的過去式，表示「使受傷」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Saudi Arabia will have to respond to Houthi airport attack - but the choices are stark",
-      "url": "https://edition.cnn.com/2026/10/11/world/saudi-arabia-airport-attack-analysis-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Saudi Arabia will have to respond to Houthi airport attack - but the choices are stark",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/world/saudi-arabia-airport-attack-analysis-intl",
-        "zh": "沙烏地阿拉伯將不得不回應胡塞武裝的機場襲擊——但選擇是嚴峻的。",
-        "accepted": [
-          [
-            "Saudi",
-            "Arabia",
-            "will",
-            "have",
-            "to",
-            "respond",
-            "to",
-            "Houthi",
-            "airport",
-            "attack",
-            "-",
-            "but",
-            "the",
-            "choices",
-            "are",
-            "stark"
-          ]
-        ],
-        "distractors": [
-          "has",
-          "had",
-          "respond",
-          "for",
-          "from"
-        ],
-        "notes": [
-          {
-            "word": "will have to",
-            "text": "「will have to」表示將來必須做某事，是一種義務或必要性。",
-            "category": "時態"
-          },
-          {
-            "word": "respond to",
-            "text": "「respond to」是動詞片語，表示「回應」或「對...作出反應」。",
+            "word": "on",
+            "text": "'on' 在此表示「在...期間」或「關於...的」，指爆炸發生在學校旅行期間。",
             "category": "介係詞"
           },
           {
-            "word": "Houthi airport attack",
-            "text": "「Houthi airport attack」是複合名詞，表示「胡塞武裝的機場襲擊」。",
-            "category": "其他"
-          },
-          {
-            "word": "the choices are stark",
-            "text": "「stark」是形容詞，表示「嚴峻的」、「赤裸裸的」或「鮮明的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump considering firing Kimberly Guilfoyle after embarrassing revelations, source says",
-      "url": "https://edition.cnn.com/2026/10/11/politics/trump-considering-whether-to-fire-guilfoyle-source-says",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump considering firing Kimberly Guilfoyle after embarrassing revelations, source says",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-considering-whether-to-fire-guilfoyle-source-says",
-        "zh": "消息人士稱，川普在令人尷尬的爆料後考慮解僱金伯利·吉爾福伊爾。",
-        "accepted": [
-          [
-            "Trump",
-            "considering",
-            "firing",
-            "Kimberly",
-            "Guilfoyle",
-            "after",
-            "embarrassing",
-            "revelations",
-            ",",
-            "source",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "consider",
-          "considered",
-          "fire",
-          "fired",
-          "before"
-        ],
-        "notes": [
-          {
-            "word": "considering",
-            "text": "「considering」是動詞「consider」的現在分詞形式，這裡用作動詞的一部分，表示「正在考慮」。標題中常省略be動詞。",
-            "category": "時態"
-          },
-          {
-            "word": "firing",
-            "text": "「firing」是動詞「fire」的動名詞形式，在這裡作「considering」的受詞，表示「解僱」。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "「after」是介係詞，表示「在...之後」。",
+            "word": "near",
+            "text": "'near' 表示「在...附近」，說明爆炸地點靠近黎巴嫩邊境。",
             "category": "介係詞"
           },
           {
-            "word": "embarrassing revelations",
-            "text": "「embarrassing」是形容詞，表示「令人尷尬的」；「revelations」是名詞，表示「揭露」或「爆料」。",
-            "category": "其他"
-          },
-          {
-            "word": "source says",
-            "text": "「source says」是標題中常見的簡潔表達，意為「消息人士說」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump’s $19 million taxpayer-funded ad campaign comes to an end",
-      "url": "https://edition.cnn.com/2026/10/11/politics/trump-taxpayer-funded-ads-stop",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump’s $19 million taxpayer-funded ad campaign comes to an end",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-taxpayer-funded-ads-stop",
-        "zh": "川普耗資1900萬美元由納稅人資助的廣告活動結束。",
-        "accepted": [
-          [
-            "Trump’s",
-            "$19",
-            "million",
-            "taxpayer-funded",
-            "ad",
-            "campaign",
-            "comes",
-            "to",
-            "an",
-            "end"
-          ]
-        ],
-        "distractors": [
-          "come",
-          "came",
-          "coming",
-          "in",
-          "on"
-        ],
-        "notes": [
-          {
-            "word": "Trump’s",
-            "text": "「Trump’s」是所有格形式，表示「川普的」。",
-            "category": "其他"
-          },
-          {
-            "word": "taxpayer-funded",
-            "text": "「taxpayer-funded」是複合形容詞，表示「由納稅人資助的」。",
-            "category": "其他"
-          },
-          {
-            "word": "comes to an end",
-            "text": "「come to an end」是一個常用片語，表示「結束」或「告終」。動詞「comes」是第三人稱單數現在式，與主詞「campaign」一致。",
-            "category": "時態"
-          },
-          {
-            "word": "an",
-            "text": "「an」是不定冠詞，用於以母音開頭的單數可數名詞前，這裡「end」的發音以母音開頭。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Russell Brand is on trial for rape and sexual assault. His career has been a catalog of controversy",
-      "url": "https://edition.cnn.com/2026/10/11/entertainment/russell-brand-career-profile-intl-scli",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Russell Brand is on trial for rape and sexual assault. His career has been a catalog of controversy",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/entertainment/russell-brand-career-profile-intl-scli",
-        "zh": "羅素·布蘭德因強姦和性侵犯受審。他的職業生涯充滿爭議。",
-        "accepted": [
-          [
-            "Russell",
-            "Brand",
-            "is",
-            "on",
-            "trial",
-            "for",
-            "rape",
-            "and",
-            "sexual",
-            "assault",
-            ".",
-            "His",
-            "career",
-            "has",
-            "been",
-            "a",
-            "catalog",
-            "of",
-            "controversy"
-          ]
-        ],
-        "distractors": [
-          "was",
-          "were",
-          "trials",
-          "from",
-          "with"
-        ],
-        "notes": [
-          {
-            "word": "is on trial",
-            "text": "「be on trial」是一個片語，表示「受審」或「在審判中」。",
-            "category": "其他"
-          },
-          {
-            "word": "for",
-            "text": "「for」在這裡表示原因或罪名，指「因為...而受審」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "has been",
-            "text": "「has been」是現在完成式，表示從過去某個時間點開始一直持續到現在的狀態。",
-            "category": "時態"
-          },
-          {
-            "word": "a catalog of",
-            "text": "「a catalog of」是一個片語，表示「一系列的」或「充滿了...的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Pope Leo announces he will undergo surgery to remove lung nodule",
-      "url": "https://edition.cnn.com/2026/10/11/world/pope-leo-lung-surgery-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Pope Leo announces he will undergo surgery to remove lung nodule",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/world/pope-leo-lung-surgery-intl",
-        "zh": "教宗利奧宣布他將接受手術以移除肺部結節。",
-        "accepted": [
-          [
-            "Pope",
-            "Leo",
-            "announces",
-            "he",
-            "will",
-            "undergo",
-            "surgery",
-            "to",
-            "remove",
-            "lung",
-            "nodule"
-          ]
-        ],
-        "distractors": [
-          "announced",
-          "announce",
-          "would",
-          "for",
-          "from"
-        ],
-        "notes": [
-          {
-            "word": "announces",
-            "text": "「announces」是動詞「announce」的第三人稱單數現在式，表示「宣布」。主詞「Pope Leo」是單數。",
-            "category": "時態"
-          },
-          {
-            "word": "will undergo",
-            "text": "「will undergo」是將來式，表示將會經歷或接受某事。「undergo」意為「經歷」或「接受（手術、治療等）」。",
-            "category": "時態"
-          },
-          {
-            "word": "to remove",
-            "text": "「to remove」是不定詞片語，表示目的，即「為了移除」。",
-            "category": "其他"
-          },
-          {
-            "word": "lung nodule",
-            "text": "「lung nodule」是複合名詞，表示「肺部結節」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Hurricane Simon skirts Mexico’s Pacific coast as beachside communities and tourist areas prepare for impacts",
-      "url": "https://edition.cnn.com/2026/10/11/americas/mexico-hurricane-simon-intl-latam",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Hurricane Simon skirts Mexico’s Pacific coast as beachside communities and tourist areas prepare for impacts",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/americas/mexico-hurricane-simon-intl-latam",
-        "zh": "西蒙颶風沿墨西哥太平洋海岸移動，海濱社區和旅遊區準備應對影響。",
-        "accepted": [
-          [
-            "Hurricane",
-            "Simon",
-            "skirts",
-            "Mexico’s",
-            "Pacific",
-            "coast",
-            "as",
-            "beachside",
-            "communities",
-            "and",
-            "tourist",
-            "areas",
-            "prepare",
-            "for",
-            "impacts"
-          ]
-        ],
-        "distractors": [
-          "skirt",
-          "skirted",
-          "skirting",
-          "to",
-          "in"
-        ],
-        "notes": [
-          {
-            "word": "skirts",
-            "text": "「skirts」是動詞「skirt」的第三人稱單數現在式，表示「沿著邊緣移動」或「擦過」。主詞「Hurricane Simon」是單數。",
-            "category": "時態"
-          },
-          {
-            "word": "Mexico’s",
-            "text": "「Mexico’s」是所有格形式，表示「墨西哥的」。",
-            "category": "其他"
-          },
-          {
-            "word": "as",
-            "text": "「as」在這裡用作連接詞，表示「當...的時候」或「隨著」，引導一個時間或伴隨狀況的子句。",
-            "category": "其他"
-          },
-          {
-            "word": "prepare for",
-            "text": "「prepare for」是一個片語，表示「為...做準備」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "impacts",
-            "text": "「impacts」是名詞「impact」的複數形式，表示「影響」或「衝擊」。",
+            "word": "others",
+            "text": "'others' 作為代名詞，指「其他人」，與 'One teen' 相對應。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Jessica Griffin/The Philadelphia Inquirer via AP",
-      "url": "https://edition.cnn.com/2026/10/11/us/philadelphia-nicole-fusaro-missing-death",
+      "en": "Saudi Arabia intercepts three missiles as capital’s international airport remains closed after deadly Houthi attacks",
+      "url": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Jessica Griffin/The Philadelphia Inquirer via AP",
-        "sourceUrl": "https://edition.cnn.com/2026/10/11/us/philadelphia-nicole-fusaro-missing-death",
-        "zh": "傑西卡·格里芬/費城詢問報 透過 美聯社",
+        "sourceEn": "Saudi Arabia intercepts three missiles as capital’s international airport remains closed after deadly Houthi attacks",
+        "sourceUrl": "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
+        "zh": "沙烏地阿拉伯攔截了三枚飛彈，此前胡塞武裝的致命襲擊導致首都的國際機場仍然關閉。",
         "accepted": [
           [
-            "Jessica",
-            "Griffin",
-            "/",
-            "The",
-            "Philadelphia",
-            "Inquirer",
-            "via",
-            "AP"
+            "Saudi",
+            "Arabia",
+            "intercepts",
+            "three",
+            "missiles",
+            "as",
+            "capital’s",
+            "international",
+            "airport",
+            "remains",
+            "closed",
+            "after",
+            "deadly",
+            "Houthi",
+            "attacks"
           ]
         ],
         "distractors": [
-          "a",
-          "an",
-          "by",
-          "from",
-          "to"
+          "intercepted",
+          "intercepting",
+          "intercept",
+          "interceptors",
+          "interceptive",
+          "interceptible"
         ],
         "notes": [
           {
-            "word": "/",
-            "text": "斜線「/」在這裡表示「和」或「由...提供」。",
-            "category": "其他"
+            "word": "intercepts",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
           },
           {
-            "word": "The",
-            "text": "「The」是定冠詞，用於特指報紙名稱「The Philadelphia Inquirer」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "via",
-            "text": "「via」是介係詞，表示「透過」或「經由」。",
+            "word": "as",
+            "text": "'as' 在此表示「當...的時候」或「由於」，說明攔截飛彈與機場關閉是同時發生或有因果關係的。",
             "category": "介係詞"
           },
           {
-            "word": "AP",
-            "text": "「AP」是Associated Press（美聯社）的縮寫。",
+            "word": "capital’s",
+            "text": "'capital’s' 是所有格，表示「首都的」，修飾 'international airport'。",
+            "category": "其他"
+          },
+          {
+            "word": "remains",
+            "text": "'remains' 作為動詞，表示「保持、仍然是」，主語是 'airport'，因此使用單數形式。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Man dies after falling off roller coaster at Six Flags Over Georgia, police and witnesses say",
+      "url": "https://edition.cnn.com/2026/10/12/us/six-flags-roller-coaster-death-georgia",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Man dies after falling off roller coaster at Six Flags Over Georgia, police and witnesses say",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/us/six-flags-roller-coaster-death-georgia",
+        "zh": "警方和目擊者稱，一名男子在喬治亞州六旗遊樂園的雲霄飛車上摔下後死亡。",
+        "accepted": [
+          [
+            "Man",
+            "dies",
+            "after",
+            "falling",
+            "off",
+            "roller",
+            "coaster",
+            "at",
+            "Six",
+            "Flags",
+            "Over",
+            "Georgia",
+            ",",
+            "police",
+            "and",
+            "witnesses",
+            "say"
+          ]
+        ],
+        "distractors": [
+          "dead",
+          "died",
+          "dying",
+          "death",
+          "die",
+          "to die"
+        ],
+        "notes": [
+          {
+            "word": "dies",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
+          },
+          {
+            "word": "falling off",
+            "text": "'falling off' 表示「從...掉下來」，'off' 強調脫離。",
+            "category": "介係詞"
+          },
+          {
+            "word": "at",
+            "text": "'at' 用於表示具體地點，此處指在 'Six Flags Over Georgia' 這個遊樂園。",
+            "category": "介係詞"
+          },
+          {
+            "word": "police and witnesses say",
+            "text": "這是新聞報導中常見的引用來源方式，說明消息來源是警方和目擊者。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Russia deal, execution plans and deportations tell a defining tale about Trump and power",
+      "url": "https://edition.cnn.com/2026/10/12/politics/trump-russia-deal-livestream-execution-backlash",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Russia deal, execution plans and deportations tell a defining tale about Trump and power",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/politics/trump-russia-deal-livestream-execution-backlash",
+        "zh": "俄羅斯協議、處決計畫和驅逐出境，講述了一個關於川普和權力的決定性故事。",
+        "accepted": [
+          [
+            "Russia",
+            "deal",
+            ",",
+            "execution",
+            "plans",
+            "and",
+            "deportations",
+            "tell",
+            "a",
+            "defining",
+            "tale",
+            "about",
+            "Trump",
+            "and",
+            "power"
+          ]
+        ],
+        "distractors": [
+          "tells",
+          "told",
+          "telling",
+          "to tell",
+          "has told",
+          "will tell"
+        ],
+        "notes": [
+          {
+            "word": "deal, plans and deportations",
+            "text": "這三個名詞構成複合主語，因此動詞 'tell' 使用複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "tell",
+            "text": "此處使用現在時態，表示這些事件共同揭示了一個持續的、具有定義性的故事。",
+            "category": "時態"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'tale'，表示「一個」故事。",
+            "category": "冠詞"
+          },
+          {
+            "word": "about",
+            "text": "'about' 表示「關於」，說明這個故事的內容是關於川普和權力。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Zelensky says Russia has already violated Trump’s surprise energy ceasefire",
+      "url": "https://edition.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Zelensky says Russia has already violated Trump’s surprise energy ceasefire",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-ukraine-russia-energy-ceasefire",
+        "zh": "澤倫斯基表示，俄羅斯已經違反了川普出人意料的能源停火協議。",
+        "accepted": [
+          [
+            "Zelensky",
+            "says",
+            "Russia",
+            "has",
+            "already",
+            "violated",
+            "Trump’s",
+            "surprise",
+            "energy",
+            "ceasefire"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "saying",
+          "to say",
+          "will say",
+          "had said",
+          "says that"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "新聞標題常用現在時態來描述人物的言論，使其聽起來更即時。",
+            "category": "時態"
+          },
+          {
+            "word": "has already violated",
+            "text": "現在完成時 'has violated' 表示動作已經完成，且其影響持續到現在。",
+            "category": "時態"
+          },
+          {
+            "word": "Trump’s",
+            "text": "'Trump’s' 是所有格，表示「川普的」，修飾 'surprise energy ceasefire'。",
+            "category": "其他"
+          },
+          {
+            "word": "surprise",
+            "text": "'surprise' 在此作形容詞，修飾 'energy ceasefire'，表示「出人意料的」停火。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump says he’s considering firing Kimberly Guilfoyle and is ‘not happy’",
+      "url": "https://edition.cnn.com/2026/10/11/politics/trump-considering-whether-to-fire-guilfoyle-source-says",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump says he’s considering firing Kimberly Guilfoyle and is ‘not happy’",
+        "sourceUrl": "https://edition.cnn.com/2026/10/11/politics/trump-considering-whether-to-fire-guilfoyle-source-says",
+        "zh": "川普表示他正在考慮解僱金伯利·吉爾福伊爾，並且「不高興」。",
+        "accepted": [
+          [
+            "Trump",
+            "says",
+            "he’s",
+            "considering",
+            "firing",
+            "Kimberly",
+            "Guilfoyle",
+            "and",
+            "is",
+            "‘not",
+            "happy’"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "saying",
+          "to say",
+          "will say",
+          "had said",
+          "says that"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "新聞標題常用現在時態來描述人物的言論，使其聽起來更即時。",
+            "category": "時態"
+          },
+          {
+            "word": "he’s considering firing",
+            "text": "'he’s considering' 是現在進行時，表示正在考慮；'considering' 後接動名詞 'firing'。",
+            "category": "時態"
+          },
+          {
+            "word": "is ‘not happy’",
+            "text": "'is' 是動詞 'to be' 的現在單數形式，與 'he's' 中的 'is' 並列，表示川普的狀態。",
+            "category": "時態"
+          },
+          {
+            "word": "firing",
+            "text": "'firing' 作為動名詞，是 'considering' 的賓語，表示「解僱」這個行為。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "New WH press secretary’s social media posts reveal history of inflammatory rhetoric",
+      "url": "https://edition.cnn.com/2026/10/12/politics/kfile-katie-zacharia-deleted-tweets",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "New WH press secretary’s social media posts reveal history of inflammatory rhetoric",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/politics/kfile-katie-zacharia-deleted-tweets",
+        "zh": "新任白宮新聞秘書的社交媒體貼文揭示了其煽動性言論的歷史。",
+        "accepted": [
+          [
+            "New",
+            "WH",
+            "press",
+            "secretary’s",
+            "social",
+            "media",
+            "posts",
+            "reveal",
+            "history",
+            "of",
+            "inflammatory",
+            "rhetoric"
+          ]
+        ],
+        "distractors": [
+          "reveals",
+          "revealed",
+          "revealing",
+          "to reveal",
+          "has revealed",
+          "will reveal"
+        ],
+        "notes": [
+          {
+            "word": "posts",
+            "text": "主語 'posts' 是複數，因此動詞 'reveal' 使用原形。",
+            "category": "單複數"
+          },
+          {
+            "word": "reveal",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
+          },
+          {
+            "word": "secretary’s",
+            "text": "'secretary’s' 是所有格，表示「秘書的」，修飾 'social media posts'。",
+            "category": "其他"
+          },
+          {
+            "word": "of",
+            "text": "'of' 在此表示「...的」，說明 'history' 的內容是 'inflammatory rhetoric'。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘Breaking Bad’ actor RJ Mitte dead at 34",
+      "url": "https://edition.cnn.com/2026/10/12/entertainment/rj-mitte-death",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘Breaking Bad’ actor RJ Mitte dead at 34",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/entertainment/rj-mitte-death",
+        "zh": "《絕命毒師》演員RJ Mitte在34歲時去世。",
+        "accepted": [
+          [
+            "‘Breaking",
+            "Bad’",
+            "actor",
+            "RJ",
+            "Mitte",
+            "dead",
+            "at",
+            "34"
+          ]
+        ],
+        "distractors": [
+          "dies",
+          "died",
+          "dying",
+          "death",
+          "to die",
+          "is dead"
+        ],
+        "notes": [
+          {
+            "word": "dead",
+            "text": "'dead' 是形容詞，表示「死亡的」，此處用作表語，省略了動詞 'is'，是新聞標題常見的簡潔表達方式。",
+            "category": "其他"
+          },
+          {
+            "word": "at",
+            "text": "'at' 在此表示年齡，指「在...歲時」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "‘Breaking Bad’ actor",
+            "text": "這是對 'RJ Mitte' 的身份描述，說明他是《絕命毒師》的演員。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Selma Blair in custody after allegedly injuring flight attendants on plane",
+      "url": "https://edition.cnn.com/2026/10/12/entertainment/selma-blair-flight-attendants-plane",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Selma Blair in custody after allegedly injuring flight attendants on plane",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/entertainment/selma-blair-flight-attendants-plane",
+        "zh": "塞爾瑪·布萊爾在據稱於飛機上傷害空服員後被拘留。",
+        "accepted": [
+          [
+            "Selma",
+            "Blair",
+            "in",
+            "custody",
+            "after",
+            "allegedly",
+            "injuring",
+            "flight",
+            "attendants",
+            "on",
+            "plane"
+          ]
+        ],
+        "distractors": [
+          "was",
+          "is",
+          "has been",
+          "had been",
+          "will be",
+          "being"
+        ],
+        "notes": [
+          {
+            "word": "in custody",
+            "text": "這是新聞標題的簡潔表達，省略了動詞 'was' 或 'is'，表示「被拘留」。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "'after' 表示「在...之後」，說明被拘留發生在傷害空服員之後。",
+            "category": "介係詞"
+          },
+          {
+            "word": "allegedly",
+            "text": "'allegedly' 是副詞，表示「據稱、據說」，強調這是一個指控而非已證實的事實。",
+            "category": "其他"
+          },
+          {
+            "word": "injuring",
+            "text": "'injuring' 是動名詞，作為 'after' 的賓語，表示「傷害」這個行為。",
+            "category": "其他"
+          },
+          {
+            "word": "on",
+            "text": "'on' 在此表示「在...上」，指在飛機上。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "NASA may already have proof life once existed on another planet. Scientists might never get to find out",
+      "url": "https://edition.cnn.com/2026/10/12/science/nasa-mars-sample-return-sapphire-canyon-china",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "NASA may already have proof life once existed on another planet. Scientists might never get to find out",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/science/nasa-mars-sample-return-sapphire-canyon-china",
+        "zh": "NASA可能已經有證據證明生命曾存在於另一個星球。科學家們可能永遠無法發現。",
+        "accepted": [
+          [
+            "NASA",
+            "may",
+            "already",
+            "have",
+            "proof",
+            "life",
+            "once",
+            "existed",
+            "on",
+            "another",
+            "planet",
+            ".",
+            "Scientists",
+            "might",
+            "never",
+            "get",
+            "to",
+            "find",
+            "out"
+          ]
+        ],
+        "distractors": [
+          "has",
+          "had",
+          "having",
+          "to have",
+          "will have",
+          "is having"
+        ],
+        "notes": [
+          {
+            "word": "may have",
+            "text": "'may have' 表示「可能已經有」，表達可能性。",
+            "category": "時態"
+          },
+          {
+            "word": "once existed",
+            "text": "'once existed' 表示「曾經存在過」，強調過去的狀態。",
+            "category": "時態"
+          },
+          {
+            "word": "on",
+            "text": "'on' 在此表示「在...上」，指在另一個星球上。",
+            "category": "介係詞"
+          },
+          {
+            "word": "might never get to find out",
+            "text": "'might never get to' 表示「可能永遠無法有機會去做某事」，表達一種不確定性或可能性。",
+            "category": "時態"
+          },
+          {
+            "word": "another",
+            "text": "'another' 表示「另一個」，修飾單數可數名詞 'planet'。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+      "url": "https://edition.cnn.com/2026/10/12/europe/france-supermarket-cyberattack-fridges-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/europe/france-supermarket-cyberattack-fridges-intl",
+        "zh": "駭客加熱法國超市冰箱，引發火災並損壞食物。",
+        "accepted": [
+          [
+            "Hackers",
+            "heat",
+            "French",
+            "supermarket",
+            "fridges",
+            ",",
+            "sparking",
+            "fires",
+            "and",
+            "spoiling",
+            "food"
+          ]
+        ],
+        "distractors": [
+          "heated",
+          "heating",
+          "to heat",
+          "have heated",
+          "will heat",
+          "heats"
+        ],
+        "notes": [
+          {
+            "word": "heat",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
+          },
+          {
+            "word": "sparking fires and spoiling food",
+            "text": "這兩個現在分詞片語作伴隨狀語，說明駭客行為造成的結果。",
+            "category": "其他"
+          },
+          {
+            "word": "French",
+            "text": "'French' 作形容詞，表示「法國的」，修飾 'supermarket fridges'。",
+            "category": "其他"
+          },
+          {
+            "word": "fridges",
+            "text": "'fridges' 是 'refrigerators' 的縮寫，指「冰箱」，此處為複數。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Fire destroys ‘Enfants Rouges,’ Paris’ historic covered food market",
+      "url": "https://edition.cnn.com/2026/10/12/travel/enfants-rouges-fire-paris-france-intl-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Fire destroys ‘Enfants Rouges,’ Paris’ historic covered food market",
+        "sourceUrl": "https://edition.cnn.com/2026/10/12/travel/enfants-rouges-fire-paris-france-intl-scli",
+        "zh": "大火燒毀了巴黎歷史悠久的室內食品市場「紅孩兒」。",
+        "accepted": [
+          [
+            "Fire",
+            "destroys",
+            "‘Enfants",
+            "Rouges,’",
+            "Paris’",
+            "historic",
+            "covered",
+            "food",
+            "market"
+          ]
+        ],
+        "distractors": [
+          "destroyed",
+          "destroying",
+          "to destroy",
+          "has destroyed",
+          "will destroy",
+          "destroy"
+        ],
+        "notes": [
+          {
+            "word": "destroys",
+            "text": "新聞標題常用現在時態來描述最近發生的事件，使其聽起來更即時。",
+            "category": "時態"
+          },
+          {
+            "word": "Paris’",
+            "text": "'Paris’' 是所有格，表示「巴黎的」，修飾 'historic covered food market'。",
+            "category": "其他"
+          },
+          {
+            "word": "historic",
+            "text": "'historic' 作形容詞，表示「歷史性的、歷史悠久的」，修飾 'market'。",
+            "category": "其他"
+          },
+          {
+            "word": "covered",
+            "text": "'covered' 是過去分詞作形容詞，表示「有蓋的、室內的」，修飾 'food market'。",
             "category": "其他"
           }
         ]
