@@ -1,331 +1,106 @@
 {
-  "date": "2026-10-13",
-  "fetchedAt": "2026-10-13T23:40:48.741Z",
+  "date": "2026-10-14",
+  "fetchedAt": "2026-10-14T23:06:17.883Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Six Flags Over Georgia roller coaster",
-      "url": "https://edition.cnn.com/2026/10/12/us/six-flags-roller-coaster-death-georgia",
+      "en": "Wildlife Photographer of the Year 2026",
+      "url": "https://edition.cnn.com/2026/10/13/travel/wildlife-photographer-2026-winners-scli-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Six Flags Over Georgia roller coaster",
-        "sourceUrl": "https://edition.cnn.com/2026/10/12/us/six-flags-roller-coaster-death-georgia",
-        "zh": "喬治亞州六旗樂園的雲霄飛車",
+        "sourceEn": "Wildlife Photographer of the Year 2026",
+        "sourceUrl": "https://edition.cnn.com/2026/10/13/travel/wildlife-photographer-2026-winners-scli-intl",
+        "zh": "2026年度野生動物攝影師",
         "accepted": [
           [
-            "Six",
-            "Flags",
-            "Over",
-            "Georgia",
-            "roller",
-            "coaster"
-          ]
-        ],
-        "distractors": [
-          "ride",
-          "park",
-          "amusement",
-          "thrill",
-          "fun"
-        ],
-        "notes": [
-          {
-            "word": "Over",
-            "text": "在這裡 'Over Georgia' 指的是樂園的名稱，是 'Six Flags Over Georgia' 的一部分，不是指地理位置上的『在喬治亞上方』。",
-            "category": "其他"
-          },
-          {
-            "word": "roller coaster",
-            "text": "『roller coaster』是雲霄飛車的意思，是複合名詞。",
-            "category": "其他"
-          },
-          {
-            "word": "Flags",
-            "text": "『Flags』在這裡是複數，因為『Six Flags』是樂園的專有名稱。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks",
-      "url": "https://edition.cnn.com/2026/10/13/middleeast/saudi-arabia-defenses-yemen-houthis-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/middleeast/saudi-arabia-defenses-yemen-houthis-intl",
-        "zh": "為什麼數十億的國防開支未能保護沙烏地阿拉伯免受胡塞武裝襲擊？",
-        "accepted": [
-          [
-            "Why",
-            "billions",
-            "spent",
-            "on",
-            "defense",
-            "haven’t",
-            "shielded",
-            "Saudi",
-            "Arabia",
-            "from",
-            "Houthi",
-            "attacks"
-          ]
-        ],
-        "distractors": [
-          "how",
-          "money",
-          "protect",
-          "against",
-          "security",
-          "failed"
-        ],
-        "notes": [
-          {
-            "word": "spent",
-            "text": "『spent』是動詞『spend』的過去分詞，在這裡作形容詞，修飾『billions』，表示『花費的數十億』。",
-            "category": "時態"
-          },
-          {
-            "word": "haven’t shielded",
-            "text": "『haven’t shielded』是現在完成式否定，表示『至今尚未保護』。",
-            "category": "時態"
-          },
-          {
-            "word": "on defense",
-            "text": "『on defense』表示『在國防方面』或『用於國防』。",
-            "category": "介係詞"
-          },
-          {
-            "word": "from Houthi attacks",
-            "text": "『shielded from...』表示『保護免受...』，『from』在這裡表示來源或原因。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Saudi Arabia strikes key fuel depot in Yemen as conflict with Houthis escalates",
-      "url": "https://edition.cnn.com/2026/10/13/middleeast/saudi-strikes-houthi-fuel-depot-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Saudi Arabia strikes key fuel depot in Yemen as conflict with Houthis escalates",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/middleeast/saudi-strikes-houthi-fuel-depot-latam-intl",
-        "zh": "沙烏地阿拉伯襲擊葉門主要燃料庫，與胡塞武裝的衝突升級",
-        "accepted": [
-          [
-            "Saudi",
-            "Arabia",
-            "strikes",
-            "key",
-            "fuel",
-            "depot",
-            "in",
-            "Yemen",
-            "as",
-            "conflict",
-            "with",
-            "Houthis",
-            "escalates"
-          ]
-        ],
-        "distractors": [
-          "attacked",
-          "important",
-          "oil",
-          "and",
-          "war",
-          "intensifies"
-        ],
-        "notes": [
-          {
-            "word": "strikes",
-            "text": "新聞標題常用現在式動詞表示最近發生的事件，即使在中文語境中可能翻譯成過去式。",
-            "category": "時態"
-          },
-          {
-            "word": "as conflict with Houthis escalates",
-            "text": "『as』在這裡表示『隨著』或『當...的時候』，引導一個時間或原因狀語從句。",
-            "category": "其他"
-          },
-          {
-            "word": "in Yemen",
-            "text": "『in』在這裡表示地點，『在葉門』。",
-            "category": "介係詞"
-          },
-          {
-            "word": "with Houthis",
-            "text": "『with』在這裡表示『與...的』，指衝突的對象。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "White House ousts Kimberly Guilfoyle as US ambassador to Greece",
-      "url": "https://edition.cnn.com/2026/10/13/politics/kimberly-guilfoyle-resign",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "White House ousts Kimberly Guilfoyle as US ambassador to Greece",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/politics/kimberly-guilfoyle-resign",
-        "zh": "白宮罷免金伯利·吉爾福伊爾為美國駐希臘大使",
-        "accepted": [
-          [
-            "White",
-            "House",
-            "ousts",
-            "Kimberly",
-            "Guilfoyle",
-            "as",
-            "US",
-            "ambassador",
-            "to",
-            "Greece"
-          ]
-        ],
-        "distractors": [
-          "removed",
-          "fired",
-          "from",
-          "the",
-          "Greek",
-          "diplomat"
-        ],
-        "notes": [
-          {
-            "word": "ousts",
-            "text": "新聞標題常用現在式動詞表示最近發生的事件，即使在中文語境中可能翻譯成過去式。",
-            "category": "時態"
-          },
-          {
-            "word": "as US ambassador",
-            "text": "『as』在這裡表示『作為』或『擔任』某種職位。",
-            "category": "其他"
-          },
-          {
-            "word": "to Greece",
-            "text": "『to』在這裡表示派遣或任命的目的地，『駐希臘』。",
-            "category": "介係詞"
-          },
-          {
-            "word": "White House",
-            "text": "『White House』指美國白宮，通常代表美國總統或其政府。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Bank of America fined $1.2 billion by US Treasury Department for money laundering and sanctions laws violations",
-      "url": "https://edition.cnn.com/2026/10/13/investing/bank-of-america-billion-dollar-fine",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Bank of America fined $1.2 billion by US Treasury Department for money laundering and sanctions laws violations",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/investing/bank-of-america-billion-dollar-fine",
-        "zh": "美國財政部因洗錢和違反制裁法規對美國銀行處以12億美元罰款",
-        "accepted": [
-          [
-            "Bank",
+            "Wildlife",
+            "Photographer",
             "of",
-            "America",
-            "fined",
-            "$1.2",
-            "billion",
-            "by",
-            "US",
-            "Treasury",
-            "Department",
-            "for",
-            "money",
-            "laundering",
-            "and",
-            "sanctions",
-            "laws",
-            "violations"
+            "the",
+            "Year",
+            "2026"
           ]
         ],
         "distractors": [
-          "fines",
-          "penalty",
-          "from",
-          "due",
-          "breaking",
-          "rules"
+          "Photo",
+          "Annual",
+          "Award",
+          "Best",
+          "Nature",
+          "Competition"
         ],
         "notes": [
           {
-            "word": "fined",
-            "text": "這裡的『fined』是過去分詞，表示被動語態，『被罰款』。完整的句子可能是『Bank of America was fined...』。",
-            "category": "時態"
-          },
-          {
-            "word": "by US Treasury Department",
-            "text": "『by』在這裡表示動作的執行者，『由美國財政部』。",
+            "word": "of",
+            "text": "在這裡，「of」表示所有格或歸屬關係，說明「年度攝影師」是屬於「野生動物」的。",
             "category": "介係詞"
           },
           {
-            "word": "for money laundering and sanctions laws violations",
-            "text": "『for』在這裡表示原因或理由，『因為...』。",
-            "category": "介係詞"
+            "word": "the",
+            "text": "「the Year」表示特指某個年份，即2026年。",
+            "category": "冠詞"
           },
           {
-            "word": "violations",
-            "text": "『violations』是複數，表示有多種違規行為。",
-            "category": "單複數"
+            "word": "Photographer",
+            "text": "「Photographer」是名詞，指攝影師。",
+            "category": "其他"
+          },
+          {
+            "word": "Wildlife",
+            "text": "「Wildlife」是複合名詞，指野生動物，在這裡作定語修飾「Photographer」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Pope Leo has part of his lung removed as cancer found",
-      "url": "https://edition.cnn.com/2026/10/13/europe/pope-hospital-lung-surgery-intl",
+      "en": "Pope shares first message after lung cancer diagnosis",
+      "url": "https://edition.cnn.com/2026/10/14/europe/pope-first-message-cancer-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Pope Leo has part of his lung removed as cancer found",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/europe/pope-hospital-lung-surgery-intl",
-        "zh": "教宗良因發現癌症而切除部分肺部",
+        "sourceEn": "Pope shares first message after lung cancer diagnosis",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/europe/pope-first-message-cancer-latam-intl",
+        "zh": "教宗在確診肺癌後首次分享訊息",
         "accepted": [
           [
             "Pope",
-            "Leo",
-            "has",
-            "part",
-            "of",
-            "his",
+            "shares",
+            "first",
+            "message",
+            "after",
             "lung",
-            "removed",
-            "as",
             "cancer",
-            "found"
+            "diagnosis"
           ]
         ],
         "distractors": [
-          "had",
-          "a",
-          "removed",
-          "because",
-          "was",
-          "discovered"
+          "said",
+          "announcement",
+          "before",
+          "diagnosed",
+          "disease",
+          "reveals"
         ],
         "notes": [
           {
-            "word": "has ... removed",
-            "text": "『have something done』是一種使役動詞的用法，表示『讓某事被完成』，這裡指『讓部分肺部被切除』。",
-            "category": "其他"
-          },
-          {
-            "word": "as cancer found",
-            "text": "『as』在這裡表示原因，『因為』。新聞標題中常省略助動詞，完整可能是『as cancer was found』。",
+            "word": "shares",
+            "text": "動詞「shares」是現在式，表示教宗分享訊息的動作。",
             "category": "時態"
           },
           {
-            "word": "part of his lung",
-            "text": "『part of』表示『...的一部分』。",
+            "word": "first",
+            "text": "「first」是序數詞，表示這是他確診後的「第一個」訊息。",
             "category": "其他"
           },
           {
-            "word": "lung",
-            "text": "『lung』是單數，表示肺部的一部分。",
-            "category": "單複數"
+            "word": "after",
+            "text": "介係詞「after」表示時間順序，在「lung cancer diagnosis」之後。",
+            "category": "介係詞"
+          },
+          {
+            "word": "diagnosis",
+            "text": "「diagnosis」是名詞，指診斷，這裡指肺癌的診斷結果。",
+            "category": "其他"
           }
         ]
       }
@@ -337,7 +112,7 @@
         "theme": "今日新聞",
         "sourceEn": "What to know about pulmonary adenocarcinoma",
         "sourceUrl": "https://edition.cnn.com/2026/10/13/health/pope-leo-lung-cancer-what-to-know",
-        "zh": "關於肺腺癌你需要知道什麼",
+        "zh": "關於肺腺癌你該知道什麼",
         "accepted": [
           [
             "What",
@@ -349,314 +124,597 @@
           ]
         ],
         "distractors": [
-          "how",
-          "should",
-          "understand",
-          "of",
-          "lung",
-          "cancer"
+          "How",
+          "knowing",
+          "for",
+          "learn",
+          "is",
+          "information"
         ],
         "notes": [
           {
-            "word": "What to know",
-            "text": "『What to know』是『What you need to know』的簡潔表達，常用於標題，表示『需要知道什麼』。",
+            "word": "What",
+            "text": "「What」作為疑問詞，引導一個關於「該知道什麼」的問題。",
+            "category": "其他"
+          },
+          {
+            "word": "to know",
+            "text": "「to know」是不定詞片語，表示「應該知道」或「需要知道」的內容。",
             "category": "其他"
           },
           {
             "word": "about",
-            "text": "『about』在這裡表示主題或內容，『關於』。",
+            "text": "介係詞「about」表示關於、有關，說明知道的內容是關於「pulmonary adenocarcinoma」。",
             "category": "介係詞"
           },
           {
             "word": "pulmonary adenocarcinoma",
-            "text": "『pulmonary adenocarcinoma』是醫學術語，指『肺腺癌』。",
+            "text": "「pulmonary adenocarcinoma」是醫學術語，指肺腺癌。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "James Talarico has Democrats dreaming big after decades of dashed hopes in Texas",
-      "url": "https://edition.cnn.com/2026/10/13/politics/james-talarico-texas-senate-democrats",
+      "en": "Greenland contradicts Trump’s claim that ‘massive’ oil and gas drilling is about to begin there",
+      "url": "https://edition.cnn.com/2026/10/14/politics/trump-greenland-oil-gas-minerals-intl-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "James Talarico has Democrats dreaming big after decades of dashed hopes in Texas",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/politics/james-talarico-texas-senate-democrats",
-        "zh": "在德州數十年希望破滅後，詹姆斯·塔拉里科讓民主黨人懷抱遠大夢想",
+        "sourceEn": "Greenland contradicts Trump’s claim that ‘massive’ oil and gas drilling is about to begin there",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/politics/trump-greenland-oil-gas-minerals-intl-hnk",
+        "zh": "格陵蘭反駁川普關於「大規模」石油和天然氣鑽探即將開始的說法",
         "accepted": [
           [
-            "James",
-            "Talarico",
-            "has",
-            "Democrats",
-            "dreaming",
-            "big",
-            "after",
-            "decades",
-            "of",
-            "dashed",
-            "hopes",
-            "in",
-            "Texas"
-          ]
-        ],
-        "distractors": [
-          "made",
-          "dream",
-          "great",
-          "for",
-          "long",
-          "failed"
-        ],
-        "notes": [
-          {
-            "word": "has Democrats dreaming",
-            "text": "『have someone doing something』表示『讓某人做某事』，這裡指『讓民主黨人夢想』。",
-            "category": "其他"
-          },
-          {
-            "word": "dreaming big",
-            "text": "『dream big』是一個片語，表示『懷抱遠大夢想』。",
-            "category": "其他"
-          },
-          {
-            "word": "after decades of dashed hopes",
-            "text": "『dashed hopes』表示『破滅的希望』，『decades of』表示『數十年之久』。",
-            "category": "其他"
-          },
-          {
-            "word": "in Texas",
-            "text": "『in』在這裡表示地點，『在德州』。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Republicans need evangelicals to turn out in the midterms. Faith leaders are sounding the alarm they may not",
-      "url": "https://edition.cnn.com/2026/10/13/politics/evangelicals-republicans-midterm-losses",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Republicans need evangelicals to turn out in the midterms. Faith leaders are sounding the alarm they may not",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/politics/evangelicals-republicans-midterm-losses",
-        "zh": "共和黨人需要福音派人士在中期選舉中投票。信仰領袖們正在發出他們可能不會投票的警報",
-        "accepted": [
-          [
-            "Republicans",
-            "need",
-            "evangelicals",
-            "to",
-            "turn",
-            "out",
-            "in",
-            "the",
-            "midterms",
-            ".",
-            "Faith",
-            "leaders",
-            "are",
-            "sounding",
-            "the",
-            "alarm",
-            "they",
-            "may",
-            "not"
-          ]
-        ],
-        "distractors": [
-          "must",
-          "vote",
-          "for",
-          "election",
-          "warning",
-          "will"
-        ],
-        "notes": [
-          {
-            "word": "turn out",
-            "text": "『turn out』在這裡表示『出席』或『投票』。",
-            "category": "其他"
-          },
-          {
-            "word": "in the midterms",
-            "text": "『in』在這裡表示時間或事件，『在中期選舉中』。",
-            "category": "介係詞"
-          },
-          {
-            "word": "sounding the alarm",
-            "text": "『sound the alarm』是一個片語，表示『發出警報』。",
-            "category": "其他"
-          },
-          {
-            "word": "they may not",
-            "text": "『may not』表示『可能不會』，這裡省略了後面的動詞『turn out』，是常見的省略用法。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "『the midterms』和『the alarm』中的『the』是定冠詞，指特定的中期選舉和警報。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The leap second is on the chopping block — and timekeeping could change forever",
-      "url": "https://edition.cnn.com/2026/10/13/science/leap-second-elimination-time-standard",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The leap second is on the chopping block — and timekeeping could change forever",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/science/leap-second-elimination-time-standard",
-        "zh": "閏秒即將被廢除——時間計量方式可能永遠改變",
-        "accepted": [
-          [
-            "The",
-            "leap",
-            "second",
-            "is",
-            "on",
-            "the",
-            "chopping",
-            "block",
-            "—",
+            "Greenland",
+            "contradicts",
+            "Trump’s",
+            "claim",
+            "that",
+            "‘massive’",
+            "oil",
             "and",
-            "timekeeping",
-            "could",
-            "change",
-            "forever"
-          ]
-        ],
-        "distractors": [
-          "a",
-          "will",
-          "at",
-          "be",
-          "may",
-          "always"
-        ],
-        "notes": [
-          {
-            "word": "on the chopping block",
-            "text": "『on the chopping block』是一個慣用語，表示『即將被廢除』或『面臨被淘汰』。",
-            "category": "其他"
-          },
-          {
-            "word": "could change",
-            "text": "『could』在這裡表示可能性，『可能改變』。",
-            "category": "其他"
-          },
-          {
-            "word": "forever",
-            "text": "『forever』表示『永遠』，強調時間的長久性。",
-            "category": "其他"
-          },
-          {
-            "word": "The",
-            "text": "『The leap second』和『the chopping block』中的『the』是定冠詞，指特定的閏秒和砧板（比喻）。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Federico Veronesi/Wildlife Photographer of the Year",
-      "url": "https://edition.cnn.com/2026/10/13/travel/wildlife-photographer-2026-winners-scli-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Federico Veronesi/Wildlife Photographer of the Year",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/travel/wildlife-photographer-2026-winners-scli-intl",
-        "zh": "費德里科·維羅內西/年度野生動物攝影師",
-        "accepted": [
-          [
-            "Federico",
-            "Veronesi",
-            "/",
-            "Wildlife",
-            "Photographer",
-            "of",
-            "the",
-            "Year"
-          ]
-        ],
-        "distractors": [
-          "and",
-          "a",
-          "best",
-          "photo",
-          "award",
-          "winner"
-        ],
-        "notes": [
-          {
-            "word": "/",
-            "text": "斜線通常用於分隔不同的資訊，這裡可能表示作者與獎項的關係。",
-            "category": "其他"
-          },
-          {
-            "word": "Photographer of the Year",
-            "text": "『Photographer of the Year』是一個常見的獎項名稱，表示『年度攝影師』。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "『the Year』中的『the』是定冠詞，指特定的年度。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "New York City’s iconic horse-drawn carriages expected to take their last trot",
-      "url": "https://edition.cnn.com/2026/10/13/us/nyc-horse-carriage-ban",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "New York City’s iconic horse-drawn carriages expected to take their last trot",
-        "sourceUrl": "https://edition.cnn.com/2026/10/13/us/nyc-horse-carriage-ban",
-        "zh": "紐約市標誌性的馬車預計將進行最後一次小跑",
-        "accepted": [
-          [
-            "New",
-            "York",
-            "City’s",
-            "iconic",
-            "horse-drawn",
-            "carriages",
-            "expected",
+            "gas",
+            "drilling",
+            "is",
+            "about",
             "to",
-            "take",
-            "their",
-            "last",
-            "trot"
+            "begin",
+            "there"
           ]
         ],
         "distractors": [
-          "NYC",
-          "famous",
-          "horses",
+          "agrees",
+          "claims",
+          "for",
           "will",
-          "make",
-          "ride"
+          "start",
+          "here"
         ],
         "notes": [
           {
-            "word": "City’s",
-            "text": "『City’s』是所有格，表示『城市的』。",
-            "category": "其他"
-          },
-          {
-            "word": "horse-drawn carriages",
-            "text": "『horse-drawn』是複合形容詞，表示『馬拉的』；『carriages』是複數，指『馬車』。",
-            "category": "單複數"
-          },
-          {
-            "word": "expected to",
-            "text": "『expected to』表示『預計將會』，新聞標題中常省略助動詞，完整可能是『are expected to』。",
+            "word": "contradicts",
+            "text": "動詞「contradicts」是現在式，表示格陵蘭反駁川普說法的動作。",
             "category": "時態"
           },
           {
-            "word": "take their last trot",
-            "text": "『take a trot』表示『小跑』，『their last trot』表示『最後一次小跑』。",
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格，表示「川普的」說法。",
             "category": "其他"
+          },
+          {
+            "word": "claim that",
+            "text": "「claim that」引導一個名詞子句，說明川普聲稱的具體內容。",
+            "category": "其他"
+          },
+          {
+            "word": "is about to begin",
+            "text": "「is about to begin」表示「即將開始」的未來動作。",
+            "category": "時態"
+          },
+          {
+            "word": "there",
+            "text": "副詞「there」指代格陵蘭，表示鑽探將在那裡開始。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Exclusive Judge limited Justice Department access to Rep. Ilhan Omar’s records in sprawling immigration fraud probe",
+      "url": "https://edition.cnn.com/2026/10/14/politics/judge-limited-justice-department-access-rep-ilhan-omar-records-immigration-fraud",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Exclusive Judge limited Justice Department access to Rep. Ilhan Omar’s records in sprawling immigration fraud probe",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/politics/judge-limited-justice-department-access-rep-ilhan-omar-records-immigration-fraud",
+        "zh": "CNN獨家：法官在針對眾議員伊爾汗·奧馬爾的廣泛移民詐欺調查中，限制了司法部查閱其記錄的權限",
+        "accepted": [
+          [
+            "CNN",
+            "Exclusive",
+            "Judge",
+            "limited",
+            "Justice",
+            "Department",
+            "access",
+            "to",
+            "Rep.",
+            "Ilhan",
+            "Omar’s",
+            "records",
+            "in",
+            "sprawling",
+            "immigration",
+            "fraud",
+            "probe"
+          ]
+        ],
+        "distractors": [
+          "Unlimited",
+          "accessing",
+          "from",
+          "record",
+          "investigation",
+          "expanded"
+        ],
+        "notes": [
+          {
+            "word": "limited",
+            "text": "動詞「limited」是過去式，表示法官限制權限的動作已經發生。",
+            "category": "時態"
+          },
+          {
+            "word": "access to",
+            "text": "「access to」表示「查閱...的權限」，後面接被查閱的對象。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Rep. Ilhan Omar’s records",
+            "text": "「Rep. Ilhan Omar’s records」是所有格，指「眾議員伊爾汗·奧馬爾的記錄」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "介係詞「in」表示在...之中，說明限制權限的背景是在「sprawling immigration fraud probe」中。",
+            "category": "介係詞"
+          },
+          {
+            "word": "sprawling",
+            "text": "形容詞「sprawling」表示廣泛的、蔓延的，修飾「immigration fraud probe」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Gift for Putin as fears grow Trump is turning the screws on Ukraine",
+      "url": "https://edition.cnn.com/2026/10/14/world/putin-trump-ukraine-war-intelligence-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Gift for Putin as fears grow Trump is turning the screws on Ukraine",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/world/putin-trump-ukraine-war-intelligence-latam-intl",
+        "zh": "送給普丁的禮物，因為人們擔心川普正在對烏克蘭施壓",
+        "accepted": [
+          [
+            "Gift",
+            "for",
+            "Putin",
+            "as",
+            "fears",
+            "grow",
+            "Trump",
+            "is",
+            "turning",
+            "the",
+            "screws",
+            "on",
+            "Ukraine"
+          ]
+        ],
+        "distractors": [
+          "Present",
+          "to",
+          "while",
+          "fear",
+          "turns",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "for",
+            "text": "介係詞「for」表示目的或對象，說明禮物是「給普丁的」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "as",
+            "text": "連詞「as」在這裡表示「隨著...」或「因為...」，引導一個伴隨狀況或原因的子句。",
+            "category": "其他"
+          },
+          {
+            "word": "fears grow",
+            "text": "「fears grow」表示「擔憂增加」，「grow」是現在式。",
+            "category": "時態"
+          },
+          {
+            "word": "is turning the screws",
+            "text": "「is turning the screws」是現在進行式，表示川普正在施壓的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "on",
+            "text": "片語「turn the screws on someone」中的「on」表示對象，即對烏克蘭施壓。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Zelensky says he feels betrayed by Trump after Russia fuel deal",
+      "url": "https://edition.cnn.com/2026/10/14/europe/zelensky-trump-russia-fuel-deal-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Zelensky says he feels betrayed by Trump after Russia fuel deal",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/europe/zelensky-trump-russia-fuel-deal-latam-intl",
+        "zh": "澤倫斯基表示，在俄羅斯燃料交易後，他感覺被川普背叛了",
+        "accepted": [
+          [
+            "Zelensky",
+            "says",
+            "he",
+            "feels",
+            "betrayed",
+            "by",
+            "Trump",
+            "after",
+            "Russia",
+            "fuel",
+            "deal"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "felt",
+          "betrays",
+          "with",
+          "before",
+          "agreement"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "動詞「says」是現在式，表示澤倫斯基的發言。",
+            "category": "時態"
+          },
+          {
+            "word": "feels betrayed",
+            "text": "「feels betrayed」表示「感覺被背叛」，「feels」是現在式，而「betrayed」是過去分詞作表語。",
+            "category": "時態"
+          },
+          {
+            "word": "by",
+            "text": "介係詞「by」表示動作的執行者，即被「Trump」背叛。",
+            "category": "介係詞"
+          },
+          {
+            "word": "after",
+            "text": "介係詞「after」表示時間順序，在「Russia fuel deal」之後。",
+            "category": "介係詞"
+          },
+          {
+            "word": "deal",
+            "text": "「deal」是名詞，指交易、協議。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Ukraine says some military-grade Starlink services restricted, disrupting operations as Russian attacks continue",
+      "url": "https://edition.cnn.com/2026/10/14/europe/russia-ukraine-energy-strike-early-warning-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Ukraine says some military-grade Starlink services restricted, disrupting operations as Russian attacks continue",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/europe/russia-ukraine-energy-strike-early-warning-intl-hnk",
+        "zh": "烏克蘭表示，一些軍用級星鏈服務受限，俄羅斯襲擊持續，擾亂了行動",
+        "accepted": [
+          [
+            "Ukraine",
+            "says",
+            "some",
+            "military-grade",
+            "Starlink",
+            "services",
+            "restricted",
+            ",",
+            "disrupting",
+            "operations",
+            "as",
+            "Russian",
+            "attacks",
+            "continue"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "all",
+          "unrestricted",
+          "disrupted",
+          "operation",
+          "stopped"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "動詞「says」是現在式，表示烏克蘭的發言。",
+            "category": "時態"
+          },
+          {
+            "word": "restricted",
+            "text": "「restricted」是過去分詞，在這裡作形容詞，表示「受限制的」。",
+            "category": "其他"
+          },
+          {
+            "word": "disrupting",
+            "text": "「disrupting」是現在分詞，作伴隨狀語，表示「擾亂了」行動。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "連詞「as」在這裡表示「當...的時候」或「因為...」，引導一個時間或原因子句。",
+            "category": "其他"
+          },
+          {
+            "word": "continue",
+            "text": "動詞「continue」是現在式，表示俄羅斯襲擊仍在持續。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump admin silent as Russia hits US businesses with ‘drones and missiles’ in Ukraine",
+      "url": "https://edition.cnn.com/2026/10/14/politics/american-businesses-targeted-russia-ukraine-coca-cola-mcdonalds",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump admin silent as Russia hits US businesses with ‘drones and missiles’ in Ukraine",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/politics/american-businesses-targeted-russia-ukraine-coca-cola-mcdonalds",
+        "zh": "川普政府保持沉默，因為俄羅斯在烏克蘭用「無人機和飛彈」襲擊美國企業",
+        "accepted": [
+          [
+            "Trump",
+            "admin",
+            "silent",
+            "as",
+            "Russia",
+            "hits",
+            "US",
+            "businesses",
+            "with",
+            "‘drones",
+            "and",
+            "missiles’",
+            "in",
+            "Ukraine"
+          ]
+        ],
+        "distractors": [
+          "administration",
+          "loud",
+          "while",
+          "hit",
+          "business",
+          "at"
+        ],
+        "notes": [
+          {
+            "word": "admin",
+            "text": "「admin」是「administration」的縮寫，指政府、行政部門。",
+            "category": "其他"
+          },
+          {
+            "word": "silent",
+            "text": "形容詞「silent」表示沉默的，在這裡作表語。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "連詞「as」在這裡表示「當...的時候」或「因為...」，引導一個時間或原因子句。",
+            "category": "其他"
+          },
+          {
+            "word": "hits",
+            "text": "動詞「hits」是現在式，表示俄羅斯襲擊的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "with",
+            "text": "介係詞「with」表示使用工具或方式，即用「drones and missiles」襲擊。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump administration escalates voter roll fight with threats against California election officials",
+      "url": "https://edition.cnn.com/2026/10/14/politics/justice-department-threats-california-election-officials",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump administration escalates voter roll fight with threats against California election officials",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/politics/justice-department-threats-california-election-officials",
+        "zh": "川普政府升級選民名冊鬥爭，威脅加州選舉官員",
+        "accepted": [
+          [
+            "Trump",
+            "administration",
+            "escalates",
+            "voter",
+            "roll",
+            "fight",
+            "with",
+            "threats",
+            "against",
+            "California",
+            "election",
+            "officials"
+          ]
+        ],
+        "distractors": [
+          "admin",
+          "escalated",
+          "voters",
+          "fighting",
+          "without",
+          "for"
+        ],
+        "notes": [
+          {
+            "word": "administration",
+            "text": "「administration」是名詞，指政府、行政部門。",
+            "category": "其他"
+          },
+          {
+            "word": "escalates",
+            "text": "動詞「escalates」是現在式，表示川普政府升級鬥爭的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "voter roll",
+            "text": "「voter roll」是複合名詞，指選民名冊。",
+            "category": "其他"
+          },
+          {
+            "word": "with",
+            "text": "介係詞「with」表示伴隨或方式，即伴隨著「threats」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "against",
+            "text": "介係詞「against」表示對抗、針對，說明威脅的對象是「California election officials」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The only winner in the Kelly Clarkson bird drama and ‘Girls’ reboot is Brooklyn",
+      "url": "https://edition.cnn.com/2026/10/14/entertainment/kelly-clarkson-drama-girls-reboot-brooklyn",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The only winner in the Kelly Clarkson bird drama and ‘Girls’ reboot is Brooklyn",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/entertainment/kelly-clarkson-drama-girls-reboot-brooklyn",
+        "zh": "凱莉·克拉克森鳥類戲劇和《女孩們》重啟的唯一贏家是布魯克林",
+        "accepted": [
+          [
+            "The",
+            "only",
+            "winner",
+            "in",
+            "the",
+            "Kelly",
+            "Clarkson",
+            "bird",
+            "drama",
+            "and",
+            "‘Girls’",
+            "reboot",
+            "is",
+            "Brooklyn"
+          ]
+        ],
+        "distractors": [
+          "A",
+          "winners",
+          "on",
+          "was",
+          "girl",
+          "reboots"
+        ],
+        "notes": [
+          {
+            "word": "The",
+            "text": "「The」是定冠詞，特指「唯一的贏家」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "only",
+            "text": "形容詞「only」表示唯一的，修飾「winner」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "介係詞「in」表示在...之中，說明贏家是在什麼事件中產生的。",
+            "category": "介係詞"
+          },
+          {
+            "word": "is",
+            "text": "動詞「is」是現在式，表示主語「The only winner」的狀態。",
+            "category": "時態"
+          },
+          {
+            "word": "reboot",
+            "text": "「reboot」在這裡作名詞，指（電影、電視劇等的）重啟。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Everyone has weighed in on the Shane Gillis monologue controversy, except ‘SNL’",
+      "url": "https://edition.cnn.com/2026/10/14/entertainment/snl-shane-gillis-monologue",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Everyone has weighed in on the Shane Gillis monologue controversy, except ‘SNL’",
+        "sourceUrl": "https://edition.cnn.com/2026/10/14/entertainment/snl-shane-gillis-monologue",
+        "zh": "除了《週六夜現場》，所有人都對沙恩·吉利斯獨白爭議發表了意見",
+        "accepted": [
+          [
+            "Everyone",
+            "has",
+            "weighed",
+            "in",
+            "on",
+            "the",
+            "Shane",
+            "Gillis",
+            "monologue",
+            "controversy",
+            ",",
+            "except",
+            "‘SNL’"
+          ]
+        ],
+        "distractors": [
+          "No one",
+          "had",
+          "weighs",
+          "at",
+          "about",
+          "including"
+        ],
+        "notes": [
+          {
+            "word": "Everyone",
+            "text": "不定代詞「Everyone」表示所有人。",
+            "category": "其他"
+          },
+          {
+            "word": "has weighed in",
+            "text": "「has weighed in」是現在完成式，表示「已經發表了意見」的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "on",
+            "text": "片語「weigh in on something」中的「on」表示針對、關於，說明發表意見的對象。",
+            "category": "介係詞"
+          },
+          {
+            "word": "monologue controversy",
+            "text": "「monologue controversy」是複合名詞，指獨白爭議。",
+            "category": "其他"
+          },
+          {
+            "word": "except",
+            "text": "介係詞「except」表示除了...之外，引導例外情況。",
+            "category": "介係詞"
           }
         ]
       }
