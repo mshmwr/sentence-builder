@@ -1,308 +1,606 @@
 {
-  "date": "2026-10-16",
-  "fetchedAt": "2026-10-16T22:42:24.237Z",
+  "date": "2026-10-17",
+  "fetchedAt": "2026-10-17T22:06:02.899Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Trump fires Katie Zacharia as White House press secretary after five days, advisers say",
-      "url": "https://edition.cnn.com/2026/10/16/politics/katie-zacharia-press-secretary",
+      "en": "Zelensky and US lawmakers decry Trump waiving Russia-related sanctions",
+      "url": "https://edition.cnn.com/2026/10/16/europe/us-ukraine-russia-sanctions-intl-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump fires Katie Zacharia as White House press secretary after five days, advisers say",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/politics/katie-zacharia-press-secretary",
-        "zh": "顧問表示，川普在凱蒂·扎卡里亞擔任白宮新聞秘書五天後將其解僱。",
+        "sourceEn": "Zelensky and US lawmakers decry Trump waiving Russia-related sanctions",
+        "sourceUrl": "https://edition.cnn.com/2026/10/16/europe/us-ukraine-russia-sanctions-intl-hnk",
+        "zh": "澤倫斯基和美國議員譴責川普放棄與俄羅斯相關的制裁。",
         "accepted": [
           [
+            "Zelensky",
+            "and",
+            "US",
+            "lawmakers",
+            "decry",
             "Trump",
-            "fires",
-            "Katie",
-            "Zacharia",
-            "as",
-            "White",
-            "House",
-            "press",
-            "secretary",
-            "after",
-            "five",
-            "days",
-            ",",
-            "advisers",
-            "say"
+            "waiving",
+            "Russia-related",
+            "sanctions"
           ]
         ],
         "distractors": [
-          "fired",
-          "firing",
-          "saying",
-          "said",
-          "advisor",
-          "advises"
+          "condemn",
+          "criticize",
+          "approve",
+          "support",
+          "imply",
+          "suggest"
         ],
         "notes": [
           {
-            "word": "fires",
-            "text": "此處使用一般現在時，因為新聞標題常用現在時來描述最近發生的事件，使其聽起來更即時。",
+            "word": "decry",
+            "text": "「Decry」意指公開譴責或批評某事。在此句中，澤倫斯基和美國議員公開譴責川普放棄對俄羅斯相關制裁的行為。",
+            "category": "其他"
+          },
+          {
+            "word": "waiving",
+            "text": "「Waiving」是動詞「waive」的現在分詞形式，意指放棄或免除。在這裡，它描述了川普放棄制裁的動作。",
             "category": "時態"
           },
           {
-            "word": "as",
-            "text": "介係詞 'as' 在此表示「作為…身份」，說明凱蒂·扎卡里亞的職位。",
-            "category": "介係詞"
-          },
-          {
-            "word": "after",
-            "text": "介係詞 'after' 表示「在…之後」，說明解僱發生在五天任期之後。",
-            "category": "介係詞"
-          },
-          {
-            "word": "advisers",
-            "text": "此處使用複數 'advisers'，表示有多位顧問發表了此言論。",
-            "category": "單複數"
-          },
-          {
-            "word": "say",
-            "text": "動詞 'say' 在此處與 'advisers' 搭配，表示顧問們的說法。新聞標題中常省略 'that'。",
+            "word": "Russia-related",
+            "text": "「Russia-related」是一個複合形容詞，表示「與俄羅斯相關的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Pope Leo speaks with Putin from hospital, just days after lung cancer surgery",
-      "url": "https://edition.cnn.com/2026/10/16/europe/pope-leo-lung-surgery-angelus-intl",
+      "en": "Officers responding to ‘mass casualty incident’ at Wichita sports complex involving a vehicle",
+      "url": "https://edition.cnn.com/2026/10/17/us/wichita-stryker-complex-incident",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Pope Leo speaks with Putin from hospital, just days after lung cancer surgery",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/europe/pope-leo-lung-surgery-angelus-intl",
-        "zh": "教宗利奧在肺癌手術後數天，從醫院與普丁通話。",
+        "sourceEn": "Officers responding to ‘mass casualty incident’ at Wichita sports complex involving a vehicle",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/us/wichita-stryker-complex-incident",
+        "zh": "警員正在回應威奇托體育中心發生的涉及車輛的「大規模傷亡事件」。",
         "accepted": [
           [
-            "Pope",
-            "Leo",
-            "speaks",
-            "with",
-            "Putin",
-            "from",
-            "hospital",
-            ",",
-            "just",
-            "days",
-            "after",
-            "lung",
-            "cancer",
-            "surgery"
-          ]
-        ],
-        "distractors": [
-          "spoke",
-          "speaking",
-          "to",
-          "in",
-          "day",
-          "afterwards"
-        ],
-        "notes": [
-          {
-            "word": "speaks",
-            "text": "新聞標題常用現在時 'speaks' 來描述最近發生的事件，增加即時感。",
-            "category": "時態"
-          },
-          {
-            "word": "with",
-            "text": "介係詞 'with' 表示「與…一起」，說明教宗與普丁通話的對象。",
-            "category": "介係詞"
-          },
-          {
-            "word": "from",
-            "text": "介係詞 'from' 表示「從…地方」，說明通話的地點是醫院。",
-            "category": "介係詞"
-          },
-          {
-            "word": "days",
-            "text": "'days' 是複數，表示「數天」，強調時間的短暫。",
-            "category": "單複數"
-          },
-          {
-            "word": "after",
-            "text": "介係詞 'after' 表示「在…之後」，說明通話發生在手術後。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Zelensky arrives at the EU for crucial talks EBS",
-      "url": "https://edition.cnn.com/2026/10/16/europe/zelensky-brussels-trump-relationship-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Zelensky arrives at the EU for crucial talks EBS",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/europe/zelensky-brussels-trump-relationship-intl",
-        "zh": "澤倫斯基抵達歐盟進行關鍵會談。EBS報導。",
-        "accepted": [
-          [
-            "Zelensky",
-            "arrives",
+            "Officers",
+            "responding",
+            "to",
+            "‘mass",
+            "casualty",
+            "incident’",
             "at",
-            "the",
-            "EU",
-            "for",
-            "crucial",
-            "talks",
-            "EBS"
+            "Wichita",
+            "sports",
+            "complex",
+            "involving",
+            "a",
+            "vehicle"
           ]
         ],
         "distractors": [
-          "arrived",
-          "arriving",
-          "in",
-          "to",
-          "talk",
-          "EBS's"
+          "respondingly",
+          "responded",
+          "response",
+          "incidentally",
+          "casually",
+          "complexly"
         ],
         "notes": [
           {
-            "word": "arrives",
-            "text": "新聞標題常用現在時 'arrives' 來描述最近發生的事件，使其聽起來更即時。",
+            "word": "responding",
+            "text": "「Responding」是動詞「respond」的現在分詞形式，表示正在回應。此處用作形容詞，修飾「Officers」，表示「正在回應的警員」。",
             "category": "時態"
           },
           {
-            "word": "at",
-            "text": "介係詞 'at' 在此表示抵達某個地點或組織，例如 'at the EU'。",
-            "category": "介係詞"
+            "word": "mass casualty incident",
+            "text": "「Mass casualty incident」是一個常見的術語，指造成大量傷亡的事件。",
+            "category": "其他"
           },
           {
-            "word": "the",
-            "text": "定冠詞 'the' 用於特指 'EU' (歐盟) 這個特定的組織。",
+            "word": "involving",
+            "text": "「Involving」是動詞「involve」的現在分詞形式，意指涉及或牽涉。在此句中，它描述了事件與車輛的關係。",
+            "category": "其他"
+          },
+          {
+            "word": "a",
+            "text": "「A」是個不定冠詞，用於單數可數名詞之前，表示泛指。這裡指任何一輛車。",
             "category": "冠詞"
-          },
-          {
-            "word": "for",
-            "text": "介係詞 'for' 在此表示目的，即「為了關鍵會談」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "talks",
-            "text": "'talks' 在此是名詞複數，表示「會談」或「談判」。",
-            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "CNN Exclusive Ukraine runs out of US-made Patriot interceptor missiles",
-      "url": "https://edition.cnn.com/2026/10/15/europe/ukraine-us-patriot-interceptor-missiles-run-out-intl",
+      "en": "CNN Exclusive Inside Erik Prince’s secretive operation taking on Haiti’s gangs",
+      "url": "https://edition.cnn.com/2026/10/17/americas/haiti-erik-prince-drones",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN Exclusive Ukraine runs out of US-made Patriot interceptor missiles",
-        "sourceUrl": "https://edition.cnn.com/2026/10/15/europe/ukraine-us-patriot-interceptor-missiles-run-out-intl",
-        "zh": "CNN獨家報導：烏克蘭耗盡美國製造的愛國者攔截飛彈。",
+        "sourceEn": "CNN Exclusive Inside Erik Prince’s secretive operation taking on Haiti’s gangs",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/americas/haiti-erik-prince-drones",
+        "zh": "CNN獨家報導：埃里克·普林斯在海地打擊幫派的秘密行動內幕。",
         "accepted": [
           [
             "CNN",
             "Exclusive",
-            "Ukraine",
-            "runs",
-            "out",
-            "of",
-            "US-made",
-            "Patriot",
-            "interceptor",
-            "missiles"
+            "Inside",
+            "Erik",
+            "Prince’s",
+            "secretive",
+            "operation",
+            "taking",
+            "on",
+            "Haiti’s",
+            "gangs"
           ]
         ],
         "distractors": [
-          "ran",
-          "running",
-          "from",
-          "on",
-          "missile",
-          "US-making"
+          "exclusively",
+          "secrets",
+          "operations",
+          "taken",
+          "took",
+          "gangster"
         ],
         "notes": [
           {
-            "word": "runs",
-            "text": "新聞標題常用現在時 'runs' 來描述最近發生的事件，增加即時感。",
-            "category": "時態"
-          },
-          {
-            "word": "out of",
-            "text": "片語 'run out of' 表示「用盡、耗盡」，說明烏克蘭的飛彈庫存情況。",
-            "category": "介係詞"
-          },
-          {
-            "word": "US-made",
-            "text": "'US-made' 是複合形容詞，表示「美國製造的」。",
+            "word": "Exclusive",
+            "text": "「Exclusive」在此作為名詞，表示獨家新聞或獨家報導。",
             "category": "其他"
           },
           {
-            "word": "missiles",
-            "text": "'missiles' 是複數，表示有多枚攔截飛彈。",
-            "category": "單複數"
+            "word": "secretive",
+            "text": "「Secretive」是形容詞，意指秘密的、不公開的。它修飾「operation」。",
+            "category": "其他"
           },
           {
-            "word": "Exclusive",
-            "text": "'Exclusive' 作為名詞或形容詞，表示這是CNN的獨家報導。",
+            "word": "taking on",
+            "text": "「Taking on」是一個片語動詞，意指承擔、對抗或挑戰。在這裡，它表示埃里克·普林斯的行動正在對抗海地的幫派。",
+            "category": "其他"
+          },
+          {
+            "word": "Haiti’s",
+            "text": "「Haiti’s」是海地的所有格形式，表示「海地的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Nathan Fielder’s movie on Elizabeth Holmes absolutely lives up to the hype",
-      "url": "https://edition.cnn.com/2026/10/16/entertainment/nathan-fielder-elizabeth-holmes-see-everything",
+      "en": "Youth anger boils over as 550,000 protesters sweep France",
+      "url": "https://edition.cnn.com/2026/10/17/europe/half-million-protesters-sweep-france-in-youth-unrest-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Nathan Fielder’s movie on Elizabeth Holmes absolutely lives up to the hype",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/entertainment/nathan-fielder-elizabeth-holmes-see-everything",
-        "zh": "納森·菲爾德關於伊莉莎白·霍姆斯（Elizabeth Holmes）的電影絕對名符其實。",
+        "sourceEn": "Youth anger boils over as 550,000 protesters sweep France",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/europe/half-million-protesters-sweep-france-in-youth-unrest-latam-intl",
+        "zh": "55萬抗議者席捲法國，青年怒火沸騰。",
         "accepted": [
           [
-            "Nathan",
-            "Fielder’s",
-            "movie",
-            "on",
-            "Elizabeth",
-            "Holmes",
-            "absolutely",
-            "lives",
-            "up",
-            "to",
-            "the",
-            "hype"
+            "Youth",
+            "anger",
+            "boils",
+            "over",
+            "as",
+            "550,000",
+            "protesters",
+            "sweep",
+            "France"
           ]
         ],
         "distractors": [
-          "Fielder",
-          "movies",
-          "about",
-          "live",
-          "living",
-          "hyped"
+          "youthful",
+          "angrily",
+          "boiled",
+          "swept",
+          "protest",
+          "protesting"
         ],
         "notes": [
           {
-            "word": "Fielder’s",
-            "text": "所有格 'Fielder’s' 表示「菲爾德的」，說明電影的歸屬。",
+            "word": "boils over",
+            "text": "「Boils over」是一個片語動詞，意指（情緒）爆發、失控。這裡形容青年的怒火達到頂點。",
             "category": "其他"
           },
           {
-            "word": "on",
-            "text": "介係詞 'on' 在此表示「關於…的」，說明電影的主題是伊莉莎白·霍姆斯。",
-            "category": "介係詞"
+            "word": "as",
+            "text": "「As」在這裡用作連接詞，表示「當...的時候」或「隨著...」。它連接了兩個同時發生的動作。",
+            "category": "其他"
           },
           {
-            "word": "lives up to",
-            "text": "片語 'live up to' 表示「達到（期望）、不負（盛名）」，此處使用第三人稱單數現在時 'lives up to'。",
+            "word": "protesters",
+            "text": "「Protesters」是名詞「protester」的複數形式，意指抗議者。注意其單複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "sweep",
+            "text": "「Sweep」在這裡用作動詞，意指席捲、橫掃。它描述了抗議者在法國的廣泛行動。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How the war with Iran has changed the flow of oil – a visual guide",
+      "url": "https://edition.cnn.com/2026/10/17/economy/us-iran-war-shipping-trade-hormuz-bab-el-mandab-strait-intl-vis",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How the war with Iran has changed the flow of oil – a visual guide",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/economy/us-iran-war-shipping-trade-hormuz-bab-el-mandab-strait-intl-vis",
+        "zh": "與伊朗的戰爭如何改變了石油流動——一份視覺指南。",
+        "accepted": [
+          [
+            "How",
+            "the",
+            "war",
+            "with",
+            "Iran",
+            "has",
+            "changed",
+            "the",
+            "flow",
+            "of",
+            "oil",
+            "–",
+            "a",
+            "visual",
+            "guide"
+          ]
+        ],
+        "distractors": [
+          "changing",
+          "flows",
+          "visually",
+          "guided",
+          "guides",
+          "wars"
+        ],
+        "notes": [
+          {
+            "word": "How",
+            "text": "「How」在這裡用作疑問副詞，引導一個名詞子句，表示「如何」或「以何種方式」。",
+            "category": "其他"
+          },
+          {
+            "word": "has changed",
+            "text": "「Has changed」是現在完成式，表示動作從過去開始並持續到現在，或對現在產生影響。這裡指戰爭對石油流動的影響。",
             "category": "時態"
           },
           {
             "word": "the",
-            "text": "定冠詞 'the' 用於特指 'hype'（炒作、宣傳）這個特定的概念。",
+            "text": "「The」是定冠詞，用於特指某物。這裡特指「與伊朗的戰爭」和「石油的流動」。",
             "category": "冠詞"
           },
           {
-            "word": "absolutely",
-            "text": "副詞 'absolutely' 表示「絕對地、完全地」，強調電影完全符合預期。",
+            "word": "with",
+            "text": "「With」是介係詞，表示「與...一起」或「關於...」。這裡指「與伊朗的戰爭」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "a",
+            "text": "「A」是不定冠詞，用於單數可數名詞之前，表示泛指。這裡指任何一份視覺指南。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Russians’ digital lives face another blow. This time, it’s not from the Kremlin",
+      "url": "https://edition.cnn.com/2026/10/17/europe/russia-yandex-data-center-internet-ukraine-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Russians’ digital lives face another blow. This time, it’s not from the Kremlin",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/europe/russia-yandex-data-center-internet-ukraine-intl",
+        "zh": "俄羅斯人的數位生活面臨另一次打擊。這次，它不是來自克里姆林宮。",
+        "accepted": [
+          [
+            "Russians’",
+            "digital",
+            "lives",
+            "face",
+            "another",
+            "blow",
+            ".",
+            "This",
+            "time",
+            ",",
+            "it’s",
+            "not",
+            "from",
+            "the",
+            "Kremlin"
+          ]
+        ],
+        "distractors": [
+          "digitally",
+          "living",
+          "faced",
+          "blowing",
+          "times",
+          "Kremlins"
+        ],
+        "notes": [
+          {
+            "word": "Russians’",
+            "text": "「Russians’」是俄羅斯人的所有格形式，表示「俄羅斯人的」。",
+            "category": "其他"
+          },
+          {
+            "word": "lives",
+            "text": "「Lives」是名詞「life」的複數形式，意指生活。注意其單複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "face",
+            "text": "「Face」在這裡用作動詞，意指面臨、遭遇。主詞是複數「lives」，所以動詞用原形。",
+            "category": "單複數"
+          },
+          {
+            "word": "another",
+            "text": "「Another」是形容詞，意指「另一個」。它修飾單數可數名詞「blow」。",
+            "category": "其他"
+          },
+          {
+            "word": "blow",
+            "text": "「Blow」在這裡用作名詞，意指打擊、衝擊。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Israeli settlers attack group of European diplomats in the occupied West Bank",
+      "url": "https://edition.cnn.com/2026/10/17/middleeast/west-bank-diplomats-attacked-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Israeli settlers attack group of European diplomats in the occupied West Bank",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/middleeast/west-bank-diplomats-attacked-intl",
+        "zh": "以色列定居者在被佔領的約旦河西岸襲擊了一群歐洲外交官。",
+        "accepted": [
+          [
+            "Israeli",
+            "settlers",
+            "attack",
+            "group",
+            "of",
+            "European",
+            "diplomats",
+            "in",
+            "the",
+            "occupied",
+            "West",
+            "Bank"
+          ]
+        ],
+        "distractors": [
+          "settler",
+          "attacking",
+          "attacked",
+          "groups",
+          "diplomat",
+          "occupying"
+        ],
+        "notes": [
+          {
+            "word": "settlers",
+            "text": "「Settlers」是名詞「settler」的複數形式，意指定居者。注意其單複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "attack",
+            "text": "「Attack」在這裡用作動詞，意指襲擊。由於主詞「settlers」是複數，動詞用原形。",
+            "category": "單複數"
+          },
+          {
+            "word": "group of",
+            "text": "「Group of」是一個量詞片語，表示「一群」。",
+            "category": "其他"
+          },
+          {
+            "word": "diplomats",
+            "text": "「Diplomats」是名詞「diplomat」的複數形式，意指外交官。注意其單複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "occupied",
+            "text": "「Occupied」是動詞「occupy」的過去分詞形式，用作形容詞，意指被佔領的。它修飾「West Bank」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The science behind this song that instantaneously calms down crying babies",
+      "url": "https://edition.cnn.com/2026/10/17/style/happy-song-imogen-heap-anniversary-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The science behind this song that instantaneously calms down crying babies",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/style/happy-song-imogen-heap-anniversary-wellness",
+        "zh": "這首歌背後的科學，它能瞬間讓哭泣的嬰兒平靜下來。",
+        "accepted": [
+          [
+            "The",
+            "science",
+            "behind",
+            "this",
+            "song",
+            "that",
+            "instantaneously",
+            "calms",
+            "down",
+            "crying",
+            "babies"
+          ]
+        ],
+        "distractors": [
+          "scientific",
+          "behinded",
+          "songs",
+          "instantaneous",
+          "calm",
+          "cried"
+        ],
+        "notes": [
+          {
+            "word": "The",
+            "text": "「The」是定冠詞，用於特指某物。這裡特指「這首歌背後的科學」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "behind",
+            "text": "「Behind」是介係詞，意指「在...後面」或「...背後的原因」。這裡指「這首歌背後的科學」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "that",
+            "text": "「That」在這裡用作關係代名詞，引導一個形容詞子句，修飾「song」。",
+            "category": "其他"
+          },
+          {
+            "word": "instantaneously",
+            "text": "「Instantaneously」是副詞，意指瞬間地、立即地。它修飾動詞片語「calms down」。",
+            "category": "其他"
+          },
+          {
+            "word": "calms down",
+            "text": "「Calms down」是一個片語動詞，意指使...平靜下來。由於主詞「that」（代表song）是單數，動詞需要加-s。",
+            "category": "單複數"
+          },
+          {
+            "word": "crying",
+            "text": "「Crying」是動詞「cry」的現在分詞形式，用作形容詞，意指哭泣的。它修飾「babies」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "I’ve spent most of the year talking to MAGA supporters. Here are 5 things I’ve learned",
+      "url": "https://edition.cnn.com/2026/10/17/politics/maga-ever-after-donie-osullivan",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "I’ve spent most of the year talking to MAGA supporters. Here are 5 things I’ve learned",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/politics/maga-ever-after-donie-osullivan",
+        "zh": "我今年大部分時間都在和MAGA支持者交談。這是我學到的5件事。",
+        "accepted": [
+          [
+            "I’ve",
+            "spent",
+            "most",
+            "of",
+            "the",
+            "year",
+            "talking",
+            "to",
+            "MAGA",
+            "supporters",
+            ".",
+            "Here",
+            "are",
+            "5",
+            "things",
+            "I’ve",
+            "learned"
+          ]
+        ],
+        "distractors": [
+          "spending",
+          "spends",
+          "talked",
+          "support",
+          "learning",
+          "thing"
+        ],
+        "notes": [
+          {
+            "word": "I’ve spent",
+            "text": "「I’ve spent」是「I have spent」的縮寫，為現在完成式，表示動作從過去開始並持續到現在。這裡指「我已經花了」。",
+            "category": "時態"
+          },
+          {
+            "word": "talking to",
+            "text": "「Talking to」是一個片語，表示「與...交談」。動詞「spend」後面常接「時間 + V-ing」的結構。",
+            "category": "其他"
+          },
+          {
+            "word": "supporters",
+            "text": "「Supporters」是名詞「supporter」的複數形式，意指支持者。注意其單複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "Here are",
+            "text": "「Here are」用於介紹複數名詞，表示「這裡有...」。",
+            "category": "單複數"
+          },
+          {
+            "word": "I’ve learned",
+            "text": "「I’ve learned」是「I have learned」的縮寫，為現在完成式，表示動作從過去開始並持續到現在，或對現在產生影響。這裡指「我已經學到了」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "More singles are using AI to find a date. It’s controversial, efficient and risky",
+      "url": "https://edition.cnn.com/2026/10/17/health/ai-online-dating-game-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "More singles are using AI to find a date. It’s controversial, efficient and risky",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/health/ai-online-dating-game-wellness",
+        "zh": "越來越多的單身人士正在使用AI尋找約會對象。這既有爭議、又高效且有風險。",
+        "accepted": [
+          [
+            "More",
+            "singles",
+            "are",
+            "using",
+            "AI",
+            "to",
+            "find",
+            "a",
+            "date",
+            ".",
+            "It’s",
+            "controversial",
+            ",",
+            "efficient",
+            "and",
+            "risky"
+          ]
+        ],
+        "distractors": [
+          "single",
+          "used",
+          "finds",
+          "dating",
+          "controversially",
+          "risk"
+        ],
+        "notes": [
+          {
+            "word": "More",
+            "text": "「More」在這裡用作形容詞，表示「更多的」。",
+            "category": "其他"
+          },
+          {
+            "word": "singles",
+            "text": "「Singles」是名詞「single」的複數形式，意指單身人士。注意其單複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "are using",
+            "text": "「Are using」是現在進行式，表示正在發生的動作。這裡指「正在使用」。",
+            "category": "時態"
+          },
+          {
+            "word": "to find",
+            "text": "「To find」是不定詞片語，表示目的，意指「為了找到」。",
+            "category": "其他"
+          },
+          {
+            "word": "a",
+            "text": "「A」是不定冠詞，用於單數可數名詞之前，表示泛指。這裡指任何一個約會對象。",
+            "category": "冠詞"
+          },
+          {
+            "word": "It’s",
+            "text": "「It’s」是「It is」的縮寫，表示「它是」。",
             "category": "其他"
           }
         ]
@@ -315,455 +613,102 @@
         "theme": "今日新聞",
         "sourceEn": "Courtesy Mark A. Garlick/University of Warwick",
         "sourceUrl": "https://edition.cnn.com/2026/10/16/science/green-star-discovery-scli-intl",
-        "zh": "圖片由馬克·A·加利克/華威大學提供。",
+        "zh": "承蒙馬克·A·加利克/華威大學。",
         "accepted": [
           [
             "Courtesy",
             "Mark",
             "A.",
-            "Garlick",
-            "/",
-            "University",
+            "Garlick/University",
             "of",
             "Warwick"
           ]
         ],
         "distractors": [
           "Courteous",
-          "by",
-          "from",
+          "Courtesy of",
+          "Marks",
+          "Universities",
           "Warwicks",
-          "universities",
-          "and"
+          "by"
         ],
         "notes": [
           {
             "word": "Courtesy",
-            "text": "名詞 'Courtesy' 在此表示「由…提供」，常用於圖片或資訊來源的標註。",
+            "text": "「Courtesy」在這裡用作名詞，表示「承蒙...提供」或「由...提供」。",
             "category": "其他"
           },
           {
-            "word": "/",
-            "text": "斜線符號 '/' 在此表示「和」或「由…和…共同」，連接兩個提供者。",
+            "word": "A.",
+            "text": "「A.」是名字的縮寫，通常代表中間名。",
             "category": "其他"
           },
           {
-            "word": "University",
-            "text": "名詞 'University' 指「大學」。",
+            "word": "Garlick/University",
+            "text": "斜線「/」表示「和」或「來自」，這裡指圖片或資訊的來源是馬克·A·加利克和華威大學。",
             "category": "其他"
           },
           {
             "word": "of",
-            "text": "介係詞 'of' 在此表示所屬關係，即「華威大學」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Mark A. Garlick",
-            "text": "這是人名，通常在新聞標題中保持原樣。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Selma Blair speaks out on plane incident that resulted in her arrest, saying she ‘did not intend to harm anyone’",
-      "url": "https://edition.cnn.com/2026/10/16/entertainment/selma-blair-statement-plane-incident",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Selma Blair speaks out on plane incident that resulted in her arrest, saying she ‘did not intend to harm anyone’",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/entertainment/selma-blair-statement-plane-incident",
-        "zh": "塞爾瑪·布萊爾就導致她被捕的飛機事件發表聲明，稱她「無意傷害任何人」。",
-        "accepted": [
-          [
-            "Selma",
-            "Blair",
-            "speaks",
-            "out",
-            "on",
-            "plane",
-            "incident",
-            "that",
-            "resulted",
-            "in",
-            "her",
-            "arrest",
-            ",",
-            "saying",
-            "she",
-            "‘did",
-            "not",
-            "intend",
-            "to",
-            "harm",
-            "anyone’"
-          ]
-        ],
-        "distractors": [
-          "spoke",
-          "speaking",
-          "about",
-          "incidents",
-          "results",
-          "say"
-        ],
-        "notes": [
-          {
-            "word": "speaks out",
-            "text": "片語 'speak out' 表示「公開發表意見、說出真相」。新聞標題常用現在時 'speaks'。",
-            "category": "時態"
-          },
-          {
-            "word": "on",
-            "text": "介係詞 'on' 在此表示「關於…」，說明她發表意見的主題。",
-            "category": "介係詞"
-          },
-          {
-            "word": "that",
-            "text": "關係代名詞 'that' 引導一個形容詞子句，修飾 'incident'，說明事件的結果。",
-            "category": "其他"
-          },
-          {
-            "word": "resulted in",
-            "text": "片語 'result in' 表示「導致、造成」，此處使用過去時 'resulted'。",
-            "category": "時態"
-          },
-          {
-            "word": "saying",
-            "text": "現在分詞 'saying' 作為伴隨狀語，說明她發表聲明的同時說了什麼。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "New wildfire in Southern California explodes in size, burning multiple homes",
-      "url": "https://edition.cnn.com/2026/10/16/weather/california-wildfires-santa-ana-winds-climate",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "New wildfire in Southern California explodes in size, burning multiple homes",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/weather/california-wildfires-santa-ana-winds-climate",
-        "zh": "南加州新野火規模爆炸性增長，燒毀多棟房屋。",
-        "accepted": [
-          [
-            "New",
-            "wildfire",
-            "in",
-            "Southern",
-            "California",
-            "explodes",
-            "in",
-            "size",
-            ",",
-            "burning",
-            "multiple",
-            "homes"
-          ]
-        ],
-        "distractors": [
-          "wildfires",
-          "at",
-          "exploded",
-          "burns",
-          "burned",
-          "home"
-        ],
-        "notes": [
-          {
-            "word": "wildfire",
-            "text": "名詞 'wildfire' 指「野火」。此處為單數。",
-            "category": "單複數"
-          },
-          {
-            "word": "in",
-            "text": "介係詞 'in' 表示地點，即「在南加州」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "explodes",
-            "text": "新聞標題常用現在時 'explodes' 來描述最近發生的事件，增加即時感。",
-            "category": "時態"
-          },
-          {
-            "word": "in size",
-            "text": "片語 'in size' 表示「在規模上」，說明野火的增長方面。",
-            "category": "其他"
-          },
-          {
-            "word": "burning",
-            "text": "現在分詞 'burning' 作為伴隨狀語，描述野火爆炸性增長同時發生的結果。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Loop shows Israeli settler attack on Palestinian olive harvest in West Bank. The beaten-up of Heidi Levine was NOT identified in the loop, which captures the wider attack instead. Reuters",
-      "url": "https://edition.cnn.com/2026/10/16/media/washington-post-journalist-israeli-settler-attack-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Loop shows Israeli settler attack on Palestinian olive harvest in West Bank. The beaten-up of Heidi Levine was NOT identified in the loop, which captures the wider attack instead. Reuters",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/media/washington-post-journalist-israeli-settler-attack-intl",
-        "zh": "錄影顯示以色列定居者在約旦河西岸襲擊巴勒斯坦橄欖收穫。錄影中未識別出海蒂·萊文（Heidi Levine）被毆打的畫面，該錄影捕捉了更廣泛的襲擊事件。路透社報導。",
-        "accepted": [
-          [
-            "Loop",
-            "shows",
-            "Israeli",
-            "settler",
-            "attack",
-            "on",
-            "Palestinian",
-            "olive",
-            "harvest",
-            "in",
-            "West",
-            "Bank",
-            ".",
-            "The",
-            "beaten-up",
-            "of",
-            "Heidi",
-            "Levine",
-            "was",
-            "NOT",
-            "identified",
-            "in",
-            "the",
-            "loop",
-            ",",
-            "which",
-            "captures",
-            "the",
-            "wider",
-            "attack",
-            "instead",
-            ".",
-            "Reuters"
-          ]
-        ],
-        "distractors": [
-          "showed",
-          "showing",
-          "attacks",
-          "at",
-          "beating",
-          "identifies"
-        ],
-        "notes": [
-          {
-            "word": "shows",
-            "text": "新聞標題常用現在時 'shows' 來描述錄影的內容，增加即時感。",
-            "category": "時態"
-          },
-          {
-            "word": "on",
-            "text": "介係詞 'on' 在此表示攻擊的對象或目標，即「襲擊巴勒斯坦橄欖收穫」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "in",
-            "text": "介係詞 'in' 表示地點，即「在約旦河西岸」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "beaten-up",
-            "text": "'beaten-up' 作為形容詞，修飾 'Heidi Levine'，表示「被毆打的」。",
-            "category": "其他"
-          },
-          {
-            "word": "was identified",
-            "text": "此處使用被動語態 'was identified'，表示「被識別出」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Indian police again detain ‘cockroach’ movement founder ahead of protest",
-      "url": "https://edition.cnn.com/2026/10/16/asia/india-police-cockroach-arrest-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Indian police again detain ‘cockroach’ movement founder ahead of protest",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/asia/india-police-cockroach-arrest-intl",
-        "zh": "印度警方再次在抗議活動前拘留「蟑螂」運動創始人。",
-        "accepted": [
-          [
-            "Indian",
-            "police",
-            "again",
-            "detain",
-            "‘cockroach’",
-            "movement",
-            "founder",
-            "ahead",
-            "of",
-            "protest"
-          ]
-        ],
-        "distractors": [
-          "polices",
-          "detained",
-          "detaining",
-          "founders",
-          "before",
-          "protests"
-        ],
-        "notes": [
-          {
-            "word": "police",
-            "text": "'police' 作為集體名詞，通常視為複數，但在此處作為單數主語，動詞 'detain' 保持原形。",
-            "category": "單複數"
-          },
-          {
-            "word": "detain",
-            "text": "新聞標題常用現在時 'detain' 來描述最近發生的事件，增加即時感。",
-            "category": "時態"
-          },
-          {
-            "word": "‘cockroach’",
-            "text": "單引號 '‘ ’' 用於引用或強調一個非正式的稱呼或術語。",
-            "category": "其他"
-          },
-          {
-            "word": "founder",
-            "text": "名詞 'founder' 指「創始人」。此處為單數。",
-            "category": "單複數"
-          },
-          {
-            "word": "ahead of",
-            "text": "片語 'ahead of' 表示「在…之前」，說明拘留發生在抗議活動之前。",
+            "text": "「Of」是介係詞，表示所屬關係，意指「屬於...的」。這裡指「華威大學」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
-      "url": "https://edition.cnn.com/2026/10/15/world/yemeni-houthi-strikes-on-aden-presidential-palace-kill-two-latam-intl",
+      "en": "Pope Leo discharged from hospital after lung cancer surgery",
+      "url": "https://edition.cnn.com/2026/10/17/europe/pope-cancer-hospital-discharge-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
-        "sourceUrl": "https://edition.cnn.com/2026/10/15/world/yemeni-houthi-strikes-on-aden-presidential-palace-kill-two-latam-intl",
-        "zh": "伊朗支持的胡塞武裝對葉門總統府發動致命襲擊，以升級對沙烏地阿拉伯的行動。",
+        "sourceEn": "Pope Leo discharged from hospital after lung cancer surgery",
+        "sourceUrl": "https://edition.cnn.com/2026/10/17/europe/pope-cancer-hospital-discharge-intl",
+        "zh": "教宗利奧在肺癌手術後出院。",
         "accepted": [
           [
-            "Iran-aligned",
-            "Houthis",
-            "launch",
-            "deadly",
-            "attack",
-            "on",
-            "Yemeni",
-            "presidential",
-            "palace",
-            "in",
-            "escalating",
-            "campaign",
-            "against",
-            "Saudi",
-            "Arabia"
+            "Pope",
+            "Leo",
+            "discharged",
+            "from",
+            "hospital",
+            "after",
+            "lung",
+            "cancer",
+            "surgery"
           ]
         ],
         "distractors": [
-          "launched",
-          "launching",
-          "attacks",
-          "at",
-          "escalated",
-          "campaigns"
+          "discharging",
+          "discharge",
+          "hospitals",
+          "surgeries",
+          "cancerous",
+          "lunging"
         ],
         "notes": [
           {
-            "word": "Iran-aligned",
-            "text": "複合形容詞 'Iran-aligned' 表示「與伊朗結盟的、伊朗支持的」。",
-            "category": "其他"
-          },
-          {
-            "word": "Houthis",
-            "text": "名詞 'Houthis' 指「胡塞武裝」，此處為複數。",
-            "category": "單複數"
-          },
-          {
-            "word": "launch",
-            "text": "新聞標題常用現在時 'launch' 來描述最近發生的事件，增加即時感。",
+            "word": "discharged",
+            "text": "「Discharged」是動詞「discharge」的過去分詞形式，在這裡用作被動語態，表示「被允許出院」。",
             "category": "時態"
           },
           {
-            "word": "on",
-            "text": "介係詞 'on' 在此表示攻擊的目標，即「對葉門總統府」。",
+            "word": "from",
+            "text": "「From」是介係詞，表示來源或起點，意指「從...」。這裡指「從醫院」。",
             "category": "介係詞"
           },
           {
-            "word": "in escalating campaign",
-            "text": "片語 'in escalating campaign' 表示「在不斷升級的行動中」，'escalating' 是現在分詞作形容詞。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "A hidden risk appears to be building up in the markets. No one knows exactly what it means",
-      "url": "https://edition.cnn.com/2026/10/16/investing/term-premium-hidden-economic-risk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A hidden risk appears to be building up in the markets. No one knows exactly what it means",
-        "sourceUrl": "https://edition.cnn.com/2026/10/16/investing/term-premium-hidden-economic-risk",
-        "zh": "一個隱藏的風險似乎正在市場中積聚。沒有人確切知道這意味著什麼。",
-        "accepted": [
-          [
-            "A",
-            "hidden",
-            "risk",
-            "appears",
-            "to",
-            "be",
-            "building",
-            "up",
-            "in",
-            "the",
-            "markets",
-            ".",
-            "No",
-            "one",
-            "knows",
-            "exactly",
-            "what",
-            "it",
-            "means"
-          ]
-        ],
-        "distractors": [
-          "The",
-          "risks",
-          "appear",
-          "built",
-          "market",
-          "knew"
-        ],
-        "notes": [
-          {
-            "word": "A",
-            "text": "不定冠詞 'A' 用於指代一個首次提及的、不特定的「隱藏風險」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "appears",
-            "text": "動詞 'appears' 使用現在時，表示一種當前的狀態或趨勢。",
-            "category": "時態"
-          },
-          {
-            "word": "to be building up",
-            "text": "不定詞片語 'to be building up' 表示「正在積聚」，強調動作的持續性。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "介係詞 'in' 表示地點，即「在市場中」。",
+            "word": "after",
+            "text": "「After」是介係詞，表示時間上的「在...之後」。這裡指「在手術之後」。",
             "category": "介係詞"
           },
           {
-            "word": "markets",
-            "text": "'markets' 是複數，表示多個市場或整個市場環境。",
+            "word": "lung cancer",
+            "text": "「Lung cancer」是一個複合名詞，意指「肺癌」。",
+            "category": "其他"
+          },
+          {
+            "word": "surgery",
+            "text": "「Surgery」是名詞，意指手術。在這裡是不可數名詞。",
             "category": "單複數"
           }
         ]
