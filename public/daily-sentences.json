@@ -1,679 +1,742 @@
 {
-  "date": "2026-10-19",
-  "fetchedAt": "2026-10-19T23:29:59.573Z",
+  "date": "2026-10-20",
+  "fetchedAt": "2026-10-20T23:04:51.414Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "@eperdumence via Instagram / Cormac Delaney",
-      "url": "https://edition.cnn.com/2026/10/19/europe/france-protests-violence-wwk-intl-hnk",
+      "en": "Two men rearrested on suspicion of assisting Iran’s intelligence service in RAF Fairford incident",
+      "url": "https://edition.cnn.com/2026/10/20/uk/two-men-arrested-iran-uk-base-fairford-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "@eperdumence via Instagram / Cormac Delaney",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/europe/france-protests-violence-wwk-intl-hnk",
-        "zh": "透過 Instagram 帳號 @eperdumence 的 Cormac Delaney。",
+        "sourceEn": "Two men rearrested on suspicion of assisting Iran’s intelligence service in RAF Fairford incident",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/uk/two-men-arrested-iran-uk-base-fairford-intl",
+        "zh": "兩名男子因涉嫌協助伊朗情報部門參與英國皇家空軍費爾福德事件而被再次逮捕。",
         "accepted": [
           [
-            "@eperdumence",
-            "via",
-            "Instagram",
-            "/",
-            "Cormac",
-            "Delaney"
+            "Two",
+            "men",
+            "rearrested",
+            "on",
+            "suspicion",
+            "of",
+            "assisting",
+            "Iran’s",
+            "intelligence",
+            "service",
+            "in",
+            "RAF",
+            "Fairford",
+            "incident"
           ]
         ],
         "distractors": [
-          "from",
-          "by",
-          "account",
-          "post",
-          "photo"
+          "arrest",
+          "assistance",
+          "services",
+          "incidents",
+          "their",
+          "from"
         ],
         "notes": [
           {
-            "word": "via",
-            "text": "via 是一個介係詞，表示「透過」或「經由」某種方式或媒介。",
+            "word": "rearrested",
+            "text": "此處使用過去分詞作形容詞，表示「被再次逮捕的」。",
+            "category": "時態"
+          },
+          {
+            "word": "on suspicion of",
+            "text": "表示「因涉嫌……」，是一個常見的介係詞片語。",
             "category": "介係詞"
           },
           {
-            "word": "/",
-            "text": "斜線符號在這裡用來分隔資訊來源或作者。",
-            "category": "其他"
-          },
-          {
-            "word": "Instagram",
-            "text": "Instagram 是一個社群媒體平台，專注於照片和影片分享。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘The world will be amazed:’ Iran’s commanders prepare for further war",
-      "url": "https://edition.cnn.com/2026/10/19/middleeast/iran-us-conflict-warning-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘The world will be amazed:’ Iran’s commanders prepare for further war",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/middleeast/iran-us-conflict-warning-intl",
-        "zh": "「世界將會震驚：」伊朗指揮官為進一步的戰爭做準備。",
-        "accepted": [
-          [
-            "‘The",
-            "world",
-            "will",
-            "be",
-            "amazed:",
-            "’",
-            "Iran’s",
-            "commanders",
-            "prepare",
-            "for",
-            "further",
-            "war"
-          ]
-        ],
-        "distractors": [
-          "shocked",
-          "astonished",
-          "ready",
-          "future",
-          "battle",
-          "country"
-        ],
-        "notes": [
-          {
-            "word": "will be amazed",
-            "text": "will be + 過去分詞構成未來被動語態，表示「將會被震驚」。",
-            "category": "時態"
+            "word": "assisting",
+            "text": "介係詞 'of' 後面接動名詞 'assisting'。",
+            "category": "介係詞"
           },
           {
             "word": "Iran’s",
-            "text": "Iran’s 是伊朗的所有格形式，表示「伊朗的」。",
+            "text": "'Iran’s' 是所有格，表示「伊朗的」。",
             "category": "其他"
           },
           {
-            "word": "prepare for",
-            "text": "prepare for 是一個動詞片語，表示「為…做準備」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "further",
-            "text": "further 作為形容詞，表示「進一步的」或「更多的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Saudi Arabia cancels next week’s ‘Davos in the Desert’ conference after series of Houthi attacks",
-      "url": "https://edition.cnn.com/2026/10/19/economy/saudi-arabia-cancels-investment-conference-houthi-attacks",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Saudi Arabia cancels next week’s ‘Davos in the Desert’ conference after series of Houthi attacks",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/economy/saudi-arabia-cancels-investment-conference-houthi-attacks",
-        "zh": "在一系列胡塞武裝襲擊之後，沙烏地阿拉伯取消了下週的「沙漠達沃斯」會議。",
-        "accepted": [
-          [
-            "Saudi",
-            "Arabia",
-            "cancels",
-            "next",
-            "week’s",
-            "‘Davos",
-            "in",
-            "the",
-            "Desert’",
-            "conference",
-            "after",
-            "series",
-            "of",
-            "Houthi",
-            "attacks"
-          ]
-        ],
-        "distractors": [
-          "postpones",
-          "meeting",
-          "following",
-          "many",
-          "strike",
-          "assaults"
-        ],
-        "notes": [
-          {
-            "word": "cancels",
-            "text": "這裡使用現在簡單式，在新聞標題中常用來描述最近發生或即將發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "next week’s",
-            "text": "next week’s 是所有格形式，表示「下週的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in the Desert",
-            "text": "in the Desert 是一個介係詞片語，表示「在沙漠中」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a series of",
-            "text": "a series of 表示「一系列的」，後面接複數名詞。",
+            "word": "incident",
+            "text": "此處 'incident' 指的是「事件」，通常指不愉快或不尋常的事件。",
             "category": "單複數"
-          },
-          {
-            "word": "after",
-            "text": "after 作為介係詞，表示「在…之後」。",
-            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "US-Ukraine relationship worsens amid Trump and Zelensky's distrust",
-      "url": "https://edition.cnn.com/2026/10/19/europe/us-ukraine-relationship-tump-zelensky-distrust-intl",
+      "en": "Fears of a post-midterms Trump rampage spur ‘brutal’ internal jockeying",
+      "url": "https://edition.cnn.com/2026/10/20/politics/trump-white-house-midterms-blame",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "US-Ukraine relationship worsens amid Trump and Zelensky's distrust",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/europe/us-ukraine-relationship-tump-zelensky-distrust-intl",
-        "zh": "在川普和澤倫斯基互不信任的情況下，美烏關係惡化。",
+        "sourceEn": "Fears of a post-midterms Trump rampage spur ‘brutal’ internal jockeying",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/politics/trump-white-house-midterms-blame",
+        "zh": "對中期選舉後川普可能發動「暴行」的擔憂，引發了內部「殘酷」的爭鬥。",
         "accepted": [
           [
-            "US-Ukraine",
-            "relationship",
-            "worsens",
-            "amid",
+            "Fears",
+            "of",
+            "a",
+            "post-midterms",
             "Trump",
+            "rampage",
+            "spur",
+            "‘brutal’",
+            "internal",
+            "jockeying"
+          ]
+        ],
+        "distractors": [
+          "fear",
+          "rampages",
+          "spurs",
+          "brutally",
+          "internally",
+          "jockey"
+        ],
+        "notes": [
+          {
+            "word": "Fears",
+            "text": "主詞 'Fears' 是複數，因此動詞 'spur' 不加 's'。",
+            "category": "單複數"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'rampage'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "post-midterms",
+            "text": "此處 'post-midterms' 作為形容詞，修飾 'Trump rampage'，表示「中期選舉後的」。",
+            "category": "其他"
+          },
+          {
+            "word": "spur",
+            "text": "動詞 'spur' 意為「激勵、促使」，在此表示「引發」。",
+            "category": "時態"
+          },
+          {
+            "word": "jockeying",
+            "text": "動名詞 'jockeying' 在此作名詞使用，意為「競爭、爭奪」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "SpaceX and Tesla have formed committees to discuss potential merger, Musk says",
+      "url": "https://edition.cnn.com/2026/10/20/business/spacex-tesla-merger-musk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "SpaceX and Tesla have formed committees to discuss potential merger, Musk says",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/business/spacex-tesla-merger-musk",
+        "zh": "馬斯克表示，SpaceX 和特斯拉已成立委員會討論潛在的合併。",
+        "accepted": [
+          [
+            "SpaceX",
             "and",
-            "Zelensky's",
-            "distrust"
-          ]
-        ],
-        "distractors": [
-          "ties",
-          "deteriorates",
-          "between",
-          "mistrust",
-          "lack",
-          "faith"
-        ],
-        "notes": [
-          {
-            "word": "US-Ukraine",
-            "text": "US-Ukraine 作為複合形容詞，表示「美國與烏克蘭的」。",
-            "category": "其他"
-          },
-          {
-            "word": "worsens",
-            "text": "這裡使用現在簡單式，在新聞標題中常用來描述持續的趨勢或狀態。",
-            "category": "時態"
-          },
-          {
-            "word": "amid",
-            "text": "amid 是一個介係詞，表示「在…之中」或「在…情況下」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Zelensky's",
-            "text": "Zelensky's 是澤倫斯基的所有格形式，表示「澤倫斯基的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Ukraine strikes Russian oil terminal in massive drone attack on Sunday, October 18. Reuters",
-      "url": "https://edition.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Ukraine strikes Russian oil terminal in massive drone attack on Sunday, October 18. Reuters",
-        "sourceUrl": "https://edition.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl",
-        "zh": "路透社報導，烏克蘭在10月18日星期日的大規模無人機襲擊中，襲擊了俄羅斯的一個油料終端。",
-        "accepted": [
-          [
-            "Ukraine",
-            "strikes",
-            "Russian",
-            "oil",
-            "terminal",
-            "in",
-            "massive",
-            "drone",
-            "attack",
-            "on",
-            "Sunday,",
-            "October",
-            "18.",
-            "Reuters"
-          ]
-        ],
-        "distractors": [
-          "hits",
-          "targets",
-          "huge",
-          "assault",
-          "during",
-          "news"
-        ],
-        "notes": [
-          {
-            "word": "strikes",
-            "text": "這裡使用現在簡單式，在新聞標題中常用來描述最近發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "Russian",
-            "text": "Russian 作為形容詞，表示「俄羅斯的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "in 在這裡表示「在…之中」或「在…情況下」，指襲擊發生的方式。",
-            "category": "介係詞"
-          },
-          {
-            "word": "on Sunday, October 18",
-            "text": "on 用於特定的日期或星期幾。",
-            "category": "介係詞"
-          },
-          {
-            "word": "terminal",
-            "text": "terminal 在這裡指「終端」或「終點站」，特指油料儲存和運輸的設施。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Why the Muslim Brotherhood has become a flashpoint in the Michigan Senate race",
-      "url": "https://edition.cnn.com/2026/10/19/politics/abdul-el-sayed-muslim-brotherhood-michigan-senate-race",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Why the Muslim Brotherhood has become a flashpoint in the Michigan Senate race",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/politics/abdul-el-sayed-muslim-brotherhood-michigan-senate-race",
-        "zh": "為什麼穆斯林兄弟會成為密西根州參議院競選中的一個爭議焦點？",
-        "accepted": [
-          [
-            "Why",
-            "the",
-            "Muslim",
-            "Brotherhood",
-            "has",
-            "become",
-            "a",
-            "flashpoint",
-            "in",
-            "the",
-            "Michigan",
-            "Senate",
-            "race"
-          ]
-        ],
-        "distractors": [
-          "how",
-          "is",
-          "point",
-          "issue",
-          "for",
-          "election"
-        ],
-        "notes": [
-          {
-            "word": "has become",
-            "text": "has become 是現在完成式，表示從過去到現在的狀態變化，強調結果。",
-            "category": "時態"
-          },
-          {
-            "word": "the Muslim Brotherhood",
-            "text": "the 用於特指一個已知的組織或團體。",
-            "category": "冠詞"
-          },
-          {
-            "word": "a flashpoint",
-            "text": "a flashpoint 表示「一個爭議焦點」或「一個導火線」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "in the Michigan Senate race",
-            "text": "in 用於表示「在…之中」或「在…範圍內」，指事件發生的場域。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘We’re in a red sinkhole’: Plummeting Latino support for Republicans could swing the midterms",
-      "url": "https://edition.cnn.com/2026/10/19/politics/latino-voters-shift-republicans-midterm-elections",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘We’re in a red sinkhole’: Plummeting Latino support for Republicans could swing the midterms",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/politics/latino-voters-shift-republicans-midterm-elections",
-        "zh": "「我們陷入了紅色泥沼：」拉丁裔對共和黨支持度暴跌可能影響期中選舉。",
-        "accepted": [
-          [
-            "‘We’re",
-            "in",
-            "a",
-            "red",
-            "sinkhole’:",
-            "Plummeting",
-            "Latino",
-            "support",
-            "for",
-            "Republicans",
-            "could",
-            "swing",
-            "the",
-            "midterms"
-          ]
-        ],
-        "distractors": [
-          "falling",
-          "decrease",
-          "among",
-          "might",
-          "change",
-          "elections"
-        ],
-        "notes": [
-          {
-            "word": "We’re",
-            "text": "We’re 是 We are 的縮寫，表示「我們是」。",
-            "category": "其他"
-          },
-          {
-            "word": "in a red sinkhole",
-            "text": "in a red sinkhole 是一個比喻，表示「陷入困境」或「深陷泥沼」，其中 red 可能指共和黨的顏色。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Plummeting",
-            "text": "Plummeting 作為現在分詞，修飾 support，表示「暴跌的」或「急劇下降的」。",
-            "category": "其他"
-          },
-          {
-            "word": "support for",
-            "text": "support for 表示「對…的支持」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "could swing",
-            "text": "could swing 表示「可能影響」或「可能改變」，could 表示可能性。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
-      "url": "https://edition.cnn.com/2026/10/18/business/you-can-see-everything-fielder-box-office",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
-        "sourceUrl": "https://edition.cnn.com/2026/10/18/business/you-can-see-everything-fielder-box-office",
-        "zh": "《你什麼都能看見》成為數十年來最賣座的紀錄片之一。",
-        "accepted": [
-          [
-            "‘You",
-            "Can",
-            "See",
-            "Everything’",
-            "becomes",
-            "one",
-            "of",
-            "the",
-            "biggest",
-            "documentary",
-            "releases",
-            "in",
-            "decades"
-          ]
-        ],
-        "distractors": [
-          "is",
-          "most",
-          "popular",
-          "films",
-          "over",
-          "years"
-        ],
-        "notes": [
-          {
-            "word": "becomes",
-            "text": "這裡使用現在簡單式，在新聞標題中常用來描述最近發生的事件或持續的狀態。",
-            "category": "時態"
-          },
-          {
-            "word": "one of the biggest",
-            "text": "one of the + 最高級 + 複數名詞，表示「…之一」。",
-            "category": "單複數"
-          },
-          {
-            "word": "in decades",
-            "text": "in decades 表示「在數十年來」，指時間範圍。",
-            "category": "介係詞"
-          },
-          {
-            "word": "releases",
-            "text": "releases 在這裡指「發行」或「上映的作品」，是複數名詞。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Finland gripped by national broadcaster’s puppies live stream",
-      "url": "https://edition.cnn.com/2026/10/19/europe/finland-puppies-livestream-scli-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Finland gripped by national broadcaster’s puppies live stream",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/europe/finland-puppies-livestream-scli-intl",
-        "zh": "芬蘭被國家廣播公司的幼犬直播節目所吸引。",
-        "accepted": [
-          [
-            "Finland",
-            "gripped",
-            "by",
-            "national",
-            "broadcaster’s",
-            "puppies",
-            "live",
-            "stream"
-          ]
-        ],
-        "distractors": [
-          "captivated",
-          "from",
-          "public",
-          "channel",
-          "dog",
-          "show"
-        ],
-        "notes": [
-          {
-            "word": "gripped by",
-            "text": "gripped by 是被動語態，表示「被…所吸引」或「被…所掌控」。",
-            "category": "時態"
-          },
-          {
-            "word": "broadcaster’s",
-            "text": "broadcaster’s 是所有格形式，表示「廣播公司的」。",
-            "category": "其他"
-          },
-          {
-            "word": "puppies",
-            "text": "puppies 是 puppy 的複數形式，表示「幼犬們」。",
-            "category": "單複數"
-          },
-          {
-            "word": "live stream",
-            "text": "live stream 作為名詞片語，表示「直播」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Gen Zers love using headphones — but do they know the risks? Experts weigh in",
-      "url": "https://edition.cnn.com/2026/10/19/health/headphone-overuse-dangers-loneliness-wellness",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Gen Zers love using headphones — but do they know the risks? Experts weigh in",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/health/headphone-overuse-dangers-loneliness-wellness",
-        "zh": "Z世代喜歡使用耳機——但他們知道風險嗎？專家們權衡利弊。",
-        "accepted": [
-          [
-            "Gen",
-            "Zers",
-            "love",
-            "using",
-            "headphones",
-            "—",
-            "but",
-            "do",
-            "they",
-            "know",
-            "the",
-            "risks?",
-            "Experts",
-            "weigh",
-            "in"
-          ]
-        ],
-        "distractors": [
-          "like",
-          "wear",
-          "earbuds",
-          "and",
-          "understand",
-          "dangers"
-        ],
-        "notes": [
-          {
-            "word": "Gen Zers",
-            "text": "Gen Zers 是 Gen Z 的非正式複數形式，指「Z世代的人們」。",
-            "category": "單複數"
-          },
-          {
-            "word": "using headphones",
-            "text": "using headphones 是動名詞片語，作 love 的受詞，表示「使用耳機」。",
-            "category": "其他"
-          },
-          {
-            "word": "do they know",
-            "text": "這是一個疑問句，使用助動詞 do 構成現在簡單式的疑問句。",
-            "category": "時態"
-          },
-          {
-            "word": "weigh in",
-            "text": "weigh in 是一個片語動詞，表示「參與討論」或「發表意見」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Jon Stewart to stay at ‘The Daily Show’ through the 2028 election",
-      "url": "https://edition.cnn.com/2026/10/19/media/jon-stewart-daily-show-2028-skydance-comedy-central",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Jon Stewart to stay at ‘The Daily Show’ through the 2028 election",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/media/jon-stewart-daily-show-2028-skydance-comedy-central",
-        "zh": "喬恩·史都華將繼續主持《每日秀》直到2028年大選。",
-        "accepted": [
-          [
-            "Jon",
-            "Stewart",
+            "Tesla",
+            "have",
+            "formed",
+            "committees",
             "to",
-            "stay",
-            "at",
-            "‘The",
-            "Daily",
-            "Show’",
-            "through",
-            "the",
-            "2028",
-            "election"
+            "discuss",
+            "potential",
+            "merger",
+            ",",
+            "Musk",
+            "says"
           ]
         ],
         "distractors": [
-          "remain",
-          "on",
-          "until",
-          "show",
-          "vote",
-          "campaign"
+          "form",
+          "committee",
+          "discussion",
+          "potentially",
+          "mergers",
+          "said"
         ],
         "notes": [
           {
-            "word": "to stay",
-            "text": "在新聞標題中，to + 動詞原形常用來表示即將發生的事件或計畫。",
+            "word": "have formed",
+            "text": "現在完成式 'have formed' 表示動作已經完成，且對現在有影響。",
             "category": "時態"
           },
           {
-            "word": "at ‘The Daily Show’",
-            "text": "at 用於表示「在某個地點」或「在某個節目」。",
-            "category": "介係詞"
+            "word": "committees",
+            "text": "此處使用複數 'committees'，表示成立了多個委員會。",
+            "category": "單複數"
           },
           {
-            "word": "through",
-            "text": "through 作為介係詞，表示「直到…結束」或「貫穿整個…時期」。",
-            "category": "介係詞"
+            "word": "to discuss",
+            "text": "不定詞 'to discuss' 表示目的，即「為了討論」。",
+            "category": "其他"
           },
           {
-            "word": "the 2028 election",
-            "text": "the 用於特指某個已知的或特定的選舉。",
+            "word": "potential merger",
+            "text": "'potential' 是形容詞，修飾名詞 'merger'，表示「潛在的合併」。",
+            "category": "其他"
+          },
+          {
+            "word": "Musk says",
+            "text": "這是一個插入語，表示消息來源是馬斯克。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Peace process surrounding Russia's invasion of Ukraine reaches a remarkable impasse",
+      "url": "https://edition.cnn.com/2026/10/20/europe/kyiv-under-pressure-as-trump-and-putin-cozy-up-analysis",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Peace process surrounding Russia's invasion of Ukraine reaches a remarkable impasse",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/europe/kyiv-under-pressure-as-trump-and-putin-cozy-up-analysis",
+        "zh": "圍繞俄羅斯入侵烏克蘭的和平進程陷入了顯著的僵局。",
+        "accepted": [
+          [
+            "Peace",
+            "process",
+            "surrounding",
+            "Russia's",
+            "invasion",
+            "of",
+            "Ukraine",
+            "reaches",
+            "a",
+            "remarkable",
+            "impasse"
+          ]
+        ],
+        "distractors": [
+          "processes",
+          "surround",
+          "invade",
+          "reach",
+          "remarkably",
+          "impasses"
+        ],
+        "notes": [
+          {
+            "word": "Peace process",
+            "text": "'Peace process' 是一個複合名詞，指「和平進程」。",
+            "category": "其他"
+          },
+          {
+            "word": "surrounding",
+            "text": "現在分詞 'surrounding' 作形容詞，修飾 'process'，表示「圍繞著……的」。",
+            "category": "其他"
+          },
+          {
+            "word": "Russia's",
+            "text": "'Russia's' 是所有格，表示「俄羅斯的」。",
+            "category": "其他"
+          },
+          {
+            "word": "reaches",
+            "text": "主詞 'Peace process' 是單數，因此動詞 'reach' 需加 'es'。",
+            "category": "單複數"
+          },
+          {
+            "word": "a remarkable impasse",
+            "text": "'a' 是不定冠詞，'remarkable' 是形容詞，'impasse' 是名詞，表示「一個顯著的僵局」。",
             "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Christiane Amanpour announces she will leave CNN next June",
-      "url": "https://edition.cnn.com/2026/10/19/media/christiane-amanpour-leaving-cnn-june-2027",
+      "en": "The AI boom and the dollar prevent the US from becoming France. But an X factor could lead to a debt crisis.",
+      "url": "https://edition.cnn.com/2026/10/20/economy/france-economic-crisis-us-debt",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Christiane Amanpour announces she will leave CNN next June",
-        "sourceUrl": "https://edition.cnn.com/2026/10/19/media/christiane-amanpour-leaving-cnn-june-2027",
-        "zh": "克里斯蒂安娜·阿曼普爾宣布她將於明年六月離開CNN。",
+        "sourceEn": "The AI boom and the dollar prevent the US from becoming France. But an X factor could lead to a debt crisis.",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/economy/france-economic-crisis-us-debt",
+        "zh": "人工智慧的蓬勃發展和美元阻止了美國變成法國。但一個未知因素可能導致債務危機。",
         "accepted": [
           [
-            "Christiane",
-            "Amanpour",
-            "announces",
-            "she",
-            "will",
-            "leave",
-            "CNN",
-            "next",
-            "June"
+            "The",
+            "AI",
+            "boom",
+            "and",
+            "the",
+            "dollar",
+            "prevent",
+            "the",
+            "US",
+            "from",
+            "becoming",
+            "France",
+            ".",
+            "But",
+            "an",
+            "X",
+            "factor",
+            "could",
+            "lead",
+            "to",
+            "a",
+            "debt",
+            "crisis",
+            "."
           ]
         ],
         "distractors": [
-          "states",
-          "says",
-          "depart",
-          "from",
-          "coming",
-          "month"
+          "booms",
+          "dollars",
+          "prevents",
+          "become",
+          "factors",
+          "crises"
         ],
         "notes": [
           {
-            "word": "announces",
-            "text": "這裡使用現在簡單式，在新聞標題中常用來描述最近發生的事件。",
+            "word": "The AI boom and the dollar",
+            "text": "這是複合主詞，由 'and' 連接，因此動詞 'prevent' 使用複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "prevent ... from becoming",
+            "text": "片語 'prevent ... from doing something' 意為「阻止……做某事」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "an X factor",
+            "text": "'an' 是不定冠詞，用於修飾以母音發音開頭的單數可數名詞 'X factor'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "could lead to",
+            "text": "'could' 是情態助動詞，表示可能性，後面接動詞原形 'lead'。'lead to' 意為「導致」。",
             "category": "時態"
           },
           {
-            "word": "will leave",
-            "text": "will leave 表示未來將發生的動作，是未來簡單式。",
-            "category": "時態"
-          },
+            "word": "a debt crisis",
+            "text": "'a' 是不定冠詞，'debt crisis' 是複合名詞，指「債務危機」。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Looted French goods are popping up on resale site Vinted",
+      "url": "https://edition.cnn.com/2026/10/20/business/vinted-removes-goods-linked-to-french-looting-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Looted French goods are popping up on resale site Vinted",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/business/vinted-removes-goods-linked-to-french-looting-scli",
+        "zh": "被掠奪的法國商品正在轉售網站 Vinted 上出現。",
+        "accepted": [
+          [
+            "Looted",
+            "French",
+            "goods",
+            "are",
+            "popping",
+            "up",
+            "on",
+            "resale",
+            "site",
+            "Vinted"
+          ]
+        ],
+        "distractors": [
+          "Loot",
+          "good",
+          "is",
+          "pop",
+          "ups",
+          "sites"
+        ],
+        "notes": [
           {
-            "word": "next June",
-            "text": "next June 表示「明年六月」，是時間狀語。",
+            "word": "Looted",
+            "text": "過去分詞 'Looted' 作形容詞，表示「被掠奪的」。",
             "category": "其他"
           },
           {
-            "word": "CNN",
-            "text": "CNN 是美國有線電視新聞網的縮寫，是一個專有名詞。",
+            "word": "goods",
+            "text": "'goods' 在此是複數名詞，意為「商品」。",
+            "category": "單複數"
+          },
+          {
+            "word": "are popping up",
+            "text": "現在進行式 'are popping up' 表示動作正在發生。'pop up' 意為「突然出現」。",
+            "category": "時態"
+          },
+          {
+            "word": "on",
+            "text": "介係詞 'on' 用於表示在某個網站或平台上。",
+            "category": "介係詞"
+          },
+          {
+            "word": "resale site",
+            "text": "'resale site' 是一個複合名詞，指「轉售網站」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Even the grannies are bringing it. Inside China’s most stylish city",
+      "url": "https://edition.cnn.com/2026/10/20/style/shanghai-fashion-week-china-designers-art",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Even the grannies are bringing it. Inside China’s most stylish city",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/style/shanghai-fashion-week-china-designers-art",
+        "zh": "連老奶奶們都帶來了。中國最時尚的城市內部。",
+        "accepted": [
+          [
+            "Even",
+            "the",
+            "grannies",
+            "are",
+            "bringing",
+            "it",
+            ".",
+            "Inside",
+            "China’s",
+            "most",
+            "stylish",
+            "city"
+          ]
+        ],
+        "distractors": [
+          "granny",
+          "is",
+          "bring",
+          "them",
+          "outside",
+          "cities"
+        ],
+        "notes": [
+          {
+            "word": "Even",
+            "text": "'Even' 作副詞，表示「甚至」，強調語氣。",
+            "category": "其他"
+          },
+          {
+            "word": "the grannies",
+            "text": "'the' 是定冠詞，'grannies' 是 'granny' 的複數形式，指「老奶奶們」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "are bringing it",
+            "text": "現在進行式 'are bringing' 表示動作正在發生。'bring it' 是一個口語表達，意為「帶來活力、展現實力」。",
+            "category": "時態"
+          },
+          {
+            "word": "Inside",
+            "text": "介係詞 'Inside' 表示「在……內部」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "China’s most stylish city",
+            "text": "'China’s' 是所有格，'most stylish' 是最高級形容詞，修飾 'city'。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Vance declines to endorse Netanyahu’s reelection bid, breaking with Trump",
+      "url": "https://edition.cnn.com/2026/10/19/politics/vance-declines-endorse-netanyahu-trump-split",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Vance declines to endorse Netanyahu’s reelection bid, breaking with Trump",
+        "sourceUrl": "https://edition.cnn.com/2026/10/19/politics/vance-declines-endorse-netanyahu-trump-split",
+        "zh": "范斯拒絕支持納坦雅胡的連任競選，與川普決裂。",
+        "accepted": [
+          [
+            "Vance",
+            "declines",
+            "to",
+            "endorse",
+            "Netanyahu’s",
+            "reelection",
+            "bid",
+            ",",
+            "breaking",
+            "with",
+            "Trump"
+          ]
+        ],
+        "distractors": [
+          "decline",
+          "endorses",
+          "bids",
+          "broke",
+          "breaks",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "declines",
+            "text": "主詞 'Vance' 是第三人稱單數，因此動詞 'decline' 需加 's'。",
+            "category": "單複數"
+          },
+          {
+            "word": "to endorse",
+            "text": "不定詞 'to endorse' 表示目的，即「為了支持」。",
+            "category": "其他"
+          },
+          {
+            "word": "Netanyahu’s",
+            "text": "'Netanyahu’s' 是所有格，表示「納坦雅胡的」。",
+            "category": "其他"
+          },
+          {
+            "word": "reelection bid",
+            "text": "'reelection bid' 是一個複合名詞，指「連任競選」。",
+            "category": "其他"
+          },
+          {
+            "word": "breaking with",
+            "text": "現在分詞片語 'breaking with' 作為伴隨狀語，表示「與……決裂」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+      "url": "https://edition.cnn.com/2026/10/20/africa/drone-strike-abeyi-south-sudan-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/africa/drone-strike-abeyi-south-sudan-latam-intl",
+        "zh": "在有爭議的非洲阿卜耶伊地區，無人機襲擊市場造成至少153人死亡。",
+        "accepted": [
+          [
+            "Drone",
+            "strike",
+            "on",
+            "a",
+            "market",
+            "in",
+            "disputed",
+            "African",
+            "region",
+            "of",
+            "Abyei",
+            "kills",
+            "at",
+            "least",
+            "153"
+          ]
+        ],
+        "distractors": [
+          "strikes",
+          "markets",
+          "regions",
+          "kill",
+          "leastly",
+          "from"
+        ],
+        "notes": [
+          {
+            "word": "Drone strike",
+            "text": "'Drone strike' 是一個複合名詞，指「無人機襲擊」。",
+            "category": "其他"
+          },
+          {
+            "word": "on a market",
+            "text": "介係詞 'on' 用於表示襲擊的目標或地點。",
+            "category": "介係詞"
+          },
+          {
+            "word": "disputed",
+            "text": "過去分詞 'disputed' 作形容詞，表示「有爭議的」。",
+            "category": "其他"
+          },
+          {
+            "word": "kills",
+            "text": "主詞 'Drone strike' 是單數，因此動詞 'kill' 需加 's'。",
+            "category": "單複數"
+          },
+          {
+            "word": "at least",
+            "text": "片語 'at least' 意為「至少」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Investigators interview Rep. Ilhan Omar’s sister",
+      "url": "https://edition.cnn.com/2026/10/20/politics/investigators-interview-ilhan-omar-sister",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Investigators interview Rep. Ilhan Omar’s sister",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/politics/investigators-interview-ilhan-omar-sister",
+        "zh": "調查人員採訪了眾議員伊爾汗·奧馬爾的妹妹。",
+        "accepted": [
+          [
+            "Investigators",
+            "interview",
+            "Rep",
+            ".",
+            "Ilhan",
+            "Omar’s",
+            "sister"
+          ]
+        ],
+        "distractors": [
+          "Investigator",
+          "interviews",
+          "sisters",
+          "interviewed",
+          "Omar",
+          "Represents"
+        ],
+        "notes": [
+          {
+            "word": "Investigators",
+            "text": "主詞 'Investigators' 是複數，因此動詞 'interview' 不加 's'。",
+            "category": "單複數"
+          },
+          {
+            "word": "interview",
+            "text": "此處 'interview' 作動詞，表示「採訪」。",
+            "category": "時態"
+          },
+          {
+            "word": "Rep.",
+            "text": "'Rep.' 是 'Representative' 的縮寫，指「眾議員」。",
+            "category": "其他"
+          },
+          {
+            "word": "Omar’s",
+            "text": "'Omar’s' 是所有格，表示「奧馬爾的」。",
+            "category": "其他"
+          },
+          {
+            "word": "sister",
+            "text": "此處 'sister' 指「妹妹」或「姐姐」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Google Cloud services face outage in London, Revolut services down too",
+      "url": "https://edition.cnn.com/2026/10/20/europe/google-cloud-outage-london-revolut-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Google Cloud services face outage in London, Revolut services down too",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/europe/google-cloud-outage-london-revolut-intl",
+        "zh": "Google Cloud 服務在倫敦面臨中斷，Revolut 服務也隨之中斷。",
+        "accepted": [
+          [
+            "Google",
+            "Cloud",
+            "services",
+            "face",
+            "outage",
+            "in",
+            "London",
+            ",",
+            "Revolut",
+            "services",
+            "down",
+            "too"
+          ]
+        ],
+        "distractors": [
+          "service",
+          "faces",
+          "outages",
+          "on",
+          "downs",
+          "also"
+        ],
+        "notes": [
+          {
+            "word": "services",
+            "text": "'services' 是複數名詞，因此動詞 'face' 不加 's'。",
+            "category": "單複數"
+          },
+          {
+            "word": "face outage",
+            "text": "'face outage' 意為「面臨中斷」。'outage' 指「停電、中斷」。",
+            "category": "其他"
+          },
+          {
+            "word": "in London",
+            "text": "介係詞 'in' 用於表示地點，即「在倫敦」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "down",
+            "text": "此處 'down' 作形容詞，表示「停止運作、中斷」。",
+            "category": "其他"
+          },
+          {
+            "word": "too",
+            "text": "'too' 作副詞，表示「也、同樣」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Exclusive FEMA scrapped plans for high-tech jets to transport senior officials",
+      "url": "https://edition.cnn.com/2026/10/20/politics/fema-planes-dhs",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Exclusive FEMA scrapped plans for high-tech jets to transport senior officials",
+        "sourceUrl": "https://edition.cnn.com/2026/10/20/politics/fema-planes-dhs",
+        "zh": "CNN 獨家報導：FEMA 取消了使用高科技噴射機運送高級官員的計畫。",
+        "accepted": [
+          [
+            "CNN",
+            "Exclusive",
+            "FEMA",
+            "scrapped",
+            "plans",
+            "for",
+            "high-tech",
+            "jets",
+            "to",
+            "transport",
+            "senior",
+            "officials"
+          ]
+        ],
+        "distractors": [
+          "Exclusively",
+          "scrap",
+          "plan",
+          "jet",
+          "transports",
+          "official"
+        ],
+        "notes": [
+          {
+            "word": "CNN Exclusive",
+            "text": "'Exclusive' 作名詞，表示「獨家新聞」。",
+            "category": "其他"
+          },
+          {
+            "word": "scrapped",
+            "text": "動詞 'scrapped' 是 'scrap' 的過去式，意為「取消、廢棄」。",
+            "category": "時態"
+          },
+          {
+            "word": "plans for",
+            "text": "'plans for' 意為「……的計畫」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "high-tech jets",
+            "text": "'high-tech' 是形容詞，修飾 'jets'，指「高科技噴射機」。",
+            "category": "其他"
+          },
+          {
+            "word": "to transport",
+            "text": "不定詞 'to transport' 表示目的，即「為了運送」。",
             "category": "其他"
           }
         ]
