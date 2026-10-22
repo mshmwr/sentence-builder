@@ -1,728 +1,698 @@
 {
-  "date": "2026-10-21",
-  "fetchedAt": "2026-10-21T23:08:09.296Z",
+  "date": "2026-10-22",
+  "fetchedAt": "2026-10-22T23:07:47.450Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "UK approves new North Sea gas field",
-      "url": "https://edition.cnn.com/2026/10/21/business/jackdaw-gas-field-uk-intl",
+      "en": "Top 10 Senate seats most likely to flip",
+      "url": "https://edition.cnn.com/2026/10/22/politics/cnn-top-10-senate-races-most-likely-to-flip",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "UK approves new North Sea gas field",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/business/jackdaw-gas-field-uk-intl",
-        "zh": "英國批准了新的北海天然氣田。",
+        "sourceEn": "Top 10 Senate seats most likely to flip",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/cnn-top-10-senate-races-most-likely-to-flip",
+        "zh": "最有可能翻盤的十大參議院席位",
         "accepted": [
           [
-            "UK",
-            "approves",
-            "new",
-            "North",
-            "Sea",
-            "gas",
-            "field"
-          ]
-        ],
-        "distractors": [
-          "approve",
-          "approved",
-          "fields",
-          "the",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "approves",
-            "text": "此處使用動詞的第三人稱單數現在式，因為主詞「UK」是單數。",
-            "category": "時態"
-          },
-          {
-            "word": "new",
-            "text": "「new」作為形容詞修飾「North Sea gas field」，表示「新的」。",
-            "category": "其他"
-          },
-          {
-            "word": "gas field",
-            "text": "「gas field」是複合名詞，指「天然氣田」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Russia frees 74-year-old American Stephen Hubbard captured in occupied Ukraine",
-      "url": "https://edition.cnn.com/2026/10/21/europe/stephen-hubbard-prisoner-release-russia-trump-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Russia frees 74-year-old American Stephen Hubbard captured in occupied Ukraine",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/europe/stephen-hubbard-prisoner-release-russia-trump-intl",
-        "zh": "俄羅斯釋放了在被佔領的烏克蘭境內被捕的74歲美國人史蒂芬·哈伯德。",
-        "accepted": [
-          [
-            "Russia",
-            "frees",
-            "74-year-old",
-            "American",
-            "Stephen",
-            "Hubbard",
-            "captured",
-            "in",
-            "occupied",
-            "Ukraine"
-          ]
-        ],
-        "distractors": [
-          "free",
-          "freed",
-          "captures",
-          "the",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "frees",
-            "text": "此處使用動詞的第三人稱單數現在式，因為主詞「Russia」是單數，表示新聞事件。",
-            "category": "時態"
-          },
-          {
-            "word": "74-year-old",
-            "text": "「74-year-old」是一個複合形容詞，修飾「American Stephen Hubbard」。數字和單位之間用連字號連接。",
-            "category": "其他"
-          },
-          {
-            "word": "captured",
-            "text": "「captured」是過去分詞，作形容詞修飾「Stephen Hubbard」，表示「被捕獲的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」表示「在...之內」，指被捕地點在「occupied Ukraine」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
-      "url": "https://edition.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl",
-        "zh": "克里姆林宮在與維特科夫會面後表示，俄羅斯願意在11月恢復三邊和平談判。",
-        "accepted": [
-          [
-            "Russia",
-            "willing",
+            "Top",
+            "10",
+            "Senate",
+            "seats",
+            "most",
+            "likely",
             "to",
-            "resume",
-            "trilateral",
-            "peace",
-            "talks",
-            "in",
-            "November",
-            ",",
-            "Kremlin",
-            "says",
-            "after",
-            "Witkoff",
-            "meeting"
+            "flip"
           ]
         ],
         "distractors": [
-          "is",
-          "was",
-          "resumes",
-          "talk",
-          "the"
+          "best",
+          "election",
+          "vote",
+          "change",
+          "win"
         ],
         "notes": [
           {
-            "word": "willing",
-            "text": "此處「willing」作為形容詞，通常與be動詞連用表示「願意」。在新聞標題中，be動詞常被省略。",
+            "word": "Top",
+            "text": "在這裡 'Top' 指的是排名前幾的，最主要的。它作為形容詞修飾 '10 Senate seats'。",
             "category": "其他"
           },
           {
-            "word": "to resume",
-            "text": "「to resume」是不定詞片語，表示目的「為了恢復」。",
+            "word": "likely",
+            "text": "'likely to' 是一個常見的片語，表示「很可能做某事」。",
             "category": "其他"
           },
           {
-            "word": "trilateral",
-            "text": "「trilateral」意為「三邊的」，修飾「peace talks」。",
+            "word": "flip",
+            "text": "在政治語境中，'flip' 指的是席位從一個政黨轉移到另一個政黨，即「翻盤」。",
             "category": "其他"
-          },
-          {
-            "word": "in November",
-            "text": "介係詞「in」用於表示月份或年份。",
-            "category": "介係詞"
-          },
-          {
-            "word": "says",
-            "text": "動詞「says」的第三人稱單數現在式，主詞是「Kremlin」。",
-            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Meta ordered to pay $25 billion in New Mexico case over Cambridge Analytica scandal",
-      "url": "https://edition.cnn.com/2026/10/21/tech/meta-25-billion-new-mexico-judgment",
+      "en": "Judge sets deadline for Trump to be deposed in his $10B lawsuit against the BBC",
+      "url": "https://edition.cnn.com/2026/10/22/politics/trump-deposition-10-billion-bbc-lawsuit",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Meta ordered to pay $25 billion in New Mexico case over Cambridge Analytica scandal",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/tech/meta-25-billion-new-mexico-judgment",
-        "zh": "Meta被勒令在新墨西哥州的一宗關於劍橋分析公司醜聞的案件中支付250億美元。",
+        "sourceEn": "Judge sets deadline for Trump to be deposed in his $10B lawsuit against the BBC",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/trump-deposition-10-billion-bbc-lawsuit",
+        "zh": "法官設定川普在其對BBC的100億美元訴訟中作證的最後期限",
         "accepted": [
           [
-            "Meta",
-            "ordered",
+            "Judge",
+            "sets",
+            "deadline",
+            "for",
+            "Trump",
             "to",
-            "pay",
-            "$25",
-            "billion",
+            "be",
+            "deposed",
             "in",
-            "New",
-            "Mexico",
-            "case",
-            "over",
-            "Cambridge",
-            "Analytica",
-            "scandal"
-          ]
-        ],
-        "distractors": [
-          "orders",
-          "ordering",
-          "paid",
-          "the",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "ordered",
-            "text": "此處「ordered」是過去分詞，表示被動語態，意為「被命令」。在新聞標題中，be動詞常被省略。",
-            "category": "時態"
-          },
-          {
-            "word": "to pay",
-            "text": "「to pay」是不定詞，表示被命令的內容或目的。",
-            "category": "其他"
-          },
-          {
-            "word": "billion",
-            "text": "「billion」是十億，與數字連用時通常不加s。",
-            "category": "單複數"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」表示「在...之中」，指案件發生的地點或範圍。",
-            "category": "介係詞"
-          },
-          {
-            "word": "over",
-            "text": "介係詞「over」在此表示「關於」或「由於」，指案件的起因是「Cambridge Analytica scandal」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "US orders departure of some embassy staff and families from Saudi Arabia amid Houthi threat",
-      "url": "https://edition.cnn.com/2026/10/21/politics/us-orders-departure-embassy-staff-saudi-arabia",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "US orders departure of some embassy staff and families from Saudi Arabia amid Houthi threat",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/politics/us-orders-departure-embassy-staff-saudi-arabia",
-        "zh": "由於胡塞武裝的威脅，美國命令部分大使館工作人員及其家屬撤離沙烏地阿拉伯。",
-        "accepted": [
-          [
-            "US",
-            "orders",
-            "departure",
-            "of",
-            "some",
-            "embassy",
-            "staff",
-            "and",
-            "families",
-            "from",
-            "Saudi",
-            "Arabia",
-            "amid",
-            "Houthi",
-            "threat"
-          ]
-        ],
-        "distractors": [
-          "order",
-          "ordered",
-          "departures",
-          "the",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "orders",
-            "text": "動詞「orders」的第三人稱單數現在式，主詞是「US」。",
-            "category": "時態"
-          },
-          {
-            "word": "departure",
-            "text": "「departure」是名詞，意為「離開、撤離」。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "介係詞「of」表示所有格或部分關係，此處指「部分大使館工作人員和家屬的撤離」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "from",
-            "text": "介係詞「from」表示「從...」，指撤離的來源地。",
-            "category": "介係詞"
-          },
-          {
-            "word": "amid",
-            "text": "介係詞「amid」表示「在...之中、在...期間」，指在「Houthi threat」的情況下。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump’s approval rating hits a new low ahead of the midterms",
-      "url": "https://edition.cnn.com/2026/10/21/politics/video/national-poll-midterms-behind-the-scenes-vod",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump’s approval rating hits a new low ahead of the midterms",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/politics/video/national-poll-midterms-behind-the-scenes-vod",
-        "zh": "川普的支持率在中期選舉前創下新低。",
-        "accepted": [
-          [
-            "Trump’s",
-            "approval",
-            "rating",
-            "hits",
-            "a",
-            "new",
-            "low",
-            "ahead",
-            "of",
+            "his",
+            "$10B",
+            "lawsuit",
+            "against",
             "the",
-            "midterms"
+            "BBC"
           ]
         ],
         "distractors": [
-          "hit",
-          "hitting",
-          "ratings",
-          "an",
-          "lows"
+          "court",
+          "order",
+          "testify",
+          "case",
+          "money",
+          "media"
         ],
         "notes": [
           {
-            "word": "Trump’s",
-            "text": "「Trump’s」是所有格，表示「川普的」。",
-            "category": "其他"
-          },
-          {
-            "word": "hits",
-            "text": "動詞「hits」的第三人稱單數現在式，主詞是「Trump’s approval rating」。",
+            "word": "sets",
+            "text": "'set a deadline' 是一個常用片語，表示「設定一個截止日期」。這裡的 'sets' 是動詞 'set' 的第三人稱單數現在式。",
             "category": "時態"
           },
           {
-            "word": "a new low",
-            "text": "「a new low」是一個片語，意為「新低點」。",
+            "word": "deposed",
+            "text": "'to be deposed' 是被動語態，表示「被要求作證」。在法律語境中，'depose' 指的是在法庭外宣誓作證。",
             "category": "其他"
           },
           {
-            "word": "ahead of",
-            "text": "片語「ahead of」表示「在...之前」。",
+            "word": "in",
+            "text": "這裡的 'in' 表示「在...之中」，指川普在「他的100億美元訴訟」這個背景下被要求作證。",
             "category": "介係詞"
           },
           {
             "word": "the",
-            "text": "定冠詞「the」用於特指「midterms」（中期選舉）。",
+            "text": "'the BBC' 中的 'the' 是定冠詞，因為BBC是一個特定的廣播公司。",
             "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "CNN Poll Desire for change, anti-Trump feelings fuel Democrats’ midterms advantage",
-      "url": "https://edition.cnn.com/2026/10/21/politics/cnn-poll-trump-democrats-republicans-midterms",
+      "en": "Amy Acton opens up about her painful childhood after an attack ad featuring her estranged mother",
+      "url": "https://edition.cnn.com/2026/10/22/politics/amy-acton-response-mother-ad-vivek-ramaswamy",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN Poll Desire for change, anti-Trump feelings fuel Democrats’ midterms advantage",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/politics/cnn-poll-trump-democrats-republicans-midterms",
-        "zh": "CNN民意調查：求變的渴望、反川普情緒助長民主黨在中期選舉中的優勢。",
+        "sourceEn": "Amy Acton opens up about her painful childhood after an attack ad featuring her estranged mother",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/amy-acton-response-mother-ad-vivek-ramaswamy",
+        "zh": "在一則以她疏遠的母親為主角的攻擊性廣告播出後，艾米·艾克頓公開談論她痛苦的童年",
         "accepted": [
           [
-            "CNN",
-            "Poll",
-            "Desire",
-            "for",
-            "change",
-            ",",
-            "anti-Trump",
-            "feelings",
-            "fuel",
-            "Democrats’",
-            "midterms",
-            "advantage"
+            "Amy",
+            "Acton",
+            "opens",
+            "up",
+            "about",
+            "her",
+            "painful",
+            "childhood",
+            "after",
+            "an",
+            "attack",
+            "ad",
+            "featuring",
+            "her",
+            "estranged",
+            "mother"
           ]
         ],
         "distractors": [
-          "fuels",
-          "fueled",
-          "desires",
-          "the",
-          "a"
+          "talks",
+          "reveals",
+          "past",
+          "family",
+          "commercial",
+          "difficult"
         ],
         "notes": [
           {
-            "word": "Poll",
-            "text": "此處「Poll」作為名詞，指「民意調查」。",
+            "word": "opens up",
+            "text": "'open up about something' 是一個片語，表示「公開談論某事，敞開心扉」。",
             "category": "其他"
           },
           {
-            "word": "Desire",
-            "text": "「Desire」是名詞，意為「渴望」。",
+            "word": "an",
+            "text": "'an attack ad' 中的 'an' 是不定冠詞，因為 'attack' 的發音以元音開頭。",
+            "category": "冠詞"
+          },
+          {
+            "word": "featuring",
+            "text": "'featuring' 是現在分詞作形容詞，表示「以...為特色」或「主角是...」。",
+            "category": "其他"
+          },
+          {
+            "word": "estranged",
+            "text": "'estranged' 作為形容詞，表示「疏遠的，關係不和的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Nothing personal between me and Trump, Zelensky tells CNN",
+      "url": "https://edition.cnn.com/2026/10/22/europe/zelensky-ukraine-trump-interview-amanpour-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Nothing personal between me and Trump, Zelensky tells CNN",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/europe/zelensky-ukraine-trump-interview-amanpour-intl",
+        "zh": "澤倫斯基告訴CNN：「我和川普之間沒有個人恩怨。」",
+        "accepted": [
+          [
+            "Nothing",
+            "personal",
+            "between",
+            "me",
+            "and",
+            "Trump,",
+            "Zelensky",
+            "tells",
+            "CNN"
+          ]
+        ],
+        "distractors": [
+          "It's",
+          "not",
+          "a",
+          "problem",
+          "says",
+          "news"
+        ],
+        "notes": [
+          {
+            "word": "Nothing personal",
+            "text": "'Nothing personal' 是一個常見的表達，意思是「沒有針對個人的，沒有私人恩怨」。",
+            "category": "其他"
+          },
+          {
+            "word": "between",
+            "text": "'between... and...' 用來表示「在...和...之間」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "tells",
+            "text": "這裡的 'tells' 是動詞 'tell' 的第三人稱單數現在式，表示「告訴」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Tom Skerritt, everyman actor of ‘Alien’ and ‘Picket Fences’ fame, dead at 93",
+      "url": "https://edition.cnn.com/2026/10/22/entertainment/tom-skerritt-death",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Tom Skerritt, everyman actor of ‘Alien’ and ‘Picket Fences’ fame, dead at 93",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/entertainment/tom-skerritt-death",
+        "zh": "因出演《異形》和《柵欄》而聞名的平民演員湯姆·斯凱里特，享年93歲去世",
+        "accepted": [
+          [
+            "Tom",
+            "Skerritt,",
+            "everyman",
+            "actor",
+            "of",
+            "‘Alien’",
+            "and",
+            "‘Picket",
+            "Fences’",
+            "fame,",
+            "dead",
+            "at",
+            "93"
+          ]
+        ],
+        "distractors": [
+          "famous",
+          "star",
+          "passed",
+          "away",
+          "movie",
+          "aged"
+        ],
+        "notes": [
+          {
+            "word": "everyman",
+            "text": "'everyman' 作為形容詞，表示「普通人的，代表大眾的」，形容演員時指其扮演的角色多為普通人。",
+            "category": "其他"
+          },
+          {
+            "word": "of",
+            "text": "這裡的 'of' 表示「因...而聞名」，'fame of' 指「...的名聲」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "fame",
+            "text": "'fame' 指「名聲，聲譽」。'of ... fame' 是一個常見的表達，表示「因...而聞名」。",
+            "category": "其他"
+          },
+          {
+            "word": "dead",
+            "text": "'dead' 是形容詞，表示「死亡的」。'dead at 93' 表示「在93歲時去世」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Barbara Karant/MW Editions/National Museum of African American History and Culture, J. Paul Getty Trust/Johnson Publishing Company",
+      "url": "https://edition.cnn.com/2026/10/22/style/ebony-jet-design-barbara-karant-photography",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Barbara Karant/MW Editions/National Museum of African American History and Culture, J. Paul Getty Trust/Johnson Publishing Company",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/style/ebony-jet-design-barbara-karant-photography",
+        "zh": "芭芭拉·卡蘭特/MW出版社/國家非裔美國人歷史文化博物館，J.保羅·蓋蒂信託/約翰遜出版公司",
+        "accepted": [
+          [
+            "Barbara",
+            "Karant/MW",
+            "Editions/National",
+            "Museum",
+            "of",
+            "African",
+            "American",
+            "History",
+            "and",
+            "Culture,",
+            "J.",
+            "Paul",
+            "Getty",
+            "Trust/Johnson",
+            "Publishing",
+            "Company"
+          ]
+        ],
+        "distractors": [
+          "The",
+          "A",
+          "An",
+          "is",
+          "was",
+          "were"
+        ],
+        "notes": [
+          {
+            "word": "of",
+            "text": "這裡的 'of' 表示所屬關係，即「非裔美國人歷史文化博物館」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "and",
+            "text": "'and' 用來連接兩個並列的名詞 'History' 和 'Culture'。",
+            "category": "其他"
+          },
+          {
+            "word": "Museum",
+            "text": "'Museum' 是博物館的意思，這裡作為專有名詞的一部分。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘Worst on record’: Brutal summer heat wave killed more than 50,000 in Europe’s cities",
+      "url": "https://edition.cnn.com/2026/10/22/climate/europe-heat-wave-deaths-50000",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘Worst on record’: Brutal summer heat wave killed more than 50,000 in Europe’s cities",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/climate/europe-heat-wave-deaths-50000",
+        "zh": "「史上最糟」：殘酷的夏季熱浪導致歐洲城市超過5萬人死亡",
+        "accepted": [
+          [
+            "‘Worst",
+            "on",
+            "record’:",
+            "Brutal",
+            "summer",
+            "heat",
+            "wave",
+            "killed",
+            "more",
+            "than",
+            "50,000",
+            "in",
+            "Europe’s",
+            "cities"
+          ]
+        ],
+        "distractors": [
+          "The",
+          "A",
+          "An",
+          "was",
+          "has",
+          "deaths"
+        ],
+        "notes": [
+          {
+            "word": "Worst on record",
+            "text": "'Worst on record' 是一個片語，表示「有記錄以來最糟糕的」。",
+            "category": "其他"
+          },
+          {
+            "word": "Brutal",
+            "text": "'Brutal' 作為形容詞，表示「殘酷的，嚴酷的」。",
+            "category": "其他"
+          },
+          {
+            "word": "killed",
+            "text": "'killed' 是動詞 'kill' 的過去式，表示「殺死了」。",
+            "category": "時態"
+          },
+          {
+            "word": "more than",
+            "text": "'more than' 是一個片語，表示「超過」。",
+            "category": "其他"
+          },
+          {
+            "word": "Europe’s",
+            "text": "'Europe’s' 是所有格形式，表示「歐洲的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Execution staff worried IV site might have ‘blown’ during Christa Pike’s execution attempt",
+      "url": "https://edition.cnn.com/2026/10/22/us/christa-pike-execution-attempt-staff-worried",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Execution staff worried IV site might have ‘blown’ during Christa Pike’s execution attempt",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/us/christa-pike-execution-attempt-staff-worried",
+        "zh": "執行人員擔心在克麗斯塔·派克執行死刑的嘗試中，靜脈注射部位可能「爆裂」",
+        "accepted": [
+          [
+            "Execution",
+            "staff",
+            "worried",
+            "IV",
+            "site",
+            "might",
+            "have",
+            "‘blown’",
+            "during",
+            "Christa",
+            "Pike’s",
+            "execution",
+            "attempt"
+          ]
+        ],
+        "distractors": [
+          "The",
+          "A",
+          "An",
+          "was",
+          "has",
+          "problem",
+          "failed"
+        ],
+        "notes": [
+          {
+            "word": "worried",
+            "text": "'worried' 是形容詞，表示「擔心的」。",
+            "category": "其他"
+          },
+          {
+            "word": "might have blown",
+            "text": "'might have blown' 是情態動詞 'might' 加上完成式 'have blown'，表示對過去可能發生的事情的推測。",
+            "category": "時態"
+          },
+          {
+            "word": "during",
+            "text": "'during' 是介係詞，表示「在...期間」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Pike’s",
+            "text": "'Pike’s' 是所有格形式，表示「派克的」。",
+            "category": "其他"
+          },
+          {
+            "word": "attempt",
+            "text": "'attempt' 作為名詞，表示「嘗試」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Breaking News Supreme Court says New Hampshire can limit use of student IDs for voting",
+      "url": "https://edition.cnn.com/2026/10/22/politics/supreme-court-new-hampshire-limit-student-id-voting",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Breaking News Supreme Court says New Hampshire can limit use of student IDs for voting",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/supreme-court-new-hampshire-limit-student-id-voting",
+        "zh": "突發新聞：最高法院表示新罕布什爾州可以限制學生證用於投票",
+        "accepted": [
+          [
+            "Breaking",
+            "News",
+            "Supreme",
+            "Court",
+            "says",
+            "New",
+            "Hampshire",
+            "can",
+            "limit",
+            "use",
+            "of",
+            "student",
+            "IDs",
+            "for",
+            "voting"
+          ]
+        ],
+        "distractors": [
+          "The",
+          "A",
+          "An",
+          "ruled",
+          "allow",
+          "vote"
+        ],
+        "notes": [
+          {
+            "word": "Breaking News",
+            "text": "'Breaking News' 是一個固定片語，表示「突發新聞」。",
+            "category": "其他"
+          },
+          {
+            "word": "says",
+            "text": "這裡的 'says' 是動詞 'say' 的第三人稱單數現在式，表示「說，表示」。",
+            "category": "時態"
+          },
+          {
+            "word": "can",
+            "text": "'can' 是情態動詞，表示「能夠，可以」。",
+            "category": "其他"
+          },
+          {
+            "word": "limit",
+            "text": "'limit' 作為動詞，表示「限制」。",
             "category": "其他"
           },
           {
             "word": "for",
-            "text": "介係詞「for」表示目的或對象，此處指「對改變的渴望」。",
+            "text": "這裡的 'for' 表示「用於...目的」，即「用於投票」。",
             "category": "介係詞"
-          },
-          {
-            "word": "anti-Trump",
-            "text": "「anti-Trump」是一個複合形容詞，意為「反川普的」。",
-            "category": "其他"
-          },
-          {
-            "word": "fuel",
-            "text": "動詞「fuel」意為「助長、激發」，主詞是複數的「Desire for change, anti-Trump feelings」。",
-            "category": "時態"
-          },
-          {
-            "word": "Democrats’",
-            "text": "「Democrats’」是所有格，表示「民主黨的」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Macron slams ‘stupid comments’ from world leaders after Trump blames France unrest on migrants",
-      "url": "https://edition.cnn.com/2026/10/21/europe/macron-trump-stupid-comments-france-protests-intl",
+      "en": "Strong 7-magnitude earthquake hits China’s Tibet region, killing 16 and injuring dozens, state media reports",
+      "url": "https://edition.cnn.com/2026/10/22/asia/earthquake-chinas-tibet-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Macron slams ‘stupid comments’ from world leaders after Trump blames France unrest on migrants",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/europe/macron-trump-stupid-comments-france-protests-intl",
-        "zh": "在川普將法國騷亂歸咎於移民後，馬克宏抨擊世界領導人的「愚蠢言論」。",
+        "sourceEn": "Strong 7-magnitude earthquake hits China’s Tibet region, killing 16 and injuring dozens, state media reports",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/asia/earthquake-chinas-tibet-latam-intl",
+        "zh": "官方媒體報導，中國西藏地區發生7級強烈地震，造成16人死亡，數十人受傷",
         "accepted": [
           [
-            "Macron",
-            "slams",
-            "‘stupid",
-            "comments’",
-            "from",
-            "world",
-            "leaders",
-            "after",
-            "Trump",
-            "blames",
-            "France",
-            "unrest",
-            "on",
-            "migrants"
+            "Strong",
+            "7-magnitude",
+            "earthquake",
+            "hits",
+            "China’s",
+            "Tibet",
+            "region,",
+            "killing",
+            "16",
+            "and",
+            "injuring",
+            "dozens,",
+            "state",
+            "media",
+            "reports"
           ]
         ],
         "distractors": [
-          "slam",
-          "slammed",
-          "comment",
-          "the",
-          "a"
+          "A",
+          "An",
+          "The",
+          "struck",
+          "dead",
+          "hurt"
         ],
         "notes": [
           {
-            "word": "slams",
-            "text": "動詞「slams」的第三人稱單數現在式，主詞是「Macron」，表示「猛烈抨擊」。",
+            "word": "Strong",
+            "text": "'Strong' 作為形容詞，表示「強烈的」。",
+            "category": "其他"
+          },
+          {
+            "word": "hits",
+            "text": "這裡的 'hits' 是動詞 'hit' 的第三人稱單數現在式，表示「襲擊，發生」。新聞標題常用現在式描述過去發生的事件。",
             "category": "時態"
           },
           {
-            "word": "comments",
-            "text": "「comments」是複數名詞，意為「言論、評論」。",
+            "word": "China’s",
+            "text": "'China’s' 是所有格形式，表示「中國的」。",
+            "category": "其他"
+          },
+          {
+            "word": "killing... and injuring...",
+            "text": "這裡使用現在分詞 'killing' 和 'injuring' 作為伴隨狀語，描述地震造成的結果。",
+            "category": "其他"
+          },
+          {
+            "word": "dozens",
+            "text": "'dozens' 指「數十人」，是複數形式。",
             "category": "單複數"
-          },
-          {
-            "word": "from",
-            "text": "介係詞「from」表示來源，指「來自世界領導人的言論」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "after",
-            "text": "連接詞「after」表示「在...之後」。",
-            "category": "其他"
-          },
-          {
-            "word": "blames...on",
-            "text": "片語「blame A on B」意為「將A歸咎於B」。",
-            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Goodell says NFL is comfortable with security around Sunday’s Paris game amid protests",
-      "url": "https://edition.cnn.com/2026/10/21/sport/nfl-roger-goodell-paris-protests",
+      "en": "Top MAHA adviser exits Trump administration amid frustrations",
+      "url": "https://edition.cnn.com/2026/10/22/politics/maha-calley-means-quits",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Goodell says NFL is comfortable with security around Sunday’s Paris game amid protests",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/sport/nfl-roger-goodell-paris-protests",
-        "zh": "古德爾表示，在抗議活動中，NFL對週日巴黎比賽周圍的安保感到放心。",
+        "sourceEn": "Top MAHA adviser exits Trump administration amid frustrations",
+        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/maha-calley-means-quits",
+        "zh": "在不滿情緒中，MAHA高級顧問退出川普政府",
         "accepted": [
           [
-            "Goodell",
-            "says",
-            "NFL",
-            "is",
-            "comfortable",
-            "with",
-            "security",
-            "around",
-            "Sunday’s",
-            "Paris",
-            "game",
+            "Top",
+            "MAHA",
+            "adviser",
+            "exits",
+            "Trump",
+            "administration",
             "amid",
-            "protests"
+            "frustrations"
           ]
         ],
         "distractors": [
-          "said",
-          "say",
-          "comfort",
-          "the",
-          "a"
+          "The",
+          "A",
+          "An",
+          "left",
+          "government",
+          "problems"
         ],
         "notes": [
           {
-            "word": "says",
-            "text": "動詞「says」的第三人稱單數現在式，主詞是「Goodell」。",
+            "word": "Top",
+            "text": "在這裡 'Top' 指的是「高級的，主要的」。",
+            "category": "其他"
+          },
+          {
+            "word": "exits",
+            "text": "'exits' 是動詞 'exit' 的第三人稱單數現在式，表示「退出」。新聞標題常用現在式描述過去發生的事件。",
             "category": "時態"
-          },
-          {
-            "word": "is comfortable with",
-            "text": "片語「be comfortable with」意為「對...感到放心/滿意」。",
-            "category": "其他"
-          },
-          {
-            "word": "around",
-            "text": "介係詞「around」表示「在...周圍」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Sunday’s",
-            "text": "「Sunday’s」是所有格，表示「週日的」。",
-            "category": "其他"
           },
           {
             "word": "amid",
-            "text": "介係詞「amid」表示「在...之中、在...期間」，指在「protests」的情況下。",
+            "text": "'amid' 是介係詞，表示「在...之中，在...背景下」。",
             "category": "介係詞"
+          },
+          {
+            "word": "frustrations",
+            "text": "'frustrations' 是名詞 'frustration' 的複數形式，表示「不滿，挫敗感」。",
+            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "The iPhone Duo is Apple’s coolest phone in years. There’s just one problem",
-      "url": "https://edition.cnn.com/2026/10/21/tech/apple-iphone-duo-review",
+      "en": "Websites shut down globally after AI finds cybersecurity flaw affecting 70% of the internet",
+      "url": "https://edition.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The iPhone Duo is Apple’s coolest phone in years. There’s just one problem",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/tech/apple-iphone-duo-review",
-        "zh": "iPhone Duo是蘋果多年來最酷的手機。只不過有一個問題。",
+        "sourceEn": "Websites shut down globally after AI finds cybersecurity flaw affecting 70% of the internet",
+        "sourceUrl": "https://edition.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai-intl",
+        "zh": "AI發現影響70%網路的網路安全漏洞後，全球網站關閉",
         "accepted": [
           [
-            "The",
-            "iPhone",
-            "Duo",
-            "is",
-            "Apple’s",
-            "coolest",
-            "phone",
-            "in",
-            "years",
-            ".",
-            "There’s",
-            "just",
-            "one",
-            "problem"
+            "Websites",
+            "shut",
+            "down",
+            "globally",
+            "after",
+            "AI",
+            "finds",
+            "cybersecurity",
+            "flaw",
+            "affecting",
+            "70%",
+            "of",
+            "the",
+            "internet"
           ]
         ],
         "distractors": [
-          "a",
-          "an",
-          "cool",
-          "cooler",
-          "phones"
+          "The",
+          "A",
+          "An",
+          "were",
+          "found",
+          "problem"
         ],
         "notes": [
           {
-            "word": "The",
-            "text": "定冠詞「The」用於特指「iPhone Duo」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "Apple’s",
-            "text": "「Apple’s」是所有格，表示「蘋果的」。",
-            "category": "其他"
-          },
-          {
-            "word": "coolest",
-            "text": "「coolest」是形容詞「cool」的最高級，表示「最酷的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in years",
-            "text": "片語「in years」意為「多年來」。",
-            "category": "其他"
-          },
-          {
-            "word": "There’s",
-            "text": "「There’s」是「There is」的縮寫，表示「有」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The anti-AI writing police are everywhere. What are they looking for?",
-      "url": "https://edition.cnn.com/2026/10/21/tech/ai-detectors-pangram-literary-prizes-cec",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The anti-AI writing police are everywhere. What are they looking for?",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/tech/ai-detectors-pangram-literary-prizes-cec",
-        "zh": "反人工智慧寫作警察無處不在。他們在尋找什麼？",
-        "accepted": [
-          [
-            "The",
-            "anti-AI",
-            "writing",
-            "police",
-            "are",
-            "everywhere",
-            ".",
-            "What",
-            "are",
-            "they",
-            "looking",
-            "for",
-            "?"
-          ]
-        ],
-        "distractors": [
-          "a",
-          "an",
-          "is",
-          "was",
-          "look"
-        ],
-        "notes": [
-          {
-            "word": "The",
-            "text": "定冠詞「The」用於特指「anti-AI writing police」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "anti-AI",
-            "text": "「anti-AI」是一個複合形容詞，意為「反人工智慧的」。",
-            "category": "其他"
-          },
-          {
-            "word": "police",
-            "text": "「police」作為集體名詞，通常視為複數，因此搭配「are」。",
+            "word": "Websites",
+            "text": "'Websites' 是名詞 'website' 的複數形式，表示「網站」。",
             "category": "單複數"
           },
           {
-            "word": "everywhere",
-            "text": "「everywhere」是副詞，意為「到處、無處不在」。",
-            "category": "其他"
-          },
-          {
-            "word": "looking for",
-            "text": "片語動詞「look for」意為「尋找」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How you drink your tea could determine whether you gain or lose heart health benefits",
-      "url": "https://edition.cnn.com/2026/10/21/health/tea-heart-health-temperature-cardiovascular-disease-wellness",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How you drink your tea could determine whether you gain or lose heart health benefits",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/health/tea-heart-health-temperature-cardiovascular-disease-wellness",
-        "zh": "你喝茶的方式可能會決定你是否會獲得或失去心臟健康益處。",
-        "accepted": [
-          [
-            "How",
-            "you",
-            "drink",
-            "your",
-            "tea",
-            "could",
-            "determine",
-            "whether",
-            "you",
-            "gain",
-            "or",
-            "lose",
-            "heart",
-            "health",
-            "benefits"
-          ]
-        ],
-        "distractors": [
-          "drinks",
-          "drank",
-          "determines",
-          "gains",
-          "loses"
-        ],
-        "notes": [
-          {
-            "word": "How",
-            "text": "「How」引導名詞子句，作主詞，意為「...的方式」。",
-            "category": "其他"
-          },
-          {
-            "word": "could",
-            "text": "情態助動詞「could」表示可能性。",
+            "word": "shut down",
+            "text": "'shut down' 是一個片語動詞，表示「關閉」。這裡的 'shut' 是過去分詞，構成被動語態 'were shut down'，但新聞標題常省略 'were'。",
             "category": "時態"
           },
           {
-            "word": "determine",
-            "text": "「determine」是動詞，意為「決定」。",
+            "word": "finds",
+            "text": "這裡的 'finds' 是動詞 'find' 的第三人稱單數現在式，表示「發現」。新聞標題常用現在式描述過去發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "affecting",
+            "text": "'affecting' 是現在分詞作形容詞，修飾 'flaw'，表示「影響...的」。",
             "category": "其他"
           },
           {
-            "word": "whether",
-            "text": "「whether」引導名詞子句，表示「是否」。",
-            "category": "其他"
-          },
-          {
-            "word": "gain or lose",
-            "text": "「gain or lose」是動詞片語，表示「獲得或失去」。",
-            "category": "其他"
-          },
-          {
-            "word": "heart health benefits",
-            "text": "「heart health benefits」是複合名詞片語，意為「心臟健康益處」。",
-            "category": "其他"
+            "word": "the",
+            "text": "'the internet' 中的 'the' 是定冠詞，因為 'internet' 通常被視為獨一無二的。",
+            "category": "冠詞"
           }
         ]
       }
