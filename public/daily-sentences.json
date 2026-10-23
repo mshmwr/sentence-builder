@@ -1,698 +1,755 @@
 {
-  "date": "2026-10-22",
-  "fetchedAt": "2026-10-22T23:07:47.450Z",
+  "date": "2026-10-23",
+  "fetchedAt": "2026-10-23T22:59:01.030Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Top 10 Senate seats most likely to flip",
-      "url": "https://edition.cnn.com/2026/10/22/politics/cnn-top-10-senate-races-most-likely-to-flip",
+      "en": "Trump DOJ sues to block Alaska US Senate results if Republican incumbent loses",
+      "url": "https://edition.cnn.com/2026/10/23/politics/doj-sues-alaska-dan-sullivan-us-senate",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Top 10 Senate seats most likely to flip",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/cnn-top-10-senate-races-most-likely-to-flip",
-        "zh": "最有可能翻盤的十大參議院席位",
+        "sourceEn": "Trump DOJ sues to block Alaska US Senate results if Republican incumbent loses",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/politics/doj-sues-alaska-dan-sullivan-us-senate",
+        "zh": "川普司法部提起訴訟，要求阻止阿拉斯加州美國參議院的選舉結果，如果共和黨現任議員落敗。",
         "accepted": [
           [
-            "Top",
-            "10",
-            "Senate",
-            "seats",
-            "most",
-            "likely",
+            "Trump",
+            "DOJ",
+            "sues",
             "to",
-            "flip"
+            "block",
+            "Alaska",
+            "US",
+            "Senate",
+            "results",
+            "if",
+            "Republican",
+            "incumbent",
+            "loses"
           ]
         ],
         "distractors": [
-          "best",
-          "election",
-          "vote",
-          "change",
-          "win"
+          "blocking",
+          "loss",
+          "won",
+          "against",
+          "for",
+          "from"
         ],
         "notes": [
           {
-            "word": "Top",
-            "text": "在這裡 'Top' 指的是排名前幾的，最主要的。它作為形容詞修飾 '10 Senate seats'。",
+            "word": "sues",
+            "text": "這裡的 'sues' 是動詞 'sue' 的第三人稱單數現在式，表示「起訴」。",
+            "category": "時態"
+          },
+          {
+            "word": "to block",
+            "text": "'to block' 是不定詞，表示目的，即「為了阻止」。",
             "category": "其他"
           },
           {
-            "word": "likely",
-            "text": "'likely to' 是一個常見的片語，表示「很可能做某事」。",
+            "word": "if",
+            "text": "'if' 引導條件子句，表示「如果...」。",
             "category": "其他"
           },
           {
-            "word": "flip",
-            "text": "在政治語境中，'flip' 指的是席位從一個政黨轉移到另一個政黨，即「翻盤」。",
+            "word": "incumbent",
+            "text": "'incumbent' 指的是現任者，這裡指現任的共和黨參議員。",
+            "category": "單複數"
+          },
+          {
+            "word": "loses",
+            "text": "'loses' 是動詞 'lose' 的第三人稱單數現在式，與 'incumbent' 搭配。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "France braces for another weekend of protests as authorities launch massive security operation",
+      "url": "https://edition.cnn.com/2026/10/23/europe/france-braces-for-weekend-protests-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "France braces for another weekend of protests as authorities launch massive security operation",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/europe/france-braces-for-weekend-protests-latam-intl",
+        "zh": "法國為另一個週末的抗議活動做準備，當局發起了大規模安全行動。",
+        "accepted": [
+          [
+            "France",
+            "braces",
+            "for",
+            "another",
+            "weekend",
+            "of",
+            "protests",
+            "as",
+            "authorities",
+            "launch",
+            "massive",
+            "security",
+            "operation"
+          ]
+        ],
+        "distractors": [
+          "bracing",
+          "launched",
+          "from",
+          "with",
+          "against",
+          "the"
+        ],
+        "notes": [
+          {
+            "word": "braces",
+            "text": "'braces for' 是一個動詞片語，表示「為...做準備」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "another",
+            "text": "'another' 表示「另一個」，後面接單數名詞。",
+            "category": "單複數"
+          },
+          {
+            "word": "as",
+            "text": "這裡的 'as' 作為連接詞，表示「當...的時候」或「隨著...」。",
+            "category": "其他"
+          },
+          {
+            "word": "authorities",
+            "text": "'authorities' 是複數名詞，指「當局」。",
+            "category": "單複數"
+          },
+          {
+            "word": "launch",
+            "text": "'launch' 在此作動詞，表示「發起」或「展開」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘I have to go in,’ Bend school shooting hero told a 911 dispatcher. ‘People are going to die.’",
+      "url": "https://edition.cnn.com/2026/10/23/us/bend-school-shooting-kaylub-giamanco",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘I have to go in,’ Bend school shooting hero told a 911 dispatcher. ‘People are going to die.’",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/us/bend-school-shooting-kaylub-giamanco",
+        "zh": "「我必須進去，」班德學校槍擊案的英雄告訴911調度員。「會有人死的。」",
+        "accepted": [
+          [
+            "‘I",
+            "have",
+            "to",
+            "go",
+            "in,’",
+            "Bend",
+            "school",
+            "shooting",
+            "hero",
+            "told",
+            "a",
+            "911",
+            "dispatcher.",
+            "‘People",
+            "are",
+            "going",
+            "to",
+            "die.’"
+          ]
+        ],
+        "distractors": [
+          "went",
+          "gone",
+          "had",
+          "will",
+          "would",
+          "the"
+        ],
+        "notes": [
+          {
+            "word": "have to",
+            "text": "'have to' 表示「必須」，後面接原形動詞。",
+            "category": "其他"
+          },
+          {
+            "word": "told",
+            "text": "'told' 是動詞 'tell' 的過去式，表示「告訴」。",
+            "category": "時態"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'dispatcher'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "are going to",
+            "text": "'are going to' 表示將來會發生的事情，意為「將會」。",
+            "category": "時態"
+          },
+          {
+            "word": "die",
+            "text": "'die' 是動詞原形，與 'going to' 搭配。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Judge sets deadline for Trump to be deposed in his $10B lawsuit against the BBC",
-      "url": "https://edition.cnn.com/2026/10/22/politics/trump-deposition-10-billion-bbc-lawsuit",
+      "en": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+      "url": "https://edition.cnn.com/2026/10/23/middleeast/israel-closes-west-bank-city-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Judge sets deadline for Trump to be deposed in his $10B lawsuit against the BBC",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/trump-deposition-10-billion-bbc-lawsuit",
-        "zh": "法官設定川普在其對BBC的100億美元訴訟中作證的最後期限",
+        "sourceEn": "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/middleeast/israel-closes-west-bank-city-intl",
+        "zh": "兩名士兵在槍擊事件中喪生後，以色列開始在約旦河西岸城市進行拆除工作。",
         "accepted": [
           [
-            "Judge",
-            "sets",
-            "deadline",
-            "for",
-            "Trump",
-            "to",
-            "be",
-            "deposed",
+            "Israel",
+            "begins",
+            "demolitions",
             "in",
-            "his",
-            "$10B",
-            "lawsuit",
-            "against",
-            "the",
-            "BBC"
+            "West",
+            "Bank",
+            "city",
+            "after",
+            "two",
+            "soldiers",
+            "killed",
+            "in",
+            "shooting",
+            "attack"
           ]
         ],
         "distractors": [
-          "court",
-          "order",
-          "testify",
-          "case",
-          "money",
-          "media"
+          "began",
+          "demolish",
+          "from",
+          "on",
+          "was",
+          "had"
         ],
         "notes": [
           {
-            "word": "sets",
-            "text": "'set a deadline' 是一個常用片語，表示「設定一個截止日期」。這裡的 'sets' 是動詞 'set' 的第三人稱單數現在式。",
+            "word": "begins",
+            "text": "'begins' 是動詞 'begin' 的第三人稱單數現在式，表示「開始」。",
             "category": "時態"
           },
           {
-            "word": "deposed",
-            "text": "'to be deposed' 是被動語態，表示「被要求作證」。在法律語境中，'depose' 指的是在法庭外宣誓作證。",
-            "category": "其他"
+            "word": "demolitions",
+            "text": "'demolitions' 是名詞複數，指「拆除工作」。",
+            "category": "單複數"
           },
           {
             "word": "in",
-            "text": "這裡的 'in' 表示「在...之中」，指川普在「他的100億美元訴訟」這個背景下被要求作證。",
+            "text": "'in West Bank city' 表示「在約旦河西岸城市」，'in' 用於表示地點。",
             "category": "介係詞"
           },
           {
-            "word": "the",
-            "text": "'the BBC' 中的 'the' 是定冠詞，因為BBC是一個特定的廣播公司。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Amy Acton opens up about her painful childhood after an attack ad featuring her estranged mother",
-      "url": "https://edition.cnn.com/2026/10/22/politics/amy-acton-response-mother-ad-vivek-ramaswamy",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Amy Acton opens up about her painful childhood after an attack ad featuring her estranged mother",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/amy-acton-response-mother-ad-vivek-ramaswamy",
-        "zh": "在一則以她疏遠的母親為主角的攻擊性廣告播出後，艾米·艾克頓公開談論她痛苦的童年",
-        "accepted": [
-          [
-            "Amy",
-            "Acton",
-            "opens",
-            "up",
-            "about",
-            "her",
-            "painful",
-            "childhood",
-            "after",
-            "an",
-            "attack",
-            "ad",
-            "featuring",
-            "her",
-            "estranged",
-            "mother"
-          ]
-        ],
-        "distractors": [
-          "talks",
-          "reveals",
-          "past",
-          "family",
-          "commercial",
-          "difficult"
-        ],
-        "notes": [
-          {
-            "word": "opens up",
-            "text": "'open up about something' 是一個片語，表示「公開談論某事，敞開心扉」。",
-            "category": "其他"
-          },
-          {
-            "word": "an",
-            "text": "'an attack ad' 中的 'an' 是不定冠詞，因為 'attack' 的發音以元音開頭。",
-            "category": "冠詞"
-          },
-          {
-            "word": "featuring",
-            "text": "'featuring' 是現在分詞作形容詞，表示「以...為特色」或「主角是...」。",
-            "category": "其他"
-          },
-          {
-            "word": "estranged",
-            "text": "'estranged' 作為形容詞，表示「疏遠的，關係不和的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Nothing personal between me and Trump, Zelensky tells CNN",
-      "url": "https://edition.cnn.com/2026/10/22/europe/zelensky-ukraine-trump-interview-amanpour-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Nothing personal between me and Trump, Zelensky tells CNN",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/europe/zelensky-ukraine-trump-interview-amanpour-intl",
-        "zh": "澤倫斯基告訴CNN：「我和川普之間沒有個人恩怨。」",
-        "accepted": [
-          [
-            "Nothing",
-            "personal",
-            "between",
-            "me",
-            "and",
-            "Trump,",
-            "Zelensky",
-            "tells",
-            "CNN"
-          ]
-        ],
-        "distractors": [
-          "It's",
-          "not",
-          "a",
-          "problem",
-          "says",
-          "news"
-        ],
-        "notes": [
-          {
-            "word": "Nothing personal",
-            "text": "'Nothing personal' 是一個常見的表達，意思是「沒有針對個人的，沒有私人恩怨」。",
-            "category": "其他"
-          },
-          {
-            "word": "between",
-            "text": "'between... and...' 用來表示「在...和...之間」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "tells",
-            "text": "這裡的 'tells' 是動詞 'tell' 的第三人稱單數現在式，表示「告訴」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Tom Skerritt, everyman actor of ‘Alien’ and ‘Picket Fences’ fame, dead at 93",
-      "url": "https://edition.cnn.com/2026/10/22/entertainment/tom-skerritt-death",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Tom Skerritt, everyman actor of ‘Alien’ and ‘Picket Fences’ fame, dead at 93",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/entertainment/tom-skerritt-death",
-        "zh": "因出演《異形》和《柵欄》而聞名的平民演員湯姆·斯凱里特，享年93歲去世",
-        "accepted": [
-          [
-            "Tom",
-            "Skerritt,",
-            "everyman",
-            "actor",
-            "of",
-            "‘Alien’",
-            "and",
-            "‘Picket",
-            "Fences’",
-            "fame,",
-            "dead",
-            "at",
-            "93"
-          ]
-        ],
-        "distractors": [
-          "famous",
-          "star",
-          "passed",
-          "away",
-          "movie",
-          "aged"
-        ],
-        "notes": [
-          {
-            "word": "everyman",
-            "text": "'everyman' 作為形容詞，表示「普通人的，代表大眾的」，形容演員時指其扮演的角色多為普通人。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "這裡的 'of' 表示「因...而聞名」，'fame of' 指「...的名聲」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "fame",
-            "text": "'fame' 指「名聲，聲譽」。'of ... fame' 是一個常見的表達，表示「因...而聞名」。",
-            "category": "其他"
-          },
-          {
-            "word": "dead",
-            "text": "'dead' 是形容詞，表示「死亡的」。'dead at 93' 表示「在93歲時去世」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Barbara Karant/MW Editions/National Museum of African American History and Culture, J. Paul Getty Trust/Johnson Publishing Company",
-      "url": "https://edition.cnn.com/2026/10/22/style/ebony-jet-design-barbara-karant-photography",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Barbara Karant/MW Editions/National Museum of African American History and Culture, J. Paul Getty Trust/Johnson Publishing Company",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/style/ebony-jet-design-barbara-karant-photography",
-        "zh": "芭芭拉·卡蘭特/MW出版社/國家非裔美國人歷史文化博物館，J.保羅·蓋蒂信託/約翰遜出版公司",
-        "accepted": [
-          [
-            "Barbara",
-            "Karant/MW",
-            "Editions/National",
-            "Museum",
-            "of",
-            "African",
-            "American",
-            "History",
-            "and",
-            "Culture,",
-            "J.",
-            "Paul",
-            "Getty",
-            "Trust/Johnson",
-            "Publishing",
-            "Company"
-          ]
-        ],
-        "distractors": [
-          "The",
-          "A",
-          "An",
-          "is",
-          "was",
-          "were"
-        ],
-        "notes": [
-          {
-            "word": "of",
-            "text": "這裡的 'of' 表示所屬關係，即「非裔美國人歷史文化博物館」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "and",
-            "text": "'and' 用來連接兩個並列的名詞 'History' 和 'Culture'。",
-            "category": "其他"
-          },
-          {
-            "word": "Museum",
-            "text": "'Museum' 是博物館的意思，這裡作為專有名詞的一部分。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘Worst on record’: Brutal summer heat wave killed more than 50,000 in Europe’s cities",
-      "url": "https://edition.cnn.com/2026/10/22/climate/europe-heat-wave-deaths-50000",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘Worst on record’: Brutal summer heat wave killed more than 50,000 in Europe’s cities",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/climate/europe-heat-wave-deaths-50000",
-        "zh": "「史上最糟」：殘酷的夏季熱浪導致歐洲城市超過5萬人死亡",
-        "accepted": [
-          [
-            "‘Worst",
-            "on",
-            "record’:",
-            "Brutal",
-            "summer",
-            "heat",
-            "wave",
-            "killed",
-            "more",
-            "than",
-            "50,000",
-            "in",
-            "Europe’s",
-            "cities"
-          ]
-        ],
-        "distractors": [
-          "The",
-          "A",
-          "An",
-          "was",
-          "has",
-          "deaths"
-        ],
-        "notes": [
-          {
-            "word": "Worst on record",
-            "text": "'Worst on record' 是一個片語，表示「有記錄以來最糟糕的」。",
-            "category": "其他"
-          },
-          {
-            "word": "Brutal",
-            "text": "'Brutal' 作為形容詞，表示「殘酷的，嚴酷的」。",
+            "word": "after",
+            "text": "'after' 作為連接詞，表示「在...之後」。",
             "category": "其他"
           },
           {
             "word": "killed",
-            "text": "'killed' 是動詞 'kill' 的過去式，表示「殺死了」。",
+            "text": "這裡的 'killed' 是過去分詞，構成被動語態，表示「被殺」。",
             "category": "時態"
-          },
-          {
-            "word": "more than",
-            "text": "'more than' 是一個片語，表示「超過」。",
-            "category": "其他"
-          },
-          {
-            "word": "Europe’s",
-            "text": "'Europe’s' 是所有格形式，表示「歐洲的」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Execution staff worried IV site might have ‘blown’ during Christa Pike’s execution attempt",
-      "url": "https://edition.cnn.com/2026/10/22/us/christa-pike-execution-attempt-staff-worried",
+      "en": "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
+      "url": "https://edition.cnn.com/2026/10/23/politics/melania-trump-ceasefire-ukraine-russia",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Execution staff worried IV site might have ‘blown’ during Christa Pike’s execution attempt",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/us/christa-pike-execution-attempt-staff-worried",
-        "zh": "執行人員擔心在克麗斯塔·派克執行死刑的嘗試中，靜脈注射部位可能「爆裂」",
+        "sourceEn": "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/politics/melania-trump-ceasefire-ukraine-russia",
+        "zh": "梅蘭妮亞·川普表示，她為人道援助在俄羅斯和烏克蘭之間促成了一城停火。",
         "accepted": [
           [
-            "Execution",
-            "staff",
-            "worried",
-            "IV",
-            "site",
-            "might",
-            "have",
-            "‘blown’",
-            "during",
-            "Christa",
-            "Pike’s",
-            "execution",
-            "attempt"
-          ]
-        ],
-        "distractors": [
-          "The",
-          "A",
-          "An",
-          "was",
-          "has",
-          "problem",
-          "failed"
-        ],
-        "notes": [
-          {
-            "word": "worried",
-            "text": "'worried' 是形容詞，表示「擔心的」。",
-            "category": "其他"
-          },
-          {
-            "word": "might have blown",
-            "text": "'might have blown' 是情態動詞 'might' 加上完成式 'have blown'，表示對過去可能發生的事情的推測。",
-            "category": "時態"
-          },
-          {
-            "word": "during",
-            "text": "'during' 是介係詞，表示「在...期間」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Pike’s",
-            "text": "'Pike’s' 是所有格形式，表示「派克的」。",
-            "category": "其他"
-          },
-          {
-            "word": "attempt",
-            "text": "'attempt' 作為名詞，表示「嘗試」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Breaking News Supreme Court says New Hampshire can limit use of student IDs for voting",
-      "url": "https://edition.cnn.com/2026/10/22/politics/supreme-court-new-hampshire-limit-student-id-voting",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Breaking News Supreme Court says New Hampshire can limit use of student IDs for voting",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/supreme-court-new-hampshire-limit-student-id-voting",
-        "zh": "突發新聞：最高法院表示新罕布什爾州可以限制學生證用於投票",
-        "accepted": [
-          [
-            "Breaking",
-            "News",
-            "Supreme",
-            "Court",
+            "Melania",
+            "Trump",
             "says",
-            "New",
-            "Hampshire",
-            "can",
-            "limit",
-            "use",
-            "of",
-            "student",
-            "IDs",
+            "she",
+            "secured",
+            "one-city",
+            "ceasefire",
+            "between",
+            "Russia",
+            "and",
+            "Ukraine",
             "for",
-            "voting"
+            "humanitarian",
+            "aid"
           ]
         ],
         "distractors": [
-          "The",
-          "A",
-          "An",
-          "ruled",
-          "allow",
-          "vote"
+          "said",
+          "secures",
+          "among",
+          "with",
+          "to",
+          "a"
         ],
         "notes": [
-          {
-            "word": "Breaking News",
-            "text": "'Breaking News' 是一個固定片語，表示「突發新聞」。",
-            "category": "其他"
-          },
           {
             "word": "says",
-            "text": "這裡的 'says' 是動詞 'say' 的第三人稱單數現在式，表示「說，表示」。",
+            "text": "'says' 是動詞 'say' 的第三人稱單數現在式，表示「說」。",
             "category": "時態"
           },
           {
-            "word": "can",
-            "text": "'can' 是情態動詞，表示「能夠，可以」。",
+            "word": "secured",
+            "text": "'secured' 是動詞 'secure' 的過去式，表示「促成」或「確保」。",
+            "category": "時態"
+          },
+          {
+            "word": "one-city",
+            "text": "'one-city' 作為形容詞，修飾 'ceasefire'，表示「一個城市的」。",
             "category": "其他"
           },
           {
-            "word": "limit",
-            "text": "'limit' 作為動詞，表示「限制」。",
-            "category": "其他"
+            "word": "between",
+            "text": "'between...and...' 表示「在...和...之間」。",
+            "category": "介係詞"
           },
           {
             "word": "for",
-            "text": "這裡的 'for' 表示「用於...目的」，即「用於投票」。",
+            "text": "'for humanitarian aid' 表示「為了人道援助」，'for' 表示目的。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Strong 7-magnitude earthquake hits China’s Tibet region, killing 16 and injuring dozens, state media reports",
-      "url": "https://edition.cnn.com/2026/10/22/asia/earthquake-chinas-tibet-latam-intl",
+      "en": "Ukrainian officials say Starshield restrictions still in place, despite Trump’s claims",
+      "url": "https://edition.cnn.com/2026/10/23/world/trump-musk-restored-ukraines-starshield-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Strong 7-magnitude earthquake hits China’s Tibet region, killing 16 and injuring dozens, state media reports",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/asia/earthquake-chinas-tibet-latam-intl",
-        "zh": "官方媒體報導，中國西藏地區發生7級強烈地震，造成16人死亡，數十人受傷",
+        "sourceEn": "Ukrainian officials say Starshield restrictions still in place, despite Trump’s claims",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/world/trump-musk-restored-ukraines-starshield-intl",
+        "zh": "烏克蘭官員表示，儘管川普聲稱，星盾的限制仍然存在。",
         "accepted": [
           [
-            "Strong",
-            "7-magnitude",
-            "earthquake",
-            "hits",
-            "China’s",
-            "Tibet",
-            "region,",
-            "killing",
-            "16",
-            "and",
-            "injuring",
-            "dozens,",
-            "state",
-            "media",
-            "reports"
+            "Ukrainian",
+            "officials",
+            "say",
+            "Starshield",
+            "restrictions",
+            "still",
+            "in",
+            "place,",
+            "despite",
+            "Trump’s",
+            "claims"
           ]
         ],
         "distractors": [
-          "A",
-          "An",
-          "The",
-          "struck",
-          "dead",
-          "hurt"
+          "said",
+          "restriction",
+          "on",
+          "in place",
+          "though",
+          "claim"
         ],
         "notes": [
           {
-            "word": "Strong",
-            "text": "'Strong' 作為形容詞，表示「強烈的」。",
-            "category": "其他"
-          },
-          {
-            "word": "hits",
-            "text": "這裡的 'hits' 是動詞 'hit' 的第三人稱單數現在式，表示「襲擊，發生」。新聞標題常用現在式描述過去發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "China’s",
-            "text": "'China’s' 是所有格形式，表示「中國的」。",
-            "category": "其他"
-          },
-          {
-            "word": "killing... and injuring...",
-            "text": "這裡使用現在分詞 'killing' 和 'injuring' 作為伴隨狀語，描述地震造成的結果。",
-            "category": "其他"
-          },
-          {
-            "word": "dozens",
-            "text": "'dozens' 指「數十人」，是複數形式。",
+            "word": "officials",
+            "text": "'officials' 是複數名詞，指「官員」。",
             "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Top MAHA adviser exits Trump administration amid frustrations",
-      "url": "https://edition.cnn.com/2026/10/22/politics/maha-calley-means-quits",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Top MAHA adviser exits Trump administration amid frustrations",
-        "sourceUrl": "https://edition.cnn.com/2026/10/22/politics/maha-calley-means-quits",
-        "zh": "在不滿情緒中，MAHA高級顧問退出川普政府",
-        "accepted": [
-          [
-            "Top",
-            "MAHA",
-            "adviser",
-            "exits",
-            "Trump",
-            "administration",
-            "amid",
-            "frustrations"
-          ]
-        ],
-        "distractors": [
-          "The",
-          "A",
-          "An",
-          "left",
-          "government",
-          "problems"
-        ],
-        "notes": [
-          {
-            "word": "Top",
-            "text": "在這裡 'Top' 指的是「高級的，主要的」。",
-            "category": "其他"
           },
           {
-            "word": "exits",
-            "text": "'exits' 是動詞 'exit' 的第三人稱單數現在式，表示「退出」。新聞標題常用現在式描述過去發生的事件。",
+            "word": "say",
+            "text": "'say' 是動詞原形，與複數主語 'officials' 搭配。",
             "category": "時態"
           },
           {
-            "word": "amid",
-            "text": "'amid' 是介係詞，表示「在...之中，在...背景下」。",
+            "word": "in place",
+            "text": "'in place' 是一個片語，表示「到位」或「仍然有效」。",
             "category": "介係詞"
           },
           {
-            "word": "frustrations",
-            "text": "'frustrations' 是名詞 'frustration' 的複數形式，表示「不滿，挫敗感」。",
+            "word": "despite",
+            "text": "'despite' 作為介係詞，表示「儘管」，後面接名詞或動名詞。",
+            "category": "介係詞"
+          },
+          {
+            "word": "claims",
+            "text": "'claims' 在這裡作名詞，指「聲稱」或「主張」。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Websites shut down globally after AI finds cybersecurity flaw affecting 70% of the internet",
-      "url": "https://edition.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai-intl",
+      "en": "‘The most complicated launch campaign ever’: NASA lays out mad dash to test lunar landers",
+      "url": "https://edition.cnn.com/2026/10/23/science/nasa-artemis-update-spacex-starship-blue-origin",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Websites shut down globally after AI finds cybersecurity flaw affecting 70% of the internet",
-        "sourceUrl": "https://edition.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai-intl",
-        "zh": "AI發現影響70%網路的網路安全漏洞後，全球網站關閉",
+        "sourceEn": "‘The most complicated launch campaign ever’: NASA lays out mad dash to test lunar landers",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/science/nasa-artemis-update-spacex-starship-blue-origin",
+        "zh": "「有史以來最複雜的發射活動」：NASA闡述了測試月球著陸器的瘋狂衝刺。",
         "accepted": [
           [
-            "Websites",
-            "shut",
-            "down",
-            "globally",
-            "after",
-            "AI",
-            "finds",
-            "cybersecurity",
-            "flaw",
-            "affecting",
-            "70%",
-            "of",
+            "‘The",
+            "most",
+            "complicated",
+            "launch",
+            "campaign",
+            "ever’:",
+            "NASA",
+            "lays",
+            "out",
+            "mad",
+            "dash",
+            "to",
+            "test",
+            "lunar",
+            "landers"
+          ]
+        ],
+        "distractors": [
+          "more",
+          "complicatedly",
+          "laid",
+          "for",
+          "testing",
+          "lander"
+        ],
+        "notes": [
+          {
+            "word": "most complicated",
+            "text": "'most complicated' 是形容詞 'complicated' 的最高級，表示「最複雜的」。",
+            "category": "其他"
+          },
+          {
+            "word": "lays out",
+            "text": "'lays out' 是一個動詞片語，表示「闡述」或「詳細說明」。",
+            "category": "時態"
+          },
+          {
+            "word": "mad dash",
+            "text": "'mad dash' 是一個慣用語，表示「瘋狂衝刺」或「倉促行動」。",
+            "category": "其他"
+          },
+          {
+            "word": "to test",
+            "text": "'to test' 是不定詞，表示目的，即「為了測試」。",
+            "category": "其他"
+          },
+          {
+            "word": "landers",
+            "text": "'landers' 是名詞複數，指「著陸器」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Forget ‘ferritin face’ — experts explain the truth about iron deficiency",
+      "url": "https://edition.cnn.com/2026/10/23/health/iron-deficiency-testing-guidelines-ferritin-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Forget ‘ferritin face’ — experts explain the truth about iron deficiency",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/health/iron-deficiency-testing-guidelines-ferritin-wellness",
+        "zh": "忘掉「鐵蛋白臉」——專家解釋了鐵缺乏症的真相。",
+        "accepted": [
+          [
+            "Forget",
+            "‘ferritin",
+            "face’",
+            "—",
+            "experts",
+            "explain",
             "the",
-            "internet"
+            "truth",
+            "about",
+            "iron",
+            "deficiency"
           ]
         ],
         "distractors": [
-          "The",
-          "A",
-          "An",
-          "were",
-          "found",
-          "problem"
+          "forgot",
+          "forgets",
+          "expert",
+          "explains",
+          "of",
+          "a"
         ],
         "notes": [
           {
-            "word": "Websites",
-            "text": "'Websites' 是名詞 'website' 的複數形式，表示「網站」。",
+            "word": "Forget",
+            "text": "'Forget' 是祈使句的動詞原形，表示「忘掉」。",
+            "category": "時態"
+          },
+          {
+            "word": "experts",
+            "text": "'experts' 是複數名詞，指「專家」。",
             "category": "單複數"
           },
           {
-            "word": "shut down",
-            "text": "'shut down' 是一個片語動詞，表示「關閉」。這裡的 'shut' 是過去分詞，構成被動語態 'were shut down'，但新聞標題常省略 'were'。",
+            "word": "explain",
+            "text": "'explain' 是動詞原形，與複數主語 'experts' 搭配。",
             "category": "時態"
-          },
-          {
-            "word": "finds",
-            "text": "這裡的 'finds' 是動詞 'find' 的第三人稱單數現在式，表示「發現」。新聞標題常用現在式描述過去發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "affecting",
-            "text": "'affecting' 是現在分詞作形容詞，修飾 'flaw'，表示「影響...的」。",
-            "category": "其他"
           },
           {
             "word": "the",
-            "text": "'the internet' 中的 'the' 是定冠詞，因為 'internet' 通常被視為獨一無二的。",
+            "text": "'the' 是定冠詞，用於特指 'truth'。",
             "category": "冠詞"
+          },
+          {
+            "word": "about",
+            "text": "'about iron deficiency' 表示「關於鐵缺乏症」，'about' 表示主題。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Jeffrey Epstein has been everywhere this campaign season. But voters wonder how much he should matter",
+      "url": "https://edition.cnn.com/2026/10/23/politics/jeffrey-epstein-ohio-senate-election",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Jeffrey Epstein has been everywhere this campaign season. But voters wonder how much he should matter",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/politics/jeffrey-epstein-ohio-senate-election",
+        "zh": "傑弗裡·愛潑斯坦在本競選季無處不在。但選民們想知道他應該有多重要。",
+        "accepted": [
+          [
+            "Jeffrey",
+            "Epstein",
+            "has",
+            "been",
+            "everywhere",
+            "this",
+            "campaign",
+            "season.",
+            "But",
+            "voters",
+            "wonder",
+            "how",
+            "much",
+            "he",
+            "should",
+            "matter"
+          ]
+        ],
+        "distractors": [
+          "had",
+          "was",
+          "everywhere else",
+          "voter",
+          "wondered",
+          "must"
+        ],
+        "notes": [
+          {
+            "word": "has been",
+            "text": "'has been' 是現在完成式，表示從過去持續到現在的狀態。",
+            "category": "時態"
+          },
+          {
+            "word": "everywhere",
+            "text": "'everywhere' 是副詞，表示「到處」或「無處不在」。",
+            "category": "其他"
+          },
+          {
+            "word": "voters",
+            "text": "'voters' 是複數名詞，指「選民」。",
+            "category": "單複數"
+          },
+          {
+            "word": "wonder",
+            "text": "'wonder' 是動詞原形，與複數主語 'voters' 搭配。",
+            "category": "時態"
+          },
+          {
+            "word": "should matter",
+            "text": "'should matter' 表示「應該重要」，'should' 是情態動詞。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "US discreetly moves diplomats and families from multiple Middle Eastern countries as escalation fears grow",
+      "url": "https://edition.cnn.com/2026/10/23/politics/us-moves-diplomats-middle-east-escalation-fears",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "US discreetly moves diplomats and families from multiple Middle Eastern countries as escalation fears grow",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/politics/us-moves-diplomats-middle-east-escalation-fears",
+        "zh": "隨著升級擔憂加劇，美國悄悄地將外交官和家屬從多個中東國家撤離。",
+        "accepted": [
+          [
+            "US",
+            "discreetly",
+            "moves",
+            "diplomats",
+            "and",
+            "families",
+            "from",
+            "multiple",
+            "Middle",
+            "Eastern",
+            "countries",
+            "as",
+            "escalation",
+            "fears",
+            "grow"
+          ]
+        ],
+        "distractors": [
+          "moved",
+          "discreet",
+          "diplomat",
+          "to",
+          "country",
+          "grew"
+        ],
+        "notes": [
+          {
+            "word": "discreetly",
+            "text": "'discreetly' 是副詞，表示「謹慎地」或「悄悄地」。",
+            "category": "其他"
+          },
+          {
+            "word": "moves",
+            "text": "'moves' 是動詞 'move' 的第三人稱單數現在式，表示「移動」或「撤離」。",
+            "category": "時態"
+          },
+          {
+            "word": "from",
+            "text": "'from multiple Middle Eastern countries' 表示「從多個中東國家」，'from' 表示來源。",
+            "category": "介係詞"
+          },
+          {
+            "word": "as",
+            "text": "這裡的 'as' 作為連接詞，表示「隨著...」。",
+            "category": "其他"
+          },
+          {
+            "word": "grow",
+            "text": "'grow' 是動詞原形，與複數主語 'fears' 搭配，表示「增長」或「加劇」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "First on CNN DOJ brings criminal charges against FBI officials it believes hampered Biden corruption investigation",
+      "url": "https://edition.cnn.com/2026/10/23/politics/justice-department-brings-criminal-charges-against-2-former-fbi-agents-who-investigated-hunter-bidens-laptop",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "First on CNN DOJ brings criminal charges against FBI officials it believes hampered Biden corruption investigation",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/politics/justice-department-brings-criminal-charges-against-2-former-fbi-agents-who-investigated-hunter-bidens-laptop",
+        "zh": "CNN獨家報導：司法部對其認為阻礙拜登腐敗調查的聯邦調查局官員提出刑事指控。",
+        "accepted": [
+          [
+            "First",
+            "on",
+            "CNN",
+            "DOJ",
+            "brings",
+            "criminal",
+            "charges",
+            "against",
+            "FBI",
+            "officials",
+            "it",
+            "believes",
+            "hampered",
+            "Biden",
+            "corruption",
+            "investigation"
+          ]
+        ],
+        "distractors": [
+          "firstly",
+          "in",
+          "brought",
+          "charge",
+          "official",
+          "hampering"
+        ],
+        "notes": [
+          {
+            "word": "First on CNN",
+            "text": "'First on CNN' 表示「CNN獨家報導」或「CNN首先報導」。",
+            "category": "其他"
+          },
+          {
+            "word": "brings",
+            "text": "'brings' 是動詞 'bring' 的第三人稱單數現在式，表示「提出」或「帶來」。",
+            "category": "時態"
+          },
+          {
+            "word": "charges",
+            "text": "'charges' 在這裡作名詞複數，指「指控」。",
+            "category": "單複數"
+          },
+          {
+            "word": "against",
+            "text": "'against' 作為介係詞，表示「針對」或「反對」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "hampered",
+            "text": "'hampered' 是動詞 'hamper' 的過去式，表示「阻礙」或「妨礙」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Corey Lowenstein/Raleigh News & Observer/Tribune News/Getty Images)",
+      "url": "https://edition.cnn.com/2026/10/23/us/faith-hedgepeth-murder-trial-verdict",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Corey Lowenstein/Raleigh News & Observer/Tribune News/Getty Images)",
+        "sourceUrl": "https://edition.cnn.com/2026/10/23/us/faith-hedgepeth-murder-trial-verdict",
+        "zh": "（Corey Lowenstein/羅利新聞與觀察家報/論壇新聞/蓋蒂圖片社）",
+        "accepted": [
+          [
+            "Corey",
+            "Lowenstein/Raleigh",
+            "News",
+            "&",
+            "Observer/Tribune",
+            "News/Getty",
+            "Images)"
+          ]
+        ],
+        "distractors": [
+          "image",
+          "news",
+          "the",
+          "a",
+          "from",
+          "by"
+        ],
+        "notes": [
+          {
+            "word": "Corey Lowenstein",
+            "text": "這是人名，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "Raleigh News & Observer",
+            "text": "這是報紙名稱，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "Tribune News",
+            "text": "這是新聞機構名稱，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "Getty Images",
+            "text": "這是圖片社名稱，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "/",
+            "text": "斜線通常用於分隔不同的來源或作者。",
+            "category": "其他"
           }
         ]
       }
