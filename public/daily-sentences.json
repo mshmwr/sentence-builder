@@ -1,162 +1,219 @@
 {
-  "date": "2026-10-27",
-  "fetchedAt": "2026-10-27T23:39:38.136Z",
+  "date": "2026-10-28",
+  "fetchedAt": "2026-10-28T23:57:15.345Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "One-city ceasefire between Russia and Ukraine",
-      "url": "https://edition.cnn.com/2026/10/27/europe/russia-ukraine-melania-trump-ceasefire-intl-hnk",
+      "en": "Ted Bundy linked to another murder",
+      "url": "https://edition.cnn.com/2026/10/27/us/ted-bundy-utah-murder-dna",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "One-city ceasefire between Russia and Ukraine",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/europe/russia-ukraine-melania-trump-ceasefire-intl-hnk",
-        "zh": "俄羅斯與烏克蘭之間在一個城市達成停火協議",
+        "sourceEn": "Ted Bundy linked to another murder",
+        "sourceUrl": "https://edition.cnn.com/2026/10/27/us/ted-bundy-utah-murder-dna",
+        "zh": "泰德·邦迪被認為與另一起謀殺案有關。",
         "accepted": [
           [
-            "One-city",
-            "ceasefire",
-            "between",
-            "Russia",
-            "and",
-            "Ukraine"
-          ]
-        ],
-        "distractors": [
-          "agreement",
-          "truce",
-          "negotiation",
-          "conflict",
-          "battle",
-          "peace"
-        ],
-        "notes": [
-          {
-            "word": "One-city",
-            "text": "這裡的「One-city」是作為形容詞修飾「ceasefire」，表示停火協議僅限於一個城市。",
-            "category": "其他"
-          },
-          {
-            "word": "between",
-            "text": "「between A and B」表示在A和B之間。",
-            "category": "介係詞"
-          },
-          {
-            "word": "ceasefire",
-            "text": "「ceasefire」是名詞，意為停火、休戰。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump approved allowing Flávio Bolsonaro to enter US after Brazil election loss, source says",
-      "url": "https://edition.cnn.com/2026/10/27/americas/flavio-bolsonaro-brazil-passports-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump approved allowing Flávio Bolsonaro to enter US after Brazil election loss, source says",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/americas/flavio-bolsonaro-brazil-passports-latam-intl",
-        "zh": "消息人士稱，巴西選舉失利後，川普批准弗拉維奧·博爾索納羅進入美國",
-        "accepted": [
-          [
-            "Trump",
-            "approved",
-            "allowing",
-            "Flávio",
-            "Bolsonaro",
+            "Ted",
+            "Bundy",
+            "linked",
             "to",
-            "enter",
-            "US",
-            "after",
-            "Brazil",
-            "election",
-            "loss,",
-            "source",
-            "says"
+            "another",
+            "murder"
           ]
         ],
         "distractors": [
-          "denied",
-          "rejected",
-          "prohibited",
-          "permission",
-          "victory",
-          "gain"
+          "connects",
+          "suspect",
+          "crime",
+          "victim",
+          "case"
         ],
         "notes": [
           {
-            "word": "approved",
-            "text": "「approve」是動詞，意為批准、贊成。這裡使用過去式。",
-            "category": "時態"
-          },
-          {
-            "word": "allowing",
-            "text": "「allow」後面常接動名詞或不定詞，表示允許做某事。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "「after」是介係詞，表示在…之後。",
+            "word": "linked to",
+            "text": "「linked to」表示「與…有關聯」，常用於描述人或事件之間的關係。",
             "category": "介係詞"
           },
           {
-            "word": "loss",
-            "text": "「loss」是名詞，意為損失、失敗。",
+            "word": "another",
+            "text": "「another」表示「另一個」，後面通常接單數名詞。",
+            "category": "冠詞"
+          },
+          {
+            "word": "murder",
+            "text": "「murder」是名詞，指「謀殺案」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "How Lula beat Bolsonaro, broke records and halted the region’s right-wing wave",
-      "url": "https://edition.cnn.com/2026/10/26/americas/brazil-election-results-takeaways-latam-hk-intl",
+      "en": "Democrats were reportedly behind the other Dan Sullivan. Here’s what it could mean",
+      "url": "https://edition.cnn.com/2026/10/28/politics/dan-sullivan-alaska-senate-democrats",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "How Lula beat Bolsonaro, broke records and halted the region’s right-wing wave",
-        "sourceUrl": "https://edition.cnn.com/2026/10/26/americas/brazil-election-results-takeaways-latam-hk-intl",
-        "zh": "盧拉如何擊敗博爾索納羅，打破紀錄並阻止該地區的右翼浪潮",
+        "sourceEn": "Democrats were reportedly behind the other Dan Sullivan. Here’s what it could mean",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/politics/dan-sullivan-alaska-senate-democrats",
+        "zh": "據報導，民主黨人支持另一個丹·沙利文。這可能意味著什麼？",
         "accepted": [
           [
-            "How",
-            "Lula",
-            "beat",
-            "Bolsonaro,",
-            "broke",
-            "records",
-            "and",
-            "halted",
+            "Democrats",
+            "were",
+            "reportedly",
+            "behind",
             "the",
-            "region’s",
-            "right-wing",
-            "wave"
+            "other",
+            "Dan",
+            "Sullivan",
+            ".",
+            "Here’s",
+            "what",
+            "it",
+            "could",
+            "mean"
           ]
         ],
         "distractors": [
-          "defeated",
-          "won",
-          "surpassed",
-          "continued",
-          "accelerated",
-          "strengthened"
+          "support",
+          "front",
+          "election",
+          "vote",
+          "party"
         ],
         "notes": [
           {
-            "word": "beat",
-            "text": "「beat」是動詞，意為擊敗。這裡使用過去式。",
+            "word": "reportedly",
+            "text": "「reportedly」是副詞，表示「據報導」，說明消息來源。",
+            "category": "其他"
+          },
+          {
+            "word": "behind",
+            "text": "在這裡，「behind」表示「支持」或「在…背後」，指提供支持或影響力。",
+            "category": "介係詞"
+          },
+          {
+            "word": "could mean",
+            "text": "「could mean」表示「可能意味著」，「could」是「can」的過去式，在此表示可能性。",
             "category": "時態"
           },
           {
-            "word": "broke",
-            "text": "「break records」意為打破紀錄。這裡使用過去式。",
+            "word": "the other",
+            "text": "「the other」表示「另一個（特定的）」，與「another」不同，通常指在已知範圍內的另一個。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why the US has become a political base for Brazil’s Bolsonaro allies",
+      "url": "https://edition.cnn.com/2026/10/28/americas/bolsonaro-allies-exile-united-states-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why the US has become a political base for Brazil’s Bolsonaro allies",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/americas/bolsonaro-allies-exile-united-states-latam-intl",
+        "zh": "為什麼美國已成為巴西博索納羅盟友的政治基地？",
+        "accepted": [
+          [
+            "Why",
+            "the",
+            "US",
+            "has",
+            "become",
+            "a",
+            "political",
+            "base",
+            "for",
+            "Brazil’s",
+            "Bolsonaro",
+            "allies"
+          ]
+        ],
+        "distractors": [
+          "become",
+          "is",
+          "country",
+          "support",
+          "government"
+        ],
+        "notes": [
+          {
+            "word": "has become",
+            "text": "「has become」是現在完成式，表示從過去某個時間點開始，一直持續到現在的狀態或變化。",
             "category": "時態"
           },
           {
-            "word": "halted",
-            "text": "「halt」是動詞，意為停止、阻止。這裡使用過去式。",
-            "category": "時態"
+            "word": "a political base",
+            "text": "「a political base」指「一個政治基地」，「a」是單數可數名詞的冠詞。",
+            "category": "冠詞"
           },
           {
-            "word": "region’s",
-            "text": "「region’s」是所有格，表示該地區的。",
+            "word": "for",
+            "text": "「for」在這裡表示「為了」或「對於」，說明這個基地是為誰服務的。",
+            "category": "介係詞"
+          },
+          {
+            "word": "allies",
+            "text": "「allies」是「ally」的複數形式，指「盟友」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Israel’s election set up weeks or more of political wrangling to decide who should lead the country",
+      "url": "https://edition.cnn.com/2026/10/28/middleeast/netanyahu-israel-election-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Israel’s election set up weeks or more of political wrangling to decide who should lead the country",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/middleeast/netanyahu-israel-election-intl",
+        "zh": "以色列大選將引發數週或更長時間的政治角力，以決定誰將領導這個國家。",
+        "accepted": [
+          [
+            "Israel’s",
+            "election",
+            "set",
+            "up",
+            "weeks",
+            "or",
+            "more",
+            "of",
+            "political",
+            "wrangling",
+            "to",
+            "decide",
+            "who",
+            "should",
+            "lead",
+            "the",
+            "country"
+          ]
+        ],
+        "distractors": [
+          "deciding",
+          "leading",
+          "vote",
+          "result",
+          "government"
+        ],
+        "notes": [
+          {
+            "word": "set up",
+            "text": "「set up」在這裡表示「引發」或「導致」，常用於描述事件的開端。",
+            "category": "其他"
+          },
+          {
+            "word": "weeks or more",
+            "text": "「weeks or more」表示「數週或更長時間」，「weeks」是複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "wrangling",
+            "text": "「wrangling」是名詞，指「爭吵、爭論」，尤指長時間的爭論。",
+            "category": "其他"
+          },
+          {
+            "word": "to decide",
+            "text": "「to decide」是不定詞片語，表示目的，即「為了決定」。",
             "category": "其他"
           }
         ]
@@ -169,551 +226,445 @@
         "theme": "今日新聞",
         "sourceEn": "Who is Gadi Eisenkot, Netanyahu’s main challenger in Israel’s elections?",
         "sourceUrl": "https://edition.cnn.com/2026/10/24/middleeast/gadi-eisenkot-israel-election-netanyahu-intl",
-        "zh": "加迪·艾森科特是誰，他是內塔尼亞胡在以色列選舉中的主要挑戰者？",
+        "zh": "加迪·艾森科特是誰？他是內塔尼亞胡在以色列選舉中的主要挑戰者。",
         "accepted": [
           [
             "Who",
             "is",
             "Gadi",
-            "Eisenkot,",
+            "Eisenkot",
+            ",",
             "Netanyahu’s",
             "main",
             "challenger",
             "in",
             "Israel’s",
-            "elections?"
+            "elections",
+            "?"
           ]
         ],
         "distractors": [
-          "opponent",
-          "supporter",
-          "ally",
-          "friend",
+          "was",
           "leader",
-          "candidate"
+          "candidate",
+          "opponent",
+          "win"
         ],
         "notes": [
           {
-            "word": "Who",
-            "text": "「Who」是疑問代詞，用於詢問人。",
+            "word": "Who is",
+            "text": "「Who is」用於詢問某人的身份。",
             "category": "其他"
           },
           {
-            "word": "is",
-            "text": "「is」是be動詞的第三人稱單數現在式。",
-            "category": "時態"
-          },
-          {
             "word": "challenger",
-            "text": "「challenger」是名詞，意為挑戰者。",
+            "text": "「challenger」是名詞，指「挑戰者」。",
             "category": "其他"
           },
           {
             "word": "in",
-            "text": "「in」是介係詞，表示在…之中。",
+            "text": "「in」在這裡表示「在…之中」，指在以色列的選舉中。",
             "category": "介係詞"
           },
           {
             "word": "elections",
-            "text": "「elections」是名詞複數，意為選舉。",
+            "text": "「elections」是複數形式，指「選舉」，通常指一系列的投票過程。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "What’s at stake in the elections",
-      "url": "https://edition.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl",
+      "en": "What caused the deadly train crash in Spain? What we know so far",
+      "url": "https://edition.cnn.com/2026/10/28/europe/spain-train-crash-cause-what-we-know-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "What’s at stake in the elections",
-        "sourceUrl": "https://edition.cnn.com/2026/10/25/middleeast/israel-election-2026-whats-at-stake-intl",
-        "zh": "這次選舉有什麼利害關係？",
+        "sourceEn": "What caused the deadly train crash in Spain? What we know so far",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/europe/spain-train-crash-cause-what-we-know-intl",
+        "zh": "是什麼導致了西班牙致命的火車事故？我們目前所知為何？",
         "accepted": [
           [
-            "What’s",
-            "at",
-            "stake",
-            "in",
+            "What",
+            "caused",
             "the",
-            "elections"
-          ]
-        ],
-        "distractors": [
-          "important",
-          "risk",
-          "gain",
-          "loss",
-          "involved",
-          "issue"
-        ],
-        "notes": [
-          {
-            "word": "What’s",
-            "text": "「What’s」是「What is」的縮寫。",
-            "category": "其他"
-          },
-          {
-            "word": "at stake",
-            "text": "「at stake」是片語，意為處於危險中，利害攸關。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "「in」是介係詞，表示在…之中。",
-            "category": "介係詞"
-          },
-          {
-            "word": "the",
-            "text": "「the」是定冠詞，用於特指。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Rare Nanotyrannus sells at auction for $47.3 million, becoming second most valuable fossil ever",
-      "url": "https://edition.cnn.com/2026/10/27/science/nanotyrannus-jodi-sale",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Rare Nanotyrannus sells at auction for $47.3 million, becoming second most valuable fossil ever",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/science/nanotyrannus-jodi-sale",
-        "zh": "罕見的納米暴龍以4730萬美元拍賣售出，成為史上第二珍貴的化石",
-        "accepted": [
-          [
-            "Rare",
-            "Nanotyrannus",
-            "sells",
-            "at",
-            "auction",
-            "for",
-            "$47.3",
-            "million,",
-            "becoming",
-            "second",
-            "most",
-            "valuable",
-            "fossil",
-            "ever"
-          ]
-        ],
-        "distractors": [
-          "bought",
-          "purchased",
-          "acquired",
-          "cheapest",
-          "worthless",
-          "least"
-        ],
-        "notes": [
-          {
-            "word": "sells",
-            "text": "「sells」是動詞「sell」的第三人稱單數現在式，表示拍賣售出。",
-            "category": "時態"
-          },
-          {
-            "word": "at auction",
-            "text": "「at auction」是片語，表示在拍賣會上。",
-            "category": "介係詞"
-          },
-          {
-            "word": "for",
-            "text": "「for」是介係詞，表示為了、以…價格。",
-            "category": "介係詞"
-          },
-          {
-            "word": "becoming",
-            "text": "「becoming」是現在分詞，表示成為。",
-            "category": "其他"
-          },
-          {
-            "word": "most valuable",
-            "text": "「most valuable」是最高級，表示最珍貴的。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Alexander brothers each sentenced to 30 years in federal prison for sex trafficking",
-      "url": "https://edition.cnn.com/2026/10/27/us/alexander-brothers-sentencing-sex-trafficking",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Alexander brothers each sentenced to 30 years in federal prison for sex trafficking",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/us/alexander-brothers-sentencing-sex-trafficking",
-        "zh": "亞歷山大兄弟因性販運罪名，每人被判處30年聯邦監獄徒刑",
-        "accepted": [
-          [
-            "Alexander",
-            "brothers",
-            "each",
-            "sentenced",
-            "to",
-            "30",
-            "years",
+            "deadly",
+            "train",
+            "crash",
             "in",
-            "federal",
-            "prison",
-            "for",
-            "sex",
-            "trafficking"
+            "Spain",
+            "?",
+            "What",
+            "we",
+            "know",
+            "so",
+            "far"
           ]
         ],
         "distractors": [
-          "freed",
-          "released",
-          "acquitted",
-          "innocent",
-          "minor",
-          "short"
+          "causes",
+          "happened",
+          "accident",
+          "incident",
+          "report"
         ],
         "notes": [
           {
-            "word": "brothers",
-            "text": "「brothers」是名詞複數，表示兄弟。",
-            "category": "單複數"
+            "word": "caused",
+            "text": "「caused」是動詞「cause」的過去式，表示「導致」。",
+            "category": "時態"
           },
           {
-            "word": "sentenced",
-            "text": "「sentenced to」是片語，表示被判處…刑罰。",
-            "category": "其他"
+            "word": "the deadly train crash",
+            "text": "「the deadly train crash」指「這場致命的火車事故」，「the」是定冠詞，特指某個事件。",
+            "category": "冠詞"
           },
           {
-            "word": "in",
-            "text": "「in」是介係詞，表示在…之中。",
+            "word": "in Spain",
+            "text": "「in Spain」表示「在西班牙」，指地點。",
             "category": "介係詞"
           },
           {
-            "word": "for",
-            "text": "「for」是介係詞，表示因為…原因。",
-            "category": "介係詞"
-          },
-          {
-            "word": "trafficking",
-            "text": "「trafficking」是名詞，意為非法販運。",
+            "word": "so far",
+            "text": "「so far」是片語，表示「到目前為止」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "The US Fed says it ignores politics. Its rate moves tell a more complicated story",
-      "url": "https://edition.cnn.com/2026/10/27/economy/federal-reserve-rate-decisions-elections",
+      "en": "New study suggests 3 in 4 former NFL players who died from 2008 to 2023 had CTE",
+      "url": "https://edition.cnn.com/2026/10/28/health/former-nfl-players-cte",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The US Fed says it ignores politics. Its rate moves tell a more complicated story",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/economy/federal-reserve-rate-decisions-elections",
-        "zh": "美國聯準會聲稱它無視政治。其利率變動卻講述了一個更複雜的故事",
+        "sourceEn": "New study suggests 3 in 4 former NFL players who died from 2008 to 2023 had CTE",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/health/former-nfl-players-cte",
+        "zh": "新研究表明，2008年至2023年間死亡的四分之三前NFL球員患有慢性創傷性腦病變（CTE）。",
         "accepted": [
           [
-            "The",
-            "US",
-            "Fed",
-            "says",
-            "it",
-            "ignores",
-            "politics.",
-            "Its",
-            "rate",
-            "moves",
-            "tell",
-            "a",
-            "more",
-            "complicated",
-            "story"
-          ]
-        ],
-        "distractors": [
-          "considers",
-          "follows",
-          "obeys",
-          "simple",
-          "easy",
-          "clear"
-        ],
-        "notes": [
-          {
-            "word": "The",
-            "text": "「The」是定冠詞，用於特指。",
-            "category": "冠詞"
-          },
-          {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式。",
-            "category": "時態"
-          },
-          {
-            "word": "ignores",
-            "text": "「ignores」是動詞「ignore」的第三人稱單數現在式，意為忽視、不理會。",
-            "category": "時態"
-          },
-          {
-            "word": "tell",
-            "text": "「tell」是動詞，意為講述。這裡使用原形動詞。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，用於泛指。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Justice Department fails to indict former White House aide over her testimony about Trump and Jan. 6, sources say",
-      "url": "https://edition.cnn.com/2026/10/27/politics/cassidy-hutchinson-fail-indictment",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Justice Department fails to indict former White House aide over her testimony about Trump and Jan. 6, sources say",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/politics/cassidy-hutchinson-fail-indictment",
-        "zh": "消息人士稱，司法部未能起訴前白宮助手，原因與她關於川普和1月6日的證詞有關",
-        "accepted": [
-          [
-            "Justice",
-            "Department",
-            "fails",
-            "to",
-            "indict",
+            "New",
+            "study",
+            "suggests",
+            "3",
+            "in",
+            "4",
             "former",
-            "White",
-            "House",
-            "aide",
-            "over",
-            "her",
-            "testimony",
-            "about",
-            "Trump",
-            "and",
-            "Jan.",
-            "6,",
-            "sources",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "succeeds",
-          "manages",
-          "prosecutes",
-          "clears",
-          "supports",
-          "approves"
-        ],
-        "notes": [
-          {
-            "word": "fails",
-            "text": "「fails to do something」意為未能做某事。",
-            "category": "其他"
-          },
-          {
-            "word": "indict",
-            "text": "「indict」是動詞，意為起訴。",
-            "category": "其他"
-          },
-          {
-            "word": "over",
-            "text": "「over」在這裡作為介係詞，表示關於、因為。",
-            "category": "介係詞"
-          },
-          {
-            "word": "testimony",
-            "text": "「testimony」是名詞，意為證詞。",
-            "category": "其他"
-          },
-          {
-            "word": "about",
-            "text": "「about」是介係詞，表示關於。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Serial killer Ted Bundy is linked to another Utah teenager’s 1974 murder through new DNA testing, prosecutor says",
-      "url": "https://edition.cnn.com/2026/10/27/us/ted-bundy-utah-murder-dna",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Serial killer Ted Bundy is linked to another Utah teenager’s 1974 murder through new DNA testing, prosecutor says",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/us/ted-bundy-utah-murder-dna",
-        "zh": "檢察官稱，透過新的DNA檢測，連環殺手泰德·邦迪與另一名猶他州青少年在1974年的謀殺案有關聯",
-        "accepted": [
-          [
-            "Serial",
-            "killer",
-            "Ted",
-            "Bundy",
-            "is",
-            "linked",
+            "NFL",
+            "players",
+            "who",
+            "died",
+            "from",
+            "2008",
             "to",
-            "another",
-            "Utah",
-            "teenager’s",
-            "1974",
-            "murder",
-            "through",
-            "new",
-            "DNA",
-            "testing,",
-            "prosecutor",
-            "says"
+            "2023",
+            "had",
+            "CTE"
           ]
         ],
         "distractors": [
-          "unlinked",
-          "disconnected",
-          "separated",
-          "cleared",
-          "innocent",
-          "unrelated"
+          "suggesting",
+          "show",
+          "player",
+          "suffered",
+          "diagnosed"
         ],
         "notes": [
           {
-            "word": "is linked to",
-            "text": "「be linked to」是片語，表示與…有關聯。",
+            "word": "suggests",
+            "text": "「suggests」是動詞「suggest」的第三人稱單數現在式，表示「表明、暗示」。",
+            "category": "時態"
+          },
+          {
+            "word": "3 in 4",
+            "text": "「3 in 4」表示「四分之三」，是一種常見的比例表達方式。",
             "category": "其他"
           },
           {
-            "word": "another",
-            "text": "「another」是形容詞，表示另一個。",
+            "word": "former",
+            "text": "「former」是形容詞，表示「前任的、以前的」。",
             "category": "其他"
           },
           {
-            "word": "teenager’s",
-            "text": "「teenager’s」是所有格，表示該青少年的。",
+            "word": "who died",
+            "text": "「who died」是關係子句，修飾前面的「players」，說明是哪些球員。",
             "category": "其他"
           },
           {
-            "word": "through",
-            "text": "「through」是介係詞，表示透過、經由。",
-            "category": "介係詞"
-          },
-          {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式。",
+            "word": "had CTE",
+            "text": "「had CTE」是過去式，表示這些球員在死亡時患有CTE。",
             "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "‘Separation of Church and State does not exist’: Hegseth’s faith adviser shared racist, homophobic posts",
-      "url": "https://edition.cnn.com/2026/10/27/politics/pete-hegseth-adviser-posts-invs",
+      "en": "Astronomers spot a new dwarf planet candidate beyond Pluto",
+      "url": "https://edition.cnn.com/2026/10/28/science/ed138-dwarf-planet-candidate-beyond-pluto",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "‘Separation of Church and State does not exist’: Hegseth’s faith adviser shared racist, homophobic posts",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/politics/pete-hegseth-adviser-posts-invs",
-        "zh": "「政教分離並不存在」：赫格塞特的信仰顧問分享了種族主義和恐同言論",
+        "sourceEn": "Astronomers spot a new dwarf planet candidate beyond Pluto",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/science/ed138-dwarf-planet-candidate-beyond-pluto",
+        "zh": "天文學家在冥王星之外發現了一個新的矮行星候選者。",
         "accepted": [
           [
-            "‘Separation",
-            "of",
-            "Church",
-            "and",
-            "State",
-            "does",
-            "not",
-            "exist’:",
-            "Hegseth’s",
-            "faith",
-            "adviser",
-            "shared",
-            "racist,",
-            "homophobic",
-            "posts"
+            "Astronomers",
+            "spot",
+            "a",
+            "new",
+            "dwarf",
+            "planet",
+            "candidate",
+            "beyond",
+            "Pluto"
           ]
         ],
         "distractors": [
-          "exists",
-          "present",
-          "appears",
-          "hid",
-          "concealed",
-          "withheld"
+          "spotted",
+          "found",
+          "planets",
+          "candidate",
+          "near"
         ],
         "notes": [
           {
-            "word": "Separation",
-            "text": "「Separation of Church and State」是固定片語，意為政教分離。",
-            "category": "其他"
-          },
-          {
-            "word": "does not exist",
-            "text": "「does not exist」表示不存在，是現在簡單式的否定形式。",
+            "word": "spot",
+            "text": "「spot」在這裡是動詞，表示「發現、看見」，常用於新聞標題中代替「發現」的過去式。",
             "category": "時態"
           },
           {
-            "word": "Hegseth’s",
-            "text": "「Hegseth’s」是所有格，表示赫格塞特的。",
-            "category": "其他"
+            "word": "a new dwarf planet candidate",
+            "text": "「a new dwarf planet candidate」指「一個新的矮行星候選者」，「a」是單數可數名詞的冠詞。",
+            "category": "冠詞"
           },
           {
-            "word": "shared",
-            "text": "「shared」是動詞「share」的過去式，意為分享。",
-            "category": "時態"
+            "word": "beyond",
+            "text": "「beyond」是介係詞，表示「在…之外」。",
+            "category": "介係詞"
           },
           {
-            "word": "posts",
-            "text": "「posts」是名詞複數，意為貼文、言論。",
+            "word": "Astronomers",
+            "text": "「Astronomers」是複數名詞，指「天文學家」。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "King Charles heads to Caribbean as calls grow for slavery apology",
-      "url": "https://edition.cnn.com/2026/10/27/europe/king-charles-uk-caribbean-slavery-apology-chogm-intl",
+      "en": "Dutch zookeeper dies after being attacked by leopard",
+      "url": "https://edition.cnn.com/2026/10/28/europe/dutch-zookeeper-dies-leopard-attack-scli-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "King Charles heads to Caribbean as calls grow for slavery apology",
-        "sourceUrl": "https://edition.cnn.com/2026/10/27/europe/king-charles-uk-caribbean-slavery-apology-chogm-intl",
-        "zh": "隨著要求為奴隸制道歉的呼聲越來越高，查爾斯國王前往加勒比海",
+        "sourceEn": "Dutch zookeeper dies after being attacked by leopard",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/europe/dutch-zookeeper-dies-leopard-attack-scli-intl",
+        "zh": "荷蘭動物園管理員被豹子襲擊後死亡。",
         "accepted": [
           [
-            "King",
-            "Charles",
-            "heads",
-            "to",
-            "Caribbean",
-            "as",
-            "calls",
-            "grow",
-            "for",
-            "slavery",
-            "apology"
+            "Dutch",
+            "zookeeper",
+            "dies",
+            "after",
+            "being",
+            "attacked",
+            "by",
+            "leopard"
           ]
         ],
         "distractors": [
-          "leaves",
-          "departs",
-          "returns",
-          "decreased",
-          "shrank",
-          "diminished"
+          "died",
+          "killed",
+          "attack",
+          "from",
+          "animal"
         ],
         "notes": [
           {
-            "word": "heads to",
-            "text": "「heads to」是片語，意為前往某地。",
+            "word": "dies",
+            "text": "新聞標題常用現在式動詞來描述過去發生的事件，以增加即時感。",
+            "category": "時態"
+          },
+          {
+            "word": "after being attacked",
+            "text": "「after being attacked」是被動語態的動名詞片語，表示「在被襲擊之後」。",
             "category": "其他"
+          },
+          {
+            "word": "by",
+            "text": "在被動語態中，「by」用於引導動作的執行者。",
+            "category": "介係詞"
+          },
+          {
+            "word": "zookeeper",
+            "text": "「zookeeper」是名詞，指「動物園管理員」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Continuous round-the-world cruise comes to an end as Iran war spikes fuel costs",
+      "url": "https://edition.cnn.com/2026/10/28/travel/round-the-world-cruise-ends-cambodia-iran-war-hnk-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Continuous round-the-world cruise comes to an end as Iran war spikes fuel costs",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/travel/round-the-world-cruise-ends-cambodia-iran-war-hnk-intl",
+        "zh": "由於伊朗戰爭導致燃料成本飆升，持續環球航行之旅結束了。",
+        "accepted": [
+          [
+            "Continuous",
+            "round-the-world",
+            "cruise",
+            "comes",
+            "to",
+            "an",
+            "end",
+            "as",
+            "Iran",
+            "war",
+            "spikes",
+            "fuel",
+            "costs"
+          ]
+        ],
+        "distractors": [
+          "came",
+          "ending",
+          "because",
+          "increase",
+          "price"
+        ],
+        "notes": [
+          {
+            "word": "comes to an end",
+            "text": "「comes to an end」是片語，表示「結束」。新聞標題常用現在式動詞來描述過去發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "an end",
+            "text": "「an end」指「一個結束」，「an」是單數可數名詞的冠詞。",
+            "category": "冠詞"
           },
           {
             "word": "as",
-            "text": "「as」在這裡作為連接詞，表示「隨著…」。",
+            "text": "「as」在這裡表示「由於、因為」，說明原因。",
             "category": "其他"
           },
           {
-            "word": "calls",
-            "text": "「calls」是名詞複數，意為呼籲、要求。",
-            "category": "單複數"
+            "word": "spikes",
+            "text": "「spikes」是動詞，表示「（價格、數量等）急劇上升」。",
+            "category": "其他"
           },
           {
-            "word": "grow",
-            "text": "「grow」是動詞，意為增長、變多。這裡使用原形動詞。",
+            "word": "fuel costs",
+            "text": "「fuel costs」是複合名詞，指「燃料成本」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Apple just announced its first ever MacBook with a touchscreen",
+      "url": "https://edition.cnn.com/2026/10/28/tech/apple-macbook-pro-touchscreen",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Apple just announced its first ever MacBook with a touchscreen",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/tech/apple-macbook-pro-touchscreen",
+        "zh": "蘋果剛剛發布了其首款帶觸控螢幕的MacBook。",
+        "accepted": [
+          [
+            "Apple",
+            "just",
+            "announced",
+            "its",
+            "first",
+            "ever",
+            "MacBook",
+            "with",
+            "a",
+            "touchscreen"
+          ]
+        ],
+        "distractors": [
+          "announces",
+          "release",
+          "new",
+          "has",
+          "screen"
+        ],
+        "notes": [
+          {
+            "word": "just announced",
+            "text": "「just announced」是現在完成式，表示動作剛剛完成。",
             "category": "時態"
           },
           {
-            "word": "for",
-            "text": "「for」是介係詞，表示為了…。",
+            "word": "first ever",
+            "text": "「first ever」強調這是「有史以來第一次」。",
+            "category": "其他"
+          },
+          {
+            "word": "with",
+            "text": "「with」在這裡表示「帶有、具有」，說明MacBook的特點。",
+            "category": "介係詞"
+          },
+          {
+            "word": "a touchscreen",
+            "text": "「a touchscreen」指「一個觸控螢幕」，「a」是單數可數名詞的冠詞。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Dolores Huerta, pioneering labor leader and civil rights icon, dies at 96",
+      "url": "https://edition.cnn.com/2026/10/28/us/dolores-huerta-dead",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Dolores Huerta, pioneering labor leader and civil rights icon, dies at 96",
+        "sourceUrl": "https://edition.cnn.com/2026/10/28/us/dolores-huerta-dead",
+        "zh": "先驅勞工領袖兼民權偶像多洛雷斯·韋爾塔逝世，享年96歲。",
+        "accepted": [
+          [
+            "Dolores",
+            "Huerta",
+            ",",
+            "pioneering",
+            "labor",
+            "leader",
+            "and",
+            "civil",
+            "rights",
+            "icon",
+            ",",
+            "dies",
+            "at",
+            "96"
+          ]
+        ],
+        "distractors": [
+          "died",
+          "passed",
+          "leaders",
+          "icons",
+          "age"
+        ],
+        "notes": [
+          {
+            "word": "dies",
+            "text": "新聞標題常用現在式動詞來描述過去發生的事件，以增加即時感。",
+            "category": "時態"
+          },
+          {
+            "word": "pioneering",
+            "text": "「pioneering」是形容詞，表示「開創性的、先驅的」。",
+            "category": "其他"
+          },
+          {
+            "word": "labor leader",
+            "text": "「labor leader」指「勞工領袖」。",
+            "category": "其他"
+          },
+          {
+            "word": "at 96",
+            "text": "「at 96」表示「在96歲時」，用於說明死亡時的年齡。",
             "category": "介係詞"
           }
         ]
