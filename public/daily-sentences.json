@@ -1,226 +1,220 @@
 {
-  "date": "2026-10-29",
-  "fetchedAt": "2026-10-29T23:52:34.782Z",
+  "date": "2026-10-30",
+  "fetchedAt": "2026-10-30T23:32:14.173Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Getting in the (literal) swamp: Corruption becomes a $275 million fight in the midterm ad wars",
-      "url": "https://edition.cnn.com/2026/10/29/politics/corruption-messaging-democrats-republicans-midterms",
+      "en": "Divorced military spouses stuck in foreign courts",
+      "url": "https://edition.cnn.com/2026/10/30/us/divorced-military-spouses-stuck-in-foreign-courts",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Getting in the (literal) swamp: Corruption becomes a $275 million fight in the midterm ad wars",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/politics/corruption-messaging-democrats-republicans-midterms",
-        "zh": "深入（字面意義上的）泥沼：腐敗成為中期選舉廣告戰中一場2.75億美元的鬥爭",
+        "sourceEn": "Divorced military spouses stuck in foreign courts",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/us/divorced-military-spouses-stuck-in-foreign-courts",
+        "zh": "離婚的軍人配偶滯留外國法庭。",
         "accepted": [
           [
-            "Getting",
+            "Divorced",
+            "military",
+            "spouses",
+            "stuck",
             "in",
-            "the",
-            "swamp",
-            "Corruption",
-            "becomes",
-            "a",
-            "$275",
-            "million",
-            "fight",
-            "in",
-            "the",
-            "midterm",
-            "ad",
-            "wars"
+            "foreign",
+            "courts"
           ]
         ],
         "distractors": [
-          "Gets",
-          "become",
-          "fighting",
-          "war",
-          "millions",
-          "fightings"
+          "marriages",
+          "legal",
+          "battles",
+          "families",
+          "soldiers",
+          "abroad"
         ],
         "notes": [
           {
-            "word": "Getting",
-            "text": "動名詞 'Getting' 在這裡作為句子的開頭，表示一個動作或狀態。",
+            "word": "Divorced",
+            "text": "這裡的 'Divorced' 是過去分詞作形容詞，修飾 'military spouses'，表示「已離婚的」。",
             "category": "其他"
           },
           {
-            "word": "becomes",
-            "text": "'becomes' 是動詞 'become' 的第三人稱單數現在式，與主詞 'Corruption' 一致。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'fight'。",
-            "category": "冠詞"
+            "word": "stuck",
+            "text": "'stuck' 是 'stick' 的過去分詞，在這裡作形容詞，表示「被困住的」或「滯留的」。",
+            "category": "其他"
           },
           {
             "word": "in",
-            "text": "'in' 作為介係詞，表示在某個範圍或情況之中。",
+            "text": "'in foreign courts' 表示在「外國法庭」這個地點。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Justice Department’s Dan Sullivan criminal probe accelerates after Alaska campaign revelations",
-      "url": "https://edition.cnn.com/2026/10/29/politics/justice-department-dan-sullivan-investigation-criminal-urgency",
+      "en": "World’s largest crypto exchange hit by suspected North Korean hack in world’s largest heist",
+      "url": "https://edition.cnn.com/2026/10/30/tech/binance-crypto-heist-hnk-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Justice Department’s Dan Sullivan criminal probe accelerates after Alaska campaign revelations",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/politics/justice-department-dan-sullivan-investigation-criminal-urgency",
-        "zh": "阿拉斯加競選揭露後，司法部對丹·沙利文的刑事調查加速",
+        "sourceEn": "World’s largest crypto exchange hit by suspected North Korean hack in world’s largest heist",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/tech/binance-crypto-heist-hnk-intl",
+        "zh": "全球最大的加密貨幣交易所遭到疑似北韓駭客攻擊，這是全球最大的竊案。",
         "accepted": [
           [
-            "Justice",
-            "Department’s",
-            "Dan",
-            "Sullivan",
-            "criminal",
-            "probe",
-            "accelerates",
-            "after",
-            "Alaska",
-            "campaign",
-            "revelations"
+            "World’s",
+            "largest",
+            "crypto",
+            "exchange",
+            "hit",
+            "by",
+            "suspected",
+            "North",
+            "Korean",
+            "hack",
+            "in",
+            "world’s",
+            "largest",
+            "heist"
           ]
         ],
         "distractors": [
-          "accelerated",
-          "probe’s",
-          "revelation",
-          "campaigns",
-          "afterwards",
-          "criminality"
+          "currency",
+          "attack",
+          "stolen",
+          "cybersecurity",
+          "investigation",
+          "funds"
         ],
         "notes": [
           {
-            "word": "Department’s",
-            "text": "所有格 'Department’s' 表示 'Justice Department' 的，修飾 'Dan Sullivan criminal probe'。",
+            "word": "World’s",
+            "text": "'World’s' 是 'world' 的所有格形式，表示「世界的」。",
             "category": "其他"
           },
           {
-            "word": "accelerates",
-            "text": "'accelerates' 是動詞 'accelerate' 的第三人稱單數現在式，與主詞 'probe' 一致。",
-            "category": "時態"
-          },
-          {
-            "word": "after",
-            "text": "'after' 作為介係詞，表示在某事件之後。",
+            "word": "hit by",
+            "text": "'hit by' 表示「被...擊中/襲擊」，這裡是被駭客攻擊。",
             "category": "介係詞"
           },
           {
-            "word": "revelations",
-            "text": "'revelations' 是複數名詞，表示多個揭露或揭示。",
-            "category": "單複數"
+            "word": "suspected",
+            "text": "'suspected' 是過去分詞作形容詞，表示「被懷疑的」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "第二個 'in' 表示「在...之中」，這裡指這次駭客攻擊是「在世界最大的竊案之中」。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Mushroom killer to be jailed for life after appeals court finds sentence too light",
-      "url": "https://edition.cnn.com/2026/10/29/australia/australia-mushroom-patterson-appeal-ruling-intl-hnk",
+      "en": "US approves potential $2.1 billion sale of scarce Patriot missiles to Ukraine",
+      "url": "https://edition.cnn.com/2026/10/30/politics/us-approves-potential-patriot-missile-sale-ukraine",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Mushroom killer to be jailed for life after appeals court finds sentence too light",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/australia/australia-mushroom-patterson-appeal-ruling-intl-hnk",
-        "zh": "蘑菇殺手在上訴法院認定刑期過輕後將被判處無期徒刑",
+        "sourceEn": "US approves potential $2.1 billion sale of scarce Patriot missiles to Ukraine",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/politics/us-approves-potential-patriot-missile-sale-ukraine",
+        "zh": "美國批准向烏克蘭潛在出售價值21億美元的稀有愛國者飛彈。",
         "accepted": [
           [
-            "Mushroom",
-            "killer",
+            "US",
+            "approves",
+            "potential",
+            "$2.1",
+            "billion",
+            "sale",
+            "of",
+            "scarce",
+            "Patriot",
+            "missiles",
             "to",
-            "be",
-            "jailed",
-            "for",
-            "life",
-            "after",
-            "appeals",
-            "court",
-            "finds",
-            "sentence",
-            "too",
-            "light"
+            "Ukraine"
           ]
         ],
         "distractors": [
-          "killers",
-          "jail",
-          "finding",
-          "sentences",
-          "lightly",
-          "lives"
+          "rejects",
+          "weapons",
+          "aid",
+          "agreement",
+          "military",
+          "assistance"
         ],
         "notes": [
           {
-            "word": "to be jailed",
-            "text": "'to be jailed' 是不定詞的被動語態，表示將會被監禁。",
+            "word": "approves",
+            "text": "'approves' 是動詞，表示「批准」。主詞是 'US'，動詞使用單數第三人稱形式。",
             "category": "時態"
           },
           {
-            "word": "for life",
-            "text": "'for life' 是固定片語，表示「終身」或「無期」。",
+            "word": "potential",
+            "text": "'potential' 作形容詞，表示「潛在的」。",
             "category": "其他"
           },
           {
-            "word": "finds",
-            "text": "'finds' 是動詞 'find' 的第三人稱單數現在式，與主詞 'appeals court' 一致。",
-            "category": "時態"
+            "word": "sale of",
+            "text": "'sale of' 表示「...的出售」。",
+            "category": "介係詞"
           },
           {
-            "word": "too light",
-            "text": "'too light' 表示「太輕」，'too' 用於強調程度過高。",
+            "word": "scarce",
+            "text": "'scarce' 作形容詞，表示「稀有的、不足的」。",
             "category": "其他"
+          },
+          {
+            "word": "to",
+            "text": "'to Ukraine' 表示出售的對象是烏克蘭。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Netanyahu’s political survival is on the line",
-      "url": "https://edition.cnn.com/2026/10/28/middleeast/netanyahu-israel-election-intl",
+      "en": "Hundreds evacuate Ukrainian city under Melania Trump-brokered ceasefire",
+      "url": "https://edition.cnn.com/2026/10/30/world/evacuations-oleshky-melania-trump-ceasefire-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Netanyahu’s political survival is on the line",
-        "sourceUrl": "https://edition.cnn.com/2026/10/28/middleeast/netanyahu-israel-election-intl",
-        "zh": "納坦雅胡的政治前途岌岌可危",
+        "sourceEn": "Hundreds evacuate Ukrainian city under Melania Trump-brokered ceasefire",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/world/evacuations-oleshky-melania-trump-ceasefire-intl",
+        "zh": "數百人撤離烏克蘭城市，該城市在梅蘭妮亞·川普斡旋的停火協議下。",
         "accepted": [
           [
-            "Netanyahu’s",
-            "political",
-            "survival",
-            "is",
-            "on",
-            "the",
-            "line"
+            "Hundreds",
+            "evacuate",
+            "Ukrainian",
+            "city",
+            "under",
+            "Melania",
+            "Trump-brokered",
+            "ceasefire"
           ]
         ],
         "distractors": [
-          "survivals",
-          "are",
-          "lines",
-          "politically",
-          "survive",
-          "Netanyahu"
+          "flee",
+          "residents",
+          "agreement",
+          "conflict",
+          "negotiations",
+          "peace"
         ],
         "notes": [
           {
-            "word": "Netanyahu’s",
-            "text": "所有格 'Netanyahu’s' 表示「納坦雅胡的」，修飾 'political survival'。",
+            "word": "Hundreds",
+            "text": "'Hundreds' 在這裡作名詞，表示「數百人」。",
+            "category": "單複數"
+          },
+          {
+            "word": "evacuate",
+            "text": "'evacuate' 是動詞，表示「撤離」。",
             "category": "其他"
           },
           {
-            "word": "survival",
-            "text": "'survival' 是名詞，表示「生存」或「倖存」。",
-            "category": "其他"
+            "word": "under",
+            "text": "'under' 在這裡表示「在...之下」，指在停火協議的條件或框架下。",
+            "category": "介係詞"
           },
           {
-            "word": "is",
-            "text": "'is' 是動詞 'be' 的第三人稱單數現在式，與主詞 'survival' 一致。",
-            "category": "時態"
-          },
-          {
-            "word": "on the line",
-            "text": "'on the line' 是固定片語，表示「岌岌可危」或「處於危險之中」。",
+            "word": "Trump-brokered",
+            "text": "'Trump-brokered' 是複合形容詞，表示「由川普斡旋的」。",
             "category": "其他"
           }
         ]
@@ -228,19 +222,19 @@
     },
     {
       "en": "Israel’s election ended in deadlock. Here are four ways out",
-      "url": "https://edition.cnn.com/2026/10/29/middleeast/israels-election-deadlock-four-scenarios-vis-intl",
+      "url": "https://edition.cnn.com/2026/10/29/middleeast/israel-election-results-deadlock-vis-intl",
       "puzzle": {
         "theme": "今日新聞",
         "sourceEn": "Israel’s election ended in deadlock. Here are four ways out",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/middleeast/israels-election-deadlock-four-scenarios-vis-intl",
-        "zh": "以色列大選陷入僵局。這裡有四種解決方案",
+        "sourceUrl": "https://edition.cnn.com/2026/10/29/middleeast/israel-election-results-deadlock-vis-intl",
+        "zh": "以色列大選陷入僵局。以下是四種解決方法。",
         "accepted": [
           [
             "Israel’s",
             "election",
             "ended",
             "in",
-            "deadlock",
+            "deadlock.",
             "Here",
             "are",
             "four",
@@ -249,433 +243,462 @@
           ]
         ],
         "distractors": [
-          "elections",
-          "ends",
-          "deadlocks",
-          "is",
-          "way",
-          "outs"
+          "results",
+          "stalemate",
+          "solution",
+          "options",
+          "government",
+          "crisis"
         ],
         "notes": [
           {
             "word": "Israel’s",
-            "text": "所有格 'Israel’s' 表示「以色列的」，修飾 'election'。",
+            "text": "'Israel’s' 是所有格形式，表示「以色列的」。",
             "category": "其他"
           },
           {
-            "word": "ended",
-            "text": "'ended' 是動詞 'end' 的過去式，表示事件已經發生。",
-            "category": "時態"
+            "word": "ended in",
+            "text": "'ended in' 表示「以...告終」，這裡是以僵局告終。",
+            "category": "介係詞"
           },
           {
-            "word": "in deadlock",
-            "text": "'in deadlock' 是固定片語，表示「陷入僵局」。",
+            "word": "deadlock",
+            "text": "'deadlock' 作名詞，表示「僵局」。",
             "category": "其他"
           },
           {
-            "word": "are",
-            "text": "'are' 是動詞 'be' 的複數現在式，與主詞 'four ways' 一致。",
-            "category": "時態"
+            "word": "Here are",
+            "text": "'Here are' 用於介紹複數事物，表示「這裡有...」。",
+            "category": "其他"
+          },
+          {
+            "word": "ways out",
+            "text": "'ways out' 表示「解決方法」或「出路」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Spanish train crash yet another blow to Sánchez’s government ahead of elections in November",
-      "url": "https://edition.cnn.com/2026/10/29/europe/spain-train-crash-protests-sanchez-election-intl",
+      "en": "After decades of boycotts, Palestinian citizens of Israel turned out to vote. It could shape what comes next",
+      "url": "https://edition.cnn.com/2026/10/30/middleeast/palestinian-israelis-vote-what-next-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Spanish train crash yet another blow to Sánchez’s government ahead of elections in November",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/europe/spain-train-crash-protests-sanchez-election-intl",
-        "zh": "西班牙火車事故對桑切斯政府來說是又一次打擊，發生在11月大選之前",
+        "sourceEn": "After decades of boycotts, Palestinian citizens of Israel turned out to vote. It could shape what comes next",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/middleeast/palestinian-israelis-vote-what-next-intl",
+        "zh": "在數十年的抵制之後，以色列的巴勒斯坦公民出來投票。這可能會影響接下來的發展。",
         "accepted": [
           [
-            "Spanish",
-            "train",
-            "crash",
-            "yet",
-            "another",
-            "blow",
-            "to",
-            "Sánchez’s",
-            "government",
-            "ahead",
+            "After",
+            "decades",
             "of",
-            "elections",
+            "boycotts,",
+            "Palestinian",
+            "citizens",
+            "of",
+            "Israel",
+            "turned",
+            "out",
+            "to",
+            "vote.",
+            "It",
+            "could",
+            "shape",
+            "what",
+            "comes",
+            "next"
+          ]
+        ],
+        "distractors": [
+          "before",
+          "elections",
+          "residents",
+          "participated",
+          "future",
+          "results"
+        ],
+        "notes": [
+          {
+            "word": "After decades of",
+            "text": "'After decades of' 表示「在數十年的...之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "citizens of",
+            "text": "'citizens of' 表示「...的公民」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "turned out to vote",
+            "text": "'turn out to vote' 是片語，表示「出來投票」。",
+            "category": "其他"
+          },
+          {
+            "word": "could shape",
+            "text": "'could' 是情態助動詞，表示可能性；'shape' 是動詞，表示「塑造、影響」。",
+            "category": "時態"
+          },
+          {
+            "word": "what comes next",
+            "text": "'what comes next' 是一個名詞子句，表示「接下來會發生的事」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump fumed at coverage of rally cancellations before ordering events back on",
+      "url": "https://edition.cnn.com/2026/10/30/politics/trump-rally-cancellation-midterms",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump fumed at coverage of rally cancellations before ordering events back on",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/politics/trump-rally-cancellation-midterms",
+        "zh": "川普在下令恢復活動之前，對集會取消的報導感到憤怒。",
+        "accepted": [
+          [
+            "Trump",
+            "fumed",
+            "at",
+            "coverage",
+            "of",
+            "rally",
+            "cancellations",
+            "before",
+            "ordering",
+            "events",
+            "back",
+            "on"
+          ]
+        ],
+        "distractors": [
+          "angry",
+          "media",
+          "reports",
+          "meetings",
+          "resumed",
+          "canceled"
+        ],
+        "notes": [
+          {
+            "word": "fumed at",
+            "text": "'fumed at' 是片語，表示「對...大為惱火/憤怒」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "coverage of",
+            "text": "'coverage of' 表示「對...的報導」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "cancellations",
+            "text": "'cancellations' 是名詞複數，表示「取消」。",
+            "category": "單複數"
+          },
+          {
+            "word": "before ordering",
+            "text": "'before' 後面接動名詞 'ordering'，表示「在下令...之前」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "back on",
+            "text": "'back on' 在這裡表示「恢復進行」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Pope Leo makes history by voting in US midterms",
+      "url": "https://edition.cnn.com/2026/10/30/europe/pope-leo-voting-us-midterms-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Pope Leo makes history by voting in US midterms",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/europe/pope-leo-voting-us-midterms-intl",
+        "zh": "教宗利奧在美國期中選舉中投票，創造了歷史。",
+        "accepted": [
+          [
+            "Pope",
+            "Leo",
+            "makes",
+            "history",
+            "by",
+            "voting",
+            "in",
+            "US",
+            "midterms"
+          ]
+        ],
+        "distractors": [
+          "made",
+          "election",
+          "participating",
+          "presidential",
+          "ballot",
+          "politics"
+        ],
+        "notes": [
+          {
+            "word": "makes history",
+            "text": "'make history' 是片語，表示「創造歷史」。",
+            "category": "其他"
+          },
+          {
+            "word": "by voting",
+            "text": "'by' 後面接動名詞 'voting'，表示「藉由投票」這種方式。",
+            "category": "介係詞"
+          },
+          {
+            "word": "in",
+            "text": "'in US midterms' 表示在「美國期中選舉」中。",
+            "category": "介係詞"
+          },
+          {
+            "word": "midterms",
+            "text": "'midterms' 是 'midterm elections' 的簡稱，指「期中選舉」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How one billionaire could ‘singlehandedly’ alter the course of the midterms",
+      "url": "https://edition.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How one billionaire could ‘singlehandedly’ alter the course of the midterms",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans",
+        "zh": "一位億萬富翁如何能「單槍匹馬地」改變期中選舉的走向。",
+        "accepted": [
+          [
+            "How",
+            "one",
+            "billionaire",
+            "could",
+            "‘singlehandedly’",
+            "alter",
+            "the",
+            "course",
+            "of",
+            "the",
+            "midterms"
+          ]
+        ],
+        "distractors": [
+          "might",
+          "influence",
+          "results",
+          "elections",
+          "future",
+          "power"
+        ],
+        "notes": [
+          {
+            "word": "could alter",
+            "text": "'could' 是情態助動詞，表示可能性；'alter' 是動詞，表示「改變」。",
+            "category": "時態"
+          },
+          {
+            "word": "singlehandedly",
+            "text": "'singlehandedly' 是副詞，表示「單槍匹馬地、獨自地」。",
+            "category": "其他"
+          },
+          {
+            "word": "the course of",
+            "text": "'the course of' 是片語，表示「...的走向/進程」。",
+            "category": "其他"
+          },
+          {
+            "word": "midterms",
+            "text": "'midterms' 是 'midterm elections' 的簡稱，指「期中選舉」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Pete Hegseth’s political future could be on the line if Democrats win the House",
+      "url": "https://edition.cnn.com/2026/10/30/politics/pete-hegseth-impeachment-democrats",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Pete Hegseth’s political future could be on the line if Democrats win the House",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/politics/pete-hegseth-impeachment-democrats",
+        "zh": "如果民主黨贏得眾議院，皮特·赫格塞特的政治前途可能會岌岌可危。",
+        "accepted": [
+          [
+            "Pete",
+            "Hegseth’s",
+            "political",
+            "future",
+            "could",
+            "be",
+            "on",
+            "the",
+            "line",
+            "if",
+            "Democrats",
+            "win",
+            "the",
+            "House"
+          ]
+        ],
+        "distractors": [
+          "career",
+          "might",
+          "at",
+          "stake",
+          "Republicans",
+          "lose"
+        ],
+        "notes": [
+          {
+            "word": "Hegseth’s",
+            "text": "'Hegseth’s' 是所有格形式，表示「赫格塞特的」。",
+            "category": "其他"
+          },
+          {
+            "word": "could be",
+            "text": "'could be' 表示可能性，即「可能」。",
+            "category": "時態"
+          },
+          {
+            "word": "on the line",
+            "text": "'on the line' 是片語，表示「處於危險之中」或「岌岌可危」。",
+            "category": "其他"
+          },
+          {
+            "word": "if",
+            "text": "'if' 引導條件子句，表示「如果」。",
+            "category": "其他"
+          },
+          {
+            "word": "win the House",
+            "text": "'the House' 通常指美國的眾議院（House of Representatives）。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘BIG cheating’: This is Trump’s team on election claims and what they could do in November",
+      "url": "https://edition.cnn.com/2026/10/30/politics/trump-election-claims-team-what-they-could-do-november",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘BIG cheating’: This is Trump’s team on election claims and what they could do in November",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/politics/trump-election-claims-team-what-they-could-do-november",
+        "zh": "「大作弊」：這是川普團隊對選舉舞弊指控的說法，以及他們在十一月可能會做什麼。",
+        "accepted": [
+          [
+            "‘BIG",
+            "cheating’:",
+            "This",
+            "is",
+            "Trump’s",
+            "team",
+            "on",
+            "election",
+            "claims",
+            "and",
+            "what",
+            "they",
+            "could",
+            "do",
             "in",
             "November"
           ]
         ],
         "distractors": [
-          "crashes",
-          "blows",
-          "governments",
-          "election",
-          "ahead of",
-          "yet another"
+          "fraud",
+          "says",
+          "allegations",
+          "actions",
+          "plans",
+          "results"
         ],
         "notes": [
           {
-            "word": "Spanish",
-            "text": "'Spanish' 是形容詞，表示「西班牙的」，修飾 'train crash'。",
+            "word": "cheating",
+            "text": "'cheating' 在這裡作名詞，表示「作弊行為」。",
             "category": "其他"
           },
           {
-            "word": "yet another",
-            "text": "'yet another' 表示「又一個」，強調重複性。",
+            "word": "Trump’s team",
+            "text": "'Trump’s team' 是所有格形式，表示「川普的團隊」。",
             "category": "其他"
           },
           {
-            "word": "Sánchez’s",
-            "text": "所有格 'Sánchez’s' 表示「桑切斯的」，修飾 'government'。",
-            "category": "其他"
+            "word": "on election claims",
+            "text": "'on' 在這裡表示「關於、對於」，指川普團隊對於選舉指控的立場或說法。",
+            "category": "介係詞"
           },
           {
-            "word": "ahead of",
-            "text": "'ahead of' 是複合介係詞，表示「在…之前」。",
+            "word": "what they could do",
+            "text": "'what' 引導名詞子句，表示「他們能做什麼」。'could do' 表示可能性。",
+            "category": "時態"
+          },
+          {
+            "word": "in November",
+            "text": "'in' 用於表示月份或特定時間段。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "What caused the deadly train crash in Spain? What we know",
-      "url": "https://edition.cnn.com/2026/10/28/europe/spain-train-crash-cause-what-we-know-intl",
+      "en": "Visit Norway makes toilets ‘great again’ after Trump’s ‘sh*t house country’ jab",
+      "url": "https://edition.cnn.com/2026/10/30/travel/visit-norway-toilets-trump-scli-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "What caused the deadly train crash in Spain? What we know",
-        "sourceUrl": "https://edition.cnn.com/2026/10/28/europe/spain-train-crash-cause-what-we-know-intl",
-        "zh": "是什麼導致了西班牙的致命火車事故？我們所知道的",
+        "sourceEn": "Visit Norway makes toilets ‘great again’ after Trump’s ‘sh*t house country’ jab",
+        "sourceUrl": "https://edition.cnn.com/2026/10/30/travel/visit-norway-toilets-trump-scli-intl",
+        "zh": "在川普的「爛國家」言論之後，挪威旅遊局讓廁所「再次偉大」。",
         "accepted": [
           [
-            "What",
-            "caused",
-            "the",
-            "deadly",
-            "train",
-            "crash",
-            "in",
-            "Spain",
-            "What",
-            "we",
-            "know"
+            "Visit",
+            "Norway",
+            "makes",
+            "toilets",
+            "‘great",
+            "again’",
+            "after",
+            "Trump’s",
+            "‘sh*t",
+            "house",
+            "country’",
+            "jab"
           ]
         ],
         "distractors": [
-          "cause",
-          "crashes",
-          "knows",
-          "deadlier",
-          "trains",
-          "Spains"
+          "tourism",
+          "restrooms",
+          "improves",
+          "statement",
+          "criticism",
+          "remark"
         ],
         "notes": [
           {
-            "word": "What",
-            "text": "'What' 在這裡作為疑問代詞，詢問原因。",
+            "word": "Visit Norway",
+            "text": "'Visit Norway' 是挪威旅遊局的名稱。",
             "category": "其他"
           },
           {
-            "word": "caused",
-            "text": "'caused' 是動詞 'cause' 的過去式，表示事件已經發生。",
-            "category": "時態"
-          },
-          {
-            "word": "the",
-            "text": "'the' 是定冠詞，用於特指 'deadly train crash'。",
-            "category": "冠詞"
-          },
-          {
-            "word": "know",
-            "text": "'know' 是動詞的現在式，與主詞 'we' 一致。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Patrick Stewart, ‘Star Trek’ and ‘X-Men’ actor, dead at 86",
-      "url": "https://edition.cnn.com/2026/10/29/entertainment/patrick-stewart-death",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Patrick Stewart, ‘Star Trek’ and ‘X-Men’ actor, dead at 86",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/entertainment/patrick-stewart-death",
-        "zh": "派崔克·史都華，《星際爭霸戰》和《X戰警》演員，86歲逝世",
-        "accepted": [
-          [
-            "Patrick",
-            "Stewart",
-            "‘Star",
-            "Trek’",
-            "and",
-            "‘X-Men’",
-            "actor",
-            "dead",
-            "at",
-            "86"
-          ]
-        ],
-        "distractors": [
-          "actors",
-          "died",
-          "death",
-          "stars",
-          "treks",
-          "men"
-        ],
-        "notes": [
-          {
-            "word": "actor",
-            "text": "'actor' 是名詞，表示「演員」。",
+            "word": "makes...great again",
+            "text": "這是模仿川普的競選口號 'Make America Great Again'。",
             "category": "其他"
           },
           {
-            "word": "dead",
-            "text": "'dead' 是形容詞，表示「死亡的」。",
-            "category": "其他"
-          },
-          {
-            "word": "at 86",
-            "text": "'at 86' 表示在86歲時，'at' 用於表示年齡。",
+            "word": "after",
+            "text": "'after' 表示「在...之後」。",
             "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Humans accidentally canceled the next ice age — but it’s no reason to celebrate, scientists say",
-      "url": "https://edition.cnn.com/2026/10/29/climate/how-humans-halted-the-next-ice-age",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Humans accidentally canceled the next ice age — but it’s no reason to celebrate, scientists say",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/climate/how-humans-halted-the-next-ice-age",
-        "zh": "人類意外地取消了下一個冰河時期——但科學家說，這不是值得慶祝的理由",
-        "accepted": [
-          [
-            "Humans",
-            "accidentally",
-            "canceled",
-            "the",
-            "next",
-            "ice",
-            "age",
-            "—",
-            "but",
-            "it’s",
-            "no",
-            "reason",
-            "to",
-            "celebrate",
-            "scientists",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "human",
-          "cancel",
-          "ages",
-          "reasons",
-          "said",
-          "celebrating"
-        ],
-        "notes": [
-          {
-            "word": "Humans",
-            "text": "'Humans' 是複數名詞，表示「人類」。",
-            "category": "單複數"
           },
           {
-            "word": "canceled",
-            "text": "'canceled' 是動詞 'cancel' 的過去式，表示動作已完成。",
-            "category": "時態"
-          },
-          {
-            "word": "it’s",
-            "text": "'it’s' 是 'it is' 的縮寫，表示「這不是」。",
+            "word": "Trump’s",
+            "text": "'Trump’s' 是所有格形式，表示「川普的」。",
             "category": "其他"
           },
           {
-            "word": "to celebrate",
-            "text": "'to celebrate' 是不定詞，表示目的或理由。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Peptides could soon be easier to get in the United States. Here’s what to know",
-      "url": "https://edition.cnn.com/2026/10/29/health/peptides-hhs-draft-policy",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Peptides could soon be easier to get in the United States. Here’s what to know",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/health/peptides-hhs-draft-policy",
-        "zh": "在美國，肽可能很快就會更容易獲得。這是你需要知道的",
-        "accepted": [
-          [
-            "Peptides",
-            "could",
-            "soon",
-            "be",
-            "easier",
-            "to",
-            "get",
-            "in",
-            "the",
-            "United",
-            "States",
-            "Here’s",
-            "what",
-            "to",
-            "know"
-          ]
-        ],
-        "distractors": [
-          "Peptide",
-          "easiest",
-          "gets",
-          "knows",
-          "soonest",
-          "States’"
-        ],
-        "notes": [
-          {
-            "word": "Peptides",
-            "text": "'Peptides' 是複數名詞，表示「肽」。",
-            "category": "單複數"
-          },
-          {
-            "word": "could",
-            "text": "'could' 是情態助動詞，表示可能性。",
-            "category": "其他"
-          },
-          {
-            "word": "easier",
-            "text": "'easier' 是形容詞 'easy' 的比較級，表示「更容易」。",
-            "category": "其他"
-          },
-          {
-            "word": "Here’s",
-            "text": "'Here’s' 是 'Here is' 的縮寫，用於介紹信息。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "This busy Tokyo neighborhood draws thousands of Halloween visitors. Some locals have had enough of the party",
-      "url": "https://edition.cnn.com/2026/10/29/travel/halloween-shibuya-tokyo-pushback-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "This busy Tokyo neighborhood draws thousands of Halloween visitors. Some locals have had enough of the party",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/travel/halloween-shibuya-tokyo-pushback-intl-hnk",
-        "zh": "這個繁忙的東京街區吸引了成千上萬的萬聖節遊客。一些當地人已經受夠了這個派對",
-        "accepted": [
-          [
-            "This",
-            "busy",
-            "Tokyo",
-            "neighborhood",
-            "draws",
-            "thousands",
-            "of",
-            "Halloween",
-            "visitors",
-            "Some",
-            "locals",
-            "have",
-            "had",
-            "enough",
-            "of",
-            "the",
-            "party"
-          ]
-        ],
-        "distractors": [
-          "neighborhoods",
-          "draw",
-          "visitor",
-          "local",
-          "has",
-          "parties"
-        ],
-        "notes": [
-          {
-            "word": "draws",
-            "text": "'draws' 是動詞 'draw' 的第三人稱單數現在式，與主詞 'neighborhood' 一致。",
-            "category": "時態"
-          },
-          {
-            "word": "thousands of",
-            "text": "'thousands of' 表示「成千上萬的」，修飾複數名詞 'visitors'。",
-            "category": "單複數"
-          },
-          {
-            "word": "have had",
-            "text": "'have had' 是現在完成式，表示動作從過去開始並持續到現在。",
-            "category": "時態"
-          },
-          {
-            "word": "enough of",
-            "text": "'enough of' 是固定片語，表示「受夠了」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Shares of Google’s parent company just had their worst day ever. Here’s what it means",
-      "url": "https://edition.cnn.com/2026/10/29/investing/alphabet-google-stock-ai",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Shares of Google’s parent company just had their worst day ever. Here’s what it means",
-        "sourceUrl": "https://edition.cnn.com/2026/10/29/investing/alphabet-google-stock-ai",
-        "zh": "谷歌母公司的股票剛剛經歷了有史以來最糟糕的一天。這意味著什麼",
-        "accepted": [
-          [
-            "Shares",
-            "of",
-            "Google’s",
-            "parent",
-            "company",
-            "just",
-            "had",
-            "their",
-            "worst",
-            "day",
-            "ever",
-            "Here’s",
-            "what",
-            "it",
-            "means"
-          ]
-        ],
-        "distractors": [
-          "Share",
-          "companies",
-          "has",
-          "days",
-          "worstest",
-          "mean"
-        ],
-        "notes": [
-          {
-            "word": "Shares",
-            "text": "'Shares' 是複數名詞，表示「股票」。",
-            "category": "單複數"
-          },
-          {
-            "word": "Google’s",
-            "text": "所有格 'Google’s' 表示「谷歌的」，修飾 'parent company'。",
-            "category": "其他"
-          },
-          {
-            "word": "had",
-            "text": "'had' 是動詞 'have' 的過去式，表示經歷。",
-            "category": "時態"
-          },
-          {
-            "word": "worst",
-            "text": "'worst' 是形容詞 'bad' 的最高級，表示「最糟糕的」。",
+            "word": "jab",
+            "text": "'jab' 在這裡作名詞，表示「諷刺、挖苦」。",
             "category": "其他"
           }
         ]
