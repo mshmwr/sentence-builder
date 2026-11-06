@@ -1,703 +1,696 @@
 {
-  "date": "2026-11-05",
-  "fetchedAt": "2026-11-05T00:48:51.749Z",
+  "date": "2026-11-06",
+  "fetchedAt": "2026-11-06T00:55:50.347Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Republicans quickly turn against Pete Hegseth after midterms rout",
-      "url": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump",
+      "en": "Hundreds of thousands march in France’s biggest day of protests in years. Here’s what we know",
+      "url": "https://edition.cnn.com/2026/11/05/europe/french-protest-demonstration-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Republicans quickly turn against Pete Hegseth after midterms rout",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump",
-        "zh": "共和黨在中期選舉慘敗後迅速轉向反對皮特·赫格塞斯。",
+        "sourceEn": "Hundreds of thousands march in France’s biggest day of protests in years. Here’s what we know",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/europe/french-protest-demonstration-latam-intl",
+        "zh": "數十萬人參加法國多年來規模最大的抗議活動。以下是我們所知道的。",
         "accepted": [
           [
-            "Republicans",
-            "quickly",
-            "turn",
-            "against",
-            "Pete",
-            "Hegseth",
-            "after",
-            "midterms",
-            "rout"
-          ]
-        ],
-        "distractors": [
-          "Democrats",
-          "slowly",
-          "support",
-          "before",
-          "victory",
-          "election"
-        ],
-        "notes": [
-          {
-            "word": "turn against",
-            "text": "「turn against」表示「轉而反對」或「與...為敵」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "rout",
-            "text": "「rout」在這裡是名詞，意指「慘敗、潰敗」。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "「after」作為介係詞，表示「在...之後」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How Trump is expected to handle being a lame-duck president",
-      "url": "https://edition.cnn.com/2026/11/04/politics/trump-lame-duck-president-democrats",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How Trump is expected to handle being a lame-duck president",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/politics/trump-lame-duck-president-democrats",
-        "zh": "川普預計將如何處理他作為跛腳鴨總統的局面。",
-        "accepted": [
-          [
-            "How",
-            "Trump",
-            "is",
-            "expected",
-            "to",
-            "handle",
-            "being",
-            "a",
-            "lame-duck",
-            "president"
-          ]
-        ],
-        "distractors": [
-          "When",
-          "Biden",
-          "was",
-          "unlikely",
-          "avoid",
-          "leader"
-        ],
-        "notes": [
-          {
-            "word": "expected to",
-            "text": "「be expected to do sth」表示「預計會做某事」。",
-            "category": "時態"
-          },
-          {
-            "word": "handle",
-            "text": "「handle」在這裡是動詞，意為「處理、應付」。",
-            "category": "其他"
-          },
-          {
-            "word": "lame-duck",
-            "text": "「lame-duck president」指「跛腳鴨總統」，形容任期將滿、影響力減弱的總統。",
-            "category": "其他"
-          },
-          {
-            "word": "being",
-            "text": "「being」在這裡是動名詞，作為介係詞「handle」的受詞。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The historic firsts of the 2026 election",
-      "url": "https://edition.cnn.com/2026/11/04/politics/historic-firsts-2026-election",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The historic firsts of the 2026 election",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/politics/historic-firsts-2026-election",
-        "zh": "2026年選舉的歷史性創舉。",
-        "accepted": [
-          [
-            "The",
-            "historic",
-            "firsts",
+            "Hundreds",
             "of",
-            "the",
-            "2026",
-            "election"
-          ]
-        ],
-        "distractors": [
-          "A",
-          "modern",
-          "last",
-          "for",
-          "future",
-          "vote"
-        ],
-        "notes": [
-          {
-            "word": "firsts",
-            "text": "「firsts」在這裡是名詞，指「首次發生的事件或創舉」。",
-            "category": "單複數"
-          },
-          {
-            "word": "historic",
-            "text": "「historic」意為「歷史性的、具有歷史意義的」。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "「of」在這裡表示所屬關係，即「...的」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Texas Democrats pull off the breakthrough they’ve chased for decades, reshaping national politics",
-      "url": "https://edition.cnn.com/2026/11/04/politics/texas-democrats-win-breakthrough-chased-for-decades",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Texas Democrats pull off the breakthrough they’ve chased for decades, reshaping national politics",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/politics/texas-democrats-win-breakthrough-chased-for-decades",
-        "zh": "德州民主黨人實現了他們數十年來追逐的突破，重塑了國家政治。",
-        "accepted": [
-          [
-            "Texas",
-            "Democrats",
-            "pull",
-            "off",
-            "the",
-            "breakthrough",
-            "they’ve",
-            "chased",
-            "for",
-            "decades,",
-            "reshaping",
-            "national",
-            "politics"
-          ]
-        ],
-        "distractors": [
-          "Republicans",
-          "miss",
-          "a",
-          "failure",
-          "he's",
-          "avoiding"
-        ],
-        "notes": [
-          {
-            "word": "pull off",
-            "text": "「pull off」是一個片語動詞，意為「成功完成（困難的事）」。",
-            "category": "其他"
-          },
-          {
-            "word": "breakthrough",
-            "text": "「breakthrough」是名詞，指「突破、重大進展」。",
-            "category": "其他"
-          },
-          {
-            "word": "they’ve chased",
-            "text": "「they’ve chased」是現在完成式，表示他們數十年來一直在追逐這個突破。",
-            "category": "時態"
-          },
-          {
-            "word": "reshaping",
-            "text": "「reshaping」是現在分詞，作結果狀語，表示「重塑」的動作。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
-      "url": "https://edition.cnn.com/2026/11/04/world/iran-israel-ukraine-midterm-impact-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/world/iran-israel-ukraine-midterm-impact-intl",
-        "zh": "川普中期選舉的挫折對伊朗、以色列和烏克蘭可能意味著什麼。",
-        "accepted": [
-          [
-            "What",
-            "Trump’s",
-            "midterms",
-            "setback",
-            "could",
-            "mean",
-            "for",
-            "Iran,",
-            "Israel",
-            "and",
-            "Ukraine"
-          ]
-        ],
-        "distractors": [
-          "How",
-          "Biden's",
-          "victory",
-          "will",
-          "affect",
-          "Russia"
-        ],
-        "notes": [
-          {
-            "word": "setback",
-            "text": "「setback」是名詞，意為「挫折、倒退」。",
-            "category": "其他"
-          },
-          {
-            "word": "could mean",
-            "text": "「could mean」表示可能性，即「可能意味著」。",
-            "category": "時態"
-          },
-          {
-            "word": "for",
-            "text": "「for」在這裡表示「對於...而言」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The Southern Taurid meteor shower will bring rare fireballs tonight",
-      "url": "https://edition.cnn.com/2026/11/04/science/southern-taurids-meteor-shower",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The Southern Taurid meteor shower will bring rare fireballs tonight",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/science/southern-taurids-meteor-shower",
-        "zh": "南金牛座流星雨今晚將帶來罕見的火流星。",
-        "accepted": [
-          [
-            "The",
-            "Southern",
-            "Taurid",
-            "meteor",
-            "shower",
-            "will",
-            "bring",
-            "rare",
-            "fireballs",
-            "tonight"
-          ]
-        ],
-        "distractors": [
-          "A",
-          "Northern",
-          "Orionid",
-          "star",
-          "fall",
-          "yesterday"
-        ],
-        "notes": [
-          {
-            "word": "meteor shower",
-            "text": "「meteor shower」指「流星雨」。",
-            "category": "其他"
-          },
-          {
-            "word": "will bring",
-            "text": "「will bring」是未來式，表示將會發生的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "fireballs",
-            "text": "「fireballs」是名詞複數，指「火流星」。",
-            "category": "單複數"
-          },
-          {
-            "word": "tonight",
-            "text": "「tonight」是時間副詞，表示「今晚」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "A 3,200-pound NASA observatory came careening back toward Earth. Here’s what to know",
-      "url": "https://edition.cnn.com/2026/11/04/science/nasa-swift-observatory-reentry-deorbit",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A 3,200-pound NASA observatory came careening back toward Earth. Here’s what to know",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/science/nasa-swift-observatory-reentry-deorbit",
-        "zh": "一個3,200磅重的NASA觀測站衝回地球。以下是需要了解的。",
-        "accepted": [
-          [
-            "A",
-            "3,200-pound",
-            "NASA",
-            "observatory",
-            "came",
-            "careening",
-            "back",
-            "toward",
-            "Earth.",
+            "thousands",
+            "march",
+            "in",
+            "France’s",
+            "biggest",
+            "day",
+            "of",
+            "protests",
+            "in",
+            "years",
+            ".",
             "Here’s",
             "what",
-            "to",
+            "we",
             "know"
           ]
         ],
         "distractors": [
-          "The",
-          "2,000-ton",
-          "ESA",
-          "satellite",
-          "went",
-          "slowly",
-          "away",
-          "from",
-          "Mars",
-          "There's",
-          "how",
-          "not",
-          "see"
+          "many",
+          "large",
+          "demonstrations",
+          "some",
+          "them",
+          "knew"
         ],
         "notes": [
           {
-            "word": "3,200-pound",
-            "text": "「3,200-pound」作為形容詞修飾「observatory」，數字和單位之間用連字符連接。",
+            "word": "Hundreds of thousands",
+            "text": "「數十萬」表示數量非常龐大，通常用於描述大規模事件。",
             "category": "其他"
           },
           {
-            "word": "came careening back",
-            "text": "「came careening back」表示「猛衝回來」，「careen」意為「傾斜著快速移動」。",
-            "category": "時態"
+            "word": "France’s",
+            "text": "「France’s」是所有格，表示「法國的」。",
+            "category": "其他"
           },
           {
-            "word": "toward",
-            "text": "「toward」是介係詞，表示「朝向、趨向」。",
+            "word": "in years",
+            "text": "「in years」表示「多年來」，強調時間跨度。",
             "category": "介係詞"
           },
           {
-            "word": "Here’s what to know",
-            "text": "「Here’s what to know」是常見的口語表達，意為「以下是需要了解的」。",
+            "word": "Here’s",
+            "text": "「Here’s」是「Here is」的縮寫，用於引出接下來的內容。",
+            "category": "其他"
+          },
+          {
+            "word": "what we know",
+            "text": "「what we know」是一個名詞子句，作「Here’s」的補語，表示「我們所知道的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Bob the poet, meet Bob the priest: Pope Leo receives Bob Dylan at the Vatican",
-      "url": "https://edition.cnn.com/2026/11/04/europe/pope-leo-bob-dylan-meeting-latam-intl",
+      "en": "Massive tech sell-off wipes $2.5 trillion from the US stock market",
+      "url": "https://edition.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Bob the poet, meet Bob the priest: Pope Leo receives Bob Dylan at the Vatican",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/europe/pope-leo-bob-dylan-meeting-latam-intl",
-        "zh": "詩人鮑勃，見見牧師鮑勃：教宗利奧在梵蒂岡接見鮑勃·迪倫。",
+        "sourceEn": "Massive tech sell-off wipes $2.5 trillion from the US stock market",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
+        "zh": "大規模科技股拋售使美國股市蒸發2.5兆美元。",
         "accepted": [
           [
-            "Bob",
+            "Massive",
+            "tech",
+            "sell-off",
+            "wipes",
+            "$2.5",
+            "trillion",
+            "from",
             "the",
-            "poet,",
-            "meet",
-            "Bob",
-            "the",
-            "priest:",
-            "Pope",
-            "Leo",
-            "receives",
-            "Bob",
-            "Dylan",
-            "at",
-            "the",
-            "Vatican"
+            "US",
+            "stock",
+            "market"
           ]
         ],
         "distractors": [
-          "John",
-          "a",
-          "singer",
-          "see",
-          "Paul",
-          "a",
-          "doctor",
-          "King",
-          "Francis",
-          "sends",
-          "Paul",
-          "McCartney",
-          "in",
-          "Rome"
+          "huge",
+          "technology",
+          "sale",
+          "removed",
+          "on",
+          "a"
         ],
         "notes": [
           {
-            "word": "the poet",
-            "text": "「the poet」和「the priest」中的「the」用於特指身份。",
+            "word": "sell-off",
+            "text": "「sell-off」指大規模拋售，通常導致價格下跌。",
+            "category": "其他"
+          },
+          {
+            "word": "wipes",
+            "text": "動詞「wipe」在這裡是「抹去、清除」的意思，常用於描述財富或價值的大幅減少。",
+            "category": "時態"
+          },
+          {
+            "word": "from",
+            "text": "介係詞「from」表示「從...中」，指資金流失的來源。",
+            "category": "介係詞"
+          },
+          {
+            "word": "trillion",
+            "text": "「trillion」是「兆」，表示巨大的數字。",
+            "category": "單複數"
+          },
+          {
+            "word": "the",
+            "text": "定冠詞「the」用於特指「美國股市」。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
+      "url": "https://edition.cnn.com/2026/11/05/middleeast/israel-trump-aid-election-latam-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/middleeast/israel-trump-aid-election-latam-intl",
+        "zh": "「晴天霹靂」：以色列總統對川普宣布終止援助感到震驚。",
+        "accepted": [
+          [
+            "‘Like",
+            "a",
+            "bolt",
+            "from",
+            "the",
+            "blue’",
+            ":",
+            "Israel’s",
+            "president",
+            "shocked",
+            "by",
+            "Trump",
+            "announcing",
+            "end",
+            "of",
+            "aid"
+          ]
+        ],
+        "distractors": [
+          "as",
+          "an",
+          "strike",
+          "to",
+          "his",
+          "surprise"
+        ],
+        "notes": [
+          {
+            "word": "Like a bolt from the blue",
+            "text": "這是一個習語，意為「晴天霹靂、出乎意料的壞消息」。",
+            "category": "其他"
+          },
+          {
+            "word": "Israel’s",
+            "text": "「Israel’s」是以色列的所有格，表示「以色列的」。",
+            "category": "其他"
+          },
+          {
+            "word": "shocked by",
+            "text": "「shocked by」表示「被...震驚」，by引導動作的執行者。",
+            "category": "介係詞"
+          },
+          {
+            "word": "announcing",
+            "text": "「announcing」是動名詞，作「by」的賓語，表示「宣布」這個動作。",
+            "category": "時態"
+          },
+          {
+            "word": "end of aid",
+            "text": "「end of aid」表示「援助的終止」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hegseth defiant as Republicans quickly turn on him over Iran",
+      "url": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hegseth defiant as Republicans quickly turn on him over Iran",
+        "sourceUrl": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump",
+        "zh": "赫格塞特因伊朗問題被共和黨迅速反對，但他仍 defiant（不屈服）。",
+        "accepted": [
+          [
+            "Hegseth",
+            "defiant",
+            "as",
+            "Republicans",
+            "quickly",
+            "turn",
+            "on",
+            "him",
+            "over",
+            "Iran"
+          ]
+        ],
+        "distractors": [
+          "Hegseth's",
+          "defiance",
+          "while",
+          "fast",
+          "turned",
+          "about"
+        ],
+        "notes": [
+          {
+            "word": "defiant",
+            "text": "「defiant」是形容詞，表示「反抗的、不屈服的」。",
+            "category": "其他"
+          },
+          {
+            "word": "as",
+            "text": "連詞「as」在這裡表示「當...的時候」或「因為」，說明共和黨轉向反對他的原因或時間。",
+            "category": "其他"
+          },
+          {
+            "word": "turn on",
+            "text": "「turn on」在這裡是片語動詞，意為「突然攻擊、反對」。",
+            "category": "其他"
+          },
+          {
+            "word": "him",
+            "text": "「him」是受格代名詞，指Hegseth。",
+            "category": "其他"
+          },
+          {
+            "word": "over Iran",
+            "text": "「over Iran」表示「關於伊朗問題」，說明爭議的焦點。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Meet the unexpected winners of this year’s midterms",
+      "url": "https://edition.cnn.com/2026/11/05/politics/2026-midterms-surprise-winners-democrats",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Meet the unexpected winners of this year’s midterms",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/politics/2026-midterms-surprise-winners-democrats",
+        "zh": "認識一下今年中期選舉中意想不到的贏家。",
+        "accepted": [
+          [
+            "Meet",
+            "the",
+            "unexpected",
+            "winners",
+            "of",
+            "this",
+            "year’s",
+            "midterms"
+          ]
+        ],
+        "distractors": [
+          "See",
+          "a",
+          "surprising",
+          "victors",
+          "in",
+          "next"
+        ],
+        "notes": [
+          {
+            "word": "Meet",
+            "text": "「Meet」在這裡是祈使句，表示「認識、見見」。",
+            "category": "其他"
+          },
+          {
+            "word": "the",
+            "text": "定冠詞「the」用於特指「意想不到的贏家」。",
             "category": "冠詞"
           },
           {
-            "word": "meet",
-            "text": "這裡的「meet」是祈使句，表示「見見、認識」。",
-            "category": "時態"
-          },
-          {
-            "word": "receives",
-            "text": "「receives」是現在簡單式，用於新聞報導中描述已發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "at the Vatican",
-            "text": "「at the Vatican」表示在梵蒂岡這個地點。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Social media via X & State Emergency Services of Ukraine",
-      "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Social media via X & State Emergency Services of Ukraine",
-        "sourceUrl": "https://edition.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl",
-        "zh": "透過X和烏克蘭國家緊急服務中心的社群媒體。",
-        "accepted": [
-          [
-            "Social",
-            "media",
-            "via",
-            "X",
-            "&",
-            "State",
-            "Emergency",
-            "Services",
-            "of",
-            "Ukraine"
-          ]
-        ],
-        "distractors": [
-          "Public",
-          "networks",
-          "through",
-          "Facebook",
-          "and",
-          "National",
-          "Crisis",
-          "Agencies",
-          "for",
-          "Russia"
-        ],
-        "notes": [
-          {
-            "word": "via",
-            "text": "「via」是介係詞，意為「透過、經由」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "State Emergency Services",
-            "text": "「State Emergency Services」指「國家緊急服務中心」。",
+            "word": "unexpected",
+            "text": "「unexpected」是形容詞，表示「出乎意料的」。",
             "category": "其他"
           },
           {
-            "word": "of Ukraine",
-            "text": "「of Ukraine」表示「烏克蘭的」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Melania Trump to bring Russian and Ukrainian representatives to White House this week",
-      "url": "https://edition.cnn.com/2026/11/03/politics/melania-trump-russia-ukraine",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Melania Trump to bring Russian and Ukrainian representatives to White House this week",
-        "sourceUrl": "https://edition.cnn.com/2026/11/03/politics/melania-trump-russia-ukraine",
-        "zh": "梅蘭妮亞·川普本週將把俄羅斯和烏克蘭代表帶到白宮。",
-        "accepted": [
-          [
-            "Melania",
-            "Trump",
-            "to",
-            "bring",
-            "Russian",
-            "and",
-            "Ukrainian",
-            "representatives",
-            "to",
-            "White",
-            "House",
-            "this",
-            "week"
-          ]
-        ],
-        "distractors": [
-          "Donald",
-          "Biden",
-          "will",
-          "send",
-          "American",
-          "or",
-          "Polish",
-          "delegates",
-          "from",
-          "Capitol",
-          "Hill",
-          "next",
-          "month"
-        ],
-        "notes": [
-          {
-            "word": "to bring",
-            "text": "「to bring」在這裡表示目的或將要發生的動作，是新聞標題中常見的省略形式，意為「將會帶來」。",
-            "category": "時態"
-          },
-          {
-            "word": "representatives",
-            "text": "「representatives」是名詞複數，指「代表」。",
+            "word": "winners",
+            "text": "「winners」是複數名詞，表示「贏家」。",
             "category": "單複數"
           },
           {
-            "word": "to White House",
-            "text": "「to White House」表示動作的方向，即「到白宮」。",
+            "word": "of this year’s midterms",
+            "text": "「of this year’s midterms」表示「今年中期選舉的」，of表示所屬關係。",
             "category": "介係詞"
-          },
-          {
-            "word": "this week",
-            "text": "「this week」是時間副詞，表示「本週」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Scientist who brought frog embryos to Boston for cancer research is cleared of smuggling charges",
-      "url": "https://edition.cnn.com/2026/11/04/us/us-frog-embryo-researcher",
+      "en": "CNN Projection Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race",
+      "url": "https://edition.cnn.com/2026/11/05/politics/nithya-raman-los-angeles-mayor-karen-bass",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Scientist who brought frog embryos to Boston for cancer research is cleared of smuggling charges",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/us/us-frog-embryo-researcher",
-        "zh": "將青蛙胚胎帶到波士頓進行癌症研究的科學家被洗清了走私指控。",
+        "sourceEn": "CNN Projection Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/politics/nithya-raman-los-angeles-mayor-karen-bass",
+        "zh": "CNN預測：民主社會主義者Nithya Raman將在洛杉磯市長競選中擊敗Karen Bass。",
         "accepted": [
           [
-            "Scientist",
-            "who",
-            "brought",
-            "frog",
-            "embryos",
-            "to",
-            "Boston",
-            "for",
-            "cancer",
-            "research",
-            "is",
-            "cleared",
-            "of",
-            "smuggling",
-            "charges"
-          ]
-        ],
-        "distractors": [
-          "Doctor",
-          "that",
-          "took",
-          "fish",
-          "eggs",
-          "from",
-          "New",
-          "York",
-          "against",
-          "disease",
-          "study",
-          "was",
-          "accused",
-          "with",
-          "theft",
-          "claims"
-        ],
-        "notes": [
-          {
-            "word": "who brought",
-            "text": "「who brought」是關係子句，修飾「Scientist」，表示「帶來」的動作。",
-            "category": "其他"
-          },
-          {
-            "word": "embryos",
-            "text": "「embryos」是名詞複數，指「胚胎」。",
-            "category": "單複數"
-          },
-          {
-            "word": "for cancer research",
-            "text": "「for cancer research」表示目的，即「為了癌症研究」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "is cleared of",
-            "text": "「be cleared of sth」表示「被洗清/免除（罪名或指控）」。",
-            "category": "其他"
-          },
-          {
-            "word": "smuggling charges",
-            "text": "「smuggling charges」指「走私指控」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CVS to split into two companies, in major breakup of its $117 billion healthcare empire",
-      "url": "https://edition.cnn.com/2026/11/04/business/cvs-to-split-into-two-companies",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CVS to split into two companies, in major breakup of its $117 billion healthcare empire",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/business/cvs-to-split-into-two-companies",
-        "zh": "CVS將分拆成兩家公司，這是其1170億美元醫療保健帝國的重大分拆。",
-        "accepted": [
-          [
-            "CVS",
-            "to",
-            "split",
-            "into",
-            "two",
-            "companies,",
+            "CNN",
+            "Projection",
+            "Democratic",
+            "socialist",
+            "Nithya",
+            "Raman",
+            "will",
+            "defeat",
+            "Karen",
+            "Bass",
             "in",
-            "major",
-            "breakup",
-            "of",
-            "its",
-            "$117",
-            "billion",
-            "healthcare",
-            "empire"
+            "LA",
+            "mayor’s",
+            "race"
           ]
         ],
         "distractors": [
-          "Walmart",
-          "will",
-          "merge",
-          "from",
-          "three",
-          "businesses",
-          "out",
-          "minor",
-          "merger",
-          "for",
-          "their",
-          "$50",
-          "million",
-          "retail",
-          "chain"
+          "CNN's",
+          "Projects",
+          "Democrat",
+          "socialism",
+          "would",
+          "beat"
         ],
         "notes": [
           {
-            "word": "to split",
-            "text": "「to split」在這裡表示將要發生的動作，是新聞標題中常見的省略形式，意為「將會分拆」。",
-            "category": "時態"
-          },
-          {
-            "word": "into",
-            "text": "「into」表示變化的結果，即「分成...」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "breakup",
-            "text": "「breakup」是名詞，指「分拆、解體」。",
+            "word": "Projection",
+            "text": "「Projection」在這裡指「預測、預報」。",
             "category": "其他"
           },
           {
-            "word": "of its $117 billion healthcare empire",
-            "text": "「of its $117 billion healthcare empire」表示所屬關係，即「其1170億美元醫療保健帝國的」。",
+            "word": "Democratic socialist",
+            "text": "「Democratic socialist」是複合形容詞，描述Nithya Raman的政治立場。",
+            "category": "其他"
+          },
+          {
+            "word": "will defeat",
+            "text": "「will defeat」表示將來會發生的動作，是預測的語氣。",
+            "category": "時態"
+          },
+          {
+            "word": "in",
+            "text": "介係詞「in」表示「在...中」，指競選發生的地點或範圍。",
             "category": "介係詞"
+          },
+          {
+            "word": "mayor’s race",
+            "text": "「mayor’s race」是所有格，表示「市長的競選」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "CNN Voter Poll Spencer Platt/Getty Images",
+      "url": "https://edition.cnn.com/2026/11/05/politics/trump-voters-2026-midterms-poll",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "CNN Voter Poll Spencer Platt/Getty Images",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/politics/trump-voters-2026-midterms-poll",
+        "zh": "CNN選民民意調查 Spencer Platt/Getty Images",
+        "accepted": [
+          [
+            "CNN",
+            "Voter",
+            "Poll",
+            "Spencer",
+            "Platt/Getty",
+            "Images"
+          ]
+        ],
+        "distractors": [
+          "CNN's",
+          "Voters",
+          "Polling",
+          "by",
+          "Image",
+          "Getty's"
+        ],
+        "notes": [
+          {
+            "word": "Voter Poll",
+            "text": "「Voter Poll」指「選民民意調查」。",
+            "category": "其他"
+          },
+          {
+            "word": "Spencer Platt/Getty Images",
+            "text": "這部分是圖片來源或攝影師署名，通常在新聞標題中直接列出。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "T. Wallace & G. Caspari/Frozen Corpses Golden Treasures",
+      "url": "https://edition.cnn.com/2026/11/05/science/ancient-cannabis-siberia-scli-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "T. Wallace & G. Caspari/Frozen Corpses Golden Treasures",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/science/ancient-cannabis-siberia-scli-intl",
+        "zh": "T. Wallace & G. Caspari/冰凍屍體黃金寶藏",
+        "accepted": [
+          [
+            "T.",
+            "Wallace",
+            "&",
+            "G.",
+            "Caspari/Frozen",
+            "Corpses",
+            "Golden",
+            "Treasures"
+          ]
+        ],
+        "distractors": [
+          "T",
+          "and",
+          "G",
+          "Caspari's",
+          "Freezing",
+          "Corpse"
+        ],
+        "notes": [
+          {
+            "word": "&",
+            "text": "「&」是「and」的縮寫，表示「和」。",
+            "category": "其他"
+          },
+          {
+            "word": "/",
+            "text": "斜線「/」在這裡通常用於分隔作者和作品名稱，或不同來源。",
+            "category": "其他"
+          },
+          {
+            "word": "Frozen Corpses Golden Treasures",
+            "text": "這看起來是一個作品或項目的名稱，每個詞都大寫。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Batman’s bike could be yours, if you have a spare $1.2 million",
+      "url": "https://edition.cnn.com/2026/11/05/entertainment/batman-batpod-auction-scli-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Batman’s bike could be yours, if you have a spare $1.2 million",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/entertainment/batman-batpod-auction-scli-intl",
+        "zh": "如果你有120萬美元的閒錢，蝙蝠俠的摩托車就可能是你的。",
+        "accepted": [
+          [
+            "Batman’s",
+            "bike",
+            "could",
+            "be",
+            "yours",
+            ",",
+            "if",
+            "you",
+            "have",
+            "a",
+            "spare",
+            "$1.2",
+            "million"
+          ]
+        ],
+        "distractors": [
+          "Batman",
+          "bicycle",
+          "might",
+          "your",
+          "when",
+          "had"
+        ],
+        "notes": [
+          {
+            "word": "Batman’s",
+            "text": "「Batman’s」是所有格，表示「蝙蝠俠的」。",
+            "category": "其他"
+          },
+          {
+            "word": "could be",
+            "text": "「could be」表示可能性，意為「可能是」。",
+            "category": "時態"
+          },
+          {
+            "word": "yours",
+            "text": "「yours」是所有格代名詞，表示「你的東西」。",
+            "category": "其他"
+          },
+          {
+            "word": "if",
+            "text": "「if」引導條件子句，表示「如果」。",
+            "category": "其他"
+          },
+          {
+            "word": "a spare $1.2 million",
+            "text": "「a spare $1.2 million」表示「120萬美元的閒錢」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "A moderate millennial newcomer could decide knife-edge New Zealand election",
+      "url": "https://edition.cnn.com/2026/11/05/world/new-zealand-election-qiulae-wong-new-party-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "A moderate millennial newcomer could decide knife-edge New Zealand election",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/world/new-zealand-election-qiulae-wong-new-party-intl-hnk",
+        "zh": "一位溫和的千禧年新人可能會決定紐西蘭一場勢均力敵的選舉。",
+        "accepted": [
+          [
+            "A",
+            "moderate",
+            "millennial",
+            "newcomer",
+            "could",
+            "decide",
+            "knife-edge",
+            "New",
+            "Zealand",
+            "election"
+          ]
+        ],
+        "distractors": [
+          "The",
+          "moderately",
+          "millennials",
+          "newcomers",
+          "might",
+          "decides"
+        ],
+        "notes": [
+          {
+            "word": "A",
+            "text": "不定冠詞「A」用於指代「一位」不特定的新人。",
+            "category": "冠詞"
+          },
+          {
+            "word": "moderate millennial newcomer",
+            "text": "這是一個形容詞短語修飾名詞「newcomer」，表示「溫和的千禧年新人」。",
+            "category": "其他"
+          },
+          {
+            "word": "could decide",
+            "text": "「could decide」表示可能性，意為「可能會決定」。",
+            "category": "時態"
+          },
+          {
+            "word": "knife-edge",
+            "text": "「knife-edge」是複合形容詞，意為「勢均力敵的、極其緊張的」。",
+            "category": "其他"
+          },
+          {
+            "word": "New Zealand election",
+            "text": "「New Zealand election」表示「紐西蘭的選舉」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Actor and comedian Russell Brand found guilty of rape and sexual assault",
+      "url": "https://edition.cnn.com/2026/11/05/uk/russell-brand-trial-verdict-uk-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Actor and comedian Russell Brand found guilty of rape and sexual assault",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/uk/russell-brand-trial-verdict-uk-intl",
+        "zh": "演員兼喜劇演員羅素·布蘭德被判強姦和性侵罪名成立。",
+        "accepted": [
+          [
+            "Actor",
+            "and",
+            "comedian",
+            "Russell",
+            "Brand",
+            "found",
+            "guilty",
+            "of",
+            "rape",
+            "and",
+            "sexual",
+            "assault"
+          ]
+        ],
+        "distractors": [
+          "An",
+          "or",
+          "comedic",
+          "Brands",
+          "find",
+          "for"
+        ],
+        "notes": [
+          {
+            "word": "Actor and comedian",
+            "text": "「Actor and comedian」是並列的名詞，描述羅素·布蘭德的職業。",
+            "category": "其他"
+          },
+          {
+            "word": "found guilty of",
+            "text": "「found guilty of」是被動語態，意為「被判有罪」，of引導罪名。",
+            "category": "介係詞"
+          },
+          {
+            "word": "rape",
+            "text": "「rape」是名詞，意為「強姦」。",
+            "category": "其他"
+          },
+          {
+            "word": "sexual assault",
+            "text": "「sexual assault」是複合名詞，意為「性侵犯」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Newsom commutes sentences of all California death row prisoners",
+      "url": "https://edition.cnn.com/2026/11/05/us/california-death-row-commutation",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Newsom commutes sentences of all California death row prisoners",
+        "sourceUrl": "https://edition.cnn.com/2026/11/05/us/california-death-row-commutation",
+        "zh": "紐森減免了所有加州死囚的刑期。",
+        "accepted": [
+          [
+            "Newsom",
+            "commutes",
+            "sentences",
+            "of",
+            "all",
+            "California",
+            "death",
+            "row",
+            "prisoners"
+          ]
+        ],
+        "distractors": [
+          "Newsom's",
+          "commuted",
+          "sentence",
+          "for",
+          "every",
+          "prison"
+        ],
+        "notes": [
+          {
+            "word": "commutes",
+            "text": "動詞「commute」在這裡意為「減刑、減輕刑罰」。",
+            "category": "時態"
+          },
+          {
+            "word": "sentences",
+            "text": "「sentences」是複數名詞，指「刑期、判決」。",
+            "category": "單複數"
+          },
+          {
+            "word": "of",
+            "text": "介係詞「of」表示所屬關係，即「所有加州死囚的刑期」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "all",
+            "text": "「all」表示「所有、全部」。",
+            "category": "其他"
+          },
+          {
+            "word": "death row prisoners",
+            "text": "「death row prisoners」指「死囚」。",
+            "category": "其他"
           }
         ]
       }
