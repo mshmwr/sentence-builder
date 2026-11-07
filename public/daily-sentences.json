@@ -1,696 +1,719 @@
 {
-  "date": "2026-11-06",
-  "fetchedAt": "2026-11-06T00:55:50.347Z",
+  "date": "2026-11-07",
+  "fetchedAt": "2026-11-07T23:32:39.724Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Hundreds of thousands march in France’s biggest day of protests in years. Here’s what we know",
-      "url": "https://edition.cnn.com/2026/11/05/europe/french-protest-demonstration-latam-intl",
+      "en": "After Kraków rampage leaves 6 dead, 3 more bodies found at suspect’s home",
+      "url": "https://edition.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Hundreds of thousands march in France’s biggest day of protests in years. Here’s what we know",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/europe/french-protest-demonstration-latam-intl",
-        "zh": "數十萬人參加法國多年來規模最大的抗議活動。以下是我們所知道的。",
+        "sourceEn": "After Kraków rampage leaves 6 dead, 3 more bodies found at suspect’s home",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl",
+        "zh": "在克拉科夫發生造成6人死亡的暴行後，嫌疑犯家中又發現了3具屍體。",
         "accepted": [
           [
-            "Hundreds",
-            "of",
-            "thousands",
-            "march",
-            "in",
-            "France’s",
-            "biggest",
-            "day",
-            "of",
-            "protests",
-            "in",
-            "years",
-            ".",
-            "Here’s",
-            "what",
-            "we",
-            "know"
+            "After",
+            "Kraków",
+            "rampage",
+            "leaves",
+            "6",
+            "dead,",
+            "3",
+            "more",
+            "bodies",
+            "found",
+            "at",
+            "suspect’s",
+            "home"
           ]
         ],
         "distractors": [
-          "many",
-          "large",
-          "demonstrations",
-          "some",
-          "them",
-          "knew"
+          "before",
+          "killed",
+          "discovery",
+          "victim",
+          "police",
+          "crime"
         ],
         "notes": [
           {
-            "word": "Hundreds of thousands",
-            "text": "「數十萬」表示數量非常龐大，通常用於描述大規模事件。",
-            "category": "其他"
-          },
-          {
-            "word": "France’s",
-            "text": "「France’s」是所有格，表示「法國的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in years",
-            "text": "「in years」表示「多年來」，強調時間跨度。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Here’s",
-            "text": "「Here’s」是「Here is」的縮寫，用於引出接下來的內容。",
-            "category": "其他"
-          },
-          {
-            "word": "what we know",
-            "text": "「what we know」是一個名詞子句，作「Here’s」的補語，表示「我們所知道的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Massive tech sell-off wipes $2.5 trillion from the US stock market",
-      "url": "https://edition.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Massive tech sell-off wipes $2.5 trillion from the US stock market",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
-        "zh": "大規模科技股拋售使美國股市蒸發2.5兆美元。",
-        "accepted": [
-          [
-            "Massive",
-            "tech",
-            "sell-off",
-            "wipes",
-            "$2.5",
-            "trillion",
-            "from",
-            "the",
-            "US",
-            "stock",
-            "market"
-          ]
-        ],
-        "distractors": [
-          "huge",
-          "technology",
-          "sale",
-          "removed",
-          "on",
-          "a"
-        ],
-        "notes": [
-          {
-            "word": "sell-off",
-            "text": "「sell-off」指大規模拋售，通常導致價格下跌。",
-            "category": "其他"
-          },
-          {
-            "word": "wipes",
-            "text": "動詞「wipe」在這裡是「抹去、清除」的意思，常用於描述財富或價值的大幅減少。",
+            "word": "leaves",
+            "text": "這裡的「leaves」是動詞，表示「造成」或「導致」某種結果。",
             "category": "時態"
           },
           {
-            "word": "from",
-            "text": "介係詞「from」表示「從...中」，指資金流失的來源。",
-            "category": "介係詞"
-          },
-          {
-            "word": "trillion",
-            "text": "「trillion」是「兆」，表示巨大的數字。",
-            "category": "單複數"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞「the」用於特指「美國股市」。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
-      "url": "https://edition.cnn.com/2026/11/05/middleeast/israel-trump-aid-election-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/middleeast/israel-trump-aid-election-latam-intl",
-        "zh": "「晴天霹靂」：以色列總統對川普宣布終止援助感到震驚。",
-        "accepted": [
-          [
-            "‘Like",
-            "a",
-            "bolt",
-            "from",
-            "the",
-            "blue’",
-            ":",
-            "Israel’s",
-            "president",
-            "shocked",
-            "by",
-            "Trump",
-            "announcing",
-            "end",
-            "of",
-            "aid"
-          ]
-        ],
-        "distractors": [
-          "as",
-          "an",
-          "strike",
-          "to",
-          "his",
-          "surprise"
-        ],
-        "notes": [
-          {
-            "word": "Like a bolt from the blue",
-            "text": "這是一個習語，意為「晴天霹靂、出乎意料的壞消息」。",
+            "word": "dead",
+            "text": "「dead」是形容詞，表示「死亡的」。在句中修飾人數，說明死亡的狀態。",
             "category": "其他"
           },
           {
-            "word": "Israel’s",
-            "text": "「Israel’s」是以色列的所有格，表示「以色列的」。",
-            "category": "其他"
-          },
-          {
-            "word": "shocked by",
-            "text": "「shocked by」表示「被...震驚」，by引導動作的執行者。",
+            "word": "at",
+            "text": "「at」作為介係詞，表示地點，說明屍體被發現的具體位置。",
             "category": "介係詞"
           },
           {
-            "word": "announcing",
-            "text": "「announcing」是動名詞，作「by」的賓語，表示「宣布」這個動作。",
-            "category": "時態"
-          },
-          {
-            "word": "end of aid",
-            "text": "「end of aid」表示「援助的終止」。",
+            "word": "suspect’s",
+            "text": "「suspect’s」是所有格，表示「嫌疑犯的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Hegseth defiant as Republicans quickly turn on him over Iran",
-      "url": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump",
+      "en": "Iranian hardliners seize on Trump’s midterm losses to raise the price of ending the war",
+      "url": "https://edition.cnn.com/2026/11/07/middleeast/iran-trump-war-hardliners-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Hegseth defiant as Republicans quickly turn on him over Iran",
-        "sourceUrl": "https://edition.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump",
-        "zh": "赫格塞特因伊朗問題被共和黨迅速反對，但他仍 defiant（不屈服）。",
+        "sourceEn": "Iranian hardliners seize on Trump’s midterm losses to raise the price of ending the war",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/middleeast/iran-trump-war-hardliners-intl",
+        "zh": "伊朗強硬派利用川普期中選舉的失利，提高結束戰爭的代價。",
         "accepted": [
           [
-            "Hegseth",
-            "defiant",
-            "as",
-            "Republicans",
-            "quickly",
-            "turn",
+            "Iranian",
+            "hardliners",
+            "seize",
             "on",
-            "him",
-            "over",
-            "Iran"
+            "Trump’s",
+            "midterm",
+            "losses",
+            "to",
+            "raise",
+            "the",
+            "price",
+            "of",
+            "ending",
+            "the",
+            "war"
           ]
         ],
         "distractors": [
-          "Hegseth's",
-          "defiance",
-          "while",
-          "fast",
-          "turned",
-          "about"
+          "softliners",
+          "ignore",
+          "gain",
+          "decrease",
+          "peace",
+          "election"
         ],
         "notes": [
           {
-            "word": "defiant",
-            "text": "「defiant」是形容詞，表示「反抗的、不屈服的」。",
+            "word": "seize on",
+            "text": "「seize on」是一個片語動詞，意為「抓住、利用（機會或論點）」。",
             "category": "其他"
           },
           {
-            "word": "as",
-            "text": "連詞「as」在這裡表示「當...的時候」或「因為」，說明共和黨轉向反對他的原因或時間。",
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格，表示「川普的」。",
             "category": "其他"
           },
           {
-            "word": "turn on",
-            "text": "「turn on」在這裡是片語動詞，意為「突然攻擊、反對」。",
+            "word": "to raise",
+            "text": "這裡的「to raise」是不定詞片語，表示目的，即「為了提高」。",
             "category": "其他"
           },
           {
-            "word": "him",
-            "text": "「him」是受格代名詞，指Hegseth。",
+            "word": "of ending",
+            "text": "「of ending」中的「ending」是動名詞，作為介係詞「of」的受詞，表示「結束」這個行為。",
             "category": "其他"
-          },
-          {
-            "word": "over Iran",
-            "text": "「over Iran」表示「關於伊朗問題」，說明爭議的焦點。",
-            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Meet the unexpected winners of this year’s midterms",
-      "url": "https://edition.cnn.com/2026/11/05/politics/2026-midterms-surprise-winners-democrats",
+      "en": "US offers millions for information on Iran’s nuclear program despite Trump’s claims of obliteration",
+      "url": "https://edition.cnn.com/2026/11/07/middleeast/trump-reward-intelligence-iran-nuclear-program-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Meet the unexpected winners of this year’s midterms",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/politics/2026-midterms-surprise-winners-democrats",
-        "zh": "認識一下今年中期選舉中意想不到的贏家。",
+        "sourceEn": "US offers millions for information on Iran’s nuclear program despite Trump’s claims of obliteration",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/middleeast/trump-reward-intelligence-iran-nuclear-program-intl",
+        "zh": "儘管川普聲稱要徹底摧毀，美國仍懸賞數百萬美元，以獲取有關伊朗核計畫的資訊。",
         "accepted": [
           [
-            "Meet",
-            "the",
-            "unexpected",
-            "winners",
+            "US",
+            "offers",
+            "millions",
+            "for",
+            "information",
+            "on",
+            "Iran’s",
+            "nuclear",
+            "program",
+            "despite",
+            "Trump’s",
+            "claims",
             "of",
-            "this",
-            "year’s",
-            "midterms"
+            "obliteration"
           ]
         ],
         "distractors": [
-          "See",
-          "a",
-          "surprising",
-          "victors",
-          "in",
-          "next"
+          "rejects",
+          "billions",
+          "against",
+          "data",
+          "because",
+          "peace"
         ],
         "notes": [
           {
-            "word": "Meet",
-            "text": "「Meet」在這裡是祈使句，表示「認識、見見」。",
+            "word": "offers",
+            "text": "「offers」是動詞，表示「提供」。這裡用的是現在式，表示一個持續或普遍的行為。",
+            "category": "時態"
+          },
+          {
+            "word": "for",
+            "text": "「for」作為介係詞，表示目的或原因，即「為了獲取」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Iran’s",
+            "text": "「Iran’s」是所有格，表示「伊朗的」。",
             "category": "其他"
           },
           {
-            "word": "the",
-            "text": "定冠詞「the」用於特指「意想不到的贏家」。",
-            "category": "冠詞"
+            "word": "despite",
+            "text": "「despite」是介係詞，表示「儘管、雖然」，引導一個讓步狀語。",
+            "category": "介係詞"
           },
           {
-            "word": "unexpected",
-            "text": "「unexpected」是形容詞，表示「出乎意料的」。",
+            "word": "of obliteration",
+            "text": "「of obliteration」中的「obliteration」是名詞，作為介係詞「of」的受詞，表示「徹底摧毀」這個概念。",
             "category": "其他"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "en": "How one of Trump’s most controversial advisers rose to chief of staff – and what it means",
+      "url": "https://edition.cnn.com/2026/11/07/politics/stephen-miller-trump-chief-of-staff",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How one of Trump’s most controversial advisers rose to chief of staff – and what it means",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/politics/stephen-miller-trump-chief-of-staff",
+        "zh": "川普最具爭議的顧問之一是如何晉升為幕僚長的——以及這意味著什麼。",
+        "accepted": [
+          [
+            "How",
+            "one",
+            "of",
+            "Trump’s",
+            "most",
+            "controversial",
+            "advisers",
+            "rose",
+            "to",
+            "chief",
+            "of",
+            "staff",
+            "–",
+            "and",
+            "what",
+            "it",
+            "means"
+          ]
+        ],
+        "distractors": [
+          "Why",
+          "two",
+          "least",
+          "supporters",
+          "fell",
+          "from"
+        ],
+        "notes": [
           {
-            "word": "winners",
-            "text": "「winners」是複數名詞，表示「贏家」。",
+            "word": "one of",
+            "text": "「one of」表示「…之一」，後面通常接複數名詞。",
             "category": "單複數"
           },
           {
-            "word": "of this year’s midterms",
-            "text": "「of this year’s midterms」表示「今年中期選舉的」，of表示所屬關係。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "CNN Projection Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race",
-      "url": "https://edition.cnn.com/2026/11/05/politics/nithya-raman-los-angeles-mayor-karen-bass",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "CNN Projection Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/politics/nithya-raman-los-angeles-mayor-karen-bass",
-        "zh": "CNN預測：民主社會主義者Nithya Raman將在洛杉磯市長競選中擊敗Karen Bass。",
-        "accepted": [
-          [
-            "CNN",
-            "Projection",
-            "Democratic",
-            "socialist",
-            "Nithya",
-            "Raman",
-            "will",
-            "defeat",
-            "Karen",
-            "Bass",
-            "in",
-            "LA",
-            "mayor’s",
-            "race"
-          ]
-        ],
-        "distractors": [
-          "CNN's",
-          "Projects",
-          "Democrat",
-          "socialism",
-          "would",
-          "beat"
-        ],
-        "notes": [
-          {
-            "word": "Projection",
-            "text": "「Projection」在這裡指「預測、預報」。",
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格，表示「川普的」。",
             "category": "其他"
           },
           {
-            "word": "Democratic socialist",
-            "text": "「Democratic socialist」是複合形容詞，描述Nithya Raman的政治立場。",
-            "category": "其他"
-          },
-          {
-            "word": "will defeat",
-            "text": "「will defeat」表示將來會發生的動作，是預測的語氣。",
+            "word": "rose",
+            "text": "「rose」是動詞「rise」的過去式，表示「晉升、上升」。",
             "category": "時態"
           },
           {
-            "word": "in",
-            "text": "介係詞「in」表示「在...中」，指競選發生的地點或範圍。",
+            "word": "to",
+            "text": "「to」作為介係詞，表示到達某個職位或狀態。",
             "category": "介係詞"
           },
           {
-            "word": "mayor’s race",
-            "text": "「mayor’s race」是所有格，表示「市長的競選」。",
-            "category": "其他"
+            "word": "means",
+            "text": "「means」是動詞「mean」的第三人稱單數現在式，表示「意味著」。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "CNN Voter Poll Spencer Platt/Getty Images",
-      "url": "https://edition.cnn.com/2026/11/05/politics/trump-voters-2026-midterms-poll",
+      "en": "In setback to Netanyahu, rival Eisenkot to be tasked with forming next Israeli government",
+      "url": "https://edition.cnn.com/2026/11/07/middleeast/eisenkot-israel-government-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "CNN Voter Poll Spencer Platt/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/politics/trump-voters-2026-midterms-poll",
-        "zh": "CNN選民民意調查 Spencer Platt/Getty Images",
+        "sourceEn": "In setback to Netanyahu, rival Eisenkot to be tasked with forming next Israeli government",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/middleeast/eisenkot-israel-government-latam-intl",
+        "zh": "對納坦雅胡來說是一次挫折，他的競爭對手艾森科特將被指派組建下一屆以色列政府。",
         "accepted": [
           [
-            "CNN",
-            "Voter",
-            "Poll",
-            "Spencer",
-            "Platt/Getty",
-            "Images"
-          ]
-        ],
-        "distractors": [
-          "CNN's",
-          "Voters",
-          "Polling",
-          "by",
-          "Image",
-          "Getty's"
-        ],
-        "notes": [
-          {
-            "word": "Voter Poll",
-            "text": "「Voter Poll」指「選民民意調查」。",
-            "category": "其他"
-          },
-          {
-            "word": "Spencer Platt/Getty Images",
-            "text": "這部分是圖片來源或攝影師署名，通常在新聞標題中直接列出。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "T. Wallace & G. Caspari/Frozen Corpses Golden Treasures",
-      "url": "https://edition.cnn.com/2026/11/05/science/ancient-cannabis-siberia-scli-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "T. Wallace & G. Caspari/Frozen Corpses Golden Treasures",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/science/ancient-cannabis-siberia-scli-intl",
-        "zh": "T. Wallace & G. Caspari/冰凍屍體黃金寶藏",
-        "accepted": [
-          [
-            "T.",
-            "Wallace",
-            "&",
-            "G.",
-            "Caspari/Frozen",
-            "Corpses",
-            "Golden",
-            "Treasures"
-          ]
-        ],
-        "distractors": [
-          "T",
-          "and",
-          "G",
-          "Caspari's",
-          "Freezing",
-          "Corpse"
-        ],
-        "notes": [
-          {
-            "word": "&",
-            "text": "「&」是「and」的縮寫，表示「和」。",
-            "category": "其他"
-          },
-          {
-            "word": "/",
-            "text": "斜線「/」在這裡通常用於分隔作者和作品名稱，或不同來源。",
-            "category": "其他"
-          },
-          {
-            "word": "Frozen Corpses Golden Treasures",
-            "text": "這看起來是一個作品或項目的名稱，每個詞都大寫。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Batman’s bike could be yours, if you have a spare $1.2 million",
-      "url": "https://edition.cnn.com/2026/11/05/entertainment/batman-batpod-auction-scli-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Batman’s bike could be yours, if you have a spare $1.2 million",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/entertainment/batman-batpod-auction-scli-intl",
-        "zh": "如果你有120萬美元的閒錢，蝙蝠俠的摩托車就可能是你的。",
-        "accepted": [
-          [
-            "Batman’s",
-            "bike",
-            "could",
+            "In",
+            "setback",
+            "to",
+            "Netanyahu,",
+            "rival",
+            "Eisenkot",
+            "to",
             "be",
-            "yours",
-            ",",
-            "if",
-            "you",
-            "have",
-            "a",
-            "spare",
-            "$1.2",
-            "million"
+            "tasked",
+            "with",
+            "forming",
+            "next",
+            "Israeli",
+            "government"
           ]
         ],
         "distractors": [
-          "Batman",
-          "bicycle",
-          "might",
-          "your",
-          "when",
-          "had"
+          "For",
+          "success",
+          "from",
+          "ally",
+          "will",
+          "dissolving"
         ],
         "notes": [
           {
-            "word": "Batman’s",
-            "text": "「Batman’s」是所有格，表示「蝙蝠俠的」。",
+            "word": "In setback",
+            "text": "「In setback」是一個慣用語，表示「在挫折中」或「對…來說是個挫折」。",
             "category": "其他"
           },
           {
-            "word": "could be",
-            "text": "「could be」表示可能性，意為「可能是」。",
+            "word": "to",
+            "text": "「to」作為介係詞，表示對象，即「對納坦雅胡來說」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "to be tasked with",
+            "text": "「to be tasked with」是一個被動語態的不定詞片語，表示「被指派負責…」。",
             "category": "時態"
           },
           {
-            "word": "yours",
-            "text": "「yours」是所有格代名詞，表示「你的東西」。",
+            "word": "forming",
+            "text": "「forming」是動名詞，作為介係詞「with」的受詞，表示「組建」這個行為。",
             "category": "其他"
           },
           {
-            "word": "if",
-            "text": "「if」引導條件子句，表示「如果」。",
-            "category": "其他"
-          },
-          {
-            "word": "a spare $1.2 million",
-            "text": "「a spare $1.2 million」表示「120萬美元的閒錢」。",
+            "word": "next",
+            "text": "「next」是形容詞，表示「下一屆的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "A moderate millennial newcomer could decide knife-edge New Zealand election",
-      "url": "https://edition.cnn.com/2026/11/05/world/new-zealand-election-qiulae-wong-new-party-intl-hnk",
+      "en": "Illustration by Leah Abucayan/Getty/Courtesy of National Security Archive",
+      "url": "https://edition.cnn.com/2026/11/07/politics/israels-nuclear-weapons-program",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "A moderate millennial newcomer could decide knife-edge New Zealand election",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/world/new-zealand-election-qiulae-wong-new-party-intl-hnk",
-        "zh": "一位溫和的千禧年新人可能會決定紐西蘭一場勢均力敵的選舉。",
+        "sourceEn": "Illustration by Leah Abucayan/Getty/Courtesy of National Security Archive",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/politics/israels-nuclear-weapons-program",
+        "zh": "插畫由莉亞·阿布卡揚/蓋蒂圖片社/國家安全檔案館提供",
+        "accepted": [
+          [
+            "Illustration",
+            "by",
+            "Leah",
+            "Abucayan/Getty/Courtesy",
+            "of",
+            "National",
+            "Security",
+            "Archive"
+          ]
+        ],
+        "distractors": [
+          "Photo",
+          "from",
+          "and",
+          "for",
+          "International",
+          "History"
+        ],
+        "notes": [
+          {
+            "word": "by",
+            "text": "「by」作為介係詞，表示作者或創作者，即「由…所作」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Courtesy of",
+            "text": "「Courtesy of」是一個片語，表示「由…提供」或「蒙…惠允」。",
+            "category": "其他"
+          },
+          {
+            "word": "National",
+            "text": "「National」是形容詞，表示「國家的」。",
+            "category": "其他"
+          },
+          {
+            "word": "Archive",
+            "text": "「Archive」是名詞，表示「檔案館」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How data centers backlash fueled historic blue wave",
+      "url": "https://edition.cnn.com/2026/11/07/politics/democrats-midterms-data-centers-ken-paxton-james-talarico",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How data centers backlash fueled historic blue wave",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/politics/democrats-midterms-data-centers-ken-paxton-james-talarico",
+        "zh": "數據中心的反彈如何助長了歷史性的藍色浪潮。",
+        "accepted": [
+          [
+            "How",
+            "data",
+            "centers",
+            "backlash",
+            "fueled",
+            "historic",
+            "blue",
+            "wave"
+          ]
+        ],
+        "distractors": [
+          "Why",
+          "information",
+          "support",
+          "hindered",
+          "modern",
+          "red"
+        ],
+        "notes": [
+          {
+            "word": "How",
+            "text": "「How」是疑問副詞，引導一個關於方式或方法的句子。",
+            "category": "其他"
+          },
+          {
+            "word": "data centers",
+            "text": "「data centers」是複合名詞，表示「數據中心」。",
+            "category": "其他"
+          },
+          {
+            "word": "fueled",
+            "text": "「fueled」是動詞「fuel」的過去式，表示「助長、激發」。",
+            "category": "時態"
+          },
+          {
+            "word": "historic",
+            "text": "「historic」是形容詞，表示「歷史性的、有歷史意義的」。",
+            "category": "其他"
+          },
+          {
+            "word": "blue wave",
+            "text": "「blue wave」是一個政治術語，通常指民主黨在選舉中取得壓倒性勝利。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "A fan fiction site got hacked. Its users are panicking",
+      "url": "https://edition.cnn.com/2026/11/07/entertainment/ao3-hack-shutdown-cec",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "A fan fiction site got hacked. Its users are panicking",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/entertainment/ao3-hack-shutdown-cec",
+        "zh": "一個同人小說網站被駭了。它的用戶們正在恐慌。",
         "accepted": [
           [
             "A",
-            "moderate",
-            "millennial",
-            "newcomer",
-            "could",
-            "decide",
-            "knife-edge",
-            "New",
-            "Zealand",
-            "election"
+            "fan",
+            "fiction",
+            "site",
+            "got",
+            "hacked.",
+            "Its",
+            "users",
+            "are",
+            "panicking"
           ]
         ],
         "distractors": [
           "The",
-          "moderately",
-          "millennials",
-          "newcomers",
-          "might",
-          "decides"
+          "original",
+          "book",
+          "blog",
+          "was",
+          "calm"
         ],
         "notes": [
           {
             "word": "A",
-            "text": "不定冠詞「A」用於指代「一位」不特定的新人。",
+            "text": "「A」是不定冠詞，表示「一個」或「某個」。",
             "category": "冠詞"
           },
           {
-            "word": "moderate millennial newcomer",
-            "text": "這是一個形容詞短語修飾名詞「newcomer」，表示「溫和的千禧年新人」。",
+            "word": "got hacked",
+            "text": "「got hacked」是被動語態，表示「被駭客入侵」。這裡用「got」而不是「was」更口語化。",
+            "category": "時態"
+          },
+          {
+            "word": "Its",
+            "text": "「Its」是所有格代名詞，表示「它的」。",
             "category": "其他"
           },
           {
-            "word": "could decide",
-            "text": "「could decide」表示可能性，意為「可能會決定」。",
+            "word": "are panicking",
+            "text": "「are panicking」是現在進行式，表示用戶們正在恐慌的狀態。",
             "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How Yoshitomo Nara’s ‘big-headed girls’ took over the world",
+      "url": "https://edition.cnn.com/2026/11/07/style/yoshitomo-nara-nyc-show",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How Yoshitomo Nara’s ‘big-headed girls’ took over the world",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/style/yoshitomo-nara-nyc-show",
+        "zh": "奈良美智的「大頭女孩」是如何風靡世界的。",
+        "accepted": [
+          [
+            "How",
+            "Yoshitomo",
+            "Nara’s",
+            "‘big-headed",
+            "girls’",
+            "took",
+            "over",
+            "the",
+            "world"
+          ]
+        ],
+        "distractors": [
+          "Why",
+          "small-headed",
+          "boys",
+          "lost",
+          "from",
+          "country"
+        ],
+        "notes": [
+          {
+            "word": "How",
+            "text": "「How」是疑問副詞，引導一個關於方式或方法的句子。",
+            "category": "其他"
+          },
+          {
+            "word": "Nara’s",
+            "text": "「Nara’s」是所有格，表示「奈良美智的」。",
+            "category": "其他"
+          },
+          {
+            "word": "big-headed",
+            "text": "「big-headed」是複合形容詞，表示「大頭的」。",
+            "category": "其他"
+          },
+          {
+            "word": "took over",
+            "text": "「took over」是片語動詞「take over」的過去式，表示「接管、佔領、風靡」。",
+            "category": "時態"
+          },
+          {
+            "word": "the",
+            "text": "「the」是定冠詞，表示特指「這個世界」。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "UFC CEO Dana White declines Trump’s offer to become press secretary, source says",
+      "url": "https://edition.cnn.com/2026/11/07/politics/dana-white-trump-press-secretary",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "UFC CEO Dana White declines Trump’s offer to become press secretary, source says",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/politics/dana-white-trump-press-secretary",
+        "zh": "消息人士稱，UFC總裁白大拿拒絕了川普擔任新聞秘書的提議。",
+        "accepted": [
+          [
+            "UFC",
+            "CEO",
+            "Dana",
+            "White",
+            "declines",
+            "Trump’s",
+            "offer",
+            "to",
+            "become",
+            "press",
+            "secretary,",
+            "source",
+            "says"
+          ]
+        ],
+        "distractors": [
+          "accepts",
+          "Biden’s",
+          "request",
+          "from",
+          "reporter",
+          "official"
+        ],
+        "notes": [
+          {
+            "word": "declines",
+            "text": "「declines」是動詞「decline」的第三人稱單數現在式，表示「拒絕」。",
+            "category": "時態"
+          },
+          {
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "offer",
+            "text": "「offer」是名詞，表示「提議、邀請」。",
+            "category": "其他"
+          },
+          {
+            "word": "to become",
+            "text": "「to become」是不定詞片語，表示目的或結果，即「成為」。",
+            "category": "其他"
+          },
+          {
+            "word": "says",
+            "text": "「says」是動詞「say」的第三人稱單數現在式，表示「說」。這裡用現在式，是新聞報導中常見的用法。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "New Zealand in political limbo after knife-edge election",
+      "url": "https://edition.cnn.com/2026/11/07/world/new-zealand-election-result-uncertain-intl-hnk",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "New Zealand in political limbo after knife-edge election",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/world/new-zealand-election-result-uncertain-intl-hnk",
+        "zh": "在一次勢均力敵的選舉之後，紐西蘭陷入政治僵局。",
+        "accepted": [
+          [
+            "New",
+            "Zealand",
+            "in",
+            "political",
+            "limbo",
+            "after",
+            "knife-edge",
+            "election"
+          ]
+        ],
+        "distractors": [
+          "Australia",
+          "out",
+          "economic",
+          "stability",
+          "before",
+          "landslide"
+        ],
+        "notes": [
+          {
+            "word": "in",
+            "text": "「in」作為介係詞，表示狀態或處境，即「處於…之中」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "limbo",
+            "text": "「limbo」是名詞，表示「懸而未決的狀態、僵局」。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "「after」作為介係詞，表示時間上的「在…之後」。",
+            "category": "介係詞"
           },
           {
             "word": "knife-edge",
-            "text": "「knife-edge」是複合形容詞，意為「勢均力敵的、極其緊張的」。",
+            "text": "「knife-edge」是複合形容詞，表示「勢均力敵的、危險的、緊張的」。",
             "category": "其他"
           },
           {
-            "word": "New Zealand election",
-            "text": "「New Zealand election」表示「紐西蘭的選舉」。",
+            "word": "election",
+            "text": "「election」是名詞，表示「選舉」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Actor and comedian Russell Brand found guilty of rape and sexual assault",
-      "url": "https://edition.cnn.com/2026/11/05/uk/russell-brand-trial-verdict-uk-intl",
+      "en": "1 killed, 22 injured after elderly driver suspected to be impaired strikes cyclists in North Carolina, officials say",
+      "url": "https://edition.cnn.com/2026/11/07/us/north-carolina-cyclists-crash-wake-county",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Actor and comedian Russell Brand found guilty of rape and sexual assault",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/uk/russell-brand-trial-verdict-uk-intl",
-        "zh": "演員兼喜劇演員羅素·布蘭德被判強姦和性侵罪名成立。",
+        "sourceEn": "1 killed, 22 injured after elderly driver suspected to be impaired strikes cyclists in North Carolina, officials say",
+        "sourceUrl": "https://edition.cnn.com/2026/11/07/us/north-carolina-cyclists-crash-wake-county",
+        "zh": "官員表示，一名老年司機涉嫌酒駕在北卡羅來納州撞上自行車手，造成1人死亡，22人受傷。",
         "accepted": [
           [
-            "Actor",
-            "and",
-            "comedian",
-            "Russell",
-            "Brand",
-            "found",
-            "guilty",
-            "of",
-            "rape",
-            "and",
-            "sexual",
-            "assault"
+            "1",
+            "killed,",
+            "22",
+            "injured",
+            "after",
+            "elderly",
+            "driver",
+            "suspected",
+            "to",
+            "be",
+            "impaired",
+            "strikes",
+            "cyclists",
+            "in",
+            "North",
+            "Carolina,",
+            "officials",
+            "say"
           ]
         ],
         "distractors": [
-          "An",
-          "or",
-          "comedic",
-          "Brands",
-          "find",
-          "for"
+          "2",
+          "saved",
+          "before",
+          "young",
+          "pedestrian",
+          "from"
         ],
         "notes": [
           {
-            "word": "Actor and comedian",
-            "text": "「Actor and comedian」是並列的名詞，描述羅素·布蘭德的職業。",
+            "word": "killed",
+            "text": "「killed」是動詞「kill」的過去分詞，在這裡作形容詞，表示「死亡的」。",
             "category": "其他"
           },
           {
-            "word": "found guilty of",
-            "text": "「found guilty of」是被動語態，意為「被判有罪」，of引導罪名。",
+            "word": "injured",
+            "text": "「injured」是動詞「injure」的過去分詞，在這裡作形容詞，表示「受傷的」。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "「after」作為介係詞，表示時間上的「在…之後」。",
             "category": "介係詞"
           },
           {
-            "word": "rape",
-            "text": "「rape」是名詞，意為「強姦」。",
-            "category": "其他"
-          },
-          {
-            "word": "sexual assault",
-            "text": "「sexual assault」是複合名詞，意為「性侵犯」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Newsom commutes sentences of all California death row prisoners",
-      "url": "https://edition.cnn.com/2026/11/05/us/california-death-row-commutation",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Newsom commutes sentences of all California death row prisoners",
-        "sourceUrl": "https://edition.cnn.com/2026/11/05/us/california-death-row-commutation",
-        "zh": "紐森減免了所有加州死囚的刑期。",
-        "accepted": [
-          [
-            "Newsom",
-            "commutes",
-            "sentences",
-            "of",
-            "all",
-            "California",
-            "death",
-            "row",
-            "prisoners"
-          ]
-        ],
-        "distractors": [
-          "Newsom's",
-          "commuted",
-          "sentence",
-          "for",
-          "every",
-          "prison"
-        ],
-        "notes": [
-          {
-            "word": "commutes",
-            "text": "動詞「commute」在這裡意為「減刑、減輕刑罰」。",
+            "word": "suspected to be impaired",
+            "text": "「suspected to be impaired」是被動語態，表示「被懷疑受損害的」，在這裡指「涉嫌酒駕或藥駕」。",
             "category": "時態"
           },
           {
-            "word": "sentences",
-            "text": "「sentences」是複數名詞，指「刑期、判決」。",
-            "category": "單複數"
-          },
-          {
-            "word": "of",
-            "text": "介係詞「of」表示所屬關係，即「所有加州死囚的刑期」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "all",
-            "text": "「all」表示「所有、全部」。",
-            "category": "其他"
-          },
-          {
-            "word": "death row prisoners",
-            "text": "「death row prisoners」指「死囚」。",
-            "category": "其他"
+            "word": "strikes",
+            "text": "「strikes」是動詞「strike」的第三人稱單數現在式，表示「撞擊」。",
+            "category": "時態"
           }
         ]
       }
