@@ -1,506 +1,580 @@
 {
-  "date": "2026-11-08",
-  "fetchedAt": "2026-11-08T23:31:50.262Z",
+  "date": "2026-11-10",
+  "fetchedAt": "2026-11-10T02:37:34.609Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Nvidia launches investigation into CEO Jensen Huang over foreign intelligence concerns",
-      "url": "https://edition.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang",
+      "en": "Jensen Huang is living proof that AI’s rockstar CEOs are also a hidden risk",
+      "url": "https://edition.cnn.com/2026/11/09/tech/nvidia-jensen-huang-ai-ceos-risks",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Nvidia launches investigation into CEO Jensen Huang over foreign intelligence concerns",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang",
-        "zh": "Nvidia 就執行長黃仁勳的境外情報疑慮展開調查",
+        "sourceEn": "Jensen Huang is living proof that AI’s rockstar CEOs are also a hidden risk",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/tech/nvidia-jensen-huang-ai-ceos-risks",
+        "zh": "黃仁勳證明了AI界的搖滾巨星執行長們也是一個隱藏的風險。",
         "accepted": [
           [
-            "Nvidia",
-            "launches",
-            "investigation",
-            "into",
-            "CEO",
             "Jensen",
             "Huang",
-            "over",
-            "foreign",
-            "intelligence",
-            "concerns"
+            "is",
+            "living",
+            "proof",
+            "that",
+            "AI’s",
+            "rockstar",
+            "CEOs",
+            "are",
+            "also",
+            "a",
+            "hidden",
+            "risk"
           ]
         ],
         "distractors": [
-          "among",
-          "between",
-          "through",
-          "despite",
-          "under",
-          "regarding"
+          "proofs",
+          "livingly",
+          "risky",
+          "hides",
+          "rockstars",
+          "CEO"
         ],
         "notes": [
           {
-            "word": "launches",
-            "text": "動詞「launch」在此表示「發起、展開」，常用於描述啟動計畫、調查或產品。",
+            "word": "living proof",
+            "text": "「living proof」是一個常見的片語，意指「活生生的證據」或「鐵證」。",
             "category": "其他"
           },
           {
-            "word": "into",
-            "text": "介係詞「into」在此表示「針對…的調查」，說明調查的對象或方向。",
-            "category": "介係詞"
+            "word": "AI’s",
+            "text": "「AI’s」是「AI」的所有格形式，表示「AI的」。",
+            "category": "其他"
           },
           {
-            "word": "over",
-            "text": "介係詞「over」在此表示「關於、因為」，說明調查的原因或主題。",
-            "category": "介係詞"
-          },
-          {
-            "word": "concerns",
-            "text": "名詞「concerns」在此是複數形式，表示「疑慮、擔憂」，指多方面的顧慮。",
+            "word": "are",
+            "text": "此處的動詞「are」與主詞「CEOs」（複數）保持一致。",
             "category": "單複數"
+          },
+          {
+            "word": "a hidden risk",
+            "text": "「a hidden risk」意指「一個隱藏的風險」，其中「hidden」是形容詞修飾「risk」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Trump says renewed attacks on Iran ‘highly unlikely’ if talks show progress",
-      "url": "https://edition.cnn.com/2026/11/08/politics/trump-interview-on-iran",
+      "en": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
+      "url": "https://edition.cnn.com/2026/11/09/politics/trump-jensen-huang-spy",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump says renewed attacks on Iran ‘highly unlikely’ if talks show progress",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/politics/trump-interview-on-iran",
-        "zh": "川普表示，如果談判取得進展，對伊朗的重新攻擊「極不可能」",
+        "sourceEn": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/politics/trump-jensen-huang-spy",
+        "zh": "川普支持科技億萬富翁，此前該富翁因涉嫌與中國間諜有染而受到調查。",
+        "accepted": [
+          [
+            "Trump",
+            "backs",
+            "tech",
+            "billionaire",
+            "amid",
+            "probe",
+            "into",
+            "affair",
+            "with",
+            "alleged",
+            "Chinese",
+            "spy"
+          ]
+        ],
+        "distractors": [
+          "back",
+          "billionaires",
+          "probing",
+          "allegedly",
+          "spies",
+          "affairs"
+        ],
+        "notes": [
+          {
+            "word": "backs",
+            "text": "「backs」在此作動詞，意為「支持」。主詞「Trump」是第三人稱單數，動詞需加s。",
+            "category": "時態"
+          },
+          {
+            "word": "amid",
+            "text": "「amid」是介係詞，意為「在…之中」或「在…期間」，通常用於描述某事發生在某種情況或氛圍中。",
+            "category": "介係詞"
+          },
+          {
+            "word": "probe into",
+            "text": "「probe into」是一個片語，意為「調查…」或「深入探究…」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "alleged",
+            "text": "「alleged」是形容詞，意為「被指控的」、「據稱的」，用來修飾「Chinese spy」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Russell Brand sentenced to 10 years and six months in prison for rape and sexual assault",
+      "url": "https://edition.cnn.com/2026/11/09/entertainment/russell-brand-rape-sentence-prison-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Russell Brand sentenced to 10 years and six months in prison for rape and sexual assault",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/entertainment/russell-brand-rape-sentence-prison-intl",
+        "zh": "羅素·布蘭德因強姦和性侵犯被判處10年零6個月監禁。",
+        "accepted": [
+          [
+            "Russell",
+            "Brand",
+            "sentenced",
+            "to",
+            "10",
+            "years",
+            "and",
+            "six",
+            "months",
+            "in",
+            "prison",
+            "for",
+            "rape",
+            "and",
+            "sexual",
+            "assault"
+          ]
+        ],
+        "distractors": [
+          "sentence",
+          "year",
+          "month",
+          "prisons",
+          "rapes",
+          "assaults"
+        ],
+        "notes": [
+          {
+            "word": "sentenced to",
+            "text": "「be sentenced to」是一個常見的被動語態片語，意為「被判處…（刑罰）」。",
+            "category": "其他"
+          },
+          {
+            "word": "years",
+            "text": "「10 years」和「six months」都使用複數形式，因為數字大於一。",
+            "category": "單複數"
+          },
+          {
+            "word": "in prison",
+            "text": "「in prison」表示「在監獄裡」，通常不加冠詞，因為強調的是狀態而非特定的監獄建築。",
+            "category": "冠詞"
+          },
+          {
+            "word": "for",
+            "text": "介係詞「for」在此表示原因，即「因為…（罪行）」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump says deportation policy was ‘too tough,’ and other ‘60 Minutes’ interview takeaways",
+      "url": "https://edition.cnn.com/2026/11/08/politics/trumps-regrets-immigration-enforcement-60-minutes-interview",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump says deportation policy was ‘too tough,’ and other ‘60 Minutes’ interview takeaways",
+        "sourceUrl": "https://edition.cnn.com/2026/11/08/politics/trumps-regrets-immigration-enforcement-60-minutes-interview",
+        "zh": "川普稱驅逐出境政策「太強硬」，以及其他「60分鐘」採訪的重點。",
         "accepted": [
           [
             "Trump",
             "says",
-            "renewed",
-            "attacks",
-            "on",
-            "Iran",
-            "‘highly",
-            "unlikely’",
-            "if",
-            "talks",
-            "show",
-            "progress"
+            "deportation",
+            "policy",
+            "was",
+            "‘too",
+            "tough,’",
+            "and",
+            "other",
+            "‘60",
+            "Minutes’",
+            "interview",
+            "takeaways"
           ]
         ],
         "distractors": [
-          "would",
-          "should",
-          "might",
-          "could",
-          "will",
-          "must"
+          "said",
+          "policies",
+          "tougher",
+          "takeaway",
+          "interviews",
+          "deports"
         ],
         "notes": [
           {
             "word": "says",
-            "text": "動詞「says」是現在式，表示川普現在的發言或觀點。",
+            "text": "主詞「Trump」是第三人稱單數，動詞「say」需加s。",
             "category": "時態"
           },
           {
-            "word": "renewed",
-            "text": "形容詞「renewed」表示「重新開始的、再次發生的」，修飾名詞「attacks」。",
+            "word": "was",
+            "text": "「policy」是單數，因此使用單數動詞「was」。",
+            "category": "單複數"
+          },
+          {
+            "word": "too tough",
+            "text": "「too」表示「太過…」，後面接形容詞「tough」。",
             "category": "其他"
           },
           {
-            "word": "on",
-            "text": "介係詞「on」在此表示「針對、關於」，說明攻擊的目標。",
-            "category": "介係詞"
-          },
-          {
-            "word": "if",
-            "text": "連接詞「if」引導條件子句，表示「如果…的話」。",
+            "word": "takeaways",
+            "text": "「takeaways」在此作名詞，意為「主要觀點」、「重點」。",
             "category": "其他"
-          },
-          {
-            "word": "show",
-            "text": "動詞「show」在此是原形動詞，因為在「if」引導的條件子句中，表示假設情況。",
-            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Building owned by Saudi oil giant damaged in missile attack on Riyadh’s financial district",
-      "url": "https://edition.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl",
+      "en": "How impeachment of a cabinet secretary like Hegseth works",
+      "url": "https://edition.cnn.com/2026/11/09/politics/pete-hegseth-impeachment-congress",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Building owned by Saudi oil giant damaged in missile attack on Riyadh’s financial district",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl",
-        "zh": "沙烏地阿拉伯石油巨頭擁有的建築在利雅德金融區的飛彈襲擊中受損",
+        "sourceEn": "How impeachment of a cabinet secretary like Hegseth works",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/politics/pete-hegseth-impeachment-congress",
+        "zh": "像赫格塞斯這樣的內閣部長彈劾案是如何運作的。",
         "accepted": [
           [
-            "Building",
-            "owned",
-            "by",
-            "Saudi",
-            "oil",
-            "giant",
-            "damaged",
-            "in",
-            "missile",
-            "attack",
-            "on",
-            "Riyadh’s",
-            "financial",
-            "district"
-          ]
-        ],
-        "distractors": [
-          "from",
-          "with",
-          "through",
-          "across",
-          "along",
-          "beside"
-        ],
-        "notes": [
-          {
-            "word": "owned",
-            "text": "過去分詞「owned」在此作形容詞，修飾「Building」，表示「被擁有的」。",
-            "category": "其他"
-          },
-          {
-            "word": "by",
-            "text": "介係詞「by」在此表示被動語態中的「由…所為」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "damaged",
-            "text": "過去分詞「damaged」在此作動詞，表示建築物「受損」，是句子的主要動詞（省略了be動詞）。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…之中」，說明受損發生的事件。",
-            "category": "介係詞"
-          },
-          {
-            "word": "on",
-            "text": "介係詞「on」在此表示「在…上」，說明攻擊的目標地點。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Pope Leo urges President Milei, a Trump ally, to ‘safeguard democracy’ in Argentina",
-      "url": "https://edition.cnn.com/2026/11/08/americas/pope-visit-argentina-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Pope Leo urges President Milei, a Trump ally, to ‘safeguard democracy’ in Argentina",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/americas/pope-visit-argentina-latam-intl",
-        "zh": "教宗利奧敦促川普盟友米雷總統在阿根廷「捍衛民主」",
-        "accepted": [
-          [
-            "Pope",
-            "Leo",
-            "urges",
-            "President",
-            "Milei,",
+            "How",
+            "impeachment",
+            "of",
             "a",
-            "Trump",
-            "ally,",
-            "to",
-            "‘safeguard",
-            "democracy’",
-            "in",
-            "Argentina"
+            "cabinet",
+            "secretary",
+            "like",
+            "Hegseth",
+            "works"
           ]
         ],
         "distractors": [
-          "for",
-          "with",
-          "from",
-          "against",
-          "about",
-          "through"
+          "impeach",
+          "secretaries",
+          "work",
+          "cabinet's",
+          "likes",
+          "impeachments"
         ],
         "notes": [
           {
-            "word": "urges",
-            "text": "動詞「urges」是現在式，表示教宗現在的敦促行為。",
-            "category": "時態"
+            "word": "impeachment",
+            "text": "「impeachment」是名詞，意為「彈劾」。",
+            "category": "其他"
           },
           {
-            "word": "a",
-            "text": "不定冠詞「a」在此用於介紹「Trump ally」這個身份。",
+            "word": "a cabinet secretary",
+            "text": "「a cabinet secretary」意指「一位內閣部長」，「a」是單數不定冠詞。",
             "category": "冠詞"
           },
           {
-            "word": "to",
-            "text": "不定詞標誌「to」引導動詞原形「safeguard」，表示目的或建議的內容。",
-            "category": "其他"
-          },
-          {
-            "word": "safeguard",
-            "text": "動詞「safeguard」表示「保護、捍衛」。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…地點」，說明捍衛民主的國家。",
+            "word": "like",
+            "text": "介係詞「like」在此表示「像…一樣」。",
             "category": "介係詞"
+          },
+          {
+            "word": "works",
+            "text": "主詞「impeachment」是單數，因此動詞「work」需加s。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Hakeem Jeffries has a plan for Donald Trump and for his Democratic critics",
-      "url": "https://edition.cnn.com/2026/11/08/politics/hakeem-jeffries-first-black-speaker-donald-trump-democrats",
+      "en": "France blames Iran for ‘unprecedented’ supermarket fridge cyberattack",
+      "url": "https://edition.cnn.com/2026/11/09/europe/france-accuses-iran-of-fridge-cyberattack-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Hakeem Jeffries has a plan for Donald Trump and for his Democratic critics",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/politics/hakeem-jeffries-first-black-speaker-donald-trump-democrats",
-        "zh": "哈基姆·傑弗里斯對唐納德·川普和他的民主黨批評者都有一個計畫",
+        "sourceEn": "France blames Iran for ‘unprecedented’ supermarket fridge cyberattack",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/europe/france-accuses-iran-of-fridge-cyberattack-intl",
+        "zh": "法國指責伊朗對超市冰箱發動「史無前例」的網路攻擊。",
         "accepted": [
           [
-            "Hakeem",
-            "Jeffries",
-            "has",
-            "a",
-            "plan",
+            "France",
+            "blames",
+            "Iran",
             "for",
-            "Donald",
-            "Trump",
+            "‘unprecedented’",
+            "supermarket",
+            "fridge",
+            "cyberattack"
+          ]
+        ],
+        "distractors": [
+          "blame",
+          "blamed",
+          "unprecedentedly",
+          "supermarkets",
+          "fridges",
+          "cyberattacks"
+        ],
+        "notes": [
+          {
+            "word": "blames",
+            "text": "主詞「France」是第三人稱單數，動詞「blame」需加s。",
+            "category": "時態"
+          },
+          {
+            "word": "blames ... for",
+            "text": "「blame someone for something」是一個常用片語，意為「因某事而指責某人」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "unprecedented",
+            "text": "「unprecedented」是形容詞，意為「史無前例的」，修飾「cyberattack」。",
+            "category": "其他"
+          },
+          {
+            "word": "supermarket fridge",
+            "text": "「supermarket fridge」是複合名詞，意指「超市冰箱」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
+      "url": "https://edition.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl",
+        "zh": "美國和伊朗正在悄悄談判，同時中東地區仍處於緊張狀態。以下是需要了解的資訊。",
+        "accepted": [
+          [
+            "US",
             "and",
-            "for",
-            "his",
-            "Democratic",
-            "critics"
-          ]
-        ],
-        "distractors": [
-          "with",
-          "from",
-          "about",
-          "against",
-          "among",
-          "between"
-        ],
-        "notes": [
-          {
-            "word": "has",
-            "text": "動詞「has」是現在式，表示傑弗里斯現在擁有這個計畫。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "不定冠詞「a」用於修飾單數可數名詞「plan」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "plan",
-            "text": "名詞「plan」是單數形式，表示一個計畫。",
-            "category": "單複數"
-          },
-          {
-            "word": "for",
-            "text": "介係詞「for」在此表示「針對、為了」，說明計畫的對象。",
-            "category": "介係詞"
-          },
-          {
-            "word": "critics",
-            "text": "名詞「critics」是複數形式，表示多位批評者。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Poland stunned as suspect with far-right views kills 6 in Kraków mass shooting",
-      "url": "https://edition.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Poland stunned as suspect with far-right views kills 6 in Kraków mass shooting",
-        "sourceUrl": "https://edition.cnn.com/2026/11/07/europe/krakow-shooting-poland-killed-intl",
-        "zh": "波蘭震驚：一名持極右翼觀點的嫌犯在克拉科夫大規模槍擊案中殺害6人",
-        "accepted": [
-          [
-            "Poland",
-            "stunned",
+            "Iran",
+            "are",
+            "quietly",
+            "negotiating",
             "as",
-            "suspect",
-            "with",
-            "far-right",
-            "views",
-            "kills",
-            "6",
-            "in",
-            "Kraków",
-            "mass",
-            "shooting"
+            "Middle",
+            "East",
+            "remains",
+            "on",
+            "edge.",
+            "Here’s",
+            "what",
+            "to",
+            "know"
           ]
         ],
         "distractors": [
-          "by",
-          "from",
-          "about",
-          "through",
-          "across",
-          "along"
+          "is",
+          "negotiate",
+          "quiet",
+          "remaining",
+          "edges",
+          "knowing"
         ],
         "notes": [
           {
-            "word": "stunned",
-            "text": "過去分詞「stunned」在此作形容詞，表示「震驚的」，描述波蘭的狀態（省略了is）。",
-            "category": "其他"
-          },
-          {
-            "word": "as",
-            "text": "連接詞「as」在此表示「當…時」或「由於」，引導一個伴隨發生的事件。",
-            "category": "其他"
-          },
-          {
-            "word": "with",
-            "text": "介係詞「with」在此表示「具有、帶有」，說明嫌犯的特徵或觀點。",
-            "category": "介係詞"
-          },
-          {
-            "word": "kills",
-            "text": "動詞「kills」是現在式，表示新聞報導事件的即時性或事實。",
+            "word": "are negotiating",
+            "text": "「are negotiating」是現在進行式，表示正在發生的動作。",
             "category": "時態"
           },
           {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…事件中」，說明殺人事件發生的背景。",
+            "word": "quietly",
+            "text": "「quietly」是副詞，修飾動詞「negotiating」，表示「悄悄地」。",
+            "category": "其他"
+          },
+          {
+            "word": "remains",
+            "text": "主詞「Middle East」是單數，動詞「remain」需加s。",
+            "category": "時態"
+          },
+          {
+            "word": "on edge",
+            "text": "「on edge」是一個片語，意為「緊張不安」、「處於警戒狀態」。",
             "category": "介係詞"
+          },
+          {
+            "word": "Here’s what to know",
+            "text": "「Here’s what to know」是一個常用句型，意為「以下是需要了解的」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "He left NYC after 9/11 for a new life in South America",
-      "url": "https://edition.cnn.com/2026/11/07/travel/leaving-nyc-after-9-11-for-south-america",
+      "en": "The filmmaker betting $500 million on a 2,000-year-old story",
+      "url": "https://edition.cnn.com/2026/11/09/style/india-film-ramayana-blockbuster",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "He left NYC after 9/11 for a new life in South America",
-        "sourceUrl": "https://edition.cnn.com/2026/11/07/travel/leaving-nyc-after-9-11-for-south-america",
-        "zh": "911事件後，他離開紐約市，前往南美洲開始新生活",
+        "sourceEn": "The filmmaker betting $500 million on a 2,000-year-old story",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/style/india-film-ramayana-blockbuster",
+        "zh": "這位電影製作人斥資5億美元，押注一個2000年前的故事。",
         "accepted": [
           [
-            "He",
-            "left",
-            "NYC",
-            "after",
-            "9/11",
-            "for",
+            "The",
+            "filmmaker",
+            "betting",
+            "$500",
+            "million",
+            "on",
             "a",
-            "new",
-            "life",
-            "in",
-            "South",
-            "America"
+            "2,000-year-old",
+            "story"
           ]
         ],
         "distractors": [
-          "from",
-          "with",
-          "about",
-          "against",
-          "among",
-          "between"
+          "film",
+          "bet",
+          "millions",
+          "stories",
+          "old",
+          "filmmakers"
         ],
         "notes": [
           {
-            "word": "left",
-            "text": "動詞「left」是「leave」的過去式，表示過去發生的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "after",
-            "text": "介係詞「after」表示「在…之後」，說明時間順序。",
-            "category": "介係詞"
-          },
-          {
-            "word": "for",
-            "text": "介係詞「for」在此表示「為了、前往」，說明離開的目的或目的地。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a",
-            "text": "不定冠詞「a」用於修飾單數可數名詞「life」。",
+            "word": "The filmmaker",
+            "text": "「The filmmaker」使用定冠詞「The」，表示特指這位電影製作人。",
             "category": "冠詞"
           },
           {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…地點」，說明新生活的地點。",
+            "word": "betting",
+            "text": "此處「betting」是現在分詞作形容詞，修飾「filmmaker」，表示「正在下注的」。",
+            "category": "時態"
+          },
+          {
+            "word": "on",
+            "text": "介係詞「on」在此表示「在…上押注」。",
             "category": "介係詞"
+          },
+          {
+            "word": "a 2,000-year-old story",
+            "text": "「2,000-year-old」是一個複合形容詞，修飾「story」，中間的「year」不加s。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "A once-storied ocean liner is getting a new life as the world’s largest artificial reef",
-      "url": "https://edition.cnn.com/2026/11/08/travel/ss-united-states-sinking-artificial-reef-hnk",
+      "en": "Male donkey is a bull’s willing partner in rare interspecies affair",
+      "url": "https://edition.cnn.com/2026/11/09/science/donkey-bull-interspecies-mating-behavior",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "A once-storied ocean liner is getting a new life as the world’s largest artificial reef",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/travel/ss-united-states-sinking-artificial-reef-hnk",
-        "zh": "一艘曾有輝煌歷史的遠洋客輪，正以世界最大人工魚礁的姿態獲得新生",
+        "sourceEn": "Male donkey is a bull’s willing partner in rare interspecies affair",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/science/donkey-bull-interspecies-mating-behavior",
+        "zh": "公驢在罕見的跨物種戀情中成為公牛的自願伴侶。",
         "accepted": [
           [
-            "A",
-            "once-storied",
-            "ocean",
-            "liner",
+            "Male",
+            "donkey",
             "is",
-            "getting",
             "a",
-            "new",
-            "life",
-            "as",
-            "the",
-            "world’s",
-            "largest",
-            "artificial",
-            "reef"
+            "bull’s",
+            "willing",
+            "partner",
+            "in",
+            "rare",
+            "interspecies",
+            "affair"
           ]
         ],
         "distractors": [
-          "would",
-          "should",
-          "might",
-          "could",
-          "will",
-          "must"
+          "donkeys",
+          "bulls",
+          "partners",
+          "rarely",
+          "affairs",
+          "willingly"
         ],
         "notes": [
           {
-            "word": "A",
-            "text": "不定冠詞「A」用於修飾單數可數名詞「ocean liner」。",
-            "category": "冠詞"
+            "word": "Male donkey",
+            "text": "「Male donkey」意指「公驢」。",
+            "category": "其他"
           },
           {
-            "word": "is getting",
-            "text": "現在進行式「is getting」表示正在發生的動作或變化。",
-            "category": "時態"
+            "word": "is",
+            "text": "主詞「Male donkey」是單數，因此使用單數動詞「is」。",
+            "category": "單複數"
           },
           {
-            "word": "a",
-            "text": "不定冠詞「a」用於修飾單數可數名詞「life」。",
-            "category": "冠詞"
+            "word": "a bull’s",
+            "text": "「a bull’s」是「一頭公牛的」所有格形式。",
+            "category": "其他"
           },
           {
-            "word": "as",
-            "text": "介係詞「as」在此表示「作為、以…身份」，說明客輪獲得新生的形式。",
+            "word": "in",
+            "text": "介係詞「in」在此表示「在…之中」或「在…情況下」。",
             "category": "介係詞"
           },
           {
-            "word": "the",
-            "text": "定冠詞「the」用於修飾最高級形容詞「largest」，表示獨一無二。",
-            "category": "冠詞"
+            "word": "interspecies",
+            "text": "「interspecies」是形容詞，意為「跨物種的」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Clock starts for Israel’s Eisenkot, who has up to 6 weeks to build a coalition to replace Netanyahu",
+      "en": "Greg Lovett/Palm Beach Post/USA Today Network/Reuters",
+      "url": "https://edition.cnn.com/2026/11/09/us/florida-learjet-crash-voice-recorder",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Greg Lovett/Palm Beach Post/USA Today Network/Reuters",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/us/florida-learjet-crash-voice-recorder",
+        "zh": "格雷格·洛維特/棕櫚灘郵報/今日美國報系/路透社",
+        "accepted": [
+          [
+            "Greg",
+            "Lovett/Palm",
+            "Beach",
+            "Post/USA",
+            "Today",
+            "Network/Reuters"
+          ]
+        ],
+        "distractors": [
+          "Gregs",
+          "Lovetts",
+          "Posts",
+          "Networks",
+          "Reuterss",
+          "Todays"
+        ],
+        "notes": [
+          {
+            "word": "Greg Lovett",
+            "text": "這是人名，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "Palm Beach Post",
+            "text": "這是報紙名稱，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "USA Today Network",
+            "text": "這是媒體集團名稱，通常保持原樣。",
+            "category": "其他"
+          },
+          {
+            "word": "Reuters",
+            "text": "這是通訊社名稱，通常保持原樣。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Clock starts for Israel’s Eisenkot, who has up to six weeks to build a coalition to replace rival Netanyahu",
       "url": "https://edition.cnn.com/2026/11/07/middleeast/eisenkot-israel-government-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Clock starts for Israel’s Eisenkot, who has up to 6 weeks to build a coalition to replace Netanyahu",
+        "sourceEn": "Clock starts for Israel’s Eisenkot, who has up to six weeks to build a coalition to replace rival Netanyahu",
         "sourceUrl": "https://edition.cnn.com/2026/11/07/middleeast/eisenkot-israel-government-latam-intl",
-        "zh": "以色列的艾森科特開始計時，他有長達6週的時間來組建一個替代納坦雅胡的聯盟",
+        "zh": "以色列的艾森科特開始計時，他有長達六週的時間來組建一個聯盟，以取代競爭對手內塔尼亞胡。",
         "accepted": [
           [
             "Clock",
@@ -512,7 +586,7 @@
             "has",
             "up",
             "to",
-            "6",
+            "six",
             "weeks",
             "to",
             "build",
@@ -520,230 +594,111 @@
             "coalition",
             "to",
             "replace",
+            "rival",
             "Netanyahu"
           ]
         ],
         "distractors": [
-          "would",
-          "should",
-          "might",
-          "could",
-          "will",
-          "must"
+          "start",
+          "clocks",
+          "week",
+          "builds",
+          "replaces",
+          "rivals"
         ],
         "notes": [
           {
             "word": "starts",
-            "text": "動詞「starts」是現在式，表示計時現在開始。",
+            "text": "主詞「Clock」是單數，動詞「start」需加s。",
             "category": "時態"
           },
           {
-            "word": "for",
-            "text": "介係詞「for」在此表示「對於…而言」，說明計時的對象。",
-            "category": "介係詞"
+            "word": "Israel’s",
+            "text": "「Israel’s」是所有格形式，表示「以色列的」。",
+            "category": "其他"
           },
           {
             "word": "who",
-            "text": "關係代名詞「who」引導非限定關係子句，修飾「Eisenkot」，提供額外資訊。",
+            "text": "「who」是關係代名詞，引導一個形容詞子句，修飾「Eisenkot」。",
             "category": "其他"
           },
           {
             "word": "has",
-            "text": "動詞「has」是現在式，表示艾森科特現在擁有的時間。",
-            "category": "時態"
+            "text": "關係代名詞「who」指代單數的「Eisenkot」，因此動詞「have」使用單數形式「has」。",
+            "category": "單複數"
           },
           {
-            "word": "to build",
-            "text": "不定詞片語「to build」表示目的，說明艾森科特有時間做什麼。",
-            "category": "其他"
+            "word": "up to",
+            "text": "「up to」是一個片語，意為「多達」、「高達」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "a coalition",
+            "text": "「a coalition」意指「一個聯盟」，「a」是單數不定冠詞。",
+            "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Hiding in plain sight? Russell Brand’s conviction poses tough questions for UK entertainment industry",
-      "url": "https://edition.cnn.com/2026/11/08/uk/russell-brand-conviction-reaction-intl",
+      "en": "Cruise ship pianist rescued by fishermen after nine hours treading water in Pacific Ocean",
+      "url": "https://edition.cnn.com/2026/11/09/travel/cruise-ship-pianist-pacific-intl-scli",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Hiding in plain sight? Russell Brand’s conviction poses tough questions for UK entertainment industry",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/uk/russell-brand-conviction-reaction-intl",
-        "zh": "隱藏在眾目睽睽之下？羅素·布蘭德的定罪對英國娛樂業構成嚴峻問題",
+        "sourceEn": "Cruise ship pianist rescued by fishermen after nine hours treading water in Pacific Ocean",
+        "sourceUrl": "https://edition.cnn.com/2026/11/09/travel/cruise-ship-pianist-pacific-intl-scli",
+        "zh": "郵輪鋼琴師在太平洋中踩水九小時後被漁民救起。",
         "accepted": [
           [
-            "Hiding",
+            "Cruise",
+            "ship",
+            "pianist",
+            "rescued",
+            "by",
+            "fishermen",
+            "after",
+            "nine",
+            "hours",
+            "treading",
+            "water",
             "in",
-            "plain",
-            "sight?",
-            "Russell",
-            "Brand’s",
-            "conviction",
-            "poses",
-            "tough",
-            "questions",
-            "for",
-            "UK",
-            "entertainment",
-            "industry"
+            "Pacific",
+            "Ocean"
           ]
         ],
         "distractors": [
-          "from",
-          "with",
-          "about",
-          "against",
-          "among",
-          "between"
+          "cruises",
+          "ships",
+          "pianists",
+          "rescue",
+          "fisherman",
+          "hour"
         ],
         "notes": [
           {
-            "word": "Hiding",
-            "text": "動名詞「Hiding」在此作句首，表示一種狀態或行為。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在此構成片語「in plain sight」，表示「在眾目睽睽之下」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "poses",
-            "text": "動詞「poses」是現在式，表示定罪現在造成的問題。",
+            "word": "rescued",
+            "text": "「rescued」是動詞的過去分詞形式，與前面的隱含助動詞構成被動語態，表示「被救起」。",
             "category": "時態"
           },
           {
-            "word": "questions",
-            "text": "名詞「questions」是複數形式，表示多個問題。",
+            "word": "by",
+            "text": "介係詞「by」在此表示動作的執行者，即「被…所救」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "fishermen",
+            "text": "「fishermen」是「fisherman」的複數形式。",
             "category": "單複數"
           },
           {
-            "word": "for",
-            "text": "介係詞「for」在此表示「對於…而言」，說明問題的對象。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Two trains collide in Egypt, killing 7 people and injuring more than 100, authorities say",
-      "url": "https://edition.cnn.com/2026/11/08/africa/egypt-train-collision-deaths-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Two trains collide in Egypt, killing 7 people and injuring more than 100, authorities say",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/africa/egypt-train-collision-deaths-intl",
-        "zh": "當局表示，兩列火車在埃及相撞，造成7人死亡，100多人受傷",
-        "accepted": [
-          [
-            "Two",
-            "trains",
-            "collide",
-            "in",
-            "Egypt,",
-            "killing",
-            "7",
-            "people",
-            "and",
-            "injuring",
-            "more",
-            "than",
-            "100,",
-            "authorities",
-            "say"
-          ]
-        ],
-        "distractors": [
-          "would",
-          "should",
-          "might",
-          "could",
-          "will",
-          "must"
-        ],
-        "notes": [
-          {
-            "word": "trains",
-            "text": "名詞「trains」是複數形式，與數字「Two」搭配。",
-            "category": "單複數"
-          },
-          {
-            "word": "collide",
-            "text": "動詞「collide」是現在式，表示新聞報導事件的即時性或事實。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…地點」，說明相撞發生的國家。",
-            "category": "介係詞"
-          },
-          {
-            "word": "killing",
-            "text": "現在分詞「killing」作伴隨狀語，表示相撞的結果。",
+            "word": "treading water",
+            "text": "「treading water」是一個片語，意為「踩水」。",
             "category": "其他"
           },
           {
-            "word": "say",
-            "text": "動詞「say」是現在式，表示當局現在的發言。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Counterprotesters overwhelm ‘boycott ride’ targeting businesses believed to be pro-Israel in Philadelphia",
-      "url": "https://edition.cnn.com/2026/11/08/us/philadelphia-boycott-ride-jewish-businesses",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Counterprotesters overwhelm ‘boycott ride’ targeting businesses believed to be pro-Israel in Philadelphia",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/us/philadelphia-boycott-ride-jewish-businesses",
-        "zh": "在費城，反抗議者壓倒了針對被認為親以色列企業的「抵制行動」",
-        "accepted": [
-          [
-            "Counterprotesters",
-            "overwhelm",
-            "‘boycott",
-            "ride’",
-            "targeting",
-            "businesses",
-            "believed",
-            "to",
-            "be",
-            "pro-Israel",
-            "in",
-            "Philadelphia"
-          ]
-        ],
-        "distractors": [
-          "from",
-          "with",
-          "about",
-          "against",
-          "among",
-          "between"
-        ],
-        "notes": [
-          {
-            "word": "Counterprotesters",
-            "text": "名詞「Counterprotesters」是複數形式，表示多位反抗議者。",
-            "category": "單複數"
-          },
-          {
-            "word": "overwhelm",
-            "text": "動詞「overwhelm」是現在式，表示新聞報導事件的即時性或事實。",
-            "category": "時態"
-          },
-          {
-            "word": "targeting",
-            "text": "現在分詞「targeting」作形容詞，修飾「‘boycott ride’」，表示其目的。",
-            "category": "其他"
-          },
-          {
-            "word": "believed",
-            "text": "過去分詞「believed」作形容詞，修飾「businesses」，表示「被認為的」。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…地點」，說明事件發生的城市。",
-            "category": "介係詞"
+            "word": "in Pacific Ocean",
+            "text": "「in the Pacific Ocean」通常會加定冠詞「the」，但新聞標題常省略。",
+            "category": "冠詞"
           }
         ]
       }
