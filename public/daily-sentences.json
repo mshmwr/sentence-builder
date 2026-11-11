@@ -1,704 +1,736 @@
 {
-  "date": "2026-11-10",
-  "fetchedAt": "2026-11-10T02:37:34.609Z",
+  "date": "2026-11-11",
+  "fetchedAt": "2026-11-11T00:30:30.521Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Jensen Huang is living proof that AI’s rockstar CEOs are also a hidden risk",
-      "url": "https://edition.cnn.com/2026/11/09/tech/nvidia-jensen-huang-ai-ceos-risks",
+      "en": "What the House GOP’s Jim Jordan pick means for the direction of the party",
+      "url": "https://edition.cnn.com/2026/11/10/politics/jim-jordan-gop-minority-leader",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Jensen Huang is living proof that AI’s rockstar CEOs are also a hidden risk",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/tech/nvidia-jensen-huang-ai-ceos-risks",
-        "zh": "黃仁勳證明了AI界的搖滾巨星執行長們也是一個隱藏的風險。",
+        "sourceEn": "What the House GOP’s Jim Jordan pick means for the direction of the party",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/jim-jordan-gop-minority-leader",
+        "zh": "眾議院共和黨選擇吉姆·喬丹對該黨的未來方向意味著什麼？",
         "accepted": [
           [
-            "Jensen",
-            "Huang",
-            "is",
-            "living",
-            "proof",
-            "that",
-            "AI’s",
-            "rockstar",
-            "CEOs",
-            "are",
-            "also",
-            "a",
-            "hidden",
-            "risk"
-          ]
-        ],
-        "distractors": [
-          "proofs",
-          "livingly",
-          "risky",
-          "hides",
-          "rockstars",
-          "CEO"
-        ],
-        "notes": [
-          {
-            "word": "living proof",
-            "text": "「living proof」是一個常見的片語，意指「活生生的證據」或「鐵證」。",
-            "category": "其他"
-          },
-          {
-            "word": "AI’s",
-            "text": "「AI’s」是「AI」的所有格形式，表示「AI的」。",
-            "category": "其他"
-          },
-          {
-            "word": "are",
-            "text": "此處的動詞「are」與主詞「CEOs」（複數）保持一致。",
-            "category": "單複數"
-          },
-          {
-            "word": "a hidden risk",
-            "text": "「a hidden risk」意指「一個隱藏的風險」，其中「hidden」是形容詞修飾「risk」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-      "url": "https://edition.cnn.com/2026/11/09/politics/trump-jensen-huang-spy",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/politics/trump-jensen-huang-spy",
-        "zh": "川普支持科技億萬富翁，此前該富翁因涉嫌與中國間諜有染而受到調查。",
-        "accepted": [
-          [
-            "Trump",
-            "backs",
-            "tech",
-            "billionaire",
-            "amid",
-            "probe",
-            "into",
-            "affair",
-            "with",
-            "alleged",
-            "Chinese",
-            "spy"
-          ]
-        ],
-        "distractors": [
-          "back",
-          "billionaires",
-          "probing",
-          "allegedly",
-          "spies",
-          "affairs"
-        ],
-        "notes": [
-          {
-            "word": "backs",
-            "text": "「backs」在此作動詞，意為「支持」。主詞「Trump」是第三人稱單數，動詞需加s。",
-            "category": "時態"
-          },
-          {
-            "word": "amid",
-            "text": "「amid」是介係詞，意為「在…之中」或「在…期間」，通常用於描述某事發生在某種情況或氛圍中。",
-            "category": "介係詞"
-          },
-          {
-            "word": "probe into",
-            "text": "「probe into」是一個片語，意為「調查…」或「深入探究…」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "alleged",
-            "text": "「alleged」是形容詞，意為「被指控的」、「據稱的」，用來修飾「Chinese spy」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Russell Brand sentenced to 10 years and six months in prison for rape and sexual assault",
-      "url": "https://edition.cnn.com/2026/11/09/entertainment/russell-brand-rape-sentence-prison-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Russell Brand sentenced to 10 years and six months in prison for rape and sexual assault",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/entertainment/russell-brand-rape-sentence-prison-intl",
-        "zh": "羅素·布蘭德因強姦和性侵犯被判處10年零6個月監禁。",
-        "accepted": [
-          [
-            "Russell",
-            "Brand",
-            "sentenced",
-            "to",
-            "10",
-            "years",
-            "and",
-            "six",
-            "months",
-            "in",
-            "prison",
+            "What",
+            "the",
+            "House",
+            "GOP’s",
+            "Jim",
+            "Jordan",
+            "pick",
+            "means",
             "for",
-            "rape",
-            "and",
-            "sexual",
-            "assault"
+            "the",
+            "direction",
+            "of",
+            "the",
+            "party"
           ]
         ],
         "distractors": [
-          "sentence",
-          "year",
-          "month",
-          "prisons",
-          "rapes",
-          "assaults"
+          "which",
+          "how",
+          "why",
+          "whose",
+          "where"
         ],
         "notes": [
           {
-            "word": "sentenced to",
-            "text": "「be sentenced to」是一個常見的被動語態片語，意為「被判處…（刑罰）」。",
+            "word": "What",
+            "text": "在此句中，'What' 作為疑問代詞，引導一個名詞子句，作為 'means' 的主語，詢問某事物的意義或影響。",
             "category": "其他"
           },
           {
-            "word": "years",
-            "text": "「10 years」和「six months」都使用複數形式，因為數字大於一。",
-            "category": "單複數"
+            "word": "GOP’s",
+            "text": "'GOP' 是 'Grand Old Party' 的縮寫，指美國共和黨。'GOP’s' 是所有格形式，表示「共和黨的」。",
+            "category": "其他"
           },
           {
-            "word": "in prison",
-            "text": "「in prison」表示「在監獄裡」，通常不加冠詞，因為強調的是狀態而非特定的監獄建築。",
-            "category": "冠詞"
+            "word": "pick",
+            "text": "在這裡，'pick' 作為名詞，意指「選擇」或「人選」。",
+            "category": "其他"
+          },
+          {
+            "word": "means",
+            "text": "'means' 是動詞 'mean' 的第三人稱單數現在式，表示「意味著」或「意指」。",
+            "category": "時態"
           },
           {
             "word": "for",
-            "text": "介係詞「for」在此表示原因，即「因為…（罪行）」。",
+            "text": "'for' 在此表示「對於...而言」或「針對...」，說明某事物的影響對象。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Trump says deportation policy was ‘too tough,’ and other ‘60 Minutes’ interview takeaways",
-      "url": "https://edition.cnn.com/2026/11/08/politics/trumps-regrets-immigration-enforcement-60-minutes-interview",
+      "en": "From a NY jail, Iranian operative directed terror plot on UK Air Force base used by US, DOJ alleges",
+      "url": "https://edition.cnn.com/2026/11/10/politics/fairford-terror-plot-arrest",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump says deportation policy was ‘too tough,’ and other ‘60 Minutes’ interview takeaways",
-        "sourceUrl": "https://edition.cnn.com/2026/11/08/politics/trumps-regrets-immigration-enforcement-60-minutes-interview",
-        "zh": "川普稱驅逐出境政策「太強硬」，以及其他「60分鐘」採訪的重點。",
+        "sourceEn": "From a NY jail, Iranian operative directed terror plot on UK Air Force base used by US, DOJ alleges",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/fairford-terror-plot-arrest",
+        "zh": "美國司法部指控，一名伊朗特工在紐約監獄中指揮了一場針對美國使用的英國空軍基地的恐怖陰謀。",
         "accepted": [
           [
-            "Trump",
-            "says",
-            "deportation",
-            "policy",
-            "was",
-            "‘too",
-            "tough,’",
-            "and",
-            "other",
-            "‘60",
-            "Minutes’",
-            "interview",
-            "takeaways"
-          ]
-        ],
-        "distractors": [
-          "said",
-          "policies",
-          "tougher",
-          "takeaway",
-          "interviews",
-          "deports"
-        ],
-        "notes": [
-          {
-            "word": "says",
-            "text": "主詞「Trump」是第三人稱單數，動詞「say」需加s。",
-            "category": "時態"
-          },
-          {
-            "word": "was",
-            "text": "「policy」是單數，因此使用單數動詞「was」。",
-            "category": "單複數"
-          },
-          {
-            "word": "too tough",
-            "text": "「too」表示「太過…」，後面接形容詞「tough」。",
-            "category": "其他"
-          },
-          {
-            "word": "takeaways",
-            "text": "「takeaways」在此作名詞，意為「主要觀點」、「重點」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How impeachment of a cabinet secretary like Hegseth works",
-      "url": "https://edition.cnn.com/2026/11/09/politics/pete-hegseth-impeachment-congress",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How impeachment of a cabinet secretary like Hegseth works",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/politics/pete-hegseth-impeachment-congress",
-        "zh": "像赫格塞斯這樣的內閣部長彈劾案是如何運作的。",
-        "accepted": [
-          [
-            "How",
-            "impeachment",
-            "of",
+            "From",
             "a",
-            "cabinet",
-            "secretary",
-            "like",
-            "Hegseth",
-            "works"
-          ]
-        ],
-        "distractors": [
-          "impeach",
-          "secretaries",
-          "work",
-          "cabinet's",
-          "likes",
-          "impeachments"
-        ],
-        "notes": [
-          {
-            "word": "impeachment",
-            "text": "「impeachment」是名詞，意為「彈劾」。",
-            "category": "其他"
-          },
-          {
-            "word": "a cabinet secretary",
-            "text": "「a cabinet secretary」意指「一位內閣部長」，「a」是單數不定冠詞。",
-            "category": "冠詞"
-          },
-          {
-            "word": "like",
-            "text": "介係詞「like」在此表示「像…一樣」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "works",
-            "text": "主詞「impeachment」是單數，因此動詞「work」需加s。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "France blames Iran for ‘unprecedented’ supermarket fridge cyberattack",
-      "url": "https://edition.cnn.com/2026/11/09/europe/france-accuses-iran-of-fridge-cyberattack-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "France blames Iran for ‘unprecedented’ supermarket fridge cyberattack",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/europe/france-accuses-iran-of-fridge-cyberattack-intl",
-        "zh": "法國指責伊朗對超市冰箱發動「史無前例」的網路攻擊。",
-        "accepted": [
-          [
-            "France",
-            "blames",
-            "Iran",
-            "for",
-            "‘unprecedented’",
-            "supermarket",
-            "fridge",
-            "cyberattack"
-          ]
-        ],
-        "distractors": [
-          "blame",
-          "blamed",
-          "unprecedentedly",
-          "supermarkets",
-          "fridges",
-          "cyberattacks"
-        ],
-        "notes": [
-          {
-            "word": "blames",
-            "text": "主詞「France」是第三人稱單數，動詞「blame」需加s。",
-            "category": "時態"
-          },
-          {
-            "word": "blames ... for",
-            "text": "「blame someone for something」是一個常用片語，意為「因某事而指責某人」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "unprecedented",
-            "text": "「unprecedented」是形容詞，意為「史無前例的」，修飾「cyberattack」。",
-            "category": "其他"
-          },
-          {
-            "word": "supermarket fridge",
-            "text": "「supermarket fridge」是複合名詞，意指「超市冰箱」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
-      "url": "https://edition.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl",
-        "zh": "美國和伊朗正在悄悄談判，同時中東地區仍處於緊張狀態。以下是需要了解的資訊。",
-        "accepted": [
-          [
-            "US",
-            "and",
-            "Iran",
-            "are",
-            "quietly",
-            "negotiating",
-            "as",
-            "Middle",
-            "East",
-            "remains",
+            "NY",
+            "jail,",
+            "Iranian",
+            "operative",
+            "directed",
+            "terror",
+            "plot",
             "on",
-            "edge.",
-            "Here’s",
-            "what",
-            "to",
-            "know"
+            "UK",
+            "Air",
+            "Force",
+            "base",
+            "used",
+            "by",
+            "US,",
+            "DOJ",
+            "alleges"
           ]
         ],
         "distractors": [
-          "is",
-          "negotiate",
-          "quiet",
-          "remaining",
-          "edges",
-          "knowing"
+          "to",
+          "at",
+          "in",
+          "with",
+          "through"
         ],
         "notes": [
           {
-            "word": "are negotiating",
-            "text": "「are negotiating」是現在進行式，表示正在發生的動作。",
-            "category": "時態"
-          },
-          {
-            "word": "quietly",
-            "text": "「quietly」是副詞，修飾動詞「negotiating」，表示「悄悄地」。",
-            "category": "其他"
-          },
-          {
-            "word": "remains",
-            "text": "主詞「Middle East」是單數，動詞「remain」需加s。",
-            "category": "時態"
-          },
-          {
-            "word": "on edge",
-            "text": "「on edge」是一個片語，意為「緊張不安」、「處於警戒狀態」。",
+            "word": "From",
+            "text": "'From' 在此表示地點來源，說明特工指揮陰謀的起始位置。",
             "category": "介係詞"
           },
           {
-            "word": "Here’s what to know",
-            "text": "「Here’s what to know」是一個常用句型，意為「以下是需要了解的」。",
+            "word": "operative",
+            "text": "在這裡，'operative' 作為名詞，指「特工」或「情報人員」。",
             "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The filmmaker betting $500 million on a 2,000-year-old story",
-      "url": "https://edition.cnn.com/2026/11/09/style/india-film-ramayana-blockbuster",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The filmmaker betting $500 million on a 2,000-year-old story",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/style/india-film-ramayana-blockbuster",
-        "zh": "這位電影製作人斥資5億美元，押注一個2000年前的故事。",
-        "accepted": [
-          [
-            "The",
-            "filmmaker",
-            "betting",
-            "$500",
-            "million",
-            "on",
-            "a",
-            "2,000-year-old",
-            "story"
-          ]
-        ],
-        "distractors": [
-          "film",
-          "bet",
-          "millions",
-          "stories",
-          "old",
-          "filmmakers"
-        ],
-        "notes": [
-          {
-            "word": "The filmmaker",
-            "text": "「The filmmaker」使用定冠詞「The」，表示特指這位電影製作人。",
-            "category": "冠詞"
           },
           {
-            "word": "betting",
-            "text": "此處「betting」是現在分詞作形容詞，修飾「filmmaker」，表示「正在下注的」。",
+            "word": "directed",
+            "text": "'directed' 是動詞 'direct' 的過去式，表示「指揮」或「指導」。",
             "category": "時態"
           },
           {
             "word": "on",
-            "text": "介係詞「on」在此表示「在…上押注」。",
+            "text": "'on' 在此表示目標或對象，指恐怖陰謀的目標是英國空軍基地。",
             "category": "介係詞"
           },
           {
-            "word": "a 2,000-year-old story",
-            "text": "「2,000-year-old」是一個複合形容詞，修飾「story」，中間的「year」不加s。",
-            "category": "其他"
+            "word": "alleges",
+            "text": "'alleges' 是動詞 'allege' 的第三人稱單數現在式，表示「聲稱」或「指控」。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Male donkey is a bull’s willing partner in rare interspecies affair",
-      "url": "https://edition.cnn.com/2026/11/09/science/donkey-bull-interspecies-mating-behavior",
+      "en": "Senior US Army soldier arrested in UK on suspicion of espionage related to Russia",
+      "url": "https://edition.cnn.com/2026/11/10/uk/us-army-soldier-arrested-uk-alleged-espionage-russia",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Male donkey is a bull’s willing partner in rare interspecies affair",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/science/donkey-bull-interspecies-mating-behavior",
-        "zh": "公驢在罕見的跨物種戀情中成為公牛的自願伴侶。",
+        "sourceEn": "Senior US Army soldier arrested in UK on suspicion of espionage related to Russia",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/uk/us-army-soldier-arrested-uk-alleged-espionage-russia",
+        "zh": "一名美國陸軍高級士兵因涉嫌與俄羅斯有關的間諜活動在英國被捕。",
         "accepted": [
           [
-            "Male",
-            "donkey",
-            "is",
-            "a",
-            "bull’s",
-            "willing",
-            "partner",
+            "Senior",
+            "US",
+            "Army",
+            "soldier",
+            "arrested",
             "in",
-            "rare",
-            "interspecies",
-            "affair"
+            "UK",
+            "on",
+            "suspicion",
+            "of",
+            "espionage",
+            "related",
+            "to",
+            "Russia"
           ]
         ],
         "distractors": [
-          "donkeys",
-          "bulls",
-          "partners",
-          "rarely",
-          "affairs",
-          "willingly"
+          "was",
+          "is",
+          "has",
+          "had",
+          "being"
         ],
         "notes": [
           {
-            "word": "Male donkey",
-            "text": "「Male donkey」意指「公驢」。",
-            "category": "其他"
-          },
-          {
-            "word": "is",
-            "text": "主詞「Male donkey」是單數，因此使用單數動詞「is」。",
-            "category": "單複數"
-          },
-          {
-            "word": "a bull’s",
-            "text": "「a bull’s」是「一頭公牛的」所有格形式。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "介係詞「in」在此表示「在…之中」或「在…情況下」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "interspecies",
-            "text": "「interspecies」是形容詞，意為「跨物種的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Greg Lovett/Palm Beach Post/USA Today Network/Reuters",
-      "url": "https://edition.cnn.com/2026/11/09/us/florida-learjet-crash-voice-recorder",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Greg Lovett/Palm Beach Post/USA Today Network/Reuters",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/us/florida-learjet-crash-voice-recorder",
-        "zh": "格雷格·洛維特/棕櫚灘郵報/今日美國報系/路透社",
-        "accepted": [
-          [
-            "Greg",
-            "Lovett/Palm",
-            "Beach",
-            "Post/USA",
-            "Today",
-            "Network/Reuters"
-          ]
-        ],
-        "distractors": [
-          "Gregs",
-          "Lovetts",
-          "Posts",
-          "Networks",
-          "Reuterss",
-          "Todays"
-        ],
-        "notes": [
-          {
-            "word": "Greg Lovett",
-            "text": "這是人名，通常保持原樣。",
-            "category": "其他"
-          },
-          {
-            "word": "Palm Beach Post",
-            "text": "這是報紙名稱，通常保持原樣。",
-            "category": "其他"
-          },
-          {
-            "word": "USA Today Network",
-            "text": "這是媒體集團名稱，通常保持原樣。",
-            "category": "其他"
-          },
-          {
-            "word": "Reuters",
-            "text": "這是通訊社名稱，通常保持原樣。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Clock starts for Israel’s Eisenkot, who has up to six weeks to build a coalition to replace rival Netanyahu",
-      "url": "https://edition.cnn.com/2026/11/07/middleeast/eisenkot-israel-government-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Clock starts for Israel’s Eisenkot, who has up to six weeks to build a coalition to replace rival Netanyahu",
-        "sourceUrl": "https://edition.cnn.com/2026/11/07/middleeast/eisenkot-israel-government-latam-intl",
-        "zh": "以色列的艾森科特開始計時，他有長達六週的時間來組建一個聯盟，以取代競爭對手內塔尼亞胡。",
-        "accepted": [
-          [
-            "Clock",
-            "starts",
-            "for",
-            "Israel’s",
-            "Eisenkot,",
-            "who",
-            "has",
-            "up",
-            "to",
-            "six",
-            "weeks",
-            "to",
-            "build",
-            "a",
-            "coalition",
-            "to",
-            "replace",
-            "rival",
-            "Netanyahu"
-          ]
-        ],
-        "distractors": [
-          "start",
-          "clocks",
-          "week",
-          "builds",
-          "replaces",
-          "rivals"
-        ],
-        "notes": [
-          {
-            "word": "starts",
-            "text": "主詞「Clock」是單數，動詞「start」需加s。",
+            "word": "arrested",
+            "text": "此處 'arrested' 是過去分詞，構成被動語態，表示「被捕」。新聞標題常省略助動詞 'was'。",
             "category": "時態"
           },
           {
-            "word": "Israel’s",
-            "text": "「Israel’s」是所有格形式，表示「以色列的」。",
-            "category": "其他"
-          },
-          {
-            "word": "who",
-            "text": "「who」是關係代名詞，引導一個形容詞子句，修飾「Eisenkot」。",
-            "category": "其他"
-          },
-          {
-            "word": "has",
-            "text": "關係代名詞「who」指代單數的「Eisenkot」，因此動詞「have」使用單數形式「has」。",
-            "category": "單複數"
-          },
-          {
-            "word": "up to",
-            "text": "「up to」是一個片語，意為「多達」、「高達」。",
+            "word": "in",
+            "text": "'in' 在此表示地點，說明逮捕發生的國家。",
             "category": "介係詞"
           },
           {
-            "word": "a coalition",
-            "text": "「a coalition」意指「一個聯盟」，「a」是單數不定冠詞。",
-            "category": "冠詞"
+            "word": "on",
+            "text": "'on suspicion of' 是一個常用片語，表示「因涉嫌...」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "espionage",
+            "text": "'espionage' 是名詞，指「間諜活動」。",
+            "category": "其他"
+          },
+          {
+            "word": "related",
+            "text": "'related to' 是一個常用片語，表示「與...相關」。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Cruise ship pianist rescued by fishermen after nine hours treading water in Pacific Ocean",
-      "url": "https://edition.cnn.com/2026/11/09/travel/cruise-ship-pianist-pacific-intl-scli",
+      "en": "How Paraguay’s banking crisis toppled a staunch Trump ally in Latin America",
+      "url": "https://edition.cnn.com/2026/11/10/americas/paraguay-bank-collapse-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Cruise ship pianist rescued by fishermen after nine hours treading water in Pacific Ocean",
-        "sourceUrl": "https://edition.cnn.com/2026/11/09/travel/cruise-ship-pianist-pacific-intl-scli",
-        "zh": "郵輪鋼琴師在太平洋中踩水九小時後被漁民救起。",
+        "sourceEn": "How Paraguay’s banking crisis toppled a staunch Trump ally in Latin America",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/americas/paraguay-bank-collapse-latam-intl",
+        "zh": "巴拉圭的銀行危機如何推翻了拉丁美洲一位堅定的川普盟友。",
         "accepted": [
           [
-            "Cruise",
-            "ship",
-            "pianist",
-            "rescued",
-            "by",
-            "fishermen",
-            "after",
-            "nine",
-            "hours",
-            "treading",
-            "water",
+            "How",
+            "Paraguay’s",
+            "banking",
+            "crisis",
+            "toppled",
+            "a",
+            "staunch",
+            "Trump",
+            "ally",
             "in",
-            "Pacific",
-            "Ocean"
+            "Latin",
+            "America"
           ]
         ],
         "distractors": [
-          "cruises",
-          "ships",
-          "pianists",
-          "rescue",
-          "fisherman",
-          "hour"
+          "what",
+          "which",
+          "why",
+          "when",
+          "where"
         ],
         "notes": [
           {
-            "word": "rescued",
-            "text": "「rescued」是動詞的過去分詞形式，與前面的隱含助動詞構成被動語態，表示「被救起」。",
+            "word": "How",
+            "text": "'How' 作為疑問副詞，引導一個名詞子句，說明某事發生的方式或程度。",
+            "category": "其他"
+          },
+          {
+            "word": "Paraguay’s",
+            "text": "'Paraguay’s' 是所有格形式，表示「巴拉圭的」。",
+            "category": "其他"
+          },
+          {
+            "word": "toppled",
+            "text": "'toppled' 是動詞 'topple' 的過去式，表示「推翻」或「使倒下」。",
+            "category": "時態"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'ally'。",
+            "category": "冠詞"
+          },
+          {
+            "word": "staunch",
+            "text": "'staunch' 是形容詞，表示「堅定的」或「忠實的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What could Hegseth be impeached for? The articles of impeachment, explained",
+      "url": "https://edition.cnn.com/2026/11/10/politics/thomas-massie-pete-hegseth-impeachment",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "What could Hegseth be impeached for? The articles of impeachment, explained",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/thomas-massie-pete-hegseth-impeachment",
+        "zh": "赫格塞特可能因何事被彈劾？彈劾條款解釋。",
+        "accepted": [
+          [
+            "What",
+            "could",
+            "Hegseth",
+            "be",
+            "impeached",
+            "for?",
+            "The",
+            "articles",
+            "of",
+            "impeachment,",
+            "explained"
+          ]
+        ],
+        "distractors": [
+          "why",
+          "how",
+          "which",
+          "when",
+          "where"
+        ],
+        "notes": [
+          {
+            "word": "What",
+            "text": "'What' 在此句中作為疑問代詞，與介係詞 'for' 連用，詢問被彈劾的原因。",
+            "category": "其他"
+          },
+          {
+            "word": "could",
+            "text": "'could' 是情態助動詞，表示可能性或推測。",
+            "category": "其他"
+          },
+          {
+            "word": "be impeached for",
+            "text": "'be impeached for' 是一個被動語態結構，表示「因...被彈劾」。",
+            "category": "時態"
+          },
+          {
+            "word": "articles",
+            "text": "'articles' 在此指「條款」或「項目」，特指「彈劾條款」。",
+            "category": "單複數"
+          },
+          {
+            "word": "explained",
+            "text": "'explained' 是過去分詞，在此作補充說明，表示「被解釋的」或「已解釋的」。新聞標題常省略助動詞 'are'。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Breaking News Kennedy family joins lawsuit to block Trump’s arch",
+      "url": "https://edition.cnn.com/2026/11/10/politics/kennedy-family-moves-to-block-trumps-arch",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Breaking News Kennedy family joins lawsuit to block Trump’s arch",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/kennedy-family-moves-to-block-trumps-arch",
+        "zh": "突發新聞：甘迺迪家族加入訴訟，阻止川普的拱門。",
+        "accepted": [
+          [
+            "Breaking",
+            "News",
+            "Kennedy",
+            "family",
+            "joins",
+            "lawsuit",
+            "to",
+            "block",
+            "Trump’s",
+            "arch"
+          ]
+        ],
+        "distractors": [
+          "join",
+          "joined",
+          "has",
+          "had",
+          "will"
+        ],
+        "notes": [
+          {
+            "word": "Breaking News",
+            "text": "'Breaking News' 是一個固定片語，表示「突發新聞」。",
+            "category": "其他"
+          },
+          {
+            "word": "joins",
+            "text": "'joins' 是動詞 'join' 的第三人稱單數現在式，主語是 'Kennedy family'（在此視為單數整體）。",
+            "category": "時態"
+          },
+          {
+            "word": "lawsuit",
+            "text": "'lawsuit' 是名詞，指「訴訟」。",
+            "category": "其他"
+          },
+          {
+            "word": "to block",
+            "text": "'to block' 是不定詞片語，表示目的，即「為了阻止」。",
+            "category": "其他"
+          },
+          {
+            "word": "Trump’s",
+            "text": "'Trump’s' 是所有格形式，表示「川普的」。'arch' 在此可能指某個具體項目或象徵性的「拱門」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The dress that launched a million bookish fantasies is going on sale",
+      "url": "https://edition.cnn.com/2026/11/10/style/keira-knightley-atonement-dress-auction-intl-scli",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The dress that launched a million bookish fantasies is going on sale",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/style/keira-knightley-atonement-dress-auction-intl-scli",
+        "zh": "那件引發無數書卷氣幻想的洋裝即將上市。",
+        "accepted": [
+          [
+            "The",
+            "dress",
+            "that",
+            "launched",
+            "a",
+            "million",
+            "bookish",
+            "fantasies",
+            "is",
+            "going",
+            "on",
+            "sale"
+          ]
+        ],
+        "distractors": [
+          "which",
+          "who",
+          "whom",
+          "whose",
+          "where"
+        ],
+        "notes": [
+          {
+            "word": "The",
+            "text": "'The' 是定冠詞，用於特指某件洋裝。",
+            "category": "冠詞"
+          },
+          {
+            "word": "that",
+            "text": "'that' 在此作為關係代名詞，引導一個形容詞子句，修飾 'dress'。",
+            "category": "其他"
+          },
+          {
+            "word": "launched",
+            "text": "'launched' 是動詞 'launch' 的過去式，表示「發起」或「引發」。",
+            "category": "時態"
+          },
+          {
+            "word": "bookish",
+            "text": "'bookish' 是形容詞，表示「書卷氣的」或「愛讀書的」。",
+            "category": "其他"
+          },
+          {
+            "word": "going on sale",
+            "text": "'going on sale' 是一個常用片語，表示「即將上市」或「即將開始銷售」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Look of the Week Obtained by CNN",
+      "url": "https://edition.cnn.com/2026/11/10/style/jensen-huang-nvidia-leather-jacket-fake-photo-lotw",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Look of the Week Obtained by CNN",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/style/jensen-huang-nvidia-leather-jacket-fake-photo-lotw",
+        "zh": "本週造型：由CNN取得。",
+        "accepted": [
+          [
+            "Look",
+            "of",
+            "the",
+            "Week",
+            "Obtained",
+            "by",
+            "CNN"
+          ]
+        ],
+        "distractors": [
+          "looks",
+          "looked",
+          "looking",
+          "looks",
+          "looker"
+        ],
+        "notes": [
+          {
+            "word": "Look",
+            "text": "'Look' 在此作名詞，意為「造型」或「外觀」。",
+            "category": "其他"
+          },
+          {
+            "word": "of",
+            "text": "'of' 在此表示所屬關係，即「本週的造型」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "the",
+            "text": "'the' 是定冠詞，特指「本週」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "Obtained",
+            "text": "'Obtained' 是過去分詞，在此作補充說明，表示「被取得的」。新聞標題常省略助動詞 'was' 或 'is'。",
             "category": "時態"
           },
           {
             "word": "by",
-            "text": "介係詞「by」在此表示動作的執行者，即「被…所救」。",
+            "text": "'by' 在此表示動作的執行者，即「由CNN取得」。",
             "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Galileo spent his life proving Earth wasn’t center stage. Now his story is heading to Broadway",
+      "url": "https://edition.cnn.com/2026/11/10/science/galileo-broadway-musical",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Galileo spent his life proving Earth wasn’t center stage. Now his story is heading to Broadway",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/science/galileo-broadway-musical",
+        "zh": "伽利略一生都在證明地球不是宇宙中心。現在他的故事將登上百老匯。",
+        "accepted": [
+          [
+            "Galileo",
+            "spent",
+            "his",
+            "life",
+            "proving",
+            "Earth",
+            "wasn’t",
+            "center",
+            "stage.",
+            "Now",
+            "his",
+            "story",
+            "is",
+            "heading",
+            "to",
+            "Broadway"
+          ]
+        ],
+        "distractors": [
+          "spends",
+          "spend",
+          "has",
+          "had",
+          "will"
+        ],
+        "notes": [
+          {
+            "word": "spent",
+            "text": "'spent' 是動詞 'spend' 的過去式，表示「花費（時間）」。",
+            "category": "時態"
           },
           {
-            "word": "fishermen",
-            "text": "「fishermen」是「fisherman」的複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "treading water",
-            "text": "「treading water」是一個片語，意為「踩水」。",
+            "word": "proving",
+            "text": "'proving' 是動名詞，跟在 'spent his life' 後面，表示「花費一生做某事」。",
             "category": "其他"
           },
           {
-            "word": "in Pacific Ocean",
-            "text": "「in the Pacific Ocean」通常會加定冠詞「the」，但新聞標題常省略。",
-            "category": "冠詞"
+            "word": "wasn’t",
+            "text": "'wasn’t' 是 'was not' 的縮寫，是動詞 'be' 的過去式否定形式，表示「不是」。",
+            "category": "時態"
+          },
+          {
+            "word": "center stage",
+            "text": "'center stage' 是一個片語，表示「中心位置」或「舞台中心」。",
+            "category": "其他"
+          },
+          {
+            "word": "is heading to",
+            "text": "'is heading to' 是一個進行式結構，表示「正前往」或「即將前往」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Judge jails Thomas Markle, father of Meghan, after he cut off his ankle monitor",
+      "url": "https://edition.cnn.com/2026/11/10/us/thomas-markle-ankle-monitor",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Judge jails Thomas Markle, father of Meghan, after he cut off his ankle monitor",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/us/thomas-markle-ankle-monitor",
+        "zh": "法官在托馬斯·馬克爾（梅根之父）剪斷腳踝監控器後將其監禁。",
+        "accepted": [
+          [
+            "Judge",
+            "jails",
+            "Thomas",
+            "Markle,",
+            "father",
+            "of",
+            "Meghan,",
+            "after",
+            "he",
+            "cut",
+            "off",
+            "his",
+            "ankle",
+            "monitor"
+          ]
+        ],
+        "distractors": [
+          "jailed",
+          "jail",
+          "has",
+          "had",
+          "will"
+        ],
+        "notes": [
+          {
+            "word": "jails",
+            "text": "'jails' 是動詞 'jail' 的第三人稱單數現在式，表示「監禁」。新聞標題常用現在式來描述過去發生的事件。",
+            "category": "時態"
+          },
+          {
+            "word": "father of",
+            "text": "'father of' 是一個常用片語，表示「...的父親」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "after",
+            "text": "'after' 作為連接詞，引導時間狀語從句，表示「在...之後」。",
+            "category": "其他"
+          },
+          {
+            "word": "cut off",
+            "text": "'cut off' 是一個動詞片語，表示「剪斷」或「切斷」。'cut' 的過去式和過去分詞都是 'cut'。",
+            "category": "時態"
+          },
+          {
+            "word": "ankle monitor",
+            "text": "'ankle monitor' 是名詞片語，指「腳踝監控器」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "NYT: Trump wished Biden well in newly disclosed 2021 letter",
+      "url": "https://edition.cnn.com/2026/11/10/politics/biden-trump-letter-2021",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "NYT: Trump wished Biden well in newly disclosed 2021 letter",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/biden-trump-letter-2021",
+        "zh": "《紐約時報》：川普在最新披露的2021年信件中祝拜登一切順利。",
+        "accepted": [
+          [
+            "NYT:",
+            "Trump",
+            "wished",
+            "Biden",
+            "well",
+            "in",
+            "newly",
+            "disclosed",
+            "2021",
+            "letter"
+          ]
+        ],
+        "distractors": [
+          "wish",
+          "wishes",
+          "wishing",
+          "has",
+          "had"
+        ],
+        "notes": [
+          {
+            "word": "NYT",
+            "text": "'NYT' 是 'The New York Times'（《紐約時報》）的縮寫。",
+            "category": "其他"
+          },
+          {
+            "word": "wished",
+            "text": "'wished' 是動詞 'wish' 的過去式，表示「祝願」。",
+            "category": "時態"
+          },
+          {
+            "word": "well",
+            "text": "'well' 在此作副詞，表示「好地」或「順利地」，與 'wish' 連用表示「祝願某人一切順利」。",
+            "category": "其他"
+          },
+          {
+            "word": "in",
+            "text": "'in' 在此表示地點或範圍，說明祝願發生的載體（信件）。",
+            "category": "介係詞"
+          },
+          {
+            "word": "disclosed",
+            "text": "'disclosed' 是過去分詞，作形容詞修飾 'letter'，表示「被披露的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "British celebrity David Walliams accused of sexual misconduct after losing legal battle to block reporting of claims",
+      "url": "https://edition.cnn.com/2026/11/10/entertainment/david-walliams-celebrity-injunction-sexual-misconduct-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "British celebrity David Walliams accused of sexual misconduct after losing legal battle to block reporting of claims",
+        "sourceUrl": "https://edition.cnn.com/2026/11/10/entertainment/david-walliams-celebrity-injunction-sexual-misconduct-intl",
+        "zh": "英國名人大衛·沃廉姆斯在輸掉阻止報導指控的法律戰後，被指控性行為不端。",
+        "accepted": [
+          [
+            "British",
+            "celebrity",
+            "David",
+            "Walliams",
+            "accused",
+            "of",
+            "sexual",
+            "misconduct",
+            "after",
+            "losing",
+            "legal",
+            "battle",
+            "to",
+            "block",
+            "reporting",
+            "of",
+            "claims"
+          ]
+        ],
+        "distractors": [
+          "accuses",
+          "accuse",
+          "accusing",
+          "has",
+          "had"
+        ],
+        "notes": [
+          {
+            "word": "accused",
+            "text": "'accused' 是過去分詞，在此構成被動語態，表示「被指控」。新聞標題常省略助動詞 'was' 或 'is'。",
+            "category": "時態"
+          },
+          {
+            "word": "of",
+            "text": "'accused of' 是一個常用片語，表示「被指控犯有...」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "sexual misconduct",
+            "text": "'sexual misconduct' 是名詞片語，指「性行為不端」。",
+            "category": "其他"
+          },
+          {
+            "word": "after",
+            "text": "'after' 作為介係詞，後接動名詞 'losing'，表示「在...之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "to block",
+            "text": "'to block' 是不定詞片語，表示目的，即「為了阻止」。",
+            "category": "其他"
           }
         ]
       }
