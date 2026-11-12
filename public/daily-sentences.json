@@ -1,195 +1,384 @@
 {
-  "date": "2026-11-11",
-  "fetchedAt": "2026-11-11T00:30:30.521Z",
+  "date": "2026-11-12",
+  "fetchedAt": "2026-11-12T01:51:37.756Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "What the House GOP’s Jim Jordan pick means for the direction of the party",
-      "url": "https://edition.cnn.com/2026/11/10/politics/jim-jordan-gop-minority-leader",
+      "en": "Millions of Spaniards stage first general strike in 14 years as anger rages over housing",
+      "url": "https://edition.cnn.com/2026/11/11/europe/spain-strike-housing-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "What the House GOP’s Jim Jordan pick means for the direction of the party",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/jim-jordan-gop-minority-leader",
-        "zh": "眾議院共和黨選擇吉姆·喬丹對該黨的未來方向意味著什麼？",
+        "sourceEn": "Millions of Spaniards stage first general strike in 14 years as anger rages over housing",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/europe/spain-strike-housing-latam-intl",
+        "zh": "數百萬西班牙人舉行了14年來的首次全國大罷工，因對住房問題的憤怒而怒火中燒。",
         "accepted": [
           [
-            "What",
-            "the",
-            "House",
-            "GOP’s",
-            "Jim",
-            "Jordan",
-            "pick",
-            "means",
-            "for",
-            "the",
-            "direction",
+            "Millions",
             "of",
-            "the",
-            "party"
+            "Spaniards",
+            "stage",
+            "first",
+            "general",
+            "strike",
+            "in",
+            "14",
+            "years",
+            "as",
+            "anger",
+            "rages",
+            "over",
+            "housing"
           ]
         ],
         "distractors": [
-          "which",
-          "how",
-          "why",
-          "whose",
-          "where"
+          "many",
+          "protest",
+          "housing's",
+          "economic",
+          "people",
+          "country"
         ],
         "notes": [
           {
-            "word": "What",
-            "text": "在此句中，'What' 作為疑問代詞，引導一個名詞子句，作為 'means' 的主語，詢問某事物的意義或影響。",
+            "word": "Millions",
+            "text": "「Millions of + 名詞」表示數百萬的…，其中 millions 必須是複數。",
+            "category": "單複數"
+          },
+          {
+            "word": "stage",
+            "text": "在這裡，「stage」是動詞，意為「舉行」或「組織（活動）」。",
             "category": "其他"
           },
           {
-            "word": "GOP’s",
-            "text": "'GOP' 是 'Grand Old Party' 的縮寫，指美國共和黨。'GOP’s' 是所有格形式，表示「共和黨的」。",
-            "category": "其他"
+            "word": "as",
+            "text": "「as」在這裡作為連接詞，表示「當…時」或「因為」，說明罷工的原因。",
+            "category": "介係詞"
           },
           {
-            "word": "pick",
-            "text": "在這裡，'pick' 作為名詞，意指「選擇」或「人選」。",
-            "category": "其他"
-          },
-          {
-            "word": "means",
-            "text": "'means' 是動詞 'mean' 的第三人稱單數現在式，表示「意味著」或「意指」。",
+            "word": "rages",
+            "text": "「rage」是動詞，意為「猛烈地發怒」或「肆虐」，這裡用第三人稱單數形式。",
             "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Huang’s spy scandal threatens his life’s work",
+      "url": "https://edition.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Huang’s spy scandal threatens his life’s work",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/tech/jensen-huang-nvidia-affair-profile",
+        "zh": "黃的間諜醜聞威脅著他畢生的工作。",
+        "accepted": [
+          [
+            "Huang’s",
+            "spy",
+            "scandal",
+            "threatens",
+            "his",
+            "life’s",
+            "work"
+          ]
+        ],
+        "distractors": [
+          "Huangs",
+          "spies",
+          "threaten",
+          "lifetime",
+          "career",
+          "job"
+        ],
+        "notes": [
+          {
+            "word": "Huang’s",
+            "text": "「Huang’s」是所有格，表示「黃的」。",
+            "category": "其他"
+          },
+          {
+            "word": "threatens",
+            "text": "主詞「scandal」是單數，所以動詞「threaten」要用第三人稱單數形式「threatens」。",
+            "category": "時態"
+          },
+          {
+            "word": "life’s",
+            "text": "「life’s work」是固定搭配，表示「畢生的工作」或「心血」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Bessent confronts Lutnick over not labeling Nvidia customer a national security threat, sources say",
+      "url": "https://edition.cnn.com/2026/11/11/politics/lutnick-bessent-confrontation-megaspeed-nvidia",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Bessent confronts Lutnick over not labeling Nvidia customer a national security threat, sources say",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/politics/lutnick-bessent-confrontation-megaspeed-nvidia",
+        "zh": "消息人士稱，貝森特就未將英偉達客戶標記為國家安全威脅一事與盧特尼克對質。",
+        "accepted": [
+          [
+            "Bessent",
+            "confronts",
+            "Lutnick",
+            "over",
+            "not",
+            "labeling",
+            "Nvidia",
+            "customer",
+            "a",
+            "national",
+            "security",
+            "threat,",
+            "sources",
+            "say"
+          ]
+        ],
+        "distractors": [
+          "confronted",
+          "about",
+          "label",
+          "customers",
+          "threats",
+          "said"
+        ],
+        "notes": [
+          {
+            "word": "confronts",
+            "text": "主詞「Bessent」是單數，動詞「confront」用第三人稱單數形式「confronts」。",
+            "category": "時態"
+          },
+          {
+            "word": "over",
+            "text": "「confront someone over something」表示「就某事與某人對質」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "labeling",
+            "text": "「not labeling」是動名詞片語，作為介係詞「over」的受詞，表示「沒有標記」或「未將…標記」。",
+            "category": "其他"
+          },
+          {
+            "word": "a",
+            "text": "「a national security threat」表示「一個國家安全威脅」，冠詞「a」是必需的。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Oliver Zier/Harvard and Smithsonian Center for Astrophysics",
+      "url": "https://edition.cnn.com/2026/11/11/science/early-universe-simulation-lumina",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Oliver Zier/Harvard and Smithsonian Center for Astrophysics",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/science/early-universe-simulation-lumina",
+        "zh": "奧利弗·齊爾/哈佛與史密森尼天體物理中心",
+        "accepted": [
+          [
+            "Oliver",
+            "Zier/Harvard",
+            "and",
+            "Smithsonian",
+            "Center",
+            "for",
+            "Astrophysics"
+          ]
+        ],
+        "distractors": [
+          "Oliver's",
+          "Harvard's",
+          "Smithsonian's",
+          "Centre",
+          "of",
+          "Astrophysic"
+        ],
+        "notes": [
+          {
+            "word": "Zier/Harvard",
+            "text": "斜線「/」在此表示關聯或所屬關係，常見於新聞標題中。",
+            "category": "其他"
+          },
+          {
+            "word": "Center",
+            "text": "「Center」是美式拼法，英式拼法為「Centre」。",
+            "category": "其他"
           },
           {
             "word": "for",
-            "text": "'for' 在此表示「對於...而言」或「針對...」，說明某事物的影響對象。",
+            "text": "「Center for...」表示「…中心」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "From a NY jail, Iranian operative directed terror plot on UK Air Force base used by US, DOJ alleges",
-      "url": "https://edition.cnn.com/2026/11/10/politics/fairford-terror-plot-arrest",
+      "en": "Sound waves could put out wildfires and kitchen blazes",
+      "url": "https://edition.cnn.com/2026/11/11/business/sound-waves-fire-suppression-sonic-fire-tech-spc",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "From a NY jail, Iranian operative directed terror plot on UK Air Force base used by US, DOJ alleges",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/fairford-terror-plot-arrest",
-        "zh": "美國司法部指控，一名伊朗特工在紐約監獄中指揮了一場針對美國使用的英國空軍基地的恐怖陰謀。",
+        "sourceEn": "Sound waves could put out wildfires and kitchen blazes",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/business/sound-waves-fire-suppression-sonic-fire-tech-spc",
+        "zh": "聲波可以撲滅野火和廚房火災。",
         "accepted": [
           [
-            "From",
-            "a",
-            "NY",
-            "jail,",
-            "Iranian",
-            "operative",
-            "directed",
-            "terror",
-            "plot",
-            "on",
-            "UK",
-            "Air",
-            "Force",
-            "base",
-            "used",
-            "by",
-            "US,",
-            "DOJ",
-            "alleges"
+            "Sound",
+            "waves",
+            "could",
+            "put",
+            "out",
+            "wildfires",
+            "and",
+            "kitchen",
+            "blazes"
           ]
         ],
         "distractors": [
-          "to",
-          "at",
-          "in",
-          "with",
-          "through"
+          "Sound's",
+          "wave",
+          "can",
+          "putted",
+          "off",
+          "fire"
         ],
         "notes": [
           {
-            "word": "From",
-            "text": "'From' 在此表示地點來源，說明特工指揮陰謀的起始位置。",
-            "category": "介係詞"
+            "word": "waves",
+            "text": "「Sound waves」是複數，表示「聲波」。",
+            "category": "單複數"
           },
           {
-            "word": "operative",
-            "text": "在這裡，'operative' 作為名詞，指「特工」或「情報人員」。",
-            "category": "其他"
-          },
-          {
-            "word": "directed",
-            "text": "'directed' 是動詞 'direct' 的過去式，表示「指揮」或「指導」。",
+            "word": "could",
+            "text": "「could」是助動詞，表示可能性或能力，後面接動詞原形。",
             "category": "時態"
           },
           {
-            "word": "on",
-            "text": "'on' 在此表示目標或對象，指恐怖陰謀的目標是英國空軍基地。",
+            "word": "put out",
+            "text": "「put out」是動詞片語，意為「撲滅」。",
+            "category": "其他"
+          },
+          {
+            "word": "blazes",
+            "text": "「blazes」是「blaze」的複數形式，意為「大火」或「烈火」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Israel faces political chaos as Netanyahu’s grip on power weakens",
+      "url": "https://edition.cnn.com/2026/11/11/middleeast/israel-netanyahu-eisenkot-government-explainer-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Israel faces political chaos as Netanyahu’s grip on power weakens",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/middleeast/israel-netanyahu-eisenkot-government-explainer-intl",
+        "zh": "隨著內塔尼亞胡對權力的掌控減弱，以色列面臨政治混亂。",
+        "accepted": [
+          [
+            "Israel",
+            "faces",
+            "political",
+            "chaos",
+            "as",
+            "Netanyahu’s",
+            "grip",
+            "on",
+            "power",
+            "weakens"
+          ]
+        ],
+        "distractors": [
+          "face",
+          "politically",
+          "chaotic",
+          "when",
+          "Netanyahu",
+          "weakened"
+        ],
+        "notes": [
+          {
+            "word": "faces",
+            "text": "主詞「Israel」是單數，動詞「face」用第三人稱單數形式「faces」。",
+            "category": "時態"
+          },
+          {
+            "word": "as",
+            "text": "「as」在這裡作為連接詞，表示「隨著…」或「當…時」，說明以色列面臨混亂的背景。",
             "category": "介係詞"
           },
           {
-            "word": "alleges",
-            "text": "'alleges' 是動詞 'allege' 的第三人稱單數現在式，表示「聲稱」或「指控」。",
+            "word": "grip",
+            "text": "「grip on power」是固定搭配，表示「對權力的掌控」。",
+            "category": "其他"
+          },
+          {
+            "word": "weakens",
+            "text": "主詞「grip」是單數，動詞「weaken」用第三人稱單數形式「weakens」。",
             "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Senior US Army soldier arrested in UK on suspicion of espionage related to Russia",
-      "url": "https://edition.cnn.com/2026/11/10/uk/us-army-soldier-arrested-uk-alleged-espionage-russia",
+      "en": "Peruvian homecoming: Pope Leo returns to the country that shaped his path to the papacy",
+      "url": "https://edition.cnn.com/2026/11/11/americas/pope-leo-peru-visit-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Senior US Army soldier arrested in UK on suspicion of espionage related to Russia",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/uk/us-army-soldier-arrested-uk-alleged-espionage-russia",
-        "zh": "一名美國陸軍高級士兵因涉嫌與俄羅斯有關的間諜活動在英國被捕。",
+        "sourceEn": "Peruvian homecoming: Pope Leo returns to the country that shaped his path to the papacy",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/americas/pope-leo-peru-visit-latam-intl",
+        "zh": "秘魯歸鄉：教宗利奧返回塑造他教宗之路的國家。",
         "accepted": [
           [
-            "Senior",
-            "US",
-            "Army",
-            "soldier",
-            "arrested",
-            "in",
-            "UK",
-            "on",
-            "suspicion",
-            "of",
-            "espionage",
-            "related",
+            "Peruvian",
+            "homecoming:",
+            "Pope",
+            "Leo",
+            "returns",
             "to",
-            "Russia"
+            "the",
+            "country",
+            "that",
+            "shaped",
+            "his",
+            "path",
+            "to",
+            "the",
+            "papacy"
           ]
         ],
         "distractors": [
-          "was",
-          "is",
-          "has",
-          "had",
-          "being"
+          "Peru",
+          "home",
+          "returned",
+          "in",
+          "which",
+          "shaping"
         ],
         "notes": [
           {
-            "word": "arrested",
-            "text": "此處 'arrested' 是過去分詞，構成被動語態，表示「被捕」。新聞標題常省略助動詞 'was'。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "'in' 在此表示地點，說明逮捕發生的國家。",
-            "category": "介係詞"
-          },
-          {
-            "word": "on",
-            "text": "'on suspicion of' 是一個常用片語，表示「因涉嫌...」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "espionage",
-            "text": "'espionage' 是名詞，指「間諜活動」。",
+            "word": "Peruvian",
+            "text": "「Peruvian」是形容詞，意為「秘魯的」。",
             "category": "其他"
           },
           {
-            "word": "related",
-            "text": "'related to' 是一個常用片語，表示「與...相關」。",
-            "category": "介係詞"
+            "word": "homecoming",
+            "text": "「homecoming」是名詞，意為「歸鄉」或「回歸」。",
+            "category": "其他"
+          },
+          {
+            "word": "returns",
+            "text": "主詞「Pope Leo」是單數，動詞「return」用第三人稱單數形式「returns」。",
+            "category": "時態"
+          },
+          {
+            "word": "that",
+            "text": "「that」在這裡是關係代名詞，引導修飾「country」的子句。",
+            "category": "其他"
+          },
+          {
+            "word": "papacy",
+            "text": "「papacy」是名詞，意為「教宗職位」或「教宗制度」。",
+            "category": "其他"
           }
         ]
       }
@@ -219,518 +408,280 @@
           ]
         ],
         "distractors": [
-          "what",
-          "which",
-          "why",
-          "when",
-          "where"
+          "Paraguay",
+          "bank",
+          "crises",
+          "topple",
+          "an",
+          "allies"
         ],
         "notes": [
           {
-            "word": "How",
-            "text": "'How' 作為疑問副詞，引導一個名詞子句，說明某事發生的方式或程度。",
+            "word": "Paraguay’s",
+            "text": "「Paraguay’s」是所有格，表示「巴拉圭的」。",
             "category": "其他"
           },
           {
-            "word": "Paraguay’s",
-            "text": "'Paraguay’s' 是所有格形式，表示「巴拉圭的」。",
+            "word": "banking",
+            "text": "「banking crisis」是固定搭配，表示「銀行危機」。",
             "category": "其他"
           },
           {
             "word": "toppled",
-            "text": "'toppled' 是動詞 'topple' 的過去式，表示「推翻」或「使倒下」。",
+            "text": "「topple」是動詞，意為「推翻」或「使倒下」，這裡用過去式。",
             "category": "時態"
           },
           {
             "word": "a",
-            "text": "'a' 是不定冠詞，用於修飾單數可數名詞 'ally'。",
+            "text": "「a staunch Trump ally」表示「一位堅定的川普盟友」，冠詞「a」是必需的。",
             "category": "冠詞"
           },
           {
             "word": "staunch",
-            "text": "'staunch' 是形容詞，表示「堅定的」或「忠實的」。",
+            "text": "「staunch」是形容詞，意為「堅定的」或「忠實的」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "What could Hegseth be impeached for? The articles of impeachment, explained",
-      "url": "https://edition.cnn.com/2026/11/10/politics/thomas-massie-pete-hegseth-impeachment",
+      "en": "Suspected bomb threat hoaxes prompt evacuation of Italian schools, alarm in UK and Ireland",
+      "url": "https://edition.cnn.com/2026/11/11/europe/italy-europe-bomb-threat-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "What could Hegseth be impeached for? The articles of impeachment, explained",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/thomas-massie-pete-hegseth-impeachment",
-        "zh": "赫格塞特可能因何事被彈劾？彈劾條款解釋。",
+        "sourceEn": "Suspected bomb threat hoaxes prompt evacuation of Italian schools, alarm in UK and Ireland",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/europe/italy-europe-bomb-threat-intl",
+        "zh": "涉嫌炸彈威脅惡作劇促使義大利學校疏散，並在英國和愛爾蘭引發警報。",
         "accepted": [
           [
-            "What",
-            "could",
-            "Hegseth",
-            "be",
-            "impeached",
-            "for?",
-            "The",
-            "articles",
+            "Suspected",
+            "bomb",
+            "threat",
+            "hoaxes",
+            "prompt",
+            "evacuation",
             "of",
-            "impeachment,",
-            "explained"
+            "Italian",
+            "schools,",
+            "alarm",
+            "in",
+            "UK",
+            "and",
+            "Ireland"
           ]
         ],
         "distractors": [
-          "why",
-          "how",
-          "which",
-          "when",
-          "where"
+          "Suspect",
+          "bombs",
+          "threats",
+          "prompted",
+          "evacuate",
+          "school"
         ],
         "notes": [
           {
-            "word": "What",
-            "text": "'What' 在此句中作為疑問代詞，與介係詞 'for' 連用，詢問被彈劾的原因。",
+            "word": "Suspected",
+            "text": "「Suspected」是形容詞，意為「涉嫌的」或「被懷疑的」。",
             "category": "其他"
           },
           {
-            "word": "could",
-            "text": "'could' 是情態助動詞，表示可能性或推測。",
-            "category": "其他"
-          },
-          {
-            "word": "be impeached for",
-            "text": "'be impeached for' 是一個被動語態結構，表示「因...被彈劾」。",
-            "category": "時態"
-          },
-          {
-            "word": "articles",
-            "text": "'articles' 在此指「條款」或「項目」，特指「彈劾條款」。",
+            "word": "hoaxes",
+            "text": "「hoaxes」是「hoax」的複數形式，意為「惡作劇」或「騙局」。",
             "category": "單複數"
           },
           {
-            "word": "explained",
-            "text": "'explained' 是過去分詞，在此作補充說明，表示「被解釋的」或「已解釋的」。新聞標題常省略助動詞 'are'。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Breaking News Kennedy family joins lawsuit to block Trump’s arch",
-      "url": "https://edition.cnn.com/2026/11/10/politics/kennedy-family-moves-to-block-trumps-arch",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Breaking News Kennedy family joins lawsuit to block Trump’s arch",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/kennedy-family-moves-to-block-trumps-arch",
-        "zh": "突發新聞：甘迺迪家族加入訴訟，阻止川普的拱門。",
-        "accepted": [
-          [
-            "Breaking",
-            "News",
-            "Kennedy",
-            "family",
-            "joins",
-            "lawsuit",
-            "to",
-            "block",
-            "Trump’s",
-            "arch"
-          ]
-        ],
-        "distractors": [
-          "join",
-          "joined",
-          "has",
-          "had",
-          "will"
-        ],
-        "notes": [
-          {
-            "word": "Breaking News",
-            "text": "'Breaking News' 是一個固定片語，表示「突發新聞」。",
-            "category": "其他"
-          },
-          {
-            "word": "joins",
-            "text": "'joins' 是動詞 'join' 的第三人稱單數現在式，主語是 'Kennedy family'（在此視為單數整體）。",
+            "word": "prompt",
+            "text": "主詞「hoaxes」是複數，動詞「prompt」用原形，意為「促使」或「引起」。",
             "category": "時態"
           },
           {
-            "word": "lawsuit",
-            "text": "'lawsuit' 是名詞，指「訴訟」。",
+            "word": "evacuation",
+            "text": "「evacuation」是名詞，意為「疏散」。",
             "category": "其他"
           },
           {
-            "word": "to block",
-            "text": "'to block' 是不定詞片語，表示目的，即「為了阻止」。",
-            "category": "其他"
-          },
-          {
-            "word": "Trump’s",
-            "text": "'Trump’s' 是所有格形式，表示「川普的」。'arch' 在此可能指某個具體項目或象徵性的「拱門」。",
+            "word": "alarm",
+            "text": "「alarm」在這裡是名詞，意為「警報」或「恐慌」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "The dress that launched a million bookish fantasies is going on sale",
-      "url": "https://edition.cnn.com/2026/11/10/style/keira-knightley-atonement-dress-auction-intl-scli",
+      "en": "The island that Trump promised would survive is facing an existential crisis",
+      "url": "https://edition.cnn.com/2026/11/11/climate/tangier-island-sea-level-population-loss",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The dress that launched a million bookish fantasies is going on sale",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/style/keira-knightley-atonement-dress-auction-intl-scli",
-        "zh": "那件引發無數書卷氣幻想的洋裝即將上市。",
+        "sourceEn": "The island that Trump promised would survive is facing an existential crisis",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/climate/tangier-island-sea-level-population-loss",
+        "zh": "川普承諾會存活下來的那個島嶼正麵臨一場生存危機。",
         "accepted": [
           [
             "The",
-            "dress",
+            "island",
             "that",
-            "launched",
-            "a",
-            "million",
-            "bookish",
-            "fantasies",
+            "Trump",
+            "promised",
+            "would",
+            "survive",
             "is",
-            "going",
-            "on",
-            "sale"
+            "facing",
+            "an",
+            "existential",
+            "crisis"
           ]
         ],
         "distractors": [
+          "Island",
           "which",
-          "who",
-          "whom",
-          "whose",
-          "where"
+          "promise",
+          "will",
+          "face",
+          "a"
         ],
         "notes": [
           {
             "word": "The",
-            "text": "'The' 是定冠詞，用於特指某件洋裝。",
+            "text": "「The」是定冠詞，用於特指某個島嶼。",
             "category": "冠詞"
           },
           {
             "word": "that",
-            "text": "'that' 在此作為關係代名詞，引導一個形容詞子句，修飾 'dress'。",
+            "text": "「that」在這裡是關係代名詞，引導修飾「island」的子句。",
             "category": "其他"
           },
           {
-            "word": "launched",
-            "text": "'launched' 是動詞 'launch' 的過去式，表示「發起」或「引發」。",
+            "word": "would",
+            "text": "「would」是「will」的過去式，表示過去的承諾或預期。",
             "category": "時態"
           },
           {
-            "word": "bookish",
-            "text": "'bookish' 是形容詞，表示「書卷氣的」或「愛讀書的」。",
-            "category": "其他"
+            "word": "is facing",
+            "text": "「is facing」是現在進行式，表示正在發生的動作。",
+            "category": "時態"
           },
           {
-            "word": "going on sale",
-            "text": "'going on sale' 是一個常用片語，表示「即將上市」或「即將開始銷售」。",
-            "category": "其他"
+            "word": "an",
+            "text": "「an existential crisis」表示「一場生存危機」，「existential」以元音音素開頭，所以用「an」。",
+            "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Look of the Week Obtained by CNN",
-      "url": "https://edition.cnn.com/2026/11/10/style/jensen-huang-nvidia-leather-jacket-fake-photo-lotw",
+      "en": "Seven decades later, Korean War veterans return to a country transformed",
+      "url": "https://edition.cnn.com/2026/11/11/asia/korean-war-veterans-stories-return-intl-hnk-dst-ml",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Look of the Week Obtained by CNN",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/style/jensen-huang-nvidia-leather-jacket-fake-photo-lotw",
-        "zh": "本週造型：由CNN取得。",
+        "sourceEn": "Seven decades later, Korean War veterans return to a country transformed",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/asia/korean-war-veterans-stories-return-intl-hnk-dst-ml",
+        "zh": "七十年後，韓戰老兵返回一個已然轉變的國家。",
         "accepted": [
           [
-            "Look",
-            "of",
-            "the",
-            "Week",
-            "Obtained",
-            "by",
-            "CNN"
+            "Seven",
+            "decades",
+            "later,",
+            "Korean",
+            "War",
+            "veterans",
+            "return",
+            "to",
+            "a",
+            "country",
+            "transformed"
           ]
         ],
         "distractors": [
-          "looks",
-          "looked",
-          "looking",
-          "looks",
-          "looker"
+          "Seventy",
+          "decade",
+          "late",
+          "returned",
+          "the",
+          "transforming"
         ],
         "notes": [
           {
-            "word": "Look",
-            "text": "'Look' 在此作名詞，意為「造型」或「外觀」。",
-            "category": "其他"
+            "word": "decades",
+            "text": "「decades」是「decade」的複數形式，意為「十年」。",
+            "category": "單複數"
           },
           {
-            "word": "of",
-            "text": "'of' 在此表示所屬關係，即「本週的造型」。",
-            "category": "介係詞"
+            "word": "veterans",
+            "text": "「veterans」是「veteran」的複數形式，意為「老兵」或「退伍軍人」。",
+            "category": "單複數"
           },
           {
-            "word": "the",
-            "text": "'the' 是定冠詞，特指「本週」。",
+            "word": "return",
+            "text": "主詞「veterans」是複數，動詞「return」用原形。",
+            "category": "時態"
+          },
+          {
+            "word": "a",
+            "text": "「a country transformed」表示「一個被轉變的國家」，冠詞「a」是必需的。",
             "category": "冠詞"
           },
           {
-            "word": "Obtained",
-            "text": "'Obtained' 是過去分詞，在此作補充說明，表示「被取得的」。新聞標題常省略助動詞 'was' 或 'is'。",
-            "category": "時態"
-          },
-          {
-            "word": "by",
-            "text": "'by' 在此表示動作的執行者，即「由CNN取得」。",
-            "category": "介係詞"
+            "word": "transformed",
+            "text": "「transformed」是過去分詞，作形容詞修飾「country」，表示「被轉變的」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Galileo spent his life proving Earth wasn’t center stage. Now his story is heading to Broadway",
-      "url": "https://edition.cnn.com/2026/11/10/science/galileo-broadway-musical",
+      "en": "Russian ambassador to US dies suddenly, foreign ministry says",
+      "url": "https://edition.cnn.com/2026/11/11/europe/russian-ambassador-to-us-dies-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Galileo spent his life proving Earth wasn’t center stage. Now his story is heading to Broadway",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/science/galileo-broadway-musical",
-        "zh": "伽利略一生都在證明地球不是宇宙中心。現在他的故事將登上百老匯。",
+        "sourceEn": "Russian ambassador to US dies suddenly, foreign ministry says",
+        "sourceUrl": "https://edition.cnn.com/2026/11/11/europe/russian-ambassador-to-us-dies-intl",
+        "zh": "俄羅斯駐美大使突然去世，外交部稱。",
         "accepted": [
           [
-            "Galileo",
-            "spent",
-            "his",
-            "life",
-            "proving",
-            "Earth",
-            "wasn’t",
-            "center",
-            "stage.",
-            "Now",
-            "his",
-            "story",
-            "is",
-            "heading",
+            "Russian",
+            "ambassador",
             "to",
-            "Broadway"
+            "US",
+            "dies",
+            "suddenly,",
+            "foreign",
+            "ministry",
+            "says"
           ]
         ],
         "distractors": [
-          "spends",
-          "spend",
-          "has",
-          "had",
-          "will"
+          "Russia",
+          "ambassadors",
+          "in",
+          "died",
+          "sudden",
+          "said"
         ],
         "notes": [
           {
-            "word": "spent",
-            "text": "'spent' 是動詞 'spend' 的過去式，表示「花費（時間）」。",
-            "category": "時態"
-          },
-          {
-            "word": "proving",
-            "text": "'proving' 是動名詞，跟在 'spent his life' 後面，表示「花費一生做某事」。",
+            "word": "ambassador",
+            "text": "「ambassador」是名詞，意為「大使」。",
             "category": "其他"
           },
           {
-            "word": "wasn’t",
-            "text": "'wasn’t' 是 'was not' 的縮寫，是動詞 'be' 的過去式否定形式，表示「不是」。",
-            "category": "時態"
-          },
-          {
-            "word": "center stage",
-            "text": "'center stage' 是一個片語，表示「中心位置」或「舞台中心」。",
-            "category": "其他"
-          },
-          {
-            "word": "is heading to",
-            "text": "'is heading to' 是一個進行式結構，表示「正前往」或「即將前往」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Judge jails Thomas Markle, father of Meghan, after he cut off his ankle monitor",
-      "url": "https://edition.cnn.com/2026/11/10/us/thomas-markle-ankle-monitor",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Judge jails Thomas Markle, father of Meghan, after he cut off his ankle monitor",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/us/thomas-markle-ankle-monitor",
-        "zh": "法官在托馬斯·馬克爾（梅根之父）剪斷腳踝監控器後將其監禁。",
-        "accepted": [
-          [
-            "Judge",
-            "jails",
-            "Thomas",
-            "Markle,",
-            "father",
-            "of",
-            "Meghan,",
-            "after",
-            "he",
-            "cut",
-            "off",
-            "his",
-            "ankle",
-            "monitor"
-          ]
-        ],
-        "distractors": [
-          "jailed",
-          "jail",
-          "has",
-          "had",
-          "will"
-        ],
-        "notes": [
-          {
-            "word": "jails",
-            "text": "'jails' 是動詞 'jail' 的第三人稱單數現在式，表示「監禁」。新聞標題常用現在式來描述過去發生的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "father of",
-            "text": "'father of' 是一個常用片語，表示「...的父親」。",
+            "word": "to",
+            "text": "「ambassador to + 國家」表示「駐某國大使」。",
             "category": "介係詞"
           },
           {
-            "word": "after",
-            "text": "'after' 作為連接詞，引導時間狀語從句，表示「在...之後」。",
-            "category": "其他"
-          },
-          {
-            "word": "cut off",
-            "text": "'cut off' 是一個動詞片語，表示「剪斷」或「切斷」。'cut' 的過去式和過去分詞都是 'cut'。",
+            "word": "dies",
+            "text": "主詞「ambassador」是單數，動詞「die」用第三人稱單數形式「dies」。",
             "category": "時態"
           },
           {
-            "word": "ankle monitor",
-            "text": "'ankle monitor' 是名詞片語，指「腳踝監控器」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "NYT: Trump wished Biden well in newly disclosed 2021 letter",
-      "url": "https://edition.cnn.com/2026/11/10/politics/biden-trump-letter-2021",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "NYT: Trump wished Biden well in newly disclosed 2021 letter",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/politics/biden-trump-letter-2021",
-        "zh": "《紐約時報》：川普在最新披露的2021年信件中祝拜登一切順利。",
-        "accepted": [
-          [
-            "NYT:",
-            "Trump",
-            "wished",
-            "Biden",
-            "well",
-            "in",
-            "newly",
-            "disclosed",
-            "2021",
-            "letter"
-          ]
-        ],
-        "distractors": [
-          "wish",
-          "wishes",
-          "wishing",
-          "has",
-          "had"
-        ],
-        "notes": [
-          {
-            "word": "NYT",
-            "text": "'NYT' 是 'The New York Times'（《紐約時報》）的縮寫。",
+            "word": "suddenly",
+            "text": "「suddenly」是副詞，修飾動詞「dies」，表示「突然地」。",
             "category": "其他"
           },
           {
-            "word": "wished",
-            "text": "'wished' 是動詞 'wish' 的過去式，表示「祝願」。",
+            "word": "says",
+            "text": "主詞「ministry」是單數，動詞「say」用第三人稱單數形式「says」。",
             "category": "時態"
-          },
-          {
-            "word": "well",
-            "text": "'well' 在此作副詞，表示「好地」或「順利地」，與 'wish' 連用表示「祝願某人一切順利」。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "'in' 在此表示地點或範圍，說明祝願發生的載體（信件）。",
-            "category": "介係詞"
-          },
-          {
-            "word": "disclosed",
-            "text": "'disclosed' 是過去分詞，作形容詞修飾 'letter'，表示「被披露的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "British celebrity David Walliams accused of sexual misconduct after losing legal battle to block reporting of claims",
-      "url": "https://edition.cnn.com/2026/11/10/entertainment/david-walliams-celebrity-injunction-sexual-misconduct-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "British celebrity David Walliams accused of sexual misconduct after losing legal battle to block reporting of claims",
-        "sourceUrl": "https://edition.cnn.com/2026/11/10/entertainment/david-walliams-celebrity-injunction-sexual-misconduct-intl",
-        "zh": "英國名人大衛·沃廉姆斯在輸掉阻止報導指控的法律戰後，被指控性行為不端。",
-        "accepted": [
-          [
-            "British",
-            "celebrity",
-            "David",
-            "Walliams",
-            "accused",
-            "of",
-            "sexual",
-            "misconduct",
-            "after",
-            "losing",
-            "legal",
-            "battle",
-            "to",
-            "block",
-            "reporting",
-            "of",
-            "claims"
-          ]
-        ],
-        "distractors": [
-          "accuses",
-          "accuse",
-          "accusing",
-          "has",
-          "had"
-        ],
-        "notes": [
-          {
-            "word": "accused",
-            "text": "'accused' 是過去分詞，在此構成被動語態，表示「被指控」。新聞標題常省略助動詞 'was' 或 'is'。",
-            "category": "時態"
-          },
-          {
-            "word": "of",
-            "text": "'accused of' 是一個常用片語，表示「被指控犯有...」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "sexual misconduct",
-            "text": "'sexual misconduct' 是名詞片語，指「性行為不端」。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "'after' 作為介係詞，後接動名詞 'losing'，表示「在...之後」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "to block",
-            "text": "'to block' 是不定詞片語，表示目的，即「為了阻止」。",
-            "category": "其他"
           }
         ]
       }
