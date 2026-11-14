@@ -1,130 +1,433 @@
 {
   "date": "2026-11-14",
-  "fetchedAt": "2026-11-14T00:49:08.972Z",
+  "fetchedAt": "2026-11-14T23:46:31.903Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Bessent points finger at Lutnick over Nvidia chip exports as Trump advisers discuss possible Commerce Secretary ouster",
-      "url": "https://edition.cnn.com/2026/11/13/politics/bessent-lutnick-nvidia-megaspeed-blame",
+      "en": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+      "url": "https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Bessent points finger at Lutnick over Nvidia chip exports as Trump advisers discuss possible Commerce Secretary ouster",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/politics/bessent-lutnick-nvidia-megaspeed-blame",
-        "zh": "川普顧問討論可能撤換商務部長之際，貝森特就輝達晶片出口問題點名盧特尼克。",
+        "sourceEn": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl",
+        "zh": "澤倫斯基表示，美國曾提出烏克蘭以土地換取北約成員資格的想法。",
         "accepted": [
           [
-            "Bessent",
-            "points",
-            "finger",
-            "at",
-            "Lutnick",
-            "over",
-            "Nvidia",
-            "chip",
-            "exports",
-            "as",
-            "Trump",
-            "advisers",
-            "discuss",
-            "possible",
-            "Commerce",
-            "Secretary",
-            "ouster"
+            "US",
+            "floated",
+            "idea",
+            "of",
+            "Ukraine",
+            "swapping",
+            "land",
+            "for",
+            "NATO",
+            "membership",
+            ",",
+            "Zelensky",
+            "says"
           ]
         ],
         "distractors": [
-          "pointing",
-          "fingers",
-          "exporting",
-          "discussing",
-          "possibly",
-          "ousting"
+          "the",
+          "an",
+          "a",
+          "is",
+          "was",
+          "were"
         ],
         "notes": [
           {
-            "word": "points",
-            "text": "這裡的 'points' 是動詞，表示「指出」或「點名」。",
+            "word": "floated",
+            "text": "這裡的 'floated' 是動詞 'float' 的過去式，表示「提出（想法）」。",
             "category": "時態"
           },
           {
-            "word": "over",
-            "text": "'over' 在此表示「關於」或「針對某事」。",
+            "word": "swapping",
+            "text": "'swapping' 是動名詞，表示「交換」，在這裡作為 'of' 的受詞。",
+            "category": "其他"
+          },
+          {
+            "word": "for",
+            "text": "'for' 在這裡表示「為了換取」，說明交換的目的。",
             "category": "介係詞"
           },
           {
-            "word": "as",
-            "text": "'as' 在句中引導時間副詞子句，表示「當...之際」。",
-            "category": "其他"
-          },
-          {
-            "word": "possible",
-            "text": "'possible' 是形容詞，修飾名詞 'Commerce Secretary ouster'。",
-            "category": "其他"
-          },
-          {
-            "word": "ouster",
-            "text": "'ouster' 是名詞，意為「罷免」或「驅逐」。",
+            "word": "membership",
+            "text": "'membership' 是名詞，表示「成員資格」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Intel intercepts implicating Jensen Huang in affair sparked classified Rubio memo",
-      "url": "https://edition.cnn.com/2026/11/13/politics/jensen-huang-us-intelligence",
+      "en": "Trump and a few allies keep floating baseless rigged election claims, while Steve Bannon and Megyn Kelly say give it up",
+      "url": "https://edition.cnn.com/2026/11/14/politics/election-fraud-claims-midterms",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Intel intercepts implicating Jensen Huang in affair sparked classified Rubio memo",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/politics/jensen-huang-us-intelligence",
-        "zh": "英特爾截獲的情報顯示黃仁勳涉入婚外情，引發了魯比歐的機密備忘錄。",
+        "sourceEn": "Trump and a few allies keep floating baseless rigged election claims, while Steve Bannon and Megyn Kelly say give it up",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/politics/election-fraud-claims-midterms",
+        "zh": "川普和少數盟友不斷散佈毫無根據的選舉舞弊指控，而史蒂夫·班農和梅根·凱利則表示應該放棄。",
         "accepted": [
           [
-            "Intel",
-            "intercepts",
-            "implicating",
-            "Jensen",
-            "Huang",
-            "in",
-            "affair",
-            "sparked",
-            "classified",
-            "Rubio",
-            "memo"
+            "Trump",
+            "and",
+            "a",
+            "few",
+            "allies",
+            "keep",
+            "floating",
+            "baseless",
+            "rigged",
+            "election",
+            "claims",
+            ",",
+            "while",
+            "Steve",
+            "Bannon",
+            "and",
+            "Megyn",
+            "Kelly",
+            "say",
+            "give",
+            "it",
+            "up"
           ]
         ],
         "distractors": [
-          "intercepted",
-          "implicate",
-          "affairs",
-          "spark",
-          "classifying",
-          "memorandum"
+          "the",
+          "an",
+          "is",
+          "was",
+          "were",
+          "has"
         ],
         "notes": [
           {
-            "word": "intercepts",
-            "text": "這裡的 'intercepts' 是名詞，指「截獲的情報」。",
-            "category": "單複數"
-          },
-          {
-            "word": "implicating",
-            "text": "'implicating' 是現在分詞，修飾 'intercepts'，表示「牽連」或「暗示」。",
+            "word": "keep floating",
+            "text": "'keep' 後接動名詞 'floating' 表示「持續不斷地散佈」。",
             "category": "時態"
           },
           {
-            "word": "in",
-            "text": "'in affair' 表示「涉入婚外情」。",
+            "word": "baseless",
+            "text": "'baseless' 是形容詞，表示「毫無根據的」。",
+            "category": "其他"
+          },
+          {
+            "word": "rigged",
+            "text": "'rigged' 是過去分詞作形容詞，表示「被操縱的」。",
+            "category": "其他"
+          },
+          {
+            "word": "while",
+            "text": "'while' 在這裡表示「然而」或「與此同時」，連接兩個對比的子句。",
+            "category": "其他"
+          },
+          {
+            "word": "give it up",
+            "text": "這是一個片語動詞，表示「放棄」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What we know about the cause of the nationwide FAA ground stop",
+      "url": "https://edition.cnn.com/2026/11/14/politics/faa-ground-stop-what-we-know",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "What we know about the cause of the nationwide FAA ground stop",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/politics/faa-ground-stop-what-we-know",
+        "zh": "我們所了解的關於全國性FAA停飛的原因。",
+        "accepted": [
+          [
+            "What",
+            "we",
+            "know",
+            "about",
+            "the",
+            "cause",
+            "of",
+            "the",
+            "nationwide",
+            "FAA",
+            "ground",
+            "stop"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "an",
+          "is",
+          "was",
+          "were",
+          "has"
+        ],
+        "notes": [
+          {
+            "word": "What",
+            "text": "'What' 在這裡引導一個名詞子句，作為句子的主語，表示「我們所知道的事情」。",
+            "category": "其他"
+          },
+          {
+            "word": "about",
+            "text": "'about' 是介係詞，表示「關於」。",
             "category": "介係詞"
           },
           {
-            "word": "sparked",
-            "text": "'sparked' 是動詞，表示「引發」或「觸發」。",
+            "word": "nationwide",
+            "text": "'nationwide' 是形容詞，表示「全國性的」。",
+            "category": "其他"
+          },
+          {
+            "word": "ground stop",
+            "text": "這是一個複合名詞，表示「停飛」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The world’s highest bridge is so much more than just an engineering marvel",
+      "url": "https://edition.cnn.com/2026/11/14/travel/travel-news-worlds-highest-bridge",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The world’s highest bridge is so much more than just an engineering marvel",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/travel/travel-news-worlds-highest-bridge",
+        "zh": "世界上最高的橋樑不僅僅是一個工程奇蹟。",
+        "accepted": [
+          [
+            "The",
+            "world’s",
+            "highest",
+            "bridge",
+            "is",
+            "so",
+            "much",
+            "more",
+            "than",
+            "just",
+            "an",
+            "engineering",
+            "marvel"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "the",
+          "are",
+          "was",
+          "were",
+          "has"
+        ],
+        "notes": [
+          {
+            "word": "world’s",
+            "text": "這裡的撇號 's' 表示所有格，指「世界的」。",
+            "category": "其他"
+          },
+          {
+            "word": "highest",
+            "text": "'highest' 是形容詞 'high' 的最高級，表示「最高的」。",
+            "category": "其他"
+          },
+          {
+            "word": "so much more than",
+            "text": "這是一個片語，表示「遠不止於此」或「比...多得多」。",
+            "category": "其他"
+          },
+          {
+            "word": "an",
+            "text": "'an' 是不定冠詞，用於 'engineering marvel' 前，因為 'engineering' 以母音開頭。",
+            "category": "冠詞"
+          },
+          {
+            "word": "marvel",
+            "text": "'marvel' 是名詞，表示「奇蹟」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How a $49 sushi boat and sizzling dumplings help turn P.F. Chang’s around",
+      "url": "https://edition.cnn.com/2026/11/14/food/pf-changs-turnaround-plan",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How a $49 sushi boat and sizzling dumplings help turn P.F. Chang’s around",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/food/pf-changs-turnaround-plan",
+        "zh": "一份49美元的壽司船和滋滋作響的餃子如何幫助P.F. Chang's扭轉局面。",
+        "accepted": [
+          [
+            "How",
+            "a",
+            "$49",
+            "sushi",
+            "boat",
+            "and",
+            "sizzling",
+            "dumplings",
+            "help",
+            "turn",
+            "P.F.",
+            "Chang’s",
+            "around"
+          ]
+        ],
+        "distractors": [
+          "the",
+          "an",
+          "is",
+          "was",
+          "were",
+          "has"
+        ],
+        "notes": [
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於 'sushi boat' 前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "sizzling",
+            "text": "'sizzling' 是現在分詞作形容詞，表示「滋滋作響的」。",
+            "category": "其他"
+          },
+          {
+            "word": "help turn around",
+            "text": "'help' 後可接原形動詞 'turn around'，表示「幫助扭轉局面」。",
+            "category": "其他"
+          },
+          {
+            "word": "Chang’s",
+            "text": "這裡的撇號 's' 表示所有格，指「P.F. Chang's 這家餐廳」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Heart health is different for women. New guidelines explain how",
+      "url": "https://edition.cnn.com/2026/11/14/health/women-heart-cardiovascular-health-wellness",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Heart health is different for women. New guidelines explain how",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/health/women-heart-cardiovascular-health-wellness",
+        "zh": "女性的心臟健康有所不同。新指南解釋了原因。",
+        "accepted": [
+          [
+            "Heart",
+            "health",
+            "is",
+            "different",
+            "for",
+            "women",
+            ".",
+            "New",
+            "guidelines",
+            "explain",
+            "how"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "the",
+          "an",
+          "was",
+          "were",
+          "has"
+        ],
+        "notes": [
+          {
+            "word": "is",
+            "text": "'is' 是動詞 'be' 的第三人稱單數現在式，與主語 'Heart health' 保持一致。",
             "category": "時態"
           },
           {
-            "word": "classified",
-            "text": "'classified' 是形容詞，表示「機密的」。",
+            "word": "different",
+            "text": "'different' 是形容詞，表示「不同的」。",
             "category": "其他"
+          },
+          {
+            "word": "for",
+            "text": "'for' 在這裡表示「對於...來說」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "guidelines",
+            "text": "'guidelines' 是複數名詞，表示「指南、指導方針」。",
+            "category": "單複數"
+          },
+          {
+            "word": "explain",
+            "text": "'explain' 是動詞，與複數主語 'guidelines' 保持一致，使用原形動詞。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How the Nvidia scandal lifted the curtain on a loophole that’s giving China access to US chips",
+      "url": "https://edition.cnn.com/2026/11/14/tech/china-megaspeed-nvidia-scandal-hnk-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "How the Nvidia scandal lifted the curtain on a loophole that’s giving China access to US chips",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/tech/china-megaspeed-nvidia-scandal-hnk-intl",
+        "zh": "英偉達醜聞如何揭露了一個讓中國得以獲取美國晶片的漏洞。",
+        "accepted": [
+          [
+            "How",
+            "the",
+            "Nvidia",
+            "scandal",
+            "lifted",
+            "the",
+            "curtain",
+            "on",
+            "a",
+            "loophole",
+            "that’s",
+            "giving",
+            "China",
+            "access",
+            "to",
+            "US",
+            "chips"
+          ]
+        ],
+        "distractors": [
+          "an",
+          "is",
+          "was",
+          "were",
+          "has",
+          "have"
+        ],
+        "notes": [
+          {
+            "word": "lifted the curtain on",
+            "text": "這是一個片語，表示「揭露、揭開序幕」。",
+            "category": "其他"
+          },
+          {
+            "word": "on",
+            "text": "'on' 在這裡表示「關於」或「針對」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "a",
+            "text": "'a' 是不定冠詞，用於 'loophole' 前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "that’s giving",
+            "text": "'that’s' 是 'that is' 的縮寫，'giving' 是現在進行式，表示「正在提供」。",
+            "category": "時態"
+          },
+          {
+            "word": "access to",
+            "text": "'access to' 是一個片語，表示「獲取...的權限」。",
+            "category": "介係詞"
           }
         ]
       }
@@ -136,7 +439,7 @@
         "theme": "今日新聞",
         "sourceEn": "Trump to meet with China’s Xi and Russia’s Putin at historic trilateral sit-down on nuclear non-proliferation",
         "sourceUrl": "https://edition.cnn.com/2026/11/13/politics/trump-putin-xi-meeting",
-        "zh": "川普將在歷史性的三方會談上與中國習近平和俄羅斯普丁會面，討論核不擴散問題。",
+        "zh": "川普將在歷史性的三邊核不擴散會議上會見中國習近平和俄羅斯普京。",
         "accepted": [
           [
             "Trump",
@@ -158,595 +461,300 @@
           ]
         ],
         "distractors": [
-          "meeting",
-          "meets",
-          "Chinas",
-          "Russias",
-          "historically",
-          "non-proliferate"
+          "a",
+          "the",
+          "an",
+          "is",
+          "was",
+          "were"
         ],
         "notes": [
           {
             "word": "to meet",
-            "text": "'to meet' 是不定詞，表示未來的動作。",
+            "text": "'to meet' 是不定詞片語，表示將要發生的動作。",
             "category": "時態"
           },
           {
             "word": "with",
-            "text": "'meet with' 表示「與...會面」。",
+            "text": "'with' 在這裡表示「與...會面」。",
             "category": "介係詞"
           },
           {
+            "word": "China’s",
+            "text": "這裡的撇號 's' 表示所有格，指「中國的」。",
+            "category": "其他"
+          },
+          {
             "word": "at",
-            "text": "'at' 在此表示在某個地點或場合。",
+            "text": "'at' 在這裡表示「在（某個會議或活動）」。",
             "category": "介係詞"
           },
           {
             "word": "on",
-            "text": "'on' 在此表示「關於」或「針對某議題」。",
+            "text": "'on' 在這裡表示「關於（某個主題）」。",
             "category": "介係詞"
-          },
-          {
-            "word": "non-proliferation",
-            "text": "'non-proliferation' 是名詞，意為「不擴散」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Massive outage disrupts businesses, schools and governments around the world",
-      "url": "https://edition.cnn.com/2026/11/12/tech/microsoft-outage-cripples-office-workers-nationwide",
+      "en": "After 26 years, the US has lost its measles elimination status",
+      "url": "https://edition.cnn.com/2026/11/13/health/us-measles-elimination-status",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Massive outage disrupts businesses, schools and governments around the world",
-        "sourceUrl": "https://edition.cnn.com/2026/11/12/tech/microsoft-outage-cripples-office-workers-nationwide",
-        "zh": "大規模停電擾亂了世界各地的企業、學校和政府。",
+        "sourceEn": "After 26 years, the US has lost its measles elimination status",
+        "sourceUrl": "https://edition.cnn.com/2026/11/13/health/us-measles-elimination-status",
+        "zh": "26年後，美國失去了其麻疹清除狀態。",
         "accepted": [
           [
-            "Massive",
-            "outage",
-            "disrupts",
-            "businesses",
-            "schools",
-            "and",
-            "governments",
-            "around",
+            "After",
+            "26",
+            "years",
+            ",",
             "the",
-            "world"
-          ]
-        ],
-        "distractors": [
-          "massively",
-          "outages",
-          "disrupted",
-          "business",
-          "school",
-          "government"
-        ],
-        "notes": [
-          {
-            "word": "Massive",
-            "text": "'Massive' 是形容詞，修飾名詞 'outage'。",
-            "category": "其他"
-          },
-          {
-            "word": "outage",
-            "text": "'outage' 是名詞，意為「停電」或「中斷」。",
-            "category": "單複數"
-          },
-          {
-            "word": "disrupts",
-            "text": "'disrupts' 是動詞，表示「擾亂」或「中斷」，主詞是單數 'outage'，所以動詞加 's'。",
-            "category": "時態"
-          },
-          {
-            "word": "businesses, schools and governments",
-            "text": "這些名詞都使用複數形式，表示多個實體受到影響。",
-            "category": "單複數"
-          },
-          {
-            "word": "around the world",
-            "text": "這是常見的片語，表示「世界各地」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Darth Vader lightsaber smashes ‘Star Wars’ auction record",
-      "url": "https://edition.cnn.com/2026/11/13/style/darth-vader-lightsaber-star-wars-auction-record",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Darth Vader lightsaber smashes ‘Star Wars’ auction record",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/style/darth-vader-lightsaber-star-wars-auction-record",
-        "zh": "黑武士光劍打破《星際大戰》拍賣紀錄。",
-        "accepted": [
-          [
-            "Darth",
-            "Vader",
-            "lightsaber",
-            "smashes",
-            "‘Star",
-            "Wars’",
-            "auction",
-            "record"
-          ]
-        ],
-        "distractors": [
-          "Vaders",
-          "lightsabers",
-          "smash",
-          "starred",
-          "war",
-          "records"
-        ],
-        "notes": [
-          {
-            "word": "lightsaber",
-            "text": "'lightsaber' 是名詞，指「光劍」。",
-            "category": "其他"
-          },
-          {
-            "word": "smashes",
-            "text": "'smashes' 是動詞，表示「打破」或「粉碎」，主詞是單數 'lightsaber'，所以動詞加 'es'。",
-            "category": "時態"
-          },
-          {
-            "word": "auction",
-            "text": "'auction' 是名詞，意為「拍賣」。在這裡作形容詞修飾 'record'。",
-            "category": "其他"
-          },
-          {
-            "word": "record",
-            "text": "'record' 是名詞，意為「紀錄」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "US Air Force responds to suspected drone activity over UK airbase",
-      "url": "https://edition.cnn.com/2026/11/13/uk/uk-airbase-usaf-suspected-drone-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "US Air Force responds to suspected drone activity over UK airbase",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/uk/uk-airbase-usaf-suspected-drone-latam-intl",
-        "zh": "美國空軍回應英國空軍基地上空的疑似無人機活動。",
-        "accepted": [
-          [
             "US",
-            "Air",
-            "Force",
-            "responds",
-            "to",
-            "suspected",
-            "drone",
-            "activity",
-            "over",
-            "UK",
-            "airbase"
-          ]
-        ],
-        "distractors": [
-          "Forces",
-          "respond",
-          "suspect",
-          "drones",
-          "activities",
-          "airbases"
-        ],
-        "notes": [
-          {
-            "word": "responds",
-            "text": "'responds' 是動詞，表示「回應」，主詞是單數 'US Air Force'，所以動詞加 's'。",
-            "category": "時態"
-          },
-          {
-            "word": "to",
-            "text": "'responds to' 是固定搭配，表示「回應某事」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "suspected",
-            "text": "'suspected' 是過去分詞作形容詞，表示「被懷疑的」。",
-            "category": "其他"
-          },
-          {
-            "word": "activity",
-            "text": "'activity' 是名詞，意為「活動」，通常是不可數名詞。",
-            "category": "單複數"
-          },
-          {
-            "word": "over",
-            "text": "'over' 在此表示「在...上方」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Gallo Images/Orbital Horizon/Copernicus Sentinel Data/Getty Images",
-      "url": "https://edition.cnn.com/2026/11/13/middleeast/iran-targets-us-military-site-in-gulf-first-time-in-two-months-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Gallo Images/Orbital Horizon/Copernicus Sentinel Data/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/middleeast/iran-targets-us-military-site-in-gulf-first-time-in-two-months-intl",
-        "zh": "蓋帝圖像/軌道地平線/哥白尼哨兵數據/蓋帝圖像",
-        "accepted": [
-          [
-            "Gallo",
-            "Images/Orbital",
-            "Horizon/Copernicus",
-            "Sentinel",
-            "Data/Getty",
-            "Images"
-          ]
-        ],
-        "distractors": [
-          "Image",
-          "Horizons",
-          "Sentinels",
-          "Datas",
-          "Gettys",
-          "Image"
-        ],
-        "notes": [
-          {
-            "word": "Images",
-            "text": "這裡的 'Images' 是複數名詞，表示多張圖片。",
-            "category": "單複數"
-          },
-          {
-            "word": "Data",
-            "text": "'Data' 是名詞，意為「數據」，通常作不可數名詞使用。",
-            "category": "單複數"
-          },
-          {
-            "word": "/",
-            "text": "斜線符號在標題中常用來分隔不同的來源或資訊。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Peruvian homecoming: Pope Leo welcomed by record crowd on return to the country that shaped his path to the papacy",
-      "url": "https://edition.cnn.com/2026/11/11/americas/pope-leo-peru-visit-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Peruvian homecoming: Pope Leo welcomed by record crowd on return to the country that shaped his path to the papacy",
-        "sourceUrl": "https://edition.cnn.com/2026/11/11/americas/pope-leo-peru-visit-latam-intl",
-        "zh": "秘魯歸鄉：教宗良在返回塑造他教宗之路的國家時，受到創紀錄人群的歡迎。",
-        "accepted": [
-          [
-            "Peruvian",
-            "homecoming:",
-            "Pope",
-            "Leo",
-            "welcomed",
-            "by",
-            "record",
-            "crowd",
-            "on",
-            "return",
-            "to",
-            "the",
-            "country",
-            "that",
-            "shaped",
-            "his",
-            "path",
-            "to",
-            "the",
-            "papacy"
-          ]
-        ],
-        "distractors": [
-          "Peru",
-          "homecomings",
-          "welcomes",
-          "records",
-          "crowds",
-          "returns"
-        ],
-        "notes": [
-          {
-            "word": "homecoming",
-            "text": "'homecoming' 是名詞，意為「歸鄉」或「返鄉」。",
-            "category": "其他"
-          },
-          {
-            "word": "welcomed",
-            "text": "'welcomed' 是過去分詞，構成被動語態，表示「被歡迎」。",
-            "category": "時態"
-          },
-          {
-            "word": "by",
-            "text": "'by' 在被動語態中表示動作的執行者。",
-            "category": "介係詞"
-          },
-          {
-            "word": "on return",
-            "text": "'on return' 是片語，表示「在返回時」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "shaped",
-            "text": "'shaped' 是動詞，表示「塑造」或「形成」。",
-            "category": "時態"
-          },
-          {
-            "word": "papacy",
-            "text": "'papacy' 是名詞，意為「教宗職位」或「教宗任期」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Moscow car explosion injures former aide to pro-Russian Ukrainian politician",
-      "url": "https://edition.cnn.com/2026/11/13/europe/moscow-car-explosion-ukrainian-politician-injured-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Moscow car explosion injures former aide to pro-Russian Ukrainian politician",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/europe/moscow-car-explosion-ukrainian-politician-injured-intl",
-        "zh": "莫斯科汽車爆炸事件造成一名親俄烏克蘭政治人物的前助手受傷。",
-        "accepted": [
-          [
-            "Moscow",
-            "car",
-            "explosion",
-            "injures",
-            "former",
-            "aide",
-            "to",
-            "pro-Russian",
-            "Ukrainian",
-            "politician"
-          ]
-        ],
-        "distractors": [
-          "cars",
-          "explosions",
-          "injured",
-          "aides",
-          "pro-Russia",
-          "politicians"
-        ],
-        "notes": [
-          {
-            "word": "explosion",
-            "text": "'explosion' 是名詞，意為「爆炸」。",
-            "category": "其他"
-          },
-          {
-            "word": "injures",
-            "text": "'injures' 是動詞，表示「使受傷」，主詞是單數 'explosion'，所以動詞加 's'。",
-            "category": "時態"
-          },
-          {
-            "word": "former",
-            "text": "'former' 是形容詞，表示「前任的」或「以前的」。",
-            "category": "其他"
-          },
-          {
-            "word": "aide",
-            "text": "'aide' 是名詞，意為「助手」。",
-            "category": "單複數"
-          },
-          {
-            "word": "pro-Russian",
-            "text": "'pro-Russian' 是複合形容詞，表示「親俄羅斯的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Grief reverberates through this church near the deadly Brooklyn collapse",
-      "url": "https://edition.cnn.com/2026/11/13/us/immigrant-community-brooklyn-building-collapse",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Grief reverberates through this church near the deadly Brooklyn collapse",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/us/immigrant-community-brooklyn-building-collapse",
-        "zh": "悲傷在這座靠近致命布魯克林倒塌事件的教堂中迴盪。",
-        "accepted": [
-          [
-            "Grief",
-            "reverberates",
-            "through",
-            "this",
-            "church",
-            "near",
-            "the",
-            "deadly",
-            "Brooklyn",
-            "collapse"
-          ]
-        ],
-        "distractors": [
-          "Grieving",
-          "reverberate",
-          "throughout",
-          "churches",
-          "nearest",
-          "collapses"
-        ],
-        "notes": [
-          {
-            "word": "Grief",
-            "text": "'Grief' 是名詞，意為「悲傷」，通常是不可數名詞。",
-            "category": "單複數"
-          },
-          {
-            "word": "reverberates",
-            "text": "'reverberates' 是動詞，表示「迴盪」或「產生反響」，主詞是單數 'Grief'，所以動詞加 's'。",
-            "category": "時態"
-          },
-          {
-            "word": "through",
-            "text": "'through' 在此表示「穿過」或「遍及」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "near",
-            "text": "'near' 是介係詞，表示「靠近」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "collapse",
-            "text": "'collapse' 是名詞，意為「倒塌」或「崩潰」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Once Trump’s presumed heir, Vance is reconsidering his political future Vice President JD Vance has given serious consideration to not running for president in 2028 after last week’s calamitous midterm elections, people close to him tell CNN.",
-      "url": "https://edition.cnn.com/2026/11/13/politics/jd-vance-2028-presidential-campaign",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Once Trump’s presumed heir, Vance is reconsidering his political future Vice President JD Vance has given serious consideration to not running for president in 2028 after last week’s calamitous midterm elections, people close to him tell CNN.",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/politics/jd-vance-2028-presidential-campaign",
-        "zh": "曾被視為川普接班人的范斯，正在重新考慮他的政治前途。據親近人士告訴CNN，副總統JD范斯在上週災難性的期中選舉後，已認真考慮不競選2028年總統。",
-        "accepted": [
-          [
-            "Once",
-            "Trump’s",
-            "presumed",
-            "heir,",
-            "Vance",
-            "is",
-            "reconsidering",
-            "his",
-            "political",
-            "future",
-            "Vice",
-            "President",
-            "JD",
-            "Vance",
             "has",
-            "given",
-            "serious",
-            "consideration",
-            "to",
-            "not",
-            "running",
-            "for",
-            "president",
-            "in",
-            "2028",
-            "after",
-            "last",
-            "week’s",
-            "calamitous",
-            "midterm",
-            "elections,",
-            "people",
-            "close",
-            "to",
-            "him",
-            "tell",
-            "CNN."
+            "lost",
+            "its",
+            "measles",
+            "elimination",
+            "status"
           ]
         ],
         "distractors": [
-          "onced",
-          "Trumps",
-          "presume",
-          "heirs",
-          "reconsider",
-          "futures"
+          "a",
+          "an",
+          "is",
+          "was",
+          "were",
+          "have"
         ],
         "notes": [
           {
-            "word": "Once",
-            "text": "'Once' 在此作副詞，表示「曾經」。",
-            "category": "其他"
+            "word": "After",
+            "text": "'After' 是介係詞，表示「在...之後」。",
+            "category": "介係詞"
           },
           {
-            "word": "presumed",
-            "text": "'presumed' 是過去分詞作形容詞，表示「被推定為」或「被認為是」。",
-            "category": "其他"
-          },
-          {
-            "word": "is reconsidering",
-            "text": "這是現在進行式，表示「正在重新考慮」。",
+            "word": "has lost",
+            "text": "這是現在完成式，表示動作已經完成並對現在產生影響。",
             "category": "時態"
           },
           {
-            "word": "has given",
-            "text": "這是現在完成式，表示「已經給予」或「已經考慮」。",
-            "category": "時態"
+            "word": "its",
+            "text": "'its' 是所有格代名詞，指「美國的」。",
+            "category": "其他"
           },
           {
-            "word": "calamitous",
-            "text": "'calamitous' 是形容詞，表示「災難性的」。",
+            "word": "elimination",
+            "text": "'elimination' 是名詞，表示「清除、消除」。",
+            "category": "其他"
+          },
+          {
+            "word": "status",
+            "text": "'status' 是名詞，表示「狀態、地位」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Rubio says more work to do and downplays election losses amid speculation about political future",
-      "url": "https://edition.cnn.com/2026/11/13/politics/marco-rubio-political-speech",
+      "en": "Police lift evacuation order issued after bomb found at Illinois ethanol plant, officials say",
+      "url": "https://edition.cnn.com/2026/11/14/us/peoria-bomb-threat-fbi-ethanol-plant-evacuations-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Rubio says more work to do and downplays election losses amid speculation about political future",
-        "sourceUrl": "https://edition.cnn.com/2026/11/13/politics/marco-rubio-political-speech",
-        "zh": "魯比歐表示還有更多工作要做，並淡化了選舉失利，儘管外界對其政治前途有所猜測。",
+        "sourceEn": "Police lift evacuation order issued after bomb found at Illinois ethanol plant, officials say",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/us/peoria-bomb-threat-fbi-ethanol-plant-evacuations-hnk",
+        "zh": "官員表示，警方解除了在伊利諾伊州乙醇工廠發現炸彈後發布的疏散命令。",
         "accepted": [
           [
-            "Rubio",
-            "says",
-            "more",
-            "work",
-            "to",
-            "do",
-            "and",
-            "downplays",
-            "election",
-            "losses",
-            "amid",
-            "speculation",
-            "about",
-            "political",
-            "future"
+            "Police",
+            "lift",
+            "evacuation",
+            "order",
+            "issued",
+            "after",
+            "bomb",
+            "found",
+            "at",
+            "Illinois",
+            "ethanol",
+            "plant",
+            ",",
+            "officials",
+            "say"
           ]
         ],
         "distractors": [
-          "said",
-          "works",
-          "doing",
-          "downplayed",
-          "loss",
-          "speculate"
+          "a",
+          "the",
+          "an",
+          "is",
+          "was",
+          "were"
         ],
         "notes": [
           {
-            "word": "says",
-            "text": "'says' 是動詞，表示「說」，主詞是單數 'Rubio'，所以動詞加 's'。",
+            "word": "lift",
+            "text": "'lift' 在這裡作動詞，表示「解除」。",
+            "category": "其他"
+          },
+          {
+            "word": "evacuation order",
+            "text": "這是一個複合名詞，表示「疏散命令」。",
+            "category": "其他"
+          },
+          {
+            "word": "issued",
+            "text": "'issued' 是過去分詞作形容詞，修飾 'order'，表示「被發布的」。",
+            "category": "其他"
+          },
+          {
+            "word": "found",
+            "text": "'found' 是過去分詞作形容詞，修飾 'bomb'，表示「被發現的」。",
+            "category": "其他"
+          },
+          {
+            "word": "at",
+            "text": "'at' 在這裡表示「在（某個地點）」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Tanker ‘lost control’ and hit cruise ship in New Orleans, spurring massive evacuation, officials say",
+      "url": "https://edition.cnn.com/2026/11/13/us/new-orleans-tanker-crash",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Tanker ‘lost control’ and hit cruise ship in New Orleans, spurring massive evacuation, officials say",
+        "sourceUrl": "https://edition.cnn.com/2026/11/13/us/new-orleans-tanker-crash",
+        "zh": "官員表示，油輪「失控」並撞上紐奧良的遊輪，引發大規模疏散。",
+        "accepted": [
+          [
+            "Tanker",
+            "‘lost",
+            "control’",
+            "and",
+            "hit",
+            "cruise",
+            "ship",
+            "in",
+            "New",
+            "Orleans",
+            ",",
+            "spurring",
+            "massive",
+            "evacuation",
+            ",",
+            "officials",
+            "say"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "the",
+          "an",
+          "is",
+          "was",
+          "were"
+        ],
+        "notes": [
+          {
+            "word": "lost control",
+            "text": "這是一個片語，表示「失去控制」。",
+            "category": "其他"
+          },
+          {
+            "word": "hit",
+            "text": "'hit' 是動詞 'hit' 的過去式，表示「撞擊」。",
             "category": "時態"
           },
           {
-            "word": "work",
-            "text": "'work' 在此作不可數名詞，表示「工作」。",
-            "category": "單複數"
+            "word": "in",
+            "text": "'in' 在這裡表示「在（某個城市）」。",
+            "category": "介係詞"
           },
           {
-            "word": "downplays",
-            "text": "'downplays' 是動詞，表示「淡化」或「輕描淡寫」，與 'says' 並列，主詞是 'Rubio'。",
+            "word": "spurring",
+            "text": "'spurring' 是現在分詞，作結果狀語，表示「引發、促使」。",
+            "category": "其他"
+          },
+          {
+            "word": "massive",
+            "text": "'massive' 是形容詞，表示「大規模的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The Golden Gophers gave an 8-year-old boy one of his happiest memories. After his death, they gave his family something more",
+      "url": "https://edition.cnn.com/2026/11/14/sport/school-shooting-minnesota-football-family",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The Golden Gophers gave an 8-year-old boy one of his happiest memories. After his death, they gave his family something more",
+        "sourceUrl": "https://edition.cnn.com/2026/11/14/sport/school-shooting-minnesota-football-family",
+        "zh": "金地鼠隊給了一個8歲男孩他最快樂的回憶之一。在他去世後，他們給了他的家人更多的東西。",
+        "accepted": [
+          [
+            "The",
+            "Golden",
+            "Gophers",
+            "gave",
+            "an",
+            "8-year-old",
+            "boy",
+            "one",
+            "of",
+            "his",
+            "happiest",
+            "memories",
+            ".",
+            "After",
+            "his",
+            "death",
+            ",",
+            "they",
+            "gave",
+            "his",
+            "family",
+            "something",
+            "more"
+          ]
+        ],
+        "distractors": [
+          "a",
+          "the",
+          "is",
+          "was",
+          "were",
+          "has"
+        ],
+        "notes": [
+          {
+            "word": "gave",
+            "text": "'gave' 是動詞 'give' 的過去式，表示「給予」。",
             "category": "時態"
           },
           {
-            "word": "losses",
-            "text": "'losses' 是名詞，意為「損失」或「失利」，這裡使用複數形式。",
+            "word": "an",
+            "text": "'an' 是不定冠詞，用於 '8-year-old' 前，因為 '8' 的發音以母音開頭。",
+            "category": "冠詞"
+          },
+          {
+            "word": "one of",
+            "text": "'one of' 後接複數名詞，表示「...之一」。",
             "category": "單複數"
           },
           {
-            "word": "amid",
-            "text": "'amid' 是介係詞，表示「在...之中」或「在...背景下」。",
+            "word": "happiest",
+            "text": "'happiest' 是形容詞 'happy' 的最高級，表示「最快樂的」。",
+            "category": "其他"
+          },
+          {
+            "word": "After",
+            "text": "'After' 是介係詞，表示「在...之後」。",
             "category": "介係詞"
           }
         ]
