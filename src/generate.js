@@ -71,23 +71,38 @@ async function callModel(system, model, userText, apiKey, maxOutputTokens = 1024
   );
 }
 
-async function runPuzzleModel(system, userText, apiKey) {
-  let res = await callModel(system, "gemini-2.5-flash", userText, apiKey);
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-  if (res.status === 429 || res.status === 503) {
-    // capacity problem on Google's side ("high demand") — retry once on the
-    // lighter model instead of bouncing the user
-    const fallback = await callModel(system, "gemini-2.5-flash-lite", userText, apiKey).catch(
-      () => null
-    );
-    if (fallback?.ok) res = fallback;
-    // fallback failed too: keep the primary response so the error the user
-    // sees describes the main model, not the retry
+// Tries gemini-2.5-flash, then gemini-2.5-flash-lite, retrying each once
+// after a short pause when the failure looks like transient capacity (429 /
+// 503 — Google's "this model is currently experiencing high demand").
+// A single fallback-to-lite attempt wasn't enough: 2026-11-19 and 2026-11-20
+// both saw the daily job fail with BOTH models overloaded on the first try,
+// so each model now gets two tries before the next one is attempted — a
+// non-capacity error (bad key, bad request) still fails immediately, no
+// point retrying that.
+async function callWithRetry(system, userText, apiKey, maxOutputTokens) {
+  let lastRes = null;
+  for (const model of ["gemini-2.5-flash", "gemini-2.5-flash-lite"]) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const res = await callModel(system, model, userText, apiKey, maxOutputTokens).catch(
+        () => null
+      );
+      if (res?.ok) return res;
+      if (res) lastRes = res;
+      if (res && res.status !== 429 && res.status !== 503) break; // not a capacity problem — move to the next model
+      if (attempt === 0) await sleep(5000); // one short pause before this same model's second try
+    }
   }
+  return lastRes;
+}
 
-  if (!res.ok) {
-    const err = await res.json().catch(() => null);
-    throw new Error(err?.error?.message || `Gemini API ${res.status}`);
+async function runPuzzleModel(system, userText, apiKey) {
+  const res = await callWithRetry(system, userText, apiKey, 1024);
+
+  if (!res || !res.ok) {
+    const err = await res?.json().catch(() => null);
+    throw new Error(err?.error?.message || `Gemini API ${res?.status ?? "無回應"}`);
   }
 
   const data = await res.json();
@@ -163,22 +178,11 @@ RULES:
 const BATCH_MAX_OUTPUT_TOKENS = 16384;
 
 async function runBatchModel(system, userText, apiKey) {
-  let res = await callModel(system, "gemini-2.5-flash", userText, apiKey, BATCH_MAX_OUTPUT_TOKENS);
+  const res = await callWithRetry(system, userText, apiKey, BATCH_MAX_OUTPUT_TOKENS);
 
-  if (res.status === 429 || res.status === 503) {
-    const fallback = await callModel(
-      system,
-      "gemini-2.5-flash-lite",
-      userText,
-      apiKey,
-      BATCH_MAX_OUTPUT_TOKENS
-    ).catch(() => null);
-    if (fallback?.ok) res = fallback;
-  }
-
-  if (!res.ok) {
-    const err = await res.json().catch(() => null);
-    throw new Error(err?.error?.message || `Gemini API ${res.status}`);
+  if (!res || !res.ok) {
+    const err = await res?.json().catch(() => null);
+    throw new Error(err?.error?.message || `Gemini API ${res?.status ?? "無回應"}`);
   }
 
   const data = await res.json();
