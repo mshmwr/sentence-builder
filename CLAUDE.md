@@ -83,5 +83,14 @@ deployment, so `scripts/verify-deploy.sh` reports a SHA mismatch until the next 
   the whole run. `BATCH_MAX_OUTPUT_TOKENS` (16384) needs to stay well above whatever
   `POOL_SIZE` headlines' worth of zh/accepted/distractors/notes actually costs — raise it
   if `POOL_SIZE` in `scripts/fetch-cnn-sentences.mjs` grows.
+- **"This model is currently experiencing high demand" can hit both fallback models at
+  once.** `src/generate.js`'s `callWithRetry()` tries `gemini-2.5-flash`, then
+  `gemini-2.5-flash-lite`, on 429/503. 2026-11-19 and 2026-11-20 both saw the daily job
+  fail with *both* models overloaded on the first try each — a single fallback attempt
+  wasn't enough, so each model now gets one retry (5s pause) before the next model is
+  tried. If the daily site content still goes stale for more than a day or two, check
+  `actions_list`/`get_job_logs` for this workflow before assuming something else broke —
+  the job fails clean (site just keeps serving yesterday's `daily-sentences.json`) with
+  no other symptom.
 - **`dist/` is gitignored** but a stale copy exists on disk. Never deploy from a local
   build artifact; Vercel builds from the repo.
