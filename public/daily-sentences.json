@@ -1,16 +1,200 @@
 {
   "date": "2026-11-21",
-  "fetchedAt": "2026-11-21T01:15:32.286Z",
+  "fetchedAt": "2026-11-21T08:53:22.678Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors The president spent large swathes of his 90-minute, digression-filled press conference lavishing praise on the two autocrats",
+      "en": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
+      "url": "https://edition.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
+        "zh": "由於Anthropic的首次公開募股未能平息人工智慧的緊張情緒，那斯達克指數抹去了今年的漲幅。",
+        "accepted": [
+          [
+            "Nasdaq",
+            "wipes",
+            "out",
+            "gains",
+            "for",
+            "the",
+            "year",
+            "as",
+            "Anthropic",
+            "IPO",
+            "fails",
+            "to",
+            "quell",
+            "AI",
+            "nerves"
+          ]
+        ],
+        "distractors": [
+          "gain",
+          "nervous",
+          "failed",
+          "quelling",
+          "wipe",
+          "fail"
+        ],
+        "notes": [
+          {
+            "word": "wipes out",
+            "text": "「wipe out」是動詞片語，意為「抹去、消除」。這裡使用第三人稱單數現在式「wipes out」。",
+            "category": "時態"
+          },
+          {
+            "word": "gains",
+            "text": "「gains」是名詞，指「獲利、漲幅」，這裡用複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "for",
+            "text": "「for the year」表示「就這一年而言」或「今年的」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "fails to quell",
+            "text": "「fail to do something」意為「未能做某事」。",
+            "category": "其他"
+          },
+          {
+            "word": "nerves",
+            "text": "「nerves」在這裡指「緊張、不安的情緒」，常用複數。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Why a top economist says the stock market will remain volatile",
+      "url": "https://edition.cnn.com/2026/11/20/business/video/why-a-top-economist-says-the-stock-market-will-remain-volatile-the-lead-jake-tapper",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Why a top economist says the stock market will remain volatile",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/business/video/why-a-top-economist-says-the-stock-market-will-remain-volatile-the-lead-jake-tapper",
+        "zh": "為何一位頂尖經濟學家表示股市將保持波動。",
+        "accepted": [
+          [
+            "Why",
+            "a",
+            "top",
+            "economist",
+            "says",
+            "the",
+            "stock",
+            "market",
+            "will",
+            "remain",
+            "volatile"
+          ]
+        ],
+        "distractors": [
+          "say",
+          "remains",
+          "economists",
+          "volatility",
+          "remaind",
+          "an"
+        ],
+        "notes": [
+          {
+            "word": "a",
+            "text": "「a top economist」中的「a」是不定冠詞，用於單數可數名詞前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "says",
+            "text": "「says」是動詞「say」的第三人稱單數現在式，主詞是「a top economist」。",
+            "category": "時態"
+          },
+          {
+            "word": "will remain",
+            "text": "「will remain」表示未來會持續的狀態，意為「將保持」。",
+            "category": "時態"
+          },
+          {
+            "word": "volatile",
+            "text": "「volatile」是形容詞，意為「不穩定的、波動的」。",
+            "category": "其他"
+          },
+          {
+            "word": "the",
+            "text": "「the stock market」中的「the」是定冠詞，特指「股市」。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Anthropic’s IPO was a blockbuster. Wall Street is still worried",
+      "url": "https://edition.cnn.com/2026/11/20/investing/anthropic-ai-stock-nasdaq",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Anthropic’s IPO was a blockbuster. Wall Street is still worried",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/investing/anthropic-ai-stock-nasdaq",
+        "zh": "Anthropic的首次公開募股是一次巨大的成功。華爾街仍然感到擔憂。",
+        "accepted": [
+          [
+            "Anthropic’s",
+            "IPO",
+            "was",
+            "a",
+            "blockbuster",
+            ".",
+            "Wall",
+            "Street",
+            "is",
+            "still",
+            "worried"
+          ]
+        ],
+        "distractors": [
+          "blockbusters",
+          "worry",
+          "were",
+          "worrying",
+          "still",
+          "an"
+        ],
+        "notes": [
+          {
+            "word": "Anthropic’s",
+            "text": "「Anthropic’s」是所有格，表示「Anthropic的」。",
+            "category": "其他"
+          },
+          {
+            "word": "was",
+            "text": "「was」是動詞「be」的過去式，主詞是單數「IPO」。",
+            "category": "時態"
+          },
+          {
+            "word": "a blockbuster",
+            "text": "「a blockbuster」指「一部巨片；一次巨大的成功」，這裡用不定冠詞「a」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "is still worried",
+            "text": "「is still worried」表示現在仍然處於擔憂的狀態，是被動語態。",
+            "category": "時態"
+          },
+          {
+            "word": "Wall Street",
+            "text": "「Wall Street」特指「華爾街」，常作為美國金融界的代稱。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors",
       "url": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors The president spent large swathes of his 90-minute, digression-filled press conference lavishing praise on the two autocrats",
+        "sourceEn": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors",
         "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways",
-        "zh": "從川普關於普丁、習近平以及可能的繼任者的「兼收並蓄」新聞發布會中得到的啟示。這位總統在他長達90分鐘、充滿離題內容的記者會上，大肆讚揚這兩位獨裁者。",
+        "zh": "川普就普丁、習近平以及可能的繼任者發表的兼收並蓄的新聞發布會的要點。",
         "accepted": [
           [
             "Takeaways",
@@ -20,7 +204,8 @@
             "news",
             "briefing",
             "on",
-            "Putin,",
+            "Putin",
+            ",",
             "Xi",
             "—",
             "and",
@@ -29,628 +214,512 @@
           ]
         ],
         "distractors": [
-          "Insights",
-          "Highlights",
-          "Conclusions",
-          "Observations",
-          "Findings",
-          "Lessons"
+          "takeaway",
+          "brief",
+          "successors'",
+          "possibility",
+          "briefed",
+          "of"
         ],
         "notes": [
           {
             "word": "Takeaways",
-            "text": "這裡的 'Takeaways' 指的是從某事中獲得的「主要訊息」或「啟示」。",
+            "text": "「Takeaways」是名詞，指「要點、結論」，這裡用複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "from",
+            "text": "「from」表示「來自…的」，說明要點的來源。",
+            "category": "介係詞"
+          },
+          {
+            "word": "Trump’s",
+            "text": "「Trump’s」是所有格，表示「川普的」。",
             "category": "其他"
           },
           {
             "word": "eclectic",
-            "text": "'eclectic' 形容詞，意為「兼收並蓄的」、「不拘一格的」，指內容廣泛且多樣。",
-            "category": "其他"
-          },
-          {
-            "word": "briefing",
-            "text": "'briefing' 指的是「簡報」或「新聞發布會」。",
+            "text": "「eclectic」是形容詞，意為「兼收並蓄的、不拘一格的」。",
             "category": "其他"
           },
           {
             "word": "on",
-            "text": "介係詞 'on' 在這裡表示「關於」或「針對」某個主題。",
+            "text": "「on」在這裡表示「關於…的」，說明新聞發布會的主題。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Trump intel chief is warned no funding for Musk’s SpaceX without answers on Ukraine Starshield slowdown Democrats have vowed to investigate the limits on Ukraine’s Starshield system, which Ukraine relies on for its defenses, when they control Congress next year.",
-      "url": "https://edition.cnn.com/2026/11/20/politics/himes-ukraine-starlink-slowdown",
+      "en": "‘For us, he is a killer’: Zelensky reacts to Trump calling Putin a friend",
+      "url": "https://edition.cnn.com/2026/11/20/world/video/zelensky-reacts-trump-putin-friend-intldsk-digivid",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump intel chief is warned no funding for Musk’s SpaceX without answers on Ukraine Starshield slowdown Democrats have vowed to investigate the limits on Ukraine’s Starshield system, which Ukraine relies on for its defenses, when they control Congress next year.",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/himes-ukraine-starlink-slowdown",
-        "zh": "川普的情報主管被警告：如果無法解釋烏克蘭星盾系統的緩慢問題，馬斯克的SpaceX將不會獲得資金。民主黨人誓言，當他們明年控制國會時，將調查烏克蘭星盾系統的限制，該系統是烏克蘭防禦所依賴的。",
+        "sourceEn": "‘For us, he is a killer’: Zelensky reacts to Trump calling Putin a friend",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/world/video/zelensky-reacts-trump-putin-friend-intldsk-digivid",
+        "zh": "「對我們來說，他是一個殺手」：澤倫斯基回應川普稱普丁為朋友。",
         "accepted": [
           [
-            "Trump",
-            "intel",
-            "chief",
+            "‘For",
+            "us",
+            ",",
+            "he",
             "is",
-            "warned",
-            "no",
-            "funding",
-            "for",
-            "Musk’s",
-            "SpaceX",
-            "without",
-            "answers",
-            "on",
-            "Ukraine",
-            "Starshield",
-            "slowdown"
+            "a",
+            "killer’",
+            ":",
+            "Zelensky",
+            "reacts",
+            "to",
+            "Trump",
+            "calling",
+            "Putin",
+            "a",
+            "friend"
           ]
         ],
         "distractors": [
-          "Intelligence",
-          "Director",
-          "Advisor",
-          "Officer",
-          "Head",
-          "Leader"
+          "kill",
+          "reaction",
+          "reacted",
+          "call",
+          "friends",
+          "an"
         ],
         "notes": [
           {
-            "word": "intel",
-            "text": "'intel' 是 'intelligence' 的縮寫，在這裡指「情報」。",
-            "category": "其他"
+            "word": "For us",
+            "text": "「For us」意為「對我們來說」。",
+            "category": "介係詞"
           },
           {
-            "word": "is warned",
-            "text": "這是被動語態，表示「被警告」。",
+            "word": "a killer",
+            "text": "「a killer」中的「a」是不定冠詞，用於單數可數名詞「killer」前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "reacts to",
+            "text": "「reacts to」是動詞片語，意為「對…作出反應」，這裡用第三人稱單數現在式。",
             "category": "時態"
           },
           {
-            "word": "no funding",
-            "text": "'no funding' 表示「沒有資金」，強調資金的缺乏。",
+            "word": "calling",
+            "text": "「calling」是動名詞，用於「Trump calling Putin a friend」表示「川普稱普丁為朋友」這個動作。",
             "category": "其他"
           },
           {
-            "word": "without",
-            "text": "介係詞 'without' 表示「沒有」或「缺乏」某物或某條件。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Is the UK heading toward a Brexit U-turn? Leaders from the UK and EU are meeting for a landmark summit as British Prime Minister Andy Burnham pushes for a closer relationship with the bloc a decade after the Brexit vote",
-      "url": "https://edition.cnn.com/2026/11/20/uk/united-kingdom-uk-brexit-vote-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Is the UK heading toward a Brexit U-turn? Leaders from the UK and EU are meeting for a landmark summit as British Prime Minister Andy Burnham pushes for a closer relationship with the bloc a decade after the Brexit vote",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/uk/united-kingdom-uk-brexit-vote-intl",
-        "zh": "英國是否正走向脫歐政策的U型轉彎？英國和歐盟的領導人正在舉行一場里程碑式的峰會，因為英國首相安迪·伯納姆在脫歐投票十年後，正推動與該集團建立更緊密的關係。",
-        "accepted": [
-          [
-            "Is",
-            "the",
-            "UK",
-            "heading",
-            "toward",
-            "a",
-            "Brexit",
-            "U-turn?"
-          ]
-        ],
-        "distractors": [
-          "Moving",
-          "Going",
-          "Turning",
-          "Approaching",
-          "Facing",
-          "Shifting"
-        ],
-        "notes": [
-          {
-            "word": "heading toward",
-            "text": "'heading toward' 表示「正朝向...方向發展」或「正走向...」。",
-            "category": "其他"
-          },
-          {
-            "word": "U-turn",
-            "text": "'U-turn' 指的是「U型轉彎」，在政策上表示「政策大轉彎」或「徹底改變方向」。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞 'the' 用於特指「英國」這個國家。",
-            "category": "冠詞"
-          },
-          {
-            "word": "a",
-            "text": "不定冠詞 'a' 用於指稱一個「U型轉彎」的實例。",
+            "word": "a friend",
+            "text": "「a friend」中的「a」是不定冠詞，用於單數可數名詞「friend」前。",
             "category": "冠詞"
           }
         ]
       }
     },
     {
-      "en": "Hampshire & Isle of Wight Constabulary",
-      "url": "https://edition.cnn.com/2026/11/20/us/sonia-exelby-murder-dwain-hall-intl",
+      "en": "Miller ‘most powerful man’, Trump says",
+      "url": "https://edition.cnn.com/2026/11/20/politics/video/trump-miller-most-powerful-man-digvid-vrtc",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Hampshire & Isle of Wight Constabulary",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/us/sonia-exelby-murder-dwain-hall-intl",
-        "zh": "漢普郡和懷特島警察局",
+        "sourceEn": "Miller ‘most powerful man’, Trump says",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/video/trump-miller-most-powerful-man-digvid-vrtc",
+        "zh": "川普說，米勒是「最有權勢的人」。",
         "accepted": [
           [
-            "Hampshire",
-            "&",
-            "Isle",
-            "of",
-            "Wight",
-            "Constabulary"
-          ]
-        ],
-        "distractors": [
-          "Police",
-          "Department",
-          "Force",
-          "Bureau",
-          "Agency",
-          "Office"
-        ],
-        "notes": [
-          {
-            "word": "Constabulary",
-            "text": "'Constabulary' 是「警察局」或「警察部隊」的正式名稱，尤其在英國常用。",
-            "category": "其他"
-          },
-          {
-            "word": "&",
-            "text": "'&' 是 'and' 的符號，表示「和」。",
-            "category": "其他"
-          },
-          {
-            "word": "Isle",
-            "text": "'Isle' 意為「島嶼」，是 'island' 的較舊或詩意的用法。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "介係詞 'of' 在這裡表示所有格或歸屬關係，即「懷特島的」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
-      "url": "https://edition.cnn.com/2026/11/20/us/california-palisades-fire-trial-verdict",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/us/california-palisades-fire-trial-verdict",
-        "zh": "聯邦陪審團判定該男子在洛杉磯引發2025年致命的帕利塞德斯大火罪名成立。",
-        "accepted": [
-          [
-            "Federal",
-            "jury",
-            "convicts",
-            "man",
-            "of",
-            "starting",
-            "the",
-            "deadly",
-            "2025",
-            "Palisades",
-            "Fire",
-            "in",
-            "Los",
-            "Angeles"
-          ]
-        ],
-        "distractors": [
-          "Guilty",
-          "Sentences",
-          "Acquits",
-          "Indicts",
-          "Charges",
-          "Finds"
-        ],
-        "notes": [
-          {
-            "word": "convicts",
-            "text": "'convicts' 動詞，意為「判決有罪」。",
-            "category": "其他"
-          },
-          {
-            "word": "of starting",
-            "text": "動詞 'convict' 後常接介係詞 'of'，表示「因...罪名定罪」。'starting' 是動名詞，表示「引發」或「開始」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "the",
-            "text": "定冠詞 'the' 用於特指「2025年帕利塞德斯大火」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "deadly",
-            "text": "'deadly' 形容詞，意為「致命的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Justice Sotomayor signals support for Supreme Court term limits",
-      "url": "https://edition.cnn.com/2026/11/20/politics/sonia-sotomayor-supreme-court-term-limits",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Justice Sotomayor signals support for Supreme Court term limits",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/sonia-sotomayor-supreme-court-term-limits",
-        "zh": "索托馬約爾大法官表示支持最高法院的任期限制。",
-        "accepted": [
-          [
-            "Justice",
-            "Sotomayor",
-            "signals",
-            "support",
-            "for",
-            "Supreme",
-            "Court",
-            "term",
-            "limits"
-          ]
-        ],
-        "distractors": [
-          "Indicates",
-          "Shows",
-          "Expresses",
-          "Suggests",
-          "Hints",
-          "Reveals"
-        ],
-        "notes": [
-          {
-            "word": "signals",
-            "text": "'signals' 動詞，意為「發出信號」、「表示」。",
-            "category": "其他"
-          },
-          {
-            "word": "support for",
-            "text": "'support for' 表示「對...的支持」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "term limits",
-            "text": "'term limits' 指的是「任期限制」。",
-            "category": "其他"
-          },
-          {
-            "word": "Justice",
-            "text": "在美國，'Justice' 是對最高法院大法官的尊稱。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Brazil’s former president Jair Bolsonaro has been hospitalized again, son says",
-      "url": "https://edition.cnn.com/2026/11/20/americas/bolsonaro-brazil-hospital-intl-latam",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Brazil’s former president Jair Bolsonaro has been hospitalized again, son says",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/americas/bolsonaro-brazil-hospital-intl-latam",
-        "zh": "巴西前總統雅伊爾·波索納羅再次住院，他的兒子說。",
-        "accepted": [
-          [
-            "Brazil’s",
-            "former",
-            "president",
-            "Jair",
-            "Bolsonaro",
-            "has",
-            "been",
-            "hospitalized",
-            "again,",
-            "son",
+            "Miller",
+            "‘most",
+            "powerful",
+            "man’",
+            ",",
+            "Trump",
             "says"
           ]
         ],
         "distractors": [
-          "Ex-president",
-          "Previous",
-          "Past",
-          "Old",
-          "Late",
-          "Retired"
+          "powerfulest",
+          "said",
+          "man's",
+          "power",
+          "saying",
+          "more"
         ],
         "notes": [
           {
-            "word": "Brazil’s",
-            "text": "'Brazil’s' 是所有格形式，表示「巴西的」。",
+            "word": "most powerful",
+            "text": "「most powerful」是形容詞「powerful」的最高級形式，表示「最有權勢的」。",
             "category": "其他"
           },
           {
-            "word": "has been hospitalized",
-            "text": "這是現在完成式的被動語態，表示「已經住院了」，強調狀態的持續或結果。",
-            "category": "時態"
-          },
-          {
-            "word": "again",
-            "text": "'again' 副詞，表示「再次」、「又一次」。",
-            "category": "其他"
-          },
-          {
-            "word": "son says",
-            "text": "這是新聞標題常見的簡潔語法，省略了 'his' 和 'who' 或 'as'，意為「他的兒子說」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Crime Allen J. Schaben/Los Angeles Times/Getty Images",
-      "url": "https://edition.cnn.com/2026/11/20/us/alleged-train-heist-22-million-cargo-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Crime Allen J. Schaben/Los Angeles Times/Getty Images",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/us/alleged-train-heist-22-million-cargo-hnk",
-        "zh": "犯罪 Allen J. Schaben/洛杉磯時報/蓋蒂圖片社",
-        "accepted": [
-          [
-            "Crime",
-            "Allen",
-            "J.",
-            "Schaben/Los",
-            "Angeles",
-            "Times/Getty",
-            "Images"
-          ]
-        ],
-        "distractors": [
-          "Criminality",
-          "Offense",
-          "Lawbreaking",
-          "Misconduct",
-          "Felony",
-          "Violation"
-        ],
-        "notes": [
-          {
-            "word": "Crime",
-            "text": "'Crime' 名詞，意為「犯罪」或「罪行」。",
-            "category": "其他"
-          },
-          {
-            "word": "/",
-            "text": "斜線符號 '/' 在這裡表示「和」或「來自」，用於分隔不同的來源或作者。",
-            "category": "其他"
-          },
-          {
-            "word": "Images",
-            "text": "'Images' 名詞複數，意為「圖片」或「影像」。",
+            "word": "man",
+            "text": "「man」是單數名詞，指「男人、人」。",
             "category": "單複數"
+          },
+          {
+            "word": "says",
+            "text": "「says」是動詞「say」的第三人稱單數現在式，主詞是「Trump」。",
+            "category": "時態"
+          },
+          {
+            "word": "‘most powerful man’",
+            "text": "這裡省略了定冠詞「the」，在新聞標題中常見。",
+            "category": "冠詞"
+          },
+          {
+            "word": "Miller",
+            "text": "「Miller」是人名，作為句子的主語。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Gen Z are protesting across 25 European countries – why? Tens of thousands of young people are slated to fill Europe’s streets on Friday – in an organized international youth-led day of action across more than 25 nations",
-      "url": "https://edition.cnn.com/2026/11/20/europe/gen-z-youth-protests-europe-intl",
+      "en": "Zelensky on Trump calling Putin friend",
+      "url": "https://edition.cnn.com/2026/11/20/world/video/zelensky-trump-calling-putin-friend-killer-vrtc",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Gen Z are protesting across 25 European countries – why? Tens of thousands of young people are slated to fill Europe’s streets on Friday – in an organized international youth-led day of action across more than 25 nations",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/europe/gen-z-youth-protests-europe-intl",
-        "zh": "Z世代正在25個歐洲國家進行抗議——為什麼？數萬名年輕人預計將於週五走上歐洲街頭——這是一場有組織的、由青年主導的國際行動日，遍及25個以上的國家。",
+        "sourceEn": "Zelensky on Trump calling Putin friend",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/world/video/zelensky-trump-calling-putin-friend-killer-vrtc",
+        "zh": "澤倫斯基談川普稱普丁為朋友。",
         "accepted": [
           [
-            "Gen",
-            "Z",
-            "are",
-            "protesting",
-            "across",
-            "25",
-            "European",
-            "countries",
-            "–",
-            "why?"
+            "Zelensky",
+            "on",
+            "Trump",
+            "calling",
+            "Putin",
+            "friend"
           ]
         ],
         "distractors": [
-          "Demonstrating",
-          "Rebelling",
-          "Objecting",
-          "Resisting",
-          "Opposing",
-          "Challenging"
+          "calls",
+          "friends",
+          "called",
+          "of",
+          "friend's",
+          "call"
         ],
         "notes": [
           {
-            "word": "Gen Z",
-            "text": "'Gen Z' 是 'Generation Z' 的縮寫，指「Z世代」。",
-            "category": "其他"
-          },
-          {
-            "word": "are protesting",
-            "text": "這是現在進行式，表示「正在抗議」。",
-            "category": "時態"
-          },
-          {
-            "word": "across",
-            "text": "介係詞 'across' 表示「遍及」、「橫跨」。",
+            "word": "on",
+            "text": "「on」在這裡表示「關於…的」，說明澤倫斯基談論的主題。",
             "category": "介係詞"
           },
           {
-            "word": "countries",
-            "text": "'countries' 是 'country' 的複數形式，表示「國家」。",
+            "word": "calling",
+            "text": "「calling」是動名詞，用於「Trump calling Putin friend」表示「川普稱普丁為朋友」這個動作。",
+            "category": "其他"
+          },
+          {
+            "word": "friend",
+            "text": "這裡「friend」省略了不定冠詞「a」，在新聞標題中常見。",
+            "category": "冠詞"
+          },
+          {
+            "word": "Zelensky",
+            "text": "「Zelensky」是人名，作為句子的主語。",
+            "category": "其他"
+          },
+          {
+            "word": "Trump",
+            "text": "「Trump」是人名，作為「calling」的邏輯主語。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump says he won’t let US companies build data centers outside the country",
+      "url": "https://edition.cnn.com/2026/11/20/politics/video/trump-says-he-wont-let-us-companies-build-data-centers-outside-the-country",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump says he won’t let US companies build data centers outside the country",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/video/trump-says-he-wont-let-us-companies-build-data-centers-outside-the-country",
+        "zh": "川普表示他不會讓美國公司在國外建立數據中心。",
+        "accepted": [
+          [
+            "Trump",
+            "says",
+            "he",
+            "won’t",
+            "let",
+            "US",
+            "companies",
+            "build",
+            "data",
+            "centers",
+            "outside",
+            "the",
+            "country"
+          ]
+        ],
+        "distractors": [
+          "said",
+          "company",
+          "built",
+          "lets",
+          "country's",
+          "inside"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "「says」是動詞「say」的第三人稱單數現在式，主詞是「Trump」。",
+            "category": "時態"
+          },
+          {
+            "word": "won’t let",
+            "text": "「won’t let」是「will not let」的縮寫，表示「將不會允許」。",
+            "category": "時態"
+          },
+          {
+            "word": "let...build",
+            "text": "「let + 受詞 + 原形動詞」表示「讓…做某事」。",
+            "category": "其他"
+          },
+          {
+            "word": "companies",
+            "text": "「companies」是名詞「company」的複數形式。",
+            "category": "單複數"
+          },
+          {
+            "word": "outside the country",
+            "text": "「outside the country」意為「在國外」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "White House national cyber director set to be replaced",
+      "url": "https://edition.cnn.com/2026/11/20/politics/video/white-house-national-cyber-director-set-to-be-replaced-vrtc",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "White House national cyber director set to be replaced",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/video/white-house-national-cyber-director-set-to-be-replaced-vrtc",
+        "zh": "白宮國家網路總監將被替換。",
+        "accepted": [
+          [
+            "White",
+            "House",
+            "national",
+            "cyber",
+            "director",
+            "set",
+            "to",
+            "be",
+            "replaced"
+          ]
+        ],
+        "distractors": [
+          "replacing",
+          "replaces",
+          "replacements",
+          "director's",
+          "replacing",
+          "setting"
+        ],
+        "notes": [
+          {
+            "word": "White House",
+            "text": "「White House」指「白宮」。",
+            "category": "其他"
+          },
+          {
+            "word": "national cyber director",
+            "text": "「national cyber director」是職稱，指「國家網路總監」。",
+            "category": "其他"
+          },
+          {
+            "word": "set to be replaced",
+            "text": "「be set to do something」意為「準備好做某事；預計將做某事」。這裡用被動語態「to be replaced」。",
+            "category": "時態"
+          },
+          {
+            "word": "replaced",
+            "text": "「replaced」是動詞「replace」的過去分詞，用於被動語態。",
+            "category": "時態"
+          },
+          {
+            "word": "director",
+            "text": "「director」是單數名詞，指「總監、主管」。",
             "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Melania Trump seeks ‘solitude’ in new docuseries",
-      "url": "https://edition.cnn.com/2026/11/20/politics/melania-trump-amazon-series",
+      "en": "Cartel kingpin on FBI’s most wanted list reportedly captured in dramatic Mexican military operation",
+      "url": "https://edition.cnn.com/2026/11/21/americas/el-chapo-isidro-mexico-fbi-wanted-hnk-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Melania Trump seeks ‘solitude’ in new docuseries",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/melania-trump-amazon-series",
-        "zh": "梅拉尼婭·川普在新紀錄片系列中尋求「獨處」。",
+        "sourceEn": "Cartel kingpin on FBI’s most wanted list reportedly captured in dramatic Mexican military operation",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/americas/el-chapo-isidro-mexico-fbi-wanted-hnk-intl",
+        "zh": "據報導，販毒集團頭目在一次戲劇性的墨西哥軍事行動中被捕，他名列聯邦調查局的頭號通緝犯名單。",
         "accepted": [
           [
-            "Melania",
-            "Trump",
-            "seeks",
-            "‘solitude’",
+            "Cartel",
+            "kingpin",
+            "on",
+            "FBI’s",
+            "most",
+            "wanted",
+            "list",
+            "reportedly",
+            "captured",
             "in",
-            "new",
-            "docuseries"
+            "dramatic",
+            "Mexican",
+            "military",
+            "operation"
           ]
         ],
         "distractors": [
-          "Looks",
-          "Finds",
-          "Wants",
-          "Desires",
-          "Aims",
-          "Pursues"
+          "capture",
+          "captures",
+          "report",
+          "lists",
+          "operations",
+          "of"
         ],
         "notes": [
           {
-            "word": "seeks",
-            "text": "'seeks' 動詞，意為「尋求」、「追求」。",
+            "word": "Cartel kingpin",
+            "text": "「Cartel kingpin」指「販毒集團頭目」。",
             "category": "其他"
           },
           {
-            "word": "solitude",
-            "text": "'solitude' 名詞，意為「獨處」、「孤獨」。",
+            "word": "on",
+            "text": "「on FBI’s most wanted list」表示「在聯邦調查局的頭號通緝犯名單上」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "FBI’s",
+            "text": "「FBI’s」是所有格，表示「聯邦調查局的」。",
             "category": "其他"
+          },
+          {
+            "word": "reportedly captured",
+            "text": "「reportedly」是副詞，意為「據報導」。這裡省略了「was」，形成新聞標題的簡潔語法。",
+            "category": "時態"
           },
           {
             "word": "in",
-            "text": "介係詞 'in' 在這裡表示「在...之中」或「在...裡面」。",
+            "text": "「in a dramatic Mexican military operation」表示「在一次戲劇性的墨西哥軍事行動中」。",
             "category": "介係詞"
-          },
-          {
-            "word": "docuseries",
-            "text": "'docuseries' 是 'documentary series' 的縮寫，指「紀錄片系列」。",
-            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Blacklisted Chinese universities procured Nvidia chips, records show",
-      "url": "https://edition.cnn.com/2026/11/19/politics/nvidia-chips-china-universities-invs",
+      "en": "Why surgery wasn’t an option to save Fiona the hippo",
+      "url": "https://edition.cnn.com/2026/11/20/us/fiona-hippo-death-zoo",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Blacklisted Chinese universities procured Nvidia chips, records show",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/politics/nvidia-chips-china-universities-invs",
-        "zh": "記錄顯示，被列入黑名單的中國大學採購了英偉達晶片。",
+        "sourceEn": "Why surgery wasn’t an option to save Fiona the hippo",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/us/fiona-hippo-death-zoo",
+        "zh": "為何手術不是拯救河馬費歐娜的選項。",
         "accepted": [
           [
-            "Blacklisted",
-            "Chinese",
-            "universities",
-            "procured",
-            "Nvidia",
-            "chips,",
-            "records",
-            "show"
+            "Why",
+            "surgery",
+            "wasn’t",
+            "an",
+            "option",
+            "to",
+            "save",
+            "Fiona",
+            "the",
+            "hippo"
           ]
         ],
         "distractors": [
-          "Acquired",
-          "Obtained",
-          "Bought",
-          "Purchased",
-          "Got",
-          "Secured"
+          "options",
+          "was",
+          "saving",
+          "hippo's",
+          "save",
+          "a"
         ],
         "notes": [
           {
-            "word": "Blacklisted",
-            "text": "'Blacklisted' 是過去分詞作形容詞，意為「被列入黑名單的」。",
+            "word": "wasn’t",
+            "text": "「wasn’t」是「was not」的縮寫，是動詞「be」的過去式否定形式。",
+            "category": "時態"
+          },
+          {
+            "word": "an option",
+            "text": "「an option」中的「an」是不定冠詞，用於以元音開頭的單數可數名詞「option」前。",
+            "category": "冠詞"
+          },
+          {
+            "word": "to save",
+            "text": "「to save」是不定詞片語，表示目的，意為「為了拯救」。",
             "category": "其他"
           },
           {
-            "word": "universities",
-            "text": "'universities' 是 'university' 的複數形式，表示「大學」。",
+            "word": "the hippo",
+            "text": "「the hippo」中的「the」是定冠詞，特指「那隻河馬」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "surgery",
+            "text": "「surgery」是不可數名詞，指「手術」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Media Have I Got News for You",
+      "url": "https://edition.cnn.com/2026/11/20/media/zohran-mamdani-cnn-have-i-got-news-for-you",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Media Have I Got News for You",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/media/zohran-mamdani-cnn-have-i-got-news-for-you",
+        "zh": "媒體：我有新聞要告訴你。",
+        "accepted": [
+          [
+            "Media",
+            "Have",
+            "I",
+            "Got",
+            "News",
+            "for",
+            "You"
+          ]
+        ],
+        "distractors": [
+          "has",
+          "had",
+          "news's",
+          "you're",
+          "gotten",
+          "to"
+        ],
+        "notes": [
+          {
+            "word": "Media",
+            "text": "「Media」在這裡作為一個稱呼或標題，指「媒體」。",
+            "category": "其他"
+          },
+          {
+            "word": "Have I Got",
+            "text": "「Have I Got...?」是一種非正式的問句形式，意為「我有沒有…？」，在這裡表示「我有…」。",
+            "category": "其他"
+          },
+          {
+            "word": "News",
+            "text": "「News」是不可數名詞，意為「新聞」。",
             "category": "單複數"
           },
           {
-            "word": "procured",
-            "text": "'procured' 動詞，意為「採購」、「獲得」。",
-            "category": "其他"
-          },
-          {
-            "word": "records show",
-            "text": "這是新聞標題常見的簡潔語法，意為「記錄顯示」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "My hometown voted Republican for 50 years. Then came an election shaped by economic frustration",
-      "url": "https://edition.cnn.com/2026/11/20/economy/colorado-springs-democrat-first-time-in-50-years",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "My hometown voted Republican for 50 years. Then came an election shaped by economic frustration",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/economy/colorado-springs-democrat-first-time-in-50-years",
-        "zh": "我的家鄉投票給共和黨長達50年。然後，一場由經濟挫折塑造的選舉來臨了。",
-        "accepted": [
-          [
-            "My",
-            "hometown",
-            "voted",
-            "Republican",
-            "for",
-            "50",
-            "years.",
-            "Then",
-            "came",
-            "an",
-            "election",
-            "shaped",
-            "by",
-            "economic",
-            "frustration"
-          ]
-        ],
-        "distractors": [
-          "Cast",
-          "Supported",
-          "Chose",
-          "Elected",
-          "Backed",
-          "Favored"
-        ],
-        "notes": [
-          {
-            "word": "voted Republican",
-            "text": "'voted Republican' 表示「投票給共和黨」。",
-            "category": "其他"
-          },
-          {
-            "word": "for 50 years",
-            "text": "介係詞 'for' 在這裡表示時間的持續，即「長達50年」。",
+            "word": "for",
+            "text": "「for you」表示「給你、為你」。",
             "category": "介係詞"
           },
           {
-            "word": "Then came",
-            "text": "這是倒裝句，強調「然後來了」某事。",
-            "category": "其他"
-          },
-          {
-            "word": "shaped by",
-            "text": "'shaped by' 是被動語態，意為「由...塑造的」、「受...影響的」。",
-            "category": "其他"
-          },
-          {
-            "word": "an",
-            "text": "不定冠詞 'an' 用於指稱一個「選舉」。",
-            "category": "冠詞"
+            "word": "Got",
+            "text": "「Got」是動詞「get」的過去分詞，在這裡與「Have」連用，表示「擁有」。",
+            "category": "時態"
           }
         ]
       }
