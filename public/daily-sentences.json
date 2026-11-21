@@ -1,51 +1,121 @@
 {
-  "date": "2026-11-20",
-  "fetchedAt": "2026-11-20T13:32:53.282Z",
+  "date": "2026-11-21",
+  "fetchedAt": "2026-11-21T01:15:32.286Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "Eighty-one minutes with strongman ‘friends’. Takeaways from Trump’s sit-down with Putin and Xi Diplomatic breakthroughs, it turned out, were not the point. The talks themselves were the deliverable.",
-      "url": "https://edition.cnn.com/2026/11/19/politics/trump-putin-xi-meeting-takeaways",
+      "en": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors The president spent large swathes of his 90-minute, digression-filled press conference lavishing praise on the two autocrats",
+      "url": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Eighty-one minutes with strongman ‘friends’. Takeaways from Trump’s sit-down with Putin and Xi Diplomatic breakthroughs, it turned out, were not the point. The talks themselves were the deliverable.",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/politics/trump-putin-xi-meeting-takeaways",
-        "zh": "與強人「朋友」的八十一分鐘。川普與普丁和習近平會談的啟示：結果證明，外交突破並非重點。會談本身才是成果。",
+        "sourceEn": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors The president spent large swathes of his 90-minute, digression-filled press conference lavishing praise on the two autocrats",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways",
+        "zh": "從川普關於普丁、習近平以及可能的繼任者的「兼收並蓄」新聞發布會中得到的啟示。這位總統在他長達90分鐘、充滿離題內容的記者會上，大肆讚揚這兩位獨裁者。",
         "accepted": [
           [
-            "Eighty-one",
-            "minutes",
-            "with",
-            "strongman",
-            "‘friends’"
+            "Takeaways",
+            "from",
+            "Trump’s",
+            "eclectic",
+            "news",
+            "briefing",
+            "on",
+            "Putin,",
+            "Xi",
+            "—",
+            "and",
+            "possible",
+            "successors"
           ]
         ],
         "distractors": [
-          "friendship",
-          "strong",
-          "minute",
-          "eighty"
+          "Insights",
+          "Highlights",
+          "Conclusions",
+          "Observations",
+          "Findings",
+          "Lessons"
         ],
         "notes": [
           {
-            "word": "Eighty-one",
-            "text": "「Eighty-one」是數字「八十一」。在英文中，數字通常放在名詞之前修飾數量。",
+            "word": "Takeaways",
+            "text": "這裡的 'Takeaways' 指的是從某事中獲得的「主要訊息」或「啟示」。",
             "category": "其他"
           },
           {
-            "word": "minutes",
-            "text": "「minutes」是「分鐘」的複數形式。當數量大於一時，名詞需要使用複數。",
-            "category": "單複數"
+            "word": "eclectic",
+            "text": "'eclectic' 形容詞，意為「兼收並蓄的」、「不拘一格的」，指內容廣泛且多樣。",
+            "category": "其他"
           },
           {
-            "word": "with",
-            "text": "「with」在這裡表示「與...一起」或「和...在一起」，說明了時間是與誰共度的。",
+            "word": "briefing",
+            "text": "'briefing' 指的是「簡報」或「新聞發布會」。",
+            "category": "其他"
+          },
+          {
+            "word": "on",
+            "text": "介係詞 'on' 在這裡表示「關於」或「針對」某個主題。",
             "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump intel chief is warned no funding for Musk’s SpaceX without answers on Ukraine Starshield slowdown Democrats have vowed to investigate the limits on Ukraine’s Starshield system, which Ukraine relies on for its defenses, when they control Congress next year.",
+      "url": "https://edition.cnn.com/2026/11/20/politics/himes-ukraine-starlink-slowdown",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump intel chief is warned no funding for Musk’s SpaceX without answers on Ukraine Starshield slowdown Democrats have vowed to investigate the limits on Ukraine’s Starshield system, which Ukraine relies on for its defenses, when they control Congress next year.",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/himes-ukraine-starlink-slowdown",
+        "zh": "川普的情報主管被警告：如果無法解釋烏克蘭星盾系統的緩慢問題，馬斯克的SpaceX將不會獲得資金。民主黨人誓言，當他們明年控制國會時，將調查烏克蘭星盾系統的限制，該系統是烏克蘭防禦所依賴的。",
+        "accepted": [
+          [
+            "Trump",
+            "intel",
+            "chief",
+            "is",
+            "warned",
+            "no",
+            "funding",
+            "for",
+            "Musk’s",
+            "SpaceX",
+            "without",
+            "answers",
+            "on",
+            "Ukraine",
+            "Starshield",
+            "slowdown"
+          ]
+        ],
+        "distractors": [
+          "Intelligence",
+          "Director",
+          "Advisor",
+          "Officer",
+          "Head",
+          "Leader"
+        ],
+        "notes": [
+          {
+            "word": "intel",
+            "text": "'intel' 是 'intelligence' 的縮寫，在這裡指「情報」。",
+            "category": "其他"
           },
           {
-            "word": "strongman",
-            "text": "「strongman」意指「強人」，通常指政治上擁有巨大權力且行事獨斷的領導者。",
+            "word": "is warned",
+            "text": "這是被動語態，表示「被警告」。",
+            "category": "時態"
+          },
+          {
+            "word": "no funding",
+            "text": "'no funding' 表示「沒有資金」，強調資金的缺乏。",
             "category": "其他"
+          },
+          {
+            "word": "without",
+            "text": "介係詞 'without' 表示「沒有」或「缺乏」某物或某條件。",
+            "category": "介係詞"
           }
         ]
       }
@@ -57,7 +127,7 @@
         "theme": "今日新聞",
         "sourceEn": "Is the UK heading toward a Brexit U-turn? Leaders from the UK and EU are meeting for a landmark summit as British Prime Minister Andy Burnham pushes for a closer relationship with the bloc a decade after the Brexit vote",
         "sourceUrl": "https://edition.cnn.com/2026/11/20/uk/united-kingdom-uk-brexit-vote-intl",
-        "zh": "英國是否正走向脫歐政策大轉彎？英國首相安迪·伯納姆在脫歐公投十年後推動與歐盟建立更緊密的關係，英歐領導人正舉行一場里程碑式的峰會。",
+        "zh": "英國是否正走向脫歐政策的U型轉彎？英國和歐盟的領導人正在舉行一場里程碑式的峰會，因為英國首相安迪·伯納姆在脫歐投票十年後，正推動與該集團建立更緊密的關係。",
         "accepted": [
           [
             "Is",
@@ -71,395 +141,452 @@
           ]
         ],
         "distractors": [
-          "headed",
-          "towards",
-          "turning",
-          "turns"
+          "Moving",
+          "Going",
+          "Turning",
+          "Approaching",
+          "Facing",
+          "Shifting"
         ],
         "notes": [
           {
-            "word": "Is",
-            "text": "「Is」是動詞「to be」的第三人稱單數現在式，用於構成疑問句，表示「是否」。",
-            "category": "時態"
+            "word": "heading toward",
+            "text": "'heading toward' 表示「正朝向...方向發展」或「正走向...」。",
+            "category": "其他"
           },
           {
-            "word": "heading",
-            "text": "「heading toward」是一個動詞片語，表示「正朝向...前進」或「正走向...」。",
-            "category": "時態"
+            "word": "U-turn",
+            "text": "'U-turn' 指的是「U型轉彎」，在政策上表示「政策大轉彎」或「徹底改變方向」。",
+            "category": "其他"
           },
           {
             "word": "the",
-            "text": "「the」是定冠詞，用於特指「英國」這個國家。",
+            "text": "定冠詞 'the' 用於特指「英國」這個國家。",
             "category": "冠詞"
           },
           {
             "word": "a",
-            "text": "「a」是不定冠詞，用於指稱「一個」未具體的「Brexit U-turn」。",
+            "text": "不定冠詞 'a' 用於指稱一個「U型轉彎」的實例。",
+            "category": "冠詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Hampshire & Isle of Wight Constabulary",
+      "url": "https://edition.cnn.com/2026/11/20/us/sonia-exelby-murder-dwain-hall-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Hampshire & Isle of Wight Constabulary",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/us/sonia-exelby-murder-dwain-hall-intl",
+        "zh": "漢普郡和懷特島警察局",
+        "accepted": [
+          [
+            "Hampshire",
+            "&",
+            "Isle",
+            "of",
+            "Wight",
+            "Constabulary"
+          ]
+        ],
+        "distractors": [
+          "Police",
+          "Department",
+          "Force",
+          "Bureau",
+          "Agency",
+          "Office"
+        ],
+        "notes": [
+          {
+            "word": "Constabulary",
+            "text": "'Constabulary' 是「警察局」或「警察部隊」的正式名稱，尤其在英國常用。",
+            "category": "其他"
+          },
+          {
+            "word": "&",
+            "text": "'&' 是 'and' 的符號，表示「和」。",
+            "category": "其他"
+          },
+          {
+            "word": "Isle",
+            "text": "'Isle' 意為「島嶼」，是 'island' 的較舊或詩意的用法。",
+            "category": "其他"
+          },
+          {
+            "word": "of",
+            "text": "介係詞 'of' 在這裡表示所有格或歸屬關係，即「懷特島的」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+      "url": "https://edition.cnn.com/2026/11/20/us/california-palisades-fire-trial-verdict",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/us/california-palisades-fire-trial-verdict",
+        "zh": "聯邦陪審團判定該男子在洛杉磯引發2025年致命的帕利塞德斯大火罪名成立。",
+        "accepted": [
+          [
+            "Federal",
+            "jury",
+            "convicts",
+            "man",
+            "of",
+            "starting",
+            "the",
+            "deadly",
+            "2025",
+            "Palisades",
+            "Fire",
+            "in",
+            "Los",
+            "Angeles"
+          ]
+        ],
+        "distractors": [
+          "Guilty",
+          "Sentences",
+          "Acquits",
+          "Indicts",
+          "Charges",
+          "Finds"
+        ],
+        "notes": [
+          {
+            "word": "convicts",
+            "text": "'convicts' 動詞，意為「判決有罪」。",
+            "category": "其他"
+          },
+          {
+            "word": "of starting",
+            "text": "動詞 'convict' 後常接介係詞 'of'，表示「因...罪名定罪」。'starting' 是動名詞，表示「引發」或「開始」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "the",
+            "text": "定冠詞 'the' 用於特指「2025年帕利塞德斯大火」。",
             "category": "冠詞"
           },
           {
-            "word": "toward",
-            "text": "「toward」是一個介係詞，表示「朝向」或「往...方向」。",
-            "category": "介係詞"
+            "word": "deadly",
+            "text": "'deadly' 形容詞，意為「致命的」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Marco Rubio’s tone has notably shifted on a 2028 run Republicans in the secretary of state's orbit are strategizing on how to push him into the presidential race",
-      "url": "https://edition.cnn.com/2026/11/19/politics/marco-rubio-2028-race-republicans",
+      "en": "Justice Sotomayor signals support for Supreme Court term limits",
+      "url": "https://edition.cnn.com/2026/11/20/politics/sonia-sotomayor-supreme-court-term-limits",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Marco Rubio’s tone has notably shifted on a 2028 run Republicans in the secretary of state's orbit are strategizing on how to push him into the presidential race",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/politics/marco-rubio-2028-race-republicans",
-        "zh": "馬可·盧比歐對2028年競選總統的態度顯著轉變。國務卿周圍的共和黨人正在策劃如何推動他參加總統競選。",
+        "sourceEn": "Justice Sotomayor signals support for Supreme Court term limits",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/sonia-sotomayor-supreme-court-term-limits",
+        "zh": "索托馬約爾大法官表示支持最高法院的任期限制。",
         "accepted": [
           [
-            "Marco",
-            "Rubio’s",
-            "tone",
+            "Justice",
+            "Sotomayor",
+            "signals",
+            "support",
+            "for",
+            "Supreme",
+            "Court",
+            "term",
+            "limits"
+          ]
+        ],
+        "distractors": [
+          "Indicates",
+          "Shows",
+          "Expresses",
+          "Suggests",
+          "Hints",
+          "Reveals"
+        ],
+        "notes": [
+          {
+            "word": "signals",
+            "text": "'signals' 動詞，意為「發出信號」、「表示」。",
+            "category": "其他"
+          },
+          {
+            "word": "support for",
+            "text": "'support for' 表示「對...的支持」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "term limits",
+            "text": "'term limits' 指的是「任期限制」。",
+            "category": "其他"
+          },
+          {
+            "word": "Justice",
+            "text": "在美國，'Justice' 是對最高法院大法官的尊稱。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Brazil’s former president Jair Bolsonaro has been hospitalized again, son says",
+      "url": "https://edition.cnn.com/2026/11/20/americas/bolsonaro-brazil-hospital-intl-latam",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Brazil’s former president Jair Bolsonaro has been hospitalized again, son says",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/americas/bolsonaro-brazil-hospital-intl-latam",
+        "zh": "巴西前總統雅伊爾·波索納羅再次住院，他的兒子說。",
+        "accepted": [
+          [
+            "Brazil’s",
+            "former",
+            "president",
+            "Jair",
+            "Bolsonaro",
             "has",
-            "notably",
-            "shifted",
-            "on",
-            "a",
-            "2028",
-            "run"
+            "been",
+            "hospitalized",
+            "again,",
+            "son",
+            "says"
           ]
         ],
         "distractors": [
-          "shift",
-          "shifting",
-          "notable",
-          "running"
+          "Ex-president",
+          "Previous",
+          "Past",
+          "Old",
+          "Late",
+          "Retired"
         ],
         "notes": [
           {
-            "word": "Rubio’s",
-            "text": "「Rubio’s」是所有格形式，表示「盧比歐的」。",
+            "word": "Brazil’s",
+            "text": "'Brazil’s' 是所有格形式，表示「巴西的」。",
             "category": "其他"
           },
           {
-            "word": "has shifted",
-            "text": "「has shifted」是現在完成式，表示動作已經發生並對現在產生影響。",
+            "word": "has been hospitalized",
+            "text": "這是現在完成式的被動語態，表示「已經住院了」，強調狀態的持續或結果。",
             "category": "時態"
           },
           {
-            "word": "notably",
-            "text": "「notably」是一個副詞，修飾動詞「shifted」，表示「顯著地」或「值得注意地」。",
+            "word": "again",
+            "text": "'again' 副詞，表示「再次」、「又一次」。",
             "category": "其他"
           },
           {
-            "word": "on",
-            "text": "「on」在這裡表示「關於」或「針對」某個主題或計劃。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a run",
-            "text": "「a run」在這裡指「一次競選」，特別是總統競選。",
+            "word": "son says",
+            "text": "這是新聞標題常見的簡潔語法，省略了 'his' 和 'who' 或 'as'，意為「他的兒子說」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Republican leaders fume after members who lost reelection are no-shows",
-      "url": "https://edition.cnn.com/2026/11/20/politics/mike-johnson-republican-attendance-votes",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Republican leaders fume after members who lost reelection are no-shows",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/mike-johnson-republican-attendance-votes",
-        "zh": "共和黨領導人對那些未能連任的成員缺席感到憤怒。",
-        "accepted": [
-          [
-            "Republican",
-            "leaders",
-            "fume",
-            "after",
-            "members",
-            "who",
-            "lost",
-            "reelection",
-            "are",
-            "no-shows"
-          ]
-        ],
-        "distractors": [
-          "fuming",
-          "lose",
-          "losing",
-          "show"
-        ],
-        "notes": [
-          {
-            "word": "fume",
-            "text": "「fume」在這裡作動詞，表示「大發雷霆」或「憤怒」。",
-            "category": "其他"
-          },
-          {
-            "word": "after",
-            "text": "「after」是一個介係詞，表示「在...之後」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "members",
-            "text": "「members」是「成員」的複數形式，因為這裡指的是多個成員。",
-            "category": "單複數"
-          },
-          {
-            "word": "lost",
-            "text": "「lost」是動詞「lose」的過去式，表示「失去」或「未能贏得」。",
-            "category": "時態"
-          },
-          {
-            "word": "no-shows",
-            "text": "「no-shows」是一個複合名詞，指「缺席者」或「未到場的人」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "More than a dozen charged in train heist ring that stole $22 million in goods",
+      "en": "Crime Allen J. Schaben/Los Angeles Times/Getty Images",
       "url": "https://edition.cnn.com/2026/11/20/us/alleged-train-heist-22-million-cargo-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "More than a dozen charged in train heist ring that stole $22 million in goods",
+        "sourceEn": "Crime Allen J. Schaben/Los Angeles Times/Getty Images",
         "sourceUrl": "https://edition.cnn.com/2026/11/20/us/alleged-train-heist-22-million-cargo-hnk",
-        "zh": "十多人因火車搶劫團夥被起訴，該團夥竊取了價值2200萬美元的貨物。",
+        "zh": "犯罪 Allen J. Schaben/洛杉磯時報/蓋蒂圖片社",
         "accepted": [
           [
-            "More",
-            "than",
-            "a",
-            "dozen",
-            "charged",
-            "in",
-            "train",
-            "heist",
-            "ring",
-            "that",
-            "stole",
-            "$22",
-            "million",
-            "in",
-            "goods"
+            "Crime",
+            "Allen",
+            "J.",
+            "Schaben/Los",
+            "Angeles",
+            "Times/Getty",
+            "Images"
           ]
         ],
         "distractors": [
-          "charging",
-          "stealing",
-          "good",
-          "millions"
+          "Criminality",
+          "Offense",
+          "Lawbreaking",
+          "Misconduct",
+          "Felony",
+          "Violation"
         ],
         "notes": [
           {
-            "word": "More than a dozen",
-            "text": "「More than a dozen」表示「超過十二個」或「十多人」。",
+            "word": "Crime",
+            "text": "'Crime' 名詞，意為「犯罪」或「罪行」。",
             "category": "其他"
           },
           {
-            "word": "charged",
-            "text": "「charged」在這裡是過去分詞，構成被動語態，表示「被起訴」。",
+            "word": "/",
+            "text": "斜線符號 '/' 在這裡表示「和」或「來自」，用於分隔不同的來源或作者。",
+            "category": "其他"
+          },
+          {
+            "word": "Images",
+            "text": "'Images' 名詞複數，意為「圖片」或「影像」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Gen Z are protesting across 25 European countries – why? Tens of thousands of young people are slated to fill Europe’s streets on Friday – in an organized international youth-led day of action across more than 25 nations",
+      "url": "https://edition.cnn.com/2026/11/20/europe/gen-z-youth-protests-europe-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Gen Z are protesting across 25 European countries – why? Tens of thousands of young people are slated to fill Europe’s streets on Friday – in an organized international youth-led day of action across more than 25 nations",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/europe/gen-z-youth-protests-europe-intl",
+        "zh": "Z世代正在25個歐洲國家進行抗議——為什麼？數萬名年輕人預計將於週五走上歐洲街頭——這是一場有組織的、由青年主導的國際行動日，遍及25個以上的國家。",
+        "accepted": [
+          [
+            "Gen",
+            "Z",
+            "are",
+            "protesting",
+            "across",
+            "25",
+            "European",
+            "countries",
+            "–",
+            "why?"
+          ]
+        ],
+        "distractors": [
+          "Demonstrating",
+          "Rebelling",
+          "Objecting",
+          "Resisting",
+          "Opposing",
+          "Challenging"
+        ],
+        "notes": [
+          {
+            "word": "Gen Z",
+            "text": "'Gen Z' 是 'Generation Z' 的縮寫，指「Z世代」。",
+            "category": "其他"
+          },
+          {
+            "word": "are protesting",
+            "text": "這是現在進行式，表示「正在抗議」。",
             "category": "時態"
+          },
+          {
+            "word": "across",
+            "text": "介係詞 'across' 表示「遍及」、「橫跨」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "countries",
+            "text": "'countries' 是 'country' 的複數形式，表示「國家」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Melania Trump seeks ‘solitude’ in new docuseries",
+      "url": "https://edition.cnn.com/2026/11/20/politics/melania-trump-amazon-series",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Melania Trump seeks ‘solitude’ in new docuseries",
+        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/melania-trump-amazon-series",
+        "zh": "梅拉尼婭·川普在新紀錄片系列中尋求「獨處」。",
+        "accepted": [
+          [
+            "Melania",
+            "Trump",
+            "seeks",
+            "‘solitude’",
+            "in",
+            "new",
+            "docuseries"
+          ]
+        ],
+        "distractors": [
+          "Looks",
+          "Finds",
+          "Wants",
+          "Desires",
+          "Aims",
+          "Pursues"
+        ],
+        "notes": [
+          {
+            "word": "seeks",
+            "text": "'seeks' 動詞，意為「尋求」、「追求」。",
+            "category": "其他"
+          },
+          {
+            "word": "solitude",
+            "text": "'solitude' 名詞，意為「獨處」、「孤獨」。",
+            "category": "其他"
           },
           {
             "word": "in",
-            "text": "第一個「in」表示「在...中」，指在某個團夥中被起訴。第二個「in」表示「以...形式」，指貨物的形式。",
+            "text": "介係詞 'in' 在這裡表示「在...之中」或「在...裡面」。",
             "category": "介係詞"
           },
           {
-            "word": "stole",
-            "text": "「stole」是動詞「steal」的過去式，表示「偷竊」。",
-            "category": "時態"
-          },
-          {
-            "word": "goods",
-            "text": "「goods」是複數名詞，表示「貨物」或「商品」。",
-            "category": "單複數"
+            "word": "docuseries",
+            "text": "'docuseries' 是 'documentary series' 的縮寫，指「紀錄片系列」。",
+            "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Style The young star painter seducing the art world with glittering curtains. (Just don’t ask what’s behind them)",
-      "url": "https://edition.cnn.com/2026/11/20/style/louise-giovanelli-interview-white-cube-exhibition",
+      "en": "Blacklisted Chinese universities procured Nvidia chips, records show",
+      "url": "https://edition.cnn.com/2026/11/19/politics/nvidia-chips-china-universities-invs",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Style The young star painter seducing the art world with glittering curtains. (Just don’t ask what’s behind them)",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/style/louise-giovanelli-interview-white-cube-exhibition",
-        "zh": "時尚：這位年輕的明星畫家以閃閃發光的窗簾誘惑著藝術界。（只是別問窗簾後面是什麼）",
+        "sourceEn": "Blacklisted Chinese universities procured Nvidia chips, records show",
+        "sourceUrl": "https://edition.cnn.com/2026/11/19/politics/nvidia-chips-china-universities-invs",
+        "zh": "記錄顯示，被列入黑名單的中國大學採購了英偉達晶片。",
         "accepted": [
           [
-            "The",
-            "young",
-            "star",
-            "painter",
-            "seducing",
-            "the",
-            "art",
-            "world",
-            "with",
-            "glittering",
-            "curtains"
+            "Blacklisted",
+            "Chinese",
+            "universities",
+            "procured",
+            "Nvidia",
+            "chips,",
+            "records",
+            "show"
           ]
         ],
         "distractors": [
-          "seduce",
-          "seduction",
-          "glitter",
-          "curtain"
+          "Acquired",
+          "Obtained",
+          "Bought",
+          "Purchased",
+          "Got",
+          "Secured"
         ],
         "notes": [
           {
-            "word": "The",
-            "text": "「The」是定冠詞，用於特指這位「年輕的明星畫家」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "seducing",
-            "text": "「seducing」是現在分詞，在這裡作形容詞，修飾「painter」，表示「正在誘惑」或「具有誘惑力的」。",
-            "category": "時態"
-          },
-          {
-            "word": "with",
-            "text": "「with」在這裡表示「用」或「藉由」，說明了誘惑藝術界的方式。",
-            "category": "介係詞"
-          },
-          {
-            "word": "glittering",
-            "text": "「glittering」是現在分詞，作形容詞，表示「閃閃發光的」。",
+            "word": "Blacklisted",
+            "text": "'Blacklisted' 是過去分詞作形容詞，意為「被列入黑名單的」。",
             "category": "其他"
           },
           {
-            "word": "curtains",
-            "text": "「curtains」是「窗簾」的複數形式，表示有多個窗簾。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Science Globally adored hippo Fiona dies after eating a visitor’s hat at Cincinnati Zoo",
-      "url": "https://edition.cnn.com/2026/11/19/us/fiona-hippo-dies-cincinnati-zoo",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Science Globally adored hippo Fiona dies after eating a visitor’s hat at Cincinnati Zoo",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/us/fiona-hippo-dies-cincinnati-zoo",
-        "zh": "科學：全球喜愛的河馬費歐娜在辛辛那提動物園吃掉遊客的帽子後死亡。",
-        "accepted": [
-          [
-            "Globally",
-            "adored",
-            "hippo",
-            "Fiona",
-            "dies",
-            "after",
-            "eating",
-            "a",
-            "visitor’s",
-            "hat",
-            "at",
-            "Cincinnati",
-            "Zoo"
-          ]
-        ],
-        "distractors": [
-          "die",
-          "died",
-          "eats",
-          "visits"
-        ],
-        "notes": [
-          {
-            "word": "Globally",
-            "text": "「Globally」是一個副詞，修飾形容詞「adored」，表示「全球性地」。",
-            "category": "其他"
-          },
-          {
-            "word": "adored",
-            "text": "「adored」是過去分詞，作形容詞，表示「受喜愛的」。",
-            "category": "其他"
-          },
-          {
-            "word": "dies",
-            "text": "「dies」是動詞「die」的第三人稱單數現在式，用於描述一般事實或新聞標題中的事件。",
-            "category": "時態"
-          },
-          {
-            "word": "after",
-            "text": "「after」是一個介係詞，表示「在...之後」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "eating",
-            "text": "「eating」是動詞「eat」的現在分詞形式，在這裡作動名詞，表示「吃」這個動作。",
-            "category": "時態"
-          },
-          {
-            "word": "visitor’s",
-            "text": "「visitor’s」是所有格形式，表示「遊客的」。",
-            "category": "其他"
-          },
-          {
-            "word": "at",
-            "text": "「at」是一個介係詞，表示「在」某個地點。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Almost all of Anthropic’s employees are now millionaires",
-      "url": "https://edition.cnn.com/2026/11/19/tech/anthropic-employees-now-millionaires",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Almost all of Anthropic’s employees are now millionaires",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/tech/anthropic-employees-now-millionaires",
-        "zh": "Anthropic公司幾乎所有員工現在都是百萬富翁了。",
-        "accepted": [
-          [
-            "Almost",
-            "all",
-            "of",
-            "Anthropic’s",
-            "employees",
-            "are",
-            "now",
-            "millionaires"
-          ]
-        ],
-        "distractors": [
-          "employee",
-          "millionaire",
-          "was",
-          "is"
-        ],
-        "notes": [
-          {
-            "word": "Almost all of",
-            "text": "「Almost all of」表示「幾乎所有的」。",
-            "category": "其他"
-          },
-          {
-            "word": "Anthropic’s",
-            "text": "「Anthropic’s」是所有格形式，表示「Anthropic公司的」。",
-            "category": "其他"
-          },
-          {
-            "word": "employees",
-            "text": "「employees」是「員工」的複數形式，因為這裡指的是多個員工。",
+            "word": "universities",
+            "text": "'universities' 是 'university' 的複數形式，表示「大學」。",
             "category": "單複數"
           },
           {
-            "word": "are",
-            "text": "「are」是動詞「to be」的複數現在式，與複數主語「employees」一致。",
-            "category": "時態"
+            "word": "procured",
+            "text": "'procured' 動詞，意為「採購」、「獲得」。",
+            "category": "其他"
           },
           {
-            "word": "millionaires",
-            "text": "「millionaires」是「百萬富翁」的複數形式，因為這裡指的是多個百萬富翁。",
-            "category": "單複數"
+            "word": "records show",
+            "text": "這是新聞標題常見的簡潔語法，意為「記錄顯示」。",
+            "category": "其他"
           }
         ]
       }
@@ -492,227 +619,38 @@
           ]
         ],
         "distractors": [
-          "vote",
-          "voting",
-          "year",
-          "shaping"
+          "Cast",
+          "Supported",
+          "Chose",
+          "Elected",
+          "Backed",
+          "Favored"
         ],
         "notes": [
           {
-            "word": "voted",
-            "text": "「voted」是動詞「vote」的過去式，表示「投票」。",
-            "category": "時態"
+            "word": "voted Republican",
+            "text": "'voted Republican' 表示「投票給共和黨」。",
+            "category": "其他"
           },
           {
-            "word": "for",
-            "text": "「for」在這裡表示時間的「持續期間」，即「長達50年」。",
+            "word": "for 50 years",
+            "text": "介係詞 'for' 在這裡表示時間的持續，即「長達50年」。",
             "category": "介係詞"
           },
           {
-            "word": "came",
-            "text": "「came」是動詞「come」的過去式，表示「來臨」或「發生」。",
-            "category": "時態"
+            "word": "Then came",
+            "text": "這是倒裝句，強調「然後來了」某事。",
+            "category": "其他"
+          },
+          {
+            "word": "shaped by",
+            "text": "'shaped by' 是被動語態，意為「由...塑造的」、「受...影響的」。",
+            "category": "其他"
           },
           {
             "word": "an",
-            "text": "「an」是不定冠詞，用於修飾以母音開頭的單數名詞「election」。",
+            "text": "不定冠詞 'an' 用於指稱一個「選舉」。",
             "category": "冠詞"
-          },
-          {
-            "word": "shaped",
-            "text": "「shaped」是過去分詞，作形容詞，表示「被塑造的」或「由...形成的」。",
-            "category": "其他"
-          },
-          {
-            "word": "by",
-            "text": "「by」在這裡表示「由...所」或「藉由」，說明了選舉被什麼因素塑造。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "In historic first, the UN’s top court rules a country committed genocide",
-      "url": "https://edition.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "In historic first, the UN’s top court rules a country committed genocide",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk",
-        "zh": "歷史性首次，聯合國最高法院裁定一個國家犯下種族滅絕罪。",
-        "accepted": [
-          [
-            "In",
-            "historic",
-            "first,",
-            "the",
-            "UN’s",
-            "top",
-            "court",
-            "rules",
-            "a",
-            "country",
-            "committed",
-            "genocide"
-          ]
-        ],
-        "distractors": [
-          "historically",
-          "rule",
-          "commit",
-          "genocides"
-        ],
-        "notes": [
-          {
-            "word": "In historic first",
-            "text": "「In historic first」是一個慣用語，表示「在歷史上首次」。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "「the」是定冠詞，用於特指「聯合國最高法院」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "UN’s",
-            "text": "「UN’s」是所有格形式，表示「聯合國的」。",
-            "category": "其他"
-          },
-          {
-            "word": "rules",
-            "text": "「rules」是動詞「rule」的第三人稱單數現在式，表示「裁定」或「判決」。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "「a」是不定冠詞，用於指稱「一個」未具體的「國家」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "committed",
-            "text": "「committed」是動詞「commit」的過去式，表示「犯下」或「實施」。",
-            "category": "時態"
-          }
-        ]
-      }
-    },
-    {
-      "en": "How two words could derail the world’s biggest climate conference",
-      "url": "https://edition.cnn.com/2026/11/20/climate/cop31-talks-fossil-fuels-finance-electrification",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "How two words could derail the world’s biggest climate conference",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/climate/cop31-talks-fossil-fuels-finance-electrification",
-        "zh": "兩個詞如何能使世界上最大的氣候會議脫軌。",
-        "accepted": [
-          [
-            "How",
-            "two",
-            "words",
-            "could",
-            "derail",
-            "the",
-            "world’s",
-            "biggest",
-            "climate",
-            "conference"
-          ]
-        ],
-        "distractors": [
-          "word",
-          "derailing",
-          "biggests",
-          "conferencing"
-        ],
-        "notes": [
-          {
-            "word": "How",
-            "text": "「How」是一個疑問副詞，表示「如何」或「怎樣」。",
-            "category": "其他"
-          },
-          {
-            "word": "words",
-            "text": "「words」是「詞」的複數形式，因為這裡指的是「兩個詞」。",
-            "category": "單複數"
-          },
-          {
-            "word": "could",
-            "text": "「could」是一個情態助動詞，表示「可能」或「能夠」。",
-            "category": "時態"
-          },
-          {
-            "word": "derail",
-            "text": "「derail」是一個動詞，表示「使脫軌」或「阻礙」。",
-            "category": "其他"
-          },
-          {
-            "word": "the world’s",
-            "text": "「the world’s」是所有格形式，表示「世界的」。",
-            "category": "其他"
-          },
-          {
-            "word": "biggest",
-            "text": "「biggest」是形容詞「big」的最高級形式，表示「最大的」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "White House national cyber director being replaced as nation reels from tech outages",
-      "url": "https://edition.cnn.com/2026/11/19/politics/national-cyber-director-replaced-sean-cairncross",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "White House national cyber director being replaced as nation reels from tech outages",
-        "sourceUrl": "https://edition.cnn.com/2026/11/19/politics/national-cyber-director-replaced-sean-cairncross",
-        "zh": "隨著國家從科技中斷中恢復，白宮國家網路總監將被替換。",
-        "accepted": [
-          [
-            "White",
-            "House",
-            "national",
-            "cyber",
-            "director",
-            "being",
-            "replaced",
-            "as",
-            "nation",
-            "reels",
-            "from",
-            "tech",
-            "outages"
-          ]
-        ],
-        "distractors": [
-          "replace",
-          "replaces",
-          "reeling",
-          "outage"
-        ],
-        "notes": [
-          {
-            "word": "being replaced",
-            "text": "「being replaced」是現在進行被動語態，表示「正在被替換」。",
-            "category": "時態"
-          },
-          {
-            "word": "as",
-            "text": "「as」在這裡作連接詞，表示「當...之際」或「隨著」。",
-            "category": "其他"
-          },
-          {
-            "word": "reels",
-            "text": "「reels from」是一個動詞片語，表示「從...中恢復」或「因...而搖搖欲墜」。",
-            "category": "其他"
-          },
-          {
-            "word": "from",
-            "text": "「from」是一個介係詞，表示「來自」或「由於」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "outages",
-            "text": "「outages」是「中斷」或「停電」的複數形式，因為這裡指的是多個中斷事件。",
-            "category": "單複數"
           }
         ]
       }
