@@ -94,6 +94,24 @@ function extractCandidates(html) {
     if (seenUrls.has(path)) return; // same article linked twice (image + headline)
 
     const text = normalizeText($(el).text()).replace(TRAILING_JUNK_RE, "");
+
+    // THROWAWAY DIAGNOSTIC — set DEBUG_MARKUP=1 to dump raw anchor HTML for
+    // cards that look like a headline+dek concatenation (long, or mentions
+    // the specific story under investigation), so the real markup structure
+    // can inform a precise fix. Not meant to survive past that investigation.
+    if (true) {
+      const words = text.split(" ").filter(Boolean);
+      if (words.length >= 6 && (words.length > 25 || /starshield|spacex/i.test(text))) {
+        console.log("\n=== SUSPECT CARD ===");
+        console.log("path:", path);
+        console.log("word count:", words.length);
+        console.log("text:", text);
+        console.log("--- outer HTML (first 3000 chars) ---");
+        console.log($.html(el).slice(0, 3000));
+        console.log("--- end outer HTML ---\n");
+      }
+    }
+
     if (!isSentenceLike(text)) return;
     if (seenText.has(text.toLowerCase())) return;
 
@@ -117,6 +135,11 @@ async function main() {
 
   const html = await fetchHomepage();
   const candidates = extractCandidates(html);
+
+  if (true) {
+    console.log(`\nTotal candidates after filtering: ${candidates.length}`);
+    throw new Error("DEBUG_MARKUP diagnostic run — intentionally aborting before Gemini/commit.");
+  }
 
   if (candidates.length < 3) {
     throw new Error(
