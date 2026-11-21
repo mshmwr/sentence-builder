@@ -93,7 +93,16 @@ function extractCandidates(html) {
     if (LIVE_BLOG_PATH_RE.test(path)) return; // headline can drift after we scrape it
     if (seenUrls.has(path)) return; // same article linked twice (image + headline)
 
-    const text = normalizeText($(el).text()).replace(TRAILING_JUNK_RE, "");
+    // CNN isolates the actual headline in its own span across every card
+    // layout we've seen (standard, list-headlines, video, labeled
+    // analysis/breaking-news/etc) — reading the whole anchor's text instead
+    // also pulls in a sibling .container__description ("dek") div, with no
+    // sentence-ending punctuation between the two, producing a run-on that
+    // reads as one garbled sentence. Fall back to the whole anchor's text
+    // only if this card variant doesn't use that span.
+    const headlineEl = $(el).find(".container__headline-text").first();
+    const rawText = headlineEl.length ? headlineEl.text() : $(el).text();
+    const text = normalizeText(rawText).replace(TRAILING_JUNK_RE, "");
     if (!isSentenceLike(text)) return;
     if (seenText.has(text.toLowerCase())) return;
 
@@ -104,6 +113,10 @@ function extractCandidates(html) {
 
   return candidates;
 }
+
+// exported for tests/extract-candidates.test.js; unused by `node
+// fetch-cnn-sentences.mjs` itself, which only calls main() below
+export { extractCandidates };
 
 // default 3 shown, "load more" reveals more in batches of 3 from this same
 // pool — no re-scraping, it's all fetched once per day up front
@@ -144,7 +157,11 @@ async function main() {
   for (const s of sentences) console.log(`  - ${s.en}`);
 }
 
-main().catch((err) => {
-  console.error(err.message || err);
-  process.exit(1);
-});
+// only run main() when this file is the direct entrypoint — not when
+// tests/extract-candidates.test.js imports extractCandidates from it
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error(err.message || err);
+    process.exit(1);
+  });
+}
