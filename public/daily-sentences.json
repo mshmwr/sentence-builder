@@ -1,8 +1,228 @@
 {
-  "date": "2026-11-21",
-  "fetchedAt": "2026-11-21T08:53:22.678Z",
+  "date": "2026-11-22",
+  "fetchedAt": "2026-11-22T00:12:48.446Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
+    {
+      "en": "Cartel kingpin on FBI’s most wanted list captured in dramatic Mexican military operation",
+      "url": "https://edition.cnn.com/2026/11/21/americas/el-chapo-isidro-mexico-fbi-wanted-hnk-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Cartel kingpin on FBI’s most wanted list captured in dramatic Mexican military operation",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/americas/el-chapo-isidro-mexico-fbi-wanted-hnk-intl",
+        "zh": "販毒集團首腦在墨西哥軍方一場戲劇性行動中被捕，他名列聯邦調查局頭號通緝犯名單。",
+        "accepted": [
+          [
+            "Cartel",
+            "kingpin",
+            "on",
+            "FBI’s",
+            "most",
+            "wanted",
+            "list",
+            "captured",
+            "in",
+            "dramatic",
+            "Mexican",
+            "military",
+            "operation"
+          ]
+        ],
+        "distractors": [
+          "arrest",
+          "capture",
+          "operationally",
+          "dramatically",
+          "kingpins",
+          "cartels"
+        ],
+        "notes": [
+          {
+            "word": "kingpin",
+            "text": "「kingpin」指某個組織或活動中的核心人物，通常帶有負面含義，如犯罪集團的首腦。",
+            "category": "其他"
+          },
+          {
+            "word": "on FBI’s most wanted list",
+            "text": "「on the most wanted list」表示某人名列通緝犯名單上，這裡的「FBI's」是所有格，表示是FBI的通緝名單。",
+            "category": "介係詞"
+          },
+          {
+            "word": "captured",
+            "text": "「captured」是動詞「capture」的過去分詞，在這裡用作被動語態，表示「被捕獲」。",
+            "category": "時態"
+          },
+          {
+            "word": "dramatic",
+            "text": "「dramatic」是形容詞，修飾「Mexican military operation」，表示這場行動「戲劇性的」或「引人注目的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Mexican security force helicopters fire at ground targets in Sinaloa",
+      "url": "https://edition.cnn.com/2026/11/21/world/video/mexican-cartel-and-security-forces-exchange-gunfire-in-sinaloa-hnk-digvid-vrtc",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Mexican security force helicopters fire at ground targets in Sinaloa",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/world/video/mexican-cartel-and-security-forces-exchange-gunfire-in-sinaloa-hnk-digvid-vrtc",
+        "zh": "墨西哥安全部隊直升機在錫那羅亞州向地面目標開火。",
+        "accepted": [
+          [
+            "Mexican",
+            "security",
+            "force",
+            "helicopters",
+            "fire",
+            "at",
+            "ground",
+            "targets",
+            "in",
+            "Sinaloa"
+          ]
+        ],
+        "distractors": [
+          "fired",
+          "firing",
+          "forces",
+          "securitys",
+          "helicopter",
+          "target"
+        ],
+        "notes": [
+          {
+            "word": "fire at",
+            "text": "「fire at」表示「向…開火」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "helicopters",
+            "text": "「helicopters」是複數名詞，表示有多架直升機。",
+            "category": "單複數"
+          },
+          {
+            "word": "targets",
+            "text": "「targets」是複數名詞，表示有多個目標。",
+            "category": "單複數"
+          },
+          {
+            "word": "in Sinaloa",
+            "text": "「in」在這裡表示地點，指「在錫那羅亞州」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The Democrats’ top 9 targets for investigations next Congress",
+      "url": "https://edition.cnn.com/2026/11/21/politics/democrats-investigations-donald-trump",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The Democrats’ top 9 targets for investigations next Congress",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/politics/democrats-investigations-donald-trump",
+        "zh": "民主黨在下屆國會調查的九大主要目標。",
+        "accepted": [
+          [
+            "The",
+            "Democrats’",
+            "top",
+            "9",
+            "targets",
+            "for",
+            "investigations",
+            "next",
+            "Congress"
+          ]
+        ],
+        "distractors": [
+          "Democrat",
+          "target",
+          "investigation",
+          "nexts",
+          "congressional",
+          "tops"
+        ],
+        "notes": [
+          {
+            "word": "The Democrats’",
+            "text": "「The Democrats’」是所有格，表示「民主黨的」。",
+            "category": "其他"
+          },
+          {
+            "word": "targets",
+            "text": "「targets」是複數名詞，表示有多個目標。",
+            "category": "單複數"
+          },
+          {
+            "word": "for investigations",
+            "text": "「for」在這裡表示目的，指「為了調查」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "next Congress",
+            "text": "「next」修飾「Congress」，表示「下屆國會」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Republicans seeking an alternative to JD Vance ask: How about a governor?",
+      "url": "https://edition.cnn.com/2026/11/21/politics/republicans-2028-desantis-huckabee-sanders-kemp-youngkin",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Republicans seeking an alternative to JD Vance ask: How about a governor?",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/politics/republicans-2028-desantis-huckabee-sanders-kemp-youngkin",
+        "zh": "尋求JD Vance替代人選的共和黨人問：州長怎麼樣？",
+        "accepted": [
+          [
+            "Republicans",
+            "seeking",
+            "an",
+            "alternative",
+            "to",
+            "JD",
+            "Vance",
+            "ask:",
+            "How",
+            "about",
+            "a",
+            "governor?"
+          ]
+        ],
+        "distractors": [
+          "Republican",
+          "seek",
+          "alternatives",
+          "to",
+          "asking",
+          "governors"
+        ],
+        "notes": [
+          {
+            "word": "seeking",
+            "text": "「seeking」是動詞「seek」的現在分詞，在這裡作形容詞，修飾「Republicans」，表示「正在尋求」的共和黨人。",
+            "category": "時態"
+          },
+          {
+            "word": "an alternative to",
+            "text": "「an alternative to」表示「…的替代方案/人選」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "ask:",
+            "text": "「ask」是動詞，表示「問」。",
+            "category": "其他"
+          },
+          {
+            "word": "How about a governor?",
+            "text": "「How about...?」是一種詢問意見或建議的句型，表示「…怎麼樣？」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
     {
       "en": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
       "url": "https://edition.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
@@ -10,7 +230,7 @@
         "theme": "今日新聞",
         "sourceEn": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
         "sourceUrl": "https://edition.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
-        "zh": "由於Anthropic的首次公開募股未能平息人工智慧的緊張情緒，那斯達克指數抹去了今年的漲幅。",
+        "zh": "由於Anthropic的首次公開募股未能平息人工智慧的緊張情緒，納斯達克指數抹去了今年的漲幅。",
         "accepted": [
           [
             "Nasdaq",
@@ -31,579 +251,315 @@
           ]
         ],
         "distractors": [
-          "gain",
-          "nervous",
-          "failed",
-          "quelling",
           "wipe",
-          "fail"
+          "gain",
+          "fail",
+          "quelling",
+          "nervous",
+          "IPO's"
         ],
         "notes": [
           {
             "word": "wipes out",
-            "text": "「wipe out」是動詞片語，意為「抹去、消除」。這裡使用第三人稱單數現在式「wipes out」。",
+            "text": "「wipes out」是片語動詞，表示「抹去、消除」。這裡的「wipes」是第三人稱單數現在式，因為主語是「Nasdaq」。",
             "category": "時態"
           },
           {
-            "word": "gains",
-            "text": "「gains」是名詞，指「獲利、漲幅」，這裡用複數形式。",
-            "category": "單複數"
+            "word": "gains for the year",
+            "text": "「gains for the year」表示「今年的漲幅」。",
+            "category": "介係詞"
           },
           {
-            "word": "for",
-            "text": "「for the year」表示「就這一年而言」或「今年的」。",
-            "category": "介係詞"
+            "word": "as",
+            "text": "「as」在這裡用作連接詞，表示原因，意為「由於、因為」。",
+            "category": "其他"
           },
           {
             "word": "fails to quell",
-            "text": "「fail to do something」意為「未能做某事」。",
+            "text": "「fails to quell」表示「未能平息」。",
             "category": "其他"
-          },
-          {
-            "word": "nerves",
-            "text": "「nerves」在這裡指「緊張、不安的情緒」，常用複數。",
-            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Why a top economist says the stock market will remain volatile",
-      "url": "https://edition.cnn.com/2026/11/20/business/video/why-a-top-economist-says-the-stock-market-will-remain-volatile-the-lead-jake-tapper",
+      "en": "Your 401(k) is full of AI. How to deal with the volatility",
+      "url": "https://edition.cnn.com/2026/11/21/business/ai-stocks-volatility-investing",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Why a top economist says the stock market will remain volatile",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/business/video/why-a-top-economist-says-the-stock-market-will-remain-volatile-the-lead-jake-tapper",
-        "zh": "為何一位頂尖經濟學家表示股市將保持波動。",
+        "sourceEn": "Your 401(k) is full of AI. How to deal with the volatility",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/business/ai-stocks-volatility-investing",
+        "zh": "你的401(k)充滿了人工智慧。如何應對這種波動性。",
         "accepted": [
           [
-            "Why",
-            "a",
-            "top",
-            "economist",
-            "says",
-            "the",
-            "stock",
-            "market",
-            "will",
-            "remain",
-            "volatile"
-          ]
-        ],
-        "distractors": [
-          "say",
-          "remains",
-          "economists",
-          "volatility",
-          "remaind",
-          "an"
-        ],
-        "notes": [
-          {
-            "word": "a",
-            "text": "「a top economist」中的「a」是不定冠詞，用於單數可數名詞前。",
-            "category": "冠詞"
-          },
-          {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式，主詞是「a top economist」。",
-            "category": "時態"
-          },
-          {
-            "word": "will remain",
-            "text": "「will remain」表示未來會持續的狀態，意為「將保持」。",
-            "category": "時態"
-          },
-          {
-            "word": "volatile",
-            "text": "「volatile」是形容詞，意為「不穩定的、波動的」。",
-            "category": "其他"
-          },
-          {
-            "word": "the",
-            "text": "「the stock market」中的「the」是定冠詞，特指「股市」。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Anthropic’s IPO was a blockbuster. Wall Street is still worried",
-      "url": "https://edition.cnn.com/2026/11/20/investing/anthropic-ai-stock-nasdaq",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Anthropic’s IPO was a blockbuster. Wall Street is still worried",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/investing/anthropic-ai-stock-nasdaq",
-        "zh": "Anthropic的首次公開募股是一次巨大的成功。華爾街仍然感到擔憂。",
-        "accepted": [
-          [
-            "Anthropic’s",
-            "IPO",
-            "was",
-            "a",
-            "blockbuster",
-            ".",
-            "Wall",
-            "Street",
+            "Your",
+            "401(k)",
             "is",
-            "still",
-            "worried"
-          ]
-        ],
-        "distractors": [
-          "blockbusters",
-          "worry",
-          "were",
-          "worrying",
-          "still",
-          "an"
-        ],
-        "notes": [
-          {
-            "word": "Anthropic’s",
-            "text": "「Anthropic’s」是所有格，表示「Anthropic的」。",
-            "category": "其他"
-          },
-          {
-            "word": "was",
-            "text": "「was」是動詞「be」的過去式，主詞是單數「IPO」。",
-            "category": "時態"
-          },
-          {
-            "word": "a blockbuster",
-            "text": "「a blockbuster」指「一部巨片；一次巨大的成功」，這裡用不定冠詞「a」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "is still worried",
-            "text": "「is still worried」表示現在仍然處於擔憂的狀態，是被動語態。",
-            "category": "時態"
-          },
-          {
-            "word": "Wall Street",
-            "text": "「Wall Street」特指「華爾街」，常作為美國金融界的代稱。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors",
-      "url": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Takeaways from Trump’s eclectic news briefing on Putin, Xi — and possible successors",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/trump-news-conference-takeaways",
-        "zh": "川普就普丁、習近平以及可能的繼任者發表的兼收並蓄的新聞發布會的要點。",
-        "accepted": [
-          [
-            "Takeaways",
-            "from",
-            "Trump’s",
-            "eclectic",
-            "news",
-            "briefing",
-            "on",
-            "Putin",
-            ",",
-            "Xi",
-            "—",
-            "and",
-            "possible",
-            "successors"
-          ]
-        ],
-        "distractors": [
-          "takeaway",
-          "brief",
-          "successors'",
-          "possibility",
-          "briefed",
-          "of"
-        ],
-        "notes": [
-          {
-            "word": "Takeaways",
-            "text": "「Takeaways」是名詞，指「要點、結論」，這裡用複數形式。",
-            "category": "單複數"
-          },
-          {
-            "word": "from",
-            "text": "「from」表示「來自…的」，說明要點的來源。",
-            "category": "介係詞"
-          },
-          {
-            "word": "Trump’s",
-            "text": "「Trump’s」是所有格，表示「川普的」。",
-            "category": "其他"
-          },
-          {
-            "word": "eclectic",
-            "text": "「eclectic」是形容詞，意為「兼收並蓄的、不拘一格的」。",
-            "category": "其他"
-          },
-          {
-            "word": "on",
-            "text": "「on」在這裡表示「關於…的」，說明新聞發布會的主題。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "‘For us, he is a killer’: Zelensky reacts to Trump calling Putin a friend",
-      "url": "https://edition.cnn.com/2026/11/20/world/video/zelensky-reacts-trump-putin-friend-intldsk-digivid",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "‘For us, he is a killer’: Zelensky reacts to Trump calling Putin a friend",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/world/video/zelensky-reacts-trump-putin-friend-intldsk-digivid",
-        "zh": "「對我們來說，他是一個殺手」：澤倫斯基回應川普稱普丁為朋友。",
-        "accepted": [
-          [
-            "‘For",
-            "us",
-            ",",
-            "he",
-            "is",
-            "a",
-            "killer’",
-            ":",
-            "Zelensky",
-            "reacts",
+            "full",
+            "of",
+            "AI.",
+            "How",
             "to",
-            "Trump",
-            "calling",
-            "Putin",
-            "a",
-            "friend"
-          ]
-        ],
-        "distractors": [
-          "kill",
-          "reaction",
-          "reacted",
-          "call",
-          "friends",
-          "an"
-        ],
-        "notes": [
-          {
-            "word": "For us",
-            "text": "「For us」意為「對我們來說」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "a killer",
-            "text": "「a killer」中的「a」是不定冠詞，用於單數可數名詞「killer」前。",
-            "category": "冠詞"
-          },
-          {
-            "word": "reacts to",
-            "text": "「reacts to」是動詞片語，意為「對…作出反應」，這裡用第三人稱單數現在式。",
-            "category": "時態"
-          },
-          {
-            "word": "calling",
-            "text": "「calling」是動名詞，用於「Trump calling Putin a friend」表示「川普稱普丁為朋友」這個動作。",
-            "category": "其他"
-          },
-          {
-            "word": "a friend",
-            "text": "「a friend」中的「a」是不定冠詞，用於單數可數名詞「friend」前。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Miller ‘most powerful man’, Trump says",
-      "url": "https://edition.cnn.com/2026/11/20/politics/video/trump-miller-most-powerful-man-digvid-vrtc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Miller ‘most powerful man’, Trump says",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/video/trump-miller-most-powerful-man-digvid-vrtc",
-        "zh": "川普說，米勒是「最有權勢的人」。",
-        "accepted": [
-          [
-            "Miller",
-            "‘most",
-            "powerful",
-            "man’",
-            ",",
-            "Trump",
-            "says"
-          ]
-        ],
-        "distractors": [
-          "powerfulest",
-          "said",
-          "man's",
-          "power",
-          "saying",
-          "more"
-        ],
-        "notes": [
-          {
-            "word": "most powerful",
-            "text": "「most powerful」是形容詞「powerful」的最高級形式，表示「最有權勢的」。",
-            "category": "其他"
-          },
-          {
-            "word": "man",
-            "text": "「man」是單數名詞，指「男人、人」。",
-            "category": "單複數"
-          },
-          {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式，主詞是「Trump」。",
-            "category": "時態"
-          },
-          {
-            "word": "‘most powerful man’",
-            "text": "這裡省略了定冠詞「the」，在新聞標題中常見。",
-            "category": "冠詞"
-          },
-          {
-            "word": "Miller",
-            "text": "「Miller」是人名，作為句子的主語。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Zelensky on Trump calling Putin friend",
-      "url": "https://edition.cnn.com/2026/11/20/world/video/zelensky-trump-calling-putin-friend-killer-vrtc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Zelensky on Trump calling Putin friend",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/world/video/zelensky-trump-calling-putin-friend-killer-vrtc",
-        "zh": "澤倫斯基談川普稱普丁為朋友。",
-        "accepted": [
-          [
-            "Zelensky",
-            "on",
-            "Trump",
-            "calling",
-            "Putin",
-            "friend"
-          ]
-        ],
-        "distractors": [
-          "calls",
-          "friends",
-          "called",
-          "of",
-          "friend's",
-          "call"
-        ],
-        "notes": [
-          {
-            "word": "on",
-            "text": "「on」在這裡表示「關於…的」，說明澤倫斯基談論的主題。",
-            "category": "介係詞"
-          },
-          {
-            "word": "calling",
-            "text": "「calling」是動名詞，用於「Trump calling Putin friend」表示「川普稱普丁為朋友」這個動作。",
-            "category": "其他"
-          },
-          {
-            "word": "friend",
-            "text": "這裡「friend」省略了不定冠詞「a」，在新聞標題中常見。",
-            "category": "冠詞"
-          },
-          {
-            "word": "Zelensky",
-            "text": "「Zelensky」是人名，作為句子的主語。",
-            "category": "其他"
-          },
-          {
-            "word": "Trump",
-            "text": "「Trump」是人名，作為「calling」的邏輯主語。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Trump says he won’t let US companies build data centers outside the country",
-      "url": "https://edition.cnn.com/2026/11/20/politics/video/trump-says-he-wont-let-us-companies-build-data-centers-outside-the-country",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Trump says he won’t let US companies build data centers outside the country",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/video/trump-says-he-wont-let-us-companies-build-data-centers-outside-the-country",
-        "zh": "川普表示他不會讓美國公司在國外建立數據中心。",
-        "accepted": [
-          [
-            "Trump",
-            "says",
-            "he",
-            "won’t",
-            "let",
-            "US",
-            "companies",
-            "build",
-            "data",
-            "centers",
-            "outside",
+            "deal",
+            "with",
             "the",
-            "country"
+            "volatility"
           ]
         ],
         "distractors": [
-          "said",
-          "company",
-          "built",
-          "lets",
-          "country's",
-          "inside"
+          "are",
+          "fulls",
+          "AIs",
+          "dealing",
+          "volatile",
+          "volatilities"
         ],
         "notes": [
           {
-            "word": "says",
-            "text": "「says」是動詞「say」的第三人稱單數現在式，主詞是「Trump」。",
-            "category": "時態"
+            "word": "is full of",
+            "text": "「is full of」表示「充滿了…」。",
+            "category": "介係詞"
           },
           {
-            "word": "won’t let",
-            "text": "「won’t let」是「will not let」的縮寫，表示「將不會允許」。",
-            "category": "時態"
-          },
-          {
-            "word": "let...build",
-            "text": "「let + 受詞 + 原形動詞」表示「讓…做某事」。",
+            "word": "How to deal with",
+            "text": "「How to deal with」是一種常見的表達方式，表示「如何處理/應對…」。",
             "category": "其他"
           },
           {
-            "word": "companies",
-            "text": "「companies」是名詞「company」的複數形式。",
+            "word": "the volatility",
+            "text": "「volatility」是名詞，指「波動性、不穩定性」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+      "url": "https://edition.cnn.com/2026/11/21/tech/anthropic-math-problem-ai",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/tech/anthropic-math-problem-ai",
+        "zh": "Anthropic員工聲稱在人工智慧的幫助下解決了一個數學難題中的「聖杯」。",
+        "accepted": [
+          [
+            "Anthropic",
+            "worker",
+            "claims",
+            "to",
+            "have",
+            "solved",
+            "a",
+            "Holy",
+            "Grail",
+            "of",
+            "math",
+            "problems",
+            "with",
+            "the",
+            "help",
+            "of",
+            "AI"
+          ]
+        ],
+        "distractors": [
+          "workers",
+          "claim",
+          "solve",
+          "solving",
+          "problem",
+          "helps"
+        ],
+        "notes": [
+          {
+            "word": "claims to have solved",
+            "text": "「claims to have solved」表示「聲稱已經解決」。這裡使用了完成式不定詞「to have solved」，強調動作已經完成。",
+            "category": "時態"
+          },
+          {
+            "word": "a Holy Grail of",
+            "text": "「a Holy Grail of」是一種比喻，指某個領域中極其困難但又極具價值的目標或問題。",
+            "category": "其他"
+          },
+          {
+            "word": "math problems",
+            "text": "「math problems」是複數名詞，表示「數學問題」。",
             "category": "單複數"
           },
           {
-            "word": "outside the country",
-            "text": "「outside the country」意為「在國外」。",
+            "word": "with the help of",
+            "text": "「with the help of」表示「在…的幫助下」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "White House national cyber director set to be replaced",
-      "url": "https://edition.cnn.com/2026/11/20/politics/video/white-house-national-cyber-director-set-to-be-replaced-vrtc",
+      "en": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
+      "url": "https://edition.cnn.com/2026/11/21/europe/russian-ship-fire-baltic-latam-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "White House national cyber director set to be replaced",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/politics/video/white-house-national-cyber-director-set-to-be-replaced-vrtc",
-        "zh": "白宮國家網路總監將被替換。",
+        "sourceEn": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/europe/russian-ship-fire-baltic-latam-intl",
+        "zh": "芬蘭警告烏克蘭戰爭在波羅的海對俄羅斯貨船進行無人機襲擊後「溢出」。",
         "accepted": [
           [
+            "Finland",
+            "warns",
+            "Ukraine",
+            "war",
+            "‘spilling",
+            "over’",
+            "after",
+            "Baltic",
+            "Sea",
+            "drone",
+            "strike",
+            "on",
+            "Russian",
+            "cargo",
+            "ship"
+          ]
+        ],
+        "distractors": [
+          "warn",
+          "spill",
+          "spilled",
+          "strikes",
+          "ships",
+          "cargoes"
+        ],
+        "notes": [
+          {
+            "word": "warns",
+            "text": "「warns」是動詞「warn」的第三人稱單數現在式，表示「警告」。",
+            "category": "時態"
+          },
+          {
+            "word": "‘spilling over’",
+            "text": "「spilling over」是片語動詞「spill over」的現在分詞形式，表示「溢出、蔓延」，這裡用引號表示是引述的說法。",
+            "category": "時態"
+          },
+          {
+            "word": "after",
+            "text": "「after」在這裡用作介係詞，表示「在…之後」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "drone strike on",
+            "text": "「drone strike on」表示「對…進行無人機襲擊」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Thousands of Gen Z protesters flood the streets of Europe",
+      "url": "https://edition.cnn.com/2026/11/21/world/video/europe-gen-z-protests-vrtc",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Thousands of Gen Z protesters flood the streets of Europe",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/world/video/europe-gen-z-protests-vrtc",
+        "zh": "數千名Z世代抗議者湧入歐洲街頭。",
+        "accepted": [
+          [
+            "Thousands",
+            "of",
+            "Gen",
+            "Z",
+            "protesters",
+            "flood",
+            "the",
+            "streets",
+            "of",
+            "Europe"
+          ]
+        ],
+        "distractors": [
+          "thousand",
+          "protester",
+          "floods",
+          "flooded",
+          "street",
+          "Europes"
+        ],
+        "notes": [
+          {
+            "word": "Thousands of",
+            "text": "「Thousands of」表示「數千的」，後面接複數名詞。",
+            "category": "單複數"
+          },
+          {
+            "word": "protesters",
+            "text": "「protesters」是複數名詞，表示「抗議者」。",
+            "category": "單複數"
+          },
+          {
+            "word": "flood",
+            "text": "「flood」在這裡作動詞，表示「湧入、淹沒」。",
+            "category": "其他"
+          },
+          {
+            "word": "the streets of Europe",
+            "text": "「the streets of Europe」表示「歐洲的街頭」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Trump directs federal contractors to coordinate with White House on congressional requests for information",
+      "url": "https://edition.cnn.com/2026/11/21/politics/trump-executive-order-federal-contractors-congressional-requests",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Trump directs federal contractors to coordinate with White House on congressional requests for information",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/politics/trump-executive-order-federal-contractors-congressional-requests",
+        "zh": "川普指示聯邦承包商就國會索取資訊的要求與白宮協調。",
+        "accepted": [
+          [
+            "Trump",
+            "directs",
+            "federal",
+            "contractors",
+            "to",
+            "coordinate",
+            "with",
             "White",
             "House",
-            "national",
-            "cyber",
-            "director",
-            "set",
-            "to",
-            "be",
-            "replaced"
-          ]
-        ],
-        "distractors": [
-          "replacing",
-          "replaces",
-          "replacements",
-          "director's",
-          "replacing",
-          "setting"
-        ],
-        "notes": [
-          {
-            "word": "White House",
-            "text": "「White House」指「白宮」。",
-            "category": "其他"
-          },
-          {
-            "word": "national cyber director",
-            "text": "「national cyber director」是職稱，指「國家網路總監」。",
-            "category": "其他"
-          },
-          {
-            "word": "set to be replaced",
-            "text": "「be set to do something」意為「準備好做某事；預計將做某事」。這裡用被動語態「to be replaced」。",
-            "category": "時態"
-          },
-          {
-            "word": "replaced",
-            "text": "「replaced」是動詞「replace」的過去分詞，用於被動語態。",
-            "category": "時態"
-          },
-          {
-            "word": "director",
-            "text": "「director」是單數名詞，指「總監、主管」。",
-            "category": "單複數"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Cartel kingpin on FBI’s most wanted list reportedly captured in dramatic Mexican military operation",
-      "url": "https://edition.cnn.com/2026/11/21/americas/el-chapo-isidro-mexico-fbi-wanted-hnk-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Cartel kingpin on FBI’s most wanted list reportedly captured in dramatic Mexican military operation",
-        "sourceUrl": "https://edition.cnn.com/2026/11/21/americas/el-chapo-isidro-mexico-fbi-wanted-hnk-intl",
-        "zh": "據報導，販毒集團頭目在一次戲劇性的墨西哥軍事行動中被捕，他名列聯邦調查局的頭號通緝犯名單。",
-        "accepted": [
-          [
-            "Cartel",
-            "kingpin",
             "on",
-            "FBI’s",
-            "most",
-            "wanted",
-            "list",
-            "reportedly",
-            "captured",
-            "in",
-            "dramatic",
-            "Mexican",
-            "military",
-            "operation"
+            "congressional",
+            "requests",
+            "for",
+            "information"
           ]
         ],
         "distractors": [
-          "capture",
-          "captures",
-          "report",
-          "lists",
-          "operations",
-          "of"
+          "directed",
+          "contractor",
+          "coordinating",
+          "request",
+          "informations",
+          "houses"
         ],
         "notes": [
           {
-            "word": "Cartel kingpin",
-            "text": "「Cartel kingpin」指「販毒集團頭目」。",
-            "category": "其他"
+            "word": "directs",
+            "text": "「directs」是動詞「direct」的第三人稱單數現在式，表示「指示、指導」。",
+            "category": "時態"
           },
           {
-            "word": "on",
-            "text": "「on FBI’s most wanted list」表示「在聯邦調查局的頭號通緝犯名單上」。",
+            "word": "contractors",
+            "text": "「contractors」是複數名詞，表示「承包商」。",
+            "category": "單複數"
+          },
+          {
+            "word": "coordinate with",
+            "text": "「coordinate with」表示「與…協調」。",
             "category": "介係詞"
           },
           {
-            "word": "FBI’s",
-            "text": "「FBI’s」是所有格，表示「聯邦調查局的」。",
-            "category": "其他"
-          },
-          {
-            "word": "reportedly captured",
-            "text": "「reportedly」是副詞，意為「據報導」。這裡省略了「was」，形成新聞標題的簡潔語法。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "「in a dramatic Mexican military operation」表示「在一次戲劇性的墨西哥軍事行動中」。",
+            "word": "on congressional requests for information",
+            "text": "「on」在這裡表示關於某個主題，指「就國會索取資訊的要求」。",
             "category": "介係詞"
           }
         ]
@@ -616,7 +572,7 @@
         "theme": "今日新聞",
         "sourceEn": "Why surgery wasn’t an option to save Fiona the hippo",
         "sourceUrl": "https://edition.cnn.com/2026/11/20/us/fiona-hippo-death-zoo",
-        "zh": "為何手術不是拯救河馬費歐娜的選項。",
+        "zh": "為什麼手術不是拯救河馬Fiona的一個選擇。",
         "accepted": [
           [
             "Why",
@@ -632,94 +588,86 @@
           ]
         ],
         "distractors": [
+          "surgical",
+          "isnt",
           "options",
-          "was",
           "saving",
-          "hippo's",
-          "save",
-          "a"
+          "hippos",
+          "Fionas"
         ],
         "notes": [
           {
             "word": "wasn’t",
-            "text": "「wasn’t」是「was not」的縮寫，是動詞「be」的過去式否定形式。",
+            "text": "「wasn’t」是「was not」的縮寫，是過去式否定形式，表示「不是」。",
             "category": "時態"
           },
           {
             "word": "an option",
-            "text": "「an option」中的「an」是不定冠詞，用於以元音開頭的單數可數名詞「option」前。",
+            "text": "「an option」表示「一個選擇」。這裡使用了不定冠詞「an」因為「option」以元音開頭。",
             "category": "冠詞"
           },
           {
             "word": "to save",
-            "text": "「to save」是不定詞片語，表示目的，意為「為了拯救」。",
+            "text": "「to save」是不定詞，表示目的，即「為了拯救」。",
             "category": "其他"
           },
           {
             "word": "the hippo",
-            "text": "「the hippo」中的「the」是定冠詞，特指「那隻河馬」。",
+            "text": "「the hippo」這裡的定冠詞「the」用來特指Fiona這隻河馬。",
             "category": "冠詞"
-          },
-          {
-            "word": "surgery",
-            "text": "「surgery」是不可數名詞，指「手術」。",
-            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Media Have I Got News for You",
-      "url": "https://edition.cnn.com/2026/11/20/media/zohran-mamdani-cnn-have-i-got-news-for-you",
+      "en": "Why does your body store fat in your butt?",
+      "url": "https://edition.cnn.com/2026/11/21/health/body-fat-butt-conversation",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Media Have I Got News for You",
-        "sourceUrl": "https://edition.cnn.com/2026/11/20/media/zohran-mamdani-cnn-have-i-got-news-for-you",
-        "zh": "媒體：我有新聞要告訴你。",
+        "sourceEn": "Why does your body store fat in your butt?",
+        "sourceUrl": "https://edition.cnn.com/2026/11/21/health/body-fat-butt-conversation",
+        "zh": "為什麼你的身體會在臀部儲存脂肪？",
         "accepted": [
           [
-            "Media",
-            "Have",
-            "I",
-            "Got",
-            "News",
-            "for",
-            "You"
+            "Why",
+            "does",
+            "your",
+            "body",
+            "store",
+            "fat",
+            "in",
+            "your",
+            "butt?"
           ]
         ],
         "distractors": [
-          "has",
-          "had",
-          "news's",
-          "you're",
-          "gotten",
-          "to"
+          "do",
+          "bodies",
+          "stores",
+          "fats",
+          "butts",
+          "storing"
         ],
         "notes": [
           {
-            "word": "Media",
-            "text": "「Media」在這裡作為一個稱呼或標題，指「媒體」。",
-            "category": "其他"
+            "word": "Why does",
+            "text": "在疑問句中，當主語是第三人稱單數時，助動詞使用「does」。",
+            "category": "時態"
           },
           {
-            "word": "Have I Got",
-            "text": "「Have I Got...?」是一種非正式的問句形式，意為「我有沒有…？」，在這裡表示「我有…」。",
-            "category": "其他"
+            "word": "store",
+            "text": "「store」是動詞原形，因為前面有助動詞「does」。",
+            "category": "時態"
           },
           {
-            "word": "News",
-            "text": "「News」是不可數名詞，意為「新聞」。",
+            "word": "fat",
+            "text": "「fat」在這裡是不可數名詞，指「脂肪」。",
             "category": "單複數"
           },
           {
-            "word": "for",
-            "text": "「for you」表示「給你、為你」。",
+            "word": "in your butt",
+            "text": "「in」在這裡表示位置，指「在你的臀部」。",
             "category": "介係詞"
-          },
-          {
-            "word": "Got",
-            "text": "「Got」是動詞「get」的過去分詞，在這裡與「Have」連用，表示「擁有」。",
-            "category": "時態"
           }
         ]
       }
