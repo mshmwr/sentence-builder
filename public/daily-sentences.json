@@ -1,650 +1,772 @@
 {
-  "date": "2026-11-24",
-  "fetchedAt": "2026-11-24T04:40:56.114Z",
+  "date": "2026-11-25",
+  "fetchedAt": "2026-11-25T03:27:50.029Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "How Trump, Vance orchestrated Jensen Huang’s return to Nvidia",
-      "url": "https://edition.cnn.com/2026/11/23/politics/trump-administration-jensen-huang-reinstated",
+      "en": "FAA probe zeroes in on cause of nationwide ground stop, but agency still faces tough questions",
+      "url": "https://edition.cnn.com/2026/11/24/politics/faa-identifies-cause-nationwide-ground-stop",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "How Trump, Vance orchestrated Jensen Huang’s return to Nvidia",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/politics/trump-administration-jensen-huang-reinstated",
-        "zh": "川普和范斯是如何策劃黃仁勳重返輝達的。",
+        "sourceEn": "FAA probe zeroes in on cause of nationwide ground stop, but agency still faces tough questions",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/faa-identifies-cause-nationwide-ground-stop",
+        "zh": "美國聯邦航空總署（FAA）的調查鎖定全國性停飛的原因，但該機構仍面臨嚴峻問題。",
         "accepted": [
           [
-            "How",
-            "Trump",
+            "FAA",
+            "probe",
+            "zeroes",
+            "in",
+            "on",
+            "cause",
+            "of",
+            "nationwide",
+            "ground",
+            "stop",
             ",",
-            "Vance",
-            "orchestrated",
-            "Jensen",
-            "Huang’s",
-            "return",
-            "to",
-            "Nvidia"
+            "but",
+            "agency",
+            "still",
+            "faces",
+            "tough",
+            "questions"
           ]
         ],
         "distractors": [
-          "While",
-          "Because",
-          "Despite",
-          "However",
-          "Therefore",
-          "Although"
+          "investigate",
+          "reason",
+          "air",
+          "flight",
+          "problem",
+          "difficult"
         ],
         "notes": [
           {
-            "word": "orchestrated",
-            "text": "這個動詞表示「精心策劃」或「精心安排」，常用於描述複雜的計畫或事件。",
+            "word": "zeroes in on",
+            "text": "「zero in on」是一個動詞片語，意為「將注意力集中在…上」或「鎖定…」。在這裡，它表示FAA的調查鎖定了停飛的原因。",
             "category": "其他"
           },
           {
-            "word": "return",
-            "text": "在這裡是名詞，表示「返回」或「歸來」。",
+            "word": "nationwide",
+            "text": "「nationwide」是一個形容詞，意為「全國性的」。它修飾「ground stop」（停飛）。",
             "category": "其他"
           },
           {
-            "word": "to",
-            "text": "介係詞，表示方向或歸屬，這裡指「回到」Nvidia。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Tracking Nvidia’s stock through the Jensen Huang controversy",
-      "url": "https://edition.cnn.com/2026/11/23/business/video/tracking-nvidias-stock-through-the-jensen-huang-controversy-digvid-vrtc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Tracking Nvidia’s stock through the Jensen Huang controversy",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/business/video/tracking-nvidias-stock-through-the-jensen-huang-controversy-digvid-vrtc",
-        "zh": "追蹤輝達股票在黃仁勳爭議期間的表現。",
-        "accepted": [
-          [
-            "Tracking",
-            "Nvidia’s",
-            "stock",
-            "through",
-            "the",
-            "Jensen",
-            "Huang",
-            "controversy"
-          ]
-        ],
-        "distractors": [
-          "Follow",
-          "Monitor",
-          "Observe",
-          "Watching",
-          "Searching",
-          "Examining"
-        ],
-        "notes": [
-          {
-            "word": "Tracking",
-            "text": "動名詞作句首，表示「追蹤」的動作。",
-            "category": "其他"
-          },
-          {
-            "word": "through",
-            "text": "介係詞，表示「在…期間」或「經歷…」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "controversy",
-            "text": "名詞，表示「爭議」或「爭論」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Nvidia employee hugs Jensen Huang after comeback speech",
-      "url": "https://edition.cnn.com/2026/11/23/business/video/nvidia-employee-hugs-jensen-huang-after-comeback-speech-hnk-digvid",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Nvidia employee hugs Jensen Huang after comeback speech",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/business/video/nvidia-employee-hugs-jensen-huang-after-comeback-speech-hnk-digvid",
-        "zh": "輝達員工在黃仁勳發表復出演講後擁抱他。",
-        "accepted": [
-          [
-            "Nvidia",
-            "employee",
-            "hugs",
-            "Jensen",
-            "Huang",
-            "after",
-            "comeback",
-            "speech"
-          ]
-        ],
-        "distractors": [
-          "embraces",
-          "greeted",
-          "met",
-          "saw",
-          "talked",
-          "congratulated"
-        ],
-        "notes": [
-          {
-            "word": "hugs",
-            "text": "動詞，表示「擁抱」。這裡使用第三人稱單數現在式，符合新聞標題的簡潔風格。",
+            "word": "faces",
+            "text": "「face」在這裡是動詞，意為「面臨」。由於主詞「agency」是單數第三人稱，所以動詞要加上-s。",
             "category": "時態"
           },
           {
-            "word": "after",
-            "text": "介係詞，表示「在…之後」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "comeback",
-            "text": "形容詞，表示「復出的」或「捲土重來的」。",
+            "word": "tough",
+            "text": "「tough」在這裡是形容詞，意為「困難的」或「嚴峻的」。它修飾「questions」（問題）。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Trump’s major risk on Jensen Huang",
-      "url": "https://edition.cnn.com/2026/11/23/politics/trump-jensen-huang-nvidia",
+      "en": "CIA hit by hack impacting unclassified information",
+      "url": "https://edition.cnn.com/2026/11/24/politics/cia-odni-hack-unclassified-information",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Trump’s major risk on Jensen Huang",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/politics/trump-jensen-huang-nvidia",
-        "zh": "川普在黃仁勳事件上的重大風險。",
+        "sourceEn": "CIA hit by hack impacting unclassified information",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/cia-odni-hack-unclassified-information",
+        "zh": "中央情報局（CIA）遭駭客攻擊，影響了非機密資訊。",
         "accepted": [
           [
-            "Trump’s",
-            "major",
-            "risk",
-            "on",
+            "CIA",
+            "hit",
+            "by",
+            "hack",
+            "impacting",
+            "unclassified",
+            "information"
+          ]
+        ],
+        "distractors": [
+          "attacked",
+          "affecting",
+          "secret",
+          "data",
+          "cyber",
+          "breach"
+        ],
+        "notes": [
+          {
+            "word": "hit",
+            "text": "「hit」在這裡是動詞，表示「遭受打擊」或「受到影響」。此處為被動語態的省略形式，完整應為「was hit」。",
+            "category": "時態"
+          },
+          {
+            "word": "by",
+            "text": "「by」在這裡表示動作的執行者，即「被…攻擊」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "impacting",
+            "text": "「impacting」是現在分詞，用作形容詞修飾前面的動作，表示「影響到」或「造成影響」。",
+            "category": "其他"
+          },
+          {
+            "word": "unclassified",
+            "text": "「unclassified」是一個形容詞，意為「非機密的」。它修飾「information」（資訊）。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Ex-NSA hacker: CIA breach could expose ‘very sensitive’ US data",
+      "url": "https://edition.cnn.com/2026/11/24/us/video/cia-breach-former-nsa-hacker-warning-digvid-vrtc",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Ex-NSA hacker: CIA breach could expose ‘very sensitive’ US data",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/us/video/cia-breach-former-nsa-hacker-warning-digvid-vrtc",
+        "zh": "前美國國家安全局（NSA）駭客表示：中央情報局（CIA）的洩密事件可能洩露「非常敏感」的美國數據。",
+        "accepted": [
+          [
+            "Ex-NSA",
+            "hacker",
+            ":",
+            "CIA",
+            "breach",
+            "could",
+            "expose",
+            "‘",
+            "very",
+            "sensitive",
+            "’",
+            "US",
+            "data"
+          ]
+        ],
+        "distractors": [
+          "former",
+          "spy",
+          "leak",
+          "reveal",
+          "secret",
+          "information"
+        ],
+        "notes": [
+          {
+            "word": "Ex-NSA",
+            "text": "「Ex-」是一個字首，表示「前任的」或「以前的」。所以「Ex-NSA hacker」指「前美國國家安全局駭客」。",
+            "category": "其他"
+          },
+          {
+            "word": "breach",
+            "text": "「breach」在這裡是名詞，意為「（安全）漏洞」或「洩密事件」。",
+            "category": "其他"
+          },
+          {
+            "word": "could",
+            "text": "「could」是情態助動詞，表示「可能」或「或許」。",
+            "category": "其他"
+          },
+          {
+            "word": "expose",
+            "text": "「expose」是動詞，意為「揭露」或「洩露」。情態助動詞後接動詞原形。",
+            "category": "時態"
+          },
+          {
+            "word": "sensitive",
+            "text": "「sensitive」是形容詞，意為「敏感的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The Trump team is getting more and more evasive about Jensen Huang",
+      "url": "https://edition.cnn.com/2026/11/24/politics/trump-jensen-huang-nvidia-messaging",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "The Trump team is getting more and more evasive about Jensen Huang",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/trump-jensen-huang-nvidia-messaging",
+        "zh": "川普團隊對黃仁勳的態度越來越迴避。",
+        "accepted": [
+          [
+            "The",
+            "Trump",
+            "team",
+            "is",
+            "getting",
+            "more",
+            "and",
+            "more",
+            "evasive",
+            "about",
             "Jensen",
             "Huang"
           ]
         ],
         "distractors": [
-          "big",
-          "huge",
-          "significant",
-          "important",
-          "large",
-          "great"
+          "Donald",
+          "group",
+          "becomes",
+          "less",
+          "clear",
+          "regarding"
         ],
         "notes": [
           {
-            "word": "Trump’s",
-            "text": "所有格，表示「川普的」。",
+            "word": "The",
+            "text": "「The」是定冠詞，用於特指「川普團隊」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "is getting",
+            "text": "「is getting」是現在進行式，表示「正在變得」或「越來越」。這裡的「get」有「變成」的意思。",
+            "category": "時態"
+          },
+          {
+            "word": "more and more",
+            "text": "「more and more + 形容詞」表示「越來越…」。",
             "category": "其他"
           },
           {
-            "word": "risk",
-            "text": "名詞，表示「風險」。",
+            "word": "evasive",
+            "text": "「evasive」是形容詞，意為「迴避的」或「閃爍其詞的」。",
             "category": "其他"
           },
           {
-            "word": "on",
-            "text": "介係詞，這裡表示「關於」或「在…方面」。",
+            "word": "about",
+            "text": "「about」在這裡是介係詞，表示「關於」或「針對」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "The Ukraine-Russia war is seeping out across Europe and there are two reasons it will get worse",
-      "url": "https://edition.cnn.com/2026/11/23/europe/ukraine-russia-war-seeping-across-europe-intl",
+      "en": "Trump says pardon for Jensen Huang is ‘always an option’ but likely won’t be needed",
+      "url": "https://edition.cnn.com/2026/11/24/politics/jensen-huang-trump-pardon-option-nvidia",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The Ukraine-Russia war is seeping out across Europe and there are two reasons it will get worse",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/europe/ukraine-russia-war-seeping-across-europe-intl",
-        "zh": "烏克蘭-俄羅斯戰爭正在蔓延到整個歐洲，有兩個原因會讓情況變得更糟。",
+        "sourceEn": "Trump says pardon for Jensen Huang is ‘always an option’ but likely won’t be needed",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/jensen-huang-trump-pardon-option-nvidia",
+        "zh": "川普表示特赦黃仁勳「總是一個選項」，但可能不需要。",
         "accepted": [
           [
-            "The",
-            "Ukraine-Russia",
-            "war",
+            "Trump",
+            "says",
+            "pardon",
+            "for",
+            "Jensen",
+            "Huang",
             "is",
-            "seeping",
-            "out",
-            "across",
-            "Europe",
+            "‘",
+            "always",
+            "an",
+            "option",
+            "’",
+            "but",
+            "likely",
+            "won",
+            "’",
+            "t",
+            "be",
+            "needed"
+          ]
+        ],
+        "distractors": [
+          "stated",
+          "forgiveness",
+          "choice",
+          "probably",
+          "required",
+          "necessary"
+        ],
+        "notes": [
+          {
+            "word": "says",
+            "text": "「says」是動詞「say」的第三人稱單數現在式，表示「說」。",
+            "category": "時態"
+          },
+          {
+            "word": "pardon",
+            "text": "「pardon」在這裡是名詞，意為「特赦」或「赦免」。",
+            "category": "其他"
+          },
+          {
+            "word": "an",
+            "text": "「an」是不定冠詞，用於以母音開頭的單數可數名詞前，這裡指「一個選項」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "option",
+            "text": "「option」是名詞，意為「選項」或「選擇」。",
+            "category": "其他"
+          },
+          {
+            "word": "won’t be needed",
+            "text": "「won’t be needed」是未來簡單式的被動語態否定形式，表示「將不需要」。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Jensen Huang apologizes to employees, says he’s in therapy",
+      "url": "https://edition.cnn.com/2026/11/24/tech/jensen-huang-apologies-employees-therapy",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Jensen Huang apologizes to employees, says he’s in therapy",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/tech/jensen-huang-apologies-employees-therapy",
+        "zh": "黃仁勳向員工道歉，稱他正在接受治療。",
+        "accepted": [
+          [
+            "Jensen",
+            "Huang",
+            "apologizes",
+            "to",
+            "employees",
+            ",",
+            "says",
+            "he",
+            "’",
+            "s",
+            "in",
+            "therapy"
+          ]
+        ],
+        "distractors": [
+          "sorry",
+          "staff",
+          "told",
+          "getting",
+          "treatment",
+          "counseling"
+        ],
+        "notes": [
+          {
+            "word": "apologizes",
+            "text": "「apologizes」是動詞「apologize」的第三人稱單數現在式，表示「道歉」。",
+            "category": "時態"
+          },
+          {
+            "word": "to",
+            "text": "「apologize to someone」表示「向某人道歉」，「to」是介係詞。",
+            "category": "介係詞"
+          },
+          {
+            "word": "employees",
+            "text": "「employees」是名詞「employee」的複數形式，意為「員工」。",
+            "category": "單複數"
+          },
+          {
+            "word": "he’s",
+            "text": "「he’s」是「he is」的縮寫，表示「他正在」或「他處於」。",
+            "category": "其他"
+          },
+          {
+            "word": "in therapy",
+            "text": "「in therapy」是一個片語，意為「正在接受治療」或「正在接受心理諮詢」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Like ‘family businesses’: Inside the Nvidia board that ousted and rehired Jensen Huang",
+      "url": "https://edition.cnn.com/2026/11/24/tech/nvidia-board-jensen-huang",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Like ‘family businesses’: Inside the Nvidia board that ousted and rehired Jensen Huang",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/tech/nvidia-board-jensen-huang",
+        "zh": "如同「家族企業」：揭秘輝達（Nvidia）董事會如何罷免又重新聘用黃仁勳。",
+        "accepted": [
+          [
+            "Like",
+            "‘",
+            "family",
+            "businesses",
+            "’",
+            ":",
+            "Inside",
+            "the",
+            "Nvidia",
+            "board",
+            "that",
+            "ousted",
             "and",
-            "there",
-            "are",
-            "two",
-            "reasons",
-            "it",
-            "will",
-            "get",
-            "worse"
+            "rehired",
+            "Jensen",
+            "Huang"
           ]
         ],
         "distractors": [
-          "spreading",
-          "extending",
-          "moving",
-          "reaching",
-          "flowing",
-          "going"
+          "similar",
+          "companies",
+          "within",
+          "committee",
+          "fired",
+          "hired"
         ],
         "notes": [
           {
-            "word": "seeping out",
-            "text": "動詞片語，表示「滲出」或「蔓延開來」。",
-            "category": "其他"
-          },
-          {
-            "word": "across",
-            "text": "介係詞，表示「橫越」或「遍及」。",
+            "word": "Like",
+            "text": "「Like」在這裡是介係詞，表示「像…一樣」。",
             "category": "介係詞"
           },
           {
-            "word": "there are",
-            "text": "表示「有」某物或某事存在。",
+            "word": "businesses",
+            "text": "「businesses」是名詞「business」的複數形式，意為「企業」或「公司」。",
+            "category": "單複數"
+          },
+          {
+            "word": "Inside",
+            "text": "「Inside」在這裡是介係詞，表示「在…內部」或「揭秘…」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "that",
+            "text": "「that」是關係代名詞，引導限定性關係子句，修飾「Nvidia board」。",
             "category": "其他"
           },
           {
-            "word": "will get worse",
-            "text": "未來式，表示情況將會惡化。",
+            "word": "ousted and rehired",
+            "text": "「ousted」和「rehired」都是動詞的過去式，表示「罷免」和「重新聘用」。",
             "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Ukrainian drones sink Russian warship in North Africa",
-      "url": "https://edition.cnn.com/2026/11/22/africa/russian-vessel-libya-suspected-drone-attack-intl",
+      "en": "Trump just handed Democrats a political gift",
+      "url": "https://edition.cnn.com/2026/11/24/politics/trump-democrats-jensen-huang",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Ukrainian drones sink Russian warship in North Africa",
-        "sourceUrl": "https://edition.cnn.com/2026/11/22/africa/russian-vessel-libya-suspected-drone-attack-intl",
-        "zh": "烏克蘭無人機在北非擊沉俄羅斯軍艦。",
+        "sourceEn": "Trump just handed Democrats a political gift",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/trump-democrats-jensen-huang",
+        "zh": "川普剛剛給了民主黨一份政治禮物。",
         "accepted": [
           [
-            "Ukrainian",
-            "drones",
-            "sink",
-            "Russian",
-            "warship",
-            "in",
-            "North",
-            "Africa"
+            "Trump",
+            "just",
+            "handed",
+            "Democrats",
+            "a",
+            "political",
+            "gift"
           ]
         ],
         "distractors": [
-          "destroyed",
-          "attacked",
-          "hit",
-          "damaged",
-          "sunk",
-          "wrecked"
+          "gave",
+          "Republicans",
+          "an",
+          "present",
+          "advantage",
+          "benefit"
         ],
         "notes": [
           {
-            "word": "drones",
-            "text": "名詞複數，表示「無人機」。",
-            "category": "單複數"
-          },
-          {
-            "word": "sink",
-            "text": "動詞，表示「擊沉」。新聞標題常用現在式來描述過去發生的事件，使其聽起來更即時。",
-            "category": "時態"
-          },
-          {
-            "word": "warship",
-            "text": "名詞，表示「軍艦」。",
+            "word": "just",
+            "text": "「just」在這裡是副詞，表示「剛剛」或「正好」。",
             "category": "其他"
           },
           {
-            "word": "in",
-            "text": "介係詞，表示地點「在…裡面」。",
+            "word": "handed",
+            "text": "「handed」是動詞「hand」的過去式，意為「遞給」或「交給」。",
+            "category": "時態"
+          },
+          {
+            "word": "Democrats",
+            "text": "「Democrats」是名詞「Democrat」的複數形式，指「民主黨人」。",
+            "category": "單複數"
+          },
+          {
+            "word": "a",
+            "text": "「a」是不定冠詞，用於單數可數名詞前，這裡指「一份政治禮物」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "political gift",
+            "text": "「political gift」是一個名詞片語，意為「政治禮物」，指對某一方有利的事件或情況。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Jensen Huang is a walking moral hazard",
+      "url": "https://edition.cnn.com/2026/11/24/business/jensen-huang-moral-hazard",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Jensen Huang is a walking moral hazard",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/business/jensen-huang-moral-hazard",
+        "zh": "黃仁勳是一個活生生的道德風險。",
+        "accepted": [
+          [
+            "Jensen",
+            "Huang",
+            "is",
+            "a",
+            "walking",
+            "moral",
+            "hazard"
+          ]
+        ],
+        "distractors": [
+          "was",
+          "the",
+          "living",
+          "ethical",
+          "danger",
+          "risk"
+        ],
+        "notes": [
+          {
+            "word": "is",
+            "text": "「is」是動詞「be」的第三人稱單數現在式，表示「是」。",
+            "category": "時態"
+          },
+          {
+            "word": "a",
+            "text": "「a」是不定冠詞，用於單數可數名詞前，這裡指「一個」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "walking",
+            "text": "「walking」在這裡是現在分詞作形容詞，意為「活生生的」或「移動的」，強調其具體化。例如「walking dictionary」指「活字典」。",
+            "category": "其他"
+          },
+          {
+            "word": "moral hazard",
+            "text": "「moral hazard」是一個經濟學術語，意為「道德風險」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Kilmar Abrego Garcia, who fought his mistaken deportation, is leaving the US voluntarily for Spain",
+      "url": "https://edition.cnn.com/2026/11/24/politics/kilmar-abrego-garcia-self-deporting-to-spain",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Kilmar Abrego Garcia, who fought his mistaken deportation, is leaving the US voluntarily for Spain",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/kilmar-abrego-garcia-self-deporting-to-spain",
+        "zh": "Kilmar Abrego Garcia，他曾為自己被錯誤驅逐出境而奮鬥，現在自願離開美國前往西班牙。",
+        "accepted": [
+          [
+            "Kilmar",
+            "Abrego",
+            "Garcia",
+            ",",
+            "who",
+            "fought",
+            "his",
+            "mistaken",
+            "deportation",
+            ",",
+            "is",
+            "leaving",
+            "the",
+            "US",
+            "voluntarily",
+            "for",
+            "Spain"
+          ]
+        ],
+        "distractors": [
+          "struggled",
+          "wrong",
+          "expulsion",
+          "departing",
+          "willingly",
+          "to"
+        ],
+        "notes": [
+          {
+            "word": "who",
+            "text": "「who」是關係代名詞，引導非限定性關係子句，修飾「Kilmar Abrego Garcia」。",
+            "category": "其他"
+          },
+          {
+            "word": "fought",
+            "text": "「fought」是動詞「fight」的過去式，意為「奮鬥」或「抗爭」。",
+            "category": "時態"
+          },
+          {
+            "word": "mistaken",
+            "text": "「mistaken」是形容詞，意為「錯誤的」或「搞錯的」。它修飾「deportation」。",
+            "category": "其他"
+          },
+          {
+            "word": "deportation",
+            "text": "「deportation」是名詞，意為「驅逐出境」。",
+            "category": "其他"
+          },
+          {
+            "word": "is leaving",
+            "text": "「is leaving」是現在進行式，表示「正在離開」或「即將離開」。",
+            "category": "時態"
+          },
+          {
+            "word": "voluntarily",
+            "text": "「voluntarily」是副詞，意為「自願地」。",
+            "category": "其他"
+          },
+          {
+            "word": "for",
+            "text": "「for」在這裡是介係詞，表示「前往」或「去」。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "7-year-old boy rescued after 14 hours trapped in debris of Russian strike",
-      "url": "https://edition.cnn.com/2026/11/23/world/video/ukraine-drone-strike-building-rescue-russia-digvid-vrtc",
+      "en": "US court convicts China’s Huawei for fraud, conspiring to steal trade secrets, in sprawling trial over Iran business",
+      "url": "https://edition.cnn.com/2026/11/24/china/china-huawei-iran-conviction-intl-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "7-year-old boy rescued after 14 hours trapped in debris of Russian strike",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/world/video/ukraine-drone-strike-building-rescue-russia-digvid-vrtc",
-        "zh": "一名7歲男孩在俄羅斯襲擊的瓦礫中被困14小時後獲救。",
+        "sourceEn": "US court convicts China’s Huawei for fraud, conspiring to steal trade secrets, in sprawling trial over Iran business",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/china/china-huawei-iran-conviction-intl-hnk",
+        "zh": "美國法院判定中國華為公司犯有詐欺罪，並密謀竊取商業機密，這是一場關於伊朗業務的廣泛審判。",
         "accepted": [
           [
-            "7-year-old",
-            "boy",
-            "rescued",
-            "after",
-            "14",
-            "hours",
-            "trapped",
+            "US",
+            "court",
+            "convicts",
+            "China",
+            "’",
+            "s",
+            "Huawei",
+            "for",
+            "fraud",
+            ",",
+            "conspiring",
+            "to",
+            "steal",
+            "trade",
+            "secrets",
+            ",",
             "in",
-            "debris",
-            "of",
-            "Russian",
-            "strike"
+            "sprawling",
+            "trial",
+            "over",
+            "Iran",
+            "business"
           ]
         ],
         "distractors": [
-          "saved",
-          "freed",
-          "recovered",
-          "found",
-          "extracted",
-          "pulled"
+          "judges",
+          "finds",
+          "guilty",
+          "deception",
+          "plotting",
+          "theft"
         ],
         "notes": [
           {
-            "word": "7-year-old",
-            "text": "複合形容詞，修飾「boy」。注意「year」用單數。",
-            "category": "單複數"
-          },
-          {
-            "word": "rescued",
-            "text": "動詞的過去分詞，表示「被救出」，這裡作被動語態。",
+            "word": "convicts",
+            "text": "「convicts」是動詞「convict」的第三人稱單數現在式，意為「判決有罪」。",
             "category": "時態"
           },
           {
-            "word": "trapped",
-            "text": "形容詞，表示「被困住的」。",
+            "word": "for",
+            "text": "「convict someone for something」表示「判決某人犯了某罪」，「for」是介係詞。",
+            "category": "介係詞"
+          },
+          {
+            "word": "fraud",
+            "text": "「fraud」是名詞，意為「詐欺」或「欺騙」。",
             "category": "其他"
           },
           {
-            "word": "debris",
-            "text": "名詞，表示「瓦礫」或「殘骸」，通常是不可數名詞。",
-            "category": "單複數"
+            "word": "conspiring",
+            "text": "「conspiring」是現在分詞，表示「密謀」或「共謀」。這裡與「for fraud」並列，說明其罪行。",
+            "category": "其他"
           },
           {
-            "word": "strike",
-            "text": "名詞，表示「襲擊」或「打擊」。",
+            "word": "trade secrets",
+            "text": "「trade secrets」是名詞片語，意為「商業機密」。",
             "category": "其他"
+          },
+          {
+            "word": "sprawling",
+            "text": "「sprawling」是形容詞，意為「廣泛的」或「蔓延的」。它修飾「trial」。",
+            "category": "其他"
+          },
+          {
+            "word": "over",
+            "text": "「over」在這裡是介係詞，表示「關於」或「針對」。",
+            "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "Breaking News Lyndon French/The New York Times/Redux",
-      "url": "https://edition.cnn.com/2026/11/23/us/iowa-army-detonation-lead-azide",
+      "en": "An off-duty police officer said he killed in self-defense. The jury said it was double murder",
+      "url": "https://edition.cnn.com/2026/11/24/world/australia-lamarre-condon-verdict-intl-hnk",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Breaking News Lyndon French/The New York Times/Redux",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/us/iowa-army-detonation-lead-azide",
-        "zh": "突發新聞：林登·法蘭奇/紐約時報/Redux。",
+        "sourceEn": "An off-duty police officer said he killed in self-defense. The jury said it was double murder",
+        "sourceUrl": "https://edition.cnn.com/2026/11/24/world/australia-lamarre-condon-verdict-intl-hnk",
+        "zh": "一名下班警官稱自己是自衛殺人。陪審團卻說這是雙重謀殺。",
         "accepted": [
           [
-            "Breaking",
-            "News",
-            "Lyndon",
-            "French",
-            "/",
+            "An",
+            "off-duty",
+            "police",
+            "officer",
+            "said",
+            "he",
+            "killed",
+            "in",
+            "self-defense",
+            ".",
             "The",
-            "New",
-            "York",
-            "Times",
-            "/",
-            "Redux"
+            "jury",
+            "said",
+            "it",
+            "was",
+            "double",
+            "murder"
           ]
         ],
         "distractors": [
-          "Latest",
-          "Urgent",
-          "Hot",
-          "Flash",
-          "Top",
-          "Urgent"
+          "A",
+          "retired",
+          "policeman",
+          "claimed",
+          "shot",
+          "protection"
         ],
         "notes": [
           {
-            "word": "Breaking News",
-            "text": "固定片語，表示「突發新聞」。",
+            "word": "An",
+            "text": "「An」是不定冠詞，用於以母音開頭的單數可數名詞前，這裡指「一名」。",
+            "category": "冠詞"
+          },
+          {
+            "word": "off-duty",
+            "text": "「off-duty」是一個複合形容詞，意為「下班的」或「非執勤的」。",
+            "category": "其他"
+          },
+          {
+            "word": "killed",
+            "text": "「killed」是動詞「kill」的過去式，意為「殺害」。",
+            "category": "時態"
+          },
+          {
+            "word": "in self-defense",
+            "text": "「in self-defense」是一個片語，意為「出於自衛」。",
             "category": "其他"
           },
           {
             "word": "The",
-            "text": "定冠詞，用於專有名詞「The New York Times」前。",
+            "text": "「The」是定冠詞，用於特指「陪審團」。",
             "category": "冠詞"
           },
           {
-            "word": "/",
-            "text": "斜線符號，常用於新聞標題中分隔不同的資訊來源或作者。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Could Iowa’s lead explosion poison nearby communities? An expert weighs in",
-      "url": "https://edition.cnn.com/2026/11/22/us/video/could-iowas-lead-explosion-poison-nearby-communities-an-expert-weighs-in",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Could Iowa’s lead explosion poison nearby communities? An expert weighs in",
-        "sourceUrl": "https://edition.cnn.com/2026/11/22/us/video/could-iowas-lead-explosion-poison-nearby-communities-an-expert-weighs-in",
-        "zh": "愛荷華州的鉛爆炸會毒害附近的社區嗎？一位專家權衡利弊。",
-        "accepted": [
-          [
-            "Could",
-            "Iowa’s",
-            "lead",
-            "explosion",
-            "poison",
-            "nearby",
-            "communities",
-            "?",
-            "An",
-            "expert",
-            "weighs",
-            "in"
-          ]
-        ],
-        "distractors": [
-          "Might",
-          "Would",
-          "Should",
-          "Can",
-          "Will",
-          "May"
-        ],
-        "notes": [
-          {
-            "word": "Could",
-            "text": "情態助動詞，表示可能性。",
+            "word": "jury",
+            "text": "「jury」是名詞，意為「陪審團」。",
             "category": "其他"
           },
           {
-            "word": "Iowa’s",
-            "text": "所有格，表示「愛荷華州的」。",
-            "category": "其他"
-          },
-          {
-            "word": "poison",
-            "text": "動詞，表示「毒害」。",
-            "category": "其他"
-          },
-          {
-            "word": "communities",
-            "text": "名詞複數，表示「社區」。",
-            "category": "單複數"
-          },
-          {
-            "word": "weighs in",
-            "text": "動詞片語，表示「參與討論」或「發表意見」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "House report: Rep. Gomez made unwanted sexual advances toward former Hill staffer",
-      "url": "https://edition.cnn.com/2026/11/23/politics/video/house-ethics-panel-reports-rep-jimmy-gomez-unwelcome-sexual-advances-resign-vrtc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "House report: Rep. Gomez made unwanted sexual advances toward former Hill staffer",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/politics/video/house-ethics-panel-reports-rep-jimmy-gomez-unwelcome-sexual-advances-resign-vrtc",
-        "zh": "眾議院報告：眾議員戈麥斯對前國會山莊職員做出不受歡迎的性騷擾。",
-        "accepted": [
-          [
-            "House",
-            "report",
-            ":",
-            "Rep",
-            ".",
-            "Gomez",
-            "made",
-            "unwanted",
-            "sexual",
-            "advances",
-            "toward",
-            "former",
-            "Hill",
-            "staffer"
-          ]
-        ],
-        "distractors": [
-          "issued",
-          "stated",
-          "revealed",
-          "claimed",
-          "said",
-          "declared"
-        ],
-        "notes": [
-          {
-            "word": "Rep.",
-            "text": "「Representative」的縮寫，表示「眾議員」。",
-            "category": "其他"
-          },
-          {
-            "word": "made advances",
-            "text": "動詞片語，表示「做出進展」或「求愛」。在這裡與「sexual」和「unwanted」連用，表示「性騷擾」。",
-            "category": "其他"
-          },
-          {
-            "word": "unwanted",
-            "text": "形容詞，表示「不受歡迎的」。",
-            "category": "其他"
-          },
-          {
-            "word": "toward",
-            "text": "介係詞，表示方向「朝向」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "staffer",
-            "text": "名詞，表示「職員」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Washington’s governor ‘skeptical’ of ICE account of Seattle airport arrest",
-      "url": "https://edition.cnn.com/2026/11/23/us/video/washington-governor-skeptical-ice-airport-arrest-digvid",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Washington’s governor ‘skeptical’ of ICE account of Seattle airport arrest",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/us/video/washington-governor-skeptical-ice-airport-arrest-digvid",
-        "zh": "華盛頓州州長對ICE關於西雅圖機場逮捕事件的說法表示「懷疑」。",
-        "accepted": [
-          [
-            "Washington’s",
-            "governor",
-            "‘skeptical’",
-            "of",
-            "ICE",
-            "account",
-            "of",
-            "Seattle",
-            "airport",
-            "arrest"
-          ]
-        ],
-        "distractors": [
-          "doubtful",
-          "suspicious",
-          "unconvinced",
-          "questioning",
-          "distrustful",
-          "hesitant"
-        ],
-        "notes": [
-          {
-            "word": "Washington’s",
-            "text": "所有格，表示「華盛頓州的」。",
-            "category": "其他"
-          },
-          {
-            "word": "skeptical",
-            "text": "形容詞，表示「懷疑的」。",
-            "category": "其他"
-          },
-          {
-            "word": "of",
-            "text": "介係詞，這裡表示「對…感到懷疑」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "account",
-            "text": "名詞，表示「說法」或「報告」。",
-            "category": "其他"
-          },
-          {
-            "word": "arrest",
-            "text": "名詞，表示「逮捕」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Miss Universe is embroiled in chaos. Again",
-      "url": "https://edition.cnn.com/2026/11/23/style/miss-universe-is-embroiled-in-chaos-again-hnk-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Miss Universe is embroiled in chaos. Again",
-        "sourceUrl": "https://edition.cnn.com/2026/11/23/style/miss-universe-is-embroiled-in-chaos-again-hnk-intl",
-        "zh": "環球小姐陷入混亂。又來了。",
-        "accepted": [
-          [
-            "Miss",
-            "Universe",
-            "is",
-            "embroiled",
-            "in",
-            "chaos",
-            ".",
-            "Again"
-          ]
-        ],
-        "distractors": [
-          "involved",
-          "caught",
-          "entangled",
-          "mired",
-          "stuck",
-          "plunged"
-        ],
-        "notes": [
-          {
-            "word": "embroiled",
-            "text": "動詞的過去分詞，表示「捲入」或「陷入」，常用於負面情境。",
-            "category": "其他"
-          },
-          {
-            "word": "in",
-            "text": "介係詞，表示「在…之中」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "chaos",
-            "text": "名詞，表示「混亂」。",
-            "category": "其他"
-          },
-          {
-            "word": "Again",
-            "text": "副詞，表示「再次」或「又」。",
+            "word": "double murder",
+            "text": "「double murder」是一個名詞片語，意為「雙重謀殺」。",
             "category": "其他"
           }
         ]
