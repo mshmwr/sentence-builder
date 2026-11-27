@@ -1,616 +1,691 @@
 {
-  "date": "2026-11-26",
-  "fetchedAt": "2026-11-26T02:43:28.706Z",
+  "date": "2026-11-27",
+  "fetchedAt": "2026-11-27T02:43:48.471Z",
   "source": "https://edition.cnn.com/",
   "sentences": [
     {
-      "en": "The US government says Iowa detonation results exceeded expectations. Now what?",
-      "url": "https://edition.cnn.com/2026/11/25/us/iowa-lead-detonation-what-next",
+      "en": "Houthis strike Saudi oil infrastructure as Riyadh intensifies attacks on Yemen",
+      "url": "https://edition.cnn.com/2026/11/26/middleeast/houthi-saudi-oil-refinery-strike-satellite-imagery-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "The US government says Iowa detonation results exceeded expectations. Now what?",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/us/iowa-lead-detonation-what-next",
-        "zh": "美國政府表示，愛荷華州的引爆結果超出了預期。現在怎麼辦？",
+        "sourceEn": "Houthis strike Saudi oil infrastructure as Riyadh intensifies attacks on Yemen",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/middleeast/houthi-saudi-oil-refinery-strike-satellite-imagery-intl",
+        "zh": "胡塞武裝襲擊沙特石油基礎設施，利雅德加強對葉門的襲擊",
         "accepted": [
           [
-            "The",
-            "US",
-            "government",
-            "says",
-            "Iowa",
-            "detonation",
-            "results",
-            "exceeded",
-            "expectations",
-            ".",
-            "Now",
-            "what",
-            "?"
-          ]
-        ],
-        "distractors": [
-          "exceeding",
-          "expect",
-          "result"
-        ],
-        "notes": [
-          {
-            "word": "exceeded",
-            "text": "這裡使用過去式，表示引爆結果已經發生並超出了預期。",
-            "category": "時態"
-          },
-          {
-            "word": "The",
-            "text": "特指「美國政府」，因此使用定冠詞「The」。",
-            "category": "冠詞"
-          },
-          {
-            "word": "what",
-            "text": "在疑問句中，'what' 用來詢問接下來會發生什麼或該怎麼辦。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Drone footage shows the moment of the Iowa lead azide detonation",
-      "url": "https://edition.cnn.com/2026/11/25/us/video/drone-footage-iowa-lead-azide-detonation-digvid-vrtc",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Drone footage shows the moment of the Iowa lead azide detonation",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/us/video/drone-footage-iowa-lead-azide-detonation-digvid-vrtc",
-        "zh": "無人機畫面顯示愛荷華州疊氮化鉛引爆的瞬間。",
-        "accepted": [
-          [
-            "Drone",
-            "footage",
-            "shows",
-            "the",
-            "moment",
-            "of",
-            "the",
-            "Iowa",
-            "lead",
-            "azide",
-            "detonation"
-          ]
-        ],
-        "distractors": [
-          "showing",
-          "moments",
-          "detonate"
-        ],
-        "notes": [
-          {
-            "word": "shows",
-            "text": "主詞 'Drone footage' 是單數，因此動詞使用第三人稱單數形式 'shows'。",
-            "category": "單複數"
-          },
-          {
-            "word": "the",
-            "text": "特指「引爆的瞬間」和「愛荷華州的疊氮化鉛引爆」，因此使用定冠詞 'the'。",
-            "category": "冠詞"
-          },
-          {
-            "word": "of",
-            "text": "'of' 用來表示所有格或關聯，這裡指「愛荷華州疊氮化鉛引爆的瞬間」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return",
-      "url": "https://edition.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return",
-        "zh": "由於對人工智慧的擔憂蓋過了黃仁勳重返輝達的消息，科技股表現不穩定。",
-        "accepted": [
-          [
-            "Tech",
-            "stocks",
-            "are",
-            "volatile",
+            "Houthis",
+            "strike",
+            "Saudi",
+            "oil",
+            "infrastructure",
             "as",
-            "AI",
-            "fears",
-            "overshadow",
-            "Huang’s",
-            "Nvidia",
-            "return"
+            "Riyadh",
+            "intensifies",
+            "attacks",
+            "on",
+            "Yemen"
           ]
         ],
         "distractors": [
-          "is",
-          "fear",
-          "overshadowed"
+          "strikes",
+          "attacking",
+          "intensify",
+          "the",
+          "a",
+          "of"
         ],
         "notes": [
           {
-            "word": "stocks",
-            "text": "主詞 'Tech stocks' 是複數，因此使用動詞 'are'。",
-            "category": "單複數"
-          },
-          {
-            "word": "overshadow",
-            "text": "這裡使用現在式，表示擔憂正在蓋過消息。",
+            "word": "strike",
+            "text": "此處 'strike' 作動詞，意為「襲擊」。由於主語 'Houthis' 是複數，動詞使用原型。",
             "category": "時態"
           },
           {
             "word": "as",
-            "text": "'as' 在這裡表示原因，意為「由於」或「因為」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Nvidia is crucial to the economy. An AI wipeout could unleash unexpected consequences",
-      "url": "https://edition.cnn.com/2026/11/25/economy/stock-market-ai-gdp",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Nvidia is crucial to the economy. An AI wipeout could unleash unexpected consequences",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/economy/stock-market-ai-gdp",
-        "zh": "輝達對經濟至關重要。人工智慧的徹底崩潰可能會引發意想不到的後果。",
-        "accepted": [
-          [
-            "Nvidia",
-            "is",
-            "crucial",
-            "to",
-            "the",
-            "economy",
-            ".",
-            "An",
-            "AI",
-            "wipeout",
-            "could",
-            "unleash",
-            "unexpected",
-            "consequences"
-          ]
-        ],
-        "distractors": [
-          "are",
-          "crucially",
-          "unleashed"
-        ],
-        "notes": [
-          {
-            "word": "is",
-            "text": "主詞 'Nvidia' 是單數，因此使用動詞 'is'。",
-            "category": "單複數"
-          },
-          {
-            "word": "to",
-            "text": "'crucial to' 表示「對...至關重要」。",
+            "text": "'as' 在此句中作為連接詞，表示「當...之際」或「隨著...」，說明兩個動作同時發生。",
             "category": "介係詞"
           },
           {
-            "word": "An",
-            "text": "'AI wipeout' 以母音開頭，因此使用不定冠詞 'An'。",
-            "category": "冠詞"
+            "word": "on",
+            "text": "'attacks on' 是常見的搭配，表示「對...的襲擊」。",
+            "category": "介係詞"
           },
           {
-            "word": "could",
-            "text": "'could' 表示可能性，指「可能會」引發後果。",
-            "category": "其他"
+            "word": "infrastructure",
+            "text": "'infrastructure' 是不可數名詞，指「基礎設施」，通常不加 's'。",
+            "category": "單複數"
           }
         ]
       }
     },
     {
-      "en": "Why Nvidia is the quintessential Trump scandal",
-      "url": "https://edition.cnn.com/2026/11/25/politics/jensen-huang-scandal-trump",
+      "en": "Two Italians killed in alleged Iranian drone attack on Kuwait; Tehran denies involvement",
+      "url": "https://edition.cnn.com/2026/11/26/middleeast/italians-killed-iranian-attack-kuwait-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Why Nvidia is the quintessential Trump scandal",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/politics/jensen-huang-scandal-trump",
-        "zh": "為什麼輝達是典型的川普醜聞。",
+        "sourceEn": "Two Italians killed in alleged Iranian drone attack on Kuwait; Tehran denies involvement",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/middleeast/italians-killed-iranian-attack-kuwait-intl",
+        "zh": "兩名義大利人在科威特疑似伊朗無人機襲擊中喪生；德黑蘭否認涉案",
         "accepted": [
           [
-            "Why",
-            "Nvidia",
-            "is",
-            "the",
-            "quintessential",
-            "Trump",
-            "scandal"
+            "Two",
+            "Italians",
+            "killed",
+            "in",
+            "alleged",
+            "Iranian",
+            "drone",
+            "attack",
+            "on",
+            "Kuwait",
+            ";",
+            "Tehran",
+            "denies",
+            "involvement"
           ]
         ],
         "distractors": [
-          "are",
-          "quintessentially",
-          "scandals"
+          "kill",
+          "killing",
+          "deny",
+          "denied",
+          "the",
+          "a"
         ],
         "notes": [
           {
-            "word": "is",
-            "text": "主詞 'Nvidia' 是單數，因此使用動詞 'is'。",
-            "category": "單複數"
+            "word": "killed",
+            "text": "此處 'killed' 是過去分詞，構成被動語態，表示「被殺害」。",
+            "category": "時態"
           },
           {
-            "word": "the",
-            "text": "特指「典型的川普醜聞」，因此使用定冠詞 'the'。",
-            "category": "冠詞"
+            "word": "alleged",
+            "text": "'alleged' 作形容詞，意為「被指稱的，所謂的」，修飾 'Iranian drone attack'。",
+            "category": "其他"
           },
           {
-            "word": "Why",
-            "text": "'Why' 用來詢問原因。",
+            "word": "on",
+            "text": "'attack on' 表示「對...的襲擊」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "denies",
+            "text": "主語 'Tehran' 是單數第三人稱，動詞 'deny' 需加 's'。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Israel intensifies Hamas assassinations as US urges Netanyahu to proceed with ceasefire plan",
+      "url": "https://edition.cnn.com/2026/11/26/middleeast/israel-gaza-assassinations-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Israel intensifies Hamas assassinations as US urges Netanyahu to proceed with ceasefire plan",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/middleeast/israel-gaza-assassinations-intl",
+        "zh": "以色列加強對哈馬斯的暗殺行動，美國敦促內塔尼亞胡推進停火計畫",
+        "accepted": [
+          [
+            "Israel",
+            "intensifies",
+            "Hamas",
+            "assassinations",
+            "as",
+            "US",
+            "urges",
+            "Netanyahu",
+            "to",
+            "proceed",
+            "with",
+            "ceasefire",
+            "plan"
+          ]
+        ],
+        "distractors": [
+          "intensify",
+          "intensified",
+          "urge",
+          "urged",
+          "the",
+          "a"
+        ],
+        "notes": [
+          {
+            "word": "intensifies",
+            "text": "主語 'Israel' 是單數第三人稱，動詞 'intensify' 需加 'es'。",
+            "category": "時態"
+          },
+          {
+            "word": "as",
+            "text": "'as' 在此句中作為連接詞，表示「當...之際」或「隨著...」，說明兩個動作同時發生。",
+            "category": "介係詞"
+          },
+          {
+            "word": "urges",
+            "text": "主語 'US' 是單數第三人稱，動詞 'urge' 需加 's'。",
+            "category": "時態"
+          },
+          {
+            "word": "to proceed with",
+            "text": "'urge someone to do something' 是常見用法，表示「敦促某人做某事」。'proceed with' 意為「繼續進行」。",
             "category": "其他"
           }
         ]
       }
     },
     {
-      "en": "Vance says he was told Huang was not under investigation",
-      "url": "https://edition.cnn.com/2026/11/25/politics/vance-jensen-huang-investigation",
+      "en": "Widespread power outages upend Thanksgiving preparations",
+      "url": "https://edition.cnn.com/2026/11/26/us/video/widespread-power-outages-upend-thanksgiving-preparations-digvid-vrtc",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Vance says he was told Huang was not under investigation",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/politics/vance-jensen-huang-investigation",
-        "zh": "范斯表示，他被告知黃仁勳並未受到調查。",
+        "sourceEn": "Widespread power outages upend Thanksgiving preparations",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/us/video/widespread-power-outages-upend-thanksgiving-preparations-digvid-vrtc",
+        "zh": "大範圍停電打亂感恩節準備工作",
         "accepted": [
           [
-            "Vance",
-            "says",
-            "he",
-            "was",
-            "told",
-            "Huang",
-            "was",
+            "Widespread",
+            "power",
+            "outages",
+            "upend",
+            "Thanksgiving",
+            "preparations"
+          ]
+        ],
+        "distractors": [
+          "outage",
+          "upended",
+          "upending",
+          "the",
+          "a",
+          "of"
+        ],
+        "notes": [
+          {
+            "word": "outages",
+            "text": "'outages' 是複數名詞，表示「停電事件」。",
+            "category": "單複數"
+          },
+          {
+            "word": "upend",
+            "text": "主語 'Widespread power outages' 是複數，動詞 'upend' 使用原型，意為「顛覆，打亂」。",
+            "category": "時態"
+          },
+          {
+            "word": "preparations",
+            "text": "'preparations' 是複數名詞，表示「準備工作」。",
+            "category": "單複數"
+          }
+        ]
+      }
+    },
+    {
+      "en": "He owns 1,000 bottles of China’s prized liquor. He’s also allergic to it",
+      "url": "https://edition.cnn.com/2026/11/26/style/moutai-baijiu-liquor-collectors",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "He owns 1,000 bottles of China’s prized liquor. He’s also allergic to it",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/style/moutai-baijiu-liquor-collectors",
+        "zh": "他擁有1,000瓶中國珍貴的白酒。他對此也過敏。",
+        "accepted": [
+          [
+            "He",
+            "owns",
+            "1,000",
+            "bottles",
+            "of",
+            "China’s",
+            "prized",
+            "liquor",
+            ".",
+            "He’s",
+            "also",
+            "allergic",
+            "to",
+            "it"
+          ]
+        ],
+        "distractors": [
+          "own",
+          "owning",
+          "bottle",
+          "allergies",
+          "the",
+          "a"
+        ],
+        "notes": [
+          {
+            "word": "owns",
+            "text": "主語 'He' 是單數第三人稱，動詞 'own' 需加 's'。",
+            "category": "時態"
+          },
+          {
+            "word": "bottles",
+            "text": "'1,000 bottles' 表示數量，'bottles' 需用複數。",
+            "category": "單複數"
+          },
+          {
+            "word": "China’s",
+            "text": "'China’s' 是所有格，表示「中國的」。",
+            "category": "其他"
+          },
+          {
+            "word": "allergic to",
+            "text": "'allergic to' 是固定搭配，表示「對...過敏」。",
+            "category": "介係詞"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Artists are quitting Instagram and Facebook over fears AI will steal their work",
+      "url": "https://edition.cnn.com/2026/11/26/tech/artists-meta-ai-slop-instagram-facebook",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Artists are quitting Instagram and Facebook over fears AI will steal their work",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/tech/artists-meta-ai-slop-instagram-facebook",
+        "zh": "藝術家因擔心人工智慧竊取他們的作品而退出 Instagram 和 Facebook",
+        "accepted": [
+          [
+            "Artists",
+            "are",
+            "quitting",
+            "Instagram",
+            "and",
+            "Facebook",
+            "over",
+            "fears",
+            "AI",
+            "will",
+            "steal",
+            "their",
+            "work"
+          ]
+        ],
+        "distractors": [
+          "quit",
+          "quitted",
+          "fear",
+          "steals",
+          "the",
+          "a"
+        ],
+        "notes": [
+          {
+            "word": "are quitting",
+            "text": "此處使用現在進行時 'are quitting'，表示正在發生的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "over",
+            "text": "'over fears' 表示「因為擔心」，'over' 在此處有「由於，因為」的意思。",
+            "category": "介係詞"
+          },
+          {
+            "word": "will steal",
+            "text": "'will steal' 表示將來會發生的動作，是未來簡單式。",
+            "category": "時態"
+          },
+          {
+            "word": "their",
+            "text": "'their' 是所有格代名詞，指「他們的」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Alleged Russia-directed sabotage in Europe risks mass-casualty event, think tank warns",
+      "url": "https://edition.cnn.com/2026/11/26/europe/russias-europe-ukraine-iiss-report-intl-hnk-ml",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Alleged Russia-directed sabotage in Europe risks mass-casualty event, think tank warns",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/europe/russias-europe-ukraine-iiss-report-intl-hnk-ml",
+        "zh": "智庫警告，歐洲疑似俄羅斯主導的破壞活動恐引發大規模傷亡事件",
+        "accepted": [
+          [
+            "Alleged",
+            "Russia-directed",
+            "sabotage",
+            "in",
+            "Europe",
+            "risks",
+            "mass-casualty",
+            "event",
+            ",",
+            "think",
+            "tank",
+            "warns"
+          ]
+        ],
+        "distractors": [
+          "risk",
+          "risked",
+          "sabotages",
+          "warned",
+          "the",
+          "a"
+        ],
+        "notes": [
+          {
+            "word": "Alleged",
+            "text": "'Alleged' 作形容詞，意為「被指稱的，所謂的」，修飾 'Russia-directed sabotage'。",
+            "category": "其他"
+          },
+          {
+            "word": "sabotage",
+            "text": "'sabotage' 在此處作不可數名詞，意為「破壞活動」。",
+            "category": "單複數"
+          },
+          {
+            "word": "risks",
+            "text": "主語 'sabotage' 是單數，動詞 'risk' 需加 's'。",
+            "category": "時態"
+          },
+          {
+            "word": "warns",
+            "text": "主語 'think tank' 是單數，動詞 'warn' 需加 's'。",
+            "category": "時態"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Putin showed ‘restraint’ by not using nuclear weapons, Kushner says",
+      "url": "https://edition.cnn.com/2026/11/26/world/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Putin showed ‘restraint’ by not using nuclear weapons, Kushner says",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/world/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says",
+        "zh": "庫什納稱，普丁沒有使用核武器是表現出「克制」",
+        "accepted": [
+          [
+            "Putin",
+            "showed",
+            "‘restraint’",
+            "by",
             "not",
-            "under",
-            "investigation"
+            "using",
+            "nuclear",
+            "weapons",
+            ",",
+            "Kushner",
+            "says"
+          ]
+        ],
+        "distractors": [
+          "show",
+          "showing",
+          "use",
+          "used",
+          "the",
+          "a"
+        ],
+        "notes": [
+          {
+            "word": "showed",
+            "text": "'showed' 是動詞 'show' 的過去式，表示過去發生的動作。",
+            "category": "時態"
+          },
+          {
+            "word": "by not using",
+            "text": "'by + V-ing' 表示「透過...方式」，'not using' 表示「不使用」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "says",
+            "text": "主語 'Kushner' 是單數第三人稱，動詞 'say' 需加 's'。",
+            "category": "時態"
+          },
+          {
+            "word": "restraint",
+            "text": "'restraint' 在此處作名詞，意為「克制，抑制」。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "First Lady says she has reunited nine more Ukrainian children with their families amid ongoing war",
+      "url": "https://edition.cnn.com/2026/11/26/world/video/melania-trump-ukrainian-children-putin-war-digvid-vrtc",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "First Lady says she has reunited nine more Ukrainian children with their families amid ongoing war",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/world/video/melania-trump-ukrainian-children-putin-war-digvid-vrtc",
+        "zh": "第一夫人表示，在持續的戰爭中，她已將另外九名烏克蘭兒童與他們的家人團聚",
+        "accepted": [
+          [
+            "First",
+            "Lady",
+            "says",
+            "she",
+            "has",
+            "reunited",
+            "nine",
+            "more",
+            "Ukrainian",
+            "children",
+            "with",
+            "their",
+            "families",
+            "amid",
+            "ongoing",
+            "war"
           ]
         ],
         "distractors": [
           "said",
-          "telling",
-          "investigated"
+          "reunite",
+          "reuniting",
+          "child",
+          "the",
+          "a"
         ],
         "notes": [
           {
             "word": "says",
-            "text": "主詞 'Vance' 是單數，因此動詞使用第三人稱單數形式 'says'。",
-            "category": "單複數"
-          },
-          {
-            "word": "was",
-            "text": "這裡使用過去式被動語態 'was told'，表示他被告知了某事。",
+            "text": "主語 'First Lady' 是單數第三人稱，動詞 'say' 需加 's'。",
             "category": "時態"
           },
           {
-            "word": "under",
-            "text": "'under investigation' 是固定搭配，表示「正在接受調查」。",
+            "word": "has reunited",
+            "text": "此處使用現在完成時 'has reunited'，表示動作已經完成，且影響持續到現在。",
+            "category": "時態"
+          },
+          {
+            "word": "with",
+            "text": "'reunite... with...' 是固定搭配，表示「使...與...團聚」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "amid",
+            "text": "'amid' 作介係詞，意為「在...之中」，表示在某種情況或環境下。",
             "category": "介係詞"
           }
         ]
       }
     },
     {
-      "en": "US economy grew faster last quarter than initially reported",
-      "url": "https://edition.cnn.com/2026/11/25/economy/us-pce-inflation-spending-gdp",
+      "en": "British woman drugged and raped by husband didn’t initially believe police, court hears",
+      "url": "https://edition.cnn.com/2026/11/25/uk/british-mass-rape-survivor-testifies-court-intl",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "US economy grew faster last quarter than initially reported",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/economy/us-pce-inflation-spending-gdp",
-        "zh": "美國經濟上個季度增長速度快於最初報告。",
+        "sourceEn": "British woman drugged and raped by husband didn’t initially believe police, court hears",
+        "sourceUrl": "https://edition.cnn.com/2026/11/25/uk/british-mass-rape-survivor-testifies-court-intl",
+        "zh": "法庭聽聞，一名被丈夫下藥和強姦的英國婦女最初不相信警方",
         "accepted": [
           [
-            "US",
-            "economy",
-            "grew",
-            "faster",
-            "last",
-            "quarter",
-            "than",
-            "initially",
-            "reported"
-          ]
-        ],
-        "distractors": [
-          "grow",
-          "fast",
-          "reporting"
-        ],
-        "notes": [
-          {
-            "word": "grew",
-            "text": "這裡使用過去式，表示經濟增長已經發生。",
-            "category": "時態"
-          },
-          {
-            "word": "faster",
-            "text": "'faster' 是 'fast' 的比較級，用於比較增長速度。",
-            "category": "其他"
-          },
-          {
-            "word": "than",
-            "text": "'than' 用於比較句中，表示「比...」。",
-            "category": "其他"
-          }
-        ]
-      }
-    },
-    {
-      "en": "The Trump team is getting more and more evasive about Huang",
-      "url": "https://edition.cnn.com/2026/11/24/politics/trump-jensen-huang-nvidia-messaging",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "The Trump team is getting more and more evasive about Huang",
-        "sourceUrl": "https://edition.cnn.com/2026/11/24/politics/trump-jensen-huang-nvidia-messaging",
-        "zh": "川普團隊對黃仁勳的態度越來越迴避。",
-        "accepted": [
-          [
-            "The",
-            "Trump",
-            "team",
-            "is",
-            "getting",
-            "more",
+            "British",
+            "woman",
+            "drugged",
             "and",
-            "more",
-            "evasive",
-            "about",
-            "Huang"
+            "raped",
+            "by",
+            "husband",
+            "didn’t",
+            "initially",
+            "believe",
+            "police",
+            ",",
+            "court",
+            "hears"
           ]
         ],
         "distractors": [
-          "are",
-          "get",
-          "evasively"
+          "drug",
+          "rape",
+          "believed",
+          "hearing",
+          "the",
+          "a"
         ],
         "notes": [
           {
-            "word": "is",
-            "text": "主詞 'The Trump team' 視為單數，因此使用動詞 'is'。",
-            "category": "單複數"
-          },
-          {
-            "word": "getting",
-            "text": "'is getting' 是現在進行式，表示「變得越來越...」。",
+            "word": "drugged and raped",
+            "text": "此處 'drugged' 和 'raped' 是過去分詞，修飾 'woman'，表示「被下藥和強姦的」。",
             "category": "時態"
           },
           {
-            "word": "more and more",
-            "text": "'more and more' 表示程度逐漸增加，意為「越來越」。",
-            "category": "其他"
+            "word": "by",
+            "text": "'by husband' 表示動作的執行者，即「被丈夫」。",
+            "category": "介係詞"
           },
           {
-            "word": "about",
-            "text": "'about' 在這裡表示「關於」或「針對」。",
-            "category": "介係詞"
+            "word": "didn’t believe",
+            "text": "此處使用過去簡單式的否定形式，表示過去不相信。",
+            "category": "時態"
+          },
+          {
+            "word": "hears",
+            "text": "主語 'court' 是單數第三人稱，動詞 'hear' 需加 's'。",
+            "category": "時態"
           }
         ]
       }
     },
     {
-      "en": "Judge blocks Trump’s FCC from targeting ABC stations: ‘This is not a close case’",
-      "url": "https://edition.cnn.com/2026/11/25/media/trump-fcc-carr-disney-abc-stations-judge-blocked",
+      "en": "Trump’s midterms debacle hasn’t dimmed his designs on Cuba. Or those of ‘President’ Rubio",
+      "url": "https://edition.cnn.com/2026/11/26/americas/trump-cuba-midterms-rubio-analysis-intl-latam",
       "puzzle": {
         "theme": "今日新聞",
-        "sourceEn": "Judge blocks Trump’s FCC from targeting ABC stations: ‘This is not a close case’",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/media/trump-fcc-carr-disney-abc-stations-judge-blocked",
-        "zh": "法官阻止川普的聯邦通訊委員會針對美國廣播公司（ABC）的電視台：「這不是一個懸而未決的案件」。",
+        "sourceEn": "Trump’s midterms debacle hasn’t dimmed his designs on Cuba. Or those of ‘President’ Rubio",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/americas/trump-cuba-midterms-rubio-analysis-intl-latam",
+        "zh": "川普的中期選舉慘敗並未減弱他對古巴的企圖。魯比奧「總統」的企圖也一樣。",
         "accepted": [
           [
-            "Judge",
-            "blocks",
             "Trump’s",
-            "FCC",
-            "from",
-            "targeting",
-            "ABC",
-            "stations",
-            ":",
-            "‘This",
-            "is",
-            "not",
-            "a",
-            "close",
-            "case’"
+            "midterms",
+            "debacle",
+            "hasn’t",
+            "dimmed",
+            "his",
+            "designs",
+            "on",
+            "Cuba",
+            ".",
+            "Or",
+            "those",
+            "of",
+            "‘President’",
+            "Rubio"
           ]
         ],
         "distractors": [
-          "block",
-          "blocked",
-          "target"
+          "dim",
+          "dimming",
+          "design",
+          "designing",
+          "the",
+          "a"
         ],
         "notes": [
           {
-            "word": "blocks",
-            "text": "主詞 'Judge' 是單數，因此動詞使用第三人稱單數形式 'blocks'。",
-            "category": "單複數"
+            "word": "Trump’s",
+            "text": "'Trump’s' 是所有格，表示「川普的」。",
+            "category": "其他"
+          },
+          {
+            "word": "hasn’t dimmed",
+            "text": "此處使用現在完成時的否定形式，表示動作尚未發生或尚未完成。",
+            "category": "時態"
+          },
+          {
+            "word": "designs on",
+            "text": "'designs on' 在此處意為「對...的企圖/圖謀」。",
+            "category": "介係詞"
+          },
+          {
+            "word": "those",
+            "text": "'those' 在此處指代 'designs'，避免重複。",
+            "category": "其他"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Smoke and flames rise from the Bangchak oil refinery following an explosion in Bangkok, Thailand, on November 26. DJzix Nicky via Reuters",
+      "url": "https://edition.cnn.com/2026/11/26/asia/thailand-bangkok-explosion-fire-intl",
+      "puzzle": {
+        "theme": "今日新聞",
+        "sourceEn": "Smoke and flames rise from the Bangchak oil refinery following an explosion in Bangkok, Thailand, on November 26. DJzix Nicky via Reuters",
+        "sourceUrl": "https://edition.cnn.com/2026/11/26/asia/thailand-bangkok-explosion-fire-intl",
+        "zh": "11月26日，泰國曼谷發生爆炸後，Bangchak煉油廠冒出濃煙和火焰。DJzix Nicky 透過路透社報導。",
+        "accepted": [
+          [
+            "Smoke",
+            "and",
+            "flames",
+            "rise",
+            "from",
+            "the",
+            "Bangchak",
+            "oil",
+            "refinery",
+            "following",
+            "an",
+            "explosion",
+            "in",
+            "Bangkok",
+            ",",
+            "Thailand",
+            ",",
+            "on",
+            "November",
+            "26",
+            ".",
+            "DJzix",
+            "Nicky",
+            "via",
+            "Reuters"
+          ]
+        ],
+        "distractors": [
+          "rose",
+          "rising",
+          "explode",
+          "exploded",
+          "a",
+          "of"
+        ],
+        "notes": [
+          {
+            "word": "rise",
+            "text": "主語 'Smoke and flames' 是複數概念，動詞 'rise' 使用原型。",
+            "category": "時態"
           },
           {
             "word": "from",
-            "text": "'block from' 表示「阻止...做某事」。",
+            "text": "'rise from' 表示「從...升起」。",
             "category": "介係詞"
           },
           {
-            "word": "targeting",
-            "text": "在 'from' 後面，動詞通常使用動名詞形式。",
-            "category": "其他"
-          },
-          {
-            "word": "a",
-            "text": "'case' 是可數名詞，這裡指「一個案件」，因此使用不定冠詞 'a'。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "A man in Boston won $1 million in the lottery. Then ICE arrested him",
-      "url": "https://edition.cnn.com/2026/11/25/us/boston-lottery-ice-arrest",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "A man in Boston won $1 million in the lottery. Then ICE arrested him",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/us/boston-lottery-ice-arrest",
-        "zh": "波士頓一名男子中了百萬美元樂透。然後移民及海關執法局（ICE）逮捕了他。",
-        "accepted": [
-          [
-            "A",
-            "man",
-            "in",
-            "Boston",
-            "won",
-            "$1",
-            "million",
-            "in",
-            "the",
-            "lottery",
-            ".",
-            "Then",
-            "ICE",
-            "arrested",
-            "him"
-          ]
-        ],
-        "distractors": [
-          "win",
-          "winning",
-          "arrests"
-        ],
-        "notes": [
-          {
-            "word": "A",
-            "text": "'man' 是可數名詞，這裡指「一名男子」，因此使用不定冠詞 'A'。",
-            "category": "冠詞"
-          },
-          {
-            "word": "won",
-            "text": "這裡使用過去式，表示中獎和逮捕都已經發生。",
-            "category": "時態"
-          },
-          {
-            "word": "in",
-            "text": "'in Boston' 表示地點，'in the lottery' 表示參與的活動。",
+            "word": "following",
+            "text": "'following' 作介係詞，意為「在...之後」。",
             "category": "介係詞"
           },
           {
-            "word": "the",
-            "text": "特指「那個樂透」，因此使用定冠詞 'the'。",
-            "category": "冠詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "North Korea’s Kim Jong Un urges wider tactical nuclear deployment during inspection of weapons facilities",
-      "url": "https://edition.cnn.com/2026/11/25/asia/north-korea-nuclear-weapons-latam-intl",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "North Korea’s Kim Jong Un urges wider tactical nuclear deployment during inspection of weapons facilities",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/asia/north-korea-nuclear-weapons-latam-intl",
-        "zh": "北韓領導人金正恩在視察武器設施時，敦促更廣泛地部署戰術核武器。",
-        "accepted": [
-          [
-            "North",
-            "Korea’s",
-            "Kim",
-            "Jong",
-            "Un",
-            "urges",
-            "wider",
-            "tactical",
-            "nuclear",
-            "deployment",
-            "during",
-            "inspection",
-            "of",
-            "weapons",
-            "facilities"
-          ]
-        ],
-        "distractors": [
-          "urge",
-          "urged",
-          "deploy"
-        ],
-        "notes": [
-          {
-            "word": "urges",
-            "text": "主詞 'Kim Jong Un' 是單數，因此動詞使用第三人稱單數形式 'urges'。",
-            "category": "單複數"
-          },
-          {
-            "word": "wider",
-            "text": "'wider' 是 'wide' 的比較級，表示「更廣泛的」。",
-            "category": "其他"
-          },
-          {
-            "word": "during",
-            "text": "'during' 表示在某個時間段內發生，這裡指「在視察期間」。",
+            "word": "on",
+            "text": "表示具體日期時，使用介係詞 'on'。",
             "category": "介係詞"
-          },
-          {
-            "word": "of",
-            "text": "'inspection of' 表示「對...的視察」。",
-            "category": "介係詞"
-          }
-        ]
-      }
-    },
-    {
-      "en": "Striking features emerge in new images of the asteroid hit by a NASA spacecraft",
-      "url": "https://edition.cnn.com/2026/11/25/science/hera-mission-dimorphos-asteroid-arrival-images",
-      "puzzle": {
-        "theme": "今日新聞",
-        "sourceEn": "Striking features emerge in new images of the asteroid hit by a NASA spacecraft",
-        "sourceUrl": "https://edition.cnn.com/2026/11/25/science/hera-mission-dimorphos-asteroid-arrival-images",
-        "zh": "在美國太空總署（NASA）太空船撞擊的小行星新圖像中，出現了顯著特徵。",
-        "accepted": [
-          [
-            "Striking",
-            "features",
-            "emerge",
-            "in",
-            "new",
-            "images",
-            "of",
-            "the",
-            "asteroid",
-            "hit",
-            "by",
-            "a",
-            "NASA",
-            "spacecraft"
-          ]
-        ],
-        "distractors": [
-          "feature",
-          "emerges",
-          "hitting"
-        ],
-        "notes": [
-          {
-            "word": "features",
-            "text": "主詞 'Striking features' 是複數，因此動詞使用原形 'emerge'。",
-            "category": "單複數"
-          },
-          {
-            "word": "in",
-            "text": "'in new images' 表示地點或範圍，指「在新的圖像中」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "of",
-            "text": "'images of' 表示「...的圖像」。",
-            "category": "介係詞"
-          },
-          {
-            "word": "hit",
-            "text": "這裡 'hit' 是過去分詞，修飾 'asteroid'，表示「被撞擊的小行星」。",
-            "category": "時態"
-          },
-          {
-            "word": "a",
-            "text": "'NASA spacecraft' 是可數名詞，這裡指「一艘NASA太空船」，因此使用不定冠詞 'a'。",
-            "category": "冠詞"
           }
         ]
       }
